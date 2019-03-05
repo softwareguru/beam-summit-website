@@ -166,10 +166,6 @@
         "url": "https://twitter.com/intent/tweet?text="
       },
       {
-        "name": "gplus",
-        "url": "https://plus.google.com/share?url="
-      },
-      {
         "name": "facebook",
         "url": "https://www.facebook.com/sharer.php?u="
       }
