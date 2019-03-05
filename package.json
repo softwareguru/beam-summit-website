@@ -11,6 +11,8 @@
     "deploy": "gulp deploy",
     "deploy:prod": "cross-env BUILD_ENV=production gulp deploy",
     "firestore:init": "firebase firestore:delete -r --all-collections && firebase functions:config:set schedule.enabled=true && firebase deploy --except hosting && babel-node ./internals/import-default-data",
+    "firestore:updatedata": "firebase firestore:delete -r --all-collections && babel-node ./internals/import-default-data",
+    "firestore:defaultdata": "babel-node ./internals/import-default-data",
     "firestore:copy": "babel-node ./internals/firestore-copy-data",
     "postinstall": "bower install",
     "serve": "gulp serve",
