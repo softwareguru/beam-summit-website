@@ -50,7 +50,7 @@ __General__
 * Go (as a language for a Cloud Ready Apps)
 
 
-#### Please submit your proposals [here](https://forms.gle/o9kquPmb5jCLs4gh7).
+#### Please submit your proposals [here](https://sessionize.com/beam-summit-europe-2019).
 __Deadline__ is April 1, 2019
 
 __Please note:__ There is no guarantee that a submission will be put onto the conference agenda!<br/>

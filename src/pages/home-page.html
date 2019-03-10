@@ -151,7 +151,6 @@
 
         <div class="action-buttons" layout horizontal center-justified wrap>
           <paper-button
-            on-tap="_scrollToTickets"
             ga-on="click"
             ga-event-category="tickets"
             ga-event-action="scroll"
@@ -159,7 +158,17 @@
             primary invert
           >
             <iron-icon icon="hoverboard:ticket"></iron-icon>
-            {$ buyTicket $}
+            <a href="https://www.eventbrite.com/e/beam-summit-europe-2019-tickets-57933472576" target="_blank">{$ buyTicket $}</a>
+          </paper-button>
+
+          <paper-button
+            class="watch-video"
+            ga-on="click"
+            ga-event-label="hero block - cfp"
+            primary invert
+          >
+            <iron-icon icon="hoverboard:microphone"></iron-icon>
+            <a href="https://sessionize.com/beam-summit-europe-2019" target="_blank">{$ submitTalk $}</a>
           </paper-button>
         </div>
 
@@ -199,15 +208,6 @@
             statePath: 'ui.viewport',
           },
         };
-      }
-
-      _playVideo() {
-        uiActions.toggleVideoDialog({
-          title: '{$  aboutBlock.callToAction.howItWas.title $}',
-          youtubeId: '{$  aboutBlock.callToAction.howItWas.youtubeId $}',
-          disableControls: true,
-          opened: true,
-        });
       }
 
       _scrollToTickets() {
