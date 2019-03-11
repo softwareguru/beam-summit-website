@@ -4,14 +4,14 @@
   "image": "images/social-share.jpg",
   "keywords": "event, beamsummit, devfest, google, programming, chrome, cloud, bigdata, streaming",
   "dates": "June 19-20, 2019",
-  "partnershipProposition": "https://drive.google.com/open?id=1muTCV7GR1pVSWwxgtZMO9zszpzQzj8WwYGPKXvKgTek",
+  "partnershipProposition": "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS",
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Get Registered",
+  "buyTicket": "Register",
   "submitTalk": "Submit a talk",
   "signIn": "Sign in",
   "signOut": "Sign out",
@@ -58,7 +58,7 @@
       "links": [
         {
           "name": "Partnership Proposition",
-          "url": "https://drive.google.com/open?id=1muTCV7GR1pVSWwxgtZMO9zszpzQzj8WwYGPKXvKgTek",
+          "url": "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS",
           "newTab": true
         },
         {
@@ -158,7 +158,7 @@
     }
   },
   "previousSpeakersBlock": {
-    "title": "Previous speakers",
+    "title": "Previous & future speakers",
     "callToAction": {
       "label": "View all",
       "link": "/previous-speakers/"

@@ -11,14 +11,14 @@
     }
   },
   "gallery" : [
-    "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/gallery%2Faudience.jpg?alt=media&token=518da3de-3f5d-45d9-b22e-ed10e1031d3e",
-    "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/gallery%2Fspeaker3.jpg?alt=media&token=6df5e0cd-0175-4609-9429-ac310b11bb5d",
-    "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/gallery%2Fsigning2.jpg?alt=media&token=7844d55d-048b-49a6-9937-378ce661eb93",
-    "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/gallery%2Fsigning1.jpg?alt=media&token=7af626ac-2c5d-4fc0-b32c-324120e3a522",
-    "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/gallery%2Fspeaker1.jpg?alt=media&token=932b9083-3a6d-42be-8481-2e6509b2328a",
-    "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/gallery%2Fview.jpg?alt=media&token=c56e6d58-0504-4619-a848-6dda0fdc8750",
-    "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/gallery%2Fspeaker2.jpg?alt=media&token=38f6ffec-46fd-43a4-b94b-2298e771af6f",
-    "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/gallery%2Fdrinks.jpg?alt=media&token=976fd8a6-aec8-408a-872c-4faf95d83499"
+    "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/gallery%2Faudience.jpg?alt=media&token=583e4cc5-8c82-4413-ade9-3ec6ce5c20fc",
+    "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/gallery%2Fspeaker3.jpg?alt=media&token=a443cfbf-bd6d-4491-98fd-0e530c38efb8",
+    "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/gallery%2Fsigning2.jpg?alt=media&token=5f2f856c-6a06-4d4e-9978-27578d7a7f7c",
+    "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/gallery%2Fsigning1.jpg?alt=media&token=916c2f99-c3cb-481b-a918-4326dab74f6c",
+    "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/gallery%2Fspeaker1.jpg?alt=media&token=9f6af3a7-704b-4087-a36f-cf368c1daecf",
+    "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/gallery%2Fview.jpg?alt=media&token=19544d53-9bee-435e-9825-c7a9c635729b",
+    "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/gallery%2Fspeaker2.jpg?alt=media&token=da427d8c-5afb-4ce9-b03b-a2789f9d9392",
+    "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/gallery%2Fdrinks.jpg?alt=media&token=943e059f-82ac-42c0-9072-3aaea3c8cbb0"
   ],
   "notifications" : {
     "config" : {
@@ -39,15 +39,33 @@
     } ],
     "order" : 0,
     "title" : "Platinum Partner"
-  }, {
+    }, {
     "logos" : [ {
       "order" : 0,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://about.google/"
+      "logoUrl" : "../images/logos/website_partners.svg",
+      "name" : "You?",
+      "url" : "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS"
     } ],
     "order" : 1,
     "title" : "Gold Partner"
+    }, {
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/website_partners.svg",
+      "name" : "You?",
+      "url" : "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS"
+    } ],
+    "order" : 1,
+    "title" : "Silver Partner"
+    }, {
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/website_partners.svg",
+      "name" : "You?",
+      "url" : "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS"
+    } ],
+    "order" : 1,
+    "title" : "Bronze Partner"
   } ],
   "schedule" : {
     "2019-06-19" : {
@@ -155,7 +173,76 @@
       } ]
     }
   },
-  "previousSpeakers": {},
+  "previousSpeakers": {
+    "matthias_baetens" : {
+      "bio" : "Matthias is a software engineer passionate about data; how to process it, analyse it, gain insights, and leverage it in the real world. Over the first years of his career he has built expertise in the big data stack of Google Cloud Platform. He holds a master in Computer Science Engineering and a master in Marketing Analytics. Matthias is currently based in London where he co-founded the Apache Beam meetup and summit.",
+      "company" : "Arabesque Asset Management",
+      "companyLogo" : "/images/logos/arabesque.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Farabesque.png?alt=media&token=5cd0508e-ae68-483c-a840-a60413f89af4",
+      "country" : "Belgium",
+      "id": "matthias_baetens",
+      "featured" : true,
+      "name" : "Matthias Baetens",
+      "photo" : "/images/people/mbaetens.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fmbaetens.jpg?alt=media&token=3b234e71-2579-495a-b647-7bdd979aef79",
+      "shortBio" : "-",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/matthiasbaetens",
+        "name" : "Twitter"
+      }, {
+        "icon" : "facebook",
+        "link" : "http://facebook.com/matthias.baetens",
+        "name" : "Facebook"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/matthiasbaetens",
+        "name" : "LinkedIn"
+      } ],      
+      "sessions" : {
+        "2018" : [ {
+          "presentation" : "https://drive.google.com/open?id=1hyHw7RVpFrFpli3vLt6JGBHrEm4BcgF-5nRdH1ZE8qo",
+          "tags" : [ "Use-case" ],
+          "title" : "Large scale stream analytics with Apache Beam at Sky",
+          "videoId" : "En0FrjvNr3M"
+        } ]
+      },
+      "order" : 0,
+      "title" : "Data science researcher"
+    },
+    "abbass_marouni" : {
+      "bio" : "",
+      "company" : "Talend",
+      "companyLogo" : "/images/logos/talend.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Ftalend.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+      "country" : "France",
+      "id": "abbass_marouni",
+      "featured" : true,
+      "name" : "Abbass Marouni",
+      "photo" : "/images/people/amarouni.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Famarouni.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "shortBio" : "-",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/AbbassMarouni",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/matthiasbaetens",
+        "name" : "LinkedIn"
+      } ],      
+      "sessions" : {
+        "2018" : [ {
+          "presentation" : "https://drive.google.com/open?id=1hyHw7RVpFrFpli3vLt6JGBHrEm4BcgF-5nRdH1ZE8qo",
+          "tags" : [ "Use-case" ],
+          "title" : "Talend Data Streams: Building Big Data pipelines with Apache Beam",
+          "videoId" : "1AlEGUtiQek"
+        } ]
+      },
+      "order" : 1,
+      "title" : "Team Lead"
+    }
+  },
   "sessions" : {    
     "1" : {
       "description" : "Get your badge, coffee, enjoy talking to each other",
@@ -230,43 +317,27 @@
     }
   },
   "speakers" : {
-    "matthias_baetens" : {
-      "bio" : "-",
-      "company" : "Arabesque Asset Management",
-      "companyLogo" : "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-      "country" : "Belgium",
+    "you" : {
+      "bio" : "Submit your talk: https://sessionize.com/beam-summit-europe-2019",
+      "company" : "Your company",
+      "companyLogo" : "/images/logos/website_partners.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fwebsite_partners.png?alt=media&token=52904f03-34b3-4254-9afa-4fd6cc4ac63a",
+      "country" : "?",
+      "id": "you",
       "featured" : true,
-      "name" : "Matthias Baetens",
-      "photo" : "/images/people/adrian_kajda.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/adrian_kajda.jpg",
+      "name" : "You here?",
+      "photo" : "/images/people/website_speakers.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fwebsite_speakers2.png?alt=media&token=572c08b9-e04b-4015-8ceb-281d85d61aac",
       "shortBio" : "-",
-      "socials" : [ {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/pelotasplus",
-        "name" : "Twitter"
-      }, {
-        "icon" : "facebook",
-        "link" : "http://facebook.com/pelotasplus",
-        "name" : "Facebook"
-      }, {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/pelotasplus",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "gplus",
-        "link" : "https://www.instagram.com/pelotasplus/",
-        "name" : "Google+"
-      } ],
-      "order" : 0,
-      "title" : "Data science researcher"
+      "order" : 1,
+      "title" : "Team Lead"
     }
   },
   "team" : [ {
     "members" : [ {
       "name" : "Matthias Baetens",
       "photo" : "/images/people/mbaetens.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/people%2Fteam%2Fmbaetens.jpg?alt=media&token=850aba43-3654-4833-b1ce-285ba6e17b6e",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fmbaetens.jpg?alt=media&token=3b234e71-2579-495a-b647-7bdd979aef79",
       "socials" : [ {
         "icon" : "facebook",
         "link" : "https://www.facebook.com/matthias.baetens",
@@ -286,7 +357,7 @@
     {
       "name" : "Alex Van Boxel",
       "photo" : "/images/people/avanboxel.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/people%2Fteam%2Favanboxel.jpg?alt=media&token=e6fe41d0-d84e-48c1-9ae5-2ec0741ff134",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Favanboxel.jpg?alt=media&token=36c62beb-f315-455c-a845-50413ddc5de1",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/alexvb",
@@ -302,7 +373,7 @@
     {
       "name" : "Joana Carrasqueira",
       "photo" : "/images/people/jcarrasqueira.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/people%2Fteam%2Fjcarrasqueira.jpg?alt=media&token=8f335b24-4560-4e55-9de3-915ae8e0f8f7",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fjcarrasqueira.jpg?alt=media&token=87a7f305-78f4-4ef9-b4e4-c26893584918",
       "socials" : [ {
         "icon" : "linkedin",
         "link" : "https://www.linkedin.com/in/joana-carrasqueira-1024bb27/",
@@ -318,7 +389,7 @@
     {
       "name" : "Maximilian Michels",
       "photo" : "/images/people/mmichiels.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/people%2Fteam%2Fmmichiels.jpg?alt=media&token=9e9e363c-6ea0-4d9b-a0c0-cfd18fac6537",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fmmichiels.jpg?alt=media&token=0e76ca6b-140c-4e0b-9008-145e967bbf58",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/stadtlegende",
@@ -346,7 +417,7 @@
     {
       "name" : "Griselda Cuevas",
       "photo" : "/images/people/gcuevas.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/people%2Fteam%2Fgcuevas.jpg?alt=media&token=04162e62-461b-4b0b-9f2a-a8f6f425f65f",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fgcuevas.jpg?alt=media&token=eee462ff-b54f-441d-9ee3-f7d65a5dfef6",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/griscz",
@@ -362,7 +433,7 @@
     {
       "name" : "Thomas Weise",
       "photo" : "/images/people/tweise.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/people%2Fteam%2Ftweise.jpg?alt=media&token=42c21add-55e3-420e-b0c5-4f12437aa2a0",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Ftweise.jpg?alt=media&token=7f168499-8971-4d44-ac17-3ad5d4e60374",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/thweise",
@@ -378,7 +449,7 @@
     {
       "name" : "Aizhamal Nurmamat kyzy",
       "photo" : "/images/people/anurmamat.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/matthias-sandbox.appspot.com/o/people%2Fteam%2Fanurmamat.jpg?alt=media&token=269125dd-32b0-4313-accf-f9eb0d753517",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fanurmamat.jpg?alt=media&token=bebbd410-ac81-44b8-bf98-45222475f71b",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/iamaijamal",
