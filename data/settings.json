@@ -43,6 +43,11 @@
       "route": "blog",
       "permalink": "/blog/",
       "label": "Blog"
+    },
+    {
+      "route": "sponsors",
+      "permalink": "/sponsors/",
+      "label": "Sponsors"
     }
   ],
   "heroSettings": {
@@ -66,6 +71,14 @@
       "title": "Speakers",
       "metaDescription": "Hear from experts, users and community members on the latest from the land of big data and stream processing. Check back often as we add more speakers!",
       "description": "Hear from experts, users and community members on the latest from the land of big data and stream processing. Check back often as we add more speakers!",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#424242"
+    },
+    "sponsors": {
+      "title": "Sponsors",
+      "metaDescription": "Sponsors make Beam Summits possible. We, as a community, are very grateful for their support.",
       "background": {
         "color": "#FFF"
       },

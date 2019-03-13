@@ -38,7 +38,16 @@
       "url" : "https://about.google/"
     } ],
     "order" : 0,
-    "title" : "Platinum Partner"
+    "title" : "Platinum Sponsor"
+  }, {
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/website_partners.svg",
+      "name" : "You?",
+      "url" : "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS"
+    } ],
+    "order" : 1,
+    "title" : "Gold Sponsor"
     }, {
     "logos" : [ {
       "order" : 0,
@@ -47,7 +56,7 @@
       "url" : "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS"
     } ],
     "order" : 1,
-    "title" : "Gold Partner"
+    "title" : "Silver Sponsor"
     }, {
     "logos" : [ {
       "order" : 0,
@@ -56,16 +65,7 @@
       "url" : "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS"
     } ],
     "order" : 1,
-    "title" : "Silver Partner"
-    }, {
-    "logos" : [ {
-      "order" : 0,
-      "logoUrl" : "../images/logos/website_partners.svg",
-      "name" : "You?",
-      "url" : "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS"
-    } ],
-    "order" : 1,
-    "title" : "Bronze Partner"
+    "title" : "Bronze Sponsor"
   } ],
   "schedule" : {
     "2019-06-19" : {

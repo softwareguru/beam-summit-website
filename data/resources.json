@@ -117,10 +117,10 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Partners",
-    "button": "Become a partner",
+    "title": "Our Sponsors",
+    "button": "Become a sponsor",
     "form": {
-      "title": "Become a partner!",
+      "title": "Become a sponsor!",
       "submitLabel": "Submit",
       "fullName": "Full Name",
       "companyName": "Company Name"
@@ -190,6 +190,9 @@
   },
   "team": {
     "description": "The [Apache Beam community](https://beam.apache.org/community/contact-us) started with a few meetups arounds the world, and grew bigger in the last years. People from the community came together and had the idea to organise a summit, bringing together experts, users, community and audience interested in the Apache Beam framework, big data and stream processing. <br><br> We are spread around the world, and look forward to seeing you at the conference, or at one of our [local events](https://beam.apache.org/community/in-person/)."
+  },
+  "sponsors": {
+    "description": "**Interested in becoming a sponsor for Beam Summit EU 2019?** <br><br> Get in touch with us to request our sponsoring prospectus. Contact [Alex Van Boxel](mailto:alex@vanboxel.be)."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
