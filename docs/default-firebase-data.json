@@ -252,7 +252,7 @@
       "featured" : true,
       "name" : "Robert Bradshaw",
       "photo" : "/images/people/rbradshaw.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%rbradshaw.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Frbradshaw.jpg?alt=media&token=65e1fa69-8de2-439a-9911-2a96f88951a9",
       "shortBio" : "-",
       "socials" : [],
       "sessions" : {
@@ -276,7 +276,7 @@
       "featured" : true,
       "name" : "Suneel Marthi",
       "photo" : "/images/people/smarthi.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fsmarthi.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fsmarthi.jpeg?alt=media&token=078c89fa-e35d-4a66-a72a-ef5eadcd10aa",
       "shortBio" : "-",
       "socials" : [ {
         "icon" : "twitter",
@@ -308,7 +308,7 @@
       "featured" : true,
       "name" : "Alex Van Boxel",
       "photo" : "/images/people/avboxel.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fsmarthi.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Favboxel.jpeg?alt=media&token=82e5b3e9-b91b-40a3-a425-4e2958bc6179",
       "shortBio" : "-",
       "socials" : [ {
         "icon" : "twitter",
@@ -340,7 +340,7 @@
       "featured" : true,
       "name" : "Lukasz Gajowy",
       "photo" : "/images/people/lgajowy.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Flgajowy.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Flgajowy.jpeg?alt=media&token=aa8b909c-6f09-40f1-9ac0-d9a20b403982",
       "shortBio" : "-",
       "socials" : [ {
         "icon" : "twitter",
@@ -372,7 +372,7 @@
       "featured" : true,
       "name" : "Maximilian Michels",
       "photo" : "/images/people/mmichiels.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fmmichels.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fmmichels.jpeg?alt=media&token=de4fa859-c009-4ea9-b719-a86d8b2d0e17",
       "shortBio" : "-",
       "socials" : [ {
         "icon" : "twitter",
