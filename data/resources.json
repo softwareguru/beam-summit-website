@@ -1,5 +1,5 @@
 {
-  "title": "Apache Beam Summit Europe 2019",
+  "title": "Beam Summit Europe 2019",
   "description": "Join us to learn about the latest in the Beam and streaming world!",
   "image": "images/social-share.jpg",
   "keywords": "event, beamsummit, devfest, google, programming, chrome, cloud, bigdata, streaming",
@@ -80,7 +80,7 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "The Apache Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing.",
+        "description": "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing.",
         "label": "See how it was at the inaugural edition in 2018",
         "link": "https://beam.apache.org/blog/2018/10/31/beam-summit-aftermath.html"
       },

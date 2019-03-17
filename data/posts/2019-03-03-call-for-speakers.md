@@ -1,6 +1,6 @@
-Apache Beam Summit Europe 2019 will be held 19-20th of June in beautiful city of Berlin. If you want to be part of this great event as a speaker you are in the right place!
+Beam Summit Europe 2019 will be held 19-20th of June in beautiful city of Berlin. If you want to be part of this great event as a speaker you are in the right place!
 
-#### Presenters – who should speak at the Apache Beam Summit?
+#### Presenters – who should speak at the Beam Summit?
 
 * developers (freelance and hired)
 * companies developing software (apps, tools, frameworks etc.)
