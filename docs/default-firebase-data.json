@@ -241,6 +241,158 @@
       },
       "order" : 1,
       "title" : "Team Lead"
+    },
+    "robert_bradshaw" : {
+      "bio" : "",
+      "company" : "Google",
+      "companyLogo" : "/images/logos/google.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%google.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+      "country" : "USA",
+      "id": "robert_bradshaw",
+      "featured" : true,
+      "name" : "Robert Bradshaw",
+      "photo" : "/images/people/rbradshaw.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%rbradshaw.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "shortBio" : "-",
+      "socials" : [],
+      "sessions" : {
+        "2018" : [ {
+          "presentation" : "https://drive.google.com/open?id=1AkU-QXSflau-RSeolB4TSLy0_mg0xwb398Czw7aqVGw",
+          "tags" : [ "Use-case" ],
+          "title" : "So, You Want to Build an SDK?",
+          "videoId" : ""
+        } ]
+      },
+      "order" : 2,
+      "title" : "Software Engineer"
+    },
+    "suneel_marthi" : {
+      "bio" : "",
+      "company" : "Amazon",
+      "companyLogo" : "/images/logos/amazon.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Famazon.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+      "country" : "USA",
+      "id": "suneel_marthi",
+      "featured" : true,
+      "name" : "Suneel Marthi",
+      "photo" : "/images/people/smarthi.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fsmarthi.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "shortBio" : "-",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/suneelmarthi",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/suneelmarthi",
+        "name" : "LinkedIn"
+      } ],      
+      "sessions" : {
+        "2018" : [ {
+          "presentation" : "https://youtu.be/s-IR2eFe4B4",
+          "tags" : [ "Use-case" ],
+          "title" : "Landuse Classification of Satellite Imagery",
+          "videoId" : ""
+        } ]
+      },
+      "order" : 3,
+      "title" : "Senior Principal Software Engineer"
+    },
+    "alex_van_boxel" : {
+      "bio" : "",
+      "company" : "Vente-Exclusive",
+      "companyLogo" : "/images/logos/vente_exclusive.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fvente_exclusive.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+      "country" : "Belgium",
+      "id": "alex_van_boxel",
+      "featured" : true,
+      "name" : "Alex Van Boxel",
+      "photo" : "/images/people/avboxel.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fsmarthi.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "shortBio" : "-",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/alexvb",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/alexvanboxel/",
+        "name" : "LinkedIn"
+      } ],
+      "sessions" : {
+        "2018" : [ {
+          "presentation" : "https://youtu.be/jU6EmPyKefg",
+          "tags" : [ "Use-case" ],
+          "title" : "Implementing a SplittableParDo",
+          "videoId" : ""
+        } ]
+      },
+      "order" : 4,
+      "title" : "Software Architect"
+    },
+    "lukasz_gajowy" : {
+      "bio" : "",
+      "company" : "Polidea",
+      "companyLogo" : "/images/logos/polidea.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fpolidea.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+      "country" : "Poland",
+      "id": "lukasz_gajowy",
+      "featured" : true,
+      "name" : "Lukasz Gajowy",
+      "photo" : "/images/people/lgajowy.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Flgajowy.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "shortBio" : "-",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/lgajowy",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/lgajowy/",
+        "name" : "LinkedIn"
+      } ],
+      "sessions" : {
+        "2018" : [ {
+          "presentation" : "https://drive.google.com/open?id=1QyqO8zJ3fIWD5DTnr1JNCEbm2dS15c1c02fI8zD-zqY",
+          "tags" : [ "Use-case" ],
+          "title" : "IO Integration Testing framework in Apache Beam",
+          "videoId" : ""
+        } ]
+      },
+      "order" : 5,
+      "title" : "Software Engineer"
+    },
+    "max_michels" : {
+      "bio" : "",
+      "company" : "Open Source",
+      "companyLogo" : "/images/logos/open_source.png",
+      "companyLogoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fopen_source.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+      "country" : "Germany",
+      "id": "max_michels",
+      "featured" : true,
+      "name" : "Maximilian Michels",
+      "photo" : "/images/people/mmichiels.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fmmichels.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+      "shortBio" : "-",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/stadtlegende",
+        "name" : "Twitter"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/maximilian-michels-3997299b/",
+        "name" : "LinkedIn"
+      } ],
+      "sessions" : {
+        "2018" : [ {
+          "presentation" : "https://drive.google.com/open?id=0B4bFLXEWuluSWWJBWXV3ZTdseWpJN1o5UFdpSzV4Qi1sSGU0",
+          "tags" : [ "Use-case" ],
+          "title" : "Towards Portability and Beyond",
+          "videoId" : ""
+        } ]
+      },
+      "order" : 5,
+      "title" : "Software Engineer"
     }
   },
   "sessions" : {    
