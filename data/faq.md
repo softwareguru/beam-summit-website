@@ -39,10 +39,29 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 The event team will be happy to help participants contact hotel/venue security (as available) or local law enforcement, provide escorts to walk you to/from your room/car/taxi/etc, or otherwise assist those experiencing harassment to feel safe for the duration of the event. We value your attendance.
 
-- You can contact the event team at beam-summit-steering@googlegroups.com
-- You can find the event team on the day at the registration desk.
-- Local law enforcement hot line: 110
-- Local emergency and non-emergency medica hot line: 112
+
+You can contact the event team at beam-summit-steering@googlegroups.com
+
+You can find the event team on the day at the registration desk at the entrance to Palais.
+
+You can contact the Apache Conference Planning team at planners@apachecon.com
+
+You can also reach out to our organizers through +49 176 962 911 63
+
+Hotline for help with sexual assault: 
+
+- 030 216 88 88 [Lara Berlin](https://www.lara-berlin.de/en/)
+- 08000 116 016 [Local sexual assault hot line](https://www.hilfetelefon.de/en.html)
+
+Local taxi company:
+
+- Taxi Berlin: +49 30 20 20 20
+- Würfelfunk: +49 30 21 01 01
+- TaxiFunk Berlin: +49 30 44 33 22
+
+Local law enforcement hot line: 110
+
+Local emergency and non-emergency medical hot line: 112
 
 ## Attendance Details
 
@@ -57,7 +76,3 @@ Beam Summit is an open event, so please be comfortable and casual. There is no e
 ### Smoking
 
 Smoking is only permitted in designated outdoor smoking areas.
-
-### No Soliciting
-
-No solicitation or selling of items or services is allowed at Beam Summit in Berlin. Any attendee conducting these activities may be removed from the conference.
