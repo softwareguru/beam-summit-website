@@ -44,8 +44,6 @@ You can contact the event team at beam-summit-steering@googlegroups.com
 
 You can find the event team on the day at the registration desk at the entrance to Palais.
 
-You can contact the Apache Conference Planning team at planners@apachecon.com
-
 You can also reach out to our organizers through +49 176 962 911 63
 
 Hotline for help with sexual assault: 
