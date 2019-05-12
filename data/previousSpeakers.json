@@ -1,0 +1,269 @@
+{
+    "abbass_marouni": {
+        "shortBio": "-",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Famarouni.jpg?alt=media&token=ee89656a-6f0a-43f3-91ae-cabf8e9c38bb",
+        "name": "Abbass Marouni",
+        "sessions": {
+            "2018": [
+                {
+                    "presentation": "https://drive.google.com/open?id=1hyHw7RVpFrFpli3vLt6JGBHrEm4BcgF-5nRdH1ZE8qo",
+                    "tags": [
+                        "Use-case"
+                    ],
+                    "title": "Talend Data Streams: Building Big Data pipelines with Apache Beam",
+                    "videoId": "1AlEGUtiQek"
+                }
+            ]
+        },
+        "id": "abbass_marouni",
+        "companyLogo": "/images/logos/talend.png",
+        "title": "Team Lead",
+        "photo": "/images/people/amarouni.jpg",
+        "order": 1,
+        "featured": true,
+        "company": "Talend",
+        "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Ftalend.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+        "socials": [
+            {
+                "icon": "twitter",
+                "link": "https://twitter.com/AbbassMarouni",
+                "name": "Twitter"
+            },
+            {
+                "name": "LinkedIn",
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/matthiasbaetens"
+            }
+        ],
+        "country": "France",
+        "bio": ""
+    },
+    "alex_van_boxel": {
+        "shortBio": "-",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Favboxel.jpeg?alt=media&token=82e5b3e9-b91b-40a3-a425-4e2958bc6179",
+        "name": "Alex Van Boxel",
+        "sessions": {
+            "2018": [
+                {
+                    "title": "Implementing a SplittableParDo",
+                    "videoId": "",
+                    "presentation": "https://youtu.be/jU6EmPyKefg",
+                    "tags": [
+                        "Use-case"
+                    ]
+                }
+            ]
+        },
+        "id": "alex_van_boxel",
+        "companyLogo": "/images/logos/vente_exclusive.png",
+        "title": "Software Architect",
+        "photo": "/images/people/avboxel.jpg",
+        "order": 4,
+        "featured": true,
+        "company": "Vente-Exclusive",
+        "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fvente_exclusive.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+        "socials": [
+            {
+                "icon": "twitter",
+                "link": "https://twitter.com/alexvb",
+                "name": "Twitter"
+            },
+            {
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/alexvanboxel/",
+                "name": "LinkedIn"
+            }
+        ],
+        "country": "Belgium",
+        "bio": ""
+    },
+    "lukasz_gajowy": {
+        "id": "lukasz_gajowy",
+        "companyLogo": "/images/logos/polidea.png",
+        "title": "Software Engineer",
+        "photo": "/images/people/lgajowy.jpg",
+        "order": 5,
+        "featured": true,
+        "company": "Polidea",
+        "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fpolidea.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "twitter",
+                "link": "https://twitter.com/lgajowy"
+            },
+            {
+                "name": "LinkedIn",
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/lgajowy/"
+            }
+        ],
+        "country": "Poland",
+        "bio": "",
+        "shortBio": "-",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Flgajowy.jpeg?alt=media&token=aa8b909c-6f09-40f1-9ac0-d9a20b403982",
+        "name": "Lukasz Gajowy",
+        "sessions": {
+            "2018": [
+                {
+                    "videoId": "",
+                    "presentation": "https://drive.google.com/open?id=1QyqO8zJ3fIWD5DTnr1JNCEbm2dS15c1c02fI8zD-zqY",
+                    "tags": [
+                        "Use-case"
+                    ],
+                    "title": "IO Integration Testing framework in Apache Beam"
+                }
+            ]
+        }
+    },
+    "matthias_baetens": {
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "twitter",
+                "link": "https://twitter.com/matthiasbaetens"
+            },
+            {
+                "icon": "facebook",
+                "link": "http://facebook.com/matthias.baetens",
+                "name": "Facebook"
+            },
+            {
+                "name": "LinkedIn",
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/matthiasbaetens"
+            }
+        ],
+        "country": "Belgium",
+        "bio": "Matthias is a software engineer passionate about data; how to process it, analyse it, gain insights, and leverage it in the real world. Over the first years of his career he has built expertise in the big data stack of Google Cloud Platform. He holds a master in Computer Science Engineering and a master in Marketing Analytics. Matthias is currently based in London where he co-founded the Apache Beam meetup and summit.",
+        "shortBio": "-",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fmbaetens.jpg?alt=media&token=3b234e71-2579-495a-b647-7bdd979aef79",
+        "name": "Matthias Baetens",
+        "sessions": {
+            "2018": [
+                {
+                    "videoId": "En0FrjvNr3M",
+                    "presentation": "https://drive.google.com/open?id=1hyHw7RVpFrFpli3vLt6JGBHrEm4BcgF-5nRdH1ZE8qo",
+                    "tags": [
+                        "Use-case"
+                    ],
+                    "title": "Large scale stream analytics with Apache Beam at Sky"
+                }
+            ]
+        },
+        "id": "matthias_baetens",
+        "companyLogo": "/images/logos/arabesque.png",
+        "title": "Data science researcher",
+        "photo": "/images/people/mbaetens.jpg",
+        "order": 0,
+        "featured": true,
+        "company": "Arabesque Asset Management",
+        "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Farabesque.png?alt=media&token=5cd0508e-ae68-483c-a840-a60413f89af4"
+    },
+    "max_michels": {
+        "shortBio": "-",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fmmichels.jpeg?alt=media&token=de4fa859-c009-4ea9-b719-a86d8b2d0e17",
+        "name": "Maximilian Michels",
+        "sessions": {
+            "2018": [
+                {
+                    "title": "Towards Portability and Beyond",
+                    "videoId": "",
+                    "presentation": "https://drive.google.com/open?id=0B4bFLXEWuluSWWJBWXV3ZTdseWpJN1o5UFdpSzV4Qi1sSGU0",
+                    "tags": [
+                        "Use-case"
+                    ]
+                }
+            ]
+        },
+        "id": "max_michels",
+        "companyLogo": "/images/logos/open_source.png",
+        "title": "Software Engineer",
+        "photo": "/images/people/mmichiels.jpg",
+        "order": 6,
+        "featured": true,
+        "company": "Open Source",
+        "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fopen_source.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+        "socials": [
+            {
+                "icon": "twitter",
+                "link": "https://twitter.com/stadtlegende",
+                "name": "Twitter"
+            },
+            {
+                "name": "LinkedIn",
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/maximilian-michels-3997299b/"
+            }
+        ],
+        "country": "Germany",
+        "bio": ""
+    },
+    "robert_bradshaw": {
+        "shortBio": "-",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Frbradshaw.jpg?alt=media&token=65e1fa69-8de2-439a-9911-2a96f88951a9",
+        "name": "Robert Bradshaw",
+        "sessions": {
+            "2018": [
+                {
+                    "videoId": "",
+                    "presentation": "https://drive.google.com/open?id=1AkU-QXSflau-RSeolB4TSLy0_mg0xwb398Czw7aqVGw",
+                    "tags": [
+                        "Use-case"
+                    ],
+                    "title": "So, You Want to Build an SDK?"
+                }
+            ]
+        },
+        "id": "robert_bradshaw",
+        "companyLogo": "/images/logos/google.png",
+        "title": "Software Engineer",
+        "photo": "/images/people/rbradshaw.jpg",
+        "order": 2,
+        "featured": true,
+        "company": "Google",
+        "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%google.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+        "socials": [],
+        "country": "USA",
+        "bio": ""
+    },
+    "suneel_marthi": {
+        "sessions": {
+            "2018": [
+                {
+                    "presentation": "https://youtu.be/s-IR2eFe4B4",
+                    "tags": [
+                        "Use-case"
+                    ],
+                    "title": "Landuse Classification of Satellite Imagery",
+                    "videoId": ""
+                }
+            ]
+        },
+        "id": "suneel_marthi",
+        "companyLogo": "/images/logos/amazon.png",
+        "title": "Senior Principal Software Engineer",
+        "photo": "/images/people/smarthi.jpg",
+        "order": 3,
+        "featured": true,
+        "company": "Amazon",
+        "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Famazon.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "twitter",
+                "link": "https://twitter.com/suneelmarthi"
+            },
+            {
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/suneelmarthi",
+                "name": "LinkedIn"
+            }
+        ],
+        "country": "USA",
+        "bio": "",
+        "shortBio": "-",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fsmarthi.jpeg?alt=media&token=078c89fa-e35d-4a66-a72a-ef5eadcd10aa",
+        "name": "Suneel Marthi"
+    }
+}
