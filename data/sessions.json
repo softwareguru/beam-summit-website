@@ -448,8 +448,7 @@
         ],
         "complexity": "Advanced",
         "speakers": [
-            "sherin_thomas",
-            "micah_wylde"
+            "sherin_thomas"
         ],
         "title": "Machine Learning with Flink and Beam"
     },
@@ -476,5 +475,28 @@
         ],
         "title": "Large scale Natural Language Processing of biomedical literature in Python with beam and spacy",
         "description": "We use beam to extract the relations between entities such as genes, drugs, and diseases from biomedical literature and build a knowledge graph from the extracted relations. Using the knowledge graph to match existing drugs to rare diseases, Healx is on a mission to advance 100 rare disease treatments towards the clinic by 2025. \r\n\r\nBeam allows us to build a knowledge graph encapsulating these relations at scale. We can process about 30 million PubMed abstracts to build our internal knowledge graph in less than 30 hours. Using Dataflow to run our beam job allows us to quickly scale a large cluster up and down depending on the computational needs. The potential for streaming in documents means we don’t need to rebuild our knowledge graph and can continuously push updates from novel publications. Developing and running beam jobs in Python still has some challenges which I will also talk about.\r\n"
-    }
+    },
+    "117839": {
+        "speakers": [
+            "ukasz_gajowy"
+        ],
+        "title": "Metrics API - how easy it is!",
+        "description": "There are cases when you want to dig deeper and get to know what’s going on in your data processing pipeline. This is what Metrics API is for. In this short flash talk, I’m going to show you how easily you can collect relevant metrics from your data processing pipelines to get to know them better. I’ll also show you some examples from IO, Load and Nexmark tests, where we use this API on a daily basis.\r\n",
+        "tags": [
+            "Lightning Talk",
+            "Technical"
+        ],
+        "complexity": "Introductory and overview"
+      },
+      "117493": {
+          "speakers": [
+          ],
+          "title": "Side Input Metrics in Dataflow",
+          "description": "Performance is an important consideration in any Data Processing job. The ability to capture metrics in each of the steps within the Beam pipeline job becomes paramount in identifying and resolving performance issues. Cloud Dataflow provides the capability to measure the metrics of Side Inputs used in Beam pipelines. \r\n\r\nSide Input metrics in Dataflow show how the side input access patterns and algorithms affect a pipeline's performance. Dataflow writes Side input collections to a persistent layer, such as a disk, and Beam Transforms read from this persistent collection. These reads and writes affect a job's execution time. Time spent writing, the number of bytes written, time spent reading by each consumer, the number of bytes read by each consumer, etc., are some of the common metrics captured and displayed by Cloud Dataflow. \r\n\r\nTypical performance issues are observed when using large Side Inputs as part of a join operation, or in the process of repetitive fetching of side inputs as part of Reiteration.\r\n",
+          "tags": [
+              "Lightning Talk",
+              "Technical"
+          ],
+          "complexity": "Introductory and overview"
+      }
 }
