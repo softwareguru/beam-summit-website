@@ -168,15 +168,6 @@
         "tags": [],
         "complexity": []
     },
-    "1014": {
-        "title": "Apache Beam Needs You: Getting started with open source contributions",
-        "description": "Open source draws its power and strength from the communities that build it. Diversity of perspective and accountability make projects stronger and healthier, and build a more robust ecosystem. We understand that getting started contributing to any project can be scary. But as a new contributor, you have a superpower: You see the project with clear eyes, and you can understand and empathize with - far better than experienced contributors - the challenges faced by new users. In this talk, we'll cover exactly why your fresh perspectives are needed and valued, and share research that demonstrates the very real impact your contributions can bring to the Apache Beam project and its community.",
-        "complexity": "Intermediate",
-        "speakers": [
-            "aizhamal_nurmamat_kyzy",
-            "riona_mac_namara"
-        ]
-    },
     "1015": {
         "title": "Contributing to Beam Workshop",
         "description": "The workshop will cover contributing to Beam. We will start with a lecture on typical journeys through the open source contributor's lifecycle. Then the attendee will be shown the workflows and tools, including general procedures for how individuals are encouraged to operate within the community. For those inclined, the goal will be to get people setup all the way through making a real (code/documentation) contribution by submitting a pull request."
@@ -471,10 +462,11 @@
         ],
         "complexity": "Intermediate",
         "speakers": [
+            "aizhamal_nurmamat_kyzy",
             "riona_mac_namara"
         ],
-        "title": "Grow your contributor base with great documentation",
-        "description": "Open source draws its power and strength from the communities that build it. Diversity of perspective and accountability make projects stronger and build a stronger ecosystem. In turn, a track record of contributions to open source is often a critical first step in building a career in technology. Yet not everybody in the community feels empowered or welcome to contribute to open source projects - and that hurts us all. \r\n\r\nHow can we fix this? GitHub's 2017 Open Source survey shows that while 93% of OSS devs complain about the lack of good, reliable documentation, clear documentation of a project's processes, such as contributor guides and codes of conduct, are especially valued by under-represented groups. Because comprehensive and trustworthy documentation removes the requirement for access to tribal knowledge that may not be accessible to all, it is a powerful tool for equity and inclusion. \r\n\r\nIn March 2019, Google's Open Source Strategy team commissioned a user research study to better understand how documentation can help remove roadblocks to that project's adoption and usage - and encourage and enable community contributions. In this talk, we'll cover the methodology and participant profiles of the study, and describe the three essential user personas we identified - along with their critical user journeys. And we'll also distill the research to provide concrete recommendations and best practices for creating documentation that helps your community flourish. "
+        "title": "Apache Beam Needs You: Getting started with open source contributions",
+        "description": "Open source draws its power and strength from the communities that build it. Diversity of perspective and accountability make projects stronger and healthier, and build a more robust ecosystem. We understand that getting started contributing to any project can be scary. But as a new contributor, you have a superpower: You see the project with clear eyes, and you can understand and empathize with - far better than experienced contributors - the challenges faced by new users. In this talk, we'll cover exactly why your fresh perspectives are needed and valued, and share research that demonstrates the very real impact your contributions can bring to the Apache Beam project and its community."
     },
     "119235": {
         "tags": [
