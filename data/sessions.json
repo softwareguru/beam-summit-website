@@ -105,7 +105,8 @@
         "title": "Coffee Break"
     },
     "1004": {
-        "title": "Workshop Morning"
+        "title": "Workshop Morning",
+        "description": "The workshop will be a hands-on overview to Beam.  We will start with a lecture on Apache Beam and Beam model. Hands on examples and exercises will be provided to build up understanding of the basic Beam operations in different languages, and later working our way up to running on various runners, and more complex and advanced use-cases.  At the end of the day attendees with understand the vision for portability and the Beam model and have gained experienced writing and running Beam pipelines."
     },
     "1005": {
         "description": null,
@@ -122,7 +123,8 @@
         "title": "Lunch"
     },
     "1007": {
-        "title": "Workshop Afternoon"
+        "title": "Workshop Afternoon",
+        "description": "The workshop will be a hands-on overview to Beam.  We will start with a lecture on Apache Beam and Beam model. Hands on examples and exercises will be provided to build up understanding of the basic Beam operations in different languages, and later working our way up to running on various runners, and more complex and advanced use-cases.  At the end of the day attendees with understand the vision for portability and the Beam model and have gained experienced writing and running Beam pipelines."
     },
     "1008": {
         "description": null,
@@ -168,6 +170,10 @@
     },
     "1014": {
         "title": "Grow your contributor base with great documentation"
+    },
+    "1015": {
+        "title": "Contributing to Beam Workshop",
+        "description": "The workshop will cover contributing to Beam. We will start with a lecture on typical journeys through the open source contributor's lifecycle. Then the attendee will be shown the workflows and tools, including general procedures for how individuals are encouraged to operate within the community. For those inclined, the goal will be to get people setup all the way through making a real (code/documentation) contribution by submitting a pull request."
     },
     "102915": {
         "description": "Replacing the entry point for IoT data into a system already ingesting and processing data from thousands of devices worldwide can seem like a terrifying and risky endeavor.\r\nIn this talk I'll share our experience at Augury of doing just that - migrating a traditional architecture, based on APIs and services, to a streaming solution implemented using Beam. I'll demonstrate how we were able to leverage advanced features of the Beam model, such as stateful transforms and timers, to preserve legacy behavior and effectively bake backwards-compatibility into our ingestion pipeline. \r\nFinally, I'll discuss how taking this approach has enabled us to incrementally and separately evolve downstream processing components without losing existing capabilities.",
@@ -448,8 +454,7 @@
         ],
         "complexity": "Advanced",
         "speakers": [
-            "sherin_thomas",
-            "micah_wylde"
+            "sherin_thomas"
         ],
         "title": "Machine Learning with Flink and Beam"
     },
@@ -476,5 +481,28 @@
         ],
         "title": "Large scale Natural Language Processing of biomedical literature in Python with beam and spacy",
         "description": "We use beam to extract the relations between entities such as genes, drugs, and diseases from biomedical literature and build a knowledge graph from the extracted relations. Using the knowledge graph to match existing drugs to rare diseases, Healx is on a mission to advance 100 rare disease treatments towards the clinic by 2025. \r\n\r\nBeam allows us to build a knowledge graph encapsulating these relations at scale. We can process about 30 million PubMed abstracts to build our internal knowledge graph in less than 30 hours. Using Dataflow to run our beam job allows us to quickly scale a large cluster up and down depending on the computational needs. The potential for streaming in documents means we don’t need to rebuild our knowledge graph and can continuously push updates from novel publications. Developing and running beam jobs in Python still has some challenges which I will also talk about.\r\n"
-    }
+    },
+    "117839": {
+        "speakers": [
+            "ukasz_gajowy"
+        ],
+        "title": "Metrics API - how easy it is!",
+        "description": "There are cases when you want to dig deeper and get to know what’s going on in your data processing pipeline. This is what Metrics API is for. In this short flash talk, I’m going to show you how easily you can collect relevant metrics from your data processing pipelines to get to know them better. I’ll also show you some examples from IO, Load and Nexmark tests, where we use this API on a daily basis.\r\n",
+        "tags": [
+            "Lightning Talk",
+            "Technical"
+        ],
+        "complexity": "Introductory and overview"
+      },
+      "117493": {
+          "speakers": [
+          ],
+          "title": "Side Input Metrics in Dataflow",
+          "description": "Performance is an important consideration in any Data Processing job. The ability to capture metrics in each of the steps within the Beam pipeline job becomes paramount in identifying and resolving performance issues. Cloud Dataflow provides the capability to measure the metrics of Side Inputs used in Beam pipelines. \r\n\r\nSide Input metrics in Dataflow show how the side input access patterns and algorithms affect a pipeline's performance. Dataflow writes Side input collections to a persistent layer, such as a disk, and Beam Transforms read from this persistent collection. These reads and writes affect a job's execution time. Time spent writing, the number of bytes written, time spent reading by each consumer, the number of bytes read by each consumer, etc., are some of the common metrics captured and displayed by Cloud Dataflow. \r\n\r\nTypical performance issues are observed when using large Side Inputs as part of a join operation, or in the process of repetitive fetching of side inputs as part of Reiteration.\r\n",
+          "tags": [
+              "Lightning Talk",
+              "Technical"
+          ],
+          "complexity": "Introductory and overview"
+      }
 }
