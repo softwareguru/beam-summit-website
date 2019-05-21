@@ -169,7 +169,13 @@
         "complexity": []
     },
     "1014": {
-        "title": "Grow your contributor base with great documentation"
+        "title": "Apache Beam Needs You: Getting started with open source contributions",
+        "description": "Open source draws its power and strength from the communities that build it. Diversity of perspective and accountability make projects stronger and healthier, and build a more robust ecosystem. We understand that getting started contributing to any project can be scary. But as a new contributor, you have a superpower: You see the project with clear eyes, and you can understand and empathize with - far better than experienced contributors - the challenges faced by new users. In this talk, we'll cover exactly why your fresh perspectives are needed and valued, and share research that demonstrates the very real impact your contributions can bring to the Apache Beam project and its community.",
+        "complexity": "Intermediate",
+        "speakers": [
+            "aizhamal_nurmamat_kyzy",
+            "riona_mac_namara"
+        ]
     },
     "1015": {
         "title": "Contributing to Beam Workshop",
@@ -496,6 +502,7 @@
       },
       "117493": {
           "speakers": [
+              "kannappan_sirchabesan"
           ],
           "title": "Side Input Metrics in Dataflow",
           "description": "Performance is an important consideration in any Data Processing job. The ability to capture metrics in each of the steps within the Beam pipeline job becomes paramount in identifying and resolving performance issues. Cloud Dataflow provides the capability to measure the metrics of Side Inputs used in Beam pipelines. \r\n\r\nSide Input metrics in Dataflow show how the side input access patterns and algorithms affect a pipeline's performance. Dataflow writes Side input collections to a persistent layer, such as a disk, and Beam Transforms read from this persistent collection. These reads and writes affect a job's execution time. Time spent writing, the number of bytes written, time spent reading by each consumer, the number of bytes read by each consumer, etc., are some of the common metrics captured and displayed by Cloud Dataflow. \r\n\r\nTypical performance issues are observed when using large Side Inputs as part of a join operation, or in the process of repetitive fetching of side inputs as part of Reiteration.\r\n",
