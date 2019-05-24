@@ -103,13 +103,13 @@
         "name": "Matt Casters",
         "bio": "Matt is the founder of the Kettle project since 2001.   He's working as a chief architect of solutions at Neo4j using Kettle to load data into graphs."
     },
-    "micah_wylde": {
-        "id": "micah_wylde",
-        "title": null,
+    "aizhamal_nurmamat_kyzy": {
+        "id": "aizhamal_nurmamat_kyzy",
+        "title": "Open Source Program Manager, Google",
         "order": "14",
-        "photoUrl": null,
-        "name": "Micah Wylde",
-        "bio": null
+        "photoUrl": "https://sessionize.com/image?f=8e65192f54b2e29085e89a4977b0841b,200,200,True,False,96-6b25-476c-b679-fcb0fb7f6928.e2eee2f3-9668-4814-babf-db4d8ab7a852.jpg",
+        "name": "Aizhamal Nurmamat kyzy",
+        "bio": "Aizhamal loves open source and contributes to Apache Beam, Apache Airflow and CDAP. She supports building healthy open source communities, and focuses on improving contributor experience, advocating for good documentation and for recognition of non-code contributions. She loves football (fan of Messi), and baking cakes for her friends and family."
     },
     "micha_walenia": {
         "id": "micha_walenia",
@@ -262,5 +262,13 @@
         "photoUrl": "https://sessionize.com/image?f=19700705e3bd6294bbd3300b91084aa4,400,400,True,False,7a-4e5b-451f-9587-5ed94edcc95c.f06179b8-f536-448e-9646-9dce5491c663.jpg",
         "name": "Xinyu Liu",
         "bio": "Xinyu is an Apache Samza PMC and Apache Beam committer.His primary interests are large-scale distributed systems, real-time data processing and web services. Xinyu graduated with a Master degree in Computer Science at the University of Virginia. After joining LinkedIn, Xinyu has been focusing on streaming systems."
+    },
+    "kannappan_sirchabesan": {
+        "id": "kannappan_sirchabesan",
+        "title": "Cloud Data Engineer, Google",
+        "order": "33",
+        "photoUrl": "https://sessionize.com/image?f=35fb197cb265067ae42e31ef99874e84,200,200,True,False,49fde116-f81b-4110-b6d4-7523526d792b.jpg",
+        "name": "Kannappan Sirchabesan",
+        "bio": "Kannappan Sirchabesan works at Google as a Cloud Data Engineer helping large enterprises migrate their Big Data and Machine Learning workloads from on premises to Google Cloud. Prior to Google, he has worked on applying Big Data and Data Science technologies for a variety of sectors including Telecoms, Media and Geospatial industries."
     }
 }
