@@ -655,7 +655,7 @@
         "order": "31",
         "photoUrl": "https://sessionize.com/image?f=693923dd3a076d2c26c8af179b3e9886,400,400,True,False,1803a061-87ae-45bc-ac4d-ea4c083a6d0e.jpg",
         "name": "Wout Scheepers",
-        "bio": null,
+        "bio": "Wout Scheepers has been working as a data engineer at the e-commerce platform Veepee.com (formerly Vente-exclusive.com) for over two years. He's passionate about the development and maintenance of data pipelines, with a focus on contracts that can be reused throughout a data lake. In his spare time, he loves going to concerts.",
         "id": "wout_scheepers"
     },
     "xinyu_liu": {
