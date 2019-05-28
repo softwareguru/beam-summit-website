@@ -16,3 +16,6 @@ firebase-debug.log
 .firebase/
 config/
 images/google-maps-marker-for-residencelamontagne.svg.med.png
+images/logos/ML6_1.png
+serviceAccount_dev.json
+data/sessionize_data/env

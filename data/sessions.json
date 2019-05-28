@@ -106,7 +106,8 @@
     },
     "1004": {
         "title": "Workshop Morning",
-        "description": "The workshop will be a hands-on overview to Beam.  We will start with a lecture on Apache Beam and Beam model. Hands on examples and exercises will be provided to build up understanding of the basic Beam operations in different languages, and later working our way up to running on various runners, and more complex and advanced use-cases.  At the end of the day attendees with understand the vision for portability and the Beam model and have gained experienced writing and running Beam pipelines."
+        "description": "The workshop will be a hands-on overview to Beam.  We will start with a lecture on Apache Beam and Beam model. Hands on examples and exercises will be provided to build up understanding of the basic Beam operations in different languages, and later working our way up to running on various runners, and more complex and advanced use-cases.  At the end of the day attendees with understand the vision for portability and the Beam model and have gained experienced writing and running Beam pipelines.<br><br> 11:00 - 12:00    Presentation on Beam SDK Tutorial. <br> 12:00 - 12:30    Loading and start working on the Beam Katas.",
+        "speakers": ["pablo_estrada"]
     },
     "1005": {
         "description": null,
@@ -124,7 +125,8 @@
     },
     "1007": {
         "title": "Workshop Afternoon",
-        "description": "The workshop will be a hands-on overview to Beam.  We will start with a lecture on Apache Beam and Beam model. Hands on examples and exercises will be provided to build up understanding of the basic Beam operations in different languages, and later working our way up to running on various runners, and more complex and advanced use-cases.  At the end of the day attendees with understand the vision for portability and the Beam model and have gained experienced writing and running Beam pipelines."
+        "description": "The workshop will be a hands-on overview to Beam.  We will start with a lecture on Apache Beam and Beam model. Hands on examples and exercises will be provided to build up understanding of the basic Beam operations in different languages, and later working our way up to running on various runners, and more complex and advanced use-cases.  At the end of the day attendees with understand the vision for portability and the Beam model and have gained experienced writing and running Beam pipelines. <br><br> 12:30 - 13:30    Lunch (and work on the Katas with instructors). <br> 13:30 - 14:30    Further work on Katas. <br> 14:30 - 15:30    Presentation on advanced Beam concepts (SDF/State/Timers). <br> 15:30 - 17:00    Submitting Beam jobs to Flink clusters / Google Cloud Dataflow.",
+        "speakers": ["pablo_estrada"]
     },
     "1008": {
         "description": null,
@@ -170,7 +172,8 @@
     },
     "1015": {
         "title": "Contributing to Beam Workshop",
-        "description": "The workshop will cover contributing to Beam. We will start with a lecture on typical journeys through the open source contributor's lifecycle. Then the attendee will be shown the workflows and tools, including general procedures for how individuals are encouraged to operate within the community. For those inclined, the goal will be to get people setup all the way through making a real (code/documentation) contribution by submitting a pull request."
+        "description": "The workshop will cover contributing to Beam. We will start with a lecture on typical journeys through the open source contributor's lifecycle. Then the attendee will be shown the workflows and tools, including general procedures for how individuals are encouraged to operate within the community. For those inclined, the goal will be to get people setup all the way through making a real (code/documentation) contribution by submitting a pull request.",
+        "speakers": "austin_bennett"
     },
     "102915": {
         "description": "Replacing the entry point for IoT data into a system already ingesting and processing data from thousands of devices worldwide can seem like a terrifying and risky endeavor.\r\nIn this talk I'll share our experience at Augury of doing just that - migrating a traditional architecture, based on APIs and services, to a streaming solution implemented using Beam. I'll demonstrate how we were able to leverage advanced features of the Beam model, such as stateful transforms and timers, to preserve legacy behavior and effectively bake backwards-compatibility into our ingestion pipeline. \r\nFinally, I'll discuss how taking this approach has enabled us to incrementally and separately evolve downstream processing components without losing existing capabilities.",
