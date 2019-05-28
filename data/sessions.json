@@ -173,7 +173,7 @@
     "1015": {
         "title": "Contributing to Beam Workshop",
         "description": "The workshop will cover contributing to Beam. We will start with a lecture on typical journeys through the open source contributor's lifecycle. Then the attendee will be shown the workflows and tools, including general procedures for how individuals are encouraged to operate within the community. For those inclined, the goal will be to get people setup all the way through making a real (code/documentation) contribution by submitting a pull request.",
-        "speakers": "austin_bennett"
+        "speakers": ["austin_bennett"]
     },
     "102915": {
         "description": "Replacing the entry point for IoT data into a system already ingesting and processing data from thousands of devices worldwide can seem like a terrifying and risky endeavor.\r\nIn this talk I'll share our experience at Augury of doing just that - migrating a traditional architecture, based on APIs and services, to a streaming solution implemented using Beam. I'll demonstrate how we were able to leverage advanced features of the Beam model, such as stateful transforms and timers, to preserve legacy behavior and effectively bake backwards-compatibility into our ingestion pipeline. \r\nFinally, I'll discuss how taking this approach has enabled us to incrementally and separately evolve downstream processing components without losing existing capabilities.",
@@ -274,7 +274,7 @@
     },
     "116289": {
         "speakers": [
-            "robert_crowe"
+            "robert_crowe", "gus_katsiapis"
         ],
         "title": "Apache Beam for Production Machine Learning: TensorFlow Extended (TFX)",
         "description": "Developing ML and deep learning applications to be deployed in production is much more than just training a model.  Google has taken years of experience in developing production ML pipelines and offered the open source community TensorFlow Extended (TFX), an open source version of the ML platform that Google uses internally.  Pipeline processing is a core requirement of any production ML platform, and the TFX has chosen Apache Beam to implement their pipeline.\r\n\r\nLearn from Google’s experience in applying Beam for ML pipelines, including how TFX uses Beam and why Beam was chosen.  Robert Crowe is a member of the TFX team at Google and will discuss the issues and lessons learned of developing and deploying ML and deep learning applications in production using Beam and TFX.",

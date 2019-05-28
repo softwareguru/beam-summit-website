@@ -32,7 +32,7 @@
           {
             "name": "Company Website",
             "link": "http://www.veepee.com/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -57,14 +57,9 @@
             "icon": "linkedin"
           },
           {
-            "name": "Blog",
-            "link": "http://aromanenko.blogspot.com/",
-            "icon": "blog"
-          },
-          {
             "name": "Company Website",
             "link": "https://www.talend.com/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -86,7 +81,7 @@
           {
             "name": "Company Website",
             "link": "https://www.augury.com/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -121,14 +116,9 @@
             "icon": "linkedin"
           },
           {
-            "name": "Blog",
-            "link": "https://www.linkedin.com/in/christiaan-swart-51a68967/",
-            "icon": "blog"
-          },
-          {
             "name": "Company Website",
             "link": "https://healx.io/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -155,7 +145,7 @@
           {
             "name": "Company Website",
             "link": "http://search.seznam.cz/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -187,7 +177,7 @@
           {
             "name": "Company Website",
             "link": "https://ververica.com",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -214,7 +204,7 @@
           {
             "name": "Company Website",
             "link": "https://spotify.com",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -241,7 +231,7 @@
           {
             "name": "Company Website",
             "link": "https://www.talend.com",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -266,14 +256,9 @@
             "icon": "linkedin"
           },
           {
-            "name": "Blog",
-            "link": "https://www.logicalclocks.com/blog",
-            "icon": "blog"
-          },
-          {
             "name": "Company Website",
             "link": "https://www.logicalclocks.com",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -309,14 +294,9 @@
             "icon": "linkedin"
           },
           {
-            "name": "Blog",
-            "link": "http://blog.kettle.be/wordpress/",
-            "icon": "blog"
-          },
-          {
             "name": "Company Website",
             "link": "https://neo4j.com/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -358,7 +338,7 @@
           {
             "name": "Company Website",
             "link": "https://cloud.google.com/dataflow/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -375,7 +355,7 @@
           {
             "name": "Company Website",
             "link": "https://cloud.google.com",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -429,14 +409,9 @@
             "icon": "twitter"
           },
           {
-            "name": "Blog",
-            "link": "http://blog.tensorflow.org",
-            "icon": "blog"
-          },
-          {
             "name": "Company Website",
             "link": "https://www.google.com",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -471,14 +446,9 @@
             "icon": "linkedin"
           },
           {
-            "name": "Blog",
-            "link": "https://medium.com/@datancoffee",
-            "icon": "blog"
-          },
-          {
             "name": "Company Website",
             "link": "https://cloud.google.com/dataflow",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -566,7 +536,7 @@
           {
             "name": "Company Website",
             "link": "https://ml6.eu/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -588,7 +558,7 @@
           {
             "name": "Company Website",
             "link": "https://www.logicalclocks.com/",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -615,7 +585,7 @@
           {
             "name": "Company Website",
             "link": "https://ricardo.ch",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -652,7 +622,7 @@
           {
             "name": "Company Website",
             "link": "https://polidea.com",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -674,7 +644,7 @@
           {
             "name": "Company Website",
             "link": "http://nemo.apache.org",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -706,7 +676,7 @@
           {
             "name": "Company Website",
             "link": "https://www.linkedin.com",
-            "icon": "company website"
+            "icon": "website"
           }
         ]
     },
@@ -725,17 +695,14 @@
         "id": "gus_katsiapis",
         "title": "Principal Engineer, TensorFlow Extended",
         "company": "Principal Engineer, TensorFlow Extended",
-        "order": 34,
+        "order": "34",
         "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fgkatsiapis.jpg?alt=media&token=426c5080-81fc-4230-892c-5cf96182f56e",
         "name": "Gus Katsiapis",
         "bio": "Konstantinos (Gus) is the über tech lead of TensorFlow Extended (TFX), an end-to-end machine learning platform based on TensorFlow (tensorflow.org/tfx). Before that he worked on Sibyl, a massive scale machine learning system (precursor to TensorFlow) widely used at Google. Prior to being a builder of machine learning infrastructure he was an avid user of it, while leading the Mobile Display Ads Quality team at Google. Prior to Google, Gus gathered knowledge and experience at Amazon, Calian, Ontario Ministry of Finance, Independent Electricity System Operator, and Computron. Gus earned a master's degree in computer science with a specialization in artificial intelligence from Stanford University and before that a bachelor's degree in mathematics, majoring in computer science and minoring in economics, from the University of Waterloo."
     },
     "austin_bennett": {
         "featured": true,
-        "id": "austin_bennett",
-        "title": "Principal Engineer, TensorFlow Extended",
-        "company": "Principal Engineer, TensorFlow Extended",
-        "order": 35,
+        "order": "35",
         "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fabennett.JPG?alt=media&token=8fb01b86-d6e3-4b25-b309-be9ea6a1815e",
         "name": "Austin Bennett"
     }
