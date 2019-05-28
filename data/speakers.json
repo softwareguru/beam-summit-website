@@ -1,38 +1,99 @@
 {
     "ahmad_al-_shishtawy": {
+        "featured": true,
         "bio": "Ahmad Al-Shishtawy is a senior researcher at RISE Research Institutes of Sweden. He received his PhD from KTH Royal Institute of Technology, Stockholm 2012. Research challenges that inspire him include applying multidisciplinary state-of-the-art research to solve high impact problems in industry and society. His research interests include, Large-Scale Distributed Systems and Algorithms; Big Data/Streaming Analytics; Cloud/Edge-Computing; Elasticity and Autonomic Computing.\r\n",
         "id": "ahmad_al-_shishtawy",
         "title": "RISE Research Institutes of Sweden",
+        "company": "RISE Research Institutes of Sweden",
         "order": "0",
         "photoUrl": "https://sessionize.com/image?f=1f6640938e82b27f5b708007dc9c0b5b,400,400,True,False,83d3e572-0903-4c8f-8bb9-7bbdd6785bca.jpg",
         "name": "Ahmad Al-Shishtawy"
     },
     "alex_van_boxel": {
+        "featured": true,
         "order": "1",
         "photoUrl": "https://sessionize.com/image?f=58fdf81e1cc52e673b7814f106d184ed,400,400,True,False,2cfdfeb4-a860-4ab4-88da-0feaf8b61efb.jpg",
         "name": "Alex Van Boxel",
         "bio": "Alex Van Boxel is a Big Data and Cloud Architect and Veepee.com. He loves working on operational requirement and kicking new initiatives out of the ground. Alex has a engineering and testing background in Research and Development at Alcatel-Lucent and Progress Software.\r\n\r\nHe loves talking about technology and sharing his knowledge through mentoring, writing articles and public speaking.",
         "id": "alex_van_boxel",
-        "title": "Veepee, Lead Data Architect"
+        "title": "Veepee, Lead Data Architect",
+        "company": "Veepee, Lead Data Architect",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/alexvb",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/alexvanboxel/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "http://www.veepee.com/",
+            "icon": "company website"
+          }
+        ]
     },
     "alexey_romanenko": {
+        "featured": true,
         "order": "2",
         "photoUrl": "https://sessionize.com/image?f=4d150d8104c088cd3f1aee3cf56ee6a3,400,400,True,False,7d-652f-4925-b510-f2ea3014397c.346b87e6-dc4c-4787-87b3-d567f1922991.jpg",
         "name": "Alexey Romanenko",
         "bio": "Alexey Romanenko is Open Source Software Engineer in Talend, France with more than 17 years of experience in software development. During his career, he has been working on different projects, like high-load web services, web search engine and cloud storages. Also, a while ago, he developed and presented a course devoted to Hadoop/Cloud technologies for students. He is Apache Beam committer where he contributed to different IO components.  ",
         "id": "alexey_romanenko",
-        "title": "Open Source Software Engineer in Talend "
+        "title": "Open Source Software Engineer in Talend ",
+        "company": "Open Source Software Engineer in Talend ",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/AlexRomDev",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/alexey-romanenko-09086a19/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Blog",
+            "link": "http://aromanenko.blogspot.com/",
+            "icon": "blog"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://www.talend.com/",
+            "icon": "company website"
+          }
+        ]
     },
     "amit_ziv-_kenet": {
+        "featured": true,
         "order": "3",
         "photoUrl": "https://sessionize.com/image?f=eb19971c3b0b53bfac7587462719bd93,400,400,True,False,b2-84ab-4d20-a401-7a4f2a8835fc.a0a65437-abfc-4db4-af77-ff892b23a410.png",
         "name": "Amit Ziv-Kenet",
         "bio": "I've been happily living in that place where data and code meet for the better part of the last decade, currently taking part in the Industrial IoT revolution at Augury.",
         "id": "amit_ziv-_kenet",
-        "title": "Backend Tech Lead at Augury"
+        "title": "Backend Tech Lead at Augury",
+        "company": "Backend Tech Lead at Augury",
+        "socials": [
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/amit-ziv-kenet-8aa71033/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://www.augury.com/",
+            "icon": "company website"
+          }
+        ]
     },
     "andrew_pilloud": {
+        "featured": true,
         "title": "Apache Beam Committer, Software Engineer at Google",
+        "company": "Apache Beam Committer, Software Engineer at Google",        
         "order": "4",
         "photoUrl": "https://sessionize.com/image?f=afb32339380ddfc0d97b12280c8668bd,400,400,True,False,d7-5ff5-4c05-aded-30ce209d9317.d3929cf5-948e-47e5-813d-cc451ca51194.jpeg",
         "name": "Andrew Pilloud",
@@ -40,235 +101,642 @@
         "id": "andrew_pilloud"
     },
     "christiaan_swart": {
+        "featured": true,
         "title": "Christiaan Swart, NLP Engineer, Healx",
+        "company": "Christiaan Swart, NLP Engineer, Healx",
         "order": "5",
         "photoUrl": "https://sessionize.com/image?f=5d62eddff2b0ed72ed1c0f942031946c,400,400,True,False,03-8649-40e1-9344-d5fe66b41d5f.317ff030-ad4e-4096-b8b2-db0bddfe4514.jpg",
         "name": "Christiaan Swart",
         "bio": "Currently Chris is an NLP Engineer at Healx working on maintaining and running Healx's NLP ingestion pipeline which is used to mine information to help Healx develop rare disease treatments.\r\n\r\nBefore Healx Chris worked on developing and deploying NLP models for 2 years in smaller B2C tech companies taking projects from annotation strategies to production.\r\n\r\nChris holds an Artificial Intelligence Bsc degree from the University of Edinburgh.",
-        "id": "christiaan_swart"
+        "id": "christiaan_swart",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/swartchris8",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/christiaan-swart-51a68967/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Blog",
+            "link": "https://www.linkedin.com/in/christiaan-swart-51a68967/",
+            "icon": "blog"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://healx.io/",
+            "icon": "company website"
+          }
+        ]
     },
     "david_moravek": {
+        "featured": true,
         "order": "6",
         "photoUrl": "https://sessionize.com/image?f=9589e927ada3042b4edae0514bf9225d,400,400,True,False,1d-1354-4a73-9419-e9075462818c.fd91b424-9638-4736-bf1d-4454f45ede1f.png",
         "name": "David Moravek",
         "bio": "I <3 open source.",
         "id": "david_moravek",
-        "title": "Lead Software Engineer at Seznam.cz; Apache Beam Committer"
+        "title": "Lead Software Engineer at Seznam.cz; Apache Beam Committer",
+        "company": "Lead Software Engineer at Seznam.cz; Apache Beam Committer",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "http://twitter.com/davidmoravek/",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/david-moravek-0b207946/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "http://search.seznam.cz/",
+            "icon": "company website"
+          }
+        ]
     },
     "fabian_hueske": {
+        "featured": true,
         "title": "Apache Flink Committer & PMC Member",
+        "company": "Apache Flink Committer & PMC Member",
         "order": "7",
         "photoUrl": "https://sessionize.com/image?f=88e61b620991107ee47b3dd772f94d77,400,400,True,False,ef-3946-4cff-a8a5-86a50e4d84c5.5f1c3160-7c8a-460f-8349-dd100b264912.jpg",
         "name": "Fabian Hueske",
         "bio": "Fabian Hueske is a committer and PMC member of Apache Flink and contributed to the project since day one. Fabian is a co-founder of data Artisans (now Ververica), a Berlin-based startup devoted to fostering Flink, where he works as a software engineer and contributes to Apache Flink. He holds a PhD in computer science from TU Berlin and is an author of the book \"Stream Processing with Apache Flink\".",
-        "id": "fabian_hueske"
+        "id": "fabian_hueske",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/fhueske",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/fhueske",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Github",
+            "link": "https://github.com/fhueske",
+            "icon": "github"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://ververica.com",
+            "icon": "company website"
+          }
+        ]
     },
     "gleb_kanterov": {
+        "featured": true,
         "photoUrl": "https://sessionize.com/image?f=087e90a9300d211b153c3b5b44477886,400,400,True,False,2b-c420-479e-a72a-10e30e00f0cc.4ab66571-7836-494f-8702-68e28f787aca.jpg",
         "name": "Gleb Kanterov",
         "bio": "Gleb is Staff Engineer at Spotify and Apache Beam Committer. At Spotify, he works on Data and Experimentation Platforms. He likes hard problems and good coffee.",
         "id": "gleb_kanterov",
         "title": "Staff Engineer @ Spotify",
-        "order": "8"
+        "company": "Staff Engineer @ Spotify",
+        "order": "8",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/kanterov",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/kanterov/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://spotify.com",
+            "icon": "company website"
+          }
+        ]
     },
     "ismal_meja": {
+        "featured": true,
         "order": "9",
         "photoUrl": "https://sessionize.com/image?f=0131f109704181723ca8869a2422a3dd,400,400,True,False,0a2e6399-781b-4173-94c2-a7808afd916f.jpg",
         "name": "Ismaël Mejía",
         "bio": "Software Engineer with more than ten years of experience designing and developing information systems for financial groups, telecom companies and startups. Focused on Big Data and Cloud architectures (aka Distributed Systems). He works at Talend France as an Open Source Software Engineer. He is an Apache Beam committer and PMC member and an enthusiastic contributor to multiple open source projects.",
         "id": "ismal_meja",
-        "title": "Software Engineer"
+        "title": "Software Engineer",
+        "company": "Software Engineer at Talend",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://www.twitter.com/in/iemejia/",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/iemejia/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://www.talend.com",
+            "icon": "company website"
+          }
+        ]
     },
     "jim_dowling": {
+        "featured": true,
         "order": "10",
         "photoUrl": "https://sessionize.com/image?f=98d81e392800f7fb18b66b0732db749c,400,400,True,False,b9-09b9-45b8-b9b8-219a9d1d9837.89c1999e-673d-4a1d-b4ad-4c68d3afbf29.jpg",
         "name": "Jim Dowling",
         "bio": "Jim Dowling is the CEO of Logical Clocks and an associate professor at KTH Royal Institute of Technology in Stockholm. Jim is the lead architect of Hopsworks, an open-source Data and AI platform, and is a regular speaker at big data and AI industry conferences. He holds a PhD in distributed systems from Trinity College Dublin and a docenture (habillitation) from KTH Stockholm.",
         "id": "jim_dowling",
-        "title": "CEO @ Logical Clocks"
+        "title": "CEO @ Logical Clocks",
+        "company": "CEO @ Logical Clocks",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://www.twitter.com/jim_dowling",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/jim-dowling",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Blog",
+            "link": "https://www.logicalclocks.com/blog",
+            "icon": "blog"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://www.logicalclocks.com",
+            "icon": "company website"
+          }
+        ]
     },
     "katarzyna_kucharczyk": {
+        "featured": true,
         "bio": null,
         "id": "katarzyna_kucharczyk",
         "title": null,
         "order": "11",
         "photoUrl": "https://sessionize.com/image?f=dd11d73829d1c6c169d4184d3aed3524,400,400,True,False,b0b7c193-d79c-439b-9cd7-1ae0bfb8c977.jpg",
-        "name": "Katarzyna Kucharczyk"
+        "name": "Katarzyna Kucharczyk",
+        "company": "Software Engineer at Polidea",
+        "title": "Software Engineer at Polidea"
     },
     "matt_casters": {
+        "featured": true,
         "id": "matt_casters",
         "title": "Neo4j Chief Solutions Architect, Kettle project founder",
+        "company": "Neo4j Chief Solutions Architect, Kettle project founder",
         "order": "13",
         "photoUrl": "https://sessionize.com/image?f=7acdab45adf53eaac678c0f4d396a44a,400,400,True,False,22-c84a-4c00-a435-d4e139fd9e84.dadd97a5-0c99-484e-9b7e-f2fafa237b2d.jpg",
         "name": "Matt Casters",
-        "bio": "Matt is the founder of the Kettle project since 2001.   He's working as a chief architect of solutions at Neo4j using Kettle to load data into graphs."
+        "bio": "Matt is the founder of the Kettle project since 2001.   He's working as a chief architect of solutions at Neo4j using Kettle to load data into graphs.",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/mattcasters",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/mattcasters/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Blog",
+            "link": "http://blog.kettle.be/wordpress/",
+            "icon": "blog"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://neo4j.com/",
+            "icon": "company website"
+          }
+        ]
     },
     "aizhamal_nurmamat_kyzy": {
+        "featured": true,
         "id": "aizhamal_nurmamat_kyzy",
         "title": "Open Source Program Manager, Google",
+        "company": "Open Source Program Manager, Google",
         "order": "14",
         "photoUrl": "https://sessionize.com/image?f=8e65192f54b2e29085e89a4977b0841b,200,200,True,False,96-6b25-476c-b679-fcb0fb7f6928.e2eee2f3-9668-4814-babf-db4d8ab7a852.jpg",
         "name": "Aizhamal Nurmamat kyzy",
         "bio": "Aizhamal loves open source and contributes to Apache Beam, Apache Airflow and CDAP. She supports building healthy open source communities, and focuses on improving contributor experience, advocating for good documentation and for recognition of non-code contributions. She loves football (fan of Messi), and baking cakes for her friends and family."
     },
     "micha_walenia": {
+        "featured": true,
         "id": "micha_walenia",
         "title": "Software Developer at Polidea",
+        "company": "Software Developer at Polidea",
         "order": "15",
         "photoUrl": "https://sessionize.com/image?f=7afbad123a3741a294404bcb4aa6a8e4,400,400,True,False,44-bd33-41ae-ad4a-ae843860ae56.355271e9-bc8a-4991-adff-9073c3cb1903.jpg",
         "name": "Michał Walenia",
         "bio": null
     },
     "pablo_estrada": {
+        "featured": true,
         "photoUrl": "https://sessionize.com/image?f=36ceb1014f60c83430680c419af66b3e,400,400,True,False,6014f0f4-250f-4395-ada8-75db938e216f.jpg",
         "name": "Pablo Estrada",
         "bio": "Pablo is a Software Engineer from Mexico City. He lives in Seattle and works on Google's Cloud Dataflow product and is a committer for Apache Beam. He's worked all across the stack in Python and Java. His favorite activities are traveling, and getting drunk with the locals.",
         "id": "pablo_estrada",
         "title": "Apache Beam Committer. Googler.",
-        "order": "16"
+        "company": "Apache Beam Committer. Googler.",
+        "order": "16",
+        "socials": [
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/pabloem1/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://cloud.google.com/dataflow/",
+            "icon": "company website"
+          }
+        ]
     },
     "reza_ardeshir_rokni": {
+        "featured": true,
         "photoUrl": "https://sessionize.com/image?f=61dea42faf164a1fe9577508e5c6941a,400,400,True,False,c6-9330-4f9c-b96c-6332af8169f3.0c2a0c47-16a0-4f0d-8d3f-e57eb5de285a.jpg",
         "name": "Reza Ardeshir Rokni",
         "bio": "In his 6 years @Google, Reza has been lucky enough to work across many industries from gaming to banking, applying Google's Data Analytics technologies to new domains. Currently as developer advocate for Google Cloud Dataflow, he gets to have fun talking about stream processing all day long..\r\n",
         "id": "reza_ardeshir_rokni",
         "title": "Google , Dataflow Developer Advocate",
-        "order": "17"
+        "company": "Google , Dataflow Developer Advocate",
+        "order": "17",
+        "socials": [
+          {
+            "name": "Company Website",
+            "link": "https://cloud.google.com",
+            "icon": "company website"
+          }
+        ]
     },
     "riona_mac_namara": {
+        "featured": true,
         "title": "Senior Staff Technical Writer at Google",
+        "company": "Senior Staff Technical Writer at Google",
         "order": "18",
         "photoUrl": "https://sessionize.com/image?f=2525b5988b14abd67b0f6e3528946f38,400,400,True,False,9c2730d9-0bb0-4c6d-b167-cdc4a6db9094.jpg",
         "name": "Riona MacNamara",
         "bio": "Riona is senior staff technical writer at Google, where she has worked for 12 years, and is focused on open source documentation strategy. She previously led the team that builds g3doc, Google's internal platform for engineering documentation, used by thousands of projects within the company. Before Google, she worked at Amazon and spent almost 10 years as a writer, editor, and program manager at Microsoft.",
-        "id": "riona_mac_namara"
+        "id": "riona_mac_namara",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/rionam",
+            "icon": "twitter"
+          }
+        ]
     },
     "robert_burke": {
+        "featured": true,
         "order": "19",
         "photoUrl": "https://sessionize.com/image?f=7d44741b071d0587acc034a32877ef62,400,400,True,False,914776d9-4df3-4e34-ae0d-93a0cd5bc1f5.jpg",
         "name": "Robert Burke",
         "bio": "Robert is constantly working on managing his time, but really just wishes he could be multiple places at once, since that would be simpler all around. \r\nWhen he's not programming in Go,  lately, he's probably not programming at all.",
         "id": "robert_burke",
-        "title": "Distributed Gopher Wrangler"
+        "title": "Distributed Gopher Wrangler",
+        "company": "Distributed Gopher Wrangler",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "http://twitter.com/lostluck",
+            "icon": "twitter"
+          }
+        ]
     },
     "robert_crowe": {
         "title": "TensorFlow Developer Advocate - Google",
+        "company": "TensorFlow Developer Advocate - Google",
         "order": "20",
         "photoUrl": "https://sessionize.com/image?f=4478205da2f9321d717048b7eaddcf6b,400,400,True,False,1f874cb3-7992-4e71-83a8-b74495dd5f62.jpg",
         "name": "Robert Crowe",
         "bio": "A data scientist and TensorFlow addict, Robert has a passion for helping developers quickly learn what they need to be productive.  He's used TensorFlow since the very early days and is excited about how it's evolving quickly to become even better than it already is.  Before moving to data science Robert led software engineering teams for both large and small companies, always focusing on clean, elegant solutions to well-defined needs.  In his spare time Robert sails, surfs occasionally, and raises a family.",
-        "id": "robert_crowe"
+        "id": "robert_crowe",
+        "featured": true,
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/robert_crowe",
+            "icon": "twitter"
+          },
+          {
+            "name": "Blog",
+            "link": "http://blog.tensorflow.org",
+            "icon": "blog"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://www.google.com",
+            "icon": "company website"
+          }
+        ]
     },
     "ryan_skraba": {
+        "featured": true,
         "bio": " Ryan Skraba is a software engineer with Talend in Suresnes, France.  He has worked across a wide range of topics from network and service management, radio heterogeneity, social network analysis and, most recently, a lot of big data.",
         "id": "ryan_skraba",
         "title": "Senior Software Developer",
+        "company": "Senior Software Developer at Talend",
         "order": "21",
         "photoUrl": "https://sessionize.com/image?f=484bcadbf4866857ff9f9b04de3f9cb2,400,400,True,False,2c-784c-4ade-9b0d-ed94bb636882.8cc5fc94-2ac6-4dd2-931e-298b5c98e00e.jpg",
         "name": "Ryan Skraba"
     },
     "sergei_sokolenko": {
+        "featured": true,
         "bio": "Sergei is the Product Manager for Cloud Dataflow, a unified streaming and batch data processing service by Google. One of his hobbies is contributing to the Dataflow Opinion Analysis project (available at https://github.com/GoogleCloudPlatform/dataflow-opinion-analysis), providing code samples and design patterns to Dataflow users. He holds an MBA degree from the Wharton School, and a Computer Science degree from the Technical University of Munich.",
         "id": "sergei_sokolenko",
         "title": "Product Manager, Cloud Dataflow, Google",
+        "company": "Product Manager, Cloud Dataflow, Google",
         "order": "22",
         "photoUrl": "https://sessionize.com/image?f=7ae0e401c4a3108044351af23a39f3ad,400,400,True,False,3e-2e37-4a46-adc2-30e7d979b3d4.6db4fcc9-02e4-430d-9704-ae7fbf9c85bf.jpg",
-        "name": "Sergei Sokolenko"
+        "name": "Sergei Sokolenko",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/datancoffee",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/ssokolenko/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Blog",
+            "link": "https://medium.com/@datancoffee",
+            "icon": "blog"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://cloud.google.com/dataflow",
+            "icon": "company website"
+          }
+        ]
     },
     "sherin_thomas": {
+        "featured": true,
         "title": "Software Engineer, Lyft",
+        "company": "Software Engineer, Lyft",
         "order": "23",
         "photoUrl": "https://sessionize.com/image?f=65813ad12818687bcfeecb820d47c4e5,400,400,True,False,96-5cdd-4aa0-be6a-6926d211ee6e.9853a9b1-4675-4444-9b06-0b1737c27853.jpg",
         "name": "Sherin Thomas",
         "bio": "Sherin is a Software Engineer at Lyft. In her career spanning 8 years, she has worked on most parts of the tech stack, but enjoys the challenges in Data and Distributed Systems the most. Most recently she has been focussed on building a platform for running low latency, high throughput, realtime data processing pipelines.\r\n\r\nShe is passionate about getting more people, especially women, interested in the field of Data and has been trying her best to share her work with the community through tech talks and panel discussions. Most recently she gave a talk about Streaming, at Scale by the Bay in San Francisco.\r\n\r\nIn her free time she loves to read and paint. She is also the president of the Russian Hill book club based in San Francisco and loves to organize events for her local library.",
-        "id": "sherin_thomas"
+        "id": "sherin_thomas",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/doodlesmt",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/thomassherin",
+            "icon": "linkedin"
+          }
+        ]
     },
     "steffen_hausmann": {
+        "featured": true,
         "order": "24",
         "photoUrl": "https://sessionize.com/image?f=4cb05f8ef557d5f5c75a5e05af4bbced,400,400,True,False,1a-a5f5-4cbc-aff5-535ab29f4df0.f25590c8-db13-4a6a-b8d9-1bb977339538.png",
         "name": "Steffen Hausmann",
         "bio": "Dr. Steffen Hausmann is a Specialist Solutions Architect for Analytics with Amazon Web Services. He has a strong background in the area of complex event and stream processing and supports customers on their cloud journey. In his spare time, he likes hiking in the nearby mountains.",
         "id": "steffen_hausmann",
-        "title": "Specialist Solutions Architect Analytics at Amazon Web Services"
+        "title": "Specialist Solutions Architect Analytics at Amazon Web Services",
+        "company": "Specialist Solutions Architect Analytics at Amazon Web Services",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/sthmmm",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/steffenhausmann/",
+            "icon": "linkedin"
+          }
+        ]
     },
     "suneel_marthi": {
+        "featured": true,
         "id": "suneel_marthi",
         "title": "Member of Apache Software Foundation, Barcelona City Ambassador",
+        "company": "Member of Apache Software Foundation, Barcelona City Ambassador",
         "order": "25",
         "photoUrl": "https://sessionize.com/image?f=e5ac3b259080f6247b2bef4f3dc3b1d7,400,400,True,False,45-a4eb-4034-9f83-7de2009e7dd9.b984faeb-ae1f-4772-a91b-40ed01f68157.jpeg",
         "name": "Suneel Marthi",
-        "bio": "Suneel is a Member of Apache Software Foundation. He's previously presented at Flink Forward Berlin, Hadoop Summit Europe, Berlin Buzzwords, Big Data Tech Warsaw, and Beam Summit in the past. He's based out of Dulles, Virginia in the Washington DC Metro area."
+        "bio": "Suneel is a Member of Apache Software Foundation. He's previously presented at Flink Forward Berlin, Hadoop Summit Europe, Berlin Buzzwords, Big Data Tech Warsaw, and Beam Summit in the past. He's based out of Dulles, Virginia in the Washington DC Metro area.",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "http://twitter.com/suneelmarthi",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/suneelmarthi/",
+            "icon": "linkedin"
+          }
+        ]
     },
     "sven_degroote": {
+        "featured": true,
         "order": "26",
         "photoUrl": "https://sessionize.com/image?f=066dd82ed4c0cfd51bbcd3edeabe0958,400,400,True,False,49230e77-bb52-44f7-8dfe-b65e02886273.jpg",
         "name": "Sven Degroote",
         "bio": "Sven is a Machine Learning Engineer at ML6. Sven is working at ML6 for more than 1 year now and has been involved in multiple big-scale machine learning projects. Prior to ML6, Sven worked as a Technology consultant at a big consultancy firm for 4 years.",
         "id": "sven_degroote",
-        "title": "Machine Learning Engineer @ ML6"
+        "title": "Machine Learning Engineer @ ML6",
+        "company": "Machine Learning Engineer @ ML6",
+        "socials": [
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/sven-degroote-568a645b/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://ml6.eu/",
+            "icon": "company website"
+          }
+        ]
     },
     "theofilos_kakantousis": {
+        "featured": true,
         "order": "27",
         "photoUrl": "https://sessionize.com/image?f=9a3ddbeda0172441fb8d22abf427a84e,400,400,True,False,5dfc8a5e-29e3-45d3-ae1c-3ff822165a56.jpg",
         "name": "Theofilos Kakantousis",
         "bio": "Theofilos Kakantousis is the COO of Logical Clocks AB, the main developers of Hopsworks, an open-source Data and AI platform. He holds an MSc in Distributed Systems from KTH Royal Institute of Technology and has previously worked as a middleware consultant at Oracle, Greece, and as a research engineer at SAP,Zurich, and at RISE SICS AB, Stockholm. He frequently gives talks on Hopsworks, and has presented Hopsworks at venues such as Strata San Jose/New York, Big Data Tech Warsaw and BigData Moscow.",
         "id": "theofilos_kakantousis",
-        "title": "COO @ LogicalClocks"
+        "title": "COO @ LogicalClocks",
+        "company": "COO @ LogicalClocks",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/theofiloskak",
+            "icon": "twitter"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://www.logicalclocks.com/",
+            "icon": "company website"
+          }
+        ]
     },
     "tobias_kaymak": {
+        "featured": true,
         "order": "28",
         "photoUrl": "https://sessionize.com/image?f=c32c3bf6690fd5ef2f0b858ab7d3116b,400,400,True,False,45-6d60-4cd3-946a-787776093030.237d1ddc-a918-488d-9a52-1855449b5e4f.jpg",
         "name": "Tobias Kaymak",
         "bio": "- born and raised in a small village in West-Germany\r\n- since the very first job somehow fascinated by the vast amount of pitfalls and possible mistakes in the field of data engineering\r\n- worked for a mobile-gaming company, a marketplace provider, a phonebook, and for my relatives fixing their computers",
         "id": "tobias_kaymak",
-        "title": "Data Engineer @ Ricardo.ch"
+        "title": "Data Engineer @ Ricardo.ch",
+        "company": "Data Engineer @ Ricardo.ch",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/_tobi_2",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/tobias-kaymak/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://ricardo.ch",
+            "icon": "company website"
+          }
+        ]
     },
     "tyler_akidau": {
+        "featured": true,
         "id": "tyler_akidau",
-        "title": null,
         "order": "29",
         "photoUrl": "https://sessionize.com/image?f=eadcde3e8a3fa924ac0058e6729c1633,400,400,True,False,aece9b3a-7caf-48a6-b9ac-82e73445a920.jpg",
         "name": "Tyler Akidau",
-        "bio": null
+        "bio": null,
+        "company": "Software Developer at Google",
+        "title": "Software Developer at Google"
     },
     "ukasz_gajowy": {
+        "featured": true,
         "id": "ukasz_gajowy",
         "title": "Software Engineer at Polidea, Beam Committer",
+        "company": "Software Engineer at Polidea, Beam Committer",
         "order": "12",
         "photoUrl": "https://sessionize.com/image?f=2577bab7f28e10132dec85901705a096,400,400,True,False,c4-60d5-46ee-8fc9-96a909f143d3.14394bf6-4e56-4e7a-92a4-6f3bc0f3a495.jpg",
         "name": "Łukasz Gajowy",
-        "bio": "Łukasz Gajowy is an engineer interested in distributed processing and Open-source software development. He got into both topics so badly that recently he’s become an Apache Beam committer. Other than that Łukasz works at Polidea, received an MSc in Information Technology at Warsaw University of Technology, has 7 years of professional experience (mostly in JVM areas) and enjoys jogging in his free time."
+        "bio": "Łukasz Gajowy is an engineer interested in distributed processing and Open-source software development. He got into both topics so badly that recently he’s become an Apache Beam committer. Other than that Łukasz works at Polidea, received an MSc in Information Technology at Warsaw University of Technology, has 7 years of professional experience (mostly in JVM areas) and enjoys jogging in his free time.",
+        "socials": [
+          {
+            "name": "Twitter",
+            "link": "https://twitter.com/lgajowy",
+            "icon": "twitter"
+          },
+          {
+            "name": "LinkedIn",
+            "link": "https://linkedin.com/in/lgajowy/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://polidea.com",
+            "icon": "company website"
+          }
+        ]
     },
     "won_wook_song": {
+        "featured": true,
         "order": "30",
         "photoUrl": "https://sessionize.com/image?f=bc038e722c5348b15010951943c89348,400,400,True,False,ff-307f-4289-908c-80dc331a8bc7.33b19faa-f455-46a4-8c18-22debd388ef0.jpg",
         "name": "Won Wook Song",
         "bio": "Won Wook is a PhD candidate at Software Platform Lab in Seoul National University. He actively contributes to the Apache Nemo incubator project, under the Apache Software Foundation, and his major interests reside in big data and machine learning. He is currently working on optimizing data processing systems using machine learning techniques.",
         "id": "won_wook_song",
-        "title": "A PhD candidate at Software Platform Lab in Seoul National University, advised by professor Byung-Gon Chun."
+        "title": "A PhD candidate at Software Platform Lab in Seoul National University, advised by professor Byung-Gon Chun.",
+        "company": "PhD candidate at Seoul National University",
+        "socials": [
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/wonook/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "http://nemo.apache.org",
+            "icon": "company website"
+          }
+        ]
     },
     "wout_scheepers": {
+        "featured": true,
         "title": "Data Engineer at Veepee.com",
+        "company": "Data Engineer at Veepee.com",
         "order": "31",
         "photoUrl": "https://sessionize.com/image?f=693923dd3a076d2c26c8af179b3e9886,400,400,True,False,1803a061-87ae-45bc-ac4d-ea4c083a6d0e.jpg",
         "name": "Wout Scheepers",
-        "bio": "TODO",
+        "bio": null,
         "id": "wout_scheepers"
     },
     "xinyu_liu": {
+        "featured": true,
         "id": "xinyu_liu",
         "title": "Data Infra Engineer @ LinkedIn",
+        "company": "Data Infra Engineer @ LinkedIn",
         "order": "32",
         "photoUrl": "https://sessionize.com/image?f=19700705e3bd6294bbd3300b91084aa4,400,400,True,False,7a-4e5b-451f-9587-5ed94edcc95c.f06179b8-f536-448e-9646-9dce5491c663.jpg",
         "name": "Xinyu Liu",
-        "bio": "Xinyu is an Apache Samza PMC and Apache Beam committer.His primary interests are large-scale distributed systems, real-time data processing and web services. Xinyu graduated with a Master degree in Computer Science at the University of Virginia. After joining LinkedIn, Xinyu has been focusing on streaming systems."
+        "bio": "Xinyu is an Apache Samza PMC and Apache Beam committer.His primary interests are large-scale distributed systems, real-time data processing and web services. Xinyu graduated with a Master degree in Computer Science at the University of Virginia. After joining LinkedIn, Xinyu has been focusing on streaming systems.",
+        "socials": [
+          {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/xinyu-liu-b0b21648/",
+            "icon": "linkedin"
+          },
+          {
+            "name": "Company Website",
+            "link": "https://www.linkedin.com",
+            "icon": "company website"
+          }
+        ]
     },
     "kannappan_sirchabesan": {
+        "featured": true,
         "id": "kannappan_sirchabesan",
         "title": "Cloud Data Engineer, Google",
+        "company": "Cloud Data Engineer, Google",
         "order": "33",
         "photoUrl": "https://sessionize.com/image?f=35fb197cb265067ae42e31ef99874e84,200,200,True,False,49fde116-f81b-4110-b6d4-7523526d792b.jpg",
         "name": "Kannappan Sirchabesan",
         "bio": "Kannappan Sirchabesan works at Google as a Cloud Data Engineer helping large enterprises migrate their Big Data and Machine Learning workloads from on premises to Google Cloud. Prior to Google, he has worked on applying Big Data and Data Science technologies for a variety of sectors including Telecoms, Media and Geospatial industries."
+    },
+    "gus_katsiapis": {
+        "featured": true,
+        "id": "gus_katsiapis",
+        "title": "Principal Engineer, TensorFlow Extended",
+        "company": "Principal Engineer, TensorFlow Extended",
+        "order": 34,
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fgkatsiapis.jpg?alt=media&token=426c5080-81fc-4230-892c-5cf96182f56e",
+        "name": "Gus Katsiapis",
+        "bio": "Konstantinos (Gus) is the über tech lead of TensorFlow Extended (TFX), an end-to-end machine learning platform based on TensorFlow (tensorflow.org/tfx). Before that he worked on Sibyl, a massive scale machine learning system (precursor to TensorFlow) widely used at Google. Prior to being a builder of machine learning infrastructure he was an avid user of it, while leading the Mobile Display Ads Quality team at Google. Prior to Google, Gus gathered knowledge and experience at Amazon, Calian, Ontario Ministry of Finance, Independent Electricity System Operator, and Computron. Gus earned a master's degree in computer science with a specialization in artificial intelligence from Stanford University and before that a bachelor's degree in mathematics, majoring in computer science and minoring in economics, from the University of Waterloo."
+    },
+    "austin_bennett": {
+        "featured": true,
+        "id": "austin_bennett",
+        "title": "Principal Engineer, TensorFlow Extended",
+        "company": "Principal Engineer, TensorFlow Extended",
+        "order": 35,
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fabennett.JPG?alt=media&token=8fb01b86-d6e3-4b25-b309-be9ea6a1815e",
+        "name": "Austin Bennett"
     }
 }
