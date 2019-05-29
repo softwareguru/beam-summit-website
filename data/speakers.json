@@ -704,6 +704,7 @@
         "featured": true,
         "order": "35",
         "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fabennett.JPG?alt=media&token=8fb01b86-d6e3-4b25-b309-be9ea6a1815e",
-        "name": "Austin Bennett"
+        "name": "Austin Bennett",
+        "bio": "Austin Bennett works for Sling Media (a DISH Company), mentors aspiring Data Scientists through Thinkful.com (a distributed/online bootcamp), as well as covering odds and ends for Bamboozoology, LLC. He is also a Cogntive Linguist and Researcher with an interest in Multimodal Communication; currently those pursuits are largely through RedHenLab.org. He is enthusiastic about the promise of Apache Beam, and Open Source Software generally."
     }
 }
