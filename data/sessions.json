@@ -202,10 +202,11 @@
     },
     "103808": {
         "speakers": [
-            "reza_ardeshir_rokni"
+            "reza_ardeshir_rokni",
+            "tyler_akidau"
         ],
-        "title": "Using the Timer and State API to solve times series use cases",
-        "description": "Time series processing requires ordered processing of data points, often across windows boundaries. Tricky stuff for distributed processing systems, in this chat we look at how to solve for these problems using a combination of Global Windows, State and the Timer API's. ",
+        "title": "Solving for Timerseries with Apache Beam",
+        "description": "Time series processing requires ordered processing of data points, often across windows boundaries. Tricky stuff for distributed processing systems, in this chat we look at how to solve for these problems using a combination of Global Windows, State and the Timer API's. The session will also expand on a new concept called Validity Windows.",
         "tags": [
             "Use-Case",
             "Talk"
