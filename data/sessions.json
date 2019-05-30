@@ -79,9 +79,9 @@
         "title": ""
     },
     "1000": {
-        "title": "Keynote",
-        "description": "",
-        "complexity": ""
+        "title": "Keynotes",
+        "description": "Welcome and Community Updates. <br> The Road to Portability. <br> Recent developments in the Apache Beam Python SDK. <br> Making Beam Simpler and More Powerful.",
+        "speakers": ["matthias_baetens", "joana_carrasqueira", "griselda_cuevas", "maximilian_michels", "thomas_weise", "robert_bradshaw", "robbe_sneyders", "reuven_lax"]
     },
     "1001": {
         "description": null,
