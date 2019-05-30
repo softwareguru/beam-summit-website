@@ -88,7 +88,7 @@
     "andrew_pilloud": {
         "featured": true,
         "title": "Apache Beam Committer, Software Engineer at Google",
-        "company": "Apache Beam Committer, Software Engineer at Google",        
+        "company": "Apache Beam Committer, Software Engineer at Google",
         "order": "4",
         "photoUrl": "https://sessionize.com/image?f=afb32339380ddfc0d97b12280c8668bd,400,400,True,False,d7-5ff5-4c05-aded-30ce209d9317.d3929cf5-948e-47e5-813d-cc451ca51194.jpeg",
         "name": "Andrew Pilloud",
@@ -706,5 +706,61 @@
         "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fabennett.JPG?alt=media&token=8fb01b86-d6e3-4b25-b309-be9ea6a1815e",
         "name": "Austin Bennett",
         "bio": "Austin Bennett works for Sling Media (a DISH Company), mentors aspiring Data Scientists through Thinkful.com (a distributed/online bootcamp), as well as covering odds and ends for Bamboozoology, LLC. He is also a Cogntive Linguist and Researcher with an interest in Multimodal Communication; currently those pursuits are largely through RedHenLab.org. He is enthusiastic about the promise of Apache Beam, and Open Source Software generally."
+    },
+    "matthias_baetens": {
+        "featured": true,
+        "order": "36",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fmbaetens.jpg?alt=media&token=3b234e71-2579-495a-b647-7bdd979aef79",
+        "name": "Matthias Baetens",
+        "bio": ""
+    },
+    "joana_carrasqueira": {
+        "featured": true,
+        "order": "37",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fjcarrasqueira.jpg?alt=media&token=87a7f305-78f4-4ef9-b4e4-c26893584918",
+        "name": "Joana Carrasqueira",
+        "bio": ""
+    },
+    "griselda_cuevas": {
+        "featured": true,
+        "order": "38",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fgcuevas.jpg?alt=media&token=eee462ff-b54f-441d-9ee3-f7d65a5dfef6",
+        "name": "Griselda Cuevas",
+        "bio": ""
+    },
+    "maximilian_michels": {
+        "featured": true,
+        "order": "39",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fmmichiels.jpg?alt=media&token=0e76ca6b-140c-4e0b-9008-145e967bbf58",
+        "name": "Maximilian Michels",
+        "bio": ""
+    },
+    "thomas_weise": {
+        "featured": true,
+        "order": "40",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Ftweise.jpg?alt=media&token=7f168499-8971-4d44-ac17-3ad5d4e60374",
+        "name": "Thomas Weise",
+        "bio": ""
+    },
+    "robert_bradshaw": {
+        "featured": true,
+        "order": "41",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Frbradshaw.jpg?alt=media&token=65e1fa69-8de2-439a-9911-2a96f88951a9",
+        "name": "Robert Bradshaw",
+        "bio": ""
+    },
+    "robbe_sneyders": {
+        "featured": true,
+        "order": "42",
+        "photoUrl": "https://sessionize.com/image?f=18f4aa8b93be14f744b5bd658573c667,200,200,True,False,e419d231-e65a-4e5e-9690-b903d4ed7ea7.jpg",
+        "name": "Robbe Sneyders",
+        "bio": ""
+    },
+    "reuven_lax": {
+        "featured": true,
+        "order": "43",
+        "photoUrl": "https://sessionize.com/image?f=791a720019c8038a30c797d2148c69c5,200,200,True,False,2b-6a7c-4451-ac3a-72ede2e98c53.f699cfd4-7832-4a28-8819-6271160c9f0a.jpg",
+        "name": "Reuven Lax",
+        "bio": ""
     }
 }
