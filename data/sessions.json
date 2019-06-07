@@ -439,7 +439,7 @@
         "speakers": [
             "xinyu_liu"
         ],
-        "title": "Samza Beam Runner: Current Status & Future Road Map",
+        "title": "Streaming Pipelines at Scale with Apache Beam and Samza",
         "description": "In this talk we will share details of the Samza Beam Runner, which in about a year, has evolved from an initial prototype to a fully fledged Beam runner integrated with the Beam portability framework. The talk will do a deep dive on Samza features that make it one of the most scalable open-source Beam runners in the industry that can process millions of records a day in production. The talk will also discuss the use cases powered by Beam Samza Runner at LinkedIn, including machine learning applications, security applications, and programmatically generated pipelines from offline batch scripts (Pig/Hive). Last but not least, we’ll present our future road map, including multi-language support (Python & Go), and the new Samza features that will benefit both open source projects.",
         "tags": [
             "Technical",
