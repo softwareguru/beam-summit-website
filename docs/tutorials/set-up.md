@@ -53,7 +53,7 @@ The diagram below is a brief summary of the directories within the project.
 *   `bower_components/` is the place for project dependencies.
 *   `build/` is the directory to deploy to production.
 *   `config/` folder for core project setup.
-*   `data/` folder with all data for the template including rest of config and resources for pages.
+*   `data/` folder with all data for the template including rest of config and resources for pages. Also utils to transform data from Sessionize.com into the right format.
 *   `docs/` documentation.
 *   `functions/` directory with Firebase [cloud functions](https://firebase.google.com/docs/functions/) used for notifications, optimizations, saving data, etc.
 *   `gulp-tasks/` contains gulp tasks moved from `gulpfile.js` to make the file cleaner.
