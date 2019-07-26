@@ -5,8 +5,8 @@
     "blog": "https://beam.apache.org/blog",
     "url": "https://beam.apache.org"
   },
-  "startDate": "2019-06-193T09:00:00+01:00",
-  "endDate": "2019-06-20T19:00:00+01:00",
+  "startDate": "2019-09-113T09:00:00+01:00",
+  "endDate": "2019-09-12T19:00:00+01:00",
   "webapp": {
     "shortName": "Beam Summit",
     "themeColor": "#df4b2b",
@@ -43,19 +43,14 @@
       "route": "blog",
       "permalink": "/blog/",
       "label": "Blog"
-    },
-    {
-      "route": "sponsors",
-      "permalink": "/sponsors/",
-      "label": "Sponsors"
     }
   ],
   "heroSettings": {
     "home": {
-      "description": "Beam Summit Europe #beamsummit",
+      "description": "Beam Summit North America #beamsummit",
       "background": {
         "color": "#df4b2b",
-        "image": "/images/backgrounds/audience.jpg"
+        "image": "/images/backgrounds/beam-summit-eu-2019.jpg"
       },
       "fontColor": "#FFF"
     },
@@ -127,20 +122,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "KulturBrauerei",
-    "city": "Berlin",
-    "short": "Berlin, Germany",
-    "address": "Schönhauser Allee 36, 10435 Berlin, Germany",
+    "name": "Flamingo Hotel",
+    "city": "Las Vegas",
+    "short": "Las Vegas, USA",
+    "address": "3555 Las Vegas Boulevard South",
     "pointer": {
-      "latitude": 52.5392542,
-      "longitude": 13.4113646,
-      "zoom": 5
+      "latitude": 36.116441,
+      "longitude": -115.170792,
+      "zoom": 6
     },
     "mapCenter": {
-      "latitude": 52,
-      "longitude": 13
+      "latitude": 36,
+      "longitude": -115
     },
-    "description": "Historic brewery now an arts & entertainment complex with rock concerts, shows & open-air events. Venue for BerlinBuzzwords."
+    "description": "Flamingo Las Vegas Hotel and Casino is the Strip's original home of cool, a tropical oasis with a central location."
   },
   "mediaQueries": {
     "xs": {

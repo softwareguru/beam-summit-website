@@ -1,10 +1,10 @@
 {
-  "title": "Beam Summit Europe 2019",
+  "title": "Beam Summit North America 2019",
   "description": "Join us to learn about the latest in the Beam and streaming world!",
   "image": "images/social-share.jpg",
-  "keywords": "event, beamsummit, devfest, google, programming, chrome, cloud, bigdata, streaming",
-  "dates": "June 19-20, 2019",
-  "partnershipProposition": "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS",
+  "keywords": "event, beamsummit, google, programming, cloud, bigdata, streaming",
+  "dates": "September 11-12, 2019",
+  "partnershipProposition": "https://drive.google.com/open?id=13yqNFzLIAXB4GuIG-4IdCYWgX-hi70RCdlbyClaeSWA",
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
@@ -57,16 +57,6 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Partnership Proposition",
-          "url": "https://drive.google.com/open?id=1R3vvOHihQbpuzF2aaSV8WYg9YHRmJwxS",
-          "newTab": true
-        },
-        {
-          "name": "Call for Papers",
-          "url": "https://sessionize.com/beam-summit-europe-2019/",
-          "newTab": true
-        },
-        {
           "name": "Code of Conduct",
           "url": "/faq/#code-of-conduct",
           "newTab": true
@@ -88,11 +78,6 @@
         "description": "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing.",
         "label": "See how it was at the inaugural edition in 2018",
         "link": "https://beam.apache.org/blog/2018/10/31/beam-summit-aftermath.html"
-      },
-      "howItWas": {
-        "description": "Do you have a use-case to share, an exciting part of the framework you love to explain to people or an appetite to teach people how to use Apache Beam? Submit your session today!",
-        "label": "Submit your session",
-        "link": "https://sessionize.com/beam-summit-europe-2019/"
       }
     },
     "statisticsBlock": {
@@ -106,11 +91,11 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "15+"
+        "number": "20+"
       },
       "tracks": {
         "label": "Tracks",
-        "number": "3"
+        "number": "2"
       }
     }
   },
@@ -170,7 +155,7 @@
     }
   },
   "galleryBlock": {
-    "title": "Beam Summit 2018",
+    "title": "Previous Beam Summits",
     "description": "Photos from last year's talks, hands-on learning sessions, and conference atmosphere. #beamsummit"    
   },
   "mapBlock": {

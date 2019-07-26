@@ -170,342 +170,109 @@
         "tags": [],
         "complexity": []
     },
-    "1015": {
-        "title": "Contributing to Beam Workshop",
-        "description": "The workshop will cover contributing to Beam. We will start with a lecture on typical journeys through the open source contributor's lifecycle. Then the attendee will be shown the workflows and tools, including general procedures for how individuals are encouraged to operate within the community. For those inclined, the goal will be to get people setup all the way through making a real (code/documentation) contribution by submitting a pull request.",
-        "speakers": ["austin_bennett"]
+    "1111": {
+        "title": "Apache Arrow + Apache Beam: A vision for cross-language, columnar data pipelines",
+        "description": "Apache Arrow and Apache Beam deserve to be together. It is a stated goal of both projects to provide mechanisms for performing data processing tasks across many languages. To accomplish this, both projects define a common binary 'model' and provide multiple language implementations of that model. <br><br>However, they are approaching the overarching problem of cross-language data processing from two very different angles: Arrow is primarily concerned with moving columnar data across language boundaries with minimal overhead and providing optimized computation primitives to operate on that data, while Beam seeks to enable users to write scalable data pipelines in their language of choice and execute them on any distributed data-processing system. There is significant overlap between these two problem spaces, and we should consider using these models together for the benefit of both projects.<br><br>In this talk, I will describe both of these projects at a high-level, and present a vision for how they can be used together. I will also discuss some of the concerns around using a batched columnar data format in the Beam model, along with potential solutions.",
+        "speakers": ["brian_hulette"]
     },
-    "102915": {
-        "description": "Replacing the entry point for IoT data into a system already ingesting and processing data from thousands of devices worldwide can seem like a terrifying and risky endeavor.\r\nIn this talk I'll share our experience at Augury of doing just that - migrating a traditional architecture, based on APIs and services, to a streaming solution implemented using Beam. I'll demonstrate how we were able to leverage advanced features of the Beam model, such as stateful transforms and timers, to preserve legacy behavior and effectively bake backwards-compatibility into our ingestion pipeline. \r\nFinally, I'll discuss how taking this approach has enabled us to incrementally and separately evolve downstream processing components without losing existing capabilities.",
-        "tags": [
-            "Talk",
-            "Use-Case"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "amit_ziv-_kenet"
-        ],
-        "title": "How we migrated our IoT data ingestion pipeline to Beam without missing a bit"
+    "1112": {
+        "description": "Time series processing requires ordered processing of data points, often across windows boundaries. Tricky stuff for distributed processing systems, in this chat we look at how to solve for these problems using a combination of Global Windows, State and the Timer API' with Apache Beam.",
+        "speakers": ["reza_ardeshir_rokni"],
+        "title": "Using the Timer and State API to solve times series use case in Apache Beam"
     },
-    "102954": {
-        "description": "There is a number of new Systems that support running SQL queries on top of data streams. Apache Beam has not been the exception. It now provides a SQL transform that allows anyone to analyze streams from any source interactively and it supports running the same query on multiple runners including Flink, Spark, and Google Cloud Dataflow. We are also working to support mixed-language operations.\r\n\r\nThis talk starts by showing how the Beam SQL feature works, demoing a couple simple use cases: a pure SQL pipeline as well as SQL embedded in a Java pipeline. Then we review how streaming SQL came from collaboration between the Beam, Calcite and Flink communities and the advantages over other SQL implementations. Finally, we will deep-dive into the architecture of Beam’s implementation, as well as the design decisions that were taken along the way to build the feature, and how they have turned out.",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "pablo_estrada",
-            "andrew_pilloud"
-        ],
-        "title": "Building an interactive streaming SQL engine in Beam"
+    "1113": {
+        "description": "Kotlin is an Open Sourced, statically typed language for JVM and is mostly being favoured by Android Developers due to the many myriad features which enable more concise and cleaner code than Java without sacrificing performance or safety.<br><br>By using Kotlin as our language of choice to build an apache beam pipeline, our development team not only ran into fewer errors than what we would have if we used Java; but with the help of extensively useful high level APIs present in Kotlin, we were also able to cut down on the development time required to build, test and deploy a new feature.<br><br>This talk uses real life examples from my personal experiences to advocate on the benefits that you can get by using Kotlin to build solutions in Apache Beam.<br><br>So if you are someone who is already working with Apache Beam's Java SDK, or looking forward to try Apache BEAM, attending this talk will motivate you to go ahead and explore the benefits associated with using Beam with Kotlin.",
+        "speakers": ["harshit_dwivedi"],
+        "title": "Apache Beam + Kotlin = ❤️"
     },
-    "103808": {
-        "speakers": [
-            "reza_ardeshir_rokni",
-            "tyler_akidau"
-        ],
-        "title": "Solving for Timerseries with Apache Beam",
-        "description": "Time series processing requires ordered processing of data points, often across windows boundaries. Tricky stuff for distributed processing systems, in this chat we look at how to solve for these problems using a combination of Global Windows, State and the Timer API's. The session will also expand on a new concept called Validity Windows.",
-        "tags": [
-            "Use-Case",
-            "Talk"
-        ],
-        "complexity": "Advanced"
+    "1114": {
+        "description": "This session will walk through the internals of what the Go SDK does to execute a pipeline. Describing the structure of the SDK, where code is located, and the why of the structure, and how it does it with the particular features of the Go language, which notably has strict types but no generics.<br><br>Particular effort will be spent on what the Go SDK does for ease of use, and to reduce DoFn execution overhead.",
+        "speakers": ["robert_burke"],
+        "title": "A Guided Walkthrough of the Apache Beam Go SDK"
     },
-    "104213": {
-        "description": "Cloud Dataflow is Google's data processing service that uses Apache Beam as its SDK. Sergei Sokolenko, the product manager for Cloud Dataflow, will go into the details of operating the Dataflow service and lead a discussion around future work in Beam and Dataflow.   ",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "sergei_sokolenko"
-        ],
-        "title": "Beam-on-Dataflow deep dive and roadmap"
+    "1115": {
+        "description": "Apache Beam is a unified data processing framework, allowing you to write batch and streaming pipelines that run anywhere, including Apache Flink, Apache Spark, and Google Cloud Dataflow. With the SQL extension you can now write a pipeline in pure SQL. If you need more, you can write user defined functions in Java or even embed SQL into your existing Java pipeline.<br><br>This talk will start with a demo pipeline written in pure SQL. We will review how streaming SQL came from collaboration between the Apache Beam, Apache Calcite and Apache Flink communities. Finally, we will deep-dive into the architecture of Beam’s implementation and the work we are doing to make Apache Beam SQL the default choice for writing new streaming pipelines.",
+        "speakers": ["andrew_pilloud"],
+        "title": "Simple, Portable data pipelines with Apache Beam SQL"
     },
-    "114542": {
-        "description": "Kettle is an open source data integration tool under an Apache license. This session will demonstrate how we integrated with Apache Beam to allow you to visually build pipelines that can be executed on the various Beam runners without the need to write any code.  \r\nAfter an introduction on the Kettle project you will get an overview of the supported functionalities and best practices with a number of demos on DataFlow, Spark and Flink. ",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Introductory and overview",
-        "speakers": [
-            "matt_casters"
-        ],
-        "title": "Visual Beam Pipeline Development with Kettle"
+    "1116": {
+        "description": "Apache Spark is the most popular open source analytics engine for large-scale data processing. Spark is not only a mature system, but thanks to its support of multiple resource managers like Hadoop, Mesos, and Kubernetes it has become a popular choice for both batch and streaming workloads in the industry.<br><br>Apache Beam has included a Spark runner since its inception to allow users to execute Beam pipelines on Spark, but until recently the Spark runner could only execute pipelines written in Java. In this talk we will introduce the portability framework and how we adapted it into the existing Spark runner translation to make the Spark runner portable. <br><br>We will show you how to execute Beam pipelines written in Python and Golang in Spark with Beam and invite you to use the new Spark Portable Runner. We will mention the use case of Tensorflow Extended, the end-to-end platform for data validation and transformation and ML model analysis. Finally we will discuss ongoing work and some future plans for the portable runner.",
+        "speakers": ["kyle_weaver", "ismal_meja"],
+        "title": "Portable Spark Runner: Running Beam Pipelines Written in Python and Go with Spark"
     },
-    "114625": {
-        "description": "This talk is reflecting on the transformation that happened in the past year since I joined Ricardo.ch's Data Intelligence team. We went from a on-premise data warehouse fed by batch-loaded dumps to a BigQuery based solution that is using Apache Beam jobs running on an Apache Flink cluster. This cluster was born on-premise and then moved to the cloud when our datacenter was finally shut down in March this year.",
-        "tags": [
-            "Talk",
-            "Use-Case"
-        ],
-        "complexity": "Introductory and overview",
-        "speakers": [
-            "tobias_kaymak"
-        ],
-        "title": "From database dumps to streaming - Ricardo.ch's Beam journey"
+    "1117": {
+        "description": "Using Apache Beam to get data in your data lake? In a agile company you don’t want to re-compile your ingestion pipeline every time a sprint finished. In this talk we go over all mechanisms and building blocks you need to make dynamic pipelines really work.<br><br>We’ll see why schemas are so important. How do we get these schemas in our pipelines and discuss methods to protect ourselves from data corruption and incompatible schema evolution. <br><br>The new features like schema aware PCollection get a thorough deep dive and finally we go over real world examples and position Apache Beam in the new PLT (Push Load Transform) world.",
+        "speakers": ["alex_van_boxel"],
+        "title": "Driving dynamic Beam pipelines"
     },
-    "114962": {
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "won_wook_song"
-        ],
-        "title": "Running Apache Beam programs on Apache Nemo",
-        "description": "This talk introduces Apache Nemo, a data processing system that enables flexible optimizations for various execution scenarios, and shares the experiences on building the Apache Nemo Runner for Apache Beam applications (which is now officially supported!). We discuss about the pros and cons of using Apache Beam applications on our system, and demonstrate what we can do with Apache Beam on Apache Nemo with a demo."
+    "1118": {
+        "description": "Hazelcast Jet is a distributed data processing engine that threats all data as a stream. Jet is built on top of Hazelcast IMDG and thanks to this the Jet cluster can also play the role of the data source and sink. If you use Jet this way, you can achieve perfect data locality and top-of-the-class throughputs. <br><br>Jet uses cooperative multithreading (comparable to green threads), it's processors correspond to standalone single-threaded tasks that process streams of data. By not depending on OS-level thread scheduling Jet can achieve greater throughput and better saturate the CPU cores. Since the theory underlying Apache Beam has also influenced the development of Jet and there are many conceptual similarities, attempting to write a Runner based on Jet came naturally to us. When we started however the first big obstacle we hit was the relative lack of documentation. Figuring out what exactly a Runner needed to do required reverse engineering existing runners. A second obstacle turned out to be the generic nature of the user defined functions used by Beam. While Jet's cooperative execution model allows for great performance, it requires the processing of the data to be non-blocking and this is hard to assure when running completely opaque and generic DoFns. Yet another difficulty was presented by trying to adapt Jet's fault tolerance and processing guarantee mechanism for the Runner, a process that, even though difficult, might be more solvable than the above mentioned non-blocking requirement. Despite these difficulties implementing an initial version of our runner turned out to be quite doable, even though experimental it's quite capable of running a was majority of the existing Beam test suits and we are proud to say that we are now listed on the Capability Matrix. We can also showcase Nexmark test results of our runner and describe possible avenues for future development.",
+        "speakers": ["jozsef_bartok"],
+        "title": "Writing the Hazelcast Jet Runner"
     },
-    "116266": {
-        "speakers": [
-            "robert_burke"
-        ],
-        "title": "A Guided Walkthrough of the Go SDK",
-        "description": "This session will walk through the internals of what the Go SDK does to execute a pipeline. Describing the structure of the SDK, where code is located, and the why of the structure, and how it does it with the particular features of the Go language, which notably has strict types but no generics.\r\n\r\nParticular effort will be spent on what the Go SDK does for ease of use, and to reduce DoFn execution overhead.",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate"
+    "1119": {
+        "description": "Ride-sharing is a two-sided marketplace; balancing supply and demand with price in real time is critical to maintaining an efficient system. Dynamic pricing creates fairness for drivers (by raising rates when there is a lot of demand) and maintains good experiences for passengers (by satisfying pick-up time SLAs). This complex system makes real-time decisions using various data sources; machine learning models; and a streaming infrastructure for low latency, reliability and scalability. In this streaming infrastructure, our system consumes a massive number of events from different sources to make these pricing decisions.<br><br>Reacting to these events in a cron scheduler based legacy infrastructure with inherent latency becomes a challenge, especially where timely reactions are required to balance market conditions. By leveraging Apache Beam, Lyft’s Streaming Platform powers pricing by bringing together the best of two worlds: ML models in Python and Apache Flink on JVM as the streaming engine.<br><br>Topics covered in this talk include:<br>* A brief discussion of dynamic pricing, including motivation and high-level problem formulation<br>* Comparison of legacy architecture and new streaming architecture<br>* Overview of streaming platform architecture and technology stack<br>* Major gains from streaming architecture<br>* Lessons learned",
+        "speakers": ["rakesh_kumar"],
+        "title": "Pricing Lyft rides with Apache Beam - a case study in migrating from a worker-based workflow to streaming"
+    },    
+    "1120": {
+        "description": "Access to real-time data is increasingly important for many organizations. At Lyft, we process millions of events per second in real-time to compute prices, balance marketplace dynamics, detect fraud, among many other use cases. To do so, we run dozens of Apache Flink and Apache Beam pipelines. Flink provides a powerful framework that makes it easy for non-experts to write correct, high-scale streaming jobs, while Beam extends that power to our large base of Python programmers.<br><br>Historically, we have run Flink clusters on bare, custom-managed EC2 instances. In order to achieve greater elasticity and reliability, we decided to rebuild our streaming platform on top of Kubernetes. In this session, I'll cover how we designed and built an open-source Kubernetes operator for Flink and Beam, some of the unique challenges of running a complex, stateful application on Kubernetes, and some of the lessons we learned along the way.",
+        "speakers": ["micah_wylde"],
+        "title": "Running Apache Flink and Apache Beam on Kubernetes"
     },
-    "116289": {
-        "speakers": [
-            "robert_crowe", "gus_katsiapis"
-        ],
-        "title": "Apache Beam for Production Machine Learning: TensorFlow Extended (TFX)",
-        "description": "Developing ML and deep learning applications to be deployed in production is much more than just training a model.  Google has taken years of experience in developing production ML pipelines and offered the open source community TensorFlow Extended (TFX), an open source version of the ML platform that Google uses internally.  Pipeline processing is a core requirement of any production ML platform, and the TFX has chosen Apache Beam to implement their pipeline.\r\n\r\nLearn from Google’s experience in applying Beam for ML pipelines, including how TFX uses Beam and why Beam was chosen.  Robert Crowe is a member of the TFX team at Google and will discuss the issues and lessons learned of developing and deploying ML and deep learning applications in production using Beam and TFX.",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate"
-    },
-    "116424": {
-        "description": "This use case is about how we used apache beam to analyze and process, in near-real time, football game stream feeds. The goal was to determine events (start of game, team detection, player tracking, ball tracking) and performing analytics on these videos (duration, ball possession, score, ..). The client for which we implemented this use case is https://www.sporttotal.tv/.\r\n\r\nIn particular, Apache Beam Dataflow runner was used with Python SDK to create streaming pipelines. In this pipeline we used sliding windows to chunk the video frames into sets of sequence of frames, which could be used as input for different machine learning models.  Our machine learning models are hosted on GPUs via TF-serving on Kubernetes. The output of the machine learning models were written to Google Cloud Bigtable, which was used by a front-end player to visualize these features on top of the stream feed (with a small delay).\r\n\r\nOther components used: Google Cloud Pub/Sub, Google Kubernetes Engine, Google Cloud Bigtable",
-        "tags": [
-            "Talk",
-            "Use-Case"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "sven_degroote"
-        ],
-        "title": "Video Analytics for Football games @ SportTotal.tv"
-    },
-    "117239": {
-        "description": "One of the key components in any data processing system is IO connectors. These fundamental blocks allow to read and write data, which is stored in different type of sources, in a unified and distributed way. In this sense, Apache Beam is not an exception - it provides a rich API to develop a new connector with your favorite SDK and easily integrates it with Beam runners.\r\n\r\nIn this talk I'm going to show you how to write your own IO connector (in Java). We will see what are the differences between bounded and unbounded sources, how to implement efficient sources and sinks and where we need to pay more attention during the development, what kind of API your connector should provide to users and how it can be tested. To achieve this we will rely on examples from existing Beam connectors.\r\n\r\nThis talk will be interesting for people, who consider to write their own IO connectors or want to contribute to existing ones, as well as for Beam users, who wish to understand how existing Beam connectors work under the hood.\r\n",
-        "tags": [
-            "Talk",
-            "Technical"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "alexey_romanenko"
-        ],
+    "1121": {
+        "description": "One of the key components in any data processing system is IO connectors. These fundamental blocks allow to read and write data, which is stored in different type of sources, in a unified and distributed way. In this sense, Apache Beam is not an exception - it provides a rich API to develop a new connector with your favorite SDK and easily integrate it with Beam runners.<br><br>In this talk we are going to show you how to write your own IO connector (in Java). We will see what are the differences between bounded and unbounded sources, how to implement efficient sources and sinks and where we need to pay more attention during the development, what kind of API your connector should provide to users and how it can be tested. To achieve this we will rely on examples from existing Beam connectors.<br><br>We will also give a brief overview of a rather recent feature/pattern in Beam IO - Composable IO connectors and the Splittable DoFn API. We will discuss the advantages of modular IO API design and some new IO design patterns allowed by this style. <br><br>This talk will be interesting for people, who consider to write their own IO connectors or want to contribute to existing ones, as well as for Beam users, who wish to understand how existing Beam connectors work under the hood.",
+        "speakers": ["alexey_romanenko", "ismal_meja"],
         "title": "Developing new IO connectors in Apache Beam"
     },
-    "117290": {
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "fabian_hueske",
-            "tyler_akidau"
-        ],
-        "title": "One SQL to Rule Them All – a Syntactically Idiomatic Approach to Management of Streams and Tables",
-        "description": "Apache Calcite is a data management framework that includes a SQL parser and query optimizer. It is used by many projects that implement SQL processing capabilities, including Apache Beam and Apache Flink. Over the last years, members of these three communities had many discussions about the semantics and syntax of \"Streaming SQL\". End of last year, we decided to formalize and summarize our views and ideas in paper that we submitted to the Industrial Track of the SIGMOD 2019 conference. The paper got accepted (http://sigmod2019.org/sigmod_industry_list).\r\n\r\nIt presents a three-part proposal for integrating robust streaming into SQL, namely: \r\n(1) time-varying relations as a foundation for classical tables as well as streaming data,\r\n(2) event time semantics, \r\n(3) a limited set of optional keyword extensions to control the materialization of time-varying query results.\r\n\r\nThe paper shows how with these minimal additions it is possible to utilize the complete suite of standard SQL semantics to perform robust stream processing and motivates and illustrate these concepts using examples and describe lessons learned from implementations in Apache Calcite, Apache Flink, and Apache Beam. \r\n\r\nIn this talk, we present our \"Syntactically Idiomatic Approach to Manage Streams and Tables\"."
+    "1122": {
+        "description": "Python is a widely used programming language that is characterized by a low barrier to entry. As many other companies in the industry, Yelp has used Python as the main programming language to implement back-end services. Unfortunately, when it comes to stream processing Python presents several challenges, including performance limitations, lack of proper multi-threading support and limited framework options. <br><br>When the use cases for more advanced stream processing started to arise, at Yelp we decided to leverage Flink and introduce a Scala/Java stack for our Data Pipeline. Over the course of two years we built our connector ecosystem in Flink and exposed to developers a very lightweight stream processing API based on Flink SQL.<br><br>While Flink SQL was quickly adopted by our developers, we soon realized that more complex use cases cannot easily be solved in Flink SQL. At the same time, the alternative engineering cost to develop and maintain a complex production application in an unfamiliar JVM based language was not convenient for our product teams.<br><br>At the beginning of the year, we started looking at Apache Beam with the goal of filling the gap between the high level Flink SQL api and the low level advanced Java Flink streaming API. In this talk I’ll cover the motivations and use cases that brought us to adopt Apache Beam, the challenges we faced integrating Beam with an existing Flink infrastructure and the strategy we followed to deploy and productionize at scale." ,
+        "speakers": ["encrico_canzonieri"],
+        "title": "Stream processing for the masses with Beam, Python and Flink"
     },
-    "117313": {
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "steffen_hausmann"
-        ],
-        "title": "Unify Batch and Stream Processing with Apache Beam on AWS",
-        "description": "One of the big visions of Apache Beam is to provide a single programming model for both batch and streaming that runs on multiple execution engines.\r\n\r\nIn this session, we explore an end to end example that shows how you can combine batch and streaming aspects in one uniform Beam pipeline: We start with ingesting taxi trip events into an Amazon Kinesis data stream and use a Beam pipeline to analyze the streaming data in near real time. We then show how to archive the trip data to Amazon S3 and how we can extend and update the Beam pipeline to generate additional metrics from the streaming data moving forward. We subsequently explain how to backfill the added metrics by executing the same Beam pipeline in a batch fashion against the archived data in S3. Along the way we furthermore discuss how to leverage different execution engines, such as, Amazon Kinesis Data Analytics for Java and Amazon Elastic Map Reduce, to run Beam pipelines in a fully managed environment.\r\n\r\nSo you will not only learn how you can leverage Beam's expressive programming model to unify batch and streaming you will also learn how AWS can help you to effectively build and operate Beam based streaming architectures with low operational overhead."
+    "1123": {
+        "description": "We built a scalable and flexible stream data pipeline for our microservices on Google Cloud Platform (GCP), using Cloud Pub/Sub, Google Cloud Storage, BigQuery, and Cloud Dataflow, using Apache Beam. The stream data pipeline is working on the production system for Mercari, one of the biggest C2C e-commerce services in Japan. The pipeline currently accepts logs from 5+ microservices, and the number will increase soon.<br><br>Our microservice architecture is based on the following three concepts:<br>1. Split the log collection and data processing phases to keep the system simple.<br>2. Use stream processing in order to achieve low latency. <br>3. Don’t just accumulate raw data—support structured output that is easier to use.<br><br>Based on these concepts, we built a data pipeline in GCP, as seen below: https://www.dropbox.com/s/3qx5hq0438aqv35/StreamDataPipelineV2.jpg<br><br>For each microservice, we will provide a Cloud Pub/Sub “Ramp” to send logs to. Cloud Pub/Sub can have messages that contain an optional byte array in their payloads. The entire message that is ingested into the Ramp uses Cloud Dataflow streaming processing to collect them in the “RawDataHub,” a Cloud Pub/Sub topic for collection. When this happens, the PubsubMessage payload is not changed at all; the metadata necessary for subsequent processing (destination and schema information, data necessary for pipeline metrics, etc.) is provided in the PubsubMessage’s attribute map. This Dataflow job does not do processing for each service or topic—it treats all messages uniformly.The raw data from RawDataHub is then output to two independent Cloud DataFlow streaming processes: “RawDataLake”(the infrastructure is in Google Cloud Storage, or “GCS”) and “StructuredDataHub”, another Cloud Pub/Sub topic. The StructuredDataHub has structured avro records. The structured data from StructuredDataHub is then sent to more two independent Cloud DataFlow streaming processes: “StructuredDataLake” on GCS and “Data WareHouse” (Google BigQuery).",
+        "speakers": ["shuichi_suzuki"],
+        "title": "Creating a Stream Data Pipeline on Google Cloud Platform using Apache Beam"
     },
-    "117419": {
-        "speakers": [
-            "alex_van_boxel"
-        ],
-        "title": "Protobeam - Protobuf power in the Beam pipeline",
-        "description": "Although beam has native Protobuf support, still we created the *protobeam* project too augment the typed message format to integrate with several backends (like Bigtable, BigQuery, Spanner, ...). The talk will also show how you can use annotations too change the behaviour of a message.\r\n\r\nThis talk will show all the integration point within Apache Beam to make the usage transparent and idiomatic (integration with the registry, Beam SQL, ...).\r\n\r\nAs the project is in active development, but already usable, we'll discuss the roadmap and the direction *protobeam* is heading to make dynamic pipelines based on Protobuf a pleasure to use.",
-        "tags": [
-            "Talk",
-            "Technical"
-        ],
-        "complexity": "Intermediate"
+    "1124": {
+        "description": "In this talk we are going to cover how we have leveraged portability of Beam and make Stream Processing in Python possible on top of Apache Samza. We will first touch points on Apache Samza in general, and how it stands out as the stream processing engine at LinkedIn that scales to over a trillion messages processed per day, with strong state support and flexible deployment models. Next we introduce Samza Runner for Beam, particularly the portable runner. We will cover the efforts we have done to leverage Beam and make stream processing in Python available at LinkedIn, followed by a few use cases. The talk will conclude with our plan for future work.",
+        "speakers": ["hai_lu"],
+        "title": "Samza Portable Runner for Beam"
     },
-    "117434": {
-        "description": "In this talk, we present our use case for periodically ingesting legacy data from SQL server into Google Bigquery using Apache Beam. As for us the ability to handle schema changes is a hard requirement, legacy table schemas are turned into data contracts. These contracts are used in our batch pipelines, allowing us to generate BigQuery table schemas and to convert our data accordingly.\r\n\r\nThe talk goes into detail of how we used our ProtoBeam project to achieve this. Next to this, it presents features for tweaking bigquery tables based on contracts, like column renaming and time partitioning, to make analysts’ life easier.\r\n",
-        "tags": [
-            "Talk",
-            "Use-Case"
-        ],
-        "complexity": "Introductory and overview",
-        "speakers": [
-            "wout_scheepers"
-        ],
-        "title": "FrankenBatch: ingesting legacy data into BigQuery using data contracts"
+    "1125": {
+        "description": "Learning a streaming framework like Apache Beam is exciting but with Hello World! examples aren't fun. There aren't a lot of free and interesting streaming data sources for beginners to play with, it's very easy to give up learning if it's boring. To keep myself learning something new, I find myself need incentives and accomplishments to continue. If you are like me need some motivation to keep learning, this talk will give you some inspiration.<br><br>In this talk, I will share my experience of learning Apache Beam by showing demos to you on how I create a streaming data with my custom 'Marvel Fights Stream Producer'. I will discuss how I went through with the Apache Beam Programming Guide and replaced the official examples with Marvel streaming data I produced.  I will also talk about what I learn from creating my custom data stream producer and how that helps me learn Apache Beam better.",
+        "speakers": ["chengzhi_zhao"],
+        "title": "Creating Custom Streaming Events to Learn Apache Beam"
     },
-    "117436": {
-        "description": "Ludwig is a code-free Deep Learning toolbox based on TensorFlow open-sourced by Uber AI Labs.  Ludwig is unique in its ability to help make deep learning easier to understand for non-experts and enable faster model improvement iteration cycles for experienced machine learning developers and researchers alike. By using Ludwig, experts and researchers can simplify the prototyping process and streamline data processing so that they can focus on developing deep learning architectures rather than data wrangling.\r\n\r\nLudwig introduces the notion of data type-specific encoders and decoders, which results in a highly modularized and extensible architecture: each type of data supported (text, images, categories, and so on) has a specific preprocessing function. \r\n\r\nIn this talk, we’ll be looking at building Beam pipelines to programmatically create Deep Learning models with Ludwig for different input data types for both model training and inference using Beam-Python SDK. We will be showing 2 examples of training deep learning classifiers with text and images on an unbounded source and running inference on that.",
-        "tags": [
-            "Talk",
-            "Technical"
-        ],
-        "complexity": "Advanced",
-        "speakers": [
-            "suneel_marthi"
-        ],
+    "1126": {
+        "description": "In this talk we will discuss the infrastructure  Apache Beam has built to create a positive contributor experience. Over the last few years we have developed tooling, refactored code, instrumented Jenkins builds, collected metrics, created a metrics dashboard, and involved the community in order to ensure happy contributors. We will discuss the importance of engineering productivity and tooling in developing strong communities, where we have succeeded, and where we still have work to do.",
+        "speakers": ["jason_kuster", "alan_myrvold"],
+        "title": "Friendlier Communities Through Infrastructure: Apache Beam’s Journey"
+    },
+    "1127": {
+        "description": "We’ve started to provide our stream based data pipeline by using Google Cloud Dataflow and Apache Beam since 2018 fall. It collects event logs from microservices running on GKE, then transforms and forwards the logs to GCS and BigQuery to use for analytics, etc. As you know, implementing and operating streaming jobs are challenging. We’re encountered various issues during that time.<br><br>I’d like to share our knowledge on development and operation perspective. There are 3 topics in the development part, 1) Implementing stream jobs with using spotify/scio, 2) How to debug the jobs, especially having DynamicDestination, 3) How to load testing, to ensure our jobs stable. And topics in the next part, 1) How to deploy new jobs safely(with avoiding data loss), 2) How to monitor the jobs and surrounding systems, and misc.",
+        "speakers": ["syucream"],
+        "title": "Production-ready stream data pipeline in Merpay, Inc"
+    },
+    "1128": {
+        "description": "Ludwig is a code-free Deep Learning toolbox based on TensorFlow open-sourced by Uber AI Labs. Ludwig is unique in its ability to help make deep learning easier to understand for non-experts and enable faster model improvement iteration cycles for experienced machine learning developers and researchers alike. By using Ludwig, experts and researchers can simplify the prototyping process and streamline data processing so that they can focus on developing deep learning architectures rather than data wrangling.<br><br>Ludwig introduces the notion of data type-specific encoders and decoders, which results in a highly modularized and extensible architecture: each type of data supported (text, images, categories, and so on) has a specific preprocessing function. <br><br>In this talk, we’ll be looking at building Beam pipelines to programmatically create Deep Learning models with Ludwig for different input data types for both model training and inference using Beam-Python SDK. We will be showing 2 examples of training deep learning classifiers with text and images on an unbounded source and running inference on that.",
+        "speakers": ["suneel_marthi"],
         "title": "Beaming Deep Learning with Ludwig"
     },
-    "117693": {
-        "description": "Apache Beam doesn’t have any knowledge of the actual structure of the records in a PCollection, and little understanding of PTransforms. In practice, most of the PCollections are schematized: Avro records, BigQuery rows, and even POJOs and case classes. Many operations are performed on structural records: filtering by field, grouping by a specific field, and so on.\r\n\r\nIn this talk, we are going to learn about schema-aware PCollections and Beam SQL. See how we can leverage them, and how it works with Scio, Scala DSL for Apache Beam.",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "gleb_kanterov"
-        ],
-        "title": "Schema-aware PCollections and Beam SQL"
+    "1129": {
+        "description": "Apache Beam provides a unified programming model to execute batch and streaming pipelines on all the popular big data engines. The translation layer from Beam to the chosen big data engine is called a runner.<br><br>The current runner for Apache Spark is based on the RDD/DStream framework. However, there is an ongoing work to move it to Spark next generation framework a.k.a structured streaming. This talk will present why structured streaming is a good fit for Apache Beam, why it is worth the effort, and will give some feedback on how Apache Beam has solved the challenge, what the tough points and the sweet points were.",
+        "speakers": ["etienne_chauchot"],
+        "title": "The journey of building a Beam runner based on Spark structured streaming framework"
     },
-    "117726": {
-        "description": "Apache Beam is a key technology for building scalable End-to-End ML pipelines, as it is the data preparation and model analysis engine for TensorFlow Extended (TFX), a framework for horizontally scalable Machine Learning (ML) pipelines based on TensorFlow. In this talk, we present TFX on Hopsworks, a fully open-source platform for running TFX pipelines on any cloud or on-premise. Hopsworks is a project-based multi-tenant platform for both data parallel programming and horizontally scalable machine learning pipelines. Hopsworks supports Apache Flink as a runner for Beam jobs and TFX pipelines are supported through Airflow support in Hopsworks. We will demonstrate how to build a ML pipeline with TFX, Beam’s Python API and the Flink Runner by using Jupyter notebooks, explain how security is transparently enabled with short-lived TLS certificates, and go through all the pipeline steps, from Data Validation, to Transformation, Model training with TensorFlow, Model Analysis, Model Serving and Monitoring with Kubernetes.  \r\nTo the best of our knowledge, Hopsworks is the first fully open-source on-premise platform that supports both TFX  pipelines and Apache Beam. ",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "jim_dowling",
-            "ahmad_al-_shishtawy",
-            "theofilos_kakantousis"
-        ],
-        "title": "End-to-End ML pipelines with Beam, Flink, TensorFlow, and Hopsworks"
+    "1130": {
+        "description": "Apache Beam provides a unified programming model to execute batch and streaming pipelines on all the popular big data engines. The translation layer from Beam to the chosen big data engine is called a runner.<br><br>The current runner for Apache Spark is based on the RDD/DStream framework. However, there is an ongoing work to move it to Spark next generation framework a.k.a structured streaming. This talk will present why structured streaming is a good fit for Apache Beam, why it is worth the effort, and will give some feedback on how Apache Beam has solved the challenge, what the tough points and the sweet points were.",
+        "speakers": ["khai_tran"],
+        "title": "Unifying Batch and Stream Data Processing with Apache Calcite and Apache Beam"
     },
-    "117836": {
-        "speakers": [
-            "ukasz_gajowy",
-            "micha_walenia",
-            "katarzyna_kucharczyk"
-        ],
-        "title": "Quality Assurance in Beam: measure your pipeline!",
-        "description": "Apache Beam being a Unified Model supports multiple Runners and SDKs. You also want it to work like a charm on multiple file systems and be sure that any IO is fine with big loads. Other than that you need your jobs to be efficient (and you probably want to know “all the numbers”). How to ensure that all your goals are met? You need proper testing for that! However, due to the complex nature of the problem itself, automated testing can sometimes be tricky too!\r\n\r\nLuckily, we’ve provided a whole bunch of tools to Beam's codebase to ease your pain. In this presentation, we will show you how you can write various integration/performance tests in Beam using an auto-setup infrastructure (DBs, filesystems & runners), BigQuery and Metrics API. We will also show you how do we currently do it in Beam in both IO Integration Tests or Load Tests of core Beam transforms. \r\n\r\nUse these tools to increase the quality of your beam pipelines!\r\n",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Introductory and overview"
-    },
-    "117858": {
-        "speakers": [
-            "ryan_skraba"
-        ],
-        "title": "Using Beam IOs for data discovery and exploration",
-        "description": "The primary goal of a Beam IO is to ingest distributed data to the cluster.  We've identified another interesting use case -- using the same Beam IOs for data discovery and interactive exploration of a Beam pipeline, much like what you would see in a Beam notebook.  In this talk, we discuss the challenges, some of the necessary workarounds and best practices for using existing Beam IOs to quickly investigate the data that will eventually be found in the full pipeline, including performance, security, schema-on-read and sampling.  We’ll show a short demo of integrating a Beam IO, and exploiting it immediately in Talend Pipeline Designer, a user-friendly front-end of Apache Beam in the Cloud.\r\n",
-        "tags": [
-            "Talk",
-            "Technical"
-        ],
-        "complexity": "Intermediate"
-    },
-    "117898": {
-        "speakers": [
-            "ismal_meja",
-            "david_moravek"
-        ],
-        "title": "Spark Runner (R)evolution",
-        "description": "Apache Spark is one of the most popular analytics engines for large-scale data processing, it supports multiple cluster types, e.g. Hadoop, Mesos and Kubernetes. For these reasons it is an important target for Apache Beam. Existing Spark users can take advantage of Beam's rich unified model and its nice APIs without requiring big infrastructure changes or sacrificing their operational knowledge.\r\n\r\nIn this talk we present the history of the Spark runner in Apache Beam, we will discuss in detail how the runner works, we will focus in its current implementation and we will discuss some improvements and optimizations done in recent months.\r\n\r\nThis year has seen a renewed interest in the Spark runner due to two lines of work:\r\n1. A new translation based on Spark's Structured Streaming API which allows a unification of Batch and Streaming in the runner code and let users benefit of some Spark engine optimizations and the new continuous processing mode.\r\n2. Support for different languages (e.g. python) on the Spark runner by translating pipelines using Beam's new Portability APIs.\r\nIn this talk we will also present both efforts and motivate assistants to contribute to the ongoing Spark runner (r)evolution.\r\n",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Advanced"
-    },
-    "118103": {
-        "speakers": [
-            "xinyu_liu"
-        ],
-        "title": "Streaming Pipelines at Scale with Apache Beam and Samza",
-        "description": "In this talk we will share details of the Samza Beam Runner, which in about a year, has evolved from an initial prototype to a fully fledged Beam runner integrated with the Beam portability framework. The talk will do a deep dive on Samza features that make it one of the most scalable open-source Beam runners in the industry that can process millions of records a day in production. The talk will also discuss the use cases powered by Beam Samza Runner at LinkedIn, including machine learning applications, security applications, and programmatically generated pipelines from offline batch scripts (Pig/Hive). Last but not least, we’ll present our future road map, including multi-language support (Python & Go), and the new Samza features that will benefit both open source projects.",
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate"
-    },
-    "119005": {
-        "description": "Uses of Machine Learning are pervasive in today’s world. From recommendations systems to ads serving. In the world of ride sharing we use Machine Learning to make a lot of predictions in realtime, for example: supply/demand curves are used to get an accurate ETA(estimated time of arrival) and fair pricing. Patterns of user behaviour is used to detect fraudulent activities on the platform. This ensures that we provide a good experience to both our drivers and passengers. Insights drawn from raw data becomes less useful over time, so it is important to generate features in near real time to aid in decision making with the most recent view of the world.\r\n\r\nIn this session, we will be talking about how we build a declarative, fully managed, self service Machine Learning platform at Lyft using Apache Flink and Beam and the lessons learned along the way.",
-        "tags": [
-            "Use-Case",
-            "Talk"
-        ],
-        "complexity": "Advanced",
-        "speakers": [
-            "sherin_thomas"
-        ],
-        "title": "Machine Learning with Flink and Beam"
-    },
-    "119054": {
-        "tags": [
-            "Technical",
-            "Talk"
-        ],
-        "complexity": "Intermediate",
-        "speakers": [
-            "aizhamal_nurmamat_kyzy",
-            "riona_mac_namara"
-        ],
-        "title": "Apache Beam Needs You: Getting started with open source contributions",
-        "description": "Open source draws its power and strength from the communities that build it. Diversity of perspective and accountability make projects stronger and healthier, and build a more robust ecosystem. We understand that getting started contributing to any project can be scary. But as a new contributor, you have a superpower: You see the project with clear eyes, and you can understand and empathize with - far better than experienced contributors - the challenges faced by new users. In this talk, we'll cover exactly why your fresh perspectives are needed and valued, and share research that demonstrates the very real impact your contributions can bring to the Apache Beam project and its community."
-    },
-    "119235": {
-        "tags": [
-            "Talk",
-            "Use-Case"
-        ],
-        "complexity": "Introductory and overview",
-        "speakers": [
-            "christiaan_swart"
-        ],
-        "title": "Large scale Natural Language Processing of biomedical literature in Python with beam and spacy",
-        "description": "We use beam to extract the relations between entities such as genes, drugs, and diseases from biomedical literature and build a knowledge graph from the extracted relations. Using the knowledge graph to match existing drugs to rare diseases, Healx is on a mission to advance 100 rare disease treatments towards the clinic by 2025. \r\n\r\nBeam allows us to build a knowledge graph encapsulating these relations at scale. We can process about 30 million PubMed abstracts to build our internal knowledge graph in less than 30 hours. Using Dataflow to run our beam job allows us to quickly scale a large cluster up and down depending on the computational needs. The potential for streaming in documents means we don’t need to rebuild our knowledge graph and can continuously push updates from novel publications. Developing and running beam jobs in Python still has some challenges which I will also talk about.\r\n"
-    },
-    "117839": {
-        "speakers": [
-            "ukasz_gajowy"
-        ],
-        "title": "Metrics API - how easy it is!",
-        "description": "There are cases when you want to dig deeper and get to know what’s going on in your data processing pipeline. This is what Metrics API is for. In this short flash talk, I’m going to show you how easily you can collect relevant metrics from your data processing pipelines to get to know them better. I’ll also show you some examples from IO, Load and Nexmark tests, where we use this API on a daily basis.\r\n",
-        "tags": [
-            "Lightning Talk",
-            "Technical"
-        ],
-        "complexity": "Introductory and overview"
-      },
-      "117493": {
-          "speakers": [
-              "kannappan_sirchabesan"
-          ],
-          "title": "Side Input Metrics in Dataflow",
-          "description": "Performance is an important consideration in any Data Processing job. The ability to capture metrics in each of the steps within the Beam pipeline job becomes paramount in identifying and resolving performance issues. Cloud Dataflow provides the capability to measure the metrics of Side Inputs used in Beam pipelines. \r\n\r\nSide Input metrics in Dataflow show how the side input access patterns and algorithms affect a pipeline's performance. Dataflow writes Side input collections to a persistent layer, such as a disk, and Beam Transforms read from this persistent collection. These reads and writes affect a job's execution time. Time spent writing, the number of bytes written, time spent reading by each consumer, the number of bytes read by each consumer, etc., are some of the common metrics captured and displayed by Cloud Dataflow. \r\n\r\nTypical performance issues are observed when using large Side Inputs as part of a join operation, or in the process of repetitive fetching of side inputs as part of Reiteration.\r\n",
-          "tags": [
-              "Lightning Talk",
-              "Technical"
-          ],
-          "complexity": "Introductory and overview"
-      }
+    "1131": {
+        "description": "",
+        "speakers": ["austin_bennett"],
+        "title": "Beam Introductory Workshop"
+    }
 }

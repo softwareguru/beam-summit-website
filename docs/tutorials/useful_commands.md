@@ -2,7 +2,9 @@
 
 ## Firebase
 
-Delete path: firebase firestore:delete <<path>>
+Delete path: 
+- One document: firebase firestore:delete <<path>>
+- Whole collection:  firebase firestore:delete -r <<path>>
 
 Load data: yarn firestore:copy fileToLoad.json destinationPath
 
