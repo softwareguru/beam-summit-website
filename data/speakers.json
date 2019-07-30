@@ -205,7 +205,7 @@
     "order": "10",
     "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/rakesh_kumar.jpg",
     "name": "Rakesh Kumar",
-    "bio": "",
+    "bio": "Rakesh Kumar is a software engineer on the pricing team at Lyft. He started his career as an embedded software engineer for mobile devices; later he moved to server-side engineer to tackle bigger challenges in distributed systems. His interests include machine learning and streaming systems.",
     "id": "rakesh_kumar",
     "title": "Software Engineer",
     "company": "Lyft",
@@ -384,7 +384,7 @@
     "order": "17",
     "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/chengzhi_zhao.jpg",
     "name": "Chengzhi Zhao",
-    "bio": "",
+    "bio": "Chengzhi is the Sr. Data Platform Engineer of Meetup's Data Platform team which handles the company data infrastructure and tools to help machine learning and data scientist build data solutions. He has worked in the tech industry for 7 years across health care, retail, and social networking focusing on building scalable and reliable data Infrastructure.",
     "id": "chengzhi_zhao",
     "title": "Senior Data Platform Engineer",
     "company": "Meetup",
@@ -396,7 +396,7 @@
       },
       {
         "name": "Company Website",
-        "link": "meetup.com",
+        "link": "https://www.meetup.com/",
         "icon": "website"
       }
     ]
@@ -468,6 +468,45 @@
       {
         "name": "Company Website",
         "link": "linkedin.com",
+        "icon": "website"
+      }
+    ]
+  },  
+  "kyle_weaver": {
+    "featured": true,
+    "order": "21",
+    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/kyle_weaver",
+    "name": "Kyle Weaver",
+    "bio": "Kyle is a Software Engineer at Google and an active contributor to Apache Beam. Prior to joining Google, he studied at Indiana University. He currently lives in the San Francisco Bay Area, and when he's not looking at a computer, you can usually find him playing cello or enjoying the sunshine.",
+    "id": "kyle_weaver",
+    "title": "Google",
+    "company": "Software Engineer",
+    "socials": [
+      {
+        "name": "Company Website",
+        "link": "cloud.google.com",
+        "icon": "website"
+      }
+    ]
+  },  
+  "empty": {
+    "featured": true,
+    "order": "999",
+    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/",
+    "name": "",
+    "bio": "",
+    "id": "",
+    "title": "",
+    "company": "",
+    "socials": [
+      {
+        "name": "",
+        "link": "",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Company Website",
+        "link": "",
         "icon": "website"
       }
     ]

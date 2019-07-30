@@ -2,11 +2,11 @@
 
 ### Dates and location
 
-Beam Summit Berlin will take place on the 19-20th of June in [Kulturbrauerei,](https://goo.gl/maps/jnbe1NBmib12) Berlin.
+Beam Summit Berlin will take place on the 11-122th of September in [Flamingo Hotel](https://goo.gl/maps/H7w3DvekERSXZBvg8), Las Vegas.
 
 ### Stay Informed
 
-To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [Beam Summit website](https://beamsummit.org/), and follow us on [Twitter](https://twitter.com/beamsummit). You can also follow and join the social conversation about Beam Summit Berlin via the official hashtag #beamsummit. In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
+To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [Beam Summit website](https://beamsummit.org/), and follow us on [Twitter](https://twitter.com/beamsummit). You can also follow and join the social conversation about Beam Summit North America via the official hashtag #beamsummit. In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
 
 ### Content Formats
 
@@ -14,14 +14,16 @@ During two conference days attendees will be able to attend sessions and hands-o
 
 ### Livestream & Recordings
 
-If you’re unable to attend Beam Summit in-person, you can still be part of the magic. All the lectures from the sessions will be available for free on the Beam [youtube channel](https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ) few weeks after the conference.
-
+If you’re unable to attend Beam Summit in-person, you can still be part of the magic. All the lectures from the sessions will be available for free on the Beam [YouTube channel](https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ) few weeks after the conference.
   
 ## Registration
 
-### Free admission
+### Admission
 
-All admissions to Beam Summit are free. Please make sure to [register in EventBrite](https://www.eventbrite.com/e/beam-summit-europe-2019-tickets-57933472576).
+Beam Summit is organised as a part of [ApacheCon](https://www.apachecon.com/acna19/).
+To attend, you have two options:
+- Attend only Beam Summmit sessions. Please register [here](https://www.cvent.com/events/apachecon-las-vegas-2019/registration-1436cacdafaf45bba109116f50efa788.aspx?refid=Standard&fqp=true) using *Standard Registration* and the code **BEAMSMMT19**. Price: **$99**.
+- Register for ApacheCon and attend all other ApacheCon sessions as well. Please visit the [ApacheCon website](https://www.apachecon.com/acna19/register.html) for this option. Price: **$500-$700**.
 
 ## Code of Conduct
 
@@ -42,30 +44,22 @@ The event team will be happy to help participants contact hotel/venue security (
 
 You can contact the event team at beam-summit-steering@googlegroups.com
 
-You can find the event team on the day at the registration desk at the entrance to Palais.
-
 You can also reach out to our organizers through +49 176 962 911 63
 
 Hotline for help with sexual assault: 
 
-- 030 216 88 88 [Lara Berlin](https://www.lara-berlin.de/en/)
-- 08000 116 016 [Local sexual assault hot line](https://www.hilfetelefon.de/en.html)
+- 800.656.HOPE (4673) [RAINN](https://rainn.org/)
+- 702-366-1640 [RCC](https://rcclv.org/)
 
-Local taxi company:
+Local law enforcement hot line: 702-828-3111 
 
-- Taxi Berlin: +49 30 20 20 20
-- Würfelfunk: +49 30 21 01 01
-- TaxiFunk Berlin: +49 30 44 33 22
-
-Local law enforcement hot line: 110
-
-Local emergency and non-emergency medical hot line: 112
+Local emergency and non-emergency medical hot line: 911
 
 ## Attendance Details
 
 ### Language
 
-All presentations at Beam Summit Berlin will be in English.
+All presentations at Beam Summit North America will be in English.
 
 ### Event Attire
 
