@@ -43,6 +43,11 @@
       "route": "blog",
       "permalink": "/blog/",
       "label": "Blog"
+    },
+    {
+      "route": "FAQ",
+      "permalink": "/FAQ/",
+      "label": "FAQ"
     }
   ],
   "heroSettings": {

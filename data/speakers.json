@@ -70,47 +70,25 @@
       }
     ]
   },
-  "harshit_dwivedi": {
-    "featured": true,
-    "order": "4",
-    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/harshit_dwivedi.jpg",
-    "name": "",
-    "bio": "",
-    "id": "harshit_dwivedi",
-    "title": "",
-    "company": "",
-    "socials": [
-      {
-        "name": "Twitter",
-        "link": "https://twitter.com/harshithdwivedi",
-        "icon": "twitter"
-      },
-      {
-        "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/hadwivedi/",
-        "icon": "linkedin"
-      },
-      {
-        "name": "Company Website",
-        "link": "",
-        "icon": "website"
-      }
-    ]
-  },
   "robert_burke": {
     "featured": true,
     "order": "5",
-    "photoUrl": "https://sessionize.com/image?f=7d44741b071d0587acc034a32877ef62,400,400,True,False,914776d9-4df3-4e34-ae0d-93a0cd5bc1f5.jpg",
+    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/robert_burke.png",
     "name": "Robert Burke",
-    "bio": "Robert is constantly working on managing his time, but really just wishes he could be multiple places at once, since that would be simpler all around. \r\nWhen he's not programming in Go,  lately, he's probably not programming at all.",
+    "bio": "Robert is constantly working on managing his time, but really just wishes he could be multiple places at once, since that would be simpler all around. When he's not programming in Go, lately, he's probably not programming at all.",
     "id": "robert_burke",
-    "title": "Distributed Gopher Wrangler",
-    "company": "Distributed Gopher Wrangler",
+    "title": "Senior Software Engineer",
+    "company": "Google",
     "socials": [
       {
         "name": "Twitter",
         "link": "http://twitter.com/lostluck",
         "icon": "twitter"
+      },
+      {
+        "name": "Github",
+        "link": "http://github.com/lostluck",
+        "icon": "github"
       }
     ]
   },
@@ -129,14 +107,14 @@
     "order": "7",
     "photoUrl": "https://sessionize.com/image?f=0131f109704181723ca8869a2422a3dd,400,400,True,False,0a2e6399-781b-4173-94c2-a7808afd916f.jpg",
     "name": "Ismaël Mejía",
-    "bio": "Software Engineer with more than ten years of experience designing and developing information systems for financial groups, telecom companies and startups. Focused on Big Data and Cloud architectures (aka Distributed Systems). He works at Talend France as an Open Source Software Engineer. He is an Apache Beam committer and PMC member and an enthusiastic contributor to multiple open source projects.",
+    "bio": "Software Engineer with more than ten years of experience designing and developing information systems for financial groups, telecom companies and startups. Focused on Big Data and Cloud architectures (aka Distributed Systems). He works at Talend France as an Open Source Software Engineer. He is an Apache Beam committer and PMC member andan enthusiastic contributor to multiple open source projects.", 
     "id": "ismal_meja",
     "title": "Software Engineer",
-    "company": "Software Engineer at Talend",
+    "company": "Talend",
     "socials": [
       {
         "name": "Twitter",
-        "link": "https://www.twitter.com/in/iemejia/",
+        "link": "https://twitter.com/iemejia/",
         "icon": "twitter"
       },
       {
@@ -158,8 +136,8 @@
     "name": "Alex Van Boxel",
     "bio": "Alex Van Boxel is a Big Data and Cloud Architect and Veepee.com. He loves working on operational requirement and kicking new initiatives out of the ground. Alex has a engineering and testing background in Research and Development at Alcatel-Lucent and Progress Software.\r\n\r\nHe loves talking about technology and sharing his knowledge through mentoring, writing articles and public speaking.",
     "id": "alex_van_boxel",
-    "title": "Veepee, Lead Data Architect",
-    "company": "Veepee, Lead Data Architect",
+    "title": "Lead Data Architect",
+    "company": "Veepee",
     "socials": [
       {
         "name": "Twitter",
@@ -308,7 +286,7 @@
     "order": "14",
     "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/hai_lu.jpg",
     "name": "Hai Lu",
-    "bio": "",
+    "bio": "Hai is a staff software engineer from streaming infrastructure team (Apache Samza, Apache Kafka, Brooklin, etc.) at LinkedIn, with multi-years experience in the area of stream processing, data pipelines at scale. He is now focusing on Samza runner for Apache Beam API, stream processing in Python as well as stream processing applications in machine learning.",
     "id": "hai_lu",
     "title": "Staff Software Engineer",
     "company": "LinkedIn",
@@ -488,7 +466,85 @@
         "icon": "website"
       }
     ]
+  },
+  "austin_bennett": {
+      "featured": true,
+      "order": "22",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fabennett.JPG?alt=media&token=8fb01b86-d6e3-4b25-b309-be9ea6a1815e",
+      "name": "Austin Bennett",
+      "bio": "Austin Bennett works for Sling Media (a DISH Company), mentors aspiring Data Scientists through Thinkful.com (a distributed/online bootcamp), as well as covering odds and ends for Bamboozoology, LLC. He is also a Cogntive Linguist and Researcher with an interest in Multimodal Communication; currently those pursuits are largely through RedHenLab.org. He is enthusiastic about the promise of Apache Beam, and Open Source Software generally."
   },  
+  "pablo_estrada": {
+      "featured": true,
+      "photoUrl": "https://sessionize.com/image?f=36ceb1014f60c83430680c419af66b3e,400,400,True,False,6014f0f4-250f-4395-ada8-75db938e216f.jpg",
+      "name": "Pablo Estrada",
+      "bio": "Pablo is a Software Engineer from Mexico City. He lives in Seattle and works on Google's Cloud Dataflow product and is a committer for Apache Beam. He's worked all across the stack in Python and Java. His favorite activities are traveling, and getting drunk with the locals.",
+      "id": "pablo_estrada",
+      "title": "Apache Beam Committer.",
+      "company": "Google",
+      "order": "23",
+      "socials": [
+          {
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/in/pabloem1/",
+              "icon": "linkedin"
+          },
+          {
+              "name": "Company Website",
+              "link": "https://cloud.google.com/dataflow/",
+              "icon": "website"
+          }
+      ]
+  },
+  "ryo_okubo": {
+    "featured": true,
+    "order": "24",
+    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/ryo_okubo",
+    "name": "Ryo Okubo",
+    "bio": "I love software development, C++ and cats :)",
+    "id": "ryo_okubo",
+    "title": "Software Engineer",
+    "company": "Merpay, Inc",
+    "socials": [
+      {
+        "name": "Github",
+        "link": "https://github.com/syucream",
+        "icon": "github"
+      },
+      {
+        "name": "Company Website",
+        "link": "https://jp.merpay.com/",
+        "icon": "website"
+      }
+    ]
+  },
+  "shuichi_suzuki": {
+    "featured": true,
+    "order": "25",
+    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/shuichi_suzuki",
+    "name": "Shuichi Suzuki",
+    "bio": " Having developed Stream Data Processing System using the Apache Beam with Spotify Scio on GCS, currently working with Mercari, inc as a Data Engineer.",
+    "id": "shuichi_suzuki",
+    "title": "Software Engineer",
+    "company": "Mercari, inc",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/shuichisuzuki/?locale=en_US",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Company Website",
+        "link": "https://www.mercari.com/",
+        "icon": "website"
+      },
+      {
+        "name": "Github",
+        "link": "https://github.com/shoe116",
+        "icon": "github"
+      }
+    ]
+  },
   "empty": {
     "featured": true,
     "order": "999",
@@ -512,3 +568,4 @@
     ]
   }
 }
+

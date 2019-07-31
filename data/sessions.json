@@ -170,6 +170,13 @@
         "tags": [],
         "complexity": []
     },
+    "1014": {
+        "speakers": [],
+        "title": "TBA",
+        "description": null,
+        "tags": [],
+        "complexity": []
+    },
     "1111": {
         "title": "Apache Arrow + Apache Beam: A vision for cross-language, columnar data pipelines",
         "description": "Apache Arrow and Apache Beam deserve to be together. It is a stated goal of both projects to provide mechanisms for performing data processing tasks across many languages. To accomplish this, both projects define a common binary 'model' and provide multiple language implementations of that model. <br><br>However, they are approaching the overarching problem of cross-language data processing from two very different angles: Arrow is primarily concerned with moving columnar data across language boundaries with minimal overhead and providing optimized computation primitives to operate on that data, while Beam seeks to enable users to write scalable data pipelines in their language of choice and execute them on any distributed data-processing system. There is significant overlap between these two problem spaces, and we should consider using these models together for the benefit of both projects.<br><br>In this talk, I will describe both of these projects at a high-level, and present a vision for how they can be used together. I will also discuss some of the concerns around using a batched columnar data format in the Beam model, along with potential solutions.",
@@ -252,7 +259,7 @@
     },
     "1127": {
         "description": "We’ve started to provide our stream based data pipeline by using Google Cloud Dataflow and Apache Beam since 2018 fall. It collects event logs from microservices running on GKE, then transforms and forwards the logs to GCS and BigQuery to use for analytics, etc. As you know, implementing and operating streaming jobs are challenging. We’re encountered various issues during that time.<br><br>I’d like to share our knowledge on development and operation perspective. There are 3 topics in the development part, 1) Implementing stream jobs with using spotify/scio, 2) How to debug the jobs, especially having DynamicDestination, 3) How to load testing, to ensure our jobs stable. And topics in the next part, 1) How to deploy new jobs safely(with avoiding data loss), 2) How to monitor the jobs and surrounding systems, and misc.",
-        "speakers": ["syucream"],
+        "speakers": ["ryo_okubo"],
         "title": "Production-ready stream data pipeline in Merpay, Inc"
     },
     "1128": {
@@ -272,7 +279,7 @@
     },
     "1131": {
         "description": "",
-        "speakers": ["austin_bennett"],
+        "speakers": ["austin_bennett", "pablo_estrada"],
         "title": "Beam Introductory Workshop"
     }
 }

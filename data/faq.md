@@ -2,7 +2,7 @@
 
 ### Dates and location
 
-Beam Summit Berlin will take place on the 11-122th of September in [Flamingo Hotel](https://goo.gl/maps/H7w3DvekERSXZBvg8), Las Vegas.
+Beam Summit Berlin will take place on the 11-12th of September in [Flamingo Hotel](https://goo.gl/maps/H7w3DvekERSXZBvg8), Las Vegas.
 
 ### Stay Informed
 
