@@ -281,5 +281,10 @@
         "description": "",
         "speakers": ["austin_bennett", "pablo_estrada"],
         "title": "Beam Introductory Workshop"
+    },
+    "1132": {
+        "description": "Apache Beam's early vision was to create a framework agnostic of execution engines or languages. This vision was not fully realized from the early beginnings. At first, Beam was only agnostic of executions engines but very much tight to one language: Java. <br><br>In the recent years much effort has been undergone to implement a language portability layer, to finally realize the vision of portability.<br><br>In this talk we want to take a look at the state of portability, how it works, and what new use cases it unlocks.",
+        "speakers": ["max_michels", "thomas_weise"],
+        "title": "The Road To Portability"
     }
 }

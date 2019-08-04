@@ -94,13 +94,30 @@
   },
   "andrew_pilloud": {
     "featured": true,
-    "title": "Apache Beam Committer, Software Engineer at Google",
-    "company": "Apache Beam Committer, Software Engineer at Google",
+    "title": "Software Engineer",
+    "company": "Google",
     "order": "6",
     "photoUrl": "https://sessionize.com/image?f=afb32339380ddfc0d97b12280c8668bd,400,400,True,False,d7-5ff5-4c05-aded-30ce209d9317.d3929cf5-948e-47e5-813d-cc451ca51194.jpeg",
     "name": "Andrew Pilloud",
-    "bio": "Andrew Pilloud is a software engineer at Google and Apache Beam committer working primarily on SQL. He has previously presented at the first ever San Francisco Beam Meetup in 2018.",
-    "id": "andrew_pilloud"
+    "bio": "Andrew Pilloud is a software engineer at Google and Apache Beam committer working on Beam SQL, Google Cloud Dataflow SQL, and ZetaSQL. He has previously presented at the first ever San Francisco Beam Meetup and the Beam Summit EU in Berlin.",
+    "id": "andrew_pilloud",
+    "socials": [
+      {
+        "name": "Company Website",
+        "link": "https://cloud.google.com",
+        "icon": "website"
+      },
+      {
+        "name": "Github",
+        "link": "http://github.com/apilloud",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/apilloud/",
+        "icon": "linkedin"
+      }
+    ]
   },
   "ismal_meja": {
     "featured": true,
@@ -205,7 +222,7 @@
     "order": "11",
     "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/micah_wylde.jpg",
     "name": "Micah Wylde",
-    "bio": "",
+    "bio": "Micah Wylde is a software engineer on Lyft's Streaming Compute team, focused on development of Apache Flink and Apache Beam. Before Lyft, he built data infrastructure for fighting internet fraud at Sift, and real-time bidding infrastructure for ads at Quantcast.",
     "id": "micah_wylde",
     "title": "Software Engineer, Streaming Platform",
     "company": "Lyft",
@@ -453,7 +470,7 @@
   "kyle_weaver": {
     "featured": true,
     "order": "21",
-    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/kyle_weaver",
+    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/kyle_weaver.jpg",
     "name": "Kyle Weaver",
     "bio": "Kyle is a Software Engineer at Google and an active contributor to Apache Beam. Prior to joining Google, he studied at Indiana University. He currently lives in the San Francisco Bay Area, and when he's not looking at a computer, you can usually find him playing cello or enjoying the sunshine.",
     "id": "kyle_weaver",
@@ -499,7 +516,7 @@
   "ryo_okubo": {
     "featured": true,
     "order": "24",
-    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/ryo_okubo",
+    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/ryo_okubo.jpg",
     "name": "Ryo Okubo",
     "bio": "I love software development, C++ and cats :)",
     "id": "ryo_okubo",
@@ -521,7 +538,7 @@
   "shuichi_suzuki": {
     "featured": true,
     "order": "25",
-    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/shuichi_suzuki",
+    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/shuichi_suzuki.jpg",
     "name": "Shuichi Suzuki",
     "bio": " Having developed Stream Data Processing System using the Apache Beam with Spotify Scio on GCS, currently working with Mercari, inc as a Data Engineer.",
     "id": "shuichi_suzuki",
@@ -545,27 +562,62 @@
       }
     ]
   },
-  "empty": {
-    "featured": true,
-    "order": "999",
-    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/",
-    "name": "",
-    "bio": "",
-    "id": "",
-    "title": "",
-    "company": "",
-    "socials": [
-      {
-        "name": "",
-        "link": "",
-        "icon": "linkedin"
+  "max_michels": {
+      "shortBio": "-",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fmmichels.jpeg?alt=media&token=de4fa859-c009-4ea9-b719-a86d8b2d0e17",
+      "name": "Maximilian Michels",
+      "sessions": {
+          "2018": [
+              {
+                  "title": "Towards Portability and Beyond",
+                  "videoId": "",
+                  "presentation": "https://drive.google.com/open?id=0B4bFLXEWuluSWWJBWXV3ZTdseWpJN1o5UFdpSzV4Qi1sSGU0",
+                  "tags": [
+                      "Use-case"
+                  ]
+              }
+          ]
       },
-      {
-        "name": "Company Website",
-        "link": "",
-        "icon": "website"
-      }
-    ]
+      "id": "max_michels",
+      "companyLogo": "/images/logos/open_source.png",
+      "title": "Software Engineer",
+      "photo": "/images/people/mmichiels.jpg",
+      "order": 26,
+      "featured": true,
+      "company": "Open Source",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fopen_source.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
+      "socials": [
+          {
+              "icon": "twitter",
+              "link": "https://twitter.com/stadtlegende",
+              "name": "Twitter"
+          },
+          {
+              "name": "LinkedIn",
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/maximilian-michels-3997299b/"
+          }
+      ],
+      "country": "Germany",
+      "bio": ""
+  },
+  "thomas_weise": {
+      "featured": true,
+      "order": "27",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Ftweise.jpg?alt=media&token=7f168499-8971-4d44-ac17-3ad5d4e60374",
+      "name": "Thomas Weise",
+      "bio": "",
+      "socials": [
+          {
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/in/thomas-weise-0b57a63/",
+              "icon": "linkedin"
+          },
+          {
+              "name": "Twitter",
+              "link": "https://twitter.com/thweise",
+              "icon": "twitter"
+          }
+      ]
   }
 }
-
