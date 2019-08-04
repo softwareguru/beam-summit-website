@@ -26,33 +26,6 @@
       }
     ]
   },
-  "jan_doms": {
-    "featured": true,
-    "order": "2",
-    "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/jan_doms.jpg",
-    "name": "Jan Doms",
-    "bio": "",
-    "id": "jan_doms",
-    "title": "Senior Software Engineer",
-    "company": "Fauna Inc.",
-    "socials": [
-      {
-        "name": "Twitter",
-        "link": "https://twitter.com/domsj",
-        "icon": "twitter"
-      },
-      {
-        "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/jan-doms-8689936",
-        "icon": "linkedin"
-      },
-      {
-        "name": "Company Website",
-        "link": "https://fauna.com/",
-        "icon": "website"
-      }
-    ]
-  },
   "reza_ardeshir_rokni": {
     "featured": true,
     "photoUrl": "https://sessionize.com/image?f=61dea42faf164a1fe9577508e5c6941a,400,400,True,False,c6-9330-4f9c-b96c-6332af8169f3.0c2a0c47-16a0-4f0d-8d3f-e57eb5de285a.jpg",
@@ -563,7 +536,6 @@
     ]
   },
   "max_michels": {
-      "shortBio": "-",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fspeakers%2Fmmichels.jpeg?alt=media&token=de4fa859-c009-4ea9-b719-a86d8b2d0e17",
       "name": "Maximilian Michels",
       "sessions": {
@@ -598,7 +570,6 @@
               "link": "https://www.linkedin.com/in/maximilian-michels-3997299b/"
           }
       ],
-      "country": "Germany",
       "bio": ""
   },
   "thomas_weise": {
