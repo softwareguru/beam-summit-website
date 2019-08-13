@@ -101,7 +101,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Beam Summit tickets grant access to all Beam Summit conference sections, coffee breaks and lunch. Accommodation and other ApacheCon sessions are NOT included in the ticket price.",
+    "ticketsDetails": "Beam Summit tickets grant access to all ApacheCon conference sections, coffee breaks and lunch. Accommodation and other ApacheCon sessions are NOT included in the ticket price.",
     "soldOut": "Sold out!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"

@@ -45,8 +45,8 @@
       "label": "Blog"
     },
     {
-      "route": "FAQ",
-      "permalink": "/FAQ/",
+      "route": "faq",
+      "permalink": "/faq/",
       "label": "FAQ"
     }
   ],

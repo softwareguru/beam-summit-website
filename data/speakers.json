@@ -4,7 +4,7 @@
     "order": "1",
     "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/brian_hulette.jpg",
     "name": "Brian Hulette",
-    "bio": "",
+    "bio": "Brian is a software engineer at Google and an active contributor to Apache Beam focusing on making schemas portable. Prior to joining Google, he worked on a wide array of projects, ranging from distributed software-defined radio systems to high-performance data visualization tools built with Apache Arrow in Javascript.",
     "id": "brian_hulette",
     "title": "Software Engineer",
     "company": "Google",
@@ -590,5 +590,16 @@
               "icon": "twitter"
           }
       ]
+  },
+  "charles_chen": {
+    "featured": true,
+    "order": "24",
+    "photoUrl": "",
+    "name": "Charles Chen",
+    "bio": "",
+    "id": "charles_chen",
+    "title": "Software Engineer",
+    "company": "Google Brain",
+    "socials": []
   }
 }

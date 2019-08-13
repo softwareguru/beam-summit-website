@@ -20,10 +20,7 @@ If you’re unable to attend Beam Summit in-person, you can still be part of the
 
 ### Admission
 
-Beam Summit is organised as a part of [ApacheCon](https://www.apachecon.com/acna19/).
-To attend, you have two options:
-- Attend only Beam Summmit sessions. Please register [here](https://www.cvent.com/events/apachecon-las-vegas-2019/registration-1436cacdafaf45bba109116f50efa788.aspx?refid=Standard&fqp=true) using *Standard Registration* and the code **BEAMSMMT19**. Price: **$99**.
-- Register for ApacheCon and attend all other ApacheCon sessions as well. Please visit the [ApacheCon website](https://www.apachecon.com/acna19/register.html) for this option. Price: **$500-$700**.
+Beam Summit is organised as a part of [ApacheCon](https://www.apachecon.com/acna19/). You can access the whole ApacheCon conference through a *reduced rate* of **$99**. Please register [here](https://www.cvent.com/events/apachecon-las-vegas-2019/registration-1436cacdafaf45bba109116f50efa788.aspx?refid=Standard&fqp=true) using *Standard Registration* and the code **BEAMSMMT19**.
 
 ## Code of Conduct
 

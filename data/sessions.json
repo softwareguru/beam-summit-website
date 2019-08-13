@@ -286,5 +286,10 @@
         "description": "Apache Beam's early vision was to create a framework agnostic of execution engines or languages. This vision was not fully realized from the early beginnings. At first, Beam was only agnostic of executions engines but very much tight to one language: Java. <br><br>In the recent years much effort has been undergone to implement a language portability layer, to finally realize the vision of portability.<br><br>In this talk we want to take a look at the state of portability, how it works, and what new use cases it unlocks.",
         "speakers": ["max_michels", "thomas_weise"],
         "title": "The Road To Portability"
-    }
+    },
+    "1133": {
+        "description": "Developing ML and deep learning applications to be deployed in production is much more than just training a model. Google has taken years of experience in developing production ML pipelines and offered the open source community TensorFlow Extended (TFX), an open source version of the ML platform that Google uses internally. Pipeline processing is a core requirement of any production ML platform, and the TFX has chosen Apache Beam to implement their pipeline. <br><br> Learn from Google’s experience in applying Beam for ML pipelines, including how TFX uses Beam and why Beam was chosen.",
+        "speakers": ["charles_chen"],
+        "title": "Apache Beam for Production Machine Learning: TensorFlow Extended (TFX)"
+    }   
 }
