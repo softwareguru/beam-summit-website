@@ -396,11 +396,16 @@
     "order": "19",
     "photoUrl": "https://storage.cloud.google.com/beam-summit-na-2019/speakers/etienne_chaochot.png",
     "name": "Etienne Chauchot",
-    "bio": "",
+    "bio": "Etienne has been working in software engineering and architecture for more than 15 years. He has been focusing on Big Data for some years. He is an Open Source fan and now works at Talend France where he contributes to Apache projects such as Apache Beam. He is a Beam committer and a PMC member.",
     "id": "etienne_chauchot",
-    "title": "Senior Open Source Software Engineer",
+    "title": "Senior Software Engineer, Beam committer and PMC member",
     "company": "Talend",
     "socials": [
+      {
+        "name": "Github",
+        "link": "https://github.com/echauchot",
+        "icon": "github"
+      },
       {
         "name": "Twitter",
         "link": "https://twitter.com/EChauchot",
@@ -552,11 +557,11 @@
       },
       "id": "max_michels",
       "companyLogo": "/images/logos/open_source.png",
-      "title": "Software Engineer",
       "photo": "/images/people/mmichiels.jpg",
       "order": 26,
       "featured": true,
-      "company": "Open Source",
+      "company": "",
+      "title": "Open Source Software Engineer",
       "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/logos%2Fopen_source.png?alt=media&token=a9999b20-2a8d-44f6-a2e2-4fa739447231",
       "socials": [
           {
@@ -578,6 +583,8 @@
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Ftweise.jpg?alt=media&token=7f168499-8971-4d44-ac17-3ad5d4e60374",
       "name": "Thomas Weise",
       "bio": "",
+      "title": "Software Engineer",
+      "company": "Lyft",
       "socials": [
           {
               "name": "LinkedIn",
