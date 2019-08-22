@@ -45,7 +45,7 @@
                 "sessions": [
                     {
                         "items": [
-                            1133
+                            1132
                         ]
                     }
                 ]
@@ -99,16 +99,32 @@
         "timeslots": [
             {
                 "startTime": "09:00",
-                "endTime": "09:50",
+                "endTime": "09:25",
                 "sessions": [
                     {
                         "items": [
                             1120
-                        ]
+                        ],
+                        "extend": 2
                     },
                     {
                         "items": [
                             1111
+                        ]
+                    }
+                ]
+            },            {
+                "startTime": "09:25",
+                "endTime": "09:50",
+                "sessions": [
+                    {
+                        "items": [
+                            
+                        ]
+                    },
+                    {
+                        "items": [
+                            1117
                         ]
                     }
                 ]
