@@ -598,6 +598,25 @@
           }
       ]
   },
+    "matthias_baetens": {
+        "featured": true,
+        "order": "28",
+        "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fmbaetens.jpg?alt=media&token=3b234e71-2579-495a-b647-7bdd979aef79",
+        "name": "Matthias Baetens",
+        "bio": "",
+        "socials": [
+            {
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/in/matthiasbaetens/",
+              "icon": "linkedin"
+            },
+            {
+              "name": "Twitter",
+              "link": "https://twitter.com/matthiasbaetens",
+              "icon": "twitter"
+            }
+          ]
+    },
   "charles_chen": {
     "featured": true,
     "order": "24",
