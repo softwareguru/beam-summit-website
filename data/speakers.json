@@ -29,13 +29,18 @@
   "reza_ardeshir_rokni": {
     "featured": true,
     "photoUrl": "https://sessionize.com/image?f=61dea42faf164a1fe9577508e5c6941a,400,400,True,False,c6-9330-4f9c-b96c-6332af8169f3.0c2a0c47-16a0-4f0d-8d3f-e57eb5de285a.jpg",
-    "name": "Reza Ardeshir Rokni",
-    "bio": "In his 6 years @Google, Reza has been lucky enough to work across many industries from gaming to banking, applying Google's Data Analytics technologies to new domains. Currently as developer advocate for Google Cloud Dataflow, he gets to have fun talking about stream processing all day long..\r\n",
+    "name": "Reza Rokni",
+    "bio": "In his 6 years @Google, Reza has been lucky enough to work with developers from many industries from Gaming to Banking, applying Google's Data Analytics technologies to new domains. Currently as developer advocate for Google Cloud Dataflow and Apache Beam, he gets to have fun talking about stream processing all day long, or should that be stream processing unbounded... :-)",
     "id": "reza_ardeshir_rokni",
-    "title": "Google , Dataflow Developer Advocate",
-    "company": "Google , Dataflow Developer Advocate",
+    "title": "Developer Advocate - Google Cloud Dataflow",
+    "company": "Google",
     "order": "3",
     "socials": [
+      {
+        "name": "Twitter",
+        "link": "http://twitter.com/rarokni",
+        "icon": "twitter"
+      },
       {
         "name": "Company Website",
         "link": "https://cloud.google.com",
@@ -224,8 +229,8 @@
     "name": "Alexey Romanenko",
     "bio": "Alexey Romanenko is Open Source Software Engineer in Talend, France with more than 17 years of experience in software development. During his career, he has been working on different projects, like high-load web services, web search engine and cloud storages. Also, a while ago, he developed and presented a course devoted to Hadoop/Cloud technologies for students. He is Apache Beam committer where he contributed to different IO components.  ",
     "id": "alexey_romanenko",
-    "title": "Open Source Software Engineer in Talend ",
-    "company": "Open Source Software Engineer in Talend ",
+    "title": "Open Source Software Engineer",
+    "company": "Talend ",
     "socials": [
       {
         "name": "Twitter",
@@ -452,8 +457,8 @@
     "name": "Kyle Weaver",
     "bio": "Kyle is a Software Engineer at Google and an active contributor to Apache Beam. Prior to joining Google, he studied at Indiana University. He currently lives in the San Francisco Bay Area, and when he's not looking at a computer, you can usually find him playing cello or enjoying the sunshine.",
     "id": "kyle_weaver",
-    "title": "Google",
-    "company": "Software Engineer",
+    "company": "Google",
+    "title": "Software Engineer",
     "socials": [
       {
         "name": "Company Website",
@@ -603,6 +608,8 @@
         "order": "28",
         "photoUrl": "https://firebasestorage.googleapis.com/v0/b/beam-summit.appspot.com/o/people%2Fteam%2Fmbaetens.jpg?alt=media&token=3b234e71-2579-495a-b647-7bdd979aef79",
         "name": "Matthias Baetens",
+        "title": "Software Engineer",
+        "company": "Arabesque S-Ray",
         "bio": "",
         "socials": [
             {
@@ -614,6 +621,11 @@
               "name": "Twitter",
               "link": "https://twitter.com/matthiasbaetens",
               "icon": "twitter"
+            },
+            {
+              "name": "Company Website",
+              "link": "https://arabesque.com/s-ray",
+              "icon": "website"
             }
           ]
     },

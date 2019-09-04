@@ -80,7 +80,7 @@
     },
     "1000": {
         "description": "In this session we will illustrate how Sky moved from an on-premise, batch-focused Hadoop based analytical system, to a streaming-oriented analytics pipeline deployed using Apache Beam and Google Cloud Dataflow. We will go through the architecture of the system, including the design decision made along the way, as well as learnings from the implementation and deployment process.  We will end the session with an end-to-end demo and code examples!",
-        "tags": [ "Technical", "Talk" ],
+        "tags": [],
         "complexity": ["Introductory and overview" ],
         "speakers": [ "matthias_baetens" ],
         "title": "Large scale streaming analytics with Apache Beam"
@@ -280,7 +280,7 @@
         "title": "Unifying Batch and Stream Data Processing with Apache Calcite and Apache Beam"
     },
     "1131": {
-        "description": "",
+        "description": "This workshop will explore the basic concepts of the Beam model and the Beam API especially in Python and Java.  There will be lectures on Beam and the Ecosystem, hands-on exercises in basic beam usage, we will dig into common usage patterns and end with tips and exercises for running Beam in Production.",
         "speakers": ["austin_bennett", "pablo_estrada"],
         "title": "Beam Introductory Workshop"
     },
