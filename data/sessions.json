@@ -263,9 +263,9 @@
         "title": "Production-ready stream data pipeline in Merpay, Inc"
     },
     "1128": {
-        "description": "Ludwig is a code-free Deep Learning toolbox based on TensorFlow open-sourced by Uber AI Labs. Ludwig is unique in its ability to help make deep learning easier to understand for non-experts and enable faster model improvement iteration cycles for experienced machine learning developers and researchers alike. By using Ludwig, experts and researchers can simplify the prototyping process and streamline data processing so that they can focus on developing deep learning architectures rather than data wrangling.<br><br>Ludwig introduces the notion of data type-specific encoders and decoders, which results in a highly modularized and extensible architecture: each type of data supported (text, images, categories, and so on) has a specific preprocessing function. <br><br>In this talk, we’ll be looking at building Beam pipelines to programmatically create Deep Learning models with Ludwig for different input data types for both model training and inference using Beam-Python SDK. We will be showing 2 examples of training deep learning classifiers with text and images on an unbounded source and running inference on that.",
-        "speakers": ["suneel_marthi"],
-        "title": "Beaming Deep Learning with Ludwig"
+        "description": "Empty slot",
+        "speakers": [""],
+        "title": "Empty slot"
     },
     "1129": {
         "description": "Apache Beam provides a unified programming model to execute batch and streaming pipelines on all the popular big data engines. The translation layer from Beam to the chosen big data engine is called a runner.<br><br>The current runner for Apache Spark is based on the RDD/DStream framework. However, there is an ongoing work to move it to Spark next generation framework a.k.a structured streaming. This talk will present why structured streaming is a good fit for Apache Beam, why it is worth the effort, and will give some feedback on how Apache Beam has solved the challenge, what the tough points and the sweet points were.",
