@@ -80,8 +80,6 @@
     },
     "1000": {
         "description": "In this session we will illustrate how Sky moved from an on-premise, batch-focused Hadoop based analytical system, to a streaming-oriented analytics pipeline deployed using Apache Beam and Google Cloud Dataflow. We will go through the architecture of the system, including the design decision made along the way, as well as learnings from the implementation and deployment process.  We will end the session with an end-to-end demo and code examples!",
-        "tags": [],
-        "complexity": ["Introductory and overview" ],
         "speakers": [ "matthias_baetens" ],
         "title": "Large scale streaming analytics with Apache Beam"
     },
