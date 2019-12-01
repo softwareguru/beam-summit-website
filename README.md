@@ -1,5 +1,7 @@
 ## Overview
+
 This repo contains the code and data for the [Beam Summit website](beamsummit.org) and is based on [Project Hoverboard](https://github.com/gdg-x/hoverboard) created by the [GDG Lviv](https://www.meetup.com/GDG-Lviv/) team.
+
 =======
 Project Hoverboard is the conference website template that helps you to set up a mobile-first conference website with blog, speaker and schedule management in a few minutes.
 
@@ -129,7 +131,7 @@ Any other issue labeled [`help wanted`](https://github.com/gdg-x/hoverboard/labe
 
 Read the full version [Code of Conduct](/CODE_OF_CONDUCT.md).
 
->>>>>>> upstream/master
+
 ## Contributors
 __Maintainer:__ [Abraham Williams](https://github.com/abraham)  
 __Authors:__ [Oleh Zasadnyy](https://github.com/ozasadnyy) and [Sophie Huts](https://github.com/sophieH29).
@@ -143,7 +145,6 @@ This project exists thanks to all the [people who contribute](https://github.com
 Most of the core team members, hoverboard contributors and contributors in the ecosystem do this open-source work in their free time. If you like this project and it makes your life easier, please donate.
 <a href="https://opencollective.com/hoverboard#backers" target="_blank"><img src="https://opencollective.com/hoverboard/backers.svg?width=890"></a>
 
->>>>>>> upstream/master
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard?ref=badge_large)
 
