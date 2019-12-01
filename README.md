@@ -2,7 +2,15 @@
 
 This repo contains the code and data for the [Beam Summit website](beamsummit.org) and is based on [Project Hoverboard](https://github.com/gdg-x/hoverboard) created by the [GDG Lviv](https://www.meetup.com/GDG-Lviv/) team.
 
+### HOW BEAM SUMMIT USES:  
+Structure:
+* Master branch will be used to keep up-to-date with Hoverboard
+* needing to add a 'main'/'landing-page' branch which will be a to-be-developed landing page
+* branches will exist for each summit
+* Each branch will be used to setup independant auto-build processes.  
+
 =======
+
 Project Hoverboard is the conference website template that helps you to set up a mobile-first conference website with blog, speaker and schedule management in a few minutes.
 
 The template is created based on 7 years of [GDG Lviv](https://www.meetup.com/GDG-Lviv/) team experience of running conferences and feedback from more than 500 event organizers from all around the world who were using previous Hoverboard versions.
@@ -23,12 +31,7 @@ Our goal is to allow event organizers to set up a professional conference websit
 | **Blog** | post announcements, updates and useful information |
 >>>>>>> upstream/master
 
-## HOW TO USE (see much from below).
-Structure:
-* Master branch will be used to keep up-to-date with Hoverboard
-* needing to add a 'main'/'landing-page' branch which will be a to-be-developed landing page
-* branches will exist for each summit
-* Each branch will be used to setup independant auto-build processes.  
+
 
 
 ## Getting Started
