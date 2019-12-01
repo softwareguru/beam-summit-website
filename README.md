@@ -22,6 +22,14 @@ Our goal is to allow event organizers to set up a professional conference websit
 | **Blog** | post announcements, updates and useful information |
 >>>>>>> upstream/master
 
+## HOW TO USE (see much from below).
+Structure:
+* Master branch will be used to keep up-to-date with Hoverboard
+* needing to add a 'main'/'landing-page' branch which will be a to-be-developed landing page
+* branches will exist for each summit
+* Each branch will be used to setup independant auto-build processes.  
+
+
 ## Getting Started
 1. [Fork repository](https://github.com/gdg-x/hoverboard/fork) and clone your fork locally
 1. Install [Node.js (v10+)](https://nodejs.org/en/download/)
