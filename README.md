@@ -33,7 +33,6 @@ Structure:
 1. [Fork repository](https://github.com/gdg-x/hoverboard/fork) and clone your fork locally
 1. Install [Node.js (v10+)](https://nodejs.org/en/download/)
 1. Install project dependencies: `npm install` or `yarn`
-<<<<<<< HEAD
 1. Create [Firebase account](https://console.firebase.google.com) and login into [Firebase CLI](https://firebase.google.com/docs/cli/): `firebase login`
 1. Update [config](/config) and [Resources](/data)
 =======
