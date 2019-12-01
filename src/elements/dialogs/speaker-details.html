@@ -18,10 +18,7 @@
 
 <dom-module id="speaker-details">
   <template>
-    <style is="custom-style" include="shared-styles dialog-styles flex flex-alignment positioning"></style>
-
-    <style>
-
+    <style include="shared-styles dialog-styles flex flex-alignment positioning">
       .photo {
         margin-right: 16px;
         width: 96px;
@@ -30,6 +27,11 @@
         background-color: var(--contrast-additional-background-color);
         transform: translateZ(0);
         flex-shrink: 0;
+      }
+
+      .subtitle {
+        font-size: 16px;
+        color: var(--secondary-text-color);
       }
 
       .badge:not(:last-of-type)::after {
@@ -45,6 +47,9 @@
         cursor: pointer;
       }
 
+      .tags {
+        margin-top: 8px;
+      }
     </style>
 
     <polymer-helmet
@@ -74,14 +79,16 @@
               sizing="cover"
               lazy-load preload fade
             ></plastic-image>
-            <h2 class="name" flex>[[speaker.name]]</h2>
+            <div>
+              <h2 class="name" flex>[[speaker.name]]</h2>
+              <div class="subtitle">[[subtitle]]</div>
+            </div>
           </div>
         </app-toolbar>
       </app-header>
 
       <div class="dialog-container content">
-        <h3 class="meta-info">[[speaker.country]]</h3>
-        <h3 class="meta-info">[[speaker.title]], [[speaker.company]]</h3>
+        <h3 class="meta-info">[[companyInfo]]</h3>
         <h3 class="meta-info" hidden$="[[isEmpty(speaker.badges)]]">
           <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
             <a
@@ -140,8 +147,8 @@
 
     // eslint-disable-next-line no-undef
     class SpeakerDetails extends UtilsFunctions(
-      // eslint-disable-next-line no-undef
-      ReduxMixin(SessionsHoC(Polymer.mixinBehaviors([Polymer.IronOverlayBehavior], Polymer.Element)))
+        // eslint-disable-next-line no-undef
+        ReduxMixin(SessionsHoC(Polymer.mixinBehaviors([Polymer.IronOverlayBehavior], Polymer.Element)))
     ) {
       static get is() {
         return 'speaker-details';
@@ -159,6 +166,14 @@
           disabledSchedule: {
             type: Boolean,
             value: () => JSON.parse('{$ disabledSchedule $}'),
+          },
+          companyInfo: {
+            type: String,
+            computed: '_computeJoin(speaker.title, speaker.company)',
+          },
+          subtitle: {
+            type: String,
+            computed: '_computeJoin(speaker.country, speaker.pronouns)',
           },
         };
       }
@@ -184,6 +199,10 @@
 
       _getCloseBtnIcon(isLaptopViewport) {
         return isLaptopViewport ? 'close' : 'arrow-left';
+      }
+
+      _computeJoin(...values) {
+        return values.filter(Boolean).join(' • ');
       }
     }
 

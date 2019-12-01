@@ -18,10 +18,7 @@
 
 <dom-module id="speakers-page">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment positioning">
       :host {
         display: block;
         height: 100%;
@@ -79,6 +76,14 @@
 
       .badge:nth-of-type(2):hover {
         transform: translate3d(25%, 75%, 20px) scale(1.1);
+      }
+
+      .badge:nth-of-type(3) {
+        transform: translate(10%, 180%);
+      }
+
+      .badge:nth-of-type(3):hover {
+        transform: translate3d(10%, 180%, 20px) scale(1.1);
       }
 
       .badge-icon {
@@ -171,7 +176,7 @@
       font-color="{$ heroSettings.speakers.fontColor $}"
       active="[[active]]"
     >
-      <div class="hero-title highlight-font">{$ heroSettings.speakers.title $}</div>
+      <div class="hero-title">{$ heroSettings.speakers.title $}</div>
       <p class="hero-description">{$ heroSettings.speakers.description $}</p>
     </hero-block>
 
@@ -190,6 +195,7 @@
       avatar-size="128px"
       avatar-circle="64px"
       horizontal-position="50%"
+      border-radius="4px"
       box-shadow="var(--box-shadow)"
       items-count="{$ contentLoaders.speakers.itemsCount $}"
       hidden$="[[contentLoaderVisibility]]"
@@ -242,7 +248,7 @@
             <div class="origin">[[speaker.country]]</div>
 
             <text-truncate lines="5">
-              <div class="bio">[[speaker.shortBio]]</div>
+              <div class="bio">[[speaker.bio]]</div>
             </text-truncate>
           </div>
 
@@ -317,9 +323,9 @@
           this.contentLoaderVisibility = 'hidden';
           const filters = selectedFilters && selectedFilters.tag ? selectedFilters.tag : [];
           const updatedSpeakers = this._filterItems(speakers, filters)
-            .map((speaker) => Object.assign({}, speaker, {
-              link: `/speakers/${speaker.id}${this.queryParams ? `?${this.queryParams}` : ''}`,
-            }));
+              .map((speaker) => Object.assign({}, speaker, {
+                link: `/speakers/${speaker.id}${this.queryParams ? `?${this.queryParams}` : ''}`,
+              }));
           this.set('speakersToRender', updatedSpeakers);
         }
       }
@@ -331,8 +337,8 @@
               const speakerData = speakersMap[id];
               speakerData && dialogsActions.openDialog(DIALOGS.SPEAKER, speakerData);
             } else {
-               this.isSpeakerDialogOpened && dialogsActions.closeDialog(DIALOGS.SPEAKER);
-               this.isSessionDialogOpened && dialogsActions.closeDialog(DIALOGS.SESSION);
+              this.isSpeakerDialogOpened && dialogsActions.closeDialog(DIALOGS.SPEAKER);
+              this.isSessionDialogOpened && dialogsActions.closeDialog(DIALOGS.SESSION);
             }
           });
         }

@@ -16,10 +16,7 @@
 
 <dom-module id="home-page">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment">
       :host {
         display: block;
         height: 100%;
@@ -97,7 +94,7 @@
 
       @media (min-height: 500px) {
         hero-block {
-          height: calc(100% + 57px);
+          height: calc(100vh + 57px);
           max-height: calc(100vh + 1px);
         }
 
@@ -116,7 +113,7 @@
 
       @media (min-width: 812px) {
         hero-block {
-          height: calc(100% + 65px);
+          height: calc(100vh + 65px);
         }
 
         .hero-logo {
@@ -143,7 +140,7 @@
     >
       <div class="home-content" layout vertical center>
         <plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
-        <div class="info-items highlight-font">
+        <div class="info-items">
           <div class="info-item">{$ location.city $}. {$ dates $}</div>
           <div class="info-item">{$ heroSettings.home.description $}</div>
         </div>

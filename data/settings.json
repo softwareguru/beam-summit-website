@@ -15,9 +15,12 @@
   "dateFormat": {
     "locale": "en-US"
   },
+<<<<<<< HEAD
   "hashtag": "beamsummit",
+=======
+  "hashtag": "DevFest",
+>>>>>>> upstream/master
   "disabledSchedule": false,
-  "showSessionShortAbstract": true,
   "navigation": [
     {
       "route": "home",
@@ -52,7 +55,11 @@
   ],
   "heroSettings": {
     "home": {
+<<<<<<< HEAD
       "description": "Beam Summit Europe #beamsummit",
+=======
+      "description": "Join the commuity, learn new things!",
+>>>>>>> upstream/master
       "background": {
         "color": "#df4b2b",
         "image": "/images/backgrounds/audience.jpg"
@@ -116,8 +123,8 @@
       },
       "fontColor": "#424242"
     },
-    "cod": {
-      "title": "Code Of Conduct",
+    "coc": {
+      "title": "Code of Conduct",
       "metaDescription": "Lear more about our expectations for all those who participate in our community",
       "background": {
         "color": "#fff"
@@ -175,20 +182,27 @@
     ],
     "share": [
       {
+<<<<<<< HEAD
         "name": "twitter",
         "url": "https://twitter.com/intent/tweet?text="
       },
       {
+=======
+>>>>>>> upstream/master
         "name": "facebook",
         "url": "https://www.facebook.com/sharer.php?u="
       }
     ]
   },
+<<<<<<< HEAD
   "mailto": "contact@beamsummit.org",
   "mailchimp": {
     "url": "",
     "name": ""
   },
+=======
+  "mailto": "devfest@gdg.org.ua",
+>>>>>>> upstream/master
   "signInProviders": {
     "providersData": [
       {

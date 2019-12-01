@@ -21,10 +21,7 @@
 
 <dom-module id="schedule-page">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment">
       :host {
         display: block;
         height: 100%;
@@ -82,7 +79,7 @@
       font-color="{$ heroSettings.schedule.fontColor $}"
       active="[[active]]"
     >
-      <div class="hero-title highlight-font">{$ heroSettings.schedule.title $}</div>
+      <div class="hero-title">{$ heroSettings.schedule.title $}</div>
       <p class="hero-description">{$ heroSettings.schedule.description $}</p>
       <sticky-element slot="bottom" active="[[active]]">
         <header-bottom-toolbar></header-bottom-toolbar>
@@ -239,8 +236,8 @@
             if (active && id) {
               dialogsActions.openDialog(DIALOGS.SESSION, this.sessionsMap[id[0]]);
             } else {
-               this.isSpeakerDialogOpened && dialogsActions.closeDialog(DIALOGS.SPEAKER);
-               this.isSessionDialogOpened && dialogsActions.closeDialog(DIALOGS.SESSION);
+              this.isSpeakerDialogOpened && dialogsActions.closeDialog(DIALOGS.SPEAKER);
+              this.isSessionDialogOpened && dialogsActions.closeDialog(DIALOGS.SESSION);
             }
           });
         }

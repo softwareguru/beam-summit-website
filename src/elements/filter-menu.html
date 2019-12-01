@@ -7,10 +7,7 @@
 
 <dom-module id="filter-menu">
   <template>
-    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
-
-    <style>
-
+    <style include="shared-styles flex flex-alignment positioning">
       :host {
         display: block;
         width: 100%;
@@ -35,7 +32,7 @@
       }
 
       .filter-group {
-        margin-bottom: 32px;
+        margin-bottom: 24px;
       }
 
       .filter-title {
@@ -44,8 +41,9 @@
 
       .tag {
         margin-right: 8px;
+        margin-bottom: 8px;
         display: inline-flex;
-        font-size: 13px;
+        font-size: 15px;
         cursor: pointer;
         color: var(--color);
         text-transform: capitalize;
@@ -127,6 +125,10 @@
             <h3 class="filter-title">[[filter.title]]</h3>
             <template is="dom-repeat" items="[[filter.items]]" as="item">
               <div
+                layout
+                horizontal
+                inline
+                center
                 class="tag"
                 style$="--color: [[getVariableColor(item, 'primary-text-color')]]"
                 filter-key$="[[filter.key]]"
@@ -192,11 +194,11 @@
         if (!selected || !filters) return;
         const targetFilters = filters.map((filter) => filter.key);
         return Object.keys(selected)
-          .filter((key) => targetFilters.includes(key))
-          .reduce((aggr, key) =>
+            .filter((key) => targetFilters.includes(key))
+            .reduce((aggr, key) =>
               aggr.concat(selected[key].map((value) =>
                 ({ key, value })))
-            , []);
+                , []);
       }
 
       _toggleBoard() {
