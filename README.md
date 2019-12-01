@@ -1,5 +1,4 @@
 ## Overview
-<<<<<<< HEAD
 This repo contains the code and data for the [Beam Summit website](beamsummit.org) and is based on [Project Hoverboard](https://github.com/gdg-x/hoverboard) created by the [GDG Lviv](https://www.meetup.com/GDG-Lviv/) team.
 =======
 Project Hoverboard is the conference website template that helps you to set up a mobile-first conference website with blog, speaker and schedule management in a few minutes.
@@ -62,7 +61,6 @@ To serve locally or deploy the production app use `yarn start:prod` and `yarn de
 
 :book: Read the [Full Setup Guide](/docs/).
 
-<<<<<<< HEAD
 =======
 ### Docker-based development environment
 
@@ -93,7 +91,6 @@ The [Getting Started guide](#getting-started) is probably a good first point of 
 :white_check_mark: Compatible with **latest two** version of Chrome, Chrome for Android, Firefox, Opera, Safari, Edge.<br>
 :x: IE and Opera Mini aren't supported.
 
-<<<<<<< HEAD
 =======
 ## Technology Stack
 
