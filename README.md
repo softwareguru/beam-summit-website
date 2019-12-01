@@ -1,6 +1,14 @@
 ## Overview
 This repo contains the code and data for the [Beam Summit website](beamsummit.org) and is based on [Project Hoverboard](https://github.com/gdg-x/hoverboard) created by the [GDG Lviv](https://www.meetup.com/GDG-Lviv/) team.
 
+## HOW TO USE (see much from below).
+Structure:
+* Master branch will be used to keep up-to-date with Hoverboard
+* needing to add a 'main'/'landing-page' branch which will be a to-be-developed landing page
+* branches will exist for each summit
+* Each branch will be used to setup independant auto-build processes.  
+
+
 ## Getting Started
 1. [Fork repository](https://github.com/gdg-x/hoverboard/fork) and clone it locally
 1. Setup Environment
