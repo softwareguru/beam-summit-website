@@ -11,12 +11,12 @@
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="{{.Permalink}}">
-              <img src="{{ .Params.Image }}" alt="{{ .Title }}" class="img-fluid">
+              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid">
             </a>
             <img src="/images/flags/{{ .Params.country }}.svg" class="flag-ribbon">
           </div>
           <div class="speaker-info text-center">
-            <h4 class="mb-0 mt-3"><a href="{{.Permalink}}">{{ .Title }}</a></h4>
+            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
             <p>{{ .Params.Designation}}</p>
           </div>
         </div>

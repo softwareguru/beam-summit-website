@@ -103,11 +103,7 @@
   }
 }
 
-
-
-
 @include mobile {
-
   .navbar-nav .dropdown-menu {
     position: absolute;
   }
@@ -115,16 +111,13 @@
 }
 
 @include mobile-xs {
-
   .navbar-nav .dropdown-menu {
     position: absolute;
   }
 
 }
 
-
 @include tablet {
-
   .navbar-nav .dropdown-menu {
     position: absolute;
   }
@@ -132,7 +125,6 @@
 }
 
 @include desktop {
-
   .navbar-nav .dropdown-menu {
     position: absolute;
     left: 50%;

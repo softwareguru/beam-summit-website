@@ -81,7 +81,7 @@
       {{ range (where (where .Site.RegularPages "Type" "speakers") ".Params.featured" true) }}
 
       <div class="speaker">
-        <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
+        <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
         <h4 class="mb-0 mt-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
         <p>{{ .Params.Designation }}</p>
       </div>

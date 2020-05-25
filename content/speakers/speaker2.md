@@ -6,7 +6,7 @@ designation : "Seasoned Sourceror @ Oracle"
 country: "ch"
 twitter : "https://twitter.com/aalmiray"
 github : "https://github.com/aalmiray"
-draft: true
+featured: true
 
 ---
 
