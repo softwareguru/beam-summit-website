@@ -1,0 +1,14 @@
+.speakers-wrapper {
+	margin: 20px 0;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 240px));
+	grid-gap: 50px;
+}
+
+.speaker {
+	text-align: center;
+	cursor: pointer;
+}
+
+

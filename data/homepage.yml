@@ -1,0 +1,147 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "The future <br> & Tech Expo"
+  logo : "/images/logo-home.png"
+  bg_image: "images/banner/banner-2.jpg"
+  date_time : "August 24-28, 2020"
+  venue : "100% online and free"
+  button:
+    enable : true
+    label : "Submit a proposal"
+    link : "https://sessionize.com/beam-digital-summit-2020"
+
+
+############################## Event ##############################
+event_info:
+  enable : true
+  title : "Beam Summit 2020 is your opportunity to learn and contribute to Apache Beam!"
+  description : "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
+  cta_text: "Submit to our CFP!"
+  cta_link: "https://sessionize.com/beam-digital-summit-2020"
+  features: 
+    - number : "5"
+      label : "Days"
+      
+    - number : "15+"
+      label : "Sessions"
+
+    - number : "100%"
+      label : "Free"
+
+    - number : "Everybody"
+      label : "is welcome"
+
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+####################### pricing #############################
+pricing:
+  enable : true
+  # pricing data comes from "pricing.yml" file
+
+########################## speaker ##########################
+speakers:
+  enable : false
+  title : "Key speakers"
+  subtitle : ""
+  # speaker content comes from "content/speaker" folder
+
+######################### sponsor ############################
+sponsors:
+  enable :  true
+  title_outline : "Sponsors"
+  title : "Amazing Partners & Sponsors"
+  sponsor_group:
+    ############################ sponsor group loop
+    - title : "Amazing Partners & Sponsors"
+      sponsor:
+        # sponcor loop
+        - logo : "images/clients/client-img-1.png"
+          link : "https://examplesite.org"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-2.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-3.png"
+          link : "https://examplesite.org"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-4.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-5.png"
+          link : "https://examplesite.org"
+          
+    ############################ sponsor group loop
+    - title : "Platinum Sponsors"
+      sponsor:
+        # sponcor loop
+        - logo : "images/clients/client-img-6.png"
+          link : "https://examplesite.org"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-7.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-8.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-9.png"
+          link : "https://examplesite.org"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-1.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-2.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-3.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-4.png"
+          link : "https://examplesite.org"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-5.png"
+          link : "#"
+  
+  # call to action in sponsor
+  sponsorship:
+    enable : true
+    title : "Want to be a sponsor ?"
+    #button
+    label : "apply now"
+    link : "#"
+
+################################ venue ########################
+venue:
+  enable : true
+  title : "Venue location"
+  image : "images/bg/cta-bg.jpg"
+  date : "18 - 21 December, 2019"
+  location : "85 Golden Street, Darlinghurst <br>ERP 2019, United States"
+  button: 
+    enable : true
+    label : "View Map location"
+    link : "contact"
+
+############################### Blog ######################################
+blog:
+  enable : true
+  title_outline : "News"
+  title : "Latest News"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  # blog content comes from "content/blog" folder

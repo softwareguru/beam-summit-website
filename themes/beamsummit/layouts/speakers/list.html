@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<section class="speaker-2 section">
+  <div class="container">
+    <div class="list-content">
+      {{ .Content }}
+    </div>
+    <div class="speaker-strip">
+      {{ range .Data.Pages.ByTitle }}
+      <div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="{{.Permalink}}">
+              <img src="{{ .Params.Image }}" alt="{{ .Title }}" class="img-fluid">
+            </a>
+            <img src="/images/flags/{{ .Params.country }}.svg" class="flag-ribbon">
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="{{.Permalink}}">{{ .Title }}</a></h4>
+            <p>{{ .Params.Designation}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
