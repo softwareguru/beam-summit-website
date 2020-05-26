@@ -31,8 +31,8 @@
     <link rel="stylesheet" href='{{ $styles.Permalink | relURL }}?v={{ now.Format "200601021504" }}' media="screen">
     
     {{ "<!--Favicon-->" | safeHTML }}
-    <link rel="shortcut icon" href="{{ `favicon.ico` | absURL }}" type="image/x-icon">
-    <link rel="icon" href="{{ `favicon.ico` | absURL }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
+    <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
 
     <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 

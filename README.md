@@ -25,7 +25,7 @@ Previous editions of beam summit websites were built with [Project Hoverboard](h
 * To add a speaker create a markdown file under `/content/speakers/` (see the folder for sample files). The file name format should be `firstname-lastname.md` (this allows Hugo to automatically find the speaker and hyperlink to them from the session page). 
 * For the headshot, crop an image to 1:1 (ideally 400x400 px) and put it under `/static/images/speakers/`. Eventually we may add libs to do autocrop/resize but in the meantime do it manually. 
 * If your markdown file is not being generated/published check that you don't have `draft:true` in the meta section.
-* Note: We may later set up Netlify CMS to edit speaker markdown files through a GUI without having to go through the steps described here.
+* Note: We may later set up [Netlify CMS](https://www.netlifycms.org/) to edit speaker markdown files through a GUI without having to go through the steps described here.
 
 ### Sessions
 * Similar to speakers, create a markdown file under `/content/sessions/`. 
