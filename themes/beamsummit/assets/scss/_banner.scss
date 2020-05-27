@@ -1,34 +1,91 @@
-.section-banner {
-  background: #f6f5f3;
+.section.banner {
+  background-color: #000a54;
   height: 100vh;
+  @media (max-height:720px) {
+    height:720px;
+  }
+
+  padding-top: 80px;
+  padding-bottom: 15px;
+
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 20px  1fr 20px;
+
+  @media (min-width:768px) {
+    grid-template-columns: minmax(20px,120px) 1fr minmax(20px,80px);
+  }
+
+  .stripe-start {
+    grid-column: 1;
+		grid-row: 1;
+    align-self: start;
+    height:10px;
+    width: 100%;
+    background-color: $orange;
+
+  }
+
+  .stripe-end {
+    grid-column: 3 ;
+		grid-row: 2;
+    align-self: end;
+    height:10px;
+    width: 100%;
+    background-color: $orange;
+	}
 
 
   .banner-content {
-    h1 {
-      font-size: 100px;
-      line-height: 1.2;
-      letter-spacing: -.04em;
+    text-align: center;
+		grid-column: 2 ;
+    grid-row: 1/3 ;
+    display: grid;
 
-      @include desktop {
-        font-size: 80px;
-      }
-
-      @include tablet {
-        font-size: 60px;
-      }
-    }
-
-    span {
-      color: #444;
-      font-size: 18px;
+    @media (min-width:768px) {
+      grid-template-rows: minmax(80px, 200px)  1fr 1fr;
     }
   }
+
+  .logo {
+    padding-top: 40px;
+  }
+
+  .logo img {
+    max-width:100%;
+    max-height: 100%;
+  }
+
+  .mascot {
+    align-self: center;
+  }
+
+  .mascot img {
+    height: 140px;
+  }
+
+  .meta {
+    align-self: end;
+  }
+
+  .meta p {
+    font-family: 'Comfortaa', Roboto, cursive, sans-serif;
+    font-size:  1.8em;
+    color: $white; 
+    @media (max-width:768px) {
+      font-size: 1.4em;
+    }
+  }  
+
+
 }
 
-.banner-img {
-  position: absolute;
-  right: -160px;
-  top: 0px;
+.scroll-link {
+    margin-top: 30px;
+}
+
+.scroll-link img {
+  height: 30px;
 }
 
 .divider {
@@ -38,21 +95,26 @@
   display: block;
 }
 
+.btn-banner1 {
+  background-color: $gray-light;
+  color: $yellow2;
+  font-weight: 500;
+  letter-spacing: .1em;
 
-@include mobile {
-  .section-banner {
-    min-height: 500px;
+  &:hover {
+    color: $yellow2;
+    background-color: #e0e0e0;
   }
 }
 
-@include mobile-xs {
-  .section-banner {
-    min-height: 400px;
-  }
-}
+.btn-banner2 {
+  background-color: $yellow2;
+  color: $white;
+  font-weight: 500;
+  letter-spacing: .1em;
 
-@include tablet {
-  .section-banner {
-    min-height: 515px;
+  &:hover {
+    background-color: $yellow;
+    color: $white;
   }
 }

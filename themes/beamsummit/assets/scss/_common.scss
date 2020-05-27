@@ -1,17 +1,10 @@
+
+body {
+  scroll-behavior: smooth;
+}
+
 .section {
   padding: 40px 0px;
-}
-
-.section-sm {
-  padding: 90px 0px;
-}
-
-.section-top {
-  padding-top: 90px;
-}
-
-.section-bottom {
-  padding-bottom: 90px;
 }
 
 .mb-30 {
@@ -69,18 +62,6 @@
 
 .btn-rounded {
   border-radius: 60px;
-}
-
-.btn-banner {
-  background-color: $gray-light;
-  color: $yellow2;
-  font-weight: 700;
-  letter-spacing: .2em;
-
-  &:hover {
-    color: $yellow2;
-    background-color: #e0e0e0;
-  }
 }
 
 #nav-button {

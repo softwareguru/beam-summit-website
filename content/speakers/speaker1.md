@@ -8,6 +8,7 @@ twitter: ""
 linkedin: "https://www.linkedin.com/in/amalvaez/"
 github: ""
 featured: true
+draft: true
 
 ---
 

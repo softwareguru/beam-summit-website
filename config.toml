@@ -100,6 +100,10 @@ icon = "tf-ion-social-linkedin"
 link = "https://www.linkedin.com/company/beam-summit/"
 
 [[params.social]]
+icon = "tf-ion-social-youtube"
+link = "https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ"
+
+[[params.social]]
 icon = "fas fa-envelope"
 link = "mailto:contact@beamsummit.org"
 
@@ -131,3 +135,6 @@ link = "https://beamsummit.org/files/BeamSummit-Prospectus.pdf"
 name = "Call for papers"
 link = "https://sessionize.com/beam-digital-summit-2020/"
 
+[[params.footer_resources]]
+name = "Email us"
+link = "mailto:contact@beamsummit.org"

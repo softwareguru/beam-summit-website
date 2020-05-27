@@ -45,7 +45,7 @@ pricing:
 
 ########################## speaker ##########################
 speakers:
-  enable : true
+  enable : false
   title : "Key speakers"
   subtitle : ""
   # speaker content comes from "content/speaker" folder

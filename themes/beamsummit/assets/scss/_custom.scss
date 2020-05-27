@@ -179,11 +179,12 @@ article.swag {
 }
 
 section.coc, section.faq {
-	background-color: #f6f5f3;
-	font-size: 1.1em;
 	a {
-		color: $secondary-color;
+		color: $primary-color;
 		text-decoration: underline;
+		&:hover {
+			color: $secondary-color;
+		}
 	}
 }
 
@@ -212,13 +213,6 @@ section.sponsors {
 		font-size: 40px;
 	}
 }
-
-.banner-content {
-	margin-top: 20vh;
-	font-size:2em;
-	font-family: 'Comfortaa', Roboto, cursive, sans-serif;
-	color: $white;
-  }
   
   .event-info .content {
 	display: grid;
@@ -268,10 +262,15 @@ section.sponsors {
 	  &:hover {
 		  color: $yellow;
 	  }
-
 	}
 
 .list-content {
 	margin-bottom: 1.6em;
-	font-size:1.1em;
 }	
+
+#event-info {
+	display: block;
+	position: relative;
+	top: -100px;
+	visibility: hidden;
+}

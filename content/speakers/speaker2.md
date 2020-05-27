@@ -7,7 +7,7 @@ country: "ch"
 twitter : "https://twitter.com/aalmiray"
 github : "https://github.com/aalmiray"
 featured: true
-
+draft: true
 ---
 
 Speaker bio in markdown

@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data }}
 
 {{ with $data.sponsors }}
-<section class="section-sponsors section">
+<section class="section sponsors">
   <div class="container">
     {{ partial "section_title.html" . }}
     {{ range .sponsor_group }}
