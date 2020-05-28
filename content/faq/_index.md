@@ -1,11 +1,10 @@
 ---
-title: "Frequently Asked Questions"
-date: 2019-09-10T13:51:25+06:00
-draft: false
-description: "this is meta description"
-bg_image : "images/bg/cta-bg.jpg"
----
+title: Frequently Asked Questions
+date: 2019-09-10T07:51:25.000+00:00
+description: Details for participation in Beam Summit.
+bg_image: images/bg/cta-bg.jpg
 
+---
 ### How can I attend the sessions?
 The live event will be hosted on the crowdcast platform. In order to register and watch the sessions please visit https://crowdcast.io/e/beamsummit
 
