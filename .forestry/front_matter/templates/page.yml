@@ -7,10 +7,10 @@ fields:
   config:
     required: false
   label: Title
-- name: linkTitle
+- name: url
   type: text
   config:
     required: false
-  label: Link title
+  label: url
 pages:
 - content/coc.md
