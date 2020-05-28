@@ -21,4 +21,5 @@ fields:
   name: linkedin
   label: linkedin
 pages:
+- content/team/griselda-cuevas.md
 - content/team/matthias-baetens.md
