@@ -20,3 +20,5 @@ fields:
 - type: text
   name: linkedin
   label: linkedin
+pages:
+- content/team/matthias-baetens.md
