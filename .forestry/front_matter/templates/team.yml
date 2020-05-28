@@ -1,0 +1,19 @@
+---
+label: Team
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: twitter
+  label: twitter
+- type: text
+  name: linkedin
+  label: linkedin
