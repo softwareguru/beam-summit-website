@@ -3,6 +3,8 @@ title: Frequently Asked Questions
 date: 0202-05-01T08:30:24+00:00
 description: Details for participation in Beam Summit.
 bg_image: images/bg/cta-bg.jpg
+url: /faq
+type: faq
 
 ---
 ### How can I attend the sessions?
