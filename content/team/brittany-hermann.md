@@ -1,9 +1,8 @@
 ---
-title: "Brittany Hermann"
-date: 2020-04-06T19:23:58-05:00
-image : "/images/team/brittany-hermann.jpg"
-twitter: ""
-linkedin: "https://www.linkedin.com/in/brittany-hermann/"
+title: Brittany Hermann
+date: 2020-04-07T00:23:58.000+00:00
+image: "/images/team/brittany-hermann.jpg"
+twitter: https://twitter.com/britt_hermann
+linkedin: https://www.linkedin.com/in/brittany-hermann/
 
 ---
-
