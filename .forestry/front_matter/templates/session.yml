@@ -1,0 +1,25 @@
+---
+label: Session
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: list
+  name: speakers
+  label: speakers
+- type: number
+  name: day_num
+  label: day_num
+- type: datetime
+  name: time_start
+  label: time_start
+- type: datetime
+  name: time_end
+  label: time_end
+- type: text
+  name: video
+  label: video
+- type: text
+  name: slides
+  label: slides
