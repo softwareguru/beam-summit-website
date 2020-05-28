@@ -17,7 +17,7 @@ fields:
   label: image
 - type: text
   name: twitter
-  label: twitter
+  label: Twitter url
 - type: text
   name: linkedin
   label: linkedin
