@@ -14,11 +14,15 @@ sections:
   label: Speakers
   create: documents
   match: "**/*"
+  templates:
+  - speaker
 - type: directory
   path: content/team
   label: Team
   create: all
   match: "**/*"
+  templates:
+  - team
 - type: directory
   path: content/sessions
   label: Sessions
@@ -26,7 +30,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content/faq
-  label: Faq
+  label: FAQ
   create: all
   match: "**/*"
 - type: directory
