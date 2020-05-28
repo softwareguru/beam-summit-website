@@ -12,3 +12,5 @@ fields:
   config:
     required: false
   label: Link title
+pages:
+- content/hello-page.md
