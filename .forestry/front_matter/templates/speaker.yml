@@ -41,3 +41,5 @@ fields:
   name: featured
   label: Featured
   description: For featured/keynote speakers that will appear in the homepage.
+pages:
+- content/speakers/speaker2.md
