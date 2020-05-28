@@ -14,13 +14,13 @@ fields:
   hidden: true
 - type: file
   name: image
-  label: image
+  label: Picture
 - type: text
   name: twitter
   label: Twitter url
 - type: text
   name: linkedin
-  label: linkedin
+  label: Linkedin url
 pages:
 - content/team/brittany-hermann.md
 - content/team/griselda-cuevas.md
