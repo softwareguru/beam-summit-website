@@ -1,10 +1,13 @@
 ---
 label: Speaker
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
   label: Name
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
