@@ -10,7 +10,7 @@ section.register a {
 	color: $secondary-color;
 }
 
-section.swag a {
+section.swag a, section.page a {
 	color: $secondary-color;
     text-decoration: underline;
 }
@@ -82,20 +82,6 @@ section.register p, section.swag p {
 	justify-content: center;
 }
 
-.speaker-strip {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-gap: 20px;
-
-	@include tablet {
-		grid-template-columns: repeat(3, 1fr);
-	}
-
-	@include mobile {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-}
 
 .team-strip {
 	display: grid;
@@ -130,7 +116,25 @@ article.swag {
 	}
 }
 
-.sponsor-strip.sponsor {
+.sponsor-strip.platinum {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+	justify-content: space-between;
+	justify-items: center;
+	align-items: center;
+
+	@include tablet {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@include mobile {
+		grid-template-columns: 1fr;
+	}
+
+}
+
+.sponsor-strip.gold {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 40px;
@@ -139,7 +143,7 @@ article.swag {
 	align-items: center;
 
 	@include tablet {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 	@include mobile {

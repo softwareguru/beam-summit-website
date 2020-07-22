@@ -4,5 +4,7 @@ description: "We have a great team of speakers that will share their experience 
 
 ---
 
-We are currently confirming an amazing team of speakers that will share their experience and insight on Apache Beam. More details to follow soon!
+We are gathering an amazing team of speakers that will share their experience and insight on Apache Beam.
+
+These are the speakers that have confirmed their participation so far.
 

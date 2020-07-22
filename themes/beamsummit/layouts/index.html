@@ -106,5 +106,11 @@
 {{ end }}
 <!-- /sponsor -->
 
+<!-- blog -->
+{{ if $data.homepage.blog.enable }}
+{{ partial "blog.html" . }}
+{{ end }}
+<!-- /blog -->
+
 
 {{ end }}

@@ -7,7 +7,7 @@ banner:
   date_time : "August 24-28, 2020"
   venue : "100% online and free"
   button:
-    enable : true
+    enable : false
     label : "Submit a proposal"
     link : "https://sessionize.com/beam-digital-summit-2020"
 
@@ -126,22 +126,10 @@ sponsors:
     label : "apply now"
     link : "#"
 
-################################ venue ########################
-venue:
-  enable : true
-  title : "Venue location"
-  image : "images/bg/cta-bg.jpg"
-  date : "18 - 21 December, 2019"
-  location : "85 Golden Street, Darlinghurst <br>ERP 2019, United States"
-  button: 
-    enable : true
-    label : "View Map location"
-    link : "contact"
 
 ############################### Blog ######################################
 blog:
   enable : true
-  title_outline : "News"
   title : "Latest News"
   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
   # blog content comes from "content/blog" folder

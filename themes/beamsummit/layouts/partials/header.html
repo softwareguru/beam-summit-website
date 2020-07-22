@@ -15,9 +15,6 @@
       <!--  MAIN MENU  -->
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href='{{ "/" | relURL }}'>{{.Site.Params.Home}}</a>
-          </li>
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
             <li class="nav-item dropdown">
