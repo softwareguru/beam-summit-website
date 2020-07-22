@@ -1,7 +1,7 @@
 ---
 id: ay
-title: "Building big data pipelines for deep learning"
-url: /sessions/a7t
+title: "Workshop: Building big data pipelines for deep learning"
+url: /sessions/workshop-building-big-data-pipelines
 speakers:
   - Jenny Lu
 time_start: 2020-08-24T20:00:00.000Z
