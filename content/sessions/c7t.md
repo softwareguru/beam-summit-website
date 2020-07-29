@@ -4,6 +4,7 @@ title: "Simpler Python Pipelines with Schemas, SQL, and Dataframes"
 url: /sessions/simpler-python-pipelines
 speakers:
   - Brian Hulette
+  - Robert Bradshaw
 time_start: 2020-08-26T20:20:00.000Z
 time_end:   2020-08-26T21:00:00.000Z
 day_num: 3

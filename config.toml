@@ -1,9 +1,11 @@
 
 ######################## default configuration ####################
-baseURL = "https://beamsummit.org"
+baseURL = "https://2020.beamsummit.org"
 title = "Beam Digital Summit 2020"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
+RemovePathAccents = true
+
 
 theme = "beamsummit"
 # post pagination

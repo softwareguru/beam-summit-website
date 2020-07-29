@@ -16,8 +16,10 @@ sponsor_group:
   - title : "Community"
     slug : "community"
     sponsor:                  
+      - logo : "/images/logos/apache.svg"
+        link : "https://www.apache.org"
       - logo : "/images/logos/flink-forward.jpg"
-        link : "https://www.flink-forward.org/"
+        link : "https://www.flink-forward.org"
           
                       
 # call to action in sponsor

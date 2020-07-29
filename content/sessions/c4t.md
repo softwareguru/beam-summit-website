@@ -1,7 +1,7 @@
 ---
 id: c4t
 title: "Using Open Source Tech to Swap Out Components of Your Data Pipeline"
-url: /sessions/c4t
+url: /sessions/data-pipeline-open-source
 speakers:
   - Rustam Mehmandarov
   
