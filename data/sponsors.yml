@@ -4,14 +4,21 @@ sponsor_group:
   - title : "Platinum"
     slug : "platinum"
     sponsor:
-      - logo : "/images/logos/google.png"
-        link : "https://google.com"
+      - logo : "/images/logos/google-cloud.png"
+        link : "https://cloud.google.com"
 
   - title : "Gold"
     slug : "gold"
     sponsor:
       - logo : "/images/logos/spotify.png"
         link : "https://rnd.atspotify.com"
+
+  - title : "Silver"
+    slug : "silver"
+    sponsor:
+      - logo : "/images/logos/polidea.png"
+        link : "https://www.polidea.com"
+
 
   - title : "Community"
     slug : "community"
@@ -20,6 +27,10 @@ sponsor_group:
         link : "https://www.apache.org"
       - logo : "/images/logos/flink-forward.jpg"
         link : "https://www.flink-forward.org"
+      - logo : "/images/logos/manning.png"
+        link : "https://www.manning.com"
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com"
           
                       
 # call to action in sponsor
