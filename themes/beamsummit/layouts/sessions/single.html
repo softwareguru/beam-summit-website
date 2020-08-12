@@ -1,22 +1,10 @@
 {{ define "main" }}
 
-<section class="session-single section">
+<section class="session">
   <div class="container">
     <h2>{{ .Title }}</h2>
-    {{ if .Params.speakers }}
-    <div>
-      Speaker(s):
-      <span class="speakers-list">
-        {{ range .Params.speakers }}
-        {{ with $.Site.GetPage "taxonomyTerm" (printf "speakers/%s" (urlize .)) }}
-        <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-        {{ end }}
-        {{ end }}
-      </span>
-    </div>
-    {{ end }}
     {{ if .Params.tracks }}
-    <div>
+    <div id="session-track">
       Track:
       {{ range .Params.tracks }}
       {{ with $.Site.GetPage "taxonomyTerm" (printf "tracks/%s" (urlize .)) }}
@@ -25,10 +13,9 @@
       {{ end }}
     </div>
     {{ end }}
-    <div>
+    <div id="session-time">
       {{ $time_start := .Params.time_start | time  }}
       {{ $time_end := .Params.time_end | time  }}
-      When:
       <span id="adjTime"></span> <em>({{ $time_start.Format "Jan-2 15:04 MST" }})</em>
 
       <script>
@@ -45,7 +32,27 @@
       </script>
     </div>
     -----
-    <div class="content mt-2">{{ .Content }}</div>
+    {{ $speakerLength := len .Params.speakers }}
+    {{ if lt $speakerLength 3 }}
+    <div class="speakers-vertical">
+    {{ else }}
+    <div class="speakers-horizontal">
+    {{ end }}  
+      <div class="abstract">{{ .Content }}</div>
+      <div class="speakers">
+        {{ range .Params.speakers }}
+          {{ with $.Site.GetPage "taxonomyTerm" (printf "speakers/%s" (urlize .)) }}
+          <div class="card mb-2">
+            <a href="{{ .Permalink }}"><img class="card-img-top" src="{{.Params.image}}"></a>
+            <div class="card-body">
+              <h5 class="card-title">{{.Title}}</h5>
+              <span class="card-text">{{.Params.designation}}</span>
+            </div>
+          </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>  
     {{ with .Params.slides }}
     <div class="mb-3"><a href="/slides/{{ . }}" download>Download slides</a></div>
     {{ end }}
