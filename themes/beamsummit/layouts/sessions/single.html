@@ -32,8 +32,9 @@
       </script>
     </div>
     -----
+
     {{ $speakerLength := len .Params.speakers }}
-    {{ if lt $speakerLength 3 }}
+    {{ if lt $speakerLength 2 }}
     <div class="speakers-vertical">
     {{ else }}
     <div class="speakers-horizontal">

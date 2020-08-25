@@ -114,6 +114,10 @@ a {
   color: inherit;
 }
 
+.abstract a, p a {
+  color: $primary-color !important;
+}
+
 .title {
   strong {
     color: $primary-color;

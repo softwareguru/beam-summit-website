@@ -1,9 +1,7 @@
 ---
-title: "Kit Virtual"
-description: "Participa en las promociones que ofrecen los patrocinadores de SG Virtual."
+title: "Virtual Swag Bag"
+description: "Our sponsors and partners have been very kind to offer swag and giveaways for participants. Check the details and see how to get each one."
 
 ---
 
-## Participa en las promociones
-
-El kit virtual reúne promociones que ofrecen los distintos patrocinadores de SG Virtual. Consulta cada una y participa.
+Our sponsors and partners have been very kind to offer swag and giveaways for participants. Check the details and see how to get each one.

@@ -1,6 +1,6 @@
 ---
 id: a3s
-title: "Streaming, Fast and Slow"
+title: "Streaming, fast and slow"
 url: /sessions/streaming-fast-slow
 speakers:
   - Caito Scherr

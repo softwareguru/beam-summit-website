@@ -31,6 +31,8 @@ sponsor_group:
         link : "https://www.manning.com"
       - logo : "/images/logos/packt.png"
         link : "https://www.packtpub.com"
+      - logo : "/images/logos/arabesque2.png"
+        link : "https://www.arabesque.com"
           
                       
 # call to action in sponsor

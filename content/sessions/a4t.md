@@ -1,6 +1,6 @@
 ---
 id: a4t
-title: "From Pipeline To Execution - What happens when you run() your pipeline?"
+title: "From pipeline to execution: What happens when you run() your pipeline?"
 url: /sessions/pipeline-to-execution
 speakers:
   - Maximilian Michels

@@ -1,6 +1,6 @@
 ---
 id: b2s
-title: "Beam Schema Options"
+title: "Beam schema options"
 url: /sessions/beam-schema-options
 speakers:
   - Alex Van Boxel

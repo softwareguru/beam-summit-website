@@ -1,6 +1,6 @@
 ---
 id: a1k
-title: "Keynote: Apache Beam: Past, Present, and Future"
+title: "Keynote: Apache Beam: Past, present and future"
 url: /sessions/beam-past-present-future
 speakers:
   - Kenneth Knowles

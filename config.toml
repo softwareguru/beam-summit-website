@@ -45,29 +45,39 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   weight = 1
 
   [[menu.main]]
-  name = "News"
-  URL = "/blog"
-  weight = 4
-
-  [[menu.main]]
   name = "Program"
   URL = "/program"
   weight = 2
 
   [[menu.main]]
+  name = "Workshops"
+  URL = "/workshops"
+  weight = 3
+
+  [[menu.main]]
+  name = "Swag"
+  URL = "/swag"
+  weight = 4
+
+  [[menu.main]]
   name = "Speakers"
   URL = "/speakers"
-  weight = 3
+  weight = 5
+
+  [[menu.main]]
+  name = "News"
+  URL = "/blog"
+  weight = 6
 
   [[menu.main]]
   name = "FAQ"
   URL = "/faq"
-  weight = 4
+  weight = 7
 
   [[menu.main]]
   name = "Team"
   URL = "/team"
-  weight = 5
+  weight = 8
 
 
 #################### default parameters ################################
@@ -102,8 +112,9 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Register"
-link = "https://crowdcast.io/e/beamsummit"
+label = "Live"
+label2 = "Watch now!"
+link = "/live"
 
 
 

@@ -3,8 +3,6 @@ title: Frequently Asked Questions
 date: 0202-05-01T08:30:24+00:00
 description: Details for participation in Beam Summit.
 bg_image: images/bg/cta-bg.jpg
-url: /faq
-type: faq
 
 ---
 ## How can I watch the sessions?
@@ -16,7 +14,7 @@ When the event starts, we will have a [Live](/live) page in this site where you 
 Participation in Beam Summit is completely free. You can register for free and watch all sesions.
 
 ## How can I interact with other participants?
-We will be using a slack workspace for interaction between participants. We will soon provide the details.
+We will be using slack to interact with speakers and other participants. Please join the [#beam-summit-attendees](https://the-asf.slack.com/archives/C019KUAM1A4) channel in the ASF slack workspace. If you need to create an account, please [click here](https://s.apache.org/slack-invite) so that you can create an account without an invitation or ASF email.
 
 ## Will sessions be recorded?
 All sessions will be recorded. They will be available in two stages with different qualities:

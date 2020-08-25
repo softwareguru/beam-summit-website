@@ -1,6 +1,6 @@
 ---
 id: b4t
-title: "Wiggly Air and Data Processing at Spotify"
+title: "Wiggly air and data processing at Spotify"
 url: /sessions/wiggly-air-data-processing-spotify
 speakers:
   - Lynn Root

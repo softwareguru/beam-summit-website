@@ -4,8 +4,7 @@ title: "Dataflow Flex Templates"
 url: /sessions/dataflow-flex-templates
 speakers:
   - Sameer Farooqui
-  - Mehran Nazir
-  - Sameer A
+  - Prathap Reddy
 time_start: 2020-08-27T16:00:00.000Z
 time_end:   2020-08-27T16:20:00.000Z
 day_num: 4
