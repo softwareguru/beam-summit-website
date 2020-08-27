@@ -5,6 +5,7 @@ url: /sessions/beam-aws-workshop
 speakers:
   - Steffen Hausmann
   - Karthi Thyagarajan
+  - Rajan Pattel
 time_start: 2020-08-26T16:00:00.000Z
 time_end:   2020-08-26T18:00:00.000Z
 day_num: 3
@@ -16,15 +17,12 @@ In this workshop, we explore an end to end example that combines batch and strea
 
 So you will not only learn how you can leverage Beam's expressive programming model to unify batch and streaming you will also learn how AWS can help you to effectively build and operate Beam based streaming architectures with low operational overhead.
 
-### Prerequisites:
-We will prepare AWS accounts for every participant, so you don’t need to user your private or corporate AWS accounts. However, please make sure that you have an [RDP client](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/connecting_to_windows_instance.html#rdp-prereqs) installed on your local machine.
 
 
-
-#### Registration
-This workshop has a limited capacity of 60 attendees. If you are commited to participating, please register at https://us02web.zoom.us/webinar/register/WN_nHLU3jcgTzqc2wr28QNK9Q
+#### Running the workshop on your own
+If you were not able to join this live workshop, you can still run it on your own. The instructions and all materials 
+are available at https://streaming-analytics.workshop.aws/en/beam-on-kda.html  
 
 #### Slack channel
 If you have any questions about this workshop or need assistance please join the **#beam-summit-aws** channel in the [ASF slack workspace](https://the-asf.slack.com). 
-
 

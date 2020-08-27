@@ -27,15 +27,17 @@
             {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.day_num" ($.Scratch.Get `counter`)) ".Params.time_start" }}
             <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
                 <div class="time">
-                <h4 class="text-color">
-                {{ with .Params.time_start | time  }}
-                  {{ .Format "15:04" }}
-                {{ end }}
-                -
-                {{ with .Params.time_end | time  }}
-                  {{ .Format "15:04" }} UTC
-                {{ end }}
+                  <h4 id="time-{{.Params.id}}" class="text-color" >
                  </h4>
+                 <div  class="utc-time font-italic">
+                 {{ with .Params.time_start | time  }}
+                   {{ .Format "(15:04" }}
+                 {{ end }}
+                 -
+                 {{ with .Params.time_end | time  }}
+                  {{ .Format "15:04" }} UTC)
+                 {{ end }}
+                 </div>
                </div>
                 <div class="content">                
                 <h3>
@@ -53,5 +55,19 @@
     </div>
   </div>
 </section>
+
+<script>
+  function adjTime(elemId, timeStart, timeEnd) {
+      let dateStart = new Date(Date.parse(timeStart));
+      let dateEnd = new Date(Date.parse(timeEnd));
+      let adjString = dateStart.getHours()+":"+(('0'+dateStart.getMinutes()).slice(-2))+"-"+dateEnd.getHours()+":"+(('0'+dateEnd.getMinutes()).slice(-2));
+      document.getElementById(elemId).innerHTML=adjString;
+  }
+  {{ range sort (where $.Site.RegularPages "Section" "sessions") ".Params.id" }}
+    {{ $time_start := .Params.time_start | time  }}
+    {{ $time_end := .Params.time_end | time  }}
+    adjTime("time-{{ .Params.id }}", "{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}");
+  {{ end }}
+</script>
 
 {{ end }}
