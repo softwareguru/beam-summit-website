@@ -8,6 +8,7 @@ speakers:
 time_start: 2020-08-26T17:00:00.000Z
 time_end:   2020-08-26T17:40:00.000Z
 day_num: 3
+video: https://www.youtube.com/embed/_rIKe0hy-vI
 ---
 
 A few years ago, moving data between applications and datastores included expensive monolithic stacks from large software vendors with little flexibility.

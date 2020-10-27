@@ -8,6 +8,7 @@ speakers:
 time_start: 2020-08-26T16:00:00.000Z
 time_end:   2020-08-26T16:20:00.000Z
 day_num: 3
+video: https://www.youtube.com/embed/EnUOqVxsJjY
 ---
 At Yelp, we use Apache Flink and Beam to build generic tools for performing common streaming operations. Feature team developers can then use these tools to build complex systems, without requiring them to learn all the details of our streaming infrastructure.
 

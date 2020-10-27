@@ -8,5 +8,6 @@ speakers:
 time_start: 2020-08-25T15:30:00.000Z
 time_end:   2020-08-25T15:50:00.000Z
 day_num: 2
+video: https://www.youtube.com/embed/VIorn5wXvVs
 ---
 

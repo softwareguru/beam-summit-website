@@ -7,6 +7,7 @@ speakers:
 time_start: 2020-08-28T17:10:00.000Z
 time_end:   2020-08-28T17:30:00.000Z
 day_num: 5
+video: https://www.youtube.com/embed/phZuOa2D-ss
 ---
 
 A brief look at how to use Splittable DoFns in Go and how it differ from other SDKs, plus some explanations of what's happening under the hood.

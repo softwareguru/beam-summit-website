@@ -8,6 +8,7 @@ speakers:
 time_start: 2020-08-24T20:00:00.000Z
 time_end:   2020-08-24T20:20:00.000Z
 day_num: 1
+video: https://www.youtube.com/embed/ISbTQBPwSxE
 ---
 
 At BenchSci, we mine a subset of the world’s biological research papers (about 10 million of them) with the aim of extracting info that will accelerate future pharmaceutical research programs by enabling more reproducible experiments. While we have the luxury of processing this information in batch, it is not without its challenges. Information comes to us in a wide variety of data types and formats, from archives to individual documents, with little to no visibility into what the contents will be, or whether they will be consistent or not.

@@ -11,6 +11,7 @@ time_end:   2020-08-27T21:00:00.000Z
 day_num: 4
 workshop: true
 summary: "Step-by-step walkthrough of how to write custom TFX components with Apache Beam to customize your ML pipelines beyond the standard components and tailor the components for their ML pipelines."
+video: https://www.youtube.com/embed/_c-znj_cZvU
 ---
 
 In this workshop, Hannes guides the audience through the process of writing custom pipeline components for TensorFlow Extended with Apache Beam.

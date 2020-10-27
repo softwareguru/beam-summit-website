@@ -7,6 +7,7 @@ speakers:
 time_start: 2020-08-24T17:40:00.000Z
 time_end:   2020-08-24T18:00:00.000Z
 day_num: 1
+video: https://www.youtube.com/embed/h0Kt-HQGtVc
 ---
 
 In this talk, Hannes is providing insights into using TensorFlow Extended (TFX) and Apache Beam for MLOps. He introduces how TFX is using Apache Beam for data pipeline tasks and for orchestration entire ML pipelines. The audience learned how to run ML production pipelines with Apache Beam, and therefore, free the data scientist's time from maintaining production machine learning models.

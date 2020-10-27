@@ -11,6 +11,7 @@ time_end:   2020-08-25T18:00:00.000Z
 day_num: 2
 workshop: true
 summary: "We will implement a Google Cloud Dataflow pipeline through a series of labs where we will explore functionalities like auto-scaling, monitoring and optimization."
+video: https://www.youtube.com/embed/3qt-U815Fgo
 ---
 
 Join us for an exciting workshop to see Google Cloud Dataflow applied to a real life application with a retail demo!
@@ -24,9 +25,4 @@ The second part of the workshop will consist of hands-on labs where participants
   * Labs will be written in Java, attendees should have rudimentary knowledge of Java and/or other similar languages, building tools like Maven and basic knowledge of cloud platforms.
   * We will be using Qwiklabs for running the labs. Please sign up at https://ce.qwiklabs.com . 
 
-#### Registration
-This workshop has a limited capacity of 60 attendees. If you are commited to participating, please register at https://us02web.zoom.us/webinar/register/WN_7QVhrNuRSHiscm1nu14tJA
-
-#### Slack channel
-If you have any questions about this workshop or need assistance please join the **#beam-summit-gcp** channel in the [ASF slack workspace](https://the-asf.slack.com). 
 

@@ -7,7 +7,7 @@ speakers:
 time_start: 2020-08-24T16:40:00.000Z
 time_end:   2020-08-24T17:00:00.000Z
 day_num: 1
-
+video: https://www.youtube.com/embed/_CszDwoa2jY
 ---
 
 What if you were given 2 weeks to prepare for running your first marathon, and had to be able to keep up with the fastest runner?

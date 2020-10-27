@@ -7,6 +7,7 @@ speakers:
 time_start: 2020-08-28T16:30:00.000Z
 time_end:   2020-08-28T16:50:00.000Z
 day_num: 5
+video: https://www.youtube.com/embed/9HnPMnpQuC8
 ---
 
 There are many reasons why we would need to execute Python code in Java SDK pipelines and vice versa (e.g. Machine Learning libraries, IO connectors, user’s Python code, etc) and several different ways to do that. WIth the End of Life of Python 2 started this year, it’s getting more challenging since not all old solutions still work well for Python 3. One of the potential options for this could be using a Cross-Language pipeline and Portable Runner in Apache Beam.

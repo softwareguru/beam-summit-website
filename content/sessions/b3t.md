@@ -7,6 +7,7 @@ speakers:
 time_start: 2020-08-25T16:20:00.000Z
 time_end:   2020-08-25T17:00:00.000Z
 day_num: 2
+video: https://www.youtube.com/embed/Q3P9cmg2Ef4
 ---
 
 Building a streaming data platform from the ground up is a daunting yet fun task. Walk developers's through GoDaddy's journey of building production pipelines at scale using Apache Beam as the foundation layer for writing pipelines and building abstractions on top of it to make it easier to on board new pipelines on to the data platform.

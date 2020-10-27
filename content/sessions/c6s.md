@@ -8,6 +8,7 @@ speakers:
 time_start: 2020-08-26T20:00:00.000Z
 time_end:   2020-08-26T20:20:00.000Z
 day_num: 3
+video: https://www.youtube.com/embed/hu5FacAeQ-8
 ---
 
 In this talk, we will talk about our experience building pipelines to process data coming from Change-data-capture (CDC) systems.

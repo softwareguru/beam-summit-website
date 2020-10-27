@@ -9,6 +9,7 @@ speakers:
 time_start: 2020-08-27T16:20:00.000Z
 time_end:   2020-08-27T17:00:00.000Z
 day_num: 4
+video: https://www.youtube.com/embed/h1eOlt9FDMI
 ---
 
 Learning a whole new SDK and style to write massively parallel data pipelines is certainly a daunting task for any engineer, data scientist, or developer.
