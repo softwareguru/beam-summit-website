@@ -10,6 +10,7 @@ day_num: 1
 workshop: true
 summary: "We will work through an end-to-end example of using the Python Beam SDK to build maintainable, reliable, and scalable production pipelines for deep learning."
 video: https://www.youtube.com/embed/194LCFWaEyE
+slides: https://docs.google.com/presentation/d/1epK3trPSjkuyXkM4X3tN3Kj4DsbgI-_drf0xKoZMLVg/edit?usp=sharing
 ---
 
 Real world machine learning systems are comprised of a small amount of actual ML code surrounded by a vast infrastructure - most of which revolves around manipulating and handling data.

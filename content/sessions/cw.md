@@ -12,6 +12,7 @@ day_num: 3
 workshop: true
 summary: "We will explore an end to end example that combines batch and streaming aspects in one uniform Beam pipeline, and deploy it to a fully managed environment with Amazon Kinesis Data Analytics."
 video: https://www.youtube.com/embed/K6hVR-URTYU
+slides: https://drive.google.com/file/d/1UnMuUk3f_-336PSdtiGEZ7YGwTe0tnaH/view?usp=sharing
 ---
 
 In this workshop, we explore an end to end example that combines batch and streaming aspects in one uniform Beam pipeline. We start to analyze incoming taxi trip events in near real time with an Apache Beam pipeline. We then show how to archive the trip data to Amazon S3 for long term storage. We subsequently explain how to read the historic data from S3 and backfill new metrics by executing the same Beam pipeline in a batch fashion. Along the way, you also learn how you can deploy and execute the Beam pipeline with Amazon Kinesis Data Analytics in a fully managed environment.

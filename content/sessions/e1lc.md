@@ -9,6 +9,7 @@ time_start: 2020-08-28T15:30:00.000Z
 time_end:   2020-08-28T16:20:00.000Z
 day_num: 5
 video: https://www.youtube.com/embed/aM323pLIYcM
+slides: https://drive.google.com/file/d/1SvO9Fb7xJtZqjIpzmsqSbMWtjAAxGYvb/view?usp=sharing
 ---
 
 

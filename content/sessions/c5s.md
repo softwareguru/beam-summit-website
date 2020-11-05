@@ -9,6 +9,7 @@ time_start: 2020-08-26T17:40:00.000Z
 time_end:   2020-08-26T18:00:00.000Z
 day_num: 3
 video: https://www.youtube.com/embed/PiwLC-YK_Zw
+slides: https://docs.google.com/presentation/d/1XbQh6biz3oeCBOTzQnwPY7xsVhdkzNxEtbtzjgL71f4/edit?usp=sharing
 ---
 
 When enriching one stream of data from another stream of data, one pretty easy way on GCP is to ingest both via Apache Beam into a zero-maintenance SQL database like BigQuery and doing a join there. However, since the cost for BigQuery is based on the number of bytes scanned and it's a columnar oriented database, this is not the optimal solution.

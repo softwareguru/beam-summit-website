@@ -9,6 +9,7 @@ time_start: 2020-08-26T20:20:00.000Z
 time_end:   2020-08-26T21:00:00.000Z
 day_num: 3
 video: https://www.youtube.com/embed/zx4p-UNSmrA
+slides: https://docs.google.com/presentation/d/10XnYgKsTzuvXuQrdt9KtA21l2ifXstWMw19r6_wWpJ0/edit?usp=sharing
 ---
 
 While the Beam Python SDK is highly scalable and has advanced streaming capabilities, its unfamiliar API has been a significant barrier for many Python users. Recently there have been several improvements in usability aimed at closing this gap: first-class support for schemas, the ability to embed SQL in a pipeline, and a pandas-compatible Dataframe API.
