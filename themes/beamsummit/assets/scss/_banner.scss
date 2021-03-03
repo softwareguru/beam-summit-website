@@ -1,0 +1,71 @@
+.section.banner {
+
+  @media (max-height:720px) {
+    height: 720px;
+  }
+
+  padding-top: 120px;
+  padding-bottom: 15px;
+
+  display: grid;
+  gap: 10px 20px;
+  grid-template-columns: 80px 1fr 80px;
+  justify-content: space-between;
+  align-content: space-between;
+  text-align: center;
+
+
+  .stripe-start {
+    align-self: start;
+    height: 10px;
+    width: 100%;
+    background-color: $orange;
+  }
+
+  .stripe-end {
+    align-self: end;
+    height: 10px;
+    width: 100%;
+    background-color: $orange;
+  }
+
+
+  .scroll-link {
+    margin-top: 30px;
+  }
+
+  .scroll-link img {
+    height: 30px;
+  }
+
+  .divider {
+    width: 120px;
+    height: 6px;
+    background: $primary-color;
+    display: block;
+  }
+
+  .btn-banner1 {
+    background-color: $gray-light;
+    color: $yellow2;
+    font-weight: 500;
+    letter-spacing: .1em;
+
+    &:hover {
+      color: $yellow2;
+      background-color: #e0e0e0;
+    }
+  }
+
+  .btn-banner2 {
+    background-color: $yellow2;
+    color: $white;
+    font-weight: 500;
+    letter-spacing: .1em;
+
+    &:hover {
+      background-color: $yellow;
+      color: $white;
+    }
+  }
+}

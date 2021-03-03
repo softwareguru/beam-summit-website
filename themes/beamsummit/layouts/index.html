@@ -1,0 +1,101 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data }}
+
+{{ with $data.homepage.event }}
+
+<!-- banner -->
+<section class="section banner">
+  <div class="stripe-start"></div>
+  <div class="row">
+    <div class="col-lg-5">
+      <div class="about-img position-relative">
+        <img src="{{ .image_back }}" alt="" class="img-fluid w-100">
+        <div class="img-block">
+          <img src="{{ .image_front }}" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-7">
+      <div class="about-content-wrap mt-5 mt-lg-0">
+        <div class="ml-90">
+          <h2 class="text-lg mb-3 mt-3">{{ .title | markdownify }} </h2>
+          <p>{{ .description | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-hero btn-rounded mt-3">{{ .label }}</a>
+          {{ end}}
+          {{ end}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="stripe-end"></div>
+</section>
+<!-- /banner -->
+
+<section id="events" class="section blog">
+  <div class="container">
+
+    <div class="col-md-8">
+      <div class="row section-heading">
+        <div class="heading">
+          <h2>Upcoming events</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      {{range where (where .Site.RegularPages.ByDate.Reverse "Section" "events") ".Params.status" "upcoming" }}
+      <div class="col-12 col-md-6">
+        <div class="blog-item card border-0 mb-5 mb-lg-0">
+          <a href="{{ .Params.extlink }}">
+            <img src="{{ .Params.image }}" class="img-fluid">
+            <h4 class="mt-2">{{ .Params.title }}</h4>
+          </a>
+          <p>{{ .Params.meta }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section id="events" class="section blog">
+  <div class="container">
+
+    <div class="col-md-8">
+      <div class="row section-heading">
+        <div class="heading">
+          <h2>Previous events</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      {{range where (where .Site.RegularPages.ByDate.Reverse "Section" "events") ".Params.status" "previous" }}
+      <div class="col-12 col-md-6">
+        <div class="blog-item card border-0 mb-5 mb-lg-0">
+          <a href="{{ .Params.extlink }}">
+            <img src="{{ .Params.image }}" class="img-fluid">
+            <h4 class="mt-2">{{ .Params.title }}</h4>
+          </a>
+          <p>{{ .Params.meta }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+
+<!-- blog -->
+{{ if $data.homepage.blog.enable }}
+{{ partial "blog.html" . }}
+{{ end }}
+<!-- /blog -->
+
+
+{{ end }}
