@@ -1,21 +1,26 @@
 .section.banner {
+  background-color: #000a54;
+  height: 100vh;
 
   @media (max-height:720px) {
     height: 720px;
   }
 
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 15px;
 
   display: grid;
   gap: 10px 20px;
-  grid-template-columns: 80px 1fr 80px;
+  grid-template-columns: minmax(20px,120px) minmax(280px, 480px) minmax(20px,100px);
+  grid-template-rows: minmax(120px, 240px) minmax(150px,250px) minmax(200px, 300px);
   justify-content: space-between;
   align-content: space-between;
   text-align: center;
 
 
   .stripe-start {
+    grid-column: 1;
+    grid-row: 1;
     align-self: start;
     height: 10px;
     width: 100%;
@@ -23,10 +28,51 @@
   }
 
   .stripe-end {
+    grid-column: 3;
+    grid-row: 3;
     align-self: end;
     height: 10px;
     width: 100%;
     background-color: $orange;
+  }
+
+  .logo {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 20px;
+    align-self: start;
+  }
+
+  .mascot {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+  }
+
+  .meta {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: end;
+  }
+
+  .logo img {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 27vh;
+  }
+
+  .mascot img {
+    max-height: 24vh;
+  }
+
+  .meta p {
+    font-family: 'Comfortaa', Roboto, cursive, sans-serif;
+    font-size: 1.8em;
+    color: $white;
+
+    @media (max-width:768px) {
+      font-size: 1.4em;
+    }
   }
 
 

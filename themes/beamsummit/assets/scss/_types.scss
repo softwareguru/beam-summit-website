@@ -21,7 +21,7 @@ a {
   color: $primary-color;
   transition: .3s all;
   &:hover{
-    color: $secondary-color;
+    color: $primary-color;
   }
 }
 
@@ -47,9 +47,6 @@ h6, .h6 {
 
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
   color: inherit;
-  &:hover{
-    color: $primary-color;
-  }
 }
 
 h1, .h1 {

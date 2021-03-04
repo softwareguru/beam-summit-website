@@ -1,16 +1,54 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "The future <br> & Tech Expo"
+  logo : "/images/logo-home.png"
+  bg_image: "images/banner/banner-2.jpg"
+  date_time : "August 24-28, 2020"
+  venue : "100% online and free"
+  button:
+    enable : false
+    label : "Submit a proposal"
+    link : "https://sessionize.com/beam-digital-summit-2020"
+
 
 ############################## Event ##############################
-event:
+event_info:
   enable : true
-  title : "Beam Summit is the best way to learn what is happening with <br />Apache Beam!"
-  image_back : "/images/home1.jpg"
-  image_front : "/images/home2.jpg"
+  title : "Beam Summit 2020 is your opportunity to learn and contribute to Apache Beam!"
   description : "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
-  button:
-    enable : true
-    label : "Submit to the CFP for Beam Summit 2021"
-    link : "https://2021.beamsummit.org"
+  cta_text: "Submit to our CFP!"
+  cta_link: "https://sessionize.com/beam-digital-summit-2020"
+  features: 
+    - number : "5"
+      label : "Days"
+      
+    - number : "15+"
+      label : "Sessions"
 
+    - number : "100%"
+      label : "Free"
+
+    - number : "Everybody"
+      label : "is welcome"
+
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+####################### pricing #############################
+pricing:
+  enable : true
+  # pricing data comes from "pricing.yml" file
+
+########################## speaker ##########################
+speakers:
+  enable : false
+  title : "Key speakers"
+  subtitle : ""
+  # speaker content comes from "content/speaker" folder
 
 ######################### sponsor ############################
 sponsors:

@@ -1,0 +1,45 @@
+enable :  true
+title : "Sponsors"
+sponsor_group:
+  - title : "Platinum"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/google-cloud.png"
+        link : "https://cloud.google.com"
+
+  - title : "Gold"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/spotify.png"
+        link : "https://rnd.atspotify.com"
+
+  - title : "Silver"
+    slug : "silver"
+    sponsor:
+      - logo : "/images/logos/polidea.png"
+        link : "https://www.polidea.com"
+
+
+  - title : "Community"
+    slug : "community"
+    sponsor:                  
+      - logo : "/images/logos/apache.svg"
+        link : "https://www.apache.org"
+      - logo : "/images/logos/flink-forward.jpg"
+        link : "https://www.flink-forward.org"
+      - logo : "/images/logos/manning.png"
+        link : "https://www.manning.com"
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com"
+      - logo : "/images/logos/arabesque2.png"
+        link : "https://www.arabesque.com"
+          
+                      
+# call to action in sponsor
+sponsorship:
+  enable : true
+  title : "Support Beam Summit and engage with the community! Join our sponsors and partners."
+  #button
+  label : "View our Prospectus"
+  link : "https://beamsummit.org/files/BeamSummit-Prospectus.pdf"
+

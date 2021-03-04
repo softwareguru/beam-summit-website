@@ -11,9 +11,17 @@
 				</ul>
 			</div>			
 			<div>
-				<h5>About Apache Beam</h5>
+				<h5>About</h5>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_about }}
+					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			<div>
+				<h5>Previous events</h5>
+				<ul class="footer_links">
+					{{ range .Site.Params.footer_previous }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
 					{{ end }}
 				</ul>
@@ -63,3 +71,18 @@
   ga('send', 'pageview');
 </script>
 {{ end }}
+<script type="text/javascript">
+	_linkedin_partner_id = "2292418";
+	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+	(function(){var s = document.getElementsByTagName("script")[0];
+	var b = document.createElement("script");
+	b.type = "text/javascript";b.async = true;
+	b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+	s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+	<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2292418&fmt=gif" />
+</noscript>
