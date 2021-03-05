@@ -5,12 +5,14 @@ title = "Beam Summit 2021"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
 RemovePathAccents = true
+publishDir = "docs"
 
 googleAnalytics = "G-FGL9DPG0CG"
 
 theme = "beamsummit"
 # post pagination
 paginate = "8"
+
 
 
 # output
@@ -68,22 +70,16 @@ author = "Software Guru"
 start_date = "2021-08-04T11:00-05:00"
 end_date = "2021-08-06T11:00-05:00"
 
-
 disclaimer = """Apache Beam, the Beam logo, and the Apache feather logo are either registered trademarks or 
 trademarks of The Apache Software Foundation. All other products or name brands are trademarks of their 
 respective holders, including The Apache Software Foundation. The Apache Software Foundation has no affiliation 
 with and does not endorse, or review the materials provided at this event."""
 
-# Preloader
-[params.preloader]
-enable = false
-preloader = "" # use jpg, png, svg or gif format.
-
 # Navigation button
 [params.navigation_button]
 enable = true
 label = "Register"
-link = "/register"
+link = "https://crowdcast.io/e/beamsummit2021"
 
 
 ############################# social icon ############################

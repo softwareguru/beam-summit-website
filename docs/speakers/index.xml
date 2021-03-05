@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speakers on Beam Summit 2021</title>
+    <link>https://2021.beamsummit.org/speakers/</link>
+    <description>Recent content in Speakers on Beam Summit 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://2021.beamsummit.org/speakers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Austin Bennett</title>
+      <link>https://2021.beamsummit.org/speakers/austin-bennett/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://2021.beamsummit.org/speakers/austin-bennett/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jeff Klukas</title>
+      <link>https://2021.beamsummit.org/speakers/jeff-klukas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://2021.beamsummit.org/speakers/jeff-klukas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jenny Lu</title>
+      <link>https://2021.beamsummit.org/speakers/jenny-lu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://2021.beamsummit.org/speakers/jenny-lu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

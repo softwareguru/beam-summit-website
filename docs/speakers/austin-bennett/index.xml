@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Austin Bennett on Beam Summit 2021</title>
+    <link>https://2021.beamsummit.org/speakers/austin-bennett/</link>
+    <description>Recent content in Austin Bennett on Beam Summit 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://2021.beamsummit.org/speakers/austin-bennett/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Workshop: First steps with Apache Beam - Writing portable pipelines using Java, Python, Go, Kotlin</title>
+      <link>https://2021.beamsummit.org/sessions/first-steps-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://2021.beamsummit.org/sessions/first-steps-workshop/</guid>
+      <description>This workshop is for participants who are getting started with Apache Beam. We will get hands-on writing Beam pipelines, as well as discuss the fundamentals of Beam programming model and SDKs.</description>
+    </item>
+    
+  </channel>
+</rss>
