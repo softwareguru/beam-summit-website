@@ -62,6 +62,7 @@ description = """The Beam Summit brings together experts and community to
 share the exciting ways they are using, changing, and advancing Apache Beam 
 and the world of data and stream processing."""
 image = "/images/card.png"
+images = ["/images/card.png"]
 twitter_user = "@beamsummit"
 email = "contact@beamsummit.org"
 author = "Software Guru"
