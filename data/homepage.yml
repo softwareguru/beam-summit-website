@@ -25,7 +25,7 @@ event_info:
   cta_text: "Submit to our CFP!"
   cta_link: "https://sessionize.com/beam-digital-summit-2021"
   features: 
-    - number : "5"
+    - number : "3"
       label : "Days"
       
     - number : "15+"
