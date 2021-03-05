@@ -8,7 +8,7 @@ event:
   description : "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
   button:
     enable : true
-    label : "Submit to the CFP for Beam Summit 2021"
+    label : "Beam Summit 2021 is coming"
     link : "https://2021.beamsummit.org"
 
 

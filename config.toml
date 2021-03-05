@@ -62,13 +62,14 @@ home = "Home"
 description = """The Beam Summit brings together experts and community to 
 share the exciting ways they are using, changing, and advancing Apache Beam 
 and the world of data and stream processing."""
-image = "/images/card-aug.png"
+image = "/images/card-2021.png"
+images = ["/images/card-2021.png"]
 twitter_user = "@beamsummit"
 email = "contact@beamsummit.org"
 author = "Software Guru"
 
 # Google Analitycs
-google_analitycs_id = "UA-165970215-1" # your id
+googleAnalytics = "UA-165970215-1" # your id
 # search for blog page
 search = true
 
@@ -81,7 +82,7 @@ with and does not endorse, or review the materials provided at this event."""
 [params.navigation_button]
 enable = false
 label = "Register"
-link = "https://crowdcast.io/e/beamsummit"
+link = "https://crowdcast.io/e/beamsummit2021"
 
 
 
