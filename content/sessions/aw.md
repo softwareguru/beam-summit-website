@@ -10,6 +10,7 @@ day_num: 1
 workshop: true
 summary: "This workshop is for participants who are getting started with Apache Beam. We will get hands-on writing Beam pipelines, as well as discuss the fundamentals of Beam programming model and SDKs."
 video: https://www.youtube.com/embed/nsCx0hei2vc
+draft: true
 ---
 
 *This workshop is for participants who are getting started with Apache Beam.*
