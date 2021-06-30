@@ -36,6 +36,11 @@ speaker = "speakers"
   URL = "/about"
   weight = 1
 
+  #[[menu.main]]
+  #name = "Speakers"
+  #URL = "/speakers"
+  #weight = 2
+
   [[menu.main]]
   name = "News"
   URL = "/blog"
@@ -123,11 +128,11 @@ link = "/coc"
 
 [[params.footer_resources]]
 name = "Prospectus"
-link = "/files/BeamSummit2021-Prospectus.pdf"
+link = "/files/Beam Summit - Prospectus V6.pdf"
 
 [[params.footer_resources]]
 name = "Call for papers"
-link = "https://sessionize.com/beam-digital-summit-2020/"
+link = "https://sessionize.com/beam-digital-summit-2021/"
 
 [[params.footer_resources]]
 name = "Email us"

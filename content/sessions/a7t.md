@@ -9,6 +9,7 @@ time_end:   2020-08-24T21:00:00.000Z
 day_num: 1
 video: https://www.youtube.com/embed/ABWKnl_N550
 slides: https://docs.google.com/presentation/d/1-kJS2WcDC9BtqKxhU3DNqHwsEeNE93wxvhEgnlpzOJA/edit?usp=sharing
+draft: true
 ---
 
 In this session, you won't learn about joins or windows or timers or any other advanced features of Beam. Instead, we will focus on the real-world complexity that comes from simply moving data from one system to another safely. How do we model data as it passes from one transform to another? How do we handle errors? How do we test the system? How do we organize the code to make the pipeline configurable for different source and destination systems?
