@@ -50,13 +50,13 @@
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "{{ .Site.BaseURL }}"
+          "url": {{ .Site.BaseURL }}
         },
-        "image": ["{{ .Site.Params.image | absURL }}"],
+        "image": [ {{ index .Site.Params.images 0 | absURL }}],
         "description": "{{ .Site.Params.description }}",
         "offers": {
           "@type": "Offer",
-          "url": "{{ with .Site.Params.navigation_button.link }}{{ . | absURL }}{{ end }}",
+          "url": {{ with .Site.Params.navigation_button.link }}{{ . | absURL }}{{ end }},
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
