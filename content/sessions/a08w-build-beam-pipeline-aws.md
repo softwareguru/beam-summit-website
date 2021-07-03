@@ -1,6 +1,6 @@
 ---
 id: a08w
-title: "Build a Unified Batch and Streaming Pipeline with Apache Beam on AWS"
+title: "Workshop: Build a Unified Batch and Streaming Pipeline with Apache Beam on AWS"
 url: /sessions/build-beam-pipeline-aws
 speakers:
  - Steffen Hausmann

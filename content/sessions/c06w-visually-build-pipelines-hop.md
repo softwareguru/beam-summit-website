@@ -1,6 +1,6 @@
 ---
 id: c06w
-title: "Visually build Beam pipelines using Apache Hop"
+title: "Workshop: Visually build Beam pipelines using Apache Hop"
 url: /sessions/visually-build-pipelines-hop
 speakers:
  - Matt Casters

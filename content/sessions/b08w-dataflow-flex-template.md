@@ -1,6 +1,6 @@
 ---
 id: b08w
-title: "Create your first Dataflow Flex template and set up a CI/CD pipeline for it on Cloud Build"
+title: "Workshop: Create your first Dataflow Flex template and set up a CI/CD pipeline for it on Cloud Build"
 url: /sessions/dataflow-flex-template
 speakers:
  - Miren Esnaola

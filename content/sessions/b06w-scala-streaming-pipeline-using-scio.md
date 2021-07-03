@@ -1,6 +1,6 @@
 ---
 id: b06w
-title: "And Scala? Can I use Scala? Step by step development of a streaming pipeline using Scio"
+title: "Workshop: Step by step development of a streaming pipeline using Scio (Scala)"
 url: /sessions/scala-streaming-pipeline-using-scio
 speakers:
  - Israel Herraiz

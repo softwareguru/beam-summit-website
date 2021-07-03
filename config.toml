@@ -37,14 +37,14 @@ speaker = "speakers"
   weight = 1
 
   [[menu.main]]
-  name = "Speakers"
-  URL = "/speakers"
+  name = "Schedule"
+  URL = "/schedule"
   weight = 2
 
   [[menu.main]]
-  name = "News"
-  URL = "/blog"
-  weight = 6
+  name = "Speakers"
+  URL = "/speakers"
+  weight = 3
 
   [[menu.main]]
   name = "FAQ"
