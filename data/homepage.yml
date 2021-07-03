@@ -7,7 +7,7 @@ banner:
   date_time : "August 4-6, 2021"
   venue : "100% online and free"
   button1:
-    enable : true
+    enable : false
     label : "Submit a proposal"
     link : "https://sessionize.com/beam-digital-summit-2021"
 
