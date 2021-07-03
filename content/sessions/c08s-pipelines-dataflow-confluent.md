@@ -10,5 +10,4 @@ block: c
 slot: 08
 ---
 
-We want to demonstrate how easy it is to use Confluent Cloud as the data source of your Beam pipelines. 
-You will learn how to process the information that comes from Confluent Cloud in real time, make transformations on such information and feed it back 
+We will demonstrate how easy it is to use Confluent Cloud as the data source of your Beam pipelines.  You will learn how to process the information that comes from Confluent Cloud in real time, make transformations on such information and feed it back to your Kafka topics and other parts of your architecture.

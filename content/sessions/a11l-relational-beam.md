@@ -10,4 +10,4 @@ block: a
 slot: 11
 ---
 
-Wouldn't it be great if Beam could automatically optimize your pipeline? It can with Relational Beam. This talk will cover the current Relational offerings in Beam (with a focus on Java) including Schemas, SchemaIO, and SQL. Learn how SQL can automaticall
+Wouldn't it be great if Beam could automatically optimize your pipeline? It can with Relational Beam. This talk will cover the current Relational offerings in Beam (with a focus on Java) including Schemas, SchemaIO, and SQL. Learn how SQL can automatically optimize your pipeline today and about our plans to move that functionality into the core Beam SDK. You'll come away from this talk with an understanding of why you want to migrate to Schemas (and SchemaIO) even if you don't use SQL.

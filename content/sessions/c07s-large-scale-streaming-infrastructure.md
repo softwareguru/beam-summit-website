@@ -10,4 +10,5 @@ block: c
 slot: 07
 ---
 
-Cortex Data Lake collects, transforms and integrates your enterprise’s security data to enable Palo Alto Networks solutions. We build streaming infrastructure for our customers. I will share share our infrastructure and experience while building that infr
+Cortex Data Lake collects, transforms and integrates your enterprise’s security data to enable Palo Alto Networks solutions. We build streaming infrastructure for our customers. I will share share our architecture and experience while building that infrastructure.
+

@@ -10,4 +10,10 @@ block: c
 slot: 02
 ---
 
-I would like to give a quick lightning talk about existing user feedback that we've gathered from Apache Beam users as well as ask attendees to fill out a survey and help us improve Apache Beam in the future. The rough structure of the lightning talk is: 
+In this talk we will share existing user feedback that we've gathered from Apache Beam users.  
+
+The rough structure of the lightning talk is:
+ 1. We take user feedback seriously
+ 2. What existing users like and dislike about Apache Beam
+ 3. What we're currently doing to make improvements
+ 4. How can the community help us build the best SDK ever

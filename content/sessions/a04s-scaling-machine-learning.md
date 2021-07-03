@@ -12,4 +12,13 @@ slot: 04
 
 Apache Beam is a critical technology in delivering millions of personalised recommendations to the BBC audience daily. The journey to adopt the technology, however, wasn't the smoothest. The objective of this talk is to save others time and money.
 
-This t
+This talk will discuss:
+* Why Beam
+* First pipeline which allowed us to go from a machine learning prototype to production
+* Issues faced with the first approach
+* Solutions embraced to handle problems
+* Current pipeline design and cost gains
+
+This talk will focus on using the Python SDK and the Dataflow runner.
+
+The solutions covered will include simplifying and splitting the original problem, pipeline configuration and using features such as shared memory.

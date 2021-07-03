@@ -12,4 +12,4 @@ slot: 03
 
 In this session, we will talk about DebeziumIO, which is a new transform that allows us to read change streams from various databases into Beam by relying on Debezium.
 
-The great thing about DebeziumIO is that we can run the Debezium connector within our 
+The great thing about DebeziumIO is that we can run the Debezium connector within our Beam Pipeline, without having to depend on Kafka for infrastructure.
