@@ -1,0 +1,62 @@
+slot,title,speakers,slug,time_start,time_end,content
+a03s,You belong together - detecting linked accounts at Ricardo,Tobias Kaymak,detecting-linked-accounts-at-ricardo,2021-08-04T16:00:00,2021-08-04T16:25:00,"Ricardo - the largest online marketplace in Switzerland with over 4 million members - has been challenged with detecting duplicated or linked accounts for quite a while. With the release of the Dataflow Runner v2 for Python and the FlexRS cost savings, we"
+a04s,Scaling machine learning to millions of users with Apache Beam,Tatiana Al-Chueyr Martins,scaling-machine-learning,2021-08-04T16:30:00,2021-08-04T16:55:00,"Apache Beam is a critical technology in delivering millions of personalised recommendations to the BBC audience daily. The journey to adopt the technology, however, wasn't the smoothest. The objective of this talk is to save others time and money.
+
+This t"
+a05l,TPC-DS and Apache Beam - the time has come!,"Alexey Romanenko, Ismael Mejía",tpc-ds-and-apache-beam,2021-08-04T17:00:00,2021-08-04T17:45:00,TPC-DS is the de-facto SQL-based benchmark framework used to measure database systems and Big Data processing frameworks. Beam introduced an early TPC-DS implementation last year but so far we have not started to use it to measure the state of the perform
+a06r,From factory to cloud: The Path to Beam,Dan H,from-factory-to-cloud,2021-08-04T17:50:00,2021-08-04T18:00:00,"This talk will cover our use case of Apache Beam in the Industrial IoT space.
+
+Primarily, what changes we've implemented this past year to acquire time series data from factories and how Apache Beam plays a role for our stream and batch processing needs.
+"
+a07l,Profiling Apache Beam Python pipelines,Israel Herraiz,profiling-python-pipelines,2021-08-04T18:00:00,2021-08-04T18:45:00,"Often the first version of our Apache Beam pipelines do not perform as well as we would like, and sometimes it is not so obvious to find the places where we could optimize performance; sometimes it will be a function parsing JSON, some others the bottlene"
+a08w,Build a Unified Batch and Streaming Pipeline with Apache Beam on AWS,Steffen Hausmann,build-beam-pipeline-aws,2021-08-04T18:00:00,2021-08-04T20:00:00,"In this workshop, you explore an end to end example that combines batch and streaming aspects in one uniform Beam pipeline.
+
+You start off with building a Beam pipeline to analyse taxi trip events. You deploy the the pipeline to Amazon Kinesis Data Analyt"
+a09s,Deduplication: Where Beam Fits In,Jeff Klukas,deduplication,2021-08-04T20:00:00,2021-08-04T20:25:00,This session will start with a brief overview of the problem of duplicate records and the different options available for handling them. We'll then explore two concrete approaches to deduplication within a Beam streaming pipeline implemented in Mozilla's 
+a10s,Fault Tolerant Integration of Apache Beam With Relational Database,Savitha Jayasankar,fault-tolerant-integration,2021-08-04T20:30:00,2021-08-04T20:55:00,"Prometheus is an industry-wide used monitoring system and time series database.Prometheus cannot be used as a metrics reporting system for outputs of a non-real-time Apache Beam pipeline as the metric denotes a player activity when occurred in the past, a"
+a11l,Relational Beam: Automatically optimize your pipeline,Andrew Pilloud,relational-beam,2021-08-04T21:00:00,2021-08-04T21:50:00,"Wouldn't it be great if Beam could automatically optimize your pipeline? It can with Relational Beam. This talk will cover the current Relational offerings in Beam (with a focus on Java) including Schemas, SchemaIO, and SQL. Learn how SQL can automaticall"
+b01l,Simple Distributed Raytracer with the Beam Go SDK,Robert Burke,distributed-raytracer-go-sdk,2021-08-05T15:00:00,2021-08-05T15:50:00,"Demonstrate the Beam Go SDK with a raytracer as the motivating example. 
+Attendees will come away with a light overview of Ray Tracing, but the focus is on implementing it using Beam Go.
+Includes
+* Raytracing overview
+* Using SplittableDoFns to divide wor"
+b02r,Ingesting and Processing Level 3 Order Book Streams,Daniel Tyreus,ingesting-processing-book-streams,2021-08-05T15:50:00,2021-08-05T16:00:00,"Financial exchanges maintain a real-time list of orders for buyers and sellers of instruments such as equities and cryptocurrencies. The most detailed view of an order book consists of every unique order at every price level. As the order book changes, ex"
+b03s,Complex event processing with Beam and Kotlin,Alexander Chermenin,complex-event-processing,2021-08-05T16:00:00,2021-08-05T16:25:00,A little session to share how to process events in streams using the pattern matching approach and how to implement it in Kotlin with Apache Beam.
+b04s,GCP Dataflow Architecture,Svetak Sundhar,gcp-dataflow-architecture,2021-08-05T16:30:00,2021-08-05T16:55:00,Overview of the architecture for the Dataflow Runner of Apache Beam.
+b06w,And Scala? Can I use Scala? Step by step development of a streaming pipeline using Scio,Israel Herraiz,scala-streaming-pipeline-using-scio,2021-08-05T17:00:00,2021-08-05T18:00:00,"Scio is a Scala wrapper around Apache Beam, developed by Spotify, and neatly integrated with Google Cloud Platform. In this workshop, we will develop a streaming pipeline, showing how to get data in JSON format and map it to a case class, how to transform"
+b05l,Protecting the Internet at Scale,"Alfredo Gimenez, Tucker Leavitt",protecting-the-internet-at-scale,2021-08-05T17:00:00,2021-08-05T17:50:00,"At BlueVoyant, we process billions of cyber events per second in an effort to secure the supply chains of several high-stakes Fortune 500 companies. Cyber attacks exploit the weakest links in a target company, and modern tech infrastructures are composed "
+b07l,Multi-language Pipelines for improving usability and reducing overheads,Chamikara Jayalath,multi-language-pipelines,2021-08-05T18:00:00,2021-08-05T18:50:00,Apache Beam offers a novel and powerful framework named Multi-Language Pipelines that allows you to execute pipelines that employ multiple supported SDK languages. With multi-language pipelines you can build and maintain transforms for one language but us
+b08w,Create your first Dataflow Flex template and set up a CI/CD pipeline for it on Cloud Build,Miren Esnaola,dataflow-flex-template,2021-08-05T18:00:00,2021-08-05T20:00:00,"This will be a 2h workshop with the following format:
+
+1. Introduction to Flex Templates, covering the following topics
+
+- What are Flex templates?
+- How do you create a Flex template?
+- How do you run a Flex template?
+
+2. Introduction to Apache Beam test"
+b09s,Image classification with Beam and AutoML,David Cavazos,image-classification-with-beam-and-automl,2021-08-05T20:00:00,2021-08-05T20:25:00,"Walkthrough of a sample based on a real ML use case. Dealing with large unbalanced datasets, lazily preprocessing only the data used for training, orchestrating the workflow in Beam.
+
+Inspired by: https://wildlifeinsights.org"
+b10s,Using Beam for Real-time Manufacturing Data Analysis,Jeswanth Yadagani,beam-real-time-manufacturing,2021-08-05T20:30:00,2021-08-05T20:55:00,"
+This is an application talk targeted at users of Apache Beam to illustrate how a combination of stateless, stateful, and windowed streaming transformations can be used to support arbitrarily complex real-time analysis of manufacturing time-series data.
+
+"
+b11s,Lessons learned from using Dataflow for local ML batch inference,Ramtin Rassoli,lessons-learned-dataflow-ml-batch-inference,2021-08-05T21:00:00,2021-08-05T21:25:00,"At BenchSci, we mine the world’s biological research papers with the aim of extracting information that will accelerate future pharmaceutical research programs by enabling more reproducible experiments. Machine Learning and specifically our in-house Deep "
+b12s,Autoscaling your transforms with auto-sharded GroupIntoBatches,Pablo Estrada,autoscaling-transforms,2021-08-05T21:30:00,2021-08-05T21:55:00,"Big data systems have implemented the ability to scale up from the cluster perspective: Add more workers, and parallelize further.
+
+An issue with this is that many transforms still work with a fixed number of shards that can't scale up or down with the cl"
+c01l,"ML Inference at scale, easy as learning your 5 times table, with tfx-dsl and Apache Beam!","Reza Rokni, Robert Crowe",ml-inference-at-scale,2021-08-06T15:00:00,2021-08-06T15:45:00,"In this talk, we will make use of the RunInferene transform from the tfx-dsl library to build several inference pipelines, from single models to multiple models in chained or branched configurations."
+c02r,Improve the usability of Apache Beam,Mariann Nagy,improve-beam-usability,2021-08-06T15:50:00,2021-08-06T16:00:00,I would like to give a quick lightning talk about existing user feedback that we've gathered from Apache Beam users as well as ask attendees to fill out a survey and help us improve Apache Beam in the future. The rough structure of the lightning talk is: 
+c04w,Privacy on Beam - E2E Differential Privacy Solution for Apache Beam,Mirac Vuslat Basaran,privacy-on-beam,2021-08-06T16:00:00,2021-08-06T17:00:00,"Privacy on Beam (https://github.com/google/differential-privacy/tree/main/privacy-on-beam) is an easy to use & end-to-end differential privacy solution for Apache Beam.
+
+Differential Privacy is a mathematical concept for anonymization and protecting user "
+c03s,Real-time change data in Apache Beam with DebeziumIO,Pablo Estrada,real-time-change-data-debeziumio,2021-08-06T16:00:00,2021-08-06T16:25:00,"In this session, we will talk about DebeziumIO, which is a new transform that allows us to read change streams from various databases into Beam by relying on Debezium.
+
+The great thing about DebeziumIO is that we can run the Debezium connector within our "
+c05s,Scalable Predictions of Deep Learning models with Apache Beam,"Jo Pu, Hannes Hapke",scalable-predictions,2021-08-06T16:30:00,2021-08-06T16:55:00,"With the rise of deep learning applications, so do the questions of how to integrate larger machine learning models (e.g. transformer models) in Apache Beam data pipelines. At Digits, we took a deep dive into optimal integrations of our deep learning mode"
+c06w,Visually build Beam pipelines using Apache Hop,Matt Casters,visually-build-pipelines-hop,2021-08-06T17:00:00,2021-08-06T19:00:00,In this workshop we'll give a detailed overview of the Apache Hop platform.  We'll design a few simple Beam pipelines using the Hop GUI after which we'll run them on a few runners like GCP DataFlow and Spark.  After that we'll cover best practices for ver
+c07s,Large scale streaming infrastructure using Apache Beam and DataFlow,Talat Uyarer,large-scale-streaming-infrastructure,2021-08-06T17:00:00,2021-08-06T17:25:00,"Cortex Data Lake collects, transforms and integrates your enterprise’s security data to enable Palo Alto Networks solutions. We build streaming infrastructure for our customers. I will share share our infrastructure and experience while building that infr"
+c08s,How to build streaming data pipelines with Google Cloud Dataflow and Confluent Cloud,Elena Cuevas,pipelines-dataflow-confluent,2021-08-06T17:30:00,2021-08-06T17:55:00,"We want to demonstrate how easy it is to use Confluent Cloud as the data source of your Beam pipelines. 
+You will learn how to process the information that comes from Confluent Cloud in real time, make transformations on such information and feed it back "
+c09l,Leveraging Beam's Batch-Mode for Robust Recoveries and Late-Data Processing of Streaming Pipelines,Devon Peticolas,leveraging-batch-mode,2021-08-06T18:00:00,2021-08-06T18:50:00,This will be an application talk targeted at users or potential users of Apache Beam for real-time streaming applications. It will show how to write a Beam application deployable as both a streaming and batch job. And how to leverage that batch deployment

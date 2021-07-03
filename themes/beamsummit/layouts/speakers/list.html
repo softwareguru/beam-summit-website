@@ -10,8 +10,8 @@
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box">
-            <a href="{{.Permalink}}">
-              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+            <a href="{{.Permalink}}">              
+              <img src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
             </a>
           </div>
           <div class="speaker-info text-center">
