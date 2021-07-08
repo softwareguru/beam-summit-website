@@ -6,6 +6,6 @@ images:
 twitter: https://twitter.com/britt_hermann
 linkedin: https://www.linkedin.com/in/brittany-hermann/
 
-designation: "Program Manager at Google"
+designation: "Program Manager | Open Source at Google"
 
 ---
