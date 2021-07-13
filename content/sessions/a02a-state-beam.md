@@ -4,7 +4,7 @@ title: "The State of Apache Beam"
 url: /sessions/state-apache-beam
 speakers:
  - Pablo Estrada
-time_start: 2021-08-04T15:20:00.000Z
+time_start: 2021-08-04T15:00:00.000Z
 time_end: 2021-08-04T15:40:00.000Z
 block: a
 slot: 02a
