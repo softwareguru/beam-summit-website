@@ -4,6 +4,7 @@ title: "Fault Tolerant Integration of Apache Beam With Relational Database"
 url: /sessions/fault-tolerant-integration
 speakers:
  - Savitha Jayasankar
+ - Piaw Na
 time_start: 2021-08-04T20:30:00.000Z
 time_end: 2021-08-04T20:55:00.000Z
 block: a
