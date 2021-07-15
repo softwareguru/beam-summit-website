@@ -8,7 +8,13 @@ sponsor_group:
         link : "https://cloud.google.com"
 
 
-  - title : "Community"
+  - title : "Gold"
+    slug : "gold"
+    sponsor:                  
+      - logo : "/images/logos/Oden_Tech.png"
+        link : "https://oden.io/"
+
+  - title : "Partners"
     slug : "community"
     sponsor:                  
       - logo : "/images/logos/apache.svg"
