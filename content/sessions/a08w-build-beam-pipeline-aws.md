@@ -3,6 +3,7 @@ id: a08w
 title: "Workshop: Build a Unified Batch and Streaming Pipeline with Apache Beam on AWS"
 url: /sessions/build-beam-pipeline-aws
 speakers:
+ - Gandhi Swaminathan
  - Steffen Hausmann
 time_start: 2021-08-04T18:00:00.000Z
 time_end: 2021-08-04T20:00:00.000Z
