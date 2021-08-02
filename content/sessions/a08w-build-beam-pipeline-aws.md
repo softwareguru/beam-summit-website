@@ -23,5 +23,4 @@ Join us to learn how to leverage Beam’s expressive programming model to unify 
 Prerequisites
 
 * You’ll implement the Beam pipeline with Java. Some rudimentary knowledge of Java or a similar language is useful.
-* You’ll connect to a Windows instance during the workshop, so please come prepared with a working RDP client (https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/connecting_to_windows_instance.html#rdp-prereqs).
 * You do NOT need an AWS account, we will create accounts for you and distribute credentials before the workshop.
