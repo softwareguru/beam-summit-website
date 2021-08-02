@@ -1,6 +1,6 @@
 ---
 title: "Austin Bennett"
-designation: "Apache Beam Committer"
+designation: "Apache Beam Committer | Software Engineer at Earnest Research"
 images: 
  - /images/team/austin-bennett.jpg
 twitter: ""
