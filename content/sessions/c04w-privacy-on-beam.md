@@ -8,7 +8,13 @@ time_start: 2021-08-06T16:00:00.000Z
 time_end: 2021-08-06T17:00:00.000Z
 block: c
 slot: 04
+summary: This workshop requires additional registration and has limited capacity. See details.
+
 ---
+
+
+**Participation in this workshop requires additional registration and has limited capacity. If you are interested, please [register here](https://us02web.zoom.us/webinar/register/WN_-dXcHY6_RaWoOCO7CqrsiA)**
+
 
 [Privacy on Beam](https://github.com/google/differential-privacy/tree/main/privacy-on-beam) is an easy to use & end-to-end differential privacy solution for Apache Beam.
 
