@@ -5,5 +5,5 @@ image: "/images/team/maximilian-michels.jpg"
 twitter: https://twitter.com/stadtlegende
 linkedin: https://www.linkedin.com/in/maximilian-michels-3997299b/
 draft: true
-
+group: committee
 ---
