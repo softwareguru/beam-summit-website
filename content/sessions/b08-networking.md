@@ -1,6 +1,6 @@
 ---
 id: a02b
-title: "Poster sessions and Networking event"
+title: "Office Hours and Networking"
 url: /sessions/community-update
 speakers:
 
@@ -11,8 +11,10 @@ slot: 02b
 draft: false
 ---
 
-Discover what the Apache Beam experts have to share through Poster sessions, while you network with other event attendees and speakers.
+Discover what the Apache Beam experts have to share through an space where you can ask any questions, while you network with other event attendees and speakers.
 
-You will be able to contact directly with the experts that created the Posters, and ask any questions.
+You will be able to contact directly with the experts and chat with them at a live environment.
 
-(This session will happen at gather.town platform - LINK PENDING TO SHARE)
+
+This session will happen at **[gather.town platform](https://gather.town/app/pDAIn8vGreNFVlH1/beamsummit)**
+
