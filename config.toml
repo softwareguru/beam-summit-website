@@ -86,8 +86,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Register"
-link = "https://crowdcast.io/e/beamsummit2021"
+label = "Watch now"
+link = "/live"
 
 
 ############################# social icon ############################
