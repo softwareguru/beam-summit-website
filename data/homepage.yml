@@ -13,8 +13,8 @@ banner:
 
   button2:
     enable : true
-    label : "Register to attend"
-    link : "https://crowdcast.io/e/beamsummit2021"
+    label : "Watch now!"
+    link : "/live"
 
 
 ############################## Event ##############################
