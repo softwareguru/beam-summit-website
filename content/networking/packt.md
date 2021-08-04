@@ -14,4 +14,6 @@ Get 30% discount on [ebooks](https://www.packtpub.com/) using the code: **beamsu
 
 and 25% discount on [printed](https://www.amazon.com/gp/mpc/A3JPJA3DJ8YT9N) books using the code: **25ABEAM**
 
+[Available titles](https://docs.google.com/spreadsheets/d/1t8TiqF46yfdqWTUCPtHt0ZRRF_usTIo99Q9waaC8bg4/edit?usp=sharing)
+
 
