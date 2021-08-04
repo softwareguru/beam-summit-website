@@ -13,6 +13,6 @@ weight: 1
 
 Discover what Apache Beam experts have to share and contact with the community. You can have a live conversations and ask anything to the experts, or maybe you simply want to join for playing cards or arcade games. 
 
-See you this Thusday August 4th, 11:00-13:00 PST (GMT -8)
+See you this Thusday August 4th, 11:00-13:00 PDT (6 to 8 pm UTC)
 
 

@@ -1,14 +1,13 @@
 ---
 title: "Join our office hours with Beam committers"
-date: 2020-08-20T13:51:25+06:00
-draft: false
+date: 2021-08-03T13:51:25+06:00
 description: "During Beam Summit we will host office hours where several Apache Beam committers will be answering any questions you may have regarding technical aspects of different components of Apache Beam."
 # post thumb
 image : "/images/blog/super-helpful-crop.jpg"
 images : ["/images/blog/super-helpful-crop.jpg"]
 # author
 author: "Beam Summit Team"
-draft: true
+
 
 ---
 
@@ -16,21 +15,9 @@ We have some awesome news!
 
 During Beam Summit we will host office hours where several Apache Beam committers will be answering any questions you may have regarding technical aspects of different components of Apache Beam.
 
-This is the schedule:
+Discover what Apache Beam experts have to share and contact with the community. You can have a live conversations and ask anything to the experts, or maybe you simply want to join for playing cards or arcade games.
 
-#### Wednesday Aug-26
- * 18:00-19:00 UTC. Java SDK & SQL (Kenneth Knowles)
- * 18:00-19:00 UTC. Go (Robert Burke)
- * 19:00-20:00 UTC. Spark (Kyle Weaver)
- * 19:00-20:00 UTC. Flink (Ankur Goenka, Maximilian Michels)
-
-#### Thursday Aug-27 
- * 18:00-19:00. Beam Ease of Use (Alex Amato and Daniel Millls)
- * 18:00-19:00. Python SDK (Pablo Estrada)
- * 19:00-20:00. Beam Model (Robert Bradshaw)
- * 19:00-20:00. Beam Connectors (Chamikara Jayalath)
-
-To join the office hours, connect at these hours to the Beam Summit virtual space on Gather Town: https://sg1.run/beam-summit
+See you this Thusday August 4th, 11:00-13:00 PDT (6 to 8 pm UTC) at https://sg1.run/beamsummitsocial
 
 <br /><br />
 
