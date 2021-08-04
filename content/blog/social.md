@@ -8,7 +8,7 @@ image : "/images/blog/networking.jpg"
 images : ["/images/blog/networking.jpg"]
 # author
 author: "Beam Summit Team"
-
+draft: true
 ---
 
 We have more awesome news!
