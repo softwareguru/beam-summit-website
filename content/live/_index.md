@@ -13,6 +13,6 @@ draft: false
 
 <h3>Tips for participants</h3>
 <ul>
-  <li>We are in the <a href="https://the-asf.slack.com">ASF slack</a> discussing the sessions. Go to the channel #beam-summit-attendees. If you haven't joined this slack workspace yet, <a href="https://s.apache.org/slack-invite" target="_blank">join here</a> to skip invitation.</li>
+  <li>We are in the <a href="https://the-asf.slack.com">ASF slack</a> discussing the sessions. Go to the channel #beam-summit-attendees. If you haven't joined this slack workspace yet, <a href="https://sg1.run/beamsummit-slack" target="_blank">join here</a>.</li>
   <li>You can watch the recording of previous sessions by clicking within the Crowdcast window on the SCHEDULE text (upper left).</li>
 </ul>
