@@ -4,7 +4,7 @@ date: 2021-08-03T20:51:19-05:00
 image: /images/networking/EVENT S.png
 description: ""
 button: Today’s survey
-link: https://forms.gle/AeKdKZLd8avDKxWYA
+link: https://forms.gle/cBkrQfavGFBjeQax5
 draft: false
 weight: 4
 ---
