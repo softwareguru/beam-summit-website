@@ -10,6 +10,8 @@ time_end: 2021-08-04T17:45:00.000Z
 block: a
 slot: 05
 summary: TPC-DS is the de-facto SQL-based benchmark framework used to measure database systems and Big Data processing frameworks. Beam introduced an early TPC-DS implementation last year but so far we have not started to use it to measure the state of the performance of Beam.
+slides: a05-TPCDS.pdf
+video: https://youtu.be/LVpAD79VQzI
 
 ---
 

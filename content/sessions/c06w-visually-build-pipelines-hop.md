@@ -9,7 +9,8 @@ time_end: 2021-08-06T19:00:00.000Z
 block: c
 slot: 06
 summary: This workshop requires additional registration and has limited capacity. See details.
-
+slides: 
+video:
 ---
 
 

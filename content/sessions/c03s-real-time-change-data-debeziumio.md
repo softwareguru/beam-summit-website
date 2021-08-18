@@ -8,6 +8,8 @@ time_start: 2021-08-06T16:00:00.000Z
 time_end: 2021-08-06T16:25:00.000Z
 block: c
 slot: 03
+slides: 
+video: https://youtu.be/U_RshngpxLc
 ---
 
 In this session, we will talk about DebeziumIO, which is a new transform that allows us to read change streams from various databases into Beam by relying on Debezium.

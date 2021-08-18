@@ -8,6 +8,8 @@ time_start: 2021-08-05T21:30:00.000Z
 time_end: 2021-08-05T21:55:00.000Z
 block: b
 slot: 12
+slides: 
+video: https://youtu.be/jses0W4Zalc
 ---
 
 Big data systems have implemented the ability to scale up from the cluster perspective: Add more workers, and parallelize further.

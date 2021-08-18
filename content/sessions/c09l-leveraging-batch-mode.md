@@ -8,6 +8,8 @@ time_start: 2021-08-06T18:00:00.000Z
 time_end: 2021-08-06T18:50:00.000Z
 block: c
 slot: 09
+slides: 
+video: https://youtu.be/g1p8PR44l90
 ---
 
 This will be an application talk targeted at users or potential users of Apache Beam for real-time streaming applications. It will show how to write a Beam application deployable as both a streaming and batch job. And how to leverage that batch deployment for robust batch recoveries and late-data processing for your streaming application.

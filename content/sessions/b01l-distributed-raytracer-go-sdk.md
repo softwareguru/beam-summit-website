@@ -9,7 +9,8 @@ time_end: 2021-08-05T15:50:00.000Z
 block: b
 slot: 01
 summary: Demonstrate the Beam Go SDK with a raytracer as the motivating example.
-
+slides: b01-RayTracer.pdf
+video: https://youtu.be/JZcva_JPR-I
 ---
 
 Demonstrate the Beam Go SDK with a raytracer as the motivating example.

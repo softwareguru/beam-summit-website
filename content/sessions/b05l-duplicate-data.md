@@ -9,7 +9,8 @@ time_end: 2021-08-05T17:50:00.000Z
 block: b
 slot: 05
 summary: How to handle duplicate data in streaming pipelines using Dataflow and Pub/Sub.
-
+slides: 
+video: https://youtu.be/IYffTThXldI
 ---
 
 This session will provide a detailed overview of the origin of duplicates in your streaming data pipelines built using Pub/Sub and Dataflow. We’ll then go over some techniques that Apache Beam SDK provides to handle such duplicate data along with technical trade-offs of each option. There would also be some Q/A and discussion on some common mistakes developers may make.   

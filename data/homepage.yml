@@ -13,8 +13,8 @@ banner:
 
   button2:
     enable : true
-    label : "Watch now!"
-    link : "/live"
+    label : "Watch the sessions"
+    link : "/sessions"
 
 
 ############################## Event ##############################

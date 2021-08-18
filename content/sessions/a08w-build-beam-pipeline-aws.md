@@ -10,6 +10,8 @@ time_end: 2021-08-04T20:00:00.000Z
 block: a
 slot: 08
 summary: In this workshop, you explore an end to end example that combines batch and streaming aspects in one uniform Beam pipeline. Check out the prerrequisites and additional registration.
+slides: a08-AWS.pdf
+video:
 ---
 
 **Participation in this workshop requires additional registration and has limited capacity. If you are interested, please [register here](https://us02web.zoom.us/webinar/register/WN_3zNJOuDVQhGKxU-yg2Sbkg)**

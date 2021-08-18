@@ -10,6 +10,8 @@ time_end: 2021-08-04T20:55:00.000Z
 block: a
 slot: 10
 summary: We will share a use case at Niantic where we used Postgres as a time-series database to store metrics information from Apache Beam workflows.
+slides: a10-FaultTolerantIntegration.pdf
+video: https://youtu.be/X8QqvWJYsz0
 ---
 
 Prometheus is an industry-wide used monitoring system and time series database. Prometheus cannot be used as a metrics reporting system for outputs of a non-real-time Apache Beam pipeline as the metric denotes a player activity when occurred in the past, and Prometheus does not have a feature to accept timestamp as input. Niantic's goal was to process the batched data pipelines and produce timestamped player activity metrics without data loss and millisecond accuracy. The solution that worked in Niantic was using Postgres as a time-series database to store metrics information from Apache Beam workflows.

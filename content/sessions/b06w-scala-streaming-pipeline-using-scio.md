@@ -9,6 +9,8 @@ time_end: 2021-08-05T18:00:00.000Z
 block: b
 slot: 06
 summary: This workshop requires additional registration and has limited capacity. See details.
+slides: 
+video:
 ---
 
 **Participation in this workshop requires additional registration and has limited capacity. If you are interested, please [register here](https://us02web.zoom.us/webinar/register/WN_ZxzfedhETiy_PbG_lpF2ug)**

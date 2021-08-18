@@ -8,6 +8,8 @@ time_start: 2021-08-04T16:30:00.000Z
 time_end: 2021-08-04T16:55:00.000Z
 block: a
 slot: 04
+slides: a04-ScalingBeam.pdf
+video: https://youtu.be/gtguzx1Vlpk
 ---
 
 Apache Beam is a critical technology in delivering millions of personalised recommendations to the BBC audience daily. The journey to adopt the technology, however, wasn't the smoothest. The objective of this talk is to save others time and money.

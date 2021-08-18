@@ -11,6 +11,8 @@ time_start: 2021-08-04T15:00:00.000Z
 time_end: 2021-08-04T16:00:00.000Z
 block: a
 slot: 02a
+slides: 
+video: https://youtu.be/NXp34AZUqGA
 ---
 
 Brittany and Austin will provide an update of Apache Beam from the perspective of the community, its growth and initiatives.

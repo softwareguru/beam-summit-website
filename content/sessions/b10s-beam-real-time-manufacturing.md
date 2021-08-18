@@ -8,6 +8,8 @@ time_start: 2021-08-05T20:30:00.000Z
 time_end: 2021-08-05T20:55:00.000Z
 block: b
 slot: 10
+slides: 
+video: https://youtu.be/rKrUlKsMRxE
 ---
 
 

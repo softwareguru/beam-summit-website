@@ -9,6 +9,8 @@ time_end: 2021-08-05T20:00:00.000Z
 block: b
 slot: 08
 summary: In-depth workshop where we will explain how to use Flex templates for testing and CI/CD of Beam data pipelines. This workshop requires additional registration and has limited capacity. See details.
+slides: 
+video:
 ---
 
 **Participation in this workshop requires additional registration and has limited capacity. If you are interested, please [register here](https://us02web.zoom.us/webinar/register/WN_bBFM33DNQTKsB9BDP9upJw)**
