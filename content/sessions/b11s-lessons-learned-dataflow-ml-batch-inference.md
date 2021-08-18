@@ -8,7 +8,7 @@ time_start: 2021-08-05T21:00:00.000Z
 time_end: 2021-08-05T21:25:00.000Z
 block: b
 slot: 11
-slides: 
+slides: b11-LocalBatchML.pdf
 video: https://youtu.be/7yOsiMOgAHY
 ---
 

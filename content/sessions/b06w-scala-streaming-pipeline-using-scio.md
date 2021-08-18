@@ -9,7 +9,7 @@ time_end: 2021-08-05T18:00:00.000Z
 block: b
 slot: 06
 summary: This workshop requires additional registration and has limited capacity. See details.
-slides: 
+slides: b06-ScioWorkshop.pdf
 video:
 ---
 

@@ -10,6 +10,7 @@ block: b
 slot: 03
 slides: 
 video:
+draft: true
 ---
 
 A little session to share how to process events in streams using the pattern matching approach and how to implement it in Kotlin with Apache Beam.
