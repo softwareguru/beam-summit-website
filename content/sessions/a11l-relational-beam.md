@@ -8,7 +8,7 @@ time_start: 2021-08-04T21:00:00.000Z
 time_end: 2021-08-04T21:50:00.000Z
 block: a
 slot: 11
-slides: 
+slides: a11-RelationalBeam.pdf
 video: https://youtu.be/4rDZ0b0TOvc
 ---
 
