@@ -9,7 +9,7 @@ time_end: 2021-08-05T17:50:00.000Z
 block: b
 slot: 05
 summary: How to handle duplicate data in streaming pipelines using Dataflow and Pub/Sub.
-slides: 
+slides: b05-HandlingDuplicates.pdf
 video: https://youtu.be/IYffTThXldI
 ---
 
