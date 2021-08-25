@@ -10,7 +10,7 @@ block: c
 slot: 06
 summary: This workshop requires additional registration and has limited capacity. See details.
 slides: 
-video:
+video: https://youtu.be/sZSIbcPtebI
 ---
 
 

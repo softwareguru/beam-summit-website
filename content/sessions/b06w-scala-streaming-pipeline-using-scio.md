@@ -10,7 +10,7 @@ block: b
 slot: 06
 summary: This workshop requires additional registration and has limited capacity. See details.
 slides: b06-ScioWorkshop.pdf
-video:
+video: https://youtu.be/Kz4pn4KoPZo
 ---
 
 **Participation in this workshop requires additional registration and has limited capacity. If you are interested, please [register here](https://us02web.zoom.us/webinar/register/WN_ZxzfedhETiy_PbG_lpF2ug)**
