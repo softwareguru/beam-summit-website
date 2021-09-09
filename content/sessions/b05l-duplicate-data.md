@@ -3,7 +3,7 @@ id: b05l
 title: "How to handle duplicate data in streaming pipelines using Dataflow and Pub/Sub"
 url: /sessions/handle-duplicate-data
 speakers:
- - Zeeshan Khan
+ - Zeeshan
 time_start: 2021-08-05T17:00:00.000Z
 time_end: 2021-08-05T17:50:00.000Z
 block: b
