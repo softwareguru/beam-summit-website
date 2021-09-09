@@ -2,6 +2,7 @@
 title: "Zeeshan"
 designation: "Cloud Data Engineer at Google"
 images: 
+ - /images/mascot-fix.png
 twitter: ""
 linkedin: ""
 ---
