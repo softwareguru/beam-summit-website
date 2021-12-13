@@ -1,13 +1,13 @@
 ---
 title: "Beam Summit 2021 CFP is open!"
-date: 2021-04-30T16:29:57-05:00
-draft: false
+date: 2021-12-16T16:29:57-05:00
 description: ""
 # post thumb
 image : "/images/blog/CFP.png"
 images : ["/images/blog/CFP.png"]
 # author
 author: "Beam Summit Team"
+draft: true
 ---
 
 Welcome to the Beam Digital Summit 2021 "Call for Papers". The goal of the summit is to grow the community, exchange ideas and knowledge around "Apache Beam".

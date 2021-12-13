@@ -5,7 +5,7 @@ url: "/about"
 
 ---
 
-Beam Summit is the premier conference for the worldwide community of Apache Beam users and contributors. Beam Summit 2021 will be online and free with live talks from August 4th to 6th, 2021.
+Beam Summit is the premier conference for the worldwide community of Apache Beam users and contributors. Beam Summit 2022 is currently under planning and is expected to happen on Summer 2022.
 
 ### Activities & content
 Sessions dive on different topics like how is Apache Beam evolving and what is in the roadmap, how are companies using it, and how can we strengthen our community. In addition to talks, we also hav hands-on workshops and networking activities. 
@@ -13,6 +13,7 @@ Sessions dive on different topics like how is Apache Beam evolving and what is i
 ### About previous editions
 These are previous editions of the Beam Summit:
 
+* [Beam Digital Summit 2021](https://2021.beamsummit.org)
 * [Beam Digital Summit 2020](https://2020.beamsummit.org)
 * [Beam Summit North America 2019](https://na2019.beamsummit.org)
 * [Beam Summit Europe 2019](https://europe2019.beamsummit.org)

@@ -5,13 +5,9 @@ description: Details for participation in Beam Summit.
 bg_image: images/bg/cta-bg.jpg
 
 ---
-## How can I watch the sessions?
-When the event starts, we will have a [Live](/live) page in this site where you will be able to watch the sessions (or if you prefer, you can go directly to the crowdcast at https://crowdcast.io/e/beamsummit2021). 
-* If you are already registered to the Beam Summit and have an active session on Crowdcast, you should be able to see the live session (or the latest recording if there is none live at the moment).
-* If you don't have an active session on the Beam Summit crowdcast, click on the "Join" button within the crowdcast and follow the instructions.
 
-## Does participation have a cost?
-Participation in Beam Summit is completely free. You can register for free and watch all sesions.
+## Will the event be onsite or online?
+We are currently evaluating this. We would like an onsite component but in case we do this we will also live stream all talks for free.
 
 ## How can I interact with other participants?
 We will be using slack to interact with speakers and other participants. Please join the #beam-summit-attendees channel in the ASF slack workspace. If you need to create an account, please [click here](https://s.apache.org/slack-invite) so that you can create an account without an invitation or ASF email.

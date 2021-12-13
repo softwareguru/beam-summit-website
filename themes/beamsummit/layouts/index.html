@@ -14,7 +14,7 @@
   </div>
   <div class="meta">
     <p>{{ .date_time }}</p>
-    <p>{{ .venue }}</p>
+    <p>{{ .venue | markdownify}}</p>
 
     {{ if .button1.enable }}
         {{ with .button1 }}

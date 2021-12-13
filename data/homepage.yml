@@ -1,29 +1,29 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "The future <br> & Tech Expo"
+  title : "Beam Summit 2022"
   logo : "/images/logo-home.png"
-  bg_image: "images/banner/banner-2.jpg"
-  date_time : "August 4-6, 2021"
-  venue : "100% online and free"
+  bg_image: "/images/banner/banner-2.jpg"
+  date_time : "Summer 2022"
+  venue : "Hybrid event <br />"
   button1:
     enable : false
     label : "Submit a proposal"
-    link : "https://sessionize.com/beam-digital-summit-2021"
+    link : "https://sessionize.com/beam-summit-2022"
 
   button2:
     enable : true
-    label : "Watch the sessions"
-    link : "/sessions"
+    label : "Watch last year's sessions"
+    link : "https://2021.beamsummit.org/sessions/"
 
 
 ############################## Event ##############################
 event_info:
   enable : true
-  title : "Beam Summit 2021 is your opportunity to learn and contribute to Apache Beam!"
+  title : "Beam Summit 2022 is your opportunity to learn and contribute to Apache Beam!"
   description : "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
   cta_text: "Submit to our CFP!"
-  cta_link: "https://sessionize.com/beam-digital-summit-2021"
+  cta_link: "https://sessionize.com/beam-summit-2022"
   features: 
     - number : "3"
       label : "Days"

@@ -1,7 +1,6 @@
 ---
 title: "Join our virtual social event"
 date: 2020-08-24T13:00:25+06:00
-draft: false
 description: "Join the virtual social event to network and mingle with your fellow members of the Apache Beam community."
 # post thumb
 image : "/images/blog/networking.jpg"

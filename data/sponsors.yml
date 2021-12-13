@@ -11,8 +11,8 @@ sponsor_group:
   - title : "Gold"
     slug : "gold"
     sponsor:                  
-      - logo : "/images/logos/Oden_Tech.png"
-        link : "https://oden.io/"
+#      - logo : "/images/logos/Oden_Tech.png"
+#        link : "https://oden.io/"
 
   - title : "Partners"
     slug : "community"
@@ -21,14 +21,14 @@ sponsor_group:
         link : "https://www.apache.org"
       - logo : "/images/logos/flink-forward.jpg"
         link : "https://www.flink-forward.org"
-      - logo : "/images/logos/manning.png"
-        link : "https://www.manning.com"
-      - logo : "/images/logos/packt.png"
-        link : "https://www.packtpub.com"
-      - logo : "/images/logos/earnest-research.png"
-        link : "https://www.earnestresearch.com/"
-      - logo : "/images/logos/arabesque2.png"
-        link : "https://www.arabesque.com/"
+#      - logo : "/images/logos/manning.png"
+#        link : "https://www.manning.com"
+#      - logo : "/images/logos/packt.png"
+#        link : "https://www.packtpub.com"
+#      - logo : "/images/logos/earnest-research.png"
+#        link : "https://www.earnestresearch.com/"
+#      - logo : "/images/logos/arabesque2.png"
+#        link : "https://www.arabesque.com/"
                       
 # call to action in sponsor
 sponsorship:
