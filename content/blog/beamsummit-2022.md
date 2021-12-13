@@ -1,6 +1,6 @@
 ---
 title: "We are planning Beam Summit 2022"
-date: 2021-12-13T10:51:25-05:00
+date: 2021-12-12T10:51:25-05:00
 description: "We are currently planning the next edition of Beam Summit for Summer 2022. Check out the details."
 image : "/images/blog/beamsummit-2022-coming.png"
 images : ["/images/blog/beamsummit-2022-coming.png"]
