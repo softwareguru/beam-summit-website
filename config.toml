@@ -34,10 +34,10 @@ speaker = "speakers"
   URL = "/about"
   weight = 1
 
-  #[[menu.main]]
-  #name = "Venue"
-  #URL = "/venue"
-  #weight = 2
+  [[menu.main]]
+  name = "Venue"
+  URL = "/venue"
+  weight = 2
 
   #[[menu.main]]
   #name = "Schedule"
@@ -78,8 +78,8 @@ home = "Home"
 
 # Meta data
 description = "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
-image = "/images/card.png"
-images = ["/images/card.png"]
+image = "/images/card.jpg"
+images = ["/images/card.jpg"]
 twitter_user = "@beamsummit"
 email = "contact@beamsummit.org"
 author = "Software Guru"

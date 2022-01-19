@@ -5,10 +5,13 @@ url: "/about"
 
 ---
 
-Beam Summit is the premier conference for the worldwide community of Apache Beam users and contributors. Beam Summit 2022 is currently under planning and is expected to happen on Summer 2022.
+Beam Summit is the premier conference for the worldwide community of Apache Beam users and contributors. In Beam Summit you will:
+  * Learn how leading organizations use Apache Beam.
+  * Find out what is coming for the project.
+  * Improve your Beam skills through in-depth workshops.
+  * Interact with key developers of Apache Beam, as well as with other users and contributors from all around the world.
 
-### Activities & content
-Sessions dive on different topics like how is Apache Beam evolving and what is in the roadmap, how are companies using it, and how can we strengthen our community. In addition to talks, we also hav hands-on workshops and networking activities. 
+The 2022 edition of Beam Summit will be from July 18th to 20th, 2022. It will be a hybrid event with an onsite component in Austin, TX and all sessions (minus workshops) will also be live streamed for our online audience.
 
 ### About previous editions
 These are previous editions of the Beam Summit:

@@ -1,5 +1,5 @@
 ---
-title: About venue
+title: Venue
 date: '2022-01-18T07:51:25.000+00:00'
 
 ---

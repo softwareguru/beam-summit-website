@@ -4,15 +4,15 @@ banner:
   title : "Beam Summit 2022"
   logo : "/images/logo-home.png"
   bg_image: "/images/banner/banner-2.jpg"
-  date_time : "Summer 2022"
-  venue : "Hybrid event <br />"
+  date_time : "July 18-20, 2022"
+  venue : "Austin, TX <br />"
   button1:
-    enable : false
-    label : "Submit a proposal"
+    enable : true
+    label : "Submit a proposal!"
     link : "https://sessionize.com/beam-summit-2022"
 
   button2:
-    enable : true
+    enable : false
     label : "Watch last year's sessions"
     link : "https://2021.beamsummit.org/sessions/"
 
@@ -28,11 +28,11 @@ event_info:
     - number : "3"
       label : "Days"
       
-    - number : "15+"
+    - number : "20+"
       label : "Sessions"
 
-    - number : "100%"
-      label : "Free"
+    - number : "Hybrid"
+      label : "Attend in person or online"
 
     - number : "Everybody"
       label : "is welcome"
