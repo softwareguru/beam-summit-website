@@ -7,29 +7,36 @@ sponsor_group:
       - logo : "/images/logos/google-cloud.png"
         link : "https://cloud.google.com"
 
-
-  - title : "Gold"
-    slug : "gold"
-    sponsor:                  
-#      - logo : "/images/logos/Oden_Tech.png"
-#        link : "https://oden.io/"
-
   - title : "Partners"
     slug : "community"
     sponsor:                  
       - logo : "/images/logos/apache.svg"
         link : "https://www.apache.org"
+      - logo : "/images/logos/akvelon.png"
+        link : "https://akvelon.com"
       - logo : "/images/logos/flink-forward.jpg"
         link : "https://www.flink-forward.org"
-#      - logo : "/images/logos/manning.png"
-#        link : "https://www.manning.com"
-#      - logo : "/images/logos/packt.png"
-#        link : "https://www.packtpub.com"
-#      - logo : "/images/logos/earnest-research.png"
-#        link : "https://www.earnestresearch.com/"
-#      - logo : "/images/logos/arabesque2.png"
-#        link : "https://www.arabesque.com/"
-                      
+
+
+  - title : "Previous editions"
+    slug : "previous"
+    sponsor:                  
+      - logo : "/images/logos/spotify.png"
+        link : "https://rnd.atspotify.com/"
+      - logo : "/images/logos/Oden_Tech.png"
+        link : "https://oden.io/"
+      - logo : "/images/logos/polidea.png"
+        link : "https://polidea.com"
+      - logo : "/images/logos/manning.png"
+        link : "https://www.manning.com"
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com"
+      - logo : "/images/logos/earnest-research.png"
+        link : "https://www.earnestresearch.com/"
+      - logo : "/images/logos/arabesque2.png"
+        link : "https://www.arabesque.com/"
+ 
+
 # call to action in sponsor
 sponsorship:
   enable : true
