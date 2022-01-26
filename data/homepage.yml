@@ -28,7 +28,7 @@ event_info:
     - number : "3"
       label : "Days"
       
-    - number : "20+"
+    - number : "30+"
       label : "Sessions"
 
     - number : "Hybrid"
