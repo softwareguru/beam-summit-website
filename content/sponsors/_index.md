@@ -1,5 +1,5 @@
 ---
-title: "Sponsors"
+title: "Previous Sponsors"
 
 ---
 

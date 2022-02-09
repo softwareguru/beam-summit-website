@@ -91,3 +91,8 @@ If you feel like taking some time to know the city, there's a lot of things to d
     </div>
   </div>
 
+  <br>
+
+# Where to stay?
+
+We have a limited amount of rooms with a discount for the Beam Summit attendees. If you’re interested in booking your room, do it [here](https://book.passkey.com/go/SUBEAM0722)

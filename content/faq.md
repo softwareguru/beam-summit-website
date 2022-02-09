@@ -24,6 +24,10 @@ While Beam Summit is a hybrid event and attendees will have a great experience w
 * In-person attendance has a cost $290 USD ($230 in early bird), which mainly helps us cover venue and catering costs.
 * Workshops are $60 each (limited to 40 participants per workshop).
 
+## Where to stay?
+
+We have a limited amount of rooms with a discount for the Beam Summit attendees. If you’re interested in booking your room, do it [here](https://book.passkey.com/go/SUBEAM0722)
+
 ## Will you have scholarships available?
 We will have a limited amount of scholarships available in order to help participants who cannot cover their expenses.
 
