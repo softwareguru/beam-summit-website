@@ -6,7 +6,7 @@ enableRobotsTXT = true
 DefaultContentLanguage = "en"
 RemovePathAccents = true
 
-googleAnalytics = "G-FGL9DPG0CG"
+googleAnalytics = "G-34DDBB1MFE"
 
 theme = "beamsummit"
 # post pagination
