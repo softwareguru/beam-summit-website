@@ -15,7 +15,7 @@ While Beam Summit is a hybrid event and attendees will have a great experience w
 * Networking reception.
 
 ## What is the policy regarding COVID-19 for in-person attendees?
-* Attendees will be required to show proof of full COVID-19 vaccination (one or two doses depending on which vaccine).
+* Attendees will be required to show proof of full COVID-19 vaccination (one or two doses depending on which vaccine), or provide a negative 72hr PCR test.
 * Attendees will be required to use face masks in conference rooms and indoor activities.
 * There will be sanitizer stations around the event venue.
 
