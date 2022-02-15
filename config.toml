@@ -39,6 +39,11 @@ speaker = "speakers"
   URL = "/venue"
   weight = 2
 
+  [[menu.main]]
+  name = "Tickets"
+  URL = "/tickets"
+  weight = 3
+
   #[[menu.main]]
   #name = "Sponsor"
   #URL = "/sponsors"

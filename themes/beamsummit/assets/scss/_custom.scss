@@ -337,3 +337,15 @@ article.swag {
 .swag-detail-logo {
     width: 300px;
 }
+
+.btn-tickets {
+    background-color: $yellow2;
+    color: $white;
+    font-weight: 500;
+    letter-spacing: .1em;
+
+    &:hover {
+      background-color: $yellow;
+      color: $white;
+    }
+  }
