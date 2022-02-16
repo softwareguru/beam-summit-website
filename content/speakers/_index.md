@@ -1,7 +1,7 @@
 ---
 title: "Speakers"
 description: "We have a great team of speakers that will share their experience and insight on Apache Beam."
-
+draft: true
 ---
 
 We are gathering an amazing team of speakers that will share their experience and insight on Beam Summit.

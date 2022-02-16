@@ -1,6 +1,6 @@
 ---
 title: "Workshops"
-
+draft: true
 ---
 
 We will be offering hands-on workshops on how to use Apache Beam in different scenarios and with different infrastructure. 

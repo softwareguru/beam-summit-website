@@ -87,6 +87,12 @@ author = "Software Guru"
 start_date = "2022-07-18T10:00-05:00"
 end_date = "2022-07-20T17:00-05:00"
 
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.6
+
+
 disclaimer = """Apache Beam, the Beam logo, and the Apache feather logo are either registered trademarks or 
 trademarks of The Apache Software Foundation. All other products or name brands are trademarks of their 
 respective holders, including The Apache Software Foundation. The Apache Software Foundation has no affiliation 

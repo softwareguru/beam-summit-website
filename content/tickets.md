@@ -1,7 +1,11 @@
 ---
 title: "Tickets"
-date: 2019-09-10T13:51:25+06:00
+date: 2022-02-14T13:51:25+06:00
 description: "Get your tickets for Beam Summit 2022"
+
+sitemap:
+  priority: 0.9
+
 ---
 
 ## Ticket types and price

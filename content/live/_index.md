@@ -1,7 +1,7 @@
 ---
 title: "Live"
 date: 2019-09-10T13:51:25+06:00
-draft: false
+draft: true
 ---
 
 <iframe width="100%" height="720" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true"
