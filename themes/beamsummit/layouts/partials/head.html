@@ -39,6 +39,7 @@
 
     <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+    {{ if .IsHome }}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -60,7 +61,7 @@
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2021-01-01T12:00"
+          "validFrom": "2022-02-01T12:00"
         },
         "performer": {
           "@type": "PerformingGroup",
@@ -73,6 +74,7 @@
         }
       }
     </script>
+    {{ end }}
 
 </head>
   
