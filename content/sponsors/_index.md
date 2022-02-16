@@ -1,6 +1,6 @@
 ---
-title: "Previous Sponsors"
+title: "Sponsors"
 
 ---
 
-## Beam Summit is possible thanks to
+### Beam Summit is possible thanks to our sponsors and partners

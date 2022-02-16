@@ -1,5 +1,5 @@
 enable :  true
-title : "Previous Sponsors"
+title : "Sponsors"
 sponsor_group:
   - title : "Platinum"
     slug : "platinum"
@@ -14,8 +14,6 @@ sponsor_group:
         link : "https://www.apache.org"
       - logo : "/images/logos/akvelon.png"
         link : "https://akvelon.com"
-      - logo : "/images/logos/flink-forward.jpg"
-        link : "https://www.flink-forward.org"
 
 
   - title : "Previous editions"
@@ -29,6 +27,8 @@ sponsor_group:
         link : "https://polidea.com"
       - logo : "/images/logos/manning.png"
         link : "https://www.manning.com"
+      - logo : "/images/logos/flink-forward.jpg"
+        link : "https://www.flink-forward.org"
       - logo : "/images/logos/packt.png"
         link : "https://www.packtpub.com"
       - logo : "/images/logos/earnest-research.png"
@@ -40,8 +40,8 @@ sponsor_group:
 # call to action in sponsor
 sponsorship:
   enable : true
-  title : "Support Beam Summit and engage with the community! Join our sponsors and partners."
+  title : "Support Beam Summit and engage with the community!"
   #button
   label : "View our Prospectus"
-  link : "/files/Beam Summit 2022 - Prospectus.pdf"
+  link : "/files/BeamSummit2022-Prospectus.pdf"
 

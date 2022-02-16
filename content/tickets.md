@@ -29,7 +29,7 @@ description: "Get your tickets for Beam Summit 2022"
 </table>
 
 <div class="d-flex justify-content-center">
-<a href="https://beamsummit-2022.eventbrite.com" target="_blank" class="btn btn-tickets mt-3">Get your tickets on Eventbrite</a>
+<a href="https://beamsummit-2022.eventbrite.com" target="_blank" class="btn btn-yellow btn-rounded mt-3">Get your tickets on Eventbrite</a>
 </div>
 
 <p class="mt-4">If you would like to attend in person but cannot afford a ticket, please <a href="https://forms.gle/STT1tYp9MefGzN5L9" target="_blank">apply for a scholarship.</p>

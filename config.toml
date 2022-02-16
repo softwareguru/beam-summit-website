@@ -40,14 +40,9 @@ speaker = "speakers"
   weight = 2
 
   [[menu.main]]
-  name = "Tickets"
-  URL = "/tickets"
-  weight = 3
-
-  #[[menu.main]]
-  #name = "Sponsor"
-  #URL = "/sponsors"
-  #weight = 2
+  name = "Sponsors"
+  URL = "/sponsors"
+  weight = 4
 
 
 #  [[menu.main]]
@@ -99,9 +94,9 @@ with and does not endorse, or review the materials provided at this event."""
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "Watch now"
-link = "/live"
+enable = true
+label = "Tickets"
+link = "/tickets"
 
 
 ############################# social icon ############################
@@ -151,7 +146,7 @@ link = "/coc"
 
 [[params.footer_resources]]
 name = "Prospectus"
-link = "/files/Beam Summit 2022 - Prospectus.pdf"
+link = "/files/BeamSummit2022-Prospectus.pdf"
 
 # [[params.footer_resources]]
 # name = "Call for papers"
