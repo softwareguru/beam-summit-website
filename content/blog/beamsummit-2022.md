@@ -5,7 +5,7 @@ description: "We are currently planning the next edition of Beam Summit for Summ
 image : "/images/blog/beamsummit-2022-coming.png"
 images : ["/images/blog/beamsummit-2022-coming.png"]
 author: "Beam Summit Team"
-draft: false
+draft: true
 
 ---
 
