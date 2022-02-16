@@ -7,6 +7,7 @@ sponsor_group:
       - logo : "/images/logos/google-cloud.png"
         link : "https://cloud.google.com"
 
+
   - title : "Partners"
     slug : "community"
     sponsor:                  
@@ -35,6 +36,8 @@ sponsor_group:
         link : "https://www.earnestresearch.com/"
       - logo : "/images/logos/arabesque2.png"
         link : "https://www.arabesque.com/"
+      - logo : "/images/logos/flink-forward.jpg"
+        link : "https://www.flink-forward.org"
  
 
 # call to action in sponsor
