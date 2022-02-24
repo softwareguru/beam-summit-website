@@ -7,6 +7,12 @@ sponsor_group:
       - logo : "/images/logos/google-cloud.png"
         link : "https://cloud.google.com"
 
+  - title : "Gold"
+    slug : "gold"
+    sponsor:                  
+      - logo : "/images/logos/spotify.png"
+        link : "https://rnd.atspotify.com/"
+
 
   - title : "Partners"
     slug : "community"
@@ -15,8 +21,11 @@ sponsor_group:
         link : "https://www.apache.org"
       - logo : "/images/logos/akvelon.png"
         link : "https://akvelon.com"
-
-
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com"
+      - logo : "/images/logos/manning.png"
+        link : "https://www.manning.com"
+        
   - title : "Previous editions"
     slug : "previous"
     sponsor:                  
@@ -36,8 +45,8 @@ sponsor_group:
         link : "https://www.earnestresearch.com/"
       - logo : "/images/logos/arabesque2.png"
         link : "https://www.arabesque.com/"
-      - logo : "/images/logos/flink-forward.jpg"
-        link : "https://www.flink-forward.org"
+      #- logo : "/images/logos/flink-forward.jpg"
+       # link : "https://www.flink-forward.org"
  
 
 # call to action in sponsor
