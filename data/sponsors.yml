@@ -7,11 +7,11 @@ sponsor_group:
       - logo : "/images/logos/google-cloud.png"
         link : "https://cloud.google.com"
 
-  - title : "Gold"
-    slug : "gold"
-    sponsor:                  
-      - logo : "/images/logos/spotify.png"
-        link : "https://rnd.atspotify.com/"
+#  - title : "Gold"
+#    slug : "gold"
+#    sponsor:                  
+      #- logo : "/images/logos/spotify.png"
+      #  link : "https://rnd.atspotify.com/"
 
 
   - title : "Partners"
@@ -29,8 +29,8 @@ sponsor_group:
   - title : "Previous editions"
     slug : "previous"
     sponsor:                  
-      #- logo : "/images/logos/spotify.png"
-      #  link : "https://rnd.atspotify.com/"
+      - logo : "/images/logos/spotify.png"
+        link : "https://rnd.atspotify.com/"
       - logo : "/images/logos/Oden_Tech.png"
         link : "https://oden.io/"
       - logo : "/images/logos/polidea.png"
