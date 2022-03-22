@@ -8,8 +8,8 @@ banner:
   venue : "Austin, TX <br />"
   button1:
     enable : true
-    label : "Submit a proposal!"
-    link : "https://sessionize.com/beam-summit-2022"
+    label : "Register now!"
+    link : "/tickets"
 
   button2:
     enable : false
@@ -22,8 +22,8 @@ event_info:
   enable : true
   title : "Beam Summit 2022 is your opportunity to learn and contribute to Apache Beam!"
   description : "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
-  cta_text: "Submit to our CFP!"
-  cta_link: "https://sessionize.com/beam-summit-2022"
+  cta_text: "Register now!"
+  cta_link: "/tickets"
   features: 
     - number : "3"
       label : "Days"
