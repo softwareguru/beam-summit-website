@@ -87,6 +87,8 @@ author = "Software Guru"
 start_date = "2022-07-18T10:00-05:00"
 end_date = "2022-07-20T17:00-05:00"
 
+googleTag = "GTM-N7HNWWM"
+
 [sitemap]
   changefreq = 'weekly'
   filename = 'sitemap.xml'

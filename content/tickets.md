@@ -43,22 +43,38 @@ sitemap:
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
 <script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-    var clientId;
-    ga(function(tracker){
-      clientId = tracker.get('clientId');
-    });
 
-    window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: '261321558817',
-        googleAnalyticsClientId: clientId,
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-261321558817',
-        onOrderComplete: exampleCallback
-    });
+  function getGAClientID() {
+    result = 0;
+    var trackers = [];
+    try {
+      trackers = ga.getAll();
+    } catch (error) {
+      console.log("Could not load ga")
+    }  
+    var i, len;
+    for (i = 0, len = trackers.length; i < len; i += 1) {
+      if (trackers[i].get('trackingId') === 'UA-165970215-2') {
+        result = trackers[i].get('clientId');
+      }
+    }
+    console.log("Returning "+result);
+    return result;
+  }
+
+  var exampleCallback = function() {
+    console.log('Order complete!');
+  };
+  
+    
+  window.EBWidgets.createWidget({
+    widgetType: 'checkout',
+    eventId: '261321558817',
+    googleAnalyticsClientId: getGAClientID(),
+    modal: true,
+    modalTriggerElementId: 'eventbrite-widget-modal-trigger-261321558817',
+    onOrderComplete: exampleCallback
+  });
 </script>
 </div>
 
