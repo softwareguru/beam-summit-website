@@ -11,7 +11,7 @@ We have a limited amount of rooms with a discount for the Beam Summit attendees.
 
 # About the Venue
 
-The onsite component of Beam Summit will be held at Austin, TX, at the AT&T Hotel and Conference center.
+The onsite component of Beam Summit will be held at Austin, TX, at the [AT&T Hotel and Conference center](https://meetattexas.com).
 
 The event organization will follow all the required recommendations for COVID-19.
 
