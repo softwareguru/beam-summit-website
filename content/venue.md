@@ -74,7 +74,7 @@ If you feel like taking some time to know the city, there's a lot of things to d
     </div>
     <div class="col">
     <center>
-      <img src="https://www.certusa.org/wp-content/uploads/texas-san-antonio-river-walk-night.jpg" class="img-fluid" width="500px">
+      <img src="/images/blog/austin.jpeg" class="img-fluid" width="500px">
       <center>
     </div>
   </div>
