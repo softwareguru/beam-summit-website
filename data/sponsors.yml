@@ -17,7 +17,8 @@ sponsor_group:
 
 
   - title : "Partners"
-    slug : "community"
+    slug : "previous"
+    #slug: "community"
     sponsor:                  
       - logo : "/images/logos/apache.svg"
         link : "https://www.apache.org"
@@ -27,6 +28,8 @@ sponsor_group:
         link : "https://www.packtpub.com"
       - logo : "/images/logos/manning.png"
         link : "https://www.manning.com"
+      - logo : "/images/logos/getmonita.png"
+        link : "https://www.getmonita.io/"
         
   - title : "Previous editions"
     slug : "previous"
