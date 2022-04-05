@@ -5,23 +5,31 @@
         {{ .Content }}
     </p>
 
-   
+    {{ $is_2022 := eq .RelPermalink "/sessions/" }}
 
     <table data-toggle="table" data-search="true" data-search-align="left">
         <thead>
             <tr>
                 <th data-field="title">Title</th>
                 <th data-field="speaker">Speaker(s)</th>
+                {{ if not $is_2022 }}
                 <th data-field="recording">Recording</th>
                 <th data-field="slides">Slides</th>
+                {{ end }}
             </tr>
         </thead>
 
         <tbody>
-            {{ range sort .Data.Pages ".Params.time_end" }}
+            {{ range .Data.Pages.ByTitle }}
             <tr>
-                <td><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></td>
+                <td data-toggle="collapse" data-target="#abs-{{.File.TranslationBaseName}}" class="session-toggler"><h5><a class="session-title">{{ .Params.title }}</a></h5>
+                    <div class="collapse card-abstract" id="abs-{{.File.TranslationBaseName}}">
+                        {{ .Summary }}
+                          <div><a href="{{.Permalink}}">Check details ...</a></div>
+                    </div>
+                </td>
                 <td>{{ with .Params.speakers }}{{ delimit . ", " " & " }}{{ end }}</td>
+                {{ if not $is_2022 }}
                 <td class="text-center">{{ with .Params.video }}<a
                         href='{{ replace . "https://www.youtube.com/embed" "https://youtu.be" }}' target="_blank"><i
                             class="fab fa-youtube" aria-hidden="true" title="Watch"></i></a>{{ end }}</td>
@@ -29,6 +37,7 @@
                         href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}'
                         target="_blank" download><i class="fa fa-download" aria-hidden="true"
                             title="Slides"></i></a>{{ end }}</td>
+                {{ end }}            
             </tr>
             {{ end }}
         </tbody>

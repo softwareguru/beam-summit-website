@@ -8,3 +8,6 @@ oldlayouts/
 .firebaserc
 .DS_Store
 .hugo_build.lock
+scripts/speakers
+scripts/sessions
+

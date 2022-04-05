@@ -9,8 +9,8 @@ with open('sessions.csv') as csvfile:
         title = row['title']
         slug = row['slug']
         speakers = row['speakers'].split(", ")
-        time_start = row['time_start']
-        time_end = row['time_end']
+        time_start = '2022-01-01T17:00:00.000Z'
+        time_end = '2022-01-01T18:00:00.000Z'
         abstract = row['content']
 
         pre = slot

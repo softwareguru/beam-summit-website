@@ -45,15 +45,15 @@ speaker = "speakers"
   weight = 4
 
 
-#  [[menu.main]]
-#  name = "Sessions"
-#  URL = "/sessions"
-#  weight = 2
+  [[menu.main]]
+  name = "Sessions"
+  URL = "/sessions"
+  weight = 2
 
-#  [[menu.main]]
-#  name = "Speakers"
-#  URL = "/speakers"
-#  weight = 3
+  [[menu.main]]
+  name = "Speakers"
+  URL = "/speakers"
+  weight = 3
 
   #[[menu.main]]
   #name = "Networking"
