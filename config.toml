@@ -35,17 +35,6 @@ speaker = "speakers"
   weight = 1
 
   [[menu.main]]
-  name = "Venue"
-  URL = "/venue"
-  weight = 2
-
-  [[menu.main]]
-  name = "Sponsors"
-  URL = "/sponsors"
-  weight = 4
-
-
-  [[menu.main]]
   name = "Sessions"
   URL = "/sessions"
   weight = 2
@@ -54,6 +43,16 @@ speaker = "speakers"
   name = "Speakers"
   URL = "/speakers"
   weight = 3
+
+  [[menu.main]]
+  name = "Venue"
+  URL = "/venue"
+  weight = 4
+
+  [[menu.main]]
+  name = "Sponsors"
+  URL = "/sponsors"
+  weight = 5
 
   #[[menu.main]]
   #name = "Networking"
@@ -64,11 +63,6 @@ speaker = "speakers"
   name = "FAQ"
   URL = "/faq"
   weight = 7
-
-  [[menu.main]]
-  name = "Team"
-  URL = "/team"
-  weight = 8
 
 
 #################### default parameters ################################
@@ -147,6 +141,11 @@ link = "https://europe2019.beamsummit.org"
 [[params.footer_previous]]
 name = "Beam Summit North America 2019"
 link = "https://na2019.beamsummit.org"
+
+[[params.footer_resources]]
+name = "Team"
+link = "/team"
+
 
 [[params.footer_resources]]
 name = "Code of Conduct"

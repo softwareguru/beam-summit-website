@@ -2,7 +2,7 @@
 title: "Zhenzhao Wang"
 designation: "Staff SWE Twitter"
 images: 
- - /images/speakers/zhenzhao-wang.jpg
+ - /images/speakers/beam-mascot.png
 twitter: ""
 linkedin: ""
 ---

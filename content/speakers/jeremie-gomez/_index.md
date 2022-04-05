@@ -2,7 +2,7 @@
 title: "Jérémie Gomez"
 designation: "Data Cloud Consultant @ Google"
 images: 
- - /images/speakers/jérémie-gomez.jpg
+ - /images/speakers/jeremie-gomez.jpg
 twitter: ""
 linkedin: ""
 ---

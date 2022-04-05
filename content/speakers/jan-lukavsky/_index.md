@@ -2,7 +2,7 @@
 title: "Jan Lukavský"
 designation: "Freelance data engineer, Apache Beam committer"
 images: 
- - /images/speakers/jan-lukavský.jpg
+ - /images/speakers/jan-lukavsky.jpg
 twitter: "https://twitter.com/janl_apache"
 linkedin: "https://www.linkedin.com/in/jan-lukavsk%C3%BD-a98810ba/"
 ---

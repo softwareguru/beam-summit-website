@@ -2,7 +2,7 @@
 title: "Rui Han"
 designation: "Linkedin, Senior Software Engineer"
 images: 
- - /images/speakers/rui-han.jpg
+ - /images/speakers/beam-mascot.png
 twitter: ""
 linkedin: ""
 ---

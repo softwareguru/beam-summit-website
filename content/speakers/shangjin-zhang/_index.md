@@ -2,7 +2,7 @@
 title: "Shangjin Zhang"
 designation: "Staff Software Engineer at LinkedIn"
 images: 
- - /images/speakers/shangjin-zhang.jpg
+ - /images/speakers/beam-mascot.png
 twitter: ""
 linkedin: "https://www.linkedin.com/in/shangjin-zhang-a4372174/"
 ---
