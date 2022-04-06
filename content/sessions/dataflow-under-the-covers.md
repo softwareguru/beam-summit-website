@@ -1,7 +1,7 @@
 ---
 id: 
 title: "How the sausage gets made: Dataflow under the covers"
-url: /sessions/how-the-sausage-gets-made:-dataflow-under-the-covers
+url: /sessions/dataflow-under-the-covers
 speakers:
  - Pablo Estrada
 time_start: 2022-01-01T17:00:00.000Z.000Z
