@@ -5,6 +5,7 @@ images:
  - /images/speakers/rishabh-misra.jpg
 twitter: "http://twitter.com/rishabh_misra_"
 linkedin: "https://www.linkedin.com/in/misrarishabh"
+draft: true
 ---
 
 Rishabh Misra is a Machine Learning Engineer at Twitter, Inc. He developed a passion for identifying and tackling novel and practical problems using Machine Learning during his research internships at the Indian Institute of Technology Madras, which he further explored during his Master's in Computer Science from the University of California San Diego. He combines his past engineering experiences in designing large-scale systems, working at Amazon and Arcesium (a D.E. Shaw company), and research experiences in Applied Machine Learning to develop distributed Machine Learning relevance systems at Twitter. 

@@ -5,6 +5,7 @@ images:
  - /images/speakers/jigyasa-grover.jpg
 twitter: "https://twitter.com/jigyasa_grover"
 linkedin: ""
+drafT: true
 ---
 
 Jigyasa Grover is a Machine Learning Engineer at Twitter and the co-author of the book ‘Sculpting Data for ML’. She has a myriad of experiences from her brief stints at Facebook, Inc., National Research Council of Canada, and Institute of Research & Development France involving Data Science, mathematical modeling, and software engineering. Having graduated from the University of California, San Diego, with a Master’s degree in Computer Science with an Artificial Intelligence specialization, she is presently plying her past experiences and knowledge towards Applied Machine Learning in the online advertisements prediction and ranking domain. 
