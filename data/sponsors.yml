@@ -15,6 +15,11 @@ sponsor_group:
       - logo : "/images/logos/mavencode.png"
         link : "https://www.mavencode.com/"
 
+  - title : "Silver"
+    slug : "silver"
+    sponsor:                  
+      - logo : "/images/logos/Adobe-logo.png"
+        link : "http://adobe.com/"
 
   - title : "Partners"
     slug : "previous"
