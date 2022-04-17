@@ -1,8 +1,8 @@
 ---
 title: "Andy Ye"
-designation: "Software Engineer"
+designation: "Software Engineer at Google"
 images: 
- - /images/speakers/andy-ye.jpg
+ - /images/speakers/andy-ye2.png
 twitter: ""
 linkedin: ""
 ---
