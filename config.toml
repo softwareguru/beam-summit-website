@@ -50,8 +50,8 @@ speaker = "speakers"
   weight = 4
 
   [[menu.main]]
-  name = "Sponsors"
-  URL = "/sponsors"
+  name = "Sponsor"
+  URL = "/sponsor"
   weight = 5
 
   #[[menu.main]]
