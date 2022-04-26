@@ -1,7 +1,7 @@
 ---
 title: "Keynote: Palo Alto Networks' massive-scale deployment of Beam."
 date: 2022-04-04T16:37:06-05:00
-url: /keynote/palo-alto-networks-massive-scale-deployment-of-beam.
+url: /keynote/palo-alto-networks-massive-scale-deployment-of-beam
 description: ""
 # post thumb
 image : "/images/blog/palo-alto-networks.png"
