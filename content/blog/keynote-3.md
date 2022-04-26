@@ -9,7 +9,7 @@ images : ["/images/blog/keynote-3.png"]
 # author
 author: "Beam Summit Team"
 keynote: true
-
+weight: 6
 ---
 
 Rickard Zwahlen, who is a Data Engineer at Spotify, will talk about how Beam is used at Spotify, and then we will talk about why they developed Scio - a Scala SDK to develop Apache Beam pipelines.

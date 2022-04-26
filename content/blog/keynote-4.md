@@ -9,6 +9,7 @@ images : ["/images/blog/keynote-4.png"]
 # author
 author: "Beam Summit Team"
 keynote: true
+weight: 5
 ---
 
 Wei Hsia who is a Developer Advocate at Google, alongside Israel Herraiz a Strategic Cloud Engineer at Google Cloud, and Sergei Lilichenko who works as a Solutions Architect at Google will teach this this three-hour workshop intended for Beam practitioners who wish to advance their knowledge of Apache Beam and Google Cloud Dataflow.
