@@ -4,8 +4,8 @@ title: "Detecting Change-Points in Real-Time with Apache Beam"
 url: /sessions/detecting-change-points-in-real-time
 speakers:
  - Devon Peticolas
-time_start: 2022-01-01T17:00:00.000Z.000Z
-time_end: 2022-01-01T18:00:00.000Z.000Z
+time_start: 2022-01-01T17:00:00.000Z
+time_end: 2022-01-01T18:00:00.000Z
 block: 
 slot: 
 ---

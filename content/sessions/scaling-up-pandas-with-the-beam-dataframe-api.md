@@ -4,8 +4,8 @@ title: "Scaling up pandas with the Beam DataFrame API"
 url: /sessions/scaling-up-pandas-with-the-beam-dataframe-api
 speakers:
  - Brian Hulette
-time_start: 2022-01-01T17:00:00.000Z.000Z
-time_end: 2022-01-01T18:00:00.000Z.000Z
+time_start: 2022-01-01T17:00:00.000Z
+time_end: 2022-01-01T18:00:00.000Z
 block: 
 slot: 
 ---

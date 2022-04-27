@@ -6,8 +6,8 @@ speakers:
  - Wei Hsia
  - Israel Herraiz
  - Sergei Lilichenko
-time_start: 2022-01-01T17:00:00.000Z.000Z
-time_end: 2022-01-01T18:00:00.000Z.000Z
+time_start: 2022-01-01T17:00:00.000Z
+time_end: 2022-01-01T18:00:00.000Z
 block: 
 slot: 
 ---
