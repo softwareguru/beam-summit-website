@@ -10,10 +10,12 @@ sponsor_group:
   - title : "Gold"
     slug : "gold"
     sponsor:                  
-      - logo : "/images/logos/spotify.png"
-        link : "https://rnd.atspotify.com/"
-      - logo : "/images/logos/mavencode.png"
-        link : "https://www.mavencode.com/"
+      - logo : /images/logos/spotify.png
+        link : https://rnd.atspotify.com
+      - logo : /images/logos/aws.png 
+        link : https://aws.amazon.com  
+      - logo : /images/logos/mavencode.png
+        link : https://www.mavencode.com
 
   - title : "Silver"
     slug : "silver"

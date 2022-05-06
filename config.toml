@@ -64,6 +64,11 @@ speaker = "speakers"
   URL = "/faq"
   weight = 7
 
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.6
+
 
 #################### default parameters ################################
 [params]
@@ -83,16 +88,11 @@ end_date = "2022-07-20T17:00-05:00"
 
 googleTag = "GTM-N7HNWWM"
 
-[sitemap]
-  changefreq = 'weekly'
-  filename = 'sitemap.xml'
-  priority = 0.6
-
-
 disclaimer = """Apache Beam, the Beam logo, and the Apache feather logo are either registered trademarks or 
 trademarks of The Apache Software Foundation. All other products or name brands are trademarks of their 
 respective holders, including The Apache Software Foundation. The Apache Software Foundation has no affiliation 
 with and does not endorse, or review the materials provided at this event."""
+
 
 # Navigation button
 [params.navigation_button]
