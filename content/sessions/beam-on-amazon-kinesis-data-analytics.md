@@ -5,10 +5,12 @@ url: /sessions/beam-on-amazon-kinesis-data-analytics
 speakers:
  - Amar Surjit
  - Subham Rakshit
-time_start: 2022-01-01T17:00:00.000Z
-time_end: 2022-01-01T18:00:00.000Z
+time_start: 2022-07-20 09:00:00 -0500 CDT
+time_end: 2022-07-20 12:00:00 -0500 CDT
 block: 
 slot: 
+session_type: workshop
+summary: "Explore an end to end example that combines batch and streaming aspects in one uniform Apache Beam pipeline on Amazon Kinesis Data Analytics (KDA)."
 ---
 
 In this workshop, we explore an end to end example that combines batch and streaming aspects in one uniform Apache Beam pipeline. We start to analyze incoming taxi trip events in near real time with an Apache Beam pipeline. 
