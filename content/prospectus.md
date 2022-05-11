@@ -32,13 +32,13 @@ The event organization will follow all the required recommendations for COVID-19
 * 3 Days
 
 <center>
-<img src="/images/beam-1.png" class="img-fluid w-100">
+<img src="/images/img-beam01.png" class="img-fluid w-100">
 </center>
 
 <br>
 
 <center>
-<img src="/images/beam-2.png" class="img-fluid w-100">
+<img src="/images/img-beam02.png" class="img-fluid w-100">
 </center>
 <br>
 
