@@ -5,7 +5,7 @@ url: /sessions/relational-beam
 speakers:
  - Andrew Pilloud
  - Brian Hulette
- - Kyle Weaver
+
 time_start: 2022-07-19 15:00:00 -0500 CDT
 time_end:   2022-07-19 15:50:00 -0500 CDT
 day: b
