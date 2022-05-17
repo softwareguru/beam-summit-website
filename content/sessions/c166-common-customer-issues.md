@@ -1,0 +1,17 @@
+---
+slot: c166
+title: "GCP Beam Common Customer Issues"
+url: /sessions/common-customer-issues
+speakers:
+ - Svetak Sundhar
+time_start: 2022-07-20 11:40:00 -0500 CDT
+time_end:   2022-07-20 11:50:00 -0500 CDT
+day: c
+timeslot: 1
+room: 6
+timeorder: 6
+track: community
+
+---
+
+An overview of common customer issues seen when Apache Beam is used on the Cloud Dataflow Runner.

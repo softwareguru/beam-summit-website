@@ -41,7 +41,7 @@
   
     {{ "<!-- plugins -->" | safeHTML }}
     {{ range .Site.Params.plugins.css }}
-    <link rel="stylesheet" href="{{ .link | relURL }}">
+    <link rel="stylesheet" href="{{ .link | relURL }}" {{ with .integrity }}integrity="{{.}}" crossorigin="anonymous"{{ end }}>
     {{ end }}
 
     {{ "<!-- Main Stylesheet -->" | safeHTML }}

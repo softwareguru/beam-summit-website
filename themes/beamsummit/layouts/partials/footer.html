@@ -46,7 +46,7 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .link | relURL }}"></script>
+<script src="{{ .link | relURL }}" {{ with .integrity }}integrity="{{.}}" crossorigin="anonymous"{{ end }}></script>
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}

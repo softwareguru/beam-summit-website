@@ -1,7 +1,7 @@
 ---
 title: Event program
 date: '2022-04-10T07:51:25.000+00:00'
-url: "/program"
+url: "/program-old"
 
 sitemap:
   priority: 0.9

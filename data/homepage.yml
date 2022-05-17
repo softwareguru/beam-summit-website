@@ -4,7 +4,7 @@ banner:
   title : "Beam Summit 2022"
   logo : "/images/logo-home.png"
   bg_image: "/images/banner/banner-2.jpg"
-  date_time : "July 18th-20th, 2022"
+  date_time : "July 18-20, 2022"
   venue : "Austin, TX <br />"
   button1:
     enable : true
