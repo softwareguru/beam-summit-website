@@ -14,4 +14,4 @@ track: case-study
 
 ---
 
-Evaluation, effort for adoption, current state and future of Apache Beam adoption at Twitter.
+Talat will talk about how Beam was adopted at Palo Alto, and describe how they deploy thousands of Beam pipelines to keep their customers secure.

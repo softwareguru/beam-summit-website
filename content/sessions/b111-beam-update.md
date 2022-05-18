@@ -14,4 +14,4 @@ track: community
 
 ---
 
-Evaluation, effort for adoption, current state and future of Apache Beam adoption at Twitter.
+Kenn Knowles, the PMC chair for Apache Beam, will speak about the last year of developments in Beam, and the exciting things that are coming to Beam.
