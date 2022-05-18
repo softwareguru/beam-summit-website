@@ -1,11 +1,11 @@
 ---
 title: "Networking lunch (onsite)"
 date: 2021-08-03T20:51:19-05:00
-image: /images/networking/.png
+image: /images/networking/image.png
 description: ""
 button:  
 link: 
-draft: true
+draft: false
 weight: 6
 ---
 
