@@ -5,7 +5,7 @@ image: /images/networking/EVENT S.png
 description: ""
 button: Today’s survey
 link: https://forms.gle/UTdtjyKLGikBk5bD6
-draft: false
+draft: true
 weight: 4
 ---
 

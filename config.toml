@@ -54,20 +54,25 @@ speaker = "speakers"
   URL = "/venue"
   weight = 5
 
-  [[menu.main]]
-  name = "Sponsor"
-  URL = "/sponsor"
-  weight = 6
+  #[[menu.main]]
+  #name = "Swag bag"
+  #URL = "/swag"
+  #weight = 6
+
+  #[[menu.main]]
+  #name = "Jobs"
+  #URL = "/jobs"
+  #weight = 6
 
   #[[menu.main]]
   #name = "Networking"
   #URL = "/networking"
-  #weight = 4
+  #weight = 7
 
   [[menu.main]]
   name = "FAQ"
   URL = "/faq"
-  weight = 7
+  weight = 8
 
 [sitemap]
   changefreq = 'weekly'
@@ -156,9 +161,13 @@ link = "/team"
 name = "Code of Conduct"
 link = "/coc"
 
+#[[params.footer_resources]]
+#name = "Prospectus"
+#link = "/files/Beam Summit 2022 - Prospectus.pdf"
+
 [[params.footer_resources]]
-name = "Prospectus"
-link = "/files/Beam Summit 2022 - Prospectus.pdf"
+name = "Sponsor"
+link = "/sponsor"
 
 # [[params.footer_resources]]
 # name = "Call for papers"

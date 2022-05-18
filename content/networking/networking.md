@@ -1,18 +1,15 @@
 ---
-title: "Office hours and Networking event"
-date: 2021-08-03T20:52:20-05:00
-image: /images/networking/OFFICE HOURS.png
+title: "Win a Grokking Streaming Systems ebook by Manning Publications"
+date: 2021-08-03T20:51:19-05:00
+image: /images/networking/WIN A .png
 description: ""
 button: Check it out! 
-link: https://sg1.run/beamsummitsocial
-draft: false
-weight: 1
+link: http://mng.bz/l9G2
+draft: true
+weight: 6
 ---
 
-**Let's meet at a retro 8 bits virtual space.**
+Win a Grokking Streaming Systems ebook, published by Manning (We will raffle 5 ebooks at the end of the event). 
 
-Discover what Apache Beam experts have to share and contact with the community. You can have a live conversations and ask anything to the experts, or maybe you simply want to join for playing cards or arcade games. 
-
-See you this Thusday August 4th, 11:00-13:00 PDT (6 to 8 pm UTC)
 
 

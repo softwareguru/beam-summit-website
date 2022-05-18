@@ -35,6 +35,10 @@ days:
       - id: 9
         time_start: 2022-07-18 17:15:00 -0500 CDT
         type: concurrent
+      - id: 10
+        time_start: 2022-07-18 18:05:00 -0500 CDT
+        type: break
+        name: Reception 18:05 - 20:00 hrs 
 
   - id: b
     title_short: Tuesday
