@@ -17,7 +17,9 @@
             </div>
             <div class="text-center">
               <a href="{{ .Params.Link }}" target="_blank">
-                <button type="button" style="align-items: center; color: #fff;" class="btn btn-warning col-md-10 px-3">{{ .Params.Button}}</button>
+                {{ with .Params.Button }}
+                <button type="button" style="align-items: center; color: #fff;" class="btn btn-warning col-md-10 px-3">{{ . }}</button>
+                {{ end }}
              </a>
             </div>
         <br>

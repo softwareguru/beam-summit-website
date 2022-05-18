@@ -1,15 +1,14 @@
 ---
-title: "Win a Grokking Streaming Systems ebook by Manning Publications"
+title: "Networking lunch (onsite)"
 date: 2021-08-03T20:51:19-05:00
-image: /images/networking/WIN A .png
+image: /images/networking/.png
 description: ""
-button: Check it out! 
-link: http://mng.bz/l9G2
+button:  
+link: 
 draft: true
 weight: 6
 ---
 
-Win a Grokking Streaming Systems ebook, published by Manning (We will raffle 5 ebooks at the end of the event). 
-
+Pickup your lunch box at Tejas Dinning room, and enjoy a networking time with participants and sponsors.
 
 

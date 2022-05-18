@@ -6,10 +6,8 @@ description: ""
 button: Check it out! 
 link: https://sg1.run/beamsummit-slack
 draft: false
-weight: 3
+weight: 1
 ---
-
-**Join the conversation.**
 
 Join the Apache slack, the event chat will happen at the #beam-summit-attendees channel. 
 
