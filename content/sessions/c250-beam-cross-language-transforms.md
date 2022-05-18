@@ -1,16 +1,15 @@
 ---
-slot: c140
+slot: c250
 title: "Beam Cross Language Transforms in Python, with Google Cloud Dataflow"
 url: /sessions/beam-cross-language-transforms
 speakers:
  - Wei Hsia
- - Israel Herraiz
  - Sergei Lilichenko
-time_start: 2022-07-20 9:00:00 -0500 CDT
-time_end:   2022-07-20 12:00:00 -0500 CDT
+time_start: 2022-07-20 12:30:00 -0500 CDT
+time_end:   2022-07-20 15:00:00 -0500 CDT
 day: c
-timeslot: 1
-room: 4
+timeslot: 2
+room: 5
 timeorder: 0
 session_type: workshop
 summary: "Implement a streaming pipeline in Python applying the new cross language support in Beam and Dataflow. Cross language support allows access to other Beam transforms without having to introduce a new language into your environment."
