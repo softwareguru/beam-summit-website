@@ -3,7 +3,7 @@ slot: a920
 title: "Implementing Cloud Agnostic Machine Learning Workflows with Apache Beam on Kubernetes"
 url: /sessions/implementing-cloud-agnostic-ml
 speakers:
- - charles adetiloye
+ - Charles Adetiloye
  - Alexander Lerma
 time_start: 2022-07-18 17:15:00 -0500 CDT
 time_end:   2022-07-18 18:05:00 -0500 CDT

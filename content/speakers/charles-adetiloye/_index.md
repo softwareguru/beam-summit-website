@@ -1,5 +1,5 @@
 ---
-title: "charles adetiloye"
+title: "Charles Adetiloye"
 designation: "MLOps Engineer @MavenCode"
 images: 
  - /images/speakers/charles-adetiloye.jpg
