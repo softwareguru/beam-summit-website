@@ -10,6 +10,6 @@ weight: 3
 ---
 
 
-Join us at the event reception on Monday 18th after the sessions (18:05 - 20:00pm) at the hall to network with the Beam community!
+Join us at the event reception on Monday 18th after the sessions (18:05 - 20:00pm) at the Courtyard to network with the Beam community!
 
 
