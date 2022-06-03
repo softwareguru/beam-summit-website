@@ -14,11 +14,13 @@ day: c
 timeslot: 1
 room: 4
 timeorder: 0
-track: community
+track: workshop
+session_type: workshop
+summary: "This workshop encompasses several talks and a workshop around Scio, which is the open source Scala API for Apache Beam."
 
 ---
 
-We will have a track focused on Scio. There will be some overview talks which will be available for local+online participants, plus a hands-on lab which will only be available for onsite participants.
+This workshop encompasses several talks and a workshop around Scio, which is the open source Scala API for Apache Beam.
 
 Sessions:
 
