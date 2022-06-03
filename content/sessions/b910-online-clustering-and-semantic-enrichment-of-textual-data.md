@@ -3,7 +3,7 @@ slot: b910
 title: "Online clustering and semantic enrichment of textual data with Apache Beam"
 url: /sessions/online-clustering-and-semantic-enrichment-of-textual-data
 speakers:
- - Alexandru Balan
+ - Konstantin Buschmeier
 time_start: 2022-07-19 17:15:00 -0500 CDT
 time_end:   2022-07-19 18:05:00 -0500 CDT
 day: b
