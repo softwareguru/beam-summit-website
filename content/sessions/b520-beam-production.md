@@ -1,6 +1,6 @@
 ---
 slot: b520
-title: "Beam in production"
+title: "Beam in Production: Working with DataFlow Flex temples and Cloud Build"
 url: /sessions/beam-production
 speakers:
  - Ragy Abraham
@@ -11,7 +11,11 @@ timeslot: 5
 room: 2
 timeorder: 0
 track: deep-dive
+summary: "In this session, we will look into how to get a Beam pipeline successfully deployed via a CICD framework (Google's cloud build) by utilising Dataflow's flex temples and discuss lessons learned along the way."
 
 ---
 
-Deep dive into getting beam working inside a CICD framework and how to integrate beam into your production workflow.
+Understanding how to integrate Apache Beam into your production workflow is critical for large scale enterprises who are looking to automate the deployment and integration of their pipelines with the appropriate environments.
+
+In this session, we will look into how to get a Beam pipeline successfully deployed via a CICD framework (Google's cloud build) by utilising Dataflow's flex temples and discuss lessons learned along the way.
+
