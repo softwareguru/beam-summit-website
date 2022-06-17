@@ -1,6 +1,6 @@
 ---
 slot: b511
-title: "Unified stream and batch pipelines at LinkedIn using Beam"
+title: "Unified Streaming and Batch Pipelines at LinkedIn using Beam"
 url: /sessions/unified-stream-and-batch-pipelines-at-linkedin-using-beam
 speakers:
  - Shangjin Zhang
