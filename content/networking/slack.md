@@ -1,7 +1,7 @@
 ---
 title: "Slack"
 date: 2021-08-03T20:51:19-05:00
-image: /images/networking/slack.png
+image: /images/networking/2022/EVENT CHAT SLACK.jpg
 description: ""
 button: Check it out! 
 link: https://sg1.run/beamsummit-slack
