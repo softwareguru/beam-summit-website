@@ -59,10 +59,10 @@ speaker = "speakers"
   URL = "/swag"
   weight = 6
 
-  #[[menu.main]]
-  #name = "Jobs"
-  #URL = "/jobs"
-  #weight = 6
+  [[menu.main]]
+  name = "Jobs"
+  URL = "/jobs"
+  weight = 6
 
   [[menu.main]]
   name = "Networking"
