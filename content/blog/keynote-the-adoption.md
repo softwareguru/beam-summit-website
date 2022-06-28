@@ -9,7 +9,7 @@ images : ["/images/blog/keynote-the-adoption.png"]
 # author
 author: "Beam Summit Team"
 keynote: true
-weight: 1
+weight: 4
 ---
 
 Lohit is part of Hadoop and Log Management team at Twitter. He has been concentrating on scaling Hadoop FileSystem, Hadoop Resource Manager, Log Ingestion and Processing pipelines at Twitter. During this talk he will explain the adoption, current state and future of Apache Beam at Twitter.

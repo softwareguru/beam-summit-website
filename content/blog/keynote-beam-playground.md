@@ -9,7 +9,7 @@ images : ["/images/blog/beam-playground.png"]
 # author
 author: "Beam Summit Team"
 keynote: true
-weight: 3
+weight: 6
 ---
 
 This talk will be presenting the Apache Beam discovery and learning through Beam Playground, proof of concept and contributing paths to those who are looking to learn, use and develop Apache Beam.

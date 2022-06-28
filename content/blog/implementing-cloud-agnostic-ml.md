@@ -8,7 +8,7 @@ image : "/images/blog/Charles Adetiloye, Alexander Lerma.png"
 images : ["/images/blog/Charles Adetiloye, Alexander Lerma.png"]
 # author
 author: "Beam Summit Team"
-weight: 5
+weight: 2
 ---
 
 The need for a highly efficient data processing workflow is fast becoming a necessity in every organization implementing and deploying Machine Learning models at scale. In most cases, ML teams leverage the managed service solutions already in place by the cloud infrastructure provider they choose. While this approach is good enough for most teams to get going, the long-term cost of keeping the platform running may be prohibitively higher over time.
