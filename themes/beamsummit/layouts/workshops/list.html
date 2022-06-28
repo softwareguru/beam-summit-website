@@ -8,15 +8,18 @@
     <div class="row workshop-strip">
       {{range sort (where (where .Site.RegularPages "Section" "sessions") ".Params.session_type" "workshop" ) ".Params.time_start" }}
       <div class="col-12 col-md-6 px-3 mb-3">
-        <div class="card">
+        <div class="card h-100 shadow-lg p-3 mb-6 border-card">
           <div class="card-body">
             <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             {{ $time_start := .Params.time_start | time  }}
             {{ $time_end := .Params.time_end | time  }}
-            <h6 class="card-subtitle mb-2 text-muted">Date: {{ $time_start.Format "Jan-02 15:04" }}-{{ $time_end.Format "15:04" }} CDT</h6>
-            <h6 class="card-subtitle mb-2 text-muted">Instructor(s): {{ delimit .Params.speakers ", " " & " }}</h6>
-            <p class="card-text">{{ .Summary }}</p>
-            <p class="abstract"><a href="{{ .Permalink }}" class="card-link">See details</a></p>
+            <h6 class="mb-2" style="color: #eec50e;" class="">Date: {{ $time_start.Format "Jan-02 15:04" }}-{{ $time_end.Format "15:04" }} CDT</h6>
+            <h6 class="mb-2" style="color: #ff6200;">Instructor(s): {{ delimit .Params.speakers ", " " & " }}</h6>
+            <p class="card-text"  style="color: #000a54;">{{ .Summary }}</p>
+            <div class="text-right" style="margin-top: 15px;">
+              <a id="nav-button" style="text-decoration: none;" href="{{ .Permalink }}" class="btn">See details &nbsp;<i class="fas fa-arrow-right"></i></a>
+          </div>
+           
           </div>
         </div>
       </div>

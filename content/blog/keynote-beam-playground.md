@@ -1,7 +1,7 @@
 ---
 title: "Beam Playground: discover, learn and prototype with Apache Beam"
 date: 2022-04-04T16:55:33-05:00
-url: /keynote/beam-playground-discover-learn-and-prototype-with-apache-beam
+url: /sessions/beam-playground/
 description: ""
 # post thumb
 image : "/images/blog/beam-playground.png"

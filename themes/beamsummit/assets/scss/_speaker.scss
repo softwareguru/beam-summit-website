@@ -11,6 +11,15 @@
 	cursor: pointer;
 }
 
+.border-img {
+	border-radius: 30px;
+}
+
+.designation-color {
+	color: $secondary-color;
+}
+
+
 .speaker-strip {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
