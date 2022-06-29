@@ -3,8 +3,8 @@ title: "Reception"
 date: 2021-08-03T20:51:20-05:00
 image: /images/networking/2022/RECEPTION.jpg
 description: ""
-button: 
-link: 
+button: Check it out!
+link: /reception/
 draft: false
 weight: 3
 ---
