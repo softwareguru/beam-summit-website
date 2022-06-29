@@ -1,14 +1,14 @@
 ---
-slot: a532
+slot: a812
 title: "Collibra’s Telemetry Backbone - OpenTelemetry and Apache Beam"
 url: /sessions/open-telemetry-collibra
 speakers:
  - Alex Van Boxel
-time_start: 2022-07-18 14:30:00 -0500 CDT
-time_end:   2022-07-18 14:55:00 -0500 CDT
+time_start: 2022-07-18 16:45:00 -0500 CDT
+time_end:   2022-07-18 17:10:00 -0500 CDT
 day: a
-timeslot: 5
-room: 3
+timeslot: 8
+room: 1
 timeorder: 2
 track: case-study
 
