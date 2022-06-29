@@ -37,6 +37,26 @@
               <a class="speaker-inline-item" href="{{ .Permalink }}">{{ .Title }}</a>
               {{ end }}  
             </div>
+            
+            <div class="session-meta" id="date">
+              <span id="adjTime"></span>
+              {{ $time_start := .Params.time_start | time }}
+              {{ $time_end := .Params.time_end | time }}            
+              {{ if lt now $time_start }}
+
+              <em>{{ with .Params.time_start | time }}({{ .Format "15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }} CDT){{ end }}</em>
+              <div title="Add to Calendar" class="addeventatc" data-styling="none">
+                - Add to Calendar
+                <span class="start">{{ with .Params.time_start | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
+                <span class="end">{{ with .Params.time_end | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
+                <span class="timezone">CDT</span>
+                <span class="title">Beam Summit: {{ .Title | truncate 40 }}</span>
+                <span class="description">{{ .Content }}</span>
+                <span class="location">https://2022.beamsummit.org/live</span>
+              </div>
+              {{ end }}
+            </div>
+
 
             {{ with .Params.slides }}
             <br>
