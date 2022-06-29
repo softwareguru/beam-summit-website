@@ -1,16 +1,16 @@
 ---
-slot: b822
+slot: b113
 title: "Beam as a High-Performance Compute Grid"
 url: /sessions/hpc-grid
 speakers:
  - Peter Coyle
  - Raj Subramani
-time_start: 2022-07-19 16:45:00 -0500 CDT
-time_end:   2022-07-19 17:10:00 -0500 CDT
+time_start: 2022-07-19 10:50:00 -0500 CDT
+time_end:   2022-07-19 11:15:00 -0500 CDT
 day: b
-timeslot: 8
-room: 2
-timeorder: 2
+timeslot: 1
+room: 1
+timeorder: 3
 track: case-study
 
 ---
