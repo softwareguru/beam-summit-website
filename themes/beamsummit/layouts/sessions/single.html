@@ -44,7 +44,7 @@
               {{ $time_end := .Params.time_end | time }}            
               {{ if lt now $time_start }}
 
-              <em>{{ with .Params.time_start | time }}({{ .Format "15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }} CDT){{ end }}</em>
+              {{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }} CDT{{ end }}
               <div title="Add to Calendar" class="addeventatc" data-styling="none">
                 - Add to Calendar
                 <span class="start">{{ with .Params.time_start | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
