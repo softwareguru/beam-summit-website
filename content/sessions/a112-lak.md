@@ -4,8 +4,8 @@ title: "Machine learning design patterns: between Beam and a hard place"
 url: /sessions/mlpatterns
 speakers:
  - Lak Lakshmanan
-time_start: 2022-07-18 10:20:00 -0500 CDT
-time_end:   2022-07-18 10:40:00 -0500 CDT
+time_start: 2022-07-18 10:25:00 -0500 CDT
+time_end:   2022-07-18 10:50:00 -0500 CDT
 day: a
 timeslot: 1
 room: 1

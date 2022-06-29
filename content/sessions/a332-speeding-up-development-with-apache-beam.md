@@ -4,6 +4,7 @@ title: "Speeding up development with Apache Beam (Adobe Experience Platform)"
 url: /sessions/speeding-up-development-with-apache-beam
 speakers:
  - Constantin Scacun
+ - Alexander Falca
 time_start: 2022-07-18 12:30:00 -0500 CDT
 time_end:   2022-07-18 12:55:00 -0500 CDT
 day: a

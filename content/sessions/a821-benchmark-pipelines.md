@@ -1,15 +1,15 @@
 ---
-slot: b512
+slot: a821
 title: "How to benchmark your Beam pipelines for cost optimization and capacity planning"
 url: /sessions/benchmark-pipelines
 speakers:
  - Roy Arsan
-time_start: 2022-07-19 14:30:00 -0500 CDT
-time_end:   2022-07-19 14:55:00 -0500 CDT
-day: b
-timeslot: 5
-room: 1
-timeorder: 2
+time_start: 2022-07-18 16:15:00 -0500 CDT
+time_end:   2022-07-18 16:40:00 -0500 CDT
+day: a
+timeslot: 8
+room: 2
+timeorder: 1
 track: deep-dive
 ---
 

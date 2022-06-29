@@ -1,15 +1,15 @@
 ---
-slot: a821
+slot: b512
 title: "Detecting Change-Points in Real-Time with Apache Beam"
 url: /sessions/detecting-change-points-in-real-time
 speakers:
  - Devon Peticolas
-time_start: 2022-07-18 16:15:00 -0500 CDT
-time_end:   2022-07-18 16:40:00 -0500 CDT
-day: a
-timeslot: 8
-room: 2
-timeorder: 1
+time_start: 2022-07-19 14:30:00 -0500 CDT
+time_end:   2022-07-19 14:55:00 -0500 CDT
+day: b
+timeslot: 5
+room: 1
+timeorder: 2
 track: deep-dive
 
 ---
