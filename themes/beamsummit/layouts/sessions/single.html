@@ -44,7 +44,7 @@
               {{ $time_end := .Params.time_end | time }}            
               {{ if lt now $time_start }}
 
-              {{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }} CDT{{ end }}
+              {{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }} CDT{{ end }} <span id="time-utc"></span>
               <div title="Add to Calendar" class="addeventatc" data-styling="none">
                 - Add to Calendar
                 <span class="start">{{ with .Params.time_start | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
@@ -80,6 +80,19 @@
   </div>
 </section>
 <!--End Speker Detail -->
+
+<script>
+  function adjTime(elemId, timeStart, timeEnd) {
+    let dateStart = new Date(Date.parse(timeStart));
+    let dateStartUTC = new Date(dateStart.getTime() + 300*60000);
+    let dateEnd = new Date(Date.parse(timeEnd));
+    let dateEndUTC = new Date(dateEnd.getTime() + 300*60000);
+    let adjString = "<em>("+dateStartUTC.getHours()+":"+(('0'+dateStartUTC.getMinutes()).slice(-2))+"-"+dateEndUTC.getHours()+":"+(('0'+dateEndUTC.getMinutes()).slice(-2))+" UTC)</em>";
+    document.getElementById(elemId).innerHTML=adjString;
+  }
+  adjTime('time-utc', '{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}', '{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}');
+
+</script>
 
 
 {{ end }}
