@@ -1,9 +1,12 @@
 ---
 slot: a610
-title: "Protecting the Internet at Scale"
+title: "BlueVoyant: Protecting the Internet at Scale"
 url: /sessions/protecting-the-internet-at-scale
 speakers:
  - Alfredo Gimenez
+ - Adam Najman
+ - Tucker Leavitt
+ - Tyler Flach
 time_start: 2022-07-18 15:00:00 -0500 CDT
 time_end:   2022-07-18 15:50:00 -0500 CDT
 day: a
