@@ -1,14 +1,14 @@
 ---
-slot: b932
+slot: b822
 title: Beam data pipelines on microservice architectures
 url: /sessions/microservice-architectures-wayfair
 speakers:
  - Pragalbh Srivastava
-time_start: 2022-07-19 17:40:00 -0500 CDT
-time_end:   2022-07-19 18:05:00 -0500 CDT
+time_start: 2022-07-19 16:45:00 -0500 CDT
+time_end:   2022-07-19 17:10:00 -0500 CDT
 day: b
-timeslot: 9
-room: 3
+timeslot: 8
+room: 2
 timeorder: 2
 track: case-study
 
