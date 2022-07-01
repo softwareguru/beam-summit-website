@@ -7,7 +7,8 @@ button: Win a Packt book!
 weight: 5
 draft: false
 ---
-At the end of the event we will raffle 7 books, coutesy of Packt
+
+At the end of the event we will raffle 7 books, courtesy of Packt
 
 - Distributed Machine Learning with Python
 - Machine Learning Engineering with MLflow
@@ -15,4 +16,6 @@ At the end of the event we will raffle 7 books, coutesy of Packt
 - Data Lakehouse in Action
 - Machine Learning Engineering with MLflow
 - Getting Started with Streamlit for Data Science
-- Building Data Science Solutions with Anaconda"""
+- Building Data Science Solutions with Anaconda
+
+***Will be raffled among the on-site attendees***
