@@ -1,6 +1,6 @@
 ---
 slot: a631
-title: "Introduction to the benchmarks in Apache Beam"
+title: "Introduction to performance testing in Apache Beam"
 url: /sessions/introduction-to-the-benchmarks-in-apache-beam
 speakers:
  - Alexey Romanenko
