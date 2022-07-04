@@ -1,16 +1,17 @@
 ---
-slot: a620
+slot: c163
 title: "Improving Beam-Dataflow Pipelines for Text Data Processing"
 url: /sessions/improving-beam-dataflow-pipelines-for-text-data-processing
 speakers:
  - Sayak Paul
  - Nilabhra Roy Chowdhury
-time_start: 2022-07-18 15:00:00 -0500 CDT
-time_end:   2022-07-18 15:50:00 -0500 CDT
-day: a
-timeslot: 6
-room: 2
-timeorder: 0
+time_start: 2022-07-20 10:00:00 -0500 CDT
+time_end:   2022-07-20 10:50:00 -0500 CDT
+
+day: c
+timeslot: 1
+room: 6
+timeorder: 3
 track: deep-dive
 ---
 

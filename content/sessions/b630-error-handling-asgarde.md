@@ -1,15 +1,15 @@
 ---
-slot: c163
+slot: b630
 title: "Error handling with Apache Beam and Asgarde library"
 url: /sessions/error-handling-asgarde
 speakers:
  - Mazlum Tosun
 time_start: 2022-07-20 10:00:00 -0500 CDT
 time_end:   2022-07-20 10:50:00 -0500 CDT
-day: c
-timeslot: 1
-room: 6
-timeorder: 3
+day: b
+timeslot: 6
+room: 3
+timeorder: 0
 track: community
 
 ---

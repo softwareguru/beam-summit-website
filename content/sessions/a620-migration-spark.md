@@ -1,14 +1,15 @@
 ---
-slot: b630
+slot: a620
 title: "Migration Spark to Apache Beam/Dataflow and hexagonal architecture + DDD"
 url: /sessions/migration-spark
 speakers:
  - Mazlum Tosun
-time_start: 2022-07-19 15:00:00 -0500 CDT
-time_end:   2022-07-19 15:50:00 -0500 CDT
-day: b
+
+time_start: 2022-07-18 15:00:00 -0500 CDT
+time_end:   2022-07-18 15:50:00 -0500 CDT
+day: a
 timeslot: 6
-room: 3
+room: 2
 timeorder: 0
 track: case-study
 ---
