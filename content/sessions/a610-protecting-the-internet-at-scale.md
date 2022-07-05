@@ -1,6 +1,6 @@
 ---
 slot: a610
-title: "BlueVoyant: Protecting the Internet at Scale"
+title: "BlueVoyant: Detecting Security Dumpster Fires on the Internet"
 url: /sessions/protecting-the-internet-at-scale
 speakers:
  - Alfredo Gimenez

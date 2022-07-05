@@ -4,8 +4,8 @@ title: "Error handling with Apache Beam and Asgarde library"
 url: /sessions/error-handling-asgarde
 speakers:
  - Mazlum Tosun
-time_start: 2022-07-20 10:00:00 -0500 CDT
-time_end:   2022-07-20 10:50:00 -0500 CDT
+time_start: 2022-07-19 15:00:00 -0500 CDT
+time_end:   2022-07-19 15:50:00 -0500 CDT
 day: b
 timeslot: 6
 room: 3
