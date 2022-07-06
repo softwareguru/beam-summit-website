@@ -39,6 +39,8 @@ sponsor_group:
         link : "https://www.getmonita.io/"
       - logo : "/images/logos/logo-aicamp.png"
         link : "https://www.aicamp.ai/"
+      - logo : "/images/logos/logo-datacouncil-nobg.png"
+        link : "https://www.datacouncil.ai/"
         
   - title : "Previous editions"
     slug : "previous"
