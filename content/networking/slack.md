@@ -5,7 +5,7 @@ image: /images/networking/2022/EVENT CHAT SLACK.jpg
 description: ""
 button: Check it out! 
 link: https://sg1.run/beamsummit-slack
-draft: false
+draft: true
 weight: 1
 ---
 
