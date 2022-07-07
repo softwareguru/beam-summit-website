@@ -41,6 +41,8 @@ sponsor_group:
         link : "https://www.aicamp.ai/"
       - logo : "/images/logos/logo-datacouncil-nobg.png"
         link : "https://www.datacouncil.ai/"
+      - logo : "/images/logos/WWCode.png"
+        link : "https://www.womenwhocode.com/"
         
   - title : "Previous editions"
     slug : "previous"
