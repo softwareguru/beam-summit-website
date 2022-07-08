@@ -1,16 +1,16 @@
 ---
-title: "Slack"
+title: "Event communication"
 date: 2021-08-03T20:51:19-05:00
-image: /images/networking/2022/EVENT CHAT SLACK.jpg
+image: /images/networking/2022/event-chat.png
 description: ""
 button: Check it out! 
-link: https://sg1.run/beamsummit-slack
-draft: true
+link: https://www.linkedin.com/groups/12004045
+draft: false
 weight: 1
 ---
 
-Join the Apache slack, the event chat will happen at the #beam-summit-attendees channel. 
+- We will use the streaming tool chat (Crowdcast) for asking questions or sharing any comment.
 
-You will get the last news, contact other participants, speakers, and contact with the sponsors, who will have a lot of surprises for you!
+- Join the [Beam Linkedin group](https://www.linkedin.com/groups/12004045) for staying in touch with the community.
 
-
+- Technical Questions? You can send them to dev@beam.apache.org
