@@ -10,8 +10,12 @@ days:
     rooms: [1,2,3]
     timeslots: 
       - id: 1
-        time_start: 2022-07-18 10:00:00 -0500 CDT
+        time_start: 2022-07-18 9:50:00 -0500 CDT
         type: keynote
+      - id: 2
+        time_start: 2022-07-18 11:40:00 -0500 CDT
+        type: break
+        name: Break
       - id: 3
         time_start: 2022-07-18 12:00:00 -0500 CDT
         type: concurrent
@@ -28,7 +32,7 @@ days:
       - id: 7
         time_start: 2022-07-18 16:00:00 -0500 CDT
         type: break
-        name: Coffee break
+        name: Break
       - id: 8
         time_start: 2022-07-18 16:15:00 -0500 CDT
         type: concurrent
@@ -48,6 +52,10 @@ days:
       - id: 1
         time_start: 2022-07-19 10:00:00 -0500 CDT
         type: keynote
+      - id: 2
+        time_start: 2022-07-19 11:20:00 -0500 CDT
+        type: break
+        name: Break
       - id: 3
         time_start: 2022-07-19 12:00:00 -0500 CDT
         type: concurrent
@@ -64,7 +72,7 @@ days:
       - id: 7
         time_start: 2022-07-19 16:00:00 -0500 CDT
         type: break
-        name: Coffee break
+        name: Break
       - id: 8
         time_start: 2022-07-19 16:15:00 -0500 CDT
         type: concurrent
@@ -80,6 +88,10 @@ days:
         time_start: 2022-07-20 9:00:00 -0500 CDT
         type: concurrent
       - id: 2
+        time_start: 2022-07-20 12:00:00 -0500 CDT
+        type: break
+        name: Lunch
+      - id: 3
         time_start: 2022-07-20 12:30:00 -0500 CDT
         type: concurrent
   

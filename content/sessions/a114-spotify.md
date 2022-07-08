@@ -1,5 +1,5 @@
 ---
-slot: a113 
+slot: a114
 title: "Tayloring pipelines at Spotify"
 url: /sessions/spotify
 speakers:
@@ -9,7 +9,7 @@ time_end:   2022-07-18 11:15:00 -0500 CDT
 day: a
 timeslot: 1
 room: 1
-timeorder: 3
+timeorder: 4
 track: case-study
 
 ---

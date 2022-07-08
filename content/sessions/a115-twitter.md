@@ -1,5 +1,5 @@
 ---
-slot: a114
+slot: a115
 title: "The adoption, current state and future of Apache Beam at Twitter"
 url: /sessions/twitter
 speakers:
@@ -9,7 +9,7 @@ time_end:   2022-07-18 11:40:00 -0500 CDT
 day: a
 timeslot: 1
 room: 1
-timeorder: 4
+timeorder: 5
 track: case-study
 
 ---

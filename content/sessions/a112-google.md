@@ -1,5 +1,5 @@
 ---
-slot: a111
+slot: a112
 title: "Google's investment on Beam, and internal use of Beam at Google"
 url: /sessions/google
 speakers:
@@ -9,8 +9,8 @@ time_end:   2022-07-18 10:25:00 -0500 CDT
 day: a
 timeslot: 1
 room: 1
-timeorder: 1
-track: case-study
+timeorder: 2
+track: keynote
 
 ---
 

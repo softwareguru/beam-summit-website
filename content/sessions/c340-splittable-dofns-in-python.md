@@ -1,5 +1,5 @@
 ---
-slot: c240
+slot: c340
 title: "Splittable DoFns in Python: a hands-on workshop"
 url: /sessions/splittable-dofns-in-python
 speakers:
@@ -9,7 +9,7 @@ time_start: 2022-07-20 12:30:00 -0500 CDT
 time_end: 2022-07-20 15:00:00 -0500 CDT
 session_type: workshop
 day: c
-timeslot: 2
+timeslot: 3
 room: 4
 timeorder: 0
 summary: "We will review the concept of Splittable DoFns and we will write two I/O connectors using this kind of DoFns: one in batch (for reading large files in a given format), and one for streaming (for reading from Kafka topics)."

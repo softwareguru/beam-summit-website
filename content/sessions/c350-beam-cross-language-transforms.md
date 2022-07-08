@@ -1,5 +1,5 @@
 ---
-slot: c250
+slot: c350
 title: "Beam Cross Language Transforms in Python, with Google Cloud Dataflow"
 url: /sessions/beam-cross-language-transforms
 speakers:
@@ -8,7 +8,7 @@ speakers:
 time_start: 2022-07-20 12:30:00 -0500 CDT
 time_end:   2022-07-20 15:00:00 -0500 CDT
 day: c
-timeslot: 2
+timeslot: 3
 room: 5
 timeorder: 0
 session_type: workshop

@@ -1,5 +1,5 @@
 ---
-slot: a112
+slot: a113
 title: "Machine learning design patterns: between Beam and a hard place"
 url: /sessions/mlpatterns
 speakers:
@@ -9,7 +9,7 @@ time_end:   2022-07-18 10:50:00 -0500 CDT
 day: a
 timeslot: 1
 room: 1
-timeorder: 2
+timeorder: 3
 track: keynote
 
 ---
