@@ -43,6 +43,8 @@ sponsor_group:
         link : "https://www.datacouncil.ai/"
       - logo : "/images/logos/WWCode.png"
         link : "https://www.womenwhocode.com/"
+      - logo : "/images/logos/logo-chicktech.png"
+        link : "https://chicktech.org/"
         
   - title : "Previous editions"
     slug : "previous"
