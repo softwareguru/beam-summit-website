@@ -1,15 +1,15 @@
 ---
-slot: b831
+slot: b832
 title: "Playing the Long Game - Transforming Ricardo's Data Infrastructure with Apache Beam"
 url: /sessions/transforming-ricardos-data-infrastructure
 speakers:
  - Tobias Kaymak
-time_start: 2022-07-19 16:15:00 -0500 CDT
-time_end:   2022-07-19 16:40:00 -0500 CDT
+time_start: 2022-07-19 16:45:00 -0500 CDT
+time_end:   2022-07-19 17:10:00 -0500 CDT
 day: b
 timeslot: 8
 room: 3
-timeorder: 1
+timeorder: 2
 track: case-study
 
 ---

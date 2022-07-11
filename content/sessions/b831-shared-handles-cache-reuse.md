@@ -1,15 +1,15 @@
 ---
-slot: b832
+slot: b831
 title: "Use of shared handles for Cache reuse across DoFn’s in Python"
 url: /sessions/shared-handles-cache-reuse
 speakers:
  - Amruta Deshmukh
-time_start: 2022-07-19 16:45:00 -0500 CDT
-time_end:   2022-07-19 17:10:00 -0500 CDT
+time_start: 2022-07-19 16:15:00 -0500 CDT
+time_end:   2022-07-19 16:40:00 -0500 CDT
 day: b
 timeslot: 8
 room: 3
-timeorder: 2
+timeorder: 1
 track: case-study
 
 ---
