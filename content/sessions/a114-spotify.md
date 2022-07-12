@@ -1,6 +1,6 @@
 ---
 slot: a114
-title: "Tayloring pipelines at Spotify"
+title: "Tailoring pipelines at Spotify"
 url: /sessions/spotify
 speakers:
  - Rickard Zwahlen
