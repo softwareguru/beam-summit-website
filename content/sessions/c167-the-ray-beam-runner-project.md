@@ -6,8 +6,8 @@ speakers:
  - Patrick Ames
  - Jiajun Yao
  - Chandan Prasad
-time_start: 2022-07-20 11:50:00 -0500 CDT
-time_end:   2022-07-20 12:00:00 -0500 CDT
+time_start: 2022-07-20 11:20:00 -0500 CDT
+time_end:   2022-07-20 11:30:00 -0500 CDT
 day: c
 timeslot: 1
 room: 6

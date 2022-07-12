@@ -4,8 +4,8 @@ title: "Beam Playground: discover, learn and prototype with Apache Beam"
 url: /sessions/beam-playground
 speakers:
  - Daria Malkova
-time_start: 2022-07-20 11:30:00 -0500 CDT
-time_end:   2022-07-20 11:40:00 -0500 CDT
+time_start: 2022-07-20 11:00:00 -0500 CDT
+time_end:   2022-07-20 11:10:00 -0500 CDT
 day: c
 timeslot: 1
 room: 6
