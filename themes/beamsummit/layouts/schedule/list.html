@@ -46,7 +46,7 @@
                             <div class="session-title"><a href="{{.Permalink}}" target="_blank">{{ .Title }}</a></div>
                             <div class="session-speakers">{{ with .Params.speakers }}by {{ delimit . ", " " & " }}{{ end }}</div>
                             <div class="session-room">Room: {{ .Params.room }}</div>
-                            <div id="live-{{ .Params.slot }}" class="live-button text-center d-none"><a class="btn btn-danger btn-sm" href="{{ . }}" target="_blank">Watch</a></div>
+                            <div id="live-{{ .Params.slot }}" class="live-button text-center d-none"><a class="btn btn-danger btn-sm" href="{{ .Params.live_url }}" target="_blank">Watch</a></div>
                         </div>
                         {{ end }}
                     </div>
