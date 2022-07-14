@@ -11,6 +11,7 @@ timeslot: 5
 room: 203
 timeorder: 0
 track: deep-dive
+live_url: https://www.crowdcast.io/e/beam-summit-2022/7
 
 ---
 

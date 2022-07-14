@@ -11,6 +11,7 @@ timeslot: 5
 room: 202
 timeorder: 2
 track: community
+live_url: https://www.crowdcast.io/e/beam-summit-2022/9
 
 ---
 
