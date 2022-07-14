@@ -10,7 +10,6 @@ speakers:
  - Austin Bennett
 time_start: 2022-07-20 9:00:00 -0500 CDT
 time_end: 2022-07-20 12:00:00 -0500 CDT
-
 day: c
 timeslot: 1
 room: 202

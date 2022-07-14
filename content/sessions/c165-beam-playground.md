@@ -11,7 +11,7 @@ timeslot: 1
 room: 201
 timeorder: 5
 track: community
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/47
 ---
 
 The talk will be aimed at presenting Apache Beam discovery and learning through Beam Playground, proof of concept and contributing paths to those who are looking to learn, use and develop Apache Beam.

@@ -11,6 +11,7 @@ timeslot: 6
 room: 202
 timeorder: 2
 track: case-study
+live_url: https://www.crowdcast.io/e/beam-summit-2022/13
 
 ---
 

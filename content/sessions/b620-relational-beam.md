@@ -13,7 +13,7 @@ timeslot: 6
 room: 203
 timeorder: 0
 track: deep-dive
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/34
 ---
 
 Last year we kicked off relational work with a vision of automatically optimizing your pipeline. Now we have a panel of contributors who are working towards this goal! We will demo the new optimizer in Java core, showing how we can automatically prune columns from IOs. Then we will discuss our upcoming work to make vectorized execution a reality through native columnar support in Python and Java. Finally we will discuss usage best practices around using Schemas, Dataframes, and SQL to ensure you can benefit from these changes.

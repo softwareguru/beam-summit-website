@@ -11,7 +11,7 @@ timeslot: 8
 room: 204
 timeorder: 2
 track: case-study
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/17
 ---
 
 At a certain time, when you’re a company that’s building out a successful SaaS platform there comes a time when classic observability tools don’t cut it anymore. Or they don’t scale as well as you grow or they become too expensive. That’s why the SRE team started to look at observability as a big data problem: In combination with a specification for telemetry (OpenTelemetry) and big data tools like Apache Beam they build the Telemetry Backbone, the streaming hub for all of Collibra’s telemetry data. This is the story and how Apache Beam is an important factor in its success.

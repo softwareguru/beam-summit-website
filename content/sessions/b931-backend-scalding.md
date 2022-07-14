@@ -11,7 +11,7 @@ timeslot: 9
 room: 202
 timeorder: 1
 track: trends
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/43
 ---
 
 The batch processing data pipelines at Twitter process hundreds of petabytes of data on a daily basis. These pipelines run on on-premise Hadoop clusters and use Scalding as the framework for data processing.We are currently in the midst of migrating our batch processing pipelines to the cloud. With approximately 5000 production pipelines, it becomes necessary to automate the migration of these pipelines to the cloud.

@@ -11,7 +11,7 @@ timeslot: 8
 room: 204
 timeorder: 0
 track: trends
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/36
 ---
 
 Overview of how PulsarIO Connector was implemented, how it works, and how to use it.

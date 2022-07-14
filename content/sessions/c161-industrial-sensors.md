@@ -11,7 +11,7 @@ timeslot: 1
 room: 201
 timeorder: 1
 track: trends
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/44
 ---
 
 When there is lot of telemetry coming in from thousands of devices, how to identify , in real time, when particular sensor has failed.

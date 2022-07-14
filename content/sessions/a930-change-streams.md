@@ -13,8 +13,7 @@ timeslot: 9
 room: 202
 timeorder: 0
 track: deep-dive
-
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/21
 ---
 
 This session will give an overview of Cloud Spanner change streams, discuss the challenges of capturing change streams with the Apache Beam framework and Dataflow, and dive into the specific use case of streaming change records from Spanner into BigQuery using Beam.

@@ -11,7 +11,7 @@ timeslot: 1
 room: 204
 timeorder: 2
 track: case-study
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/23
 ---
 
 Talat will talk about how Beam was adopted at Palo Alto, and describe how they deploy thousands of Beam pipelines to keep their customers secure.

@@ -13,7 +13,7 @@ timeslot: 1
 room: 201
 timeorder: 7
 track: trends
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/49
 ---
 
 The Ray Beam Runner Project is an initiative to create a new Pythonic Beam Runner based on the Ray distributed compute framework. The project was conceived based on strong community interest in integrating Ray with Beam, and a prototype quickly proved its viability. We will discuss the current state of this initiative, and our long-term vision to provide a unified authoring and execution environment for mixed-purpose batch, streaming, and ML pipelines.

@@ -12,7 +12,7 @@ room: 203
 timeorder: 0
 track: deep-dive
 summary: "In this session, we will look into how to get a Beam pipeline successfully deployed via a CICD framework (Google's cloud build) by utilising Dataflow's flex temples and discuss lessons learned along the way."
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/30
 ---
 
 Understanding how to integrate Apache Beam into your production workflow is critical for large scale enterprises who are looking to automate the deployment and integration of their pipelines with the appropriate environments.

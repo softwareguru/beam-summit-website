@@ -11,7 +11,7 @@ timeslot: 1
 room: 201
 timeorder: 6
 track: community
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/48
 ---
 
 An overview of common customer issues seen when Apache Beam is used on the Cloud Dataflow Runner.

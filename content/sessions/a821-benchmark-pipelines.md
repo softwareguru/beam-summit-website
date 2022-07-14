@@ -11,6 +11,7 @@ timeslot: 8
 room: 203
 timeorder: 1
 track: deep-dive
+live_url: https://www.crowdcast.io/e/beam-summit-2022/16
 ---
 
 Are your deployed Beam pipelines properly sized to meet your SLOs? Currently there’s no standard way of benchmarking your Dataflow pipelines to measure expected output rate or utilization, which are required for capacity planning and cost optimization. This talk is to present a methodology and a toolset to benchmark performance (event latency and throughput) of a custom Beam pipeline using Dataflow as runner. Results would be synthesized into prescriptive sizing guidelines to achieve best performance/cost ratio. Presented methodology can also be used to monitor and avoid pipeline performance regressions as part of your pipeline development and CI/CD process.

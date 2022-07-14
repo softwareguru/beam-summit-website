@@ -11,7 +11,7 @@ timeslot: 3
 room: 202
 timeorder: 0
 track: trends
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/27
 ---
 
 In this workshop we'll give a detailed overview of the Apache Hop platform.  We'll design a few simple Beam pipelines using the Hop GUI after which we'll run them on a few runners like GCP DataFlow and Spark.  After that we'll cover best practices for version control, unit testing, integration testing and much more.

@@ -11,7 +11,7 @@ timeslot: 5
 room: 204
 timeorder: 2
 track: deep-dive
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/32
 ---
 
 Apache Beam provides an expressive and powerful toolset for transformation over bounded and unbounded (streaming) data. One common but not obvious transformation that Oden has needed to implement is Change-Point Detection.

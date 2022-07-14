@@ -12,7 +12,7 @@ timeslot: 3
 room: 204
 timeorder: 0
 track: case-study
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/25
 ---
 
 This session will present a Beam use case in the telco industry.

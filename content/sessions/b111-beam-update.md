@@ -11,7 +11,7 @@ timeslot: 1
 room: 204
 timeorder: 1
 track: community
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/22
 ---
 
 Kenn Knowles, the PMC chair for Apache Beam, will speak about the last year of developments in Beam, and the exciting things that are coming to Beam.

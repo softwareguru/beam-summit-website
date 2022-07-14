@@ -11,7 +11,7 @@ timeslot: 6
 room: 202
 timeorder: 0
 track: community
-
+live_url: https://www.crowdcast.io/e/beam-summit-2022/35
 ---
 
 I created a library for error handling with Apache Beam Java and Kotlin. Asgarde allows error handling with less code and more concise/expressive code. The purpose is showing Beam native error handling, and the same with Asgarde Java.
