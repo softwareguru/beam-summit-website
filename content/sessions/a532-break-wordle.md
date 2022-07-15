@@ -3,7 +3,7 @@ slot: a532
 title: "How to break Wordle with Beam and BigQuery"
 url: /sessions/break-wordle
 speakers:
- - Inigo-san-jose
+ - Iñigo San Jose Visiers
 time_start: 2022-07-18 14:30:00 -0500 CDT
 time_end:   2022-07-18 14:55:00 -0500 CDT
 day: a
