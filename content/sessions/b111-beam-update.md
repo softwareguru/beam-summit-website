@@ -1,6 +1,6 @@
 ---
 slot: b111
-title: "Beam's last year, and what to expect for next!"
+title: "Where is Beam leading Data Processing now?"
 url: /sessions/beam-update
 speakers:
  - Kenn Knowles
