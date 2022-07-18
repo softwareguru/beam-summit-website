@@ -8,7 +8,7 @@ time_start: 2022-07-19 14:00:00 -0500 CDT
 time_end:   2022-07-19 14:50:00 -0500 CDT
 day: b
 timeslot: 5
-room: 2
+room: 203
 timeorder: 0
 track: deep-dive
 summary: "In this session, we will look into how to get a Beam pipeline successfully deployed via a CICD framework (Google's cloud build) by utilising Dataflow's flex temples and discuss lessons learned along the way."

@@ -9,9 +9,10 @@ time_start: 2022-07-18 12:00:00 -0500 CDT
 time_end:   2022-07-18 12:50:00 -0500 CDT
 day: a
 timeslot: 3
-room: 1
+room: 204
 timeorder: 0
 track: deep-dive
+live_url: https://www.crowdcast.io/e/beam-summit-2022/2
 
 ---
 

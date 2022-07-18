@@ -41,10 +41,12 @@
                 {{ range $rooms }}
                     <div class="time-room room-{{.}}">
                         {{ range sort (where (where (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day ) ".Params.timeslot" $time_id) ".Params.room" . ) ".Params.timeorder" }}
-                        <div class="session-item order-{{ .Params.timeorder }} track-{{ .Params.track }}">
-                            <div class="session-time">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}</div>
+                        <div class="session-item order-{{ .Params.timeorder }} track-{{ .Params.track }}" data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}'>
+                            <div class="session-time">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}.</div>
                             <div class="session-title"><a href="{{.Permalink}}" target="_blank">{{ .Title }}</a></div>
                             <div class="session-speakers">{{ with .Params.speakers }}by {{ delimit . ", " " & " }}{{ end }}</div>
+                            <div class="session-room">Room: {{ .Params.room }}</div>
+                            <div id="live-{{ .Params.slot }}" class="live-button text-center d-none"><a class="btn btn-danger btn-sm" href="{{ . }}" target="_blank">Watch</a></div>
                         </div>
                         {{ end }}
                     </div>
@@ -79,5 +81,33 @@ function showDay(obj, id) {
 }
 </script>
 
+<script>
+    function checkWatch(item) {
+      let curDate = new Date();
+      let oneMoreHour = new Date(curDate.getTime() + 60*60000);
+      let dateStart = new Date(Date.parse(item.dataset.timestart));
+      let dateEnd = new Date(Date.parse(item.dataset.timeend));
+
+      if (!item.dataset.slot) {
+        return;
+      }
+      console.log("Session: "+item.dataset.slot+". Start: "+dateStart);
+  
+      // Check if it finish time is not past and if start time is within one hour of now.
+      if (curDate < dateEnd && oneMoreHour > dateStart) {
+        // Remove d-none class so that the button shows up.
+        console.log("Show this one");
+        document.getElementById('live-'+item.dataset.slot).classList.remove("d-none");
+      }
+  
+    }
+
+document.querySelectorAll('.session-item').forEach(function(item) {
+    checkWatch(item)
+    });
+  
+</script>
+
+  
 
 {{ end }}

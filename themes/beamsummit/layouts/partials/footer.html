@@ -49,9 +49,6 @@
 <script src="{{ .link | relURL }}" {{ with .integrity }}integrity="{{.}}" crossorigin="anonymous"{{ end }}></script>
 {{ end }}
 
-{{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
 
 {{ "<!-- google analitycs -->" | safeHTML }}
 {{ with .Site.Params.google_analitycs_id}}

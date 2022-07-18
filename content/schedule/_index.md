@@ -7,7 +7,7 @@ days:
   - id: a
     title_short: Monday
     title_full: Monday, July 18, 2022
-    rooms: [1,2,3]
+    rooms: [204,203,202]
     timeslots: 
       - id: 1
         time_start: 2022-07-18 9:50:00 -0500 CDT
@@ -47,7 +47,7 @@ days:
   - id: b
     title_short: Tuesday
     title_full: Tuesday, July 19, 2022
-    rooms: [1,2,3]
+    rooms: [204,203,202]
     timeslots: 
       - id: 1
         time_start: 2022-07-19 10:00:00 -0500 CDT
@@ -82,7 +82,7 @@ days:
   - id: c
     title_short: Wednesday
     title_full: Wednesday, July 20, 2022
-    rooms: [4,5,6]
+    rooms: [203,202,201]
     timeslots: 
       - id: 1
         time_start: 2022-07-20 9:00:00 -0500 CDT

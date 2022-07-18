@@ -8,7 +8,7 @@ time_start: 2022-07-19 16:45:00 -0500 CDT
 time_end:   2022-07-19 17:10:00 -0500 CDT
 day: b
 timeslot: 8
-room: 3
+room: 202
 timeorder: 2
 track: case-study
 

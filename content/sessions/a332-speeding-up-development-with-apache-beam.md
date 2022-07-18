@@ -9,9 +9,10 @@ time_start: 2022-07-18 12:30:00 -0500 CDT
 time_end:   2022-07-18 12:55:00 -0500 CDT
 day: a
 timeslot: 3
-room: 3
+room: 202
 timeorder: 2
 track: case-study
+live_url: https://www.crowdcast.io/e/beam-summit-2022/5
 
 ---
 

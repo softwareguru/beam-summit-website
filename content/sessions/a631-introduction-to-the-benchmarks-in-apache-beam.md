@@ -8,7 +8,7 @@ time_start: 2022-07-18 15:00:00 -0500 CDT
 time_end:   2022-07-18 15:25:00 -0500 CDT
 day: a
 timeslot: 6
-room: 3
+room: 202
 timeorder: 1
 track: community
 

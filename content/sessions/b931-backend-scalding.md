@@ -8,7 +8,7 @@ time_start: 2022-07-19 17:15:00 -0500 CDT
 time_end:   2022-07-19 17:40:00 -0500 CDT
 day: b
 timeslot: 9
-room: 3
+room: 202
 timeorder: 1
 track: trends
 
