@@ -12,7 +12,7 @@ timeslot: 6
 room: 203
 timeorder: 0
 track: case-study
-live_url: https://www.crowdcast.io/e/beam-summit-2022/12
+live_url: https://www.youtube.com/watch?v=WT1v7ii_MUk
 ---
 
 In my previous customer, we did a code migration from Spark/Dataproc et Apache Beam/Dataflow. I proposed an hexagonal architecture + Domain driven design with Apache Beam, in order to isolate to business code (bounded context/domain) and technical code (infrastucture). This architecture is used with code decoupling and dependency injection. I used Dagger2 and i am going to explain why :)

@@ -10,7 +10,7 @@ time_start: 2022-07-20 11:20:00 -0500 CDT
 time_end:   2022-07-20 11:30:00 -0500 CDT
 day: c
 timeslot: 1
-room: 201
+room: 201 (remote)
 timeorder: 7
 track: trends
 live_url: https://www.crowdcast.io/e/beam-summit-2022/49

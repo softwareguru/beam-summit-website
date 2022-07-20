@@ -8,7 +8,7 @@ time_start: 2022-07-20 11:00:00 -0500 CDT
 time_end:   2022-07-20 11:25:00 -0500 CDT
 day: c
 timeslot: 1
-room: 201
+room: 201 (remote)
 timeorder: 4
 track: case-study
 draft: true

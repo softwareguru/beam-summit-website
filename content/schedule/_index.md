@@ -82,7 +82,7 @@ days:
   - id: c
     title_short: Wednesday
     title_full: Wednesday, July 20, 2022
-    rooms: [203,202,201]
+    rooms: [203,202,201 (remote)]
     timeslots: 
       - id: 1
         time_start: 2022-07-20 9:00:00 -0500 CDT
