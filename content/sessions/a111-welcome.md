@@ -12,7 +12,8 @@ room: 204
 timeorder: 1
 track: other
 live_url: https://www.crowdcast.io/e/beam-summit-2022/1
-
+slides: a0 - Monday keynote.pdf
+video: 
 ---
 
 Opening message for Beam Summit 2022.

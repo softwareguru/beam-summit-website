@@ -13,6 +13,8 @@ room: 203
 timeorder: 1
 track: trends
 live_url: https://www.crowdcast.io/e/beam-summit-2022/37
+slides: Writing a Native Go Streaming Pipeline.pdf
+video:
 ---
 
 Over the past year, the Beam Go Sdk has rolled out several features to support native streaming DoFns. This talk will dig into those features and discuss how they can be used to build streaming pipelines written entirely in Go.

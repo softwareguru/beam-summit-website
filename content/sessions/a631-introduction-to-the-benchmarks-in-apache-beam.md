@@ -12,7 +12,8 @@ room: 202
 timeorder: 1
 track: community
 live_url: https://www.crowdcast.io/e/beam-summit-2022/10
-
+slides: Introduction to the benchmarks in Apache Beam.pdf
+video:
 ---
 
 We all know that the benchmarking is a very important but quite tough and ambiguous part of performance testing for every software system. Furthermore, benchmarking the systems that support different language SDKs and distributed data processing runtimes, like Apache Beam, is even more tough and ambiguous. 

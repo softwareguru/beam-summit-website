@@ -12,7 +12,8 @@ room: 202
 timeorder: 2
 track: community
 live_url: https://www.crowdcast.io/e/beam-summit-2022/9
-
+slides: a532 - How to break Wordle with Beam and BigQuery.pdf
+video:
 ---
 
 In this session we will cover how I used Beam and BigQuery to find the best combination of words to play Wordle.

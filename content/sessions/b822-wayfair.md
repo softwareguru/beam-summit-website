@@ -12,6 +12,8 @@ room: 203
 timeorder: 2
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/40
+slides: BeamSummit2022 - Pragalbh.pdf
+video:
 ---
 
 Wayfair is the world's largest online destination for all things home including furniture, household items, fixtures, appliances etc. Unparalleled selections and high quality imagery are keys to provide a rich & unique user experience. Photo studios are expensive to operate and require significant time to produce an image. 3D modeling and imagery is one of the main focus areas of investment and the in-house applications were redesigned and developed using domain-driven design patterns of software engineering.

@@ -14,7 +14,7 @@ timeorder: 0
 session_type: workshop
 summary: "Implement a streaming pipeline in Python applying the new cross language support in Beam and Dataflow. Cross language support allows access to other Beam transforms without having to introduce a new language into your environment."
 track: workshop
-
+draft: false
 ---
 
 This three-hour workshop is intended for Beam practitioners who wish to advance their knowledge of Apache Beam and Google Cloud Dataflow. 

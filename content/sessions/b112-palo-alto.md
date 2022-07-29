@@ -12,6 +12,8 @@ room: 204
 timeorder: 2
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/23
+slides: Palo Alto Networks' massive-scale deployment of Beam.pdf
+video:
 ---
 
 Talat will talk about how Beam was adopted at Palo Alto, and describe how they deploy thousands of Beam pipelines to keep their customers secure.

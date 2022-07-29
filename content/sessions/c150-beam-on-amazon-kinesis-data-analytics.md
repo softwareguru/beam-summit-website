@@ -16,7 +16,7 @@ timeorder: 0
 session_type: workshop
 summary: "Explore an end to end example that combines batch and streaming aspects in one uniform Apache Beam pipeline on Amazon Kinesis Data Analytics (KDA)."
 track: workshop
-
+draft: false
 ---
 
 In this workshop, we explore an end to end example that combines batch and streaming aspects in one uniform Apache Beam pipeline. We start to analyze incoming taxi trip events in near real time with an Apache Beam pipeline. 

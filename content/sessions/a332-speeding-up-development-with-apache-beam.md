@@ -13,7 +13,8 @@ room: 202
 timeorder: 2
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/5
-
+slides: Beam_Summit_2022_Adobe.pptx.pdf
+video:
 ---
 
 At the core of Adobe Experience Platform (AEP), there is a large Apache Kafka deployment: 20+ data centers, 300+ billion messages a day. We use it to import/export data for external customers and integrate internal solutions. Processing those events involves lots of boilerplate code and practices: understanding the streaming platform, optimizing for throughput, instrumenting metrics, deploying the service, alerting, and monitoring.
