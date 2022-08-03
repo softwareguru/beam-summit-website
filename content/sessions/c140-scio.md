@@ -17,7 +17,7 @@ timeorder: 0
 track: workshop
 session_type: workshop
 summary: "This workshop encompasses several talks and a workshop around Scio, which is the open source Scala API for Apache Beam."
-draft: false
+draft: true
 ---
 
 This workshop encompasses several talks and a workshop around Scio, which is the open source Scala API for Apache Beam.

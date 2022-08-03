@@ -13,7 +13,7 @@ timeorder: 2
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/39
 slides: Beam Summit 2022 - Playing the Long Game - Transforming Ricardo's Data Infrastructure with Apache Beam.pdf
-video:
+video: https://youtu.be/v-MclVrGJcQ
 ---
 
 The Data Intelligence Team at Ricardo, Switzerland's largest online marketplace, is a long-time Apache Beam user.

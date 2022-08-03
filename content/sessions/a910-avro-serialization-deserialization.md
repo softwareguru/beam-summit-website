@@ -13,7 +13,7 @@ timeorder: 0
 track: trends 
 live_url: https://www.crowdcast.io/e/beam-summit-2022/20
 slides: New Avro serialization and deserialization in Beam SQL.pdf
-video:
+video: https://youtu.be/njMx0dIyLjw
 ---
 
 At Palo Alto Networks we heavily rely on Avro, using it as the primary storage format and use Beam Row as in memory. We de/serialize billions Avro records per second. One day we realized Avro Row conversion routines consume much of CPU time. Then the story begins ....

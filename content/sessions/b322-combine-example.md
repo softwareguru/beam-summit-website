@@ -13,7 +13,7 @@ timeorder: 2
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/28
 slides: P20220719 - Combine by Example.pdf
-video:
+video: https://youtu.be/czujoMjWF6k
 ---
 
 Apache Beam’s concept can sometimes be overwhelming. Sometimes is hard to see why something is designed the way it is. One of these concepts is the Combine function. This session takes a non-trivial data structure (the OpenTelemetry Exponential Histogram) as an example and goes through each step in the design on making it a super-efficient Combine function. Learn by example.

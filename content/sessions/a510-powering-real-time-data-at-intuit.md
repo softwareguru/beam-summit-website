@@ -15,7 +15,7 @@ room: 204
 timeorder: 0
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/6
-
+video: https://youtu.be/H4s7rAlk68w
 
 ---
 

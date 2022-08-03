@@ -13,7 +13,7 @@ timeorder: 1
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/38
 slides: Shared cache.pdf
-video:
+video: https://youtu.be/zahZvqQVhho
 ---
 
 The session will talk about how we use shared handles to enrich our events with metadata using shared handles.

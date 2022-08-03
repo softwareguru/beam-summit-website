@@ -13,7 +13,7 @@ timeorder: 1
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/26
 slides: Oops, I Wrote a Portable Runner in Go.pdf
-video:
+video: https://youtu.be/G4lbkvAG6xk
 ---
 
 Like all the SDKs, the Apache Beam Go SDK has a direct runner, for simple testing. However, unlike Python and Java, it has languished, not covering all parts of the model supported by the SDK. Worse, it doesn't even use the FnAPI!

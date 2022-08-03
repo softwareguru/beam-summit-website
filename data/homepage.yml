@@ -8,8 +8,8 @@ banner:
   venue : "Austin, TX <br />"
   button1:
     enable : true
-    label : "Register now!"
-    link : "/tickets"
+    label : "Watch Sessions Recordings"
+    link : "/sessions"
 
   button2:
     enable : false

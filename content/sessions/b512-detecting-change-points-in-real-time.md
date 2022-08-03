@@ -13,7 +13,7 @@ timeorder: 2
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/32
 slides: Apache Beam Summit - Detecting Change Points.pdf
-video:
+video: https://youtu.be/MywQDgnJCw0
 ---
 
 Apache Beam provides an expressive and powerful toolset for transformation over bounded and unbounded (streaming) data. One common but not obvious transformation that Oden has needed to implement is Change-Point Detection.

@@ -13,7 +13,7 @@ room: 204
 timeorder: 0
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/2
-
+video: https://youtu.be/sW2RFETRlJA
 ---
 
 At Credit Karma, we enable financial progress for more than 100 million of our members by recommending them personalized financial products when they interact with our application. In this talk we are introducing our machine learning platform that uses Apache Beam and Google Dataflow to build interactive and production MLOps pipelines to serve relevant financial products to Credit Karma users.

@@ -34,25 +34,25 @@ speaker = "speakers"
   URL = "/about"
   weight = 1
 
-  [[menu.main]]
-  name = "Program"
-  URL = "/program"
-  weight = 2
+  #[[menu.main]]
+  #name = "Program"
+  #URL = "/program"
+  #weight = 2
 
-  [[menu.main]]
-  name = "Workshops"
-  URL = "/workshops"
-  weight = 3
+  #[[menu.main]]
+  #name = "Workshops"
+  #URL = "/workshops"
+  #weight = 3
 
   [[menu.main]]
   name = "Speakers"
   URL = "/speakers"
   weight = 4
 
-  [[menu.main]]
-  name = "Venue"
-  URL = "/venue"
-  weight = 5
+  #[[menu.main]]
+  #name = "Venue"
+  #URL = "/venue"
+  #weight = 5
 
   #[[menu.main]]
   #name = "Swag bag"
@@ -64,10 +64,10 @@ speaker = "speakers"
   URL = "/jobs"
   weight = 6
 
-  [[menu.main]]
-  name = "Networking"
-  URL = "/networking"
-  weight = 7
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "/networking"
+  #weight = 7
 
   [[menu.main]]
   name = "FAQ"
@@ -107,8 +107,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Tickets"
-link = "/tickets"
+label = "Sessions"
+link = "/sessions"
 
 
 ############################# social icon ############################

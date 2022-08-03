@@ -12,6 +12,7 @@ room: 203
 timeorder: 2
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/19
+video: https://youtu.be/W64Mz2gOzvk
 ---
 
 This session discusses different strategies for caching data in Dataflow using the Beam SDK

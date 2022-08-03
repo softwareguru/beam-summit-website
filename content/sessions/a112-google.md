@@ -13,7 +13,7 @@ timeorder: 2
 track: keynote
 live_url: https://www.crowdcast.io/e/beam-summit-2022/1
 slides: a0 - Monday keynote.pdf
-video: 
+video: https://youtu.be/Z6NUEr3dVEs
 
 ---
 

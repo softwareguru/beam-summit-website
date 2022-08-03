@@ -12,6 +12,7 @@ room: 204
 timeorder: 1
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/16
+video: https://youtu.be/wxUitQJ0-pw
 ---
 
 How we have used Apache Beam on Google cloud Dataflow runner to build a robust Data Integration solution to on-board data from various source systems [RDBMS , REST APIs] to Google Cloud Bigquery

@@ -12,6 +12,7 @@ room: 201 (remote)
 timeorder: 6
 track: community
 live_url: https://www.crowdcast.io/e/beam-summit-2022/48
+video: https://youtu.be/nDnQQbmQzf0
 ---
 
 An overview of common customer issues seen when Apache Beam is used on the Cloud Dataflow Runner.

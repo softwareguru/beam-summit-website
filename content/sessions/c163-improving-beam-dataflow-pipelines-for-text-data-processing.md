@@ -13,6 +13,7 @@ room: 201 (remote)
 timeorder: 3
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/46
+video: https://youtu.be/dkR-Sl7WHq8
 ---
 
 In this session, we'll share a few recipes to improve Beam-Dataflow pipelines when dealing with sequence data. These methods came from our experience of processing and preparing large datasets for ML use at Carted. We'll provide a step-by-step framework of how to analyze the issues that can start surfacing when processing text data at scale and will share our approaches to dealing with them.

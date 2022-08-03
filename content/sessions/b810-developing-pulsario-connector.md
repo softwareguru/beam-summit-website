@@ -13,7 +13,7 @@ timeorder: 0
 track: trends
 live_url: https://www.crowdcast.io/e/beam-summit-2022/36
 slides: Developing PulsarIO Connector.pdf
-video:
+video: https://youtu.be/xoQRDzqdODk
 ---
 
 Overview of how PulsarIO Connector was implemented, how it works, and how to use it.
