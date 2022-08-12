@@ -7,7 +7,7 @@ speakers:
  - Israel Herraiz
  - Claire McGinty
  - Annica Ivert
- - Austin Bennett
+ - Federico Patota
 time_start: 2022-07-20 9:00:00 -0500 CDT
 time_end: 2022-07-20 12:00:00 -0500 CDT
 day: c
@@ -17,7 +17,7 @@ timeorder: 0
 track: workshop
 session_type: workshop
 summary: "This workshop encompasses several talks and a workshop around Scio, which is the open source Scala API for Apache Beam."
-draft: true
+video: https://youtu.be/cGvaQp_h5ek
 ---
 
 This workshop encompasses several talks and a workshop around Scio, which is the open source Scala API for Apache Beam.
