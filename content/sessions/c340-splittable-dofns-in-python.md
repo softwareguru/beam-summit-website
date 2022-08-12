@@ -14,7 +14,8 @@ room: 202
 timeorder: 0
 summary: "We will review the concept of Splittable DoFns and we will write two I/O connectors using this kind of DoFns: one in batch (for reading large files in a given format), and one for streaming (for reading from Kafka topics)."
 track: workshop
-draft: true
+video: https://youtu.be/VQdtaaWxN0Y
+
 ---
 
 In this workshop we will review the concept of Splittable DoFns and we will write two I/O connectors using this kind of DoFns: one in batch (for reading large files in a given format), and one for streaming (for reading from Kafka topics). We will run some examples on Google Cloud Dataflow after implementing these connectors from scratch during the workshop. All the code will be written in Python.
