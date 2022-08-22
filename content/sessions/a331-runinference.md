@@ -13,7 +13,7 @@ timeorder: 1
 track: trends
 live_url: https://www.crowdcast.io/e/beam-summit-2022/4
 slides: BeamSummit 2022 - RunInference.pdf
-video: 
+video: https://youtu.be/Ru36d_upOt8
 ---
 
 Users of machine learning frameworks must currently implement their own PTransforms for predictions or inferences. Only TensorFlow makes a RunInference beam transform available, but it's not highly accessible since it's hosted in the TFX-BSL repo.
