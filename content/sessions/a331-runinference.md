@@ -21,3 +21,5 @@ Users of machine learning frameworks must currently implement their own PTransfo
 We are creating implementations of RunInference for two popular machine learning frameworks, scikit-learn and PyTorch. These will take advantage of both internal optimizations like shared resource models, as well as framework-specific optimizations such as vectorization. It will have a clean simple unified interface, and use types intuitive to developers for inputs and outputs (numpy for scikit-learn, Tensors for PyTorch).  
  
 The eventual goal is to support this for many more ML frameworks (e.g. XGBoost, mxnet, Statsmodels, JAX, TensorRT) and remote services (e.g. Vertex AI).
+
+Link to notebook: https://colab.research.google.com/drive/10iPQTCmaLJL4_OohS00R9Wmor6d57JkS
