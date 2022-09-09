@@ -16,7 +16,7 @@ timeorder: 0
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/6
 video: https://youtu.be/H4s7rAlk68w
-
+slides: PoweringRealTimeData-Intuit.pdf
 ---
 
 The Stream Processing Platform powers real-time data applications at Intuit using the Apache Beam framework. The platform makes it easy for an engineer to access, transform, and publish streaming data with turn-key solutions to debug and deploy their streaming applications on a managed platform in a manner that is compliant with and leverage Intuit central capabilities. Since launch 3 years ago, the platform has grown to over 150 pipelines in production and handled at peak ~17.3 billion events and 82 TB of data. Most of our pipelines use Kafka as source, with Apache Flink as our stream processing runner of choice for executing the Beam pipelines.

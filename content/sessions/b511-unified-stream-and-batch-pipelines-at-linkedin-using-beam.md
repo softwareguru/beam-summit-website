@@ -14,6 +14,7 @@ timeorder: 1
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/29
 video: https://youtu.be/rBfwjbrMJTE
+slideS: UnifiedStreaming-LinkedIn.pdf
 ---
 
 Many use cases at LinkedIn require real-time processing and periodic backfilling of data. Running a single codebase for both needs is an emerging requirement. In this talk, we will share how we leverage Apache Beam to unify Samza stream and Spark batch processing. We will present the first unified production use case Standardization. By leveraging Beam on Spark for its backfilling, we reduced the backfilling time by 93% while only using 50% of resources. We will also go through the challenges of running unified pipelines, lessons we have learned, and future roadmap at Linkedin.

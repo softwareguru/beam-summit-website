@@ -14,6 +14,7 @@ timeorder: 0
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/25
 video: https://youtu.be/BVPo0OH-H1g
+slides: OptimizingDataflowCostEfficiency.pdf
 ---
 
 This session will present a Beam use case in the telco industry.

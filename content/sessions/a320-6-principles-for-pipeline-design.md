@@ -14,6 +14,8 @@ timeorder: 0
 track: community
 live_url: https://www.crowdcast.io/e/beam-summit-2022/3
 video: https://youtu.be/dGREGVW27_0
+slides: PrinciplesPipelineDesign.pdf
+
 ---
 
 Based in the inspiring talk about the Apollo XI "Light years ahead", in this talk we will cover 6 design principles for data pipelines, with a focus on streaming pipelines. Submitting a job to a runner is not that different (well, a bit) from "submitting" a spacecraft into space. You lose direct access to the device, and can only send a couple of commands, read logs and receive telemetry. The 6 principles presented in this talk will make your pipeline to land on the moon rather than crashing!

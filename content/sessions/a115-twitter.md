@@ -13,6 +13,8 @@ timeorder: 5
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/1
 video: https://youtu.be/bKrYUDZ1yx8
+slides: a0 - Monday keynote.pdf
+
 ---
 
 Evaluation, effort for adoption, current state and future of Apache Beam adoption at Twitter.

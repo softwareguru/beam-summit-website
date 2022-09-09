@@ -14,6 +14,7 @@ timeorder: 0
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/33
 video: https://youtu.be/Sq3maplM0EQ
+slides: StreamingNLPInfrastructure.pdf
 ---
 
 Trustpilot is an e-commerce reviews platform delivering millions of new reviews to businesses each week. We are using Apache Beam on GCP Dataflow to deliver real-time streaming inferences with the latest NLP transformer models.
