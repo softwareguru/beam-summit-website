@@ -13,6 +13,7 @@ timeorder: 0
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/7
 video: https://youtu.be/XaRK7LeKCQM
+slides: https://s.apache.org/the-dataflow-sausage
 ---
 
 The team that builds the Dataflow runner likes to say it "just works". But how does it really work? How does it decide to autoscale? What happens on failures? Where is state data stored? Can I have infinite state data? What goes into Dataflow's latency? What's the checkpoint logic?
