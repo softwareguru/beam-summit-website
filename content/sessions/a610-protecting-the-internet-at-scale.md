@@ -16,6 +16,7 @@ timeorder: 0
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/11
 video: https://youtu.be/0ZtQj8g9FVw
+slides: BlueVoyant.pdf
 ---
 
 At BlueVoyant, we process billions of cyber events per second in an effort to secure the supply chains of several high-stakes Fortune 500 companies. Cyber attacks exploit the weakest links in a target company, and modern tech infrastructures are composed of more third-party dependencies than ever before. Our Third-Party Risk (3PR) product requires us to monitor, analyze, and pinpoint weaknesses throughout hundreds of thousands of third party entities, each consisting of tens to millions of assets that may be exploited. We do this by stream-processing billions of cyber events collected across the entire internet from a variety of disparate data sources and formats, using Apache Beam on Google Dataflow, in a project we call Prophet.
