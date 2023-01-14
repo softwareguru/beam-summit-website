@@ -5,6 +5,7 @@ url: /sessions/vega-mlops
 speakers:
  - Debasish Das
  - Vishnu Venkataraman
+ - Raj Katakam
 time_start: 2022-07-18 12:00:00 -0500 CDT
 time_end:   2022-07-18 12:50:00 -0500 CDT
 day: a
