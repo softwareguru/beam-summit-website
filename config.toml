@@ -1,7 +1,7 @@
 
 ######################## default configuration ####################
-baseURL = "https://2022.beamsummit.org"
-title = "Beam Summit 2022"
+baseURL = "https://beamsummit.org"
+title = "Beam Summit 2023"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
 RemovePathAccents = true
@@ -33,9 +33,15 @@ speaker = "speakers"
   weight = 1
 
   [[menu.main]]
+  name = "Previous editions"
+  URL = "/previous-editions"
+  weight = 5
+
+  [[menu.main]]
   name = "FAQ"
   URL = "/faq"
   weight = 8
+
 
 [sitemap]
   changefreq = 'weekly'
@@ -81,7 +87,7 @@ link = "https://twitter.com/beamsummit"
 
 [[params.social]]
 icon = "tf-ion-social-linkedin"
-link = "https://www.linkedin.com/company/beam-summit/"
+link = "https://www.linkedin.com/company/apache-beam/"
 
 [[params.social]]
 icon = "tf-ion-social-youtube"

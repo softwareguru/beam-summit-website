@@ -2,7 +2,6 @@
 title: Code of Conduct
 date: '2019-09-10T07:51:25.000+00:00'
 url: "/coc"
-linkTitle: ''
 
 ---
 Beam Summit is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Participants violating these rules may be sanctioned or expelled, at the discretion of the event organizers.
