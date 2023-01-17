@@ -11,12 +11,12 @@
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="{{.Permalink}}">              
-              <img src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+              <img src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" class="img-fluid shadow border-img">
             </a>
           </div>
           <div class="speaker-info text-center">
-            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
-            <p>{{ .Params.Designation}}</p>
+            <h4 class="mb-1 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
+            <p class="designation-color">{{ .Params.Designation}}</p>
           </div>
         </div>
       </div>

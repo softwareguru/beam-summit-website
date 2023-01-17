@@ -1,9 +1,12 @@
 ---
 title: "Workshops"
+draft: false
+description: In our workshops you will get in-depth training on tools and features related to Apache Beam. 
 draft: true
 ---
 
-We will be offering hands-on workshops on how to use Apache Beam in different scenarios and with different infrastructure. 
+On July 20, we will have hands-on workshops where you can get in-depth training on tools and features related to Apache Beam. 
 
-* Format & duration: We will have 1 hour and 2 hour workshops. You can expect the 2 hour workshops to go more in depth and allow time for participants to go through the labs, while the 1 hour workshops will have a quicker pace.
-* Capacity: Capacity is limited to 60 participants per workshop. We will enable a wait list and see if it is necessary to open more groups. Please register for a workshop only if you are really committed to participating in it.
+**Workshops are only available to onsite attendees with a 3-day pass**. When getting your ticket in Eventbrite, select the workshop that you are interested in.
+
+

@@ -13,7 +13,7 @@ sitemap:
 <table class="table prices">
 <tr>
   <th>Ticket type</th>
-  <th>Early bird price</th>
+  <th>Early bird price (Ends May 13th, 2022)</th>
   <th>Regular price</th>
 </tr>
 <tr>
@@ -78,4 +78,10 @@ sitemap:
 </script>
 </div>
 
+## Apply for a scholarship
+
+
 If you would like to attend in person but cannot afford a ticket, please <a href="https://forms.gle/STT1tYp9MefGzN5L9" target="_blank">apply for a scholarship.</a>
+
+
+***Scholarship covers the conference pass only, not travel or lodging accommodations***

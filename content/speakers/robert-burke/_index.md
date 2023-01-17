@@ -1,10 +1,12 @@
 ---
 title: "Robert Burke"
-designation: "Beam Go Busybody"
+designation: "Distributed Gopher Wrangler"
 images: 
  - /images/speakers/robert-burke.jpg
-twitter: ""
-linkedin: "https://www.linkedin.com/in/lostluck/"
+twitter: "http://twitter.com/lostluck"
+linkedin: ""
 ---
 
-Robert enjoys Go, and distributing computations. He's been ushering the Go SDK along to usefulness within Google and hopefully beyond.
+Robert is constantly working on managing his time, but really just wishes he could be multiple places at once, since that would be simpler all around. 
+
+When he's not programming in Go,  lately, he's probably not programming at all.

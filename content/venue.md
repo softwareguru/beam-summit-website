@@ -1,7 +1,7 @@
 ---
 title: Venue
 date: '2022-01-18T07:51:25.000+00:00'
-
+draft: true
 ---
 # Where to stay?
 
@@ -11,12 +11,13 @@ We have a limited amount of rooms with a discount for the Beam Summit attendees.
 
 # About the Venue
 
-The onsite component of Beam Summit will be held at Austin, TX, at the AT&T Hotel and Conference center.
+The onsite component of Beam Summit will be held at Austin, TX, at the [AT&T Hotel and Conference center](https://meetattexas.com).
 
-The event organization will follow all the required recommendations for COVID-19.
+The event organization will follow all the [required recommendations for COVID-19](/faq/).
 
 The venue is located only 17 minutes away from the Austin International Airport by car, and 40 minutes away by bus.
 
+The event will take place at the Conference center M2 level (crossing the Courtyard).  [Venue map](https://meetattexas.com/floorplans).
 
 <div class="row">
     <div class="col">
@@ -27,6 +28,14 @@ The venue is located only 17 minutes away from the Austin International Airport 
     <img src="https://meetattexas.com/assets/images/meetings/_imageTextModuleTransform1x/UT-CONF-CTR-AUDITORIUM-MASTER-RETOUCH-lg-print.jpg" class="img-fluid">
     </div>
   </div>
+<br>
+
+# Parking
+
+The AT&T Conference Center has a substantial amount of parking that is available on a first-come, first-serve basis though there is no guarantee of available parking in the AT&T Conference Center parking garage. Additional parking is available nearby at the prevailing rates and terms. Parking is the responsibility of the individual guest.
+
+***Day Self-parking: the price is approx. $3.00 per hour***
+
 <br>
 
 # About Austin
@@ -74,7 +83,7 @@ If you feel like taking some time to know the city, there's a lot of things to d
     </div>
     <div class="col">
     <center>
-      <img src="https://www.certusa.org/wp-content/uploads/texas-san-antonio-river-walk-night.jpg" class="img-fluid" width="500px">
+      <img src="/images/blog/austin.jpeg" class="img-fluid" width="500px">
       <center>
     </div>
   </div>

@@ -48,3 +48,18 @@ grid-row: 1;
 	color: #ff6200;
 }
 
+.module {
+ 
+	margin: 0 0 1.5em 0;
+	overflow: hidden;
+  }
+  
+  .module p {
+	margin: 0;
+  }
+  
+  .line-clamp {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+  }

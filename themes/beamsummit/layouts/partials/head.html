@@ -18,6 +18,15 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','{{ . }}');</script>
     <!-- End Google Tag Manager -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165970215-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-165970215-2');
+    </script>
     <!-- Google Ads Tag -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10860810533"></script>
     <script>
@@ -27,11 +36,12 @@
       gtag('config', 'AW-10860810533');
     </script>
     <!-- End Google Ads Tag -->
+  
     {{ end }}
   
     {{ "<!-- plugins -->" | safeHTML }}
     {{ range .Site.Params.plugins.css }}
-    <link rel="stylesheet" href="{{ .link | relURL }}">
+    <link rel="stylesheet" href="{{ .link | relURL }}" {{ with .integrity }}integrity="{{.}}" crossorigin="anonymous"{{ end }}>
     {{ end }}
 
     {{ "<!-- Main Stylesheet -->" | safeHTML }}
@@ -80,6 +90,28 @@
       }
     </script>
     {{ end }}
+
+<!-- AddEvent script -->
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+<script type="text/javascript">
+  window.addeventasync = function(){
+      addeventatc.settings({
+          appleical  : {show:true, text:"Apple Calendar"},
+          google     : {show:true, text:"Google Calendar"},
+          office365  : {show:true, text:"Office 365 <em>(online)</em>"},
+          outlook    : {show:true, text:"Outlook"},
+          outlookcom : {show:false, text:"Outlook.com"},
+          yahoo      : {show:false, text:"Yahoo"},
+          license : "aJWrAOFtlzUgRLSPwmgF111163"
+      });
+  };
+</script>
+<!-- Remove "AddEvent" from the dropdown with the following CSS -->
+<style type="text/css">
+.addeventatc_dropdown {padding:6px 0px;}
+.addeventatc_dropdown .copyx {display:none;}
+</style>
 
 </head>
   

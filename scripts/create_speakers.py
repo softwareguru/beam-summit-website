@@ -8,11 +8,12 @@ with open('speakers.csv') as csvfile:
     for row in reader:
         title = row['title']
         slug = row['slug']
-        image = row['image']
         bio = row['bio']
         designation = row['designation']
         twitter = row['twitter']
         linkedin = row['linkedin']
+
+        image = "/images/speakers/"+slug+".jpg"
 
         dirname = "speakers/"+slug
         try:

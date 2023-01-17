@@ -5,7 +5,44 @@
     <div>
       {{ .Content }}
     </div>
+    <div>
+      <h3>Links to other live or upcoming talks</h3>
+      <ul>
+        {{ range sort (where $.Site.RegularPages "Section" "sessions") ".Params.slot" }}
+        <li class="upcoming-session d-none" data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}'><a href="{{.Params.live_url}}">{{ .Params.title }}</a></li>
+        {{ end }}
+
+      </ul>      
+    </div>
   </div>
 </section>
+
+<script>
+  function checkWatch(item) {
+    let curDate = new Date();
+    let oneMoreHour = new Date(curDate.getTime() + 60*60000);
+    let dateStart = new Date(Date.parse(item.dataset.timestart));
+    let dateEnd = new Date(Date.parse(item.dataset.timeend));
+
+    if (!item.dataset.slot) {
+      return;
+    }
+    console.log("Session: "+item.dataset.slot+". Start: "+dateStart);
+
+    // Check if it finish time is not past and if start time is within one hour of now.
+    if (curDate < dateEnd && oneMoreHour > dateStart) {
+      // Remove d-none class so that the button shows up.
+      console.log("Show this one");
+      item.classList.remove("d-none");
+    }
+
+  }
+
+document.querySelectorAll('.upcoming-session').forEach(function(item) {
+  checkWatch(item)
+  });
+
+</script>
+
 
 {{ end }}

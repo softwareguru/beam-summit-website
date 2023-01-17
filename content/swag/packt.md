@@ -4,6 +4,7 @@ date: 2020-04-07T10:17:52-05:00
 image : "/images/logos/packt.png"
 weight: 3
 summary: "Get a 25% discount on selected titles related to Beam and Data Science."
+draft: true
 ---
 
 25% discount on selected titles related to Beam and Data Science ([see list](https://www.amazon.com/gp/mpc/ART838LJR9KSP)). 
