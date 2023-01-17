@@ -1,0 +1,77 @@
+enable :  true
+title : "Sponsors"
+sponsor_group:
+  - title : "Platinum"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/google-cloud.png"
+        link : "https://cloud.google.com"
+
+  - title : "Gold"
+    slug : "gold"
+    sponsor:                  
+      - logo : /images/logos/spotify.png
+        link : https://rnd.atspotify.com
+      - logo : /images/logos/aws.png 
+        link : https://aws.amazon.com  
+      - logo : /images/logos/mavencode.png
+        link : https://www.mavencode.com
+
+  - title : "Silver"
+    slug : "silver"
+    sponsor:                  
+      - logo : "/images/logos/Adobe-logo.png"
+        link : "http://adobe.com/"
+
+  - title : "Partners"
+    #slug : "previous"
+    slug: "community"
+    sponsor:                  
+      - logo : "/images/logos/logo-apache.png"
+        link : "https://www.apache.org"
+      - logo : "/images/logos/logo-akvelon.png"
+        link : "https://akvelon.com"
+      - logo : "/images/logos/logo-packt.png"
+        link : "https://www.packtpub.com"
+      - logo : "/images/logos/logo-manning.jpg"
+        link : "https://www.manning.com"
+      - logo : "/images/logos/logo monita - no bg.png"
+        link : "https://www.getmonita.io/"
+      - logo : "/images/logos/logo-aicamp.png"
+        link : "https://www.aicamp.ai/"
+      - logo : "/images/logos/logo-datacouncil-nobg.png"
+        link : "https://www.datacouncil.ai/"
+      - logo : "/images/logos/WWCode.png"
+        link : "https://www.womenwhocode.com/"
+      - logo : "/images/logos/logo-chicktech.png"
+        link : "https://chicktech.org/"
+        
+  - title : "Previous editions"
+    slug : "previous"
+    sponsor:                  
+      - logo : "/images/logos/Oden_Tech.png"
+        link : "https://oden.io/"
+      - logo : "/images/logos/polidea.png"
+        link : "https://polidea.com"
+      #- logo : "/images/logos/manning.png"
+      #  link : "https://www.manning.com"
+      - logo : "/images/logos/flink-forward.jpg"
+        link : "https://www.flink-forward.org"
+      #- logo : "/images/logos/packt.png"
+      #  link : "https://www.packtpub.com"
+      - logo : "/images/logos/earnest-research.png"
+        link : "https://www.earnestresearch.com/"
+      - logo : "/images/logos/arabesque2.png"
+        link : "https://www.arabesque.com/"
+      #- logo : "/images/logos/flink-forward.jpg"
+       # link : "https://www.flink-forward.org"
+ 
+
+# call to action in sponsor
+sponsorship:
+  enable : true
+  title : "Support Beam Summit and engage with the community!"
+  #button
+  label : "View our Prospectus"
+  link : "/files/Beam Summit 2022 - Prospectus.pdf"
+

@@ -1,84 +1,74 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "Beam Summit 2022"
+  logo : "/images/logo-home.png"
+  bg_image: "/images/banner/banner-2.jpg"
+  date_time : "June 13-15, 2022"
+  venue : "New York City, NY <br />"
+  button1:
+    enable : true
+    label : "Submit to our CFP"
+    link : ""
+
+  button2:
+    enable : false
+    label : "Watch last year's sessions"
+    link : "https://2021.beamsummit.org/sessions/"
+
 
 ############################## Event ##############################
-event:
+event_info:
   enable : true
-  title : "Beam Summit is the best way to learn what is happening with <br />Apache Beam!"
-  image_back : "/images/home1.jpg"
-  image_front : "/images/home2.jpg"
-  description : "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
-  button:
-    enable : true
-    label : "Beam Summit 2022 is coming!"
-    link : "https://2022.beamsummit.org"
+  title : "Beam Summit is the premier event for Apache Beam users and contributors!"
+  description : "Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
+  cta_text: "Join the CFP!"
+  cta_link: "/tickets"
+  features: 
+    - number : "3"
+      label : "Days"
+      
+    - number : "+30"
+      label : "Sessions and workshops"
 
+    - number : "Hybrid"
+      label : "Join in person or online"
+
+    - number : "Everybody"
+      label : "is welcome"
+
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+####################### pricing #############################
+pricing:
+  enable : true
+  # pricing data comes from "pricing.yml" file
+
+########################## speaker ##########################
+speakers:
+  enable : false
+  title : "Key speakers"
+  subtitle : ""
+  # speaker content comes from "content/speaker" folder
 
 ######################### sponsor ############################
 sponsors:
-  enable :  true
+  enable :  false
   title_outline : "Sponsors"
   title : "Amazing Partners & Sponsors"
   sponsor_group:
-    ############################ sponsor group loop
     - title : "Amazing Partners & Sponsors"
       sponsor:
-        # sponcor loop
-        - logo : "images/clients/client-img-1.png"
-          link : "https://examplesite.org"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-2.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-3.png"
-          link : "https://examplesite.org"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-4.png"
-          link : "#"
-          
-        # sponcor loop
         - logo : "images/clients/client-img-5.png"
           link : "https://examplesite.org"
-          
-    ############################ sponsor group loop
     - title : "Platinum Sponsors"
       sponsor:
-        # sponcor loop
         - logo : "images/clients/client-img-6.png"
           link : "https://examplesite.org"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-7.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-8.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-9.png"
-          link : "https://examplesite.org"
-
-        # sponcor loop
-        - logo : "images/clients/client-img-1.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-2.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-3.png"
-          link : "#"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-4.png"
-          link : "https://examplesite.org"
-          
-        # sponcor loop
-        - logo : "images/clients/client-img-5.png"
-          link : "#"
   
   # call to action in sponsor
   sponsorship:
@@ -95,3 +85,8 @@ blog:
   title : "Latest News"
   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
   # blog content comes from "content/blog" folder
+
+############################### Previous events ######################################
+previous:
+  enable : true
+  title : "Previous events"

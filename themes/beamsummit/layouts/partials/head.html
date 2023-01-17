@@ -2,31 +2,32 @@
     <meta charset="utf-8">
     <title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
   
-    {{ "<!-- mobile responsive meta -->" | safeHTML }}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ hugo.Generator }}
-
+  
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
   
-    {{ with .Site.GoogleAnalytics }}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    {{ with .Site.Params.google_tag }}
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{.}}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', '{{ . }}');
+      gtag('config', '{{.}}');
     </script>
-    {{ end }}
-
-    {{ "<!-- plugins -->" | safeHTML }}
-    {{ range .Site.Params.plugins.css }}
-    <link rel="stylesheet" href="{{ .link | relURL }}">
+    <!-- End Google Tag Manager -->
+      
     {{ end }}
   
+    {{ "<!-- plugins -->" | safeHTML }}
+    {{ range .Site.Params.plugins.css }}
+    <link rel="stylesheet" href="{{ .link | relURL }}" {{ with .integrity }}integrity="{{.}}" crossorigin="anonymous"{{ end }}>
+    {{ end }}
+
     {{ "<!-- Main Stylesheet -->" | safeHTML }}
     {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
     <link rel="stylesheet" href='{{ $styles.Permalink | relURL }}?v={{ now.Format "200601021504" }}' media="screen">
@@ -37,6 +38,64 @@
 
     <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+    {{ if .IsHome }}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "{{ .Site.Title }}",
+        "startDate": "{{ .Site.Params.start_date }}",
+        "endDate": "{{ .Site.Params.end_date }}",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": {{ .Site.BaseURL }}
+        },
+        "image": [ {{ index .Site.Params.images 0 | absURL }}],
+        "description": "{{ .Site.Params.description }}",
+        "offers": {
+          "@type": "Offer",
+          "url": {{ with .Site.Params.navigation_button.link }}{{ . | absURL }}{{ end }},
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2022-02-01T12:00"
+        },
+        "performer": {
+          "@type": "PerformingGroup",
+          "name": "Apache Beam Community"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Software Guru",
+          "url": "https://devrel.sg.com.mx"
+        }
+      }
+    </script>
+    {{ end }}
 
-  </head>
+<!-- AddEvent script -->
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+<script type="text/javascript">
+  window.addeventasync = function(){
+      addeventatc.settings({
+          appleical  : {show:true, text:"Apple Calendar"},
+          google     : {show:true, text:"Google Calendar"},
+          office365  : {show:true, text:"Office 365 <em>(online)</em>"},
+          outlook    : {show:true, text:"Outlook"},
+          outlookcom : {show:false, text:"Outlook.com"},
+          yahoo      : {show:false, text:"Yahoo"},
+          license : "aJWrAOFtlzUgRLSPwmgF111163"
+      });
+  };
+</script>
+<!-- Remove "AddEvent" from the dropdown with the following CSS -->
+<style type="text/css">
+.addeventatc_dropdown {padding:6px 0px;}
+.addeventatc_dropdown .copyx {display:none;}
+</style>
+
+</head>
   

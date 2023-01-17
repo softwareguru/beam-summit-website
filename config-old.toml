@@ -1,0 +1,124 @@
+
+######################## default configuration ####################
+baseURL = "https://beamsummit.org"
+title = "Beam Summit"
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+
+theme = "beamsummit"
+# post pagination
+paginate = "8"
+
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "/plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "/plugins/themefisher-font/themefisher-font.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "/plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link="https://kit.fontawesome.com/4a6d2efc2e.js"
+
+############################## navigation ###############################
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "/about"
+  weight = 1
+
+  [[menu.main]]
+  name = "News"
+  URL = "/blog"
+  weight = 2
+
+  [[menu.main]]
+  name = "Team"
+  URL = "/team"
+  weight = 5
+
+
+#################### default parameters ################################
+[params]
+logo = "/images/logo-monochrome.svg"
+home = "Home"
+
+# Meta data
+description = """The Beam Summit brings together experts and community to 
+share the exciting ways they are using, changing, and advancing Apache Beam 
+and the world of data and stream processing."""
+image = "/images/card-2021.png"
+images = ["/images/card-2021.png"]
+twitter_user = "@beamsummit"
+email = "contact@beamsummit.org"
+author = "Software Guru"
+
+# Google Analitycs
+googleAnalytics = "UA-165970215-1" # your id
+# search for blog page
+search = true
+
+disclaimer = """Apache Beam, the Beam logo, and the Apache feather logo are either registered trademarks or 
+trademarks of The Apache Software Foundation. All other products or name brands are trademarks of their 
+respective holders, including The Apache Software Foundation. The Apache Software Foundation has no affiliation 
+with and does not endorse, or review the materials provided at this event."""
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "Register"
+link = "https://crowdcast.io/e/beamsummit2021"
+
+
+
+############################# social icon ############################
+[[params.social]]
+icon = "tf-ion-social-twitter"
+link = "https://twitter.com/beamsummit"
+
+[[params.social]]
+icon = "tf-ion-social-linkedin"
+link = "https://www.linkedin.com/company/beam-summit/"
+
+[[params.social]]
+icon = "tf-ion-social-youtube"
+link = "https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ"
+
+[[params.social]]
+icon = "fas fa-envelope"
+link = "mailto:contact@beamsummit.org"
+
+[[params.footer_about]]
+name = "Apache Beam"
+link = "https://beam.apache.org/"
+
+[[params.footer_about]]
+name = "Apache Beam Blog"
+link = "https://beam.apache.org/blog"
+
+[[params.footer_resources]]
+name = "Code of Conduct"
+link = "/coc"
+
+[[params.footer_resources]]
+name = "Prospectus"
+link = "/files/BeamSummit2022-Prospectus.pdf"
+
+[[params.footer_resources]]
+name = "Email us"
+link = "mailto:contact@beamsummit.org"

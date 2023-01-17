@@ -1,0 +1,47 @@
+<footer class="section footer">
+	<div class="container">
+		<div class="footer-strip">
+			<div>
+				<h3 class="mb-3">{{ .Site.Title | markdownify }}</h3>
+
+				<ul class="list-inline footer-socials">
+					{{ range .Site.Params.social }}
+					<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+					{{ end }}
+				</ul>
+			</div>			
+			<div>
+				<h5>About Apache Beam</h5>
+				<ul class="footer_links">
+					{{ range .Site.Params.footer_about }}
+					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			<div>
+				<h5>Event resources</h5>
+				<ul class="footer_links">
+					{{ range .Site.Params.footer_resources }}
+					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+		{{ with .Site.Params.disclaimer }}
+		<div class="disclaimer">
+			{{ . }}
+		</div>	
+        {{ end }}
+	</div>
+</footer>
+
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | relURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+

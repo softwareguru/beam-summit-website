@@ -1,0 +1,116 @@
+{{ define "main" }}
+
+<!-- Speaker Detail -->
+<section class="speaker-detail" style="margin-top: -70px;">
+  <div class="container">
+    <div class="row mt-4">
+      <div class="image-column col-lg-3 d-none d-lg-block">
+        <div class="schedule-block col-lg-10 col-md-12 col-sm-12">
+          <div class="sec-title text-center">
+            <span class="title">Speaker(s):</span>
+            <div class="speaker-info" style="margin-bottom: 20px;">
+              {{ range (.GetTerms "speakers") }}
+              <figure class="thumb my-3">
+                <a href="{{ .Permalink }}">
+                  <div class="img-container">
+                    <img class="img-fluid rounded-circle" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="">
+                  </div>
+                  <h5 class="name" style="color: #ff6200;">{{ .Title }}</h5> 
+                </a>
+              </figure>
+               {{ end }}
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+      <div class="info-column col-lg-9 col-md-12 col-sm-12" style="margin-top: -10px;">
+        <div class="inner-column">
+          <div class="text-box">
+            <h3>{{ .Title }}</h3>
+
+            <div class="d-lg-none d-xl-none"> 
+              By 
+              {{ range (.GetTerms "speakers") }}
+              <a class="speaker-inline-item" href="{{ .Permalink }}">{{ .Title }}</a>
+              {{ end }}  
+            </div>
+            
+            <div class="session-meta" id="date">
+              <span id="adjTime"></span>
+              {{ $time_start := .Params.time_start | time }}
+              {{ $time_end := .Params.time_end | time }}                          
+
+              {{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }} CDT{{ end }} <span id="time-utc"></span>
+              {{ if lt now $time_start }}
+              <div title="Add to Calendar" class="addeventatc" data-styling="none">
+                - Add to Calendar
+                <span class="start">{{ with .Params.time_start | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
+                <span class="end">{{ with .Params.time_end | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
+                <span class="timezone">CDT</span>
+                <span class="title">Beam Summit: {{ .Title | truncate 40 }}</span>
+                <span class="description">{{ .Content }}</span>
+                <span class="location">https://2022.beamsummit.org/live</span>
+              </div>
+              {{ end }}
+              <div class="local-room">Local room: {{ .Params.room }}</div>
+            </div>
+            {{ with .Params.live_url }}<div id="live-button" class="mt-3 d-none"><a class="btn btn-danger btn-sm" href="{{ . }}">Watch</a></div>{{ end }}
+
+
+            {{ with .Params.slides }}
+            <br>
+            <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}' target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
+            {{ end }}
+
+            <div class="content mt-4">{{ .Content }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ with .Params.video }}
+    <div class="mb-3">
+      <iframe id="video-iframe" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"
+        allowtransparency="true" src='{{ replace . "https://youtu.be" "https://www.youtube.com/embed"}}'
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
+        webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    </div>
+    {{ end }}
+  </div>
+  </div>
+</section>
+<!--End Speaker Detail -->
+
+<script>
+  function adjTime(elemId, timeStart, timeEnd) {
+    let dateStart = new Date(Date.parse(timeStart));
+    let dateStartUTC = new Date(dateStart.getTime() + 300*60000);
+    let dateEnd = new Date(Date.parse(timeEnd));
+    let dateEndUTC = new Date(dateEnd.getTime() + 300*60000);
+    let adjString = "<em>("+dateStartUTC.getHours()+":"+(('0'+dateStartUTC.getMinutes()).slice(-2))+"-"+dateEndUTC.getHours()+":"+(('0'+dateEndUTC.getMinutes()).slice(-2))+" UTC)</em>";
+    document.getElementById(elemId).innerHTML=adjString;
+  }
+  adjTime('time-utc', '{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}', '{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}');
+
+</script>
+<script>
+  function checkWatch(buttonId, timeStart, timeEnd) {
+    let curDate = new Date();
+    let oneMoreHour = new Date(curDate.getTime() + 60*60000);
+    let dateStart = new Date(Date.parse(timeStart));
+    let dateEnd = new Date(Date.parse(timeEnd));
+
+    // Check if it finish time is not past and if start time is within one hour of now.
+    if (curDate < dateEnd && oneMoreHour > dateStart) {
+      // Remove d-none class so that the button shows up.    
+      document.getElementById(buttonId).classList.remove("d-none");
+    }
+
+  }
+  checkWatch('live-button', '{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}', '{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}');
+
+</script>
+
+{{ end }}
