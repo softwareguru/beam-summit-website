@@ -9,7 +9,7 @@ banner:
   button1:
     enable : true
     label : "Submit to our CFP"
-    link : ""
+    link : "https://sessionize.com/beam-summit"
 
   button2:
     enable : false
@@ -20,22 +20,23 @@ banner:
 ############################## Event ##############################
 event_info:
   enable : true
-  title : "Beam Summit is the premier event for Apache Beam users and contributors!"
-  description : "Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
+  title : "Beam Summit is coming back in 2023 as a free, in-person event followed by an online-viewing experience."
+  description : "We’ll host sessions to share new use cases from companies using Apache Beam, as well as community driven talks, technical deep dives and in-depth workshops."
   cta_text: "Join the CFP!"
-  cta_link: "/tickets"
+  cta_link: "https://sessionize.com/beam-summit"
   features: 
+    - number : "Learn"
+      label : "How Beam is used by leading organizations"
+
+    - number : "Meet"
+      label : "key users and contributors from the community"
+
     - number : "3"
       label : "Days"
       
     - number : "+30"
-      label : "Sessions and workshops"
+      label : "talks and workshops"
 
-    - number : "Hybrid"
-      label : "Join in person or online"
-
-    - number : "Everybody"
-      label : "is welcome"
 
 
 ####################### Schedule #############################

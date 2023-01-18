@@ -47,11 +47,19 @@
         "startDate": "{{ .Site.Params.start_date }}",
         "endDate": "{{ .Site.Params.end_date }}",
         "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "location": {
-          "@type": "VirtualLocation",
-          "url": {{ .Site.BaseURL }}
-        },
+          "@type": "Place",
+          "name": "Pier 57",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "25 11th Ave",
+            "addressLocality": "New York",
+            "postalCode": "10011",
+            "addressRegion": "NY",
+            "addressCountry": "US"
+          }
+        }, 
         "image": [ {{ index .Site.Params.images 0 | absURL }}],
         "description": "{{ .Site.Params.description }}",
         "offers": {
@@ -60,7 +68,7 @@
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2022-02-01T12:00"
+          "validFrom": "2023-02-01T12:00"
         },
         "performer": {
           "@type": "PerformingGroup",

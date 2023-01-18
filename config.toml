@@ -76,8 +76,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Join our CFP"
-link = "/"
+label = "Call for papers"
+link = "https://sessionize.com/beam-summit"
 
 
 ############################# social icon ############################
