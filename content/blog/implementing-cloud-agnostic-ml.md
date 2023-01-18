@@ -4,7 +4,6 @@ date: 2022-06-27T16:31:09-05:00
 url: /sessions/implementing-cloud-agnostic-ml/
 description: ""
 # post thumb
-image : "/images/blog/Charles Adetiloye, Alexander Lerma.png"
 images : ["/images/blog/Charles Adetiloye, Alexander Lerma.png"]
 # author
 author: "Beam Summit Team"

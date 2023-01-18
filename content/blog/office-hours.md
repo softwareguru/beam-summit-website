@@ -7,7 +7,7 @@ image : "/images/blog/super-helpful-crop.jpg"
 images : ["/images/blog/super-helpful-crop.jpg"]
 # author
 author: "Beam Summit Team"
-draft: true
+draft: false
 
 ---
 

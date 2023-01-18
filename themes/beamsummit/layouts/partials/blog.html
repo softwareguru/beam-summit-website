@@ -8,12 +8,13 @@
       </div>
     </div>
     <div class="row">
-      {{ range first 6 (where .Site.RegularPages "Type" "blog" )}}
+      {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Type" "blog" )}}
       <div class="col-lg-4 col-md-6">
 
         <div class="blog-item card border-0 mb-5 mb-lg-0">
-          <a><img src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid"
-              data-toggle="modal" data-target="#staticBackdrop-{{ .Params.weight }}" style="cursor: pointer"></a>
+          <a><img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title | markdownify }}" class="img-fluid"
+              data-toggle="modal" data-target="#staticBackdrop-{{ .Params.weight }}" style="cursor: pointer">{{.Title}}</a>
+              
 
           <br>
 
@@ -30,7 +31,7 @@
                 </div>
                 <div class="modal-body">
 
-                  <img src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid"></a>
+                  <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title | markdownify }}" class="img-fluid"></a>
                   <br><br>
                   <h3>{{ .Summary }}</h3>
 
@@ -42,7 +43,7 @@
                   </div>
 
                   <div class="text-right">
-                    <a id="nav-button" href="{{ .Params.url }}" class="btn">See more &nbsp;<i
+                    <a id="nav-button" href="{{ .Permalink }}" class="btn">See more &nbsp;<i
                         class="fas fa-arrow-right"></i></a>
                   </div>
                 </div>
