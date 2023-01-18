@@ -1,7 +1,7 @@
 
 ######################## default configuration ####################
 baseURL = "https://beamsummit.org"
-title = "Beam Summit 2023"
+title = "Beam Summit"
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
 RemovePathAccents = true
