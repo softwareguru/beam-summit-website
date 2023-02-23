@@ -27,6 +27,11 @@
       margin-top: 15px;
     }
 
+    @media (max-width: 1900px){
+      margin-top: 110px;
+    }
+    
+
   }
 
 
@@ -41,7 +46,15 @@
 
 
   .mascota img {
+
+
     
+    @media (max-width: 1900px){
+      max-height: 68vh;
+      margin-top: 0px;
+    }
+
+
     @media (max-width: 767px){
       max-height: 25vh;
       margin-top: -90px;
@@ -86,6 +99,10 @@
     font-family: 'Comfortaa', Roboto, cursive, sans-serif;
     font-size: 2.0em; 
     color: $orange;
+
+    @media (max-width: 1900px){
+      font-size: 1.4em; 
+    }
     @media (max-width:1035px) {
       font-size: 1.4em;  
     }
@@ -115,6 +132,11 @@
     border-radius: 50px;
     font-size: 1.8em;
     padding: 20px 30px 20px 30px;
+
+
+    @media (max-width: 1900px){
+      font-size: 1.1em; 
+    }
 
     @media (max-width:875px) {
       padding: 10px 20px 10px 20px;
