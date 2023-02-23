@@ -10,6 +10,7 @@ background: linear-gradient(180deg, rgba(22,155,214,1) 0%, rgba(22,124,214,1) 10
 .event-info-title h2{
     color: white;
     text-align: center;
+
 }
 
 
@@ -17,10 +18,16 @@ background: linear-gradient(180deg, rgba(22,155,214,1) 0%, rgba(22,124,214,1) 10
     background-color: $background; 
     padding: 35px;
 
+    
+
 }
 
 .cfp-title{
     margin-top: 170px;
+
+    @media (max-width: 1199px){
+        margin-top: -20px;
+    }
 
     @media (max-width: 767px) {
         margin-top: 15px;
@@ -50,6 +57,7 @@ background: linear-gradient(180deg, rgba(22,155,214,1) 0%, rgba(22,124,214,1) 10
     align-items: center;
     margin: 0px 90px 0px 90px;
     font-weight: 500;
+    font-size: 1.2em;
 
     &:hover{
         background-color: $yellow;
