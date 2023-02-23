@@ -35,12 +35,17 @@ speaker = "speakers"
   [[menu.main]]
   name = "Previous editions"
   URL = "/previous-editions"
-  weight = 5
+  weight = 2
+
+  [[menu.main]]
+  name = "Venue"
+  URL = "/venue"
+  weight = 3
 
   [[menu.main]]
   name = "FAQ"
   URL = "/faq"
-  weight = 8
+  weight = 4
 
 
 [sitemap]
@@ -51,7 +56,7 @@ speaker = "speakers"
 
 #################### default parameters ################################
 [params]
-logo = "/images/logo-monochrome.svg"
+logo = "/images/logo-home.png"
 home = "Home"
 
 # Meta data
@@ -76,7 +81,7 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Call for papers"
+label = "Submit your proposal"
 link = "https://sessionize.com/beam-summit"
 
 
@@ -125,9 +130,9 @@ link = "https://europe2019.beamsummit.org"
 name = "Beam Summit North America 2019"
 link = "https://na2019.beamsummit.org"
 
-[[params.footer_resources]]
-name = "Team"
-link = "/team"
+#[[params.footer_resources]]
+#name = "Team"
+#link = "/team"
 
 
 [[params.footer_resources]]

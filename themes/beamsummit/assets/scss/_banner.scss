@@ -1,77 +1,93 @@
-.section.banner {
-  background-color: #000a54;
+.section-banner {
+  background-color: $background;
   height: 100vh;
-
-  @media (max-height:720px) {
-    height: 720px;
-  }
-
-  padding-top: 80px;
-  padding-bottom: 15px;
-
   display: grid;
   gap: 10px 20px;
-  grid-template-columns: minmax(20px,120px) minmax(280px, 480px) minmax(20px,100px);
   grid-template-rows: minmax(120px, 240px) minmax(150px,250px) minmax(200px, 300px);
-  justify-content: space-between;
-  align-content: space-between;
   text-align: center;
 
 
-  .stripe-start {
-    grid-column: 1;
-    grid-row: 1;
-    align-self: start;
-    height: 10px;
-    width: 100%;
-    background-color: $orange;
+  @media (max-width:875px) {
+    height: 80vh;
   }
 
-  .stripe-end {
-    grid-column: 3;
-    grid-row: 3;
-    align-self: end;
-    height: 10px;
-    width: 100%;
-    background-color: $orange;
+  @media (max-width: 767px) {
+    height: 100vh;
   }
 
   .logo {
-    grid-column: 2;
-    grid-row: 1;
-    padding-top: 20px;
+
+    margin-top: 190px;
     align-self: start;
+    background-color: white;
+    border-radius: 120px 0px 0px 120px;    
+    padding: 50px 50px 50px 50px;
+
+    @media (max-width: 767px){
+      margin-top: 15px;
+    }
+
   }
 
-  .mascot {
-    grid-column: 2;
-    grid-row: 2;
-    align-self: center;
+
+  .mascota{
+    margin-top: 120px;
+
+    @media (max-width: 1177px) {
+      margin-top: 200px;
+    }
+
   }
+
+
+  .mascota img {
+    
+    @media (max-width: 767px){
+      max-height: 30vh;
+      margin-top: -90px;
+    }
+
+ }
+
+  .sub-hero{
+  color: $secondary-color !important;
+  font-weight: 600;
+  margin-bottom: 35px;
+  @media (max-width: 875px){
+    margin-bottom: 15px;
+  }
+  }
+
 
   .meta {
-    grid-column: 2;
-    grid-row: 3;
+
     align-self: end;
+    margin-top: 30px;
+ 
+
+    @media (max-width: 875px) {
+      margin-top: 20px;
+    }
   }
 
   .logo img {
     margin: 0 auto;
     max-width: 100%;
-    max-height: 27vh;
-  }
+    max-height: 17vh;
 
-  .mascot img {
-    max-height: 24vh;
+    @media (max-width: 767px){
+      max-height: 10vh;
+      margin-top: 0px;
+    }
+
   }
 
   .meta p {
     font-family: 'Comfortaa', Roboto, cursive, sans-serif;
-    font-size: 1.8em;
-    color: $white;
-
-    @media (max-width:768px) {
-      font-size: 1.4em;
+    font-size: 2.0em; 
+    color: $orange;
+    @media (max-width:1035px) {
+      font-size: 1.4em;  
     }
   }
 
@@ -92,14 +108,23 @@
   }
 
   .btn-banner1 {
-    background-color: $gray-light;
-    color: $yellow2;
+    background-color: $blue;
+    color: white;
     font-weight: 500;
     letter-spacing: .1em;
+    border-radius: 50px;
+    font-size: 1.8em;
+    padding: 20px 30px 20px 30px;
+
+    @media (max-width:875px) {
+      padding: 10px 20px 10px 20px;
+      font-size: 1.1em;
+      
+    }
 
     &:hover {
-      color: $yellow2;
-      background-color: #e0e0e0;
+      color: $blue;
+      background-color: $yellow;
     }
   }
 

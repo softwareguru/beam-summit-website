@@ -6,10 +6,10 @@ description: "Beam Summit 2023 will be held June 13-15 in New York City."
 summary: "Beam Summit 2023 will be held June 13-15 in New York City."
 # post thumb
 images: 
- - "/images/blog/2023-save-date.jpg"
+ - "/images/blog/2023-save-date.png"
 # author
 author: "Beam Summit Team"
-
+weight: 2
 ---
 
 ### Beam Summit is coming to New York City for 2023.

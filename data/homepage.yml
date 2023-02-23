@@ -2,13 +2,14 @@
 banner:
   enable : true
   title : "Beam Summit 2023"
-  logo : "/images/logo-home.png"
+  logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
-  date_time : "June 13-15, 2023"
-  venue : "New York City, NY <br />"
+  subtitle: "Where professionals in data processing meet"
+  date_time : "June 13-15, 2023, NYC"
+  venue : "July 18 2023, online experience<br />"
   button1:
     enable : true
-    label : "Submit to our CFP"
+    label : "Submit your proposal"
     link : "https://sessionize.com/beam-summit"
 
   button2:
@@ -20,9 +21,14 @@ banner:
 ############################## Event ##############################
 event_info:
   enable : true
-  title : "Beam Summit is coming back in 2023 as a free, in-person event followed by an online-viewing experience."
-  description : "We’ll host sessions to share new use cases from companies using Apache Beam, as well as community driven talks, technical deep dives and in-depth workshops."
-  cta_text: "Join the CFP!"
+  
+  subtitle: "Beam Summit is coming back in 2023 as a free, in-person event followed by an online-viewing experience."
+
+  title : "We’ll host sessions to share new use cases from companies using Apache Beam, as well as community driven talks, technical deep dives and
+
+in-depth workshops."
+  description : ""
+  cta_text: "Submit your proposal"
   cta_link: "https://sessionize.com/beam-summit"
   features: 
     - number : "Learn"
@@ -58,7 +64,7 @@ speakers:
 
 ######################### sponsor ############################
 sponsors:
-  enable :  false
+  enable :  true
   title_outline : "Sponsors"
   title : "Amazing Partners & Sponsors"
   sponsor_group:

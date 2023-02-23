@@ -1,8 +1,27 @@
+.section.footer{
+	background-color: $blue-title; 
+	padding: 25px; 
+	text-align: center;
+	margin-top: -32px;
+}
+
+
+.btn-footer a{
+	background-color: $orange-title; 
+	color: white; 
+	border-radius: 25px;
+
+	&:hover{
+		color: $blue-title !important;
+		background-color: $yellow;
+	}
+}
+
 .footer {
-	padding-top: 2em;
-	padding-bottom: 35px;
-	background-color: #f0f0f0;
-	color: #404040;
+	@media (max-width: 767px) {
+	padding-top: 32px;
+	}
+
 }
 
 .footer-strip {

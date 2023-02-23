@@ -166,9 +166,9 @@ section.coc, section.faq {
   
   .statistics-block {
 	display: grid;
-	width:100%;
+	width: 80%;
 	grid-gap: 32px 16px;
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: repeat(4,1fr);
 	@media (min-width:640px) {
 	  grid-gap: 32px;
 	}
@@ -184,10 +184,10 @@ section.coc, section.faq {
   .statistics-block .numbers:after {
 	content: "";
 	display: block;
-	height:2px;
-	width:64px;
-	background-color: $yellow;
-	margin-top:10px;
+	height: 4px;
+	width: 64px;
+	background-color: $blue;
+	margin-top: 10px;
   }
   
   .statistics-block .label {

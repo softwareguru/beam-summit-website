@@ -4,7 +4,7 @@
   <div class="container">
     <div class="list-content">
       {{ .Content }}
-    </div>
+    </div> 
 
     <h2 class="mb-5 mt-3" style="text-align: center;">Organizer and Program Committee</h2>
     <div class="team-strip">
@@ -30,7 +30,7 @@
 
     <br>
 
-    <h2 class="mb-5 mt-3" style="text-align: center;">Production Team</h2>
+    <!--<h2 class="mb-5 mt-3" style="text-align: center;">Production Team</h2>-->
     <div class="team-strip"> 
       {{ range where .Data.Pages.ByTitle "Params.group" "sg" }}
       <div class="profile-item d-flex">

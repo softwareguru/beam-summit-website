@@ -1,11 +1,19 @@
-<section class="page-header" style="background-image: url('{{ .Params.Bg_image | absURL }}'), url('{{`images/bg/cta-bg.jpg` | absURL }}');">
-    <div class="overly"></div>
+
+<section class="page-header" style="background-image: url('{{ .Params.Bg_image | absURL }}'), url('{{`images/bg/venue-img.jpg` | absURL }}'); background-size: cover;
+background-position: center;
+background-attachment: fixed;
+text-align: center; 
+   ">
+<br><br>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="content text-center">
-            <h1 class="mb-3 text-white text-capitalize letter-spacing">{{ .Title }}</h1>
-            <div class="divider mx-auto mb-4 bg-white"></div>
+            <h1 class="mb-3 text-white text-capitalize letter-spacing" 
+            style=" 
+            background-color:#F78557; 
+            border-radius: 25px">{{ .Title }}</h1>
+            <br>
           </div>
         </div>
       </div>

@@ -1,47 +1,81 @@
-<footer class="section footer">
-	<div class="container">
-		<div class="footer-strip">
-			<div>
-				<h3 class="mb-3">{{ .Site.Title | markdownify }}</h3>
+<!--CSS references "event_info.scss"-->
 
-				<ul class="list-inline footer-socials">
-					{{ range .Site.Params.social }}
-					<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-					{{ end }}
-				</ul>
-			</div>			
-			<div>
-				<h5>About</h5>
-				<ul class="footer_links">
-					{{ range .Site.Params.footer_about }}
-					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			<div>
-				<h5>Previous events</h5>
-				<ul class="footer_links">
-					{{ range .Site.Params.footer_previous }}
-					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			<div>
-				<h5>Event resources</h5>
-				<ul class="footer_links">
-					{{ range .Site.Params.footer_resources }}
-					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-		</div>
-		{{ with .Site.Params.disclaimer }}
-		<div class="disclaimer">
-			{{ . }}
-		</div>	
-        {{ end }}
+<section class="section previous-events">
+  
+	<div class="previous-title">
+	  <h2>PREVIOUS EDITIONS</h2>
 	</div>
+	
+  
+	<div class="row justify-content-around" style="padding: 25px; margin-left: -35px;">
+  
+	  <div class="col-mb-3 btn-footer"> 
+		<a href="https://2022.beamsummit.org/" target="_blank" class="btn btn-banner2 btn-rounded mt-3 ml-4" >Beam Summit 2022</a>
+	  </div>
+  
+	  <div class="col-mb-3 btn-footer">
+		<a href="https://2021.beamsummit.org/" target="_blank" class="btn btn-banner2 btn-rounded mt-3 ml-4">Beam Summit 2021</a>
+	  </div>
+  
+	  <div class="col-mb-3 btn-footer">
+		<a href="https://2020.beamsummit.org/" target="_blank" class="btn btn-banner2 btn-rounded mt-3 ml-4">Beam Digital Summit 2020</a>
+	  </div>
+  
+	  <div class="col-mb-3 btn-footer">
+		<a href="https://na2019.beamsummit.org/" target="_blank" class="btn btn-banner2 btn-rounded mt-3 ml-4" >Beam Summit North America 2019</a>
+	  </div>
+	  <div class="col-mb-3 btn-footer">
+		<a href="https://europe2019.beamsummit.org/" target="_blank" class="btn btn-banner2 btn-rounded mt-3 ml-4">Beam Summit Europe 2019</a>
+	  </div>
+	</div>
+  
+  </section>
+  
+  <!--CSS references "event_info.scss"-->
+<footer class="section footer">
+
+	<div class="row">
+		<div class="col-md-3 ">
+			<h4 style="color: white;">BEAM SUMMIT</h4>
+			<br>
+			<ul class="list-inline footer-socials "  style="margin-left: -2px;">
+				{{ range .Site.Params.social }}
+				<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}" style="color: white;"></i></a></li>
+				{{ end }}
+			</ul>
+		</div>
+		 
+		<div class="col-md-6 footer">
+			<h4 style="color: white;">EVENT RESOURCES</h4>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-mb-3 btn-footer"  style="margin-left: -15px;">
+					{{ range .Site.Params.footer_resources }}
+					<a href="{{ .link | safeURL }}" class="btn btn-banner2 btn-rounded mt-3 ml-4">{{ .name }}</a>
+					{{ end }}
+				  </div>
+				 
+				
+			  </div>
+			
+		</div>
+		
+		<div class="col-md-3 footer">
+			<h4 style="color: white;">ABOUT</h4>
+			<br>
+			<div class="col-mb-3 btn-footer" style="margin-left: -15px;">
+				{{ range .Site.Params.footer_about }}
+				<a href="{{ .link | safeURL }}" class="btn btn-banner2 btn-rounded mt-3 ml-4">{{ .name }}</a>
+				{{ end }}
+			  </div>
+		</div>
+	  </div>
+	  <br><br>
+	  <p style="color: white;">Super Pier NYC – Culture Cargo Chaos – Illustration with Pandiscio for Young Woo Client: Pandiscio Co. Young Woo, USA</p>
 </footer>
+
+
+
 
 
 {{ "<!-- JS Plugins -->" | safeHTML }}

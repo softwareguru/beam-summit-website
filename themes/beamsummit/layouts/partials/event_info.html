@@ -1,28 +1,90 @@
 {{ $data := index .Site.Data }}
 
 {{ with $data.homepage.event_info }}
-<section class="section event-info">
-  <a id="event-info"></a>
-  <div class="container">
-    <div class="content">
-      <div>
+
+<section class="section event-info"> 
+
+  <div class="event-info-title">
+    <h2>Apache Beam is a powerful tool for building data processing pipelines <br> with a unified programming model for batch and streaming
+    </h2>
+  </div>
+
+    <div class="row">
+    
+      <div class="col-md-4 cfp-msj">
+      <div class="cfp-title">
+
+        <h2>{{ .subtitle }}</h2>
         <h2>{{ .title }}</h2>
-        <p>{{ .description }}</p>
-        <a href="{{ .cta_link }}" target="_blank">
-            <span class="cta-label">{{ .cta_text }}</span> <i class="fas fa-arrow-circle-right"></i>
+
+        <a class="cfp-btn" href="{{ .cta_link }}" target="_blank">
+          {{ .cta_text }}
         </a>
 
       </div>
+ 
+    </div>
+    <div class="col-md-2 complement-info">
+      <div class="d-flex flex-column bd-highlight mb-3">
+        
+        <div class="p-2 bd-highlight  ">
+          <strong>
+            <h4>
+              Learn
+            </h4>
+          </strong>
+     
+          <p>
+            How Beam is used by leading organizations.
+          </p>
+        </div>
 
-      <div class="statistics-block">
-        {{ range .features }}
-          <div class="item">
-            <div class="numbers">{{ .number }}</div>
-            <div class="label">{{ .label }}</div>
-          </div>
-        {{ end }}  
+        <div class="p-2 bd-highlight">
+          <strong>
+            <h4>
+              Meet
+            </h4>
+          </strong>
+          <p>key users and contributors from the community.</p>
+        </div>
+        
+        <div class="p-2 bd-highlight">
+          <strong>
+            <h4>
+              3
+            </h4>
+          </strong>
+          <p>Days</p>
+        </div>
+        
+        <div class="p-2 bd-highlight">
+          <strong>
+            <h4>
+              + 30
+            </h4>
+          </strong>
+          <p>talks and workshops.</p>
+        </div>
+
+        <div class="p-2 bd-highlight">
+          <strong>
+            <h4>
+              Audience
+            </h4>
+          </strong>
+          <p>Data Engineers, Tech Managers, Data Scientist, Business Leaders.</p>
+        </div>
       </div>
-    </div>    
+    </div>
+
+
+
+    <div class="col-md-6  cfp-video">
+      <div class="embed-responsive embed-responsive-16by9 shadow">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BoPqEDF4Ko0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
 </section>
+
 {{ end }}

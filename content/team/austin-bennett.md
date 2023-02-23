@@ -5,5 +5,6 @@ image : "/images/team/austin-bennett.jpg"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/austinbennett/"
 github: "https://github.com/brucearctor"
+group: committee
 ---
 
