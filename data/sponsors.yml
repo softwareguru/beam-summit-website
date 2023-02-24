@@ -5,9 +5,10 @@ sponsor_group:
     slug : "platinum"
     sponsor:
       - logo : "/images/logos/google.jpg"
-        link : "#"
+        link : "http://cloud.google.com/"
       - logo : "/images/logos/apache-beam.png"
-        link : "#"
+        link : "https://beam.apache.org/"
+        
 
 # call to action in sponsor
 sponsorship:

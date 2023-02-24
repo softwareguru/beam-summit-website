@@ -130,9 +130,9 @@ link = "https://europe2019.beamsummit.org"
 name = "Beam Summit North America 2019"
 link = "https://na2019.beamsummit.org"
 
-#[[params.footer_resources]]
-#name = "Team"
-#link = "/team"
+[[params.footer_resources]]
+name = "Team"
+link = "/team"
 
 
 [[params.footer_resources]]
@@ -150,6 +150,10 @@ link = "/sponsor"
 # [[params.footer_resources]]
 # name = "Call for papers"
 # link = "https://sessionize.com/beam-digital-summit-2021/"
+
+[[params.footer_resources]]
+name = "2022 Photo Album"
+link = "https://photos.app.goo.gl/UZ6aFfwY65naUvzB9"
 
 [[params.footer_resources]]
 name = "Email us"
