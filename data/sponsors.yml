@@ -4,10 +4,14 @@ sponsor_group:
   - title : ""
     slug : "platinum"
     sponsor:
-      - logo : "/images/logos/google.jpg"
+      - logo : "/images/logos/google-cloud.jpg"
         link : "http://cloud.google.com/"
       - logo : "/images/logos/apache-beam.png"
         link : "https://beam.apache.org/"
+      - logo : "/images/logos/akvelon.jpg"
+        link : "https://akvelon.com/"
+      #- logo : "/images/logos/.png"
+      #  link : ""
         
 
 # call to action in sponsor
