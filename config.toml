@@ -61,8 +61,8 @@ home = "Home"
 
 # Meta data
 description = "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
-image = "/images/card.jpg"
-images = ["/images/card.jpg"]
+image = "/images/card-2023.jpg"
+images = ["/images/card-2023.jpg"]
 twitter_user = "@beamsummit"
 email = "contact@beamsummit.org"
 author = "Software Guru"
