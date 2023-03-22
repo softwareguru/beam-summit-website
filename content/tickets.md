@@ -18,5 +18,3 @@ Things to know:
 <script src="https://js.tito.io/v2/with/ga4,hits" async></script>
 <tito-widget event="beamsummit/2023"></tito-widget>
 
-<a title="Add to Calendar" class="addeventstc" data-id="oW575578" href="https://www.addevent.com/calendar/oW575578" target="_blank" rel="nofollow">Add Beam Summit 2023 to your Calendar</a>
-	<script type="text/javascript" src="https://cdn.addevent.com/libs/stc/1.0.2/stc.min.js" async defer></script>
