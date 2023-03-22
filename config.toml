@@ -33,8 +33,8 @@ speaker = "speakers"
   weight = 1
 
   [[menu.main]]
-  name = "Previous editions"
-  URL = "/previous-editions"
+  name = "Tickets"
+  URL = "/tickets"
   weight = 2
 
   [[menu.main]]
@@ -46,6 +46,11 @@ speaker = "speakers"
   name = "FAQ"
   URL = "/faq"
   weight = 4
+
+  [[menu.main]]
+  name = "Previous editions"
+  URL = "/previous-editions"
+  weight = 5
 
 
 [sitemap]
@@ -81,8 +86,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Submit your proposal"
-link = "https://sessionize.com/beam-summit"
+label = "Tickets"
+link = "/tickets"
 
 
 ############################# social icon ############################

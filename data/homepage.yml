@@ -9,8 +9,8 @@ banner:
   venue : "July 18 2023, online experience<br />"
   button1:
     enable : true
-    label : "Submit your proposal"
-    link : "https://sessionize.com/beam-summit"
+    label : "Get your tickets"
+    link : "/tickets"
 
   button2:
     enable : false
