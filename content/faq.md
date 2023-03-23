@@ -24,6 +24,6 @@ Beam Summit is where professionals in data processing meet, whether you’re a n
 
 **Arrival Information:** Each day that you arrive at Pier 57 you will need to verify your vaccination status by providing visual proof to the Guest Services team in order to enter.
 
-The recommended method for vaccine verification is the [CLEAR Health Pass.](https://enroll.clearme.com/enroll/) **More info about the Clear app** [here](https://docs.google.com/document/d/1yvdYrLzytNX3eU9tcnSsO1dnnP2ufe-_DEETBLhjH3I/edit)
+The recommended method for vaccine verification is the <a href="https://enroll.clearme.com/enroll/" target="_blank">CLEAR Health Pass.</a> **More info about the Clear app** [here](/clear-app)
 
 **More info about safety and security guidelines** [here](https://docs.google.com/presentation/u/0/d/1G_K-VdPk-LYzPbL35L-SkaNJSbsZJY4kdj6svmh6Mow/edit)
