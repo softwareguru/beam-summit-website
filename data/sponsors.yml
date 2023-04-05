@@ -10,6 +10,8 @@ sponsor_group:
         link : "https://beam.apache.org/"
       - logo : "/images/logos/akvelon.jpg"
         link : "https://akvelon.com/"
+      - logo : "/images/logos/Mavencode.png"
+        link : "https://www.mavencode.com/"
       #- logo : "/images/logos/.png"
       #  link : ""
         

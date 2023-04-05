@@ -1,12 +1,10 @@
 ---
-title: "Guide to NYC"
+title: "Discover NYC"
 date: 2023-04-04T14:20:02-06:00
 draft: false
 ---
 
-## Discover NYC
 
-<br>
 <img src="/images/guide-to-nyc/buildings.jpg" class="img-fluid mx-auto d-block">
 <br>
 
@@ -14,7 +12,8 @@ With the sheer abundance of things to see, do and eat throughout the five boroug
 
 <br>
 
-## Transportation
+<h2 class="text-center">Transportation</h2>
+
 <br>
 <img src="/images/guide-to-nyc/taxi.jpg" class="img-fluid mx-auto d-block">
 <br>
@@ -39,9 +38,9 @@ http://www.nycsubwayguide.com
 ## Where to eat nearby
 <br>
 
-<div class="row row-cols-1 row-cols-md-2">
+<div class="row row-cols-1 row-cols-md-2 ">
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/botino.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://www.bottinonyc.com/about.php"><h5 class="card-title">Bottino</h5></a>
@@ -50,7 +49,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/cookshop.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://www.cookshopny.com/"><h5 class="card-title">Cookshop</h5></a>
@@ -59,7 +58,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/jacks.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://jackswifefreda.com/"><h5 class="card-title">Jack's Wife Freda</h5></a>
@@ -68,7 +67,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/murrays.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://www.murraysbagels.com/"><h5 class="card-title">Murray's Bagels</h5></a>
@@ -77,7 +76,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/SHUKETTE.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="http://www.shukettenyc.com/"><h5 class="card-title">Shukette</h5></a>
@@ -95,7 +94,7 @@ http://www.nycsubwayguide.com
 
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/lobby bar.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://hotelchelsea.com/dining-and-bar/lobby-bar"><h5 class="card-title">Lobby Bar - cocktails</h5></a>
@@ -104,7 +103,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/JungleBird.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="http://www.junglebirdnyc.com/"><h5 class="card-title">Jungle Bird</h5></a>
@@ -113,7 +112,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/noxe.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://lanoxenyc.com/"><h5 class="card-title">La Noxe</h5></a>
@@ -122,7 +121,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/sid golds.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://sidgolds.com/"><h5 class="card-title">Sid Gold's Request Room</h5></a>
@@ -131,7 +130,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/discolo.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://www.discolo-nyc.com/"><h5 class="card-title">Discolo</h5></a>
@@ -149,7 +148,7 @@ http://www.nycsubwayguide.com
 
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/bull.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">Walk in Financial District near Wall Street, Bull Statue - <strong>Free</strong></p>
@@ -157,7 +156,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/New_york_times_square-terabass.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">Times Square (Theatre District), Nasdaq, MTV, Hard Rock Restaurant (where New Years Eve Ball Drops every year) - <strong>Free</strong></p>
@@ -165,7 +164,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/moma.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">MoMA (Museum of Modern Art), MET, Whitney and more - <strong> $25 -$30</strong></p>
@@ -173,7 +172,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/Lincoln_Center.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">Lincoln Center - <strong>Starting at $39</strong></p>
@@ -181,7 +180,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/reflective-observation-decks.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <p class="card-text">The Summit at One Vanderbilt - <strong>Starting at $39</strong></p>
@@ -198,7 +197,7 @@ http://www.nycsubwayguide.com
 
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/chelsea piers.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://www.chelseapiers.com/also-at-the-piers/hours/"><h5 class="card-title">Chelsea Piers</h5></a>
@@ -207,7 +206,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/mini golf.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://hudsonriverpark.org/activities/mini-golf/"><h5 class="card-title">Mini Golf at Pier 25</h5></a>
@@ -216,7 +215,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/rocckefeller.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://www.rockefellercenter.com/buy-tickets/#top-of-the-rock-observation-deck"><h5 class="card-title">Rockefeller Center</h5></a>
@@ -225,7 +224,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/madison sq garden.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://www.msg.com/madison-square-garden"><h5 class="card-title">Madison Square Garden</h5></a>
@@ -234,7 +233,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/musicals.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="https://www.nyc.com/broadway_tickets/?gclid=CjwKCAjwq-WgBhBMEiwAzKSH6NsSo8idcUZniMPnZVNy8L38AxdSjPd-bdw06lRC8sqhDOAm79JVrRoCk5sQAvD_BwE"><h5 class="card-title">Musicals</h5></a>
@@ -243,7 +242,7 @@ http://www.nycsubwayguide.com
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card h-100">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/live music.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Live Music</h5>
