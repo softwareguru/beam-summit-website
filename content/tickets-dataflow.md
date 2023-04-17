@@ -2,9 +2,7 @@
 title: Tickets - Exclusive access
 date: '2023-02-20T07:51:25.000+00:00'
 url: tickets/dataflow
-
 ---
-
 
 ### Congratulations! You have received exclusive access to the annual Beam Summit where you will gain a reserved ticket with an option of the workshop add-on. 
 
