@@ -434,3 +434,17 @@ article.swag {
 .fixed-top {
 	z-index: 10;
 }
+
+.venue-img-container {
+	position: relative;
+
+	div {
+		color: white;
+		position: absolute;
+		bottom: 10px;
+		left: 16px;
+		font-style: italic;
+		font-size: 0.9em;
+	}
+}
+

@@ -1,19 +1,14 @@
 .section.footer{
 	background-color: $blue-title; 
 	padding: 25px; 
-	text-align: center;
-	margin-top: -32px;
 }
 
 
-.btn-footer a{
-	background-color: $orange-title; 
+.footer a{
 	color: white; 
-	border-radius: 25px;
 
 	&:hover{
-		color: $blue-title !important;
-		background-color: $yellow;
+		color: $primary-color;
 	}
 }
 
@@ -22,6 +17,14 @@
 	padding-top: 32px;
 	}
 
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer h5 {
+	color: $primary-color;
 }
 
 .footer-strip {
@@ -36,18 +39,9 @@
 }
 
 ul.footer_links {
-	direction: rtl;
 	list-style-type:none;
 	padding:0;
 	font-size: 14px;
-}
-
-.footer a:hover {
-	color: $secondary-color;
-}
-
-.footer h5 {
-	color: #404040;
 }
 
 .footer-socials {
