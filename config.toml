@@ -32,15 +32,15 @@ speaker = "speakers"
   URL = "/about"
   weight = 1
 
-  [[menu.main]]
-  name = "Discover NYC"
-  URL = "/discover-nyc"
-  weight = 2
-
   #[[menu.main]]
-  #name = "Tickets"
-  #URL = "/tickets"
+  #name = "Discover NYC"
+  #URL = "/discover-nyc"
   #weight = 2
+
+  [[menu.main]]
+  name = "Program"
+  URL = "/program"
+  weight = 2
 
   [[menu.main]]
   name = "Venue"
