@@ -52,10 +52,10 @@ speaker = "speakers"
   URL = "/faq"
   weight = 4
 
-  [[menu.main]]
-  name = "Previous editions"
-  URL = "/previous-editions"
-  weight = 5
+  #[[menu.main]]
+  #name = "Previous editions"
+  #URL = "/previous-editions"
+  #weight = 5
 
 
 [sitemap]
