@@ -405,7 +405,7 @@ http://www.nycsubwayguide.com
       <th scope="col">Address</th>
       <th scope="col">Public Transport</th>
       <th scope="col">Score 1/10</th>
-      <th scope="col">Price/Room per night - Low</th>
+      <th scope="col">Price/Room per night (estimated)</th>
     </tr>
   </thead>
   <tbody>
@@ -448,7 +448,7 @@ http://www.nycsubwayguide.com
       <th scope="col">Address</th>
       <th scope="col">Public Transport</th>
       <th scope="col">Score 1/10</th>
-      <th scope="col">Price/Room per night - Low</th>
+      <th scope="col">Price/Room per night (estimated)</th>
     </tr>
   </thead>
   <tbody>
