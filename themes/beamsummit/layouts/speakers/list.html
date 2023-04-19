@@ -7,6 +7,7 @@
     </div>
     <div class="speaker-strip">
       {{ range .Data.Pages.ByTitle }}
+        {{ if in .Params.events .Site.Params.active_event }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box">
@@ -20,6 +21,7 @@
           </div>
         </div>
       </div>
+        {{ end }}
       {{ end }}
     </div>
   </div>
