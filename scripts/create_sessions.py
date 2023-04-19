@@ -14,18 +14,15 @@ def main():
         reader = csv.DictReader(csvfile)
 
         for row in reader:
-            slot = row['slot']
             title = row['title']
             event_slug = "2023"
-            speakers = row['speaker'].split(", ")
+            speakers = row['speakers'].split(", ")
+            topics = row['topics'].split(", ")
+            room = row['room']
             time_start = row['time_start']
             time_end = row['time_end']
-            abstract = row['abstract']
-#            video = row['video']
-#            slides = row['slides']    
+            abstract = row['description']
             
-            print(f"row: {slot}, {title}, {speakers}, {time_start},{time_end}")
-
             dirname = "sessions/"+event_slug
             try:
                 os.mkdir(dirname)
@@ -34,9 +31,8 @@ def main():
             except OSError:
                 print ("Creation of the directory "+dirname+" failed" )
 
-
             slug = slugify(title)
-            filename =  f"sessions/{event_slug}/{slot}-{slug}.md"
+            filename =  f"sessions/{event_slug}/{slug}.md"
 
             with open(filename, "w") as f:
                 f.write("---\n")
@@ -45,10 +41,12 @@ def main():
                 f.write("speakers:\n")
                 for s in speakers:
                     f.write(f" - {s}\n")
+                f.write("topics:\n")
+                for s in topics:
+                    f.write(f" - {s}\n")
+                f.write(f"room: {room}\n")
                 f.write(f"time_start: {time_start}\n")
                 f.write(f"time_end: {time_end}\n")
-#                f.write(f"video: {video}\n")
-#                f.write(f"slides: {slides}\n")
                 f.write("---\n\n")
                 f.write(abstract)
 

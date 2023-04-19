@@ -39,7 +39,7 @@ def main():
                 f.write("---\n")
                 f.write(f"title: \"{title}\"\n")
                 f.write(f"designation: \"{designation}\"\n")
-                f.write(f"images:\n - images/speakers/{slug}.jpg\n")
+                f.write(f"images:\n - /images/speakers/{slug}.jpg\n")
                 f.write(f"twitter: {twitter}\n")
                 f.write(f"linkedin: {linkedin}\n")
                 f.write("events:\n")

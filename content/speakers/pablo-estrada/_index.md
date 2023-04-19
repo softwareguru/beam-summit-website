@@ -1,10 +1,12 @@
 ---
 title: "Pablo Estrada"
-designation: "Software Engineer, Google. PMC member, Apache Beam."
-images: 
+designation: "Apache Beam Committer. Googler."
+images:
  - /images/speakers/pablo-estrada.jpg
-twitter: "https://twitter.com/polecitoem"
-linkedin: "https://www.linkedin.com/in/pabloem1/"
+twitter: 
+linkedin: 
+events:
+ - 2023
 ---
 
-Pablo is a Software Engineer at Google. He lives in Seattle, and is focused on developing Apache Beam. He grew up most his life in Mexico before moving to the US to be a techie. He's happy to chat about all things Beam, streaming, and the lyrics to despacito.
+Pablo is a Software Engineer from Mexico City. He lives in Seattle and works on Google's Cloud Dataflow product and is a committer for Apache Beam. He's worked all across the stack in Python and Java. His favorite activities are traveling, and getting drunk with the locals.
