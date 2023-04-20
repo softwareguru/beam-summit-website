@@ -4,14 +4,14 @@
   <div class="container">
     <div class="lead mb-4">
       {{ .Content }}
-    </div>
+    </div> 
     <div class="speaker-strip">
       {{ range .Data.Pages.ByTitle }}
         {{ if in .Params.events .Site.Params.active_event }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box">
-            <a href="{{.Permalink}}">              
+            <a href="{{.Permalink}}">
               <img src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" class="img-fluid shadow border-img">
             </a>
           </div>
