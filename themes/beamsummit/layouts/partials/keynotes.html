@@ -4,7 +4,7 @@
     <br>
 
   <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper"> 
         <div class="card h-100 swiper-slide border-0">
             <div class="image-content">
                 <span class="overlay"></span>
@@ -98,7 +98,8 @@
         </div>
 
     </div>
-
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
     <!--<div class="swiper-pagination"></div>-->
   </div>
   <br><br><br>
@@ -114,9 +115,9 @@
         el: ".swiper-pagination",
         clickable: true,
       },
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
 
       breakpoints: {

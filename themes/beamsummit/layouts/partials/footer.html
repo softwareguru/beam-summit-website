@@ -12,15 +12,16 @@
 			</div>
 			
 			<div>
-				<h5>About</h5>
+				<h4>About</h4>
 				<ul class="footer_links">
 					<li><a href="https://beam.apache.org/">Apache Beam</a></li>
 					<li><a href="https://beam.apache.org/blog">Apache Beam Blog</a></li>
+					<li><a href="/speakers/archive">Previous Speakers</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h5>Previous editions</h5>
+				<h4>Previous editions</h4>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_previous }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
@@ -29,7 +30,7 @@
 			</div>
 
 			<div>
-				<h5>Event resources</h5>
+				<h4>Event resources</h4>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_resources }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>

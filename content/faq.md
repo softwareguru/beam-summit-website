@@ -26,4 +26,4 @@ Beam Summit is where professionals in data processing meet, whether you’re a n
 
 The recommended method for vaccine verification is the <a href="https://enroll.clearme.com/enroll/" target="_blank">CLEAR Health Pass.</a> **More info about the Clear app** [here](/clear-app)
 
-**More info about safety and security guidelines** [here](https://docs.google.com/presentation/u/0/d/1G_K-VdPk-LYzPbL35L-SkaNJSbsZJY4kdj6svmh6Mow/edit)
+**More info about safety and security guidelines** [here](https://docs.google.com/presentation/d/1G_K-VdPk-LYzPbL35L-SkaNJSbsZJY4kdj6svmh6Mow/edit?usp=sharinghttps://docs.google.com/presentation/d/1G_K-VdPk-LYzPbL35L-SkaNJSbsZJY4kdj6svmh6Mow/edit?usp=sharing)

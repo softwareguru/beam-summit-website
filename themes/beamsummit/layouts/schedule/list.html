@@ -41,7 +41,7 @@
                 {{ range $rooms }}
                     <div class="time-room room-{{.}}">
                         {{ range sort (where (where (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day ) ".Params.timeslot" $time_id) ".Params.room" . ) ".Params.timeorder" }}
-                        <div class="session-item order-{{ .Params.timeorder }} track-{{ .Params.track }}" data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-track="{{ .Params.track }}">
+                        <div class="session-item order-{{ .Params.timeorder }} track" data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-track="{{ .Params.track }}">
                             <div class="session-time">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}.</div>
                             <div class="session-title"><a href="{{.Permalink}}" target="_blank">{{ .Title }}</a></div>
                             <div class="session-speakers">{{ with .Params.speakers }}by {{ delimit . ", " " & " }}{{ end }}</div>

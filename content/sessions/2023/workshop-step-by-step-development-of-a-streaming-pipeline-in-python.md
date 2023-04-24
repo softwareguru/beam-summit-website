@@ -17,7 +17,7 @@ live_url:
 slides: 
 video: 
 track: concurrent
-tags:
+tags:   
 ---
 
 In this workshop we will develop a streaming pipeline, showing how to get data in JSON format and parse it (using Beam schemas), how to aggregate it and write it in batches to Avro files.

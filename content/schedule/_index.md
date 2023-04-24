@@ -2,7 +2,7 @@
 title: "Program"
 date: 2023-04-21T15:49:31-05:00
 layout: list-onsite
-
+url: program
 days: 
   - id: a
     title_short: Tuesday
@@ -13,7 +13,7 @@ days:
         time_start: 2023-06-13 9:00:00 -0600 CDT
         type: keynote
       - id: b
-        time_start: 2023-06-13 11:30:00 -0600 CDT
+        time_start: 2023-06-13 10:30:00 -0600 CDT
         type: break
         name: Break
       - id: c
@@ -110,3 +110,4 @@ days:
 summary: 
 ---
 
+<h4 class="mb-4">Welcome to the session program for Beam Summit 2023. The list of sessions is stable, but times and room assignments may be updated.</h4>

@@ -118,9 +118,13 @@
 	font-size: 0.8em;
 }
 
+.session-speakers{
+	color: $blue;
+}
+
 .session-room {
 	font-size: 0.8em;
-	color: #606060;
+	color: $orange;
 }
 
 .local-room {
@@ -132,11 +136,11 @@
 }
 
 .session-title a {
-	color: white;	
+	color: black;	
 }
 
 .session-title a:hover {
-	color: $secondary-color;	
+	color: $orange;	
 }
 
 .session-info p {
@@ -144,12 +148,18 @@
 }
 
 .track-all {
-	background-color: #d0d0d0;
+	background-color: white;
 }
-.track-keynote {
+
+.track{
+	background-color: white;
+	border: $blue-title 3px solid;
+}
+
+//.track-keynote {
 //	background-color: #b0b0f0;
-background-color: #80c090;
-}
+//background-color: #80c090;
+//}
 
 .track-case-study {
 	background-color: #80c9fa;

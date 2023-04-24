@@ -23,11 +23,11 @@
     color: white;
 }
 
-.footer h5 {
-	color: $primary-color;
+.footer h4 {
+	color: $orange;
 }
 
-.footer-strip {
+.footer-strip { 
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 30px;

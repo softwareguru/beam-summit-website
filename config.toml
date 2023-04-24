@@ -38,6 +38,12 @@ speaker = "speakers"
   #weight = 2
 
   [[menu.main]]
+  name = "Speakers"
+  URL = "/speakers"
+  weight = 2
+
+
+  [[menu.main]]
   name = "Program"
   URL = "/program"
   weight = 2
@@ -120,6 +126,7 @@ link = "https://beam.apache.org/"
 [[params.footer_about]]
 name = "Apache Beam Blog"
 link = "https://beam.apache.org/blog"
+
 
 [[params.footer_previous]]
 name = "Beam Digital Summit 2022"
