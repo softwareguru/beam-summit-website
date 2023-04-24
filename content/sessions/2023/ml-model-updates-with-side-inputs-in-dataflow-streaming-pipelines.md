@@ -9,6 +9,15 @@ topics:
 room: Horizon
 time_start: 2023-06-14 16:15:00
 time_end: 2023-06-14 17:05:00
+day: b
+timeslot: 11
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 In this session, we would go over a live demo of how user can update their Machine learning model in a Dataflow streaming pipeline without updating/stopping their beam pipeline as mentioned at https://cloud.google.com/dataflow/docs/guides/updating-a-pipeline using Apache Beam side inputs.

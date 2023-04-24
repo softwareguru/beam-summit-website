@@ -8,6 +8,15 @@ topics:
 room: Palisades
 time_start: 2023-06-14 14:00:00
 time_end: 2023-06-14 14:25:00
+day: b
+timeslot: 7
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 During HBase to Cloud BigTable Migrations, HBase snapshots will be imported to Cloud Bigtable. Each Snapshot contains several HBase regions and certain HBase regions can be quite large due to skewed data. 

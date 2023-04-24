@@ -9,6 +9,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-14 14:30:00
 time_end: 2023-06-14 14:55:00
+day: b
+timeslot: 8
+timeorder: 1
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 We created a Python SDK-based Dataflow streaming pipeline for a major French retail company. When notified, the pipeline efficiently reads large CSV files from Google Cloud Storage and selects, inserts, upserts, and deletes rows from a Cloud SQL Postgres database with a controlled number of connections.

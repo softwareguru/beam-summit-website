@@ -5,13 +5,13 @@
         {{ .Content }}
     </div>
 
-    <h3 class="mt-4">Filter by track</h3> 
+    <!--<h3 class="mt-4">Filter by track</h3> 
     <div class="color-code-list">
         <div id="track-all" class="btn color-code-item track-all" onclick="showTrack(this,'all')">All</div>
         {{ range .Params.tracks }}
         <div id="track-{{ .slug }}" class="btn color-code-item track-{{ .slug }}" onclick="showTrack(this,'{{.slug}}')">{{ .label }}</div>
         {{ end }}
-    </div>
+    </div>-->
 
     <h3 class="mt-4">Filter by day</h3> 
     <div id="day-buttons" class="mb-4 text-center">

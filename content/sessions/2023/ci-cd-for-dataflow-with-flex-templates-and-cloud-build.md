@@ -8,6 +8,15 @@ topics:
 room: Palisades
 time_start: 2023-06-14 15:00:00
 time_end: 2023-06-14 15:25:00
+day: b
+timeslot: 8
+timeorder: 2
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 The goal of this talk is showing a full example with a CI CD pipeline for Dataflow jobs.

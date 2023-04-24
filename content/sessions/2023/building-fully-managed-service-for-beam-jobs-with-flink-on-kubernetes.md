@@ -11,6 +11,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-14 11:00:00
 time_end: 2023-06-14 11:25:00
+day: b
+timeslot: 4
+timeorder: 1
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 At Palo Alto Networks, We are using Beam on Dataflow for 10K+ jobs. Beam has good abstraction run on multiple runner. For multi Cloud Provider use case We developed a fully managed stream processing platform on Flink running on K8s to power thousands of stream processing pipelines in production without changing our business code. This platform is the backbone for other infra systems like Real Time Analytics and Log processing to handle 10 Million rps.

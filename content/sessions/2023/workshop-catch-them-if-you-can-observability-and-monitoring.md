@@ -8,6 +8,15 @@ topics:
 room: Flow
 time_start: 2023-06-15 09:00:00
 time_end: 2023-06-15 10:30:00
+day: c
+timeslot: 1
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 (Description and Title still WIP)

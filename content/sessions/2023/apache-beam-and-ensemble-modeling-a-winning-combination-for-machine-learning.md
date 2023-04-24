@@ -8,6 +8,15 @@ topics:
 room: Horizon
 time_start: 2023-06-14 10:30:00
 time_end: 2023-06-14 10:55:00
+day: b
+timeslot: 3
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Are you looking for ways to streamline your machine learning pipeline and make it more efficient? Look no further than this talk on Apache Beam and ensemble modeling. In this session, we'll show how to leverage the power of Apache Beam's flexible data processing framework and the RunInference API to simplify your workflow for complex machine learning tasks.

@@ -10,6 +10,15 @@ topics:
 room: Horizon
 time_start: 2023-06-13 12:00:00
 time_end: 2023-06-13 12:50:00
+day: a
+timeslot: e
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Managed Beam is LinkedIn's initiative to offer a fully managed stream processing platform via Apache Beam. This platform enables LinkedIn engineers to quickly build and easily run sophisticated streaming applications, without requiring costly infrastructure expertise. At LinkedIn, our stream infrastructure, which combines Apache Beam and Apache Samza, processes over 4 trillion events daily across more than 10,000 pipelines, powering critical services and platforms, including machine learning, notifications, tracking, and anti-abuse.

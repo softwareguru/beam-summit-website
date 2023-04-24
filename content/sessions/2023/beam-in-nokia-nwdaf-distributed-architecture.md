@@ -8,6 +8,15 @@ topics:
 room: Horizon
 time_start: 2023-06-13 14:00:00
 time_end: 2023-06-13 14:25:00
+day: a
+timeslot: g
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 This session will present the analytics requirements of 5G stand-alone core, focusing on the NWDAF use cases.

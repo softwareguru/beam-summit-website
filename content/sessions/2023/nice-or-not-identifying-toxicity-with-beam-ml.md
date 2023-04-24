@@ -8,6 +8,15 @@ topics:
 room: Flow
 time_start: 2023-06-15 10:45:00
 time_end: 2023-06-15 12:15:00
+day: c
+timeslot: 2
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 In this workshop, we will be creating our pipeline using Beam to identify toxic behavior and action on it.

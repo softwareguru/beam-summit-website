@@ -9,6 +9,15 @@ topics:
 room: Ebb
 time_start: 2023-06-15 10:45:00
 time_end: 2023-06-15 12:15:00
+day: c
+timeslot: 2
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Beam does not have a dedicated complex event processing module, but this can be overcome using state & timers.

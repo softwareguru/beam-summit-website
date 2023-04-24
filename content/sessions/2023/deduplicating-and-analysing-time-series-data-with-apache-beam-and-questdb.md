@@ -8,6 +8,15 @@ topics:
 room: Palisades
 time_start: 2023-06-14 12:00:00
 time_end: 2023-06-14 12:25:00
+day: b
+timeslot: 5
+timeorder: 1
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Time series data pipelines tend to prioritise speed and freshness over completeness and integrity. In such scenarios, it is very common to ingest duplicate data, which may be fine for many analytical use cases, but is very inconvenient for others.

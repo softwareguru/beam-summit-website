@@ -9,6 +9,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-14 12:00:00
 time_end: 2023-06-14 12:25:00
+day: b
+timeslot: 5
+timeorder: 1
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 At MavenCode, we consult, develop and train on how to implement large-scale production-grade Machine learning workflows all on Kubernetes, and Apache Beam has gradually become a defacto standard for us in handling large-scale ML workloads

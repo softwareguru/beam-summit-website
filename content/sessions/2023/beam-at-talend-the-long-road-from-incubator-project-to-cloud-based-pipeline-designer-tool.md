@@ -8,6 +8,15 @@ topics:
 room: Horizon
 time_start: 2023-06-13 11:00:00
 time_end: 2023-06-13 11:25:00
+day: a
+timeslot: c
+timeorder: 1
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Talend is one of the first companies that started to use and contribute to Beam, literally from the first days when Beam was accepted as a new project in the ASF incubator. 

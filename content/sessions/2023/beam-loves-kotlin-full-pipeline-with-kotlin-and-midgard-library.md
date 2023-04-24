@@ -8,6 +8,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-13 16:45:00
 time_end: 2023-06-13 17:35:00
+day: a
+timeslot: m
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 The goal of this talk is showing a real-world and full Beam pipeline with Kotlin and Midgard library.

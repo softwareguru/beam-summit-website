@@ -9,6 +9,15 @@ topics:
 room: Horizon
 time_start: 2023-06-14 15:30:00
 time_end: 2023-06-14 15:55:00
+day: b
+timeslot: 9
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Trustpilot is is a community-driven platform that hosts reviews of businesses from across the world. It helps people by providing authentic reviews of products and services. 

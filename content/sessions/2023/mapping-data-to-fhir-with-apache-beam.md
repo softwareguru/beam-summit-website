@@ -11,6 +11,15 @@ topics:
 room: Horizon
 time_start: 2023-06-13 14:30:00
 time_end: 2023-06-13 14:55:00
+day: a
+timeslot: h
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 A common use case across various teams at League is to to map regular data into its FHIR format (Fast Healthcare Interoperability Resources). This is not straightforward as it requires an understanding of the FHIR format, the original data source, as well as the mapping pipeline in Dataflow itself, owned by the data platform team. As a result, this causes a bottleneck on a single team, leading to inefficient and repeated work. 

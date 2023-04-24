@@ -8,6 +8,15 @@ topics:
 room: Horizon
 time_start: 2023-06-13 16:15:00
 time_end: 2023-06-13 16:40:00
+day: a
+timeslot: l
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 SpringQL (https://github.com/SpringQL/SpringQL) is a single-node stream processor designed specifically for IoT devices. It is written in Rust, which allows it to keep applications small and fast, avoiding the need for large language runtimes or garbage collections. In this talk, we propose making SpringQL as a Beam engine, and discuss the work that we are doing to change SpringQL's API from incomplete streaming SQL to the Beam Model.

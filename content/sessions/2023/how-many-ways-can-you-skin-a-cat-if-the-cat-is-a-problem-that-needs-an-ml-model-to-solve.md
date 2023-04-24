@@ -8,6 +8,15 @@ topics:
 room: Horizon
 time_start: 2023-06-14 12:00:00
 time_end: 2023-06-14 12:50:00
+day: b
+timeslot: 5
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 I'll show how Beam's RunInference transforms lets you use the ML framework of your choice to solve your inference problems. Pytorch, ONNX, TensorFlow, and TensorRT models will be demonstrated.

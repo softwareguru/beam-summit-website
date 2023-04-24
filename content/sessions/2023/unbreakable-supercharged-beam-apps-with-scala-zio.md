@@ -11,6 +11,15 @@ topics:
 room: Horizon
 time_start: 2023-06-13 16:45:00
 time_end: 2023-06-13 17:10:00
+day: a
+timeslot: m
+timeorder: 1
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Google Cloud Dataflow with Beam is at the core of how Credit Karma recommends the best offers for its 120M+ users worldwide. Using Scala with ZIO, we will demonstrate with code examples how to easily solve common production challenges including: 

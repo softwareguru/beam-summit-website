@@ -8,6 +8,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-13 12:00:00
 time_end: 2023-06-13 12:50:00
+day: a
+timeslot: e
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 This beginner-friendly talk will cover everything I wish I had known when I started writing batch and streaming Beam jobs that use Avro-Schema-encoded data and Beam-Schema-aware PCollections.

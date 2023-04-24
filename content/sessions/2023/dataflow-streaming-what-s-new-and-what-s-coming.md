@@ -9,6 +9,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-14 15:00:00
 time_end: 2023-06-14 15:25:00
+day: b
+timeslot: 8
+timeorder: 2
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 During this talk we will show what we have been working on for the last year and what we are doing to make Dataflow better. This includes improvements to autoscaling, load balancing, autosharding, and Pub/Sub integration.

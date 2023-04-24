@@ -8,6 +8,15 @@ topics:
 room: Horizon
 time_start: 2023-06-13 17:15:00
 time_end: 2023-06-13 18:00:00
+day: a
+timeslot: m
+timeorder: 2
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Let's get the community in one room and discuss the future of Beam. What do you think what's needed to make Beam a success? This forum will allow you to make a case for what you believe will be crucial. Submit your proposal for an item to discuss: https://forms.gle/2dQMowmbbTyW3SWC7.

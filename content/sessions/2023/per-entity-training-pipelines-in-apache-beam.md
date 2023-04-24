@@ -8,6 +8,15 @@ topics:
 room: Horizon
 time_start: 2023-06-14 11:00:00
 time_end: 2023-06-14 11:50:00
+day: b
+timeslot: 4
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 When building a machine learning application, engineers often make a trade-off between training a single model or one model per entity. Imagine you're building a chatbot for an online retailer that sells to customers around the world that speak many different languages. You could opt for a single multilingual model or you could train a model for English, Spanish, French, etc.. Another example could be quality inspection using different kinds of sensors. You could build a model that takes all sensory data or you could build a model that predicts defects using the data of a single sensor. This concept is called per entity training and has a few advantages:

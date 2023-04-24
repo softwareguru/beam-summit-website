@@ -8,6 +8,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-13 16:15:00
 time_end: 2023-06-13 16:40:00
+day: a
+timeslot: l
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 The OpenTelemetry Collector is a remarkable piece of software. It has a lot of parallels with a Beam pipeline, but it's focused on processing and converting telemetry data. Due to its focus, it's not designed to be run in batch and has limited functionality for parallelism.

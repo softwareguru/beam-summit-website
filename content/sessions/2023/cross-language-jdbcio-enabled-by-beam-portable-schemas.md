@@ -10,6 +10,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-13 15:00:00
 time_end: 2023-06-13 15:25:00
+day: a
+timeslot: i
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 The cross-language framework of Apache Beam enables the utilization of Beam transforms across SDKs. This provides an efficient way to process data with the native Java database connectivity (JDBC) interface using the increasingly popular Beam Python SDK. Since Beam v2.42.0, Beam Python SDK's JdbcIO and the underlying Beam portable schemas have received significant improvement in both feature and performance. This talk shares the experience of the development and use cases enabled by these improvements.

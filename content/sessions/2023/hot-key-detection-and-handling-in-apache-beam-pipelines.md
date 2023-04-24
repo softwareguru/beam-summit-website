@@ -11,6 +11,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-14 15:30:00
 time_end: 2023-06-14 15:55:00
+day: b
+timeslot: 9
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 - Overview of hot keys and their impact on Beam pipelines

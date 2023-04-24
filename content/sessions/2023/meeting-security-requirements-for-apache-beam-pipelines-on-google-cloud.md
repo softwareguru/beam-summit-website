@@ -8,6 +8,15 @@ topics:
 room: Palisades
 time_start: 2023-06-13 15:00:00
 time_end: 2023-06-13 15:25:00
+day: a
+timeslot: i
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 When running Apache Beam pipelines in an enterprise environment, it is important to be able to meet a variety of security requirements. These requirements may include:

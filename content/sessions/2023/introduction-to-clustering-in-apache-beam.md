@@ -8,6 +8,15 @@ topics:
 room: Horizon
 time_start: 2023-06-13 15:30:00
 time_end: 2023-06-13 15:55:00
+day: a
+timeslot: j
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 A common way to train a machine learning model to classify data is to show the model a lot of examples together with a label. In the real world, you often don't have labeled data because labeling is a labor intensive and costly job or simply because it's really hard for humans to label the data. When working with unlabeled data, clustering/cluster analysis is a commonly used technique to group similar data together. It is used to solve a variety of problems in many different fields ranging from bioinformatics to detect cancer cells all the way up the financial world where it is used to detect fraudulent transactions in a banking system.

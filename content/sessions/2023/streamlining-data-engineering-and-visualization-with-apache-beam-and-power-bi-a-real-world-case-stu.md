@@ -8,6 +8,15 @@ topics:
 room: Upper Bay
 time_start: 2023-06-14 16:45:00
 time_end: 2023-06-14 17:10:00
+day: b
+timeslot: 11
+timeorder: 2
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Data engineering and visualization are crucial components of modern data-driven decision-making. However, managing and integrating disparate data sources, processing large volumes of data, and automating the entire data pipeline can be challenging. This session will explore how Apache Beam, a powerful open-source data processing framework, can be used in conjunction with Power BI to create a seamless, automated data pipeline for real-time visualization and analysis.

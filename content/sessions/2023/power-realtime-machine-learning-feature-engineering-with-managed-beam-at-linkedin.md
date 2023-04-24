@@ -10,6 +10,15 @@ topics:
 room: Horizon
 time_start: 2023-06-14 14:30:00
 time_end: 2023-06-14 15:20:00
+day: b
+timeslot: 8
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 ML models are applied in all the key products like Job Recommendation, Search, Feed, and Ads in LinkedIn, powered by thousands of features about entities like companies, job postings, and LinkedIn members from the Economic Graph. Preparing and managing features has been one of the most time-consuming parts of operating ML applications at scale. There is a growing demand for fresh "real-time" feature data, which is expected to have significant business impact by boosting ML models' relevancy performance. 

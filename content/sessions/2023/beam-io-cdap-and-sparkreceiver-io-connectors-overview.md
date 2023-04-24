@@ -9,6 +9,15 @@ topics:
 room: Palisades
 time_start: 2023-06-13 12:00:00
 time_end: 2023-06-13 12:50:00
+day: a
+timeslot: e
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Overview of a Beam IO development process and practical insights gained from experience developing CDAP IO and SparkReceiverIO.

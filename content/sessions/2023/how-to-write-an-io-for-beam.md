@@ -8,6 +8,15 @@ topics:
 room: Palisades
 time_start: 2023-06-13 11:00:00
 time_end: 2023-06-13 11:50:00
+day: a
+timeslot: c
+timeorder: 0
+language: 
+live_url: 
+slides: 
+video: 
+track: concurrent
+tags:
 ---
 
 Writing an IO in Beam is hard. Distributed data reading and writing are inherently challenging, and its easy to make mistakes. This session is a walk through on the key design hurdles, and how to use Beam features to write a high quality IO.
