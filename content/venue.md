@@ -43,7 +43,17 @@ http://www.nycsubwayguide.com
 ## Where to eat nearby
 <br>
 
-<div class="row row-cols-1 row-cols-md-2 ">
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
+      <img src="/images/guide-to-nyc/chelsea-market.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a href="https://www.chelseamarket.com/"><h5 class="card-title">Chelsea Market</h5></a>
+        <p class="card-text">A few steps from Pier 57, you’ll find this amazing market where you'll be able to choose between a range of cuisines. 
+</p>
+      </div>
+    </div>
+  </div>
   <div class="col mb-4">
     <div class="card h-100 border-0 shadow p-3 mb-6 border-card">
       <img src="/images/guide-to-nyc/botino.jpg" class="card-img-top" alt="...">
