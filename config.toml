@@ -105,7 +105,7 @@ link = "/tickets"
 ############################# social icon ############################
 [[params.social]]
 icon = "tf-ion-social-twitter"
-link = "https://twitter.com/beamsummit"
+link = "https://twitter.com/ApacheBeam"
 
 [[params.social]]
 icon = "tf-ion-social-linkedin"

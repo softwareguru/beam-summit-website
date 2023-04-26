@@ -6,7 +6,7 @@
 			<div><h3 class="mb-3">{{.Site.Title}}</h3>
 				<ul class="list-inline footer-socials "  style="margin-left: -2px;">
 					{{ range .Site.Params.social }}
-					<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}" style="color: white;"></i></a></li>
+					<li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}" style="color: white;"></i></a></li>
 					{{ end }}
 				</ul>
 			</div>
@@ -14,8 +14,8 @@
 			<div>
 				<h4>About</h4>
 				<ul class="footer_links">
-					<li><a href="https://beam.apache.org/">Apache Beam</a></li>
-					<li><a href="https://beam.apache.org/blog">Apache Beam Blog</a></li>
+					<li><a href="https://beam.apache.org/" target="_blank">Apache Beam</a></li>
+					<li><a href="https://beam.apache.org/blog" target="_blank">Apache Beam Blog</a></li>
 					<li><a href="/speakers/archive">Previous Speakers</a></li>
 				</ul>
 			</div>
@@ -24,7 +24,7 @@
 				<h4>Previous editions</h4>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_previous }}
-					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+					<li><a target="_blank" href="{{ .link | safeURL }}">{{ .name }}</a></li>
 					{{ end }}
 				</ul>
 			</div>
@@ -33,7 +33,7 @@
 				<h4>Event resources</h4>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_resources }}
-					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+					<li><a href="{{ .link | safeURL }}" target="_blank">{{ .name }}</a></li>
 					{{ end }}
 				</ul>
 			</div>

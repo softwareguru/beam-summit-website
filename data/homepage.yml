@@ -28,8 +28,8 @@ event_info:
 
 in-depth workshops."
   description : ""
-  cta_text: "Submit your proposal"
-  cta_link: "https://sessionize.com/beam-summit"
+  cta_text: "Get your ticket now!"
+  cta_link: "/tickets"
   features: 
     - number : "Learn"
       label : "How Beam is used by leading organizations"
