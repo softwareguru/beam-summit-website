@@ -1,8 +1,11 @@
 ---
-title: "Beam Templates: Efficiency of Engineers and/or Compute?"
-slug: beam-templates-efficiency-of-engineers-and-or-compute
+title: "From Dataflow Templates to Beam: Chartboost’s Journey"
+slug: from-dataflow-templates-to-beam-chartboost-journey
+aliases: 
+ - beam-templates-efficiency-of-engineers-and-or-compute
 speakers:
  - Austin Bennett
+ - Ferran Fernandez
 topics:
  - Templates
 room: Palisades
@@ -19,4 +22,4 @@ track: concurrent
 tags:
 ---
 
-Chartboost has been using Beam templates to keep our Data Engineers developing pipelines efficiently. In this talk, we will share some of our experiences, and some of our recent learnings - especially around performance benchmarks, which were done to help us quantify the [ potential ] tradeoffs between developer and computational efficiency. We will share the concrete numbers and methods, so you can make your own decision.
+Chartboost has been using forms of Beam and Dataflow for years. We got started with dataflow templates. In this talk, we will share our perceived pros/cons as well as how and why we evolved into writing actual Beam. We share some of what we’ve been able to accomplish, and lessons learned throughout our journey.
