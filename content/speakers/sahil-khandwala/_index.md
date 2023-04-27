@@ -2,7 +2,7 @@
 title: "Sahil Khandwala"
 designation: "Software Engineer - Data"
 images:
- - /images/speakers/beam-mascot.png
+ - /images/speakers/sahil-khandwala.jpg
 twitter: 
 linkedin: https://www.linkedin.com/in/sahil-khandwala
 events:
