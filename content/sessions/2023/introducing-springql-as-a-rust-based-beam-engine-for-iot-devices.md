@@ -1,6 +1,8 @@
 ---
-title: "Introducing SpringQL as a Rust-based Beam Engine for IoT Devices"
-slug: introducing-springql-as-a-rust-based-beam-engine-for-iot-devices
+title: "Developing (experimental) Rust SDKs and a Beam engine for IoT devices"
+slug: developing-experimental-rust-sdks-beam-engine-iot
+aliases: 
+ - introducing-springql-as-a-rust-based-beam-engine-for-iot-devices
 speakers:
  - Sho Nakatani
 topics:
