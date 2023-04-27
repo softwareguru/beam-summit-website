@@ -14,8 +14,8 @@ sponsor_group:
         link : "https://www.mavencode.com/"
       - logo : "/images/logos/doit.png"
         link : "https://www.doit.com/"
-      - logo : "/images/logos/.png"
-        link : ""
+      #- logo : "/images/logos/.png"
+      #  link : ""
         
 
 # call to action in sponsor
