@@ -7,6 +7,7 @@ twitter:
 linkedin: 
 events:
  - 2023
+draft: true
 ---
 
 Damon began his Beam learning journey at a small Google Cloud partner.
