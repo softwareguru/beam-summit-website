@@ -3,6 +3,7 @@ title: "Beam in Nokia NWDAF Distributed Architecture"
 slug: beam-in-nokia-nwdaf-distributed-architecture
 speakers:
  - Ifat Afek
+ - Sigalit Aliazov
 topics:
  - Use case
 room: Horizon
