@@ -1,6 +1,6 @@
 ---
 title: "Sho Nakatani"
-designation: "Principal Researcher at Toyota Motor Corporation"
+designation: "Principal Researcher, Toyota Motor Corporation"
 images:
  - /images/speakers/sho-nakatani.jpg
 twitter: https://twitter.com/laysakura

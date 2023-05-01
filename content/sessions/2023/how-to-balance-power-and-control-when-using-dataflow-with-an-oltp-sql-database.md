@@ -3,6 +3,7 @@ title: "How to balance power and control when using Dataflow with an OLTP SQL Da
 slug: how-to-balance-power-and-control-when-using-dataflow-with-an-oltp-sql-database
 speakers:
  - Florian Bastin
+ - Leo Babonnaud
 topics:
  - Use case
  - Runners
