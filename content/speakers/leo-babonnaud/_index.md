@@ -2,7 +2,7 @@
 title: Leo Babonnaud
 designation: Data Engineer at Octo Technology
 images:
- - /images/speakers/beam-mascot.png
+ - /images/speakers/leo-babonnaud.jpg
 twitter: 
 linkedin: https://www.linkedin.com/in/l%C3%A9o-babonnaud-a08432122/
 events:
