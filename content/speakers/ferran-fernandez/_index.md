@@ -5,7 +5,8 @@ images :
 designation: Data Engineering Manager @ Chartboost
 twitter: 
 linkedin: https://www.linkedin.com/in/ferran-fern%C3%A1ndez-garrido-5b087183/
-
+events:
+ - 2023
 ---
 
 Ferran Fernandez is a Data Engineering Manager at Chartboost, based in Barcelona. He has a background in Telecommunications Engineering and a Master's degree in Big Data. Ferran has been working with data for almost 8 years and has developed expertise in various areas of data engineering.
