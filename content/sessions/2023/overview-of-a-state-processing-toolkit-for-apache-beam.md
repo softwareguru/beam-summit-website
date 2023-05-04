@@ -12,7 +12,7 @@ room: Palisades
 time_start: 2023-06-14 11:00:00
 time_end: 2023-06-14 11:25:00
 day: b
-timeslot: 4
+timeslot: d
 timeorder: 1
 language: 
 live_url: 

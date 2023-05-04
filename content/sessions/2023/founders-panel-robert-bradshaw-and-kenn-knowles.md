@@ -10,7 +10,7 @@ room: Horizon
 time_start: 2023-06-14 09:30:00
 time_end: 2023-06-14 10:00:00
 day: b
-timeslot: 1
+timeslot: a
 timeorder: 2
 language: 
 live_url: 

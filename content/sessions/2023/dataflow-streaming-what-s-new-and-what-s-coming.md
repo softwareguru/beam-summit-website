@@ -8,10 +8,10 @@ topics:
  - Runners
 room: Upper Bay
 time_start: 2023-06-14 15:00:00
-time_end: 2023-06-14 15:25:00
+time_end: 2023-06-14 15:50:00
 day: b
-timeslot: 8
-timeorder: 2
+timeslot: i
+timeorder: 0
 language: 
 live_url: 
 slides: 

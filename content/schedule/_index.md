@@ -56,47 +56,47 @@ days:
     title_full: Wednesday, June 14, 2023
     rooms: ["Horizon", "Upper Bay", "Palisades"]
     timeslots: 
-      - id: 1
+      - id: a
         time_start: 2023-06-14 9:00:00 -0600 CDT
         type: keynote
-      - id: 2
+      - id: b
         time_start: 2023-06-14 10:00:00 -0600 CDT
         type: break
         name: Break
-      - id: 3
+      - id: c
         time_start: 2023-06-14 10:30:00 -0600 CDT
         type: concurrent
-      - id: 4
+      - id: d
         time_start: 2023-06-14 11:00:00 -0600 CDT
         type: concurrent
-      - id: 5
+      - id: e
         time_start: 2023-06-14 12:00:00 -0600 CDT
         type: concurrent
-      - id: 6
+      - id: f
         time_start: 2023-06-14 13:00:00 -0600 CDT
         type: break
         name: Lunch
-      - id: 7
+      - id: g
         time_start: 2023-06-14 14:00:00 -0600 CDT
         type: concurrent
-      - id: 8
+      - id: h
         time_start: 2023-06-14 14:30:00 -0600 CDT
         type: concurrent
-      - id: 9
-        time_start: 2023-06-14 15:30:00 -0600 CDT
+      - id: i
+        time_start: 2023-06-14 15:00:00 -0600 CDT
         type: concurrent
-      - id: 10
+      - id: j
         time_start: 2023-06-14 16:00:00 -0600 CDT
         type: break
         name: Afternoon break
-      - id: 11
-        time_start: 2023-06-14 16:45:00 -0600 CDT
+      - id: k
+        time_start: 2023-06-14 16:15:00 -0600 CDT
         type: concurrent
 
   - id: c
     title_short: Thursday
     title_full: Thursday, June 15, 2023
-    rooms: ["Ebb", "Upper Bay", "Flow"]
+    rooms: ["Palisades", "Upper Bay", "Flow"]
     timeslots: 
       - id: 1
         time_start: 2023-06-15 9:00:00 -0600 CDT

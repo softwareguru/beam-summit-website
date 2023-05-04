@@ -5,11 +5,11 @@ speakers:
  - Shubham Krishna
 topics:
  - ML
-room: Upper Bay
-time_start: 2023-06-14 12:30:00
-time_end: 2023-06-14 12:55:00
+room: Horizon
+time_start: 2023-06-14 16:45:00
+time_end: 2023-06-14 17:10:00
 day: b
-timeslot: 5
+timeslot: k
 timeorder: 2
 language: 
 live_url: 
@@ -17,6 +17,7 @@ slides:
 video: 
 track: concurrent
 tags:
+
 ---
 
 Loading and preprocessing data for running machine learning models at scale can be a challenging task that requires seamlessly integrating the data processing framework with the inference engine. In this talk, we'll explore how NVIDIA TensorRT can be integrated with Apache Beam SDK to simplify the process of integrating complex inference scenarios within a data processing pipeline. We'll demonstrate how TensorRT and Apache Beam RunInference API can accelerate machine learning predictions, specifically for large models such as transformers.

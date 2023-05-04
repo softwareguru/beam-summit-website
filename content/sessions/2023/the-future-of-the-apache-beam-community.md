@@ -9,9 +9,9 @@ topics:
  - 
 room: Palisades
 time_start: 2023-06-14 16:15:00
-time_end: 2023-06-14 17:05:00
+time_end: 2023-06-14 17:10:00
 day: b
-timeslot: 11
+timeslot: k
 timeorder: 0
 language: 
 live_url: 

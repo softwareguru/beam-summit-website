@@ -8,10 +8,10 @@ speakers:
 topics:
  - Use case
 room: Horizon
-time_start: 2023-06-13 16:15:00
-time_end: 2023-06-13 16:40:00
+time_start: 2023-06-13 15:30:00
+time_end: 2023-06-13 15:55:00
 day: a
-timeslot: l
+timeslot: j
 timeorder: 0
 language: 
 live_url: 

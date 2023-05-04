@@ -9,10 +9,10 @@ topics:
  - Use case
 room: Horizon
 time_start: 2023-06-14 14:30:00
-time_end: 2023-06-14 15:20:00
+time_end: 2023-06-14 14:55:00
 day: b
-timeslot: 8
-timeorder: 0
+timeslot: h
+timeorder: 1
 language: 
 live_url: 
 slides: 

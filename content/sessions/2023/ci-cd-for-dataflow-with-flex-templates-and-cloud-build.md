@@ -7,10 +7,10 @@ topics:
  - 
 room: Palisades
 time_start: 2023-06-14 15:00:00
-time_end: 2023-06-14 15:25:00
+time_end: 2023-06-14 15:50:00
 day: b
-timeslot: 8
-timeorder: 2
+timeslot: i
+timeorder: 0
 language: 
 live_url: 
 slides: 
@@ -21,9 +21,7 @@ tags:
 
 The goal of this talk is showing a full example with a CI CD pipeline for Dataflow jobs.
  
- 
- 
- The jobs will be based on Flex Template that is a way to standardize the deployment of Dataflow jobs and we are going to show a full example with Java and Python SDKs.
+The jobs will be based on Flex Template that is a way to standardize the deployment of Dataflow jobs and we are going to show a full example with Java and Python SDKs.
  
  
  

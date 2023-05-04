@@ -7,11 +7,11 @@ topics:
  - ML
  - Runners
 room: Horizon
-time_start: 2023-06-14 15:30:00
-time_end: 2023-06-14 15:55:00
+time_start: 2023-06-14 15:00:00
+time_end: 2023-06-14 15:25:00
 day: b
-timeslot: 9
-timeorder: 0
+timeslot: i
+timeorder: 1
 language: 
 live_url: 
 slides: 
@@ -20,9 +20,7 @@ track: concurrent
 tags:
 ---
 
-Trustpilot is is a community-driven platform that hosts reviews of businesses from across the world. It helps people by providing authentic reviews of products and services. 
- 
- 
+Trustpilot is is a community-driven platform that hosts reviews of businesses from across the world. It helps people by providing authentic reviews of products and services.
  
  As a reviews platform, Trustpilot handles large volumes of data, particularly text from many languages, making it an ideal use case for machine learning. We use Apache Beam on GCP Dataflow for batch and streaming machine learning workloads. 
  

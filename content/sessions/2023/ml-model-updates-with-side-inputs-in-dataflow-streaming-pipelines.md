@@ -7,11 +7,11 @@ topics:
  - ML
  - Runners
 room: Horizon
-time_start: 2023-06-14 16:15:00
-time_end: 2023-06-14 17:05:00
+time_start: 2023-06-14 15:30:00
+time_end: 2023-06-14 15:55:00
 day: b
-timeslot: 11
-timeorder: 0
+timeslot: i
+timeorder: 2
 language: 
 live_url: 
 slides: 

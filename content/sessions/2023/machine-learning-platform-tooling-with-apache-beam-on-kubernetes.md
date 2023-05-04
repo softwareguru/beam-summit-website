@@ -10,7 +10,7 @@ room: Upper Bay
 time_start: 2023-06-14 12:00:00
 time_end: 2023-06-14 12:25:00
 day: b
-timeslot: 5
+timeslot: e
 timeorder: 1
 language: 
 live_url: 

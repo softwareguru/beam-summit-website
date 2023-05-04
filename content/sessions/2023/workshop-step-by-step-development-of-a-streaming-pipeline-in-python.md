@@ -6,7 +6,7 @@ speakers:
  - Anthony Lazzaro
 topics:
  - Python
-room: Ebb
+room: Palisades
 time_start: 2023-06-15 09:00:00
 time_end: 2023-06-15 10:30:00
 day: c

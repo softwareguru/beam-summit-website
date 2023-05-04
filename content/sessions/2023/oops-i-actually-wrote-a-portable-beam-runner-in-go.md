@@ -7,10 +7,10 @@ topics:
  - Runners
  - Go
 room: Upper Bay
-time_start: 2023-06-13 15:30:00
-time_end: 2023-06-13 15:55:00
+time_start: 2023-06-13 15:00:00
+time_end: 2023-06-13 15:25:00
 day: a
-timeslot: j
+timeslot: i
 timeorder: 0
 language: 
 live_url: 

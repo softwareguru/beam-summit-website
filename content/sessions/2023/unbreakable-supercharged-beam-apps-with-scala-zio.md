@@ -9,11 +9,11 @@ topics:
  - Scala
  - Operations
 room: Horizon
-time_start: 2023-06-13 16:45:00
-time_end: 2023-06-13 17:10:00
+time_start: 2023-06-13 16:15:00
+time_end: 2023-06-13 16:40:00
 day: a
-timeslot: m
-timeorder: 1
+timeslot: l
+timeorder: 0
 language: 
 live_url: 
 slides: 

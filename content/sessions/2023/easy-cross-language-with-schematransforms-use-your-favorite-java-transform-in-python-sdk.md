@@ -6,10 +6,10 @@ speakers:
 topics:
  - Cross language
 room: Upper Bay
-time_start: 2023-06-13 14:30:00
-time_end: 2023-06-13 14:55:00
+time_start: 2023-06-13 14:00:00
+time_end: 2023-06-13 14:25:00
 day: a
-timeslot: h
+timeslot: g
 timeorder: 0
 language: 
 live_url: 

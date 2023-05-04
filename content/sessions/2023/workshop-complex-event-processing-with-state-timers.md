@@ -6,7 +6,7 @@ speakers:
  - Miren Esnaola
 topics:
  - 
-room: Ebb
+room: Palisades
 time_start: 2023-06-15 10:45:00
 time_end: 2023-06-15 12:15:00
 day: c

@@ -10,7 +10,7 @@ time_start: 2023-06-13 17:15:00
 time_end: 2023-06-13 18:00:00
 day: a
 timeslot: m
-timeorder: 2
+timeorder: 0
 language: 
 live_url: 
 slides: 
