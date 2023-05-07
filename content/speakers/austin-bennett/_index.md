@@ -1,6 +1,6 @@
 ---
 title: "Austin Bennett"
-designation: "Bamboozoology"
+designation: "Chartboost"
 images:
  - /images/speakers/austin-bennett.jpg
 twitter: 
