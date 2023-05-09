@@ -1,6 +1,6 @@
 ---
 title: "Javier Ramirez"
-designation: "Developer Advocate at QuestDB and all around happy person. Fan of open source, developer communities, and data/ML technologies. He/him"
+designation: "Developer Advocate at QuestDB"
 images:
  - /images/speakers/javier-ramirez.jpg
 twitter: https://twitter.com/supercoco9
