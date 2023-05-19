@@ -2,7 +2,7 @@
 title: "Workshop: Application Modernization with Kafka and Beam"
 slug: workshop-application-modernization-with-kafka-and-beam
 speakers:
- - Jerry Gilyeat
+ - Sami Ahmed
 topics:
  - 
 room: Upper Bay
