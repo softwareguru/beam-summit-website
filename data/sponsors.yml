@@ -14,6 +14,10 @@ sponsor_group:
         link : "https://www.mavencode.com/"
       - logo : "/images/logos/doit.png"
         link : "https://www.doit.com/"
+      - logo : "/images/logos/Packt.png"
+        link : "https://www.packtpub.com/"
+      - logo : "/images/logos/AlCamp.png"
+        link : "https://www.aicamp.ai/"
       #- logo : "/images/logos/.png"
       #  link : ""
         

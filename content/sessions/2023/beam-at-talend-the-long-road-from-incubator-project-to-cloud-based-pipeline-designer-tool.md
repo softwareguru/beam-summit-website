@@ -1,5 +1,5 @@
 ---
-title: "Beam at Talend - the long road from incubator project to cloud-based Pipeline Designer tool."
+title: "Beam at Talend - the long road from incubator project to cloud-based Pipeline Designer tool"
 slug: beam-at-talend-the-long-road-from-incubator-project-to-cloud-based-pipeline-designer-tool
 speakers:
  - Alexey Romanenko
