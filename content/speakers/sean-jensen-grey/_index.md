@@ -2,7 +2,7 @@
 title: "Sean Jensen-Grey"
 designation: Strategic Cloud Engineer at Google
 images:
- - /images/speakers/sean-jensen-grey.png
+ - /images/speakers/sean-jensen-grey.jpg
 twitter: 
 linkedin: 
 events:
