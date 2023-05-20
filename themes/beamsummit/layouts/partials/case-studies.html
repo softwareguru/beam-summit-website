@@ -1,0 +1,75 @@
+
+{{ define "main" }}
+
+
+<div class="blog-content">
+    {{ $pages := .Pages.ByPublishDate.Reverse }}
+
+    <div class="case-study-list case-study-list--additional">
+        <br><br>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper"> 
+            {{ range where $pages "Params.category" "ne" "study" }}
+            {{ if .Params.hasLink }}
+            <div class="card h-100 swiper-slide border-0 ">
+                <div class="">
+                    <span class="overlay"></span>
+                    <a href="{{ .Params.hasLink }}" target="_blank" class="case-study-used-by-card--responsive case-study-used-by-card case-study-used-by-card--with-link">
+                    <div class="case-study-used-by-card-img">
+                       <img src="{{.Params.icon}}" alt="" class="card-img">
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+            {{ end }}
+        {{ end }}
+        </div>
+        <!--<div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>-->
+      </div>
+      <br><br><br>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          autoplay: true,
+          autoplaySpeed: 10000,
+          pauseOnHover: false,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+    
+          breakpoints: {
+            
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            1055: {
+              slidesPerView: 4,
+              spaceBetween: 45,
+            },
+            1480: {
+              slidesPerView: 6,
+              spaceBetween: 45,
+            },
+          },
+        });
+      </script>
+    
+{{ end }}

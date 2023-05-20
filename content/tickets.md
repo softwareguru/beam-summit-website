@@ -13,6 +13,7 @@ Things to know:
 * Beam Summit 2023 is a free event.
 * Keynotes, track talks and networking activities take place on June 13-14.
 * If you have a ticket, we will contact you one month before the event to request your confirmation of attendance. If you do not confirm in 3 business days your ticket may be reassigned. Please make sure to provide a valid email address and phone number so we can reach out to you to confirm your participation.
+* We'll be having catered lunches, beverages on hand, and PM snack breaks.
 
 <script src="https://js.tito.io/v2/with/ga4,hits" async></script>
 <tito-widget event="beamsummit/2023"></tito-widget>
