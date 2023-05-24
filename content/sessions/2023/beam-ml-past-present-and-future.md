@@ -7,11 +7,11 @@ speakers:
 topics:
  - ML
 room: Horizon
-time_start: 2023-06-14 09:00:00
-time_end: 2023-06-14 09:30:00
-day: b
+time_start: 2023-06-13 09:45:00
+time_end: 2023-06-13 10:30:00
+day: a
 timeslot: a
-timeorder: 1
+timeorder: 3
 language: 
 live_url: 
 slides: 
