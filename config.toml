@@ -85,7 +85,7 @@ author = "Software Guru"
 
 start_date = "2023-06-13T10:00-05:00"
 end_date = "2023-06-15T17:00-05:00"
-active_event = "2023"
+active_event = 2023
 
 google_tag = "G-171YNDJL3X"
 
