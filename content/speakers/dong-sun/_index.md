@@ -1,6 +1,6 @@
 ---
 title: "Dong Sun"
-designation: "google cloud, strategic cloud engineer"
+designation: Strategic Cloud Engineer at Google Cloud
 images:
  - /images/speakers/dong-sun.jpg
 twitter: 
@@ -9,4 +9,4 @@ events:
  - 2023
 ---
 
-A GIS engineer and a cloud data engineer
+Senior technical account manager/engineer with 13+ years of broad & extensive work experience, domain expertise & skills in GIS, LBS/LBA, Mobile technology, Software Application development & partner and developer program support.
