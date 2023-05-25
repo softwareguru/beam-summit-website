@@ -20,6 +20,7 @@ slides:
 video: 
 track: concurrent
 tags:
+draft: true
 ---
 
 Internal states managed by a stateful Beam pipeline are often a black box to pipeline developers. There are various use cases in which the ability to maneuver states would be helpful. At a high level, there are two alternatives one can maneuver the states. One may want to expose the states to some external storage or one may want to kickstart a pipeline with the data from external data sources. In this talk, we would share why, at Intuit, we believe the ability to inspect states and the ability to kickstart a pipeline with some initial states from an external source would be useful. We would share the challenges that we faced and how we address the problems in our State Processing toolkit.

@@ -6,7 +6,7 @@ images:
 twitter: 
 linkedin: 
 events:
- - 2023
+ - 2023online
 ---
 
 Prema is a Software engineer at Intuit Data Engineering team and she loves to solve great problems.
