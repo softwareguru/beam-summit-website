@@ -24,3 +24,7 @@ Beam Summit is where professionals in data processing meet, whether you’re a n
 ## Will food be served during the event? 
 
 Yes! We'll be having catered lunches, beverages on hand, and PM snack breaks.
+
+## How to access Airmeet App?
+
+Download it here: [Android App](https://play.google.com/store/apps/details?id=com.airmeet.airmeet&hl=en_US&gl=US&pli=1) & [Apple App](https://apps.apple.com/us/app/airmeet/id1531781129)
