@@ -13,3 +13,5 @@ Sexual language and imagery will not be tolerated in any talk or activity relate
 If a participant engages in harassing behaviour, the organizers may take any action they deem appropriate, including warning the offender or expulsion from the event. 
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the event team immediately at contact@beamsummit.org
+
+Beam Summit is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Sexual language and imagery will also not be tolerated in any event venue. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers. Our anti-harassment policy can be found at https://www.apache.org/foundation/policies/conduct

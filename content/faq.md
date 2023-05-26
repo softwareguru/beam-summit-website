@@ -14,7 +14,7 @@ Beam Summit 2023 is free to attend, both in person and online.
 
 ## Is there a code of conduct?
 
-Yes. You can review it [here.](https://beamsummit.org/coc/)
+Beam Summit is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Sexual language and imagery will also not be tolerated in any event venue. Participants violating these rules may be sanctioned or expelled without a refund, at the discretion of the event organizers. Our anti-harassment policy can be found at https://www.apache.org/foundation/policies/conduct
 
 ## Who’s the audience?
 
@@ -23,4 +23,4 @@ Beam Summit is where professionals in data processing meet, whether you’re a n
 
 ## Will food be served during the event? 
 
-Yes! We'll be having catered lunches, beverages on hand, and PM snack breaks."
+Yes! We'll be having catered lunches, beverages on hand, and PM snack breaks.
