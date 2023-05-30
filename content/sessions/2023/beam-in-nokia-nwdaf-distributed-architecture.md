@@ -18,6 +18,7 @@ slides:
 video: 
 track: concurrent
 tags:
+draft: true
 ---
 
 This session will present the analytics requirements of 5G stand-alone core, focusing on the NWDAF use cases.

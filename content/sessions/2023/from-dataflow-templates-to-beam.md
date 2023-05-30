@@ -8,7 +8,7 @@ speakers:
  - Ferran Fernandez
 topics:
  - Templates
-room: Palisades
+room: Horizon
 time_start: 2023-06-13 14:00:00
 time_end: 2023-06-13 14:25:00
 day: a
