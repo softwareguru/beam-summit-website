@@ -92,6 +92,9 @@ days:
       - id: k
         time_start: 2023-06-14 16:15:00 -0600 CDT
         type: concurrent
+      - id: l
+        time_start: 2023-06-14 17:30:00 -0600 CDT
+        type: concurrent
 
   - id: c
     title_short: Thursday
