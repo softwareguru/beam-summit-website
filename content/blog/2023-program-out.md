@@ -9,7 +9,7 @@ images:
  - "/images/blog/2023-program.jpg"
 # author
 author: "Beam Summit Team"
-weight: 1
+weight: 2
 ---
 
 ### Check out the full program for Beam Summit 2023

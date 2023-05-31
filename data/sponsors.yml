@@ -6,8 +6,8 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/google-cloud.jpg"
         link : "http://cloud.google.com/"
-      - logo : "/images/logos/apache-beam.png"
-        link : "https://beam.apache.org/"
+      - logo : "/images/logos/AlCamp.png"
+        link : "https://www.aicamp.ai/"
       - logo : "/images/logos/akvelon.jpg"
         link : "https://akvelon.com/"
       - logo : "/images/logos/Mavencode.png"
@@ -16,8 +16,10 @@ sponsor_group:
         link : "https://www.doit.com/"
       - logo : "/images/logos/Packt.png"
         link : "https://www.packtpub.com/"
-      - logo : "/images/logos/AlCamp.png"
-        link : "https://www.aicamp.ai/"
+      - logo : "/images/logos/apache-beam.png"
+        link : "https://beam.apache.org/"
+      #- logo : "/images/logos/Aiven.png"
+      #  link : "https://aiven.io/"
       #- logo : "/images/logos/.png"
       #  link : ""
         
