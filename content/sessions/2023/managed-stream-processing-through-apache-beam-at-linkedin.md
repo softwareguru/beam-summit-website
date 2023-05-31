@@ -4,6 +4,7 @@ slug: managed-stream-processing-through-apache-beam-at-linkedin
 speakers:
  - Bingfeng Xia
  - Prateek Maheshwari
+ - Xinyu Liu
 topics:
  - Runners
  - Use case
