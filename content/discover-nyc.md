@@ -1,7 +1,7 @@
 ---
 title: "Discover NYC"
 date: 2023-04-04T14:20:02-06:00
-draft: false
+draft: true
 ---
 
 
