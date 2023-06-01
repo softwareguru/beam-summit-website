@@ -1,20 +1,27 @@
 ---
-title: "Save the date for Beam Summit 2023"
-date: 2023-01-16T10:00:00
+title: "Generative AI Meetup"
+slug: generative-ai-meetup
+date: 2023-04-16T10:00:00
 draft: false
-description: "Beam Summit 2023 will be held June 13-15 in New York City."
-summary: "Beam Summit 2023 will be held June 13-15 in New York City."
+description: "Generative AI is revolutionizing the developer, content creator landscape. Come to discuss and learn the generative AI as we dive into the world of LLMs, explore the capabilities of ChatGPT, and discover the power of text-to-image technologies. Immerse yourself in captivating discussions, demos, and practical applications led by industry experts."
+summary: "Generative AI is revolutionizing the developer, content creator landscape. Come to discuss and learn the generative AI as we dive into the world of LLMs, explore the capabilities of ChatGPT, and discover the power of text-to-image technologies. Immerse yourself in captivating discussions, demos, and practical applications led by industry experts. 
+Join us https://www.aicamp.ai/event/eventdetails/W2023061414 "
 # post thumb
 images: 
- - "/images/blog/2023-save-date.png"
+ - "/images/blog/AICamp-meetup.png"
 # author
 author: "Beam Summit Team"
-weight: 2
+weight: 1
 ---
 
-### Beam Summit is coming to New York City for 2023.
-Mark your calendars and save the date, because the 2023 Beam Summit will be held this June 13-15, 2023 in New York City! We can't wait for you all to attend and be apart of another special event.
 
-Add to your calendar -> ([https://lnkd.in/eqGt573q](https://lnkd.in/eqGt573q))
 
-Stay tuned for more information.
+
+
+Generative AI is revolutionizing the developer, content creator landscape. Come to discuss and learn the generative AI as we dive into the world of LLMs, explore the capabilities of ChatGPT, and discover the power of text-to-image technologies. Immerse yourself in captivating discussions, demos, and practical applications led by industry experts. 
+Join us https://www.aicamp.ai/event/eventdetails/W2023061414 
+
+AICamp, enables every developer to learn and practice AI/ML/Data technology from anywhere at any time virtually or in person (40+ cities worldwide). https://www.aicamp.ai
+
+
+<img src="/images/blog/AICamp-meetup.png" class="img-fluid mx-auto d-block" >
