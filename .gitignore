@@ -10,3 +10,6 @@ oldlayouts/
 .hugo_build.lock
 .venv
 
+
+# Local Netlify folder
+.netlify
