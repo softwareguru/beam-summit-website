@@ -18,8 +18,8 @@ sponsor_group:
         link : "https://www.packtpub.com/"
       - logo : "/images/logos/apache-beam.png"
         link : "https://beam.apache.org/"
-      #- logo : "/images/logos/Aiven.png"
-      #  link : "https://aiven.io/"
+      - logo : "/images/logos/techqueria.png"
+        link : "https://techqueria.org/"
       #- logo : "/images/logos/.png"
       #  link : ""
         
