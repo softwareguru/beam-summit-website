@@ -5,7 +5,7 @@ speakers:
  - Devon Peticolas
 topics:
  - Architecture
-room: Upper Bay
+room: Horizon
 time_start: 2023-06-13 12:00:00
 time_end: 2023-06-13 12:50:00
 day: a
