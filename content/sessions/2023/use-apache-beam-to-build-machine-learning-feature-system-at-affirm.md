@@ -1,5 +1,5 @@
 ---
-title: "Use Apache Beam to build Machine Learning Feature System at affirm"
+title: "Use Apache Beam to build Machine Learning Feature System at Affirm"
 slug: use-apache-beam-to-build-machine-learning-feature-system-at-affirm
 speakers:
  - Hao Xu
