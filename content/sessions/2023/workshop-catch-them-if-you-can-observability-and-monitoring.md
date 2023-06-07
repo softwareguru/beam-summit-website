@@ -19,22 +19,11 @@ track: concurrent
 tags:
 ---
 
-(Description and Title still WIP)
- 
- 
- 
- A workshop with a live streaming Dataflow job, that has specific bugs and issues that we will address using Dataflow.
- 
- 
- 
- We'll begin by showing all the new (and existing) and revamped features that have been introduced in Dataflow. 
- 
- 
- 
- The streaming job will be plagued with issues - even if the pipeline isn't failing, doesn't mean it's running well! 
- 
- We'll use the features in Dataflow to capture some of these issues and correct them. 
- 
- 
- 
- We'll also use Beam to capture some custom metrics and show where you can find them.
+A workshop with a live streaming Dataflow job, that has specific bugs and issues that we will address using Dataflow.
+
+We'll begin by showing all the new (and existing) and revamped features that have been introduced in Dataflow.
+
+The streaming job will be plagued with issues - even if the pipeline isn't failing, doesn't mean it's running well!
+We'll use the features in Dataflow to capture some of these issues and correct them.
+
+We'll also use Beam to capture some custom metrics and show where you can find them.

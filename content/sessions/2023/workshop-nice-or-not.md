@@ -20,15 +20,9 @@ tags:
 ---
 
 In this workshop, we will be creating our pipeline using Beam to identify toxic behavior and action on it.
- 
- 
- 
- Gaming should be fun but too often, toxic behavior brings bad attitude and behavior that needs to be addressed. 
- 
- 
- 
- We'll be reading in data and using a model to infer if the text is toxic or not in real time using Beam's RunInference module. 
- 
- 
- 
- You'll be able to implement an ML pipeline using the skills you learn from this workshop.
+
+Gaming should be fun but too often, toxic behavior brings bad attitude and behavior that needs to be addressed.
+
+We'll be reading in data and using a model to infer if the text is toxic or not in real time using Beam's RunInference module.
+
+You'll be able to implement an ML pipeline using the skills you learn from this workshop.
