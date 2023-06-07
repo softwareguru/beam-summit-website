@@ -1,5 +1,5 @@
 ---
-title: "Nice or not, identifying toxicity with Beam ML"
+title: "Workshop: Nice or not, identifying toxicity with Beam ML"
 slug: nice-or-not-identifying-toxicity-with-beam-ml
 speakers:
  - Wei Hsia
