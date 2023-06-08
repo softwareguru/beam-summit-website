@@ -4,6 +4,7 @@ slug: founders-panel-robert-bradshaw-and-kenn-knowles
 speakers:
  - Robert Bradshaw
  - Kenneth Knowles
+ - Reuven Lax
 topics:
  - 
 room: Horizon
@@ -20,4 +21,4 @@ track: keynote
 tags:
 ---
 
-Kenn Knowles and Robert Bradshaw talk and look back at their early experiences building streaming and batch systems, and where Beam has gone so far.
+Kenn Knowles, Robert Bradshaw, and Reuven Lax talk and look back at their early experiences building streaming and batch systems, and where Beam has gone so far.
