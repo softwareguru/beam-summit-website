@@ -1,10 +1,11 @@
 ---
-title: "Founders' Panel - Robert Bradshaw and Kenn Knowles"
+title: "Founders' Panel"
 slug: founders-panel-robert-bradshaw-and-kenn-knowles
 speakers:
  - Robert Bradshaw
  - Kenneth Knowles
  - Reuven Lax
+ - Federico Patota
 topics:
  - 
 room: Horizon
