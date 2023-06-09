@@ -1,6 +1,6 @@
 ---
 title: "Beam Lightning Talks"
-slug: the-future-of-the-apache-beam-community
+slug: beam-lightning-talks
 speakers:
  - Pablo Estrada
 topics:
