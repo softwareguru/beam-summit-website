@@ -21,4 +21,4 @@ tags:
 
 ---
 
-In this session, we will explore how Affirm use Apache Beam to build a unified transformation engine within a machine learning feature store. We will demonstrate how to leverage Apache Beam to enable machine learning in various business cases, such as fraud detection, underwriting, and growth. By doing so, we'll establish an efficient framework that can improve the development velocity of machine learning engineers."
+In this session, we will explore how Affirm use Apache Beam to build a unified transformation engine within a machine learning feature store. We will demonstrate how to leverage Apache Beam to enable machine learning in various business cases, such as fraud detection, underwriting, and growth. By doing so, we'll establish an efficient framework that can improve the development velocity of machine learning engineers.
