@@ -25,6 +25,13 @@ Beam Summit is where professionals in data processing meet, whether you’re a n
 
 Yes! We'll be having catered lunches, beverages on hand, and PM snack breaks.
 
-## How to access Airmeet App?
+## How to access the in-person event app?
 
-Download it here: [Android App](https://play.google.com/store/apps/details?id=com.airmeet.airmeet&hl=en_US&gl=US&pli=1) & [Apple App](https://apps.apple.com/us/app/airmeet/id1531781129)
+We are using Airmeet as a companion app to enhance your event experience, like:
+
+* Access to the event program.
+* Interact with sponsors, speakers, and fellow attendees.
+* Receive important announcements.
+* Access session slides.
+
+Once you register for the event, you will receive an email from Airmeet with the subject: “Welcome to Beam Summit on Airmeet”. Access the event by clicking on the “Enter event” button.
