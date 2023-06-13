@@ -31,15 +31,15 @@
                     <div class="time-room room-{{.}}">
                         {{ range sort (where (where (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day ) ".Params.timeslot" $time_id) ".Params.room" . ) ".Params.timeorder" }}
                         <div class="my-2">
-                            <p>{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}.</p>
+                            <p class="my-1" style="color: #ff6600">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}.</p>
                             <h3>{{ .Title }}</h3>
                             <table>
                                 {{ range .Params.speakers }}                                
                                     {{ $speaker_url := print "/speakers/" . | urlize }}
                                       {{ with $.Site.GetPage $speaker_url }}
                                         <tr>
-                                            <td style="padding-right: 1em">{{ with .Params.images}}
-                                                <img width="200" src="{{ index . 0 }}" alt="">
+                                            <td style="padding-right: 1em" width="180">{{ with .Params.images}}
+                                                <img class="img-fluid" src="{{ index . 0 }}" alt="">
                                                 {{ end }}
                                             </td>
                                             <td>

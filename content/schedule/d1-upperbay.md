@@ -1,13 +1,13 @@
 ---
 title: "Program"
 date: 2023-04-21T15:49:31-05:00
-url: program/d1-palisades
+url: program/d1-upperbay
 layout: list-room
 days: 
   - id: a
     title_short: Tuesday
     title_full: Tuesday, June 13, 2023
-    rooms: ["Palisades"]
+    rooms: ["Upper Bay"]
     timeslots: 
       - id: a
         time_start: 2023-06-13 9:00:00 -0600 CDT
@@ -49,4 +49,4 @@ days:
 
 ---
 
-## Day 1 - Palisades
+## Day 1 - Upper Bay
