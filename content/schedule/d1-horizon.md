@@ -1,31 +1,24 @@
 ---
 title: "Program"
 date: 2023-04-21T15:49:31-05:00
-url: program
+url: program/d1-horizon
+layout: list-room
 days: 
   - id: a
     title_short: Tuesday
     title_full: Tuesday, June 13, 2023
-    rooms: ["Horizon", "Upper Bay", "Palisades"]
+    rooms: ["Horizon"]
     timeslots: 
       - id: a
         time_start: 2023-06-13 9:00:00 -0600 CDT
         type: keynote
-      - id: b
-        time_start: 2023-06-13 10:30:00 -0600 CDT
-        type: break
-        name: Break
       - id: c
         time_start: 2023-06-13 11:00:00 -0600 CDT
-        type: concurrent
+        type: keynote
 
       - id: e
         time_start: 2023-06-13 12:00:00 -0600 CDT
-        type: concurrent
-      - id: f
-        time_start: 2023-06-13 13:00:00 -0600 CDT
-        type: break
-        name: Lunch Break
+        type: keynote
       - id: g
         time_start: 2023-06-13 14:00:00 -0600 CDT
         type: concurrent
@@ -53,7 +46,7 @@ days:
   - id: b
     title_short: Wednesday
     title_full: Wednesday, June 14, 2023
-    rooms: ["Horizon", "Upper Bay", "Palisades"]
+    rooms: ["Horizon"]
     timeslots: 
       - id: a
         time_start: 2023-06-14 9:00:00 -0600 CDT
