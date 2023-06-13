@@ -1,18 +1,13 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
 
 <div class="container">
     <div class="content mt-4">
       {{ .Content }}
     </div>
-
-    <!--<h3 class="mt-4">Filter by track</h3> 
-    <div class="color-code-list">
-        <div id="track-all" class="btn color-code-item track-all" onclick="showTrack(this,'all')">All</div>
-        {{ range .Params.tracks }}
-        <div id="track-{{ .slug }}" class="btn color-code-item track-{{ .slug }}" onclick="showTrack(this,'{{.slug}}')">{{ .label }}</div>
-        {{ end }}
-    </div>-->
-
 
     {{ range .Params.days }}
       {{ $curr_day :=  .id }}
@@ -44,7 +39,7 @@
                                       {{ with $.Site.GetPage $speaker_url }}
                                         <tr>
                                             <td style="padding-right: 1em">{{ with .Params.images}}
-                                                <img style="width: 200px" src="{{ index . 0 }}" alt="">
+                                                <img width="200" src="{{ index . 0 }}" alt="">
                                                 {{ end }}
                                             </td>
                                             <td>
@@ -69,58 +64,5 @@
     {{ end }}
 
 </div>
-<script>
-
-function showTrack(obj,track) {
-
-    if (track == "all") {
-        document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'block' });        
-    }
-    else {
-        document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'none' });        
-        document.getElementsByClassName("session-item track-"+track).forEach(block => { block.style.display = 'block' });        
-    }
-}
-
-function showDay(obj, id) {
-
-    document.getElementsByClassName("dayblock").forEach(block => { block.style.display = 'none' });
-    document.getElementById("dayblock-"+id).style.display = 'block';
-
-}
-</script>
-
-<script>
-    function checkWatch(item) {
-      let curDate = new Date();
-      let oneMoreHour = new Date(curDate.getTime() + 60*60000);
-      let dateStart = new Date(Date.parse(item.dataset.timestart));
-      let dateEnd = new Date(Date.parse(item.dataset.timeend));
-
-      if (!item.dataset.slot) {
-        return;
-      }
-
-      if (item.dataset.track == "workshop") {
-        return;
-      }
-      console.log("Session: "+item.dataset.slot+". Start: "+dateStart);
-  
-      // Check if it finish time is not past and if start time is within one hour of now.
-      if (curDate < dateEnd && oneMoreHour > dateStart) {
-        // Remove d-none class so that the button shows up.
-        console.log("Show this one");
-        document.getElementById('live-'+item.dataset.slot).classList.remove("d-none");
-      }
-  
-    }
-
-document.querySelectorAll('.session-item').forEach(function(item) {
-    checkWatch(item)
-    });
-  
-</script>
-
-  
-
-{{ end }}
+</body>
+</html>
