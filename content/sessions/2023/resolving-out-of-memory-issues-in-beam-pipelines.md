@@ -20,4 +20,4 @@ track: concurrent
 tags:
 ---
 
-Out of memory issues is a very common problem that pipelines often run into. This talk covers best practices to write memory efficient Beam pipelines and pitfalls to avoid. We will also touch upon Dataflow capabilities that can help avoid such issues.
+Out of memory issues is a very common problem that pipelines often run into. This talk covers best practices to write memory efficient Beam pipelines and pitfalls to avoid. We will also touch upon Dataflow capabilities that can help avoid such issues
