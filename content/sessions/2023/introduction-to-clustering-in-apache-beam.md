@@ -5,12 +5,12 @@ speakers:
  - Jasper Van den Bossche
 topics:
  - 
-room: Horizon
-time_start: 2023-06-13 15:00:00
-time_end: 2023-06-13 15:25:00
+room: A
+time_start: 2023-07-18 16:00:00
+time_end: 2023-07-18 16:25:00
 day: a
-timeslot: i
-timeorder: 0
+timeslot: a
+timeorder: 3
 language: 
 live_url: 
 slides: 

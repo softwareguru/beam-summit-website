@@ -5,12 +5,12 @@ speakers:
  - Chamikara Jayalath
 topics:
  - Cross language
-room: Upper Bay
-time_start: 2023-06-13 11:00:00
-time_end: 2023-06-13 11:50:00
+room: B
+time_start: 2023-07-18 16:00:00
+time_end: 2023-07-18 16:50:00
 day: a
-timeslot: c
-timeorder: 0
+timeslot: a
+timeorder: 1
 language: 
 live_url: 
 slides: 

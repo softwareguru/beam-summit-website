@@ -8,12 +8,12 @@ topics:
  - Use case
  - Templates
  - Python
-room: Horizon
-time_start: 2023-06-13 14:30:00
-time_end: 2023-06-13 14:55:00
+room: A
+time_start: 2023-07-18 15:30:00
+time_end: 2023-07-18 15:55:00
 day: a
-timeslot: h
-timeorder: 0
+timeslot: a
+timeorder: 2
 language: 
 live_url: 
 slides: 

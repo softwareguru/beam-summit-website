@@ -6,17 +6,17 @@ speakers:
  - Reza Rokni
 topics:
  - ML
-room: Horizon
-time_start: 2023-06-13 09:45:00
-time_end: 2023-06-13 10:30:00
+room: A
+time_start: 2023-07-18 14:30:00
+time_end: 2023-07-18 15:15:00
 day: a
 timeslot: a
-timeorder: 3
+timeorder: 1
 language: 
 live_url: 
 slides: 
 video: 
-track: keynote
+track: concurrent
 tags:
 ---
 
