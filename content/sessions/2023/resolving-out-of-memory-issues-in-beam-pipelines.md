@@ -2,7 +2,7 @@
 title: "Resolving out of memory issues in Beam Pipelines"
 slug: resolving-out-of-memory-issues-in-beam-pipelines
 speakers:
- - Zeeshan Khan
+ - Zeeshan
 topics:
  - Runners
  - Operations
