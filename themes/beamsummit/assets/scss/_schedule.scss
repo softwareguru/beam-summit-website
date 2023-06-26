@@ -87,9 +87,9 @@
 
 .time-row.concurrent {
 	display: grid;
-	grid-template-columns: 50px 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	@media (max-width: 576px) {
-		grid-template-columns: 50px 1fr;
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -113,7 +113,15 @@
 }
 
 .session-item.order-0 {
-    height:95%;
+	@media (min-width: 576px) {
+		height:95%;
+	} 
+}
+
+.session-item.empty-before {
+	@media (min-width: 576px) {
+        margin-top: 8em;
+    }
 }
 
 .session-time {

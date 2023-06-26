@@ -2,7 +2,7 @@
 title: "Reuven Lax"
 designation: "Principal Engineer at Google"
 images:
- - /images/speakers/reuven_lax.jpg
+ - /images/speakers/reuven-lax.jpg
 twitter: 
 linkedin: 
 events:

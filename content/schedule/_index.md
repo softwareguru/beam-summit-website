@@ -9,65 +9,30 @@ days:
     rooms: ["A", "B", "C"]
     timeslots: 
       - id: a
-        time_start: 2023-07-18 10:30:00 -0600 CDT
+        time_start: 2023-07-18 14:30:00
+        type: concurrent
+      - id: b
+        time_start: 2023-07-18 15:30:00
         type: concurrent
 
 
   - id: b
     title_short: Wednesday
-    title_full: Wednesday, June 14, 2023
-    rooms: ["Horizon", "Upper Bay", "Palisades"]
+    title_full: Wednesday, July 19, 2023
+    rooms: ["A", "B", "C"]
     timeslots: 
       - id: a
-        time_start: 2023-06-14 9:00:00 -0600 CDT
-        type: keynote
-      - id: b
-        time_start: 2023-06-14 10:00:00 -0600 CDT
-        type: break
-        name: Break
-      - id: c
-        time_start: 2023-06-14 10:30:00 -0600 CDT
-        type: concurrent
-      - id: d
-        time_start: 2023-06-14 11:00:00 -0600 CDT
-        type: concurrent
-      - id: e
-        time_start: 2023-06-14 12:00:00 -0600 CDT
-        type: concurrent
-      - id: f
-        time_start: 2023-06-14 13:00:00 -0600 CDT
-        type: break
-        name: Lunch
-      - id: g
-        time_start: 2023-06-14 14:00:00 -0600 CDT
-        type: concurrent
-      - id: h
-        time_start: 2023-06-14 14:30:00 -0600 CDT
-        type: concurrent
-      - id: i
-        time_start: 2023-06-14 15:00:00 -0600 CDT
-        type: concurrent
-      - id: j
-        time_start: 2023-06-14 16:00:00 -0600 CDT
-        type: break
-        name: Afternoon break
-      - id: k
-        time_start: 2023-06-14 16:15:00 -0600 CDT
-        type: concurrent
-      - id: l
-        time_start: 2023-06-14 17:30:00 -0600 CDT
+        time_start: 2023-07-19 15:00:00
         type: concurrent
 
   - id: c
     title_short: Thursday
-    title_full: Thursday, June 15, 2023
-    rooms: ["Palisades", "Upper Bay", "Flow"]
+    title_full: Thursday, July 20, 2023
+    rooms: ["A", "B", "C"]
     timeslots: 
-      - id: 1
-        time_start: 2023-06-15 9:00:00 -0600 CDT
-        type: concurrent
-      - id: 2
-        time_start: 2023-06-15 10:45:00 -0600 CDT
+    timeslots: 
+      - id: a
+        time_start: 2023-07-20 15:00:00
         type: concurrent
 
 

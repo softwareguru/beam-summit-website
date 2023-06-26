@@ -12,8 +12,8 @@ room: A
 time_start: 2023-07-18 15:30:00
 time_end: 2023-07-18 15:55:00
 day: a
-timeslot: a
-timeorder: 2
+timeslot: b
+timeorder: 1
 language: 
 live_url: 
 slides: 

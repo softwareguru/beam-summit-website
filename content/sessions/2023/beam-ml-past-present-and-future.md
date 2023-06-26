@@ -7,8 +7,8 @@ speakers:
 topics:
  - ML
 room: A
-time_start: 2023-07-18 14:30:00
-time_end: 2023-07-18 15:15:00
+time_start: 2023-07-18 14:45:00
+time_end: 2023-07-18 15:30:00
 day: a
 timeslot: a
 timeorder: 1

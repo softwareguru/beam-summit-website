@@ -21,13 +21,9 @@ tags:
 
 This beginner-friendly talk will cover everything I wish I had known when I started writing batch and streaming Beam jobs that use Avro-Schema-encoded data and Beam-Schema-aware PCollections.
  
+Apache Avro is a popular data serialization format that uses schemas for cross-language serializing and deserializing data. Apache Beam provides a type system for records called “Schemas,” which allows for cross-language type sharing, easy type conversion, and an easy way to share PTransforms between types. Using an Avro Schema for external data sources and Beam Schemas for the internal PCollections is a powerful combination plagued with beginner-unfriendly nuanced differences.
  
- 
- Apache Avro is a popular data serialization format that uses schemas for cross-language serializing and deserializing data. Apache Beam provides a type system for records called “Schemas,” which allows for cross-language type sharing, easy type conversion, and an easy way to share PTransforms between types. Using an Avro Schema for external data sources and Beam Schemas for the internal PCollections is a powerful combination plagued with beginner-unfriendly nuanced differences.
- 
- 
- 
- In this talk, we will cover:
+In this talk, we will cover:
  
  - How we use Avro for our Streaming and Batch data sources and how Avro enables powerful workflows with PubSub, Google Cloud Storage, and BigQuery.
  

@@ -9,7 +9,7 @@ room: B
 time_start: 2023-07-18 16:00:00
 time_end: 2023-07-18 16:50:00
 day: a
-timeslot: a
+timeslot: b
 timeorder: 1
 language: 
 live_url: 

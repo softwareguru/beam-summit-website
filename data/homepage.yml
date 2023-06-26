@@ -1,16 +1,16 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "Beam Summit 2023"
+  title : "Virtual Beam Summit 2023"
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
   date_time : ""
-  venue : "July 18 2023, online experience<br />"
+  venue : "July 18-20 2023, online event."
   button1:
     enable : true
-    label : "Get your tickets"
-    link : "/tickets"
+    label : "Access online event"
+    link : "https://us.airmeet.com/e/138ddb30-1125-11ee-9414-e3f48addae7e"
 
   button2:
     enable : false
@@ -22,14 +22,12 @@ banner:
 event_info:
   enable : true
   
-  subtitle: "Beam Summit is coming back in 2023 as a free, in-person event followed by an online-viewing experience."
+  subtitle: "Virtual Beam Summit is the online event for the global Apache Beam community."
 
-  title : "We’ll host sessions to share new use cases from companies using Apache Beam, as well as community driven talks, technical deep dives and
-
-in-depth workshops."
+  title : "We will have live online sessions as well as prerecorded talks from the in-person edition."
   description : ""
-  cta_text: "Get your ticket now!"
-  cta_link: "/tickets"
+  cta_text: "Register now!"
+  cta_link: "https://us.airmeet.com/e/138ddb30-1125-11ee-9414-e3f48addae7e"
   features: 
     - number : "Learn"
       label : "How Beam is used by leading organizations"

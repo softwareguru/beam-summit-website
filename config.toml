@@ -77,8 +77,8 @@ home = "Home"
 
 # Meta data
 description = "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
-image = "/images/card-2023.jpg"
-images = ["/images/card-2023.jpg"]
+image = "/images/card-2023-virtual.jpg"
+images = ["/images/card-2023-virtual.jpg"]
 twitter_user = "@beamsummit"
 email = "contact@beamsummit.org"
 author = "Software Guru"
@@ -98,8 +98,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Tickets"
-link = "/tickets"
+label = "Go to online event"
+link = "https://us.airmeet.com/e/138ddb30-1125-11ee-9414-e3f48addae7e"
 
 
 ############################# social icon ############################

@@ -6,12 +6,12 @@ speakers:
  - Anthony Lazzaro
 topics:
  - Python
-room: Palisades
-time_start: 2023-06-15 09:00:00
-time_end: 2023-06-15 10:30:00
-day: c
-timeslot: 1
-timeorder: 0
+room: C
+time_start: 2023-07-18 15:30:00
+time_end: 2023-07-20 17:30:00
+day: a
+timeslot: b
+timeorder: 1
 language: 
 live_url: 
 slides: 
