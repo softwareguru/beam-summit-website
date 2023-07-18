@@ -6,8 +6,8 @@ speakers:
 topics:
  - 
 room: Flow
-time_start: 2023-06-15 10:45:00
-time_end: 2023-06-15 12:15:00
+time_start: 2023-07-20 15:30:00
+time_end: 2023-07-20 17:30:00
 day: c
 timeslot: 2
 timeorder: 0
@@ -26,3 +26,5 @@ Gaming should be fun but too often, toxic behavior brings bad attitude and behav
 We'll be reading in data and using a model to infer if the text is toxic or not in real time using Beam's RunInference module.
 
 You'll be able to implement an ML pipeline using the skills you learn from this workshop.
+
+[Fill this form](https://forms.gle/ow4MFhgrnDnff9JJ9) to register for this workshop.
