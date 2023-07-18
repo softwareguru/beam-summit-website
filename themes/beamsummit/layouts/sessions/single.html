@@ -43,7 +43,7 @@
               {{ $time_start := .Params.time_start | time }}
               {{ $time_end := .Params.time_end | time }}                          
 
-              {{ with .Params.time_start | time }}{{ .Format "Jan-2 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }} EDT{{ end }} 
+              {{ with .Params.time_start | time }}{{ .Format "Jan-2 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }} UTC{{ end }} 
               <div class="local-room">Room: {{ .Params.room }}</div>
             </div>
             {{ with .Params.live_url }}<div id="live-button" class="mt-3 d-none"><a class="btn btn-danger btn-sm" href="{{ . }}">Watch</a></div>{{ end }}
