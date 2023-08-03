@@ -14,7 +14,7 @@ timeorder: 0
 language: 
 live_url: 
 slides: 
-video: 
+video: https://youtu.be/WJSV6ry5R7c
 track: concurrent
 tags:
 ---

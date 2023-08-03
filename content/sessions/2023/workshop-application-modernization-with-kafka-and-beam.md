@@ -17,6 +17,7 @@ slides:
 video: 
 track: concurrent
 tags:
+draft: true
 ---
 
 This workshop will provide hands on experience breaking down a simple monolithic application to microservices, leveraging both Confluent Cloud (Kafka) and Google Cloud Dataflow (Beam).

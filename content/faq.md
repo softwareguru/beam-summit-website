@@ -23,5 +23,3 @@ Beam Summit is dedicated to providing a harassment-free experience for everyone.
 ## Who’s the audience?
 
 Beam Summit is where professionals in data processing meet, whether you’re a new or an experienced user, we have new use cases from companies using Apache Beam, community-driven talks, technical deep dives, in-depth workshops, and networking events for you.
-
-

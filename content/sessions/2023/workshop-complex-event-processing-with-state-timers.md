@@ -18,6 +18,7 @@ slides:
 video: 
 track: concurrent
 tags:
+draft: true
 ---
 
 Beam does not have a dedicated complex event processing module, but this can be overcome using state & timers.

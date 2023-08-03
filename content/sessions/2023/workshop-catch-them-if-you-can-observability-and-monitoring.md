@@ -17,6 +17,7 @@ slides:
 video: 
 track: concurrent
 tags:
+draft: true
 ---
 
 In this workshop, you'll be going through scenarios and how to identify and fix the problems within them. 

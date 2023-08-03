@@ -17,6 +17,7 @@ slides:
 video: 
 track: concurrent
 tags:
+draft: true
 ---
 
 In this workshop, we will be creating our pipeline using Beam to identify toxic behavior and action on it.
