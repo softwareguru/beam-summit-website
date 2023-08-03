@@ -14,7 +14,7 @@ timeslot: c
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Sascha-BeamK8s.pdf
 video: https://youtu.be/i84LUtOkJA0
 track: concurrent
 tags:

@@ -14,7 +14,7 @@ timeslot: m
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides:
 video: https://youtu.be/LD8rGBBf23M
 track: concurrent
 tags:

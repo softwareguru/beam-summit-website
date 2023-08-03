@@ -16,6 +16,7 @@ slides:
 video: 
 track: concurrent
 tags:
+draft: true
 ---
 
 Generative AI is revolutionizing the developer, content creator landscape. Come to discuss and learn the generative AI as we dive into the world of LLMs, explore the capabilities of ChatGPT, and discover the power of text-to-image technologies. Immerse yourself in captivating discussions, demos, and practical applications led by industry experts.

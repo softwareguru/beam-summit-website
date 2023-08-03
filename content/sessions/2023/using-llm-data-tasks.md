@@ -14,7 +14,7 @@ timeslot: e
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides: 2023/SeanVince-LLMs.pdf
 video: https://youtu.be/RrDx5JfiKWE
 track: concurrent
 tags:

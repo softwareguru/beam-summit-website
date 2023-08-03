@@ -16,7 +16,7 @@ timeslot: e
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/LinkedIn-ManagedStreamProcessing.pdf
 video: https://youtu.be/Dnm_vpV3s50
 track: concurrent
 tags:

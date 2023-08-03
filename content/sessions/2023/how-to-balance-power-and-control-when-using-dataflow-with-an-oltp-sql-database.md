@@ -15,7 +15,7 @@ timeslot: h
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Florian+Leo-DataflowOLTP.pdf
 video: https://youtu.be/TueDlUBJsQU
 track: concurrent
 tags:

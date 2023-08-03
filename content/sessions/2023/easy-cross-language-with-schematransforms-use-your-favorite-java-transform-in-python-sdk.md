@@ -13,7 +13,7 @@ timeslot: g
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/easy-cross-language-with-schematransforms-use-your-favorite-java-transform-in-python-sdk.pdf
 video: https://youtu.be/rvn5j_Bik7c
 track: concurrent
 tags:

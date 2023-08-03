@@ -14,7 +14,7 @@ timeslot: a
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Kerry+Reza-BeamMLPastPresentFuture.pdf
 video: https://youtu.be/LlXHBQgV-NE
 track: concurrent
 tags:

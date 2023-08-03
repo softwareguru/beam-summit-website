@@ -13,7 +13,7 @@ timeslot: i
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Mazlum-CICDFlexTemplate.pdf
 video: https://youtu.be/nszzTeP6JeM
 track: concurrent
 tags:

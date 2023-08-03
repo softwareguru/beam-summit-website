@@ -16,7 +16,7 @@ timeslot: b
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Alexis-MappingFHIR.pdf
 video: https://youtu.be/3PK-WZado_4
 track: concurrent
 tags:

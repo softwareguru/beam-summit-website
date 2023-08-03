@@ -13,7 +13,7 @@ timeslot: c
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/D2-Palisades- Slides.pdf
 video: https://youtu.be/ES_P7GuxOxM
 track: concurrent
 tags:

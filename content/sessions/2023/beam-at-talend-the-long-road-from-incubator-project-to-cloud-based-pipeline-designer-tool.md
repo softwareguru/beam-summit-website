@@ -13,7 +13,7 @@ timeslot: c
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Alexey-BeamAtTalend.pdf
 video: https://youtu.be/3F27Ouv9Rjs
 track: concurrent
 tags:

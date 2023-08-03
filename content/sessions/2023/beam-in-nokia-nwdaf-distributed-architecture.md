@@ -14,7 +14,7 @@ timeslot: g
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/IfatSigalit-NokiaNWDAF.pdf
 video: https://youtu.be/G8WC3dmCdzQ
 track: concurrent
 tags:

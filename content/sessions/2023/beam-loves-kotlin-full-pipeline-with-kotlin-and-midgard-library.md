@@ -13,7 +13,7 @@ timeslot: m
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Mazlum-KotlinMidgard.pdf
 video: https://youtu.be/iFHfY8ocUrU
 track: concurrent
 tags:

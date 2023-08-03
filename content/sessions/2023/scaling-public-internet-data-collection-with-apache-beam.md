@@ -13,7 +13,7 @@ timeslot: c
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides: 2023/LiorDadosh.pdf
 video: https://youtu.be/2wQIwnrZ1NQ
 track: concurrent
 tags:

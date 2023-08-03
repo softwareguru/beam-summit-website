@@ -13,7 +13,7 @@ timeslot: b
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides: 2023/Jasper-Clustering.pdf
 video: https://youtu.be/rRPJZrgQFUI
 track: concurrent
 tags:

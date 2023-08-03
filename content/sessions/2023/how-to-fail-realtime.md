@@ -13,7 +13,7 @@ timeslot: b
 timeorder: 4
 language: 
 live_url: 
-slides: 
+slides: 2023/MattHousley-HowToFail.pdf
 video: https://youtu.be/IXn56kyUmv8
 track: concurrent
 tags:

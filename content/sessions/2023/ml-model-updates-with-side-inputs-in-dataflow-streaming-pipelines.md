@@ -14,7 +14,7 @@ timeslot: i
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides: 2023/Anand-AutoModelRefresh.pdf
 video: https://youtu.be/g5rvWd-ZizY
 track: concurrent
 tags:

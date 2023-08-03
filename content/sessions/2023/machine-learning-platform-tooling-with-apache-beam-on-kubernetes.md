@@ -14,7 +14,7 @@ timeslot: e
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Charles-MLToolingK8s.pdf
 video: https://youtu.be/ITjntGDABMU
 track: concurrent
 tags:

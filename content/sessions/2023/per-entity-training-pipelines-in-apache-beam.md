@@ -13,7 +13,7 @@ timeslot: d
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Jasper-PerEntityTraining.pdf
 video: https://youtu.be/_LAXBeHQLi0
 track: concurrent
 tags:

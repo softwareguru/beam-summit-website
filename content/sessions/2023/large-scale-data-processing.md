@@ -12,7 +12,7 @@ timeslot: g
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Olu-LargeScaleDataProcessing.pdf
 video: https://youtu.be/FGLX7KG5nMI
 track: concurrent
 tags:

@@ -14,7 +14,7 @@ timeslot: e
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/AlexElizaveta-DevelopingBeamIO.pdf
 video: https://youtu.be/uXfInOfueFc
 track: concurrent
 tags:

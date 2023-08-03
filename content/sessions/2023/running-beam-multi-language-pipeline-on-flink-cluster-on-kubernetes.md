@@ -15,7 +15,7 @@ timeslot: d
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides: 2023/Lydian-MultiLangFlink.pdf
 video: https://youtu.be/XUz90LpGAgc
 track: concurrent
 tags:

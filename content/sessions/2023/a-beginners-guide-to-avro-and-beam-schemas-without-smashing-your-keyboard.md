@@ -13,7 +13,7 @@ timeslot: e
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Devon-AvroSchemas.pdf
 video: https://youtu.be/lvAdyEm9chI
 track: concurrent
 tags:

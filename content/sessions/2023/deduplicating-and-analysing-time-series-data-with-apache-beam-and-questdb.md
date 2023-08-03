@@ -13,7 +13,7 @@ timeslot: e
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Javier-DeduplicatingAndAnalysingTime-SeriesDataWithApacheBeamAndQuestDB.pdf
 video: https://youtu.be/B7IjWHFhpfE
 track: concurrent
 tags:

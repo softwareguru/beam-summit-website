@@ -14,11 +14,10 @@ timeslot: k
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Hao-BeamMLAffirm.pdf
 video: https://youtu.be/zqCExTy0cI8
 track: concurrent
 tags:
-slides: 
 
 ---
 

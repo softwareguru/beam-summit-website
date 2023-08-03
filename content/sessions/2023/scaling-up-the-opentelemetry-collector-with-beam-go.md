@@ -13,7 +13,7 @@ timeslot: j
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Alex-OpenTelemetry.pdf
 video: https://youtu.be/2PVxlaaZMzk
 track: concurrent
 tags:

@@ -14,7 +14,7 @@ timeslot: d
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides: 2023/Tobias+Israel-EnrichingStateTimers.pdf
 video: https://youtu.be/1t4MP8_vIUY
 track: concurrent
 tags:

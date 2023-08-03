@@ -13,7 +13,7 @@ timeslot: k
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides: 2023/Shubham-AcceleratingNvidiaTensor.pdf
 video: https://youtu.be/3mKTwfOnoC8
 track: concurrent
 tags:

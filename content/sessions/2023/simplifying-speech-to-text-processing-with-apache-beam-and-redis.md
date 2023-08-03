@@ -15,7 +15,7 @@ timeslot: i
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Prateek+Pramod-SimplifyingSpeech-to-Text.pdf
 video: https://youtu.be/pTWFx3hC55Y
 track: concurrent
 tags:

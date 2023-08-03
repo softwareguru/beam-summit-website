@@ -13,7 +13,7 @@ timeslot: h
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Lorenzo-SecurityRequirements.pdf
 video: https://youtu.be/CW94rCjDYpE
 track: concurrent
 tags:

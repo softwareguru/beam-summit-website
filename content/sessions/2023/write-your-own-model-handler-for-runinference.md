@@ -14,7 +14,7 @@ timeslot: g
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/RiteshGhorse-WriteOwnHandler.pdf
 video: https://youtu.be/kw7UFr-I_I4
 track: concurrent
 tags:

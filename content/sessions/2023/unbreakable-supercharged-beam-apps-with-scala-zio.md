@@ -16,7 +16,7 @@ timeslot: l
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Aris+Sahil-BeamAppsScalaZio.pdf
 video: https://youtu.be/UjPQ9V7NzvA
 track: concurrent
 tags:

@@ -12,7 +12,7 @@ timeslot: d
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Svetak-BeamQuest.pdf
 video: https://youtu.be/HTldQxkUemM
 track: concurrent
 tags:

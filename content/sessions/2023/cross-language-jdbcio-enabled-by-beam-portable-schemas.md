@@ -15,7 +15,7 @@ timeslot: h
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/YiHu-PortableSchemas.pdf
 video: https://youtu.be/SXbPBZUMlxc
 track: concurrent
 tags:

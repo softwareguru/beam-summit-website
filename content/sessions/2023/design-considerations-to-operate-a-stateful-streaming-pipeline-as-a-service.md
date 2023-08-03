@@ -15,7 +15,7 @@ timeslot: e
 timeorder: 2
 language: 
 live_url: 
-slides: 
+slides: 2023/Israel+Bhupi-DesignConsiderations.pdf
 video: https://youtu.be/grn5K8p1VaA
 track: concurrent
 tags:

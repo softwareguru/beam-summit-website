@@ -13,7 +13,7 @@ timeslot: l
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Valentyn-ManagingDependencies.pdf
 video: https://youtu.be/IQ0uENkyhAs
 track: concurrent
 tags:

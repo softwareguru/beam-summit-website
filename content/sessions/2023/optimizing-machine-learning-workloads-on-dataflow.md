@@ -14,7 +14,7 @@ timeslot: i
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/AlexChan-OptimizingMLWorkloads.pdf
 video: https://youtu.be/ayrisg-6YyM
 track: concurrent
 tags:

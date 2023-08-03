@@ -15,7 +15,7 @@ timeslot: j
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Sho-Rust.pdf
 video: https://youtu.be/RRhMp6jZm2g
 track: concurrent
 tags:

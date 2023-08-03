@@ -14,7 +14,7 @@ timeslot: i
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Robert-BeamRunnerGo.pdf
 video: https://youtu.be/0iSwoD5nHpE
 track: concurrent
 tags:

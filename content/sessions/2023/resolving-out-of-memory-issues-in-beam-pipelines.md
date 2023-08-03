@@ -14,7 +14,7 @@ timeslot: m
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/Zeeshan-MemoryErrors.pdf
 video: https://youtu.be/eSYWKGCk_nE
 track: concurrent
 tags:

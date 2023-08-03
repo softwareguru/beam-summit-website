@@ -14,7 +14,7 @@ timeslot: k
 timeorder: 1
 language: 
 live_url: 
-slides: 
+slides: 2023/DongSun-GeospatialData.pdf
 video: https://youtu.be/cOscuETdxTI
 track: concurrent
 tags:

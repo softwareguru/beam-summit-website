@@ -16,7 +16,7 @@ timeslot: j
 timeorder: 0
 language: 
 live_url: 
-slides: 
+slides: 2023/Shafiqa+Ikenna-HotKeysDetection.pdf
 video: https://youtu.be/-DMnAFlnT2s
 track: concurrent
 tags:
