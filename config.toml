@@ -43,10 +43,10 @@ speaker = "speakers"
   weight = 2
 
 
-  [[menu.main]]
-  name = "Program"
-  URL = "/program"
-  weight = 2
+  #[[menu.main]]
+  #name = "Program"
+  #URL = "/program"
+  #weight = 2
 
   #[[menu.main]]
   #name = "Venue"
@@ -98,8 +98,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Go to online event"
-link = "https://us.airmeet.com/e/138ddb30-1125-11ee-9414-e3f48addae7e"
+label = "Sessions"
+link = "sessions/2023"
 
 
 ############################# social icon ############################
