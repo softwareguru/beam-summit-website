@@ -1,9 +1,9 @@
 ---
-title: "The program is out for Beam Summit 2023!"
-slug: program-out-2023
+title: "Check out the recordings for Beam Summit 2023"
+slug: recordings-2023
 date: 2023-04-16T10:00:00
-description: "The detailed program for Beam Summit 2023 is out. Check out all the sessions!"
-summary: "The detailed program for Beam Summit 2023 is out. Check out all the sessions!"
+description: "Watch recordings for Beam Summit 2023."
+summary: "[Watch recordings for Beam Summit 2023.](https://www.youtube.com/watch?v=eSYWKGCk_nE&list=PL4dEBWmGSIU9Lq2BKRDz3ksRdoPJB13Fg)"
 # post thumb
 images: 
  - "/images/blog/2023-program.jpg"
@@ -12,8 +12,8 @@ author: "Beam Summit Team"
 weight: 2
 ---
 
-### Check out the full program for Beam Summit 2023
-We are very excited to share the news that the session program for Beam Summit 2023 is ready.
+### Watch the session recordings for Beam Summit 2023!
 
-Visit the [program](/program) page to see all the sessions we will have during the event.
+The recordings of all talks from Beam Summit 2023 are available at the Apache Beam YouTube channel.
 
+[Open the Beam Summit 2023 playlist](https://www.youtube.com/watch?v=eSYWKGCk_nE&list=PL4dEBWmGSIU9Lq2BKRDz3ksRdoPJB13Fg).

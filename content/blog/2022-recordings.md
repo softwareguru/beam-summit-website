@@ -2,7 +2,7 @@
 title: "Check out the recordings for Beam Summit 2022"
 date: 2023-01-10T10:00:00
 draft: false
-url: /blog/recordings-2022/
+slug: recordings-2022
 description: "Watch recordings for Beam Summit 2022."
 summary: "[Watch recordings for Beam Summit 2022.](https://www.youtube.com/watch?v=BoPqEDF4Ko0&list=PL4dEBWmGSIU9OkXQU2OAXmITPLhiMSPRp)"
 
