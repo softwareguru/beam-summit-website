@@ -6,7 +6,7 @@ description: "Watch recordings for Beam Summit 2023."
 summary: "[Watch recordings for Beam Summit 2023.](https://www.youtube.com/watch?v=eSYWKGCk_nE&list=PL4dEBWmGSIU9Lq2BKRDz3ksRdoPJB13Fg)"
 # post thumb
 images: 
- - "/images/blog/2023-program.jpg"
+ - "/images/blog/beam-summit-2023.png"
 # author
 author: "Beam Summit Team"
 weight: 2
