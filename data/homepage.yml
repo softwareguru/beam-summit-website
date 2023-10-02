@@ -9,8 +9,8 @@ banner:
   venue : "July 18-20 2023, online event."
   button1:
     enable : true
-    label : "Access online event"
-    link : "https://us.airmeet.com/e/138ddb30-1125-11ee-9414-e3f48addae7e"
+    label : "Watch session recordings"
+    link : "https://youtube.com/playlist?list=PL4dEBWmGSIU9Lq2BKRDz3ksRdoPJB13Fg&feature=shared"
 
   button2:
     enable : false
