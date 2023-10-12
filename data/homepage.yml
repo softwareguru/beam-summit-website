@@ -1,7 +1,7 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "Virtual Beam Summit 2023"
+  title : "Beam Summit 2023"
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
