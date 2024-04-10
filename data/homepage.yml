@@ -26,8 +26,8 @@ event_info:
 
   title : "We will have live sessions as well as prerecorded talks from the in-person edition."
   description : ""
-  cta_text: "Register now!"
-  cta_link: "Wa"
+  cta_text: "Submit to our CFP"
+  cta_link: "https://sessionize.com/beam-summit-2024"
   features: 
     - number : "Learn"
       label : "How Beam is used by leading organizations"
