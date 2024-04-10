@@ -52,10 +52,9 @@
 
 <!-- keynotes -->
 
-{{ partial "keynotes.html" . }}
-
-
-
+{{ if $data.homepage.keynotes.enable }}
+  {{ partial "keynotes.html" . }}
+{{ end }}
 
 <!-- feature -->
 {{ if $data.homepage.feature.enable }}
@@ -218,11 +217,9 @@
 
 
 
-<!-- blog 
 {{ if $data.homepage.previous.enable }}
 {{ partial "previous_events.html" . }}
 {{ end }}
-/blog -->
 
 
 {{ end }}

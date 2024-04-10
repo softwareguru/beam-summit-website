@@ -1,16 +1,16 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "Beam Summit 2023"
+  title : "Beam Summit 2024"
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
   date_time : ""
-  venue : "July 18-20 2023, online event."
+  venue : "September 4-5, 2024."
   button1:
     enable : true
-    label : "Watch session recordings"
-    link : "https://youtube.com/playlist?list=PL4dEBWmGSIU9Lq2BKRDz3ksRdoPJB13Fg&feature=shared"
+    label : "Submit to our CFP"
+    link : "https://sessionize.com/beam-summit-2024"
 
   button2:
     enable : false
@@ -22,12 +22,12 @@ banner:
 event_info:
   enable : true
   
-  subtitle: "Virtual Beam Summit is the online event for the global Apache Beam community."
+  subtitle: "Beam Summit is the annual conference for the global Apache Beam community."
 
-  title : "We will have live online sessions as well as prerecorded talks from the in-person edition."
+  title : "We will have live sessions as well as prerecorded talks from the in-person edition."
   description : ""
   cta_text: "Register now!"
-  cta_link: "https://us.airmeet.com/e/138ddb30-1125-11ee-9414-e3f48addae7e"
+  cta_link: "Wa"
   features: 
     - number : "Learn"
       label : "How Beam is used by leading organizations"
@@ -35,8 +35,8 @@ event_info:
     - number : "Meet"
       label : "key users and contributors from the community"
 
-    - number : "3"
-      label : "Days"
+    - number : "2 Days"
+      label : "of keynotes, track talks and workshops"
       
     - number : "+30"
       label : "talks and workshops"
@@ -45,16 +45,16 @@ event_info:
 
 ####################### Schedule #############################
 schedule:
-  enable : true
+  enable : false
   # schedule data comes from "schedule.yml" file
 
 ####################### pricing #############################
 pricing:
-  enable : true
+  enable : false
   # pricing data comes from "pricing.yml" file
 
 ########################## speaker ##########################
-speakers:
+keynotes:
   enable : false
   title : "Key speakers"
   subtitle : ""
@@ -62,7 +62,7 @@ speakers:
 
 ######################### sponsor ############################
 sponsors:
-  enable :  true
+  enable :  false
   title_outline : "Sponsors"
   title : "Amazing Partners & Sponsors"
   sponsor_group:
@@ -93,5 +93,5 @@ blog:
 
 ############################### Previous events ######################################
 previous:
-  enable : true
+  enable : false
   title : "Previous events"
