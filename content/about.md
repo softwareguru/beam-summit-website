@@ -8,13 +8,13 @@ url: "/about"
 
 ## What is Beam Summit?
 
-The goal of Beam Summit 2023 is to connect a community of professionals around the world who use, contribute, and are learning Apache Beam.
+The goal of Beam Summit is to connect a community of professionals around the world who use, contribute, and are learning Apache Beam.
 
-The event will be a space to share use cases, performance, and resource optimizations, discuss pain points, and talk about the benefits of implementing Apache Beam in organizations.
+This annual conference provides space to share use cases, performance, and resource optimizations, discuss pain points, and talk about the benefits of implementing Apache Beam in organizations.
 
 The event aims to bring together the Apache Beam community to discuss the project's status, its technical advances, and its future.
 
-The content will be focused on sharing: 
+Contents are focused on sharing: 
 - New use cases from companies using Apache Beam.
 - Community-driven talks.
 - Technical deep dives.
