@@ -21,8 +21,8 @@
 
     <div class="meta">
       <p  class="sub-hero">{{ .subtitle }}</p>
-      <p>{{ .date_time }}</p>
-      <p>{{ .venue | markdownify}}</p>
+      <p class="mb-2">{{ .date }}</p>
+      <p class="mb-4">{{ .venue | markdownify}}</p>
   
       {{ if .button1.enable }}
           {{ with .button1 }}

@@ -5,8 +5,8 @@ banner:
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
-  date_time : ""
-  venue : "September 4-5, 2024."
+  date : "September 4-5, 2024."
+  venue: "Sunnyvale, CA. USA."
   button1:
     enable : true
     label : "Submit to our CFP"
