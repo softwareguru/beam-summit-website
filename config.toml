@@ -103,7 +103,7 @@ link = "sessions/2023"
 
 ############################# social icon ############################
 [[params.social]]
-icon = "tf-ion-social-twitter"
+icon = "fa-brands fa-x-twitter"
 link = "https://twitter.com/ApacheBeam"
 
 [[params.social]]
@@ -125,6 +125,10 @@ link = "https://beam.apache.org/"
 [[params.footer_about]]
 name = "Apache Beam Blog"
 link = "https://beam.apache.org/blog"
+
+[[params.footer_previous]]
+name = "Beam Summit 2023"
+link = "https://beamsummit.org/sessions/2023"
 
 
 [[params.footer_previous]]
