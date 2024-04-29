@@ -24,10 +24,10 @@ event_info:
   
   subtitle: "Beam Summit is the annual conference for the global Apache Beam community."
 
-  title : "We will have live sessions as well as prerecorded talks from the in-person edition."
+  title : "Support the Apache Beam community, become a sponsor!"
   description : ""
-  cta_text: "Submit to our CFP"
-  cta_link: "https://sessionize.com/beam-summit-2024"
+  cta_text: "Check out our Prospectus"
+  cta_link: "/files/Beam-Summit-2024-Prospectus.pdf"
   features: 
     - number : "Learn"
       label : "How Beam is used by leading organizations"
