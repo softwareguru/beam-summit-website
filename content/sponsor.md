@@ -30,5 +30,5 @@ The event aims to bring together the Apache Beam community to discuss the status
 
 <br>
 
-## Take a look at our [Prospectus](/files/Beam-Summit-2024-Prospectus.pdf)
+## Take a look at our [Prospectus](/files/BeamSummit2024-Prospectus-v1_1.pdf)
 
