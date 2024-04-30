@@ -10,7 +10,7 @@
 <div class="row content hero-img">
   <div class="col-md-6">
     <div class="mascota">    
-      <img src="/images/mascota.png" class="img-fluid">
+      <img src="/images/firefly-bike.png" class="img-fluid">
     </div>
   </div>
   <div class="col-md-6">
@@ -20,9 +20,9 @@
     </div>
 
     <div class="meta">
-      <p  class="sub-hero">{{ .subtitle }}</p>
-      <p class="mb-2">{{ .date }}</p>
-      <p class="mb-4">{{ .venue | markdownify}}</p>
+      <p class="sub-hero">{{ .subtitle }}</p>
+      <p class="mb-2 date">{{ .date }}</p>
+      <p class="mb-4 location">{{ .venue | markdownify}}</p>
   
       {{ if .button1.enable }}
           {{ with .button1 }}
