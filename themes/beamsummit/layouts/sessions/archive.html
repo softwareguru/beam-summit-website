@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div class="container mb-4">
+    <p class="text-center">
+        {{ .Content }}
+    </p>
+
+    <ul>
+    {{ range .Data.Pages }}
+      <li><a class="lead" href="{{.Permalink}}" class="session-title">{{ .Params.title }}</a></li>
+    {{ end }}  
+    </ul>
+
+</div>
+
+
+{{ end }}

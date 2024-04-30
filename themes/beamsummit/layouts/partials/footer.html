@@ -24,7 +24,7 @@
 				<h4>Previous editions</h4>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_previous }}
-					<li><a target="_blank" href="{{ .link | safeURL }}">{{ .name }}</a></li>
+					<li><a {{ if hasPrefix .link "http" }}target="_blank"{{ end }} href="{{ .link | safeURL }}">{{ .name }}</a></li>
 					{{ end }}
 				</ul>
 			</div>
@@ -33,7 +33,7 @@
 				<h4>Event resources</h4>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_resources }}
-					<li><a href="{{ .link | safeURL }}" target="_blank">{{ .name }}</a></li>
+					<li><a href="{{ .link | safeURL }}" {{ if hasPrefix .link "http" }}target="_blank"{{ end }}>{{ .name }}</a></li>
 					{{ end }}
 				</ul>
 			</div>
