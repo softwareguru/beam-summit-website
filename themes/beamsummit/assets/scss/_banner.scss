@@ -22,6 +22,9 @@
       grid-area: 2 / 1 / 3 / 2; 
       width: 40vw;
     } 
+    @media (max-width: 576px) {
+      width: 60vw;
+    }
   }
 
   .info-container {
