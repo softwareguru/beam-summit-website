@@ -2,47 +2,8 @@
 
 {{ $data := index .Site.Data }}
 
-<!-- banner -->
-{{ with $data.homepage.banner }}
-
-<div class="section-banner">
-
-<div class="row content hero-img">
-  <div class="col-md-6">
-    <div class="mascota">    
-      <img src="/images/firefly-bike.png" class="img-fluid">
-    </div>
-  </div>
-  <div class="col-md-6">
-
-    <div class="logo">
-      <img src="{{ .logo }}">
-    </div>
-
-    <div class="meta">
-      <p class="sub-hero">{{ .subtitle }}</p>
-      <p class="mb-2 date">{{ .date }}</p>
-      <p class="mb-4 location">{{ .venue | markdownify}}</p>
-  
-      {{ if .button1.enable }}
-          {{ with .button1 }}
-          <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner1 btn-rounded mt-3">{{ .label }}</a>
-          {{ end }}
-      {{ end }}
-  
-      {{ if .button2.enable }}
-          {{ with .button2 }}
-          <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner2 btn-rounded mt-3 ml-4">{{ .label }}</a>
-          {{ end }}
-      {{ end }}
-  {{ end }}
-  
-    </div>
-  </div>
-</div>
-</div>
-
 <!-- /banner -->
+{{ partial "hero.html" . }}
 
 <!-- event_info  -->
 {{ if $data.homepage.event_info.enable }}

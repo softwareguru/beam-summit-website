@@ -5,52 +5,41 @@
   background-position: center;
   height: 100vh;
   display: grid;
-  gap: 10px 20px;
-  grid-template-rows: minmax(120px, 240px) minmax(150px,250px) minmax(200px, 300px);
-  text-align: center;
+  grid-template-columns: 1fr 1fr;
 
 
-  @media (max-width:875px) {
-    height: 80vh;
-  }
-
-  @media (max-width: 767px) {
-    height: 100vh;
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 70% 30%;
   } 
 
+  .mascot-container {
+    padding-bottom: 10vh;
+    width: 30vw;
+    align-self: end;
+    justify-self: center;
+    @media (max-width: 992px) {
+      grid-area: 2 / 1 / 3 / 2; 
+      width: 40vw;
+    } 
+  }
 
-  .hero-img{
-    @media (max-width:3000px) {
-      margin-top: 90px;
-    }
-    @media (max-width:2000px) {
-      margin-top: 30px;
-    }
-    @media (max-width:1750px) {
-      margin-top: 60px;
-    }
+  .info-container {
+    align-self: center;
+    justify-self: center;
+    width: 500px;
+    text-align: center;
+    @media (max-width: 992px) {
+      grid-area: 1 / 1 / 2 / 2; 
+      width: 80%;
+    } 
   }
 
 
-  .logo {
-
-    margin-top: 190px;
-    align-self: start;
-    background-color: white;
-    border-radius: 120px 0px 0px 120px;    
-    padding: 50px 50px 50px 50px;
-
-    @media (max-width: 767px){
-      margin-top: 15px;
-    }
-
-    @media (max-width: 1900px){
-      margin-top: 110px;
-    }
-
-    @media (max-width: 375px){
-      margin-top: 85px;
-    }
+  .info-area {
+    background-color: #c0c0c0c0;
+    border-radius: 40px;
+    padding: 2em 2em 1em 2em;
 
   }
 
@@ -67,27 +56,6 @@
   }
 
 
-  .mascota img {
-
-    
-    @media (max-width: 1900px){
-      max-height: 68vh;
-      margin-top: 0px;
-    }
-
-
-    @media (max-width: 767px){
-      max-height: 22vh;
-      margin-top: -90px;
-    }
-
-    @media (max-width: 375px){
-      max-height: 22vh;
-      margin-top: -165px;
-    }
-
- }
-
   .sub-hero{
   color: $secondary-color !important;
   font-weight: 600;
@@ -100,16 +68,7 @@
 
   .meta {
 
-    align-self: end;
     margin-top: 30px;
-
-    @media (max-width: 875px) {
-      margin-top: 20px;
-    }
-
-    @media (max-width: 375px){
-      margin-top: 15px;
-    }
 
     .date, .location {
       color: $secondary-color;
