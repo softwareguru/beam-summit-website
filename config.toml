@@ -58,10 +58,10 @@ speaker = "speakers"
   URL = "/faq"
   weight = 4
 
-  #[[menu.main]]
-  #name = "Previous editions"
-  #URL = "/previous-editions"
-  #weight = 5
+  [[menu.main]]
+  name = "Previous sessions"
+  URL = "sessions/2023"
+  weight = 5
 
 
 [sitemap]
@@ -97,8 +97,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Previous sessions"
-link = "sessions/2023"
+label = "Register"
+link = "register" 
 
 
 ############################# social icon ############################
