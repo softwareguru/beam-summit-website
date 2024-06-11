@@ -2,7 +2,7 @@
 title: "Dataflow Streaming - What's new and what's coming"
 slug: dataflow-streaming-what-s-new-and-what-s-coming
 speakers:
- - Iñigo San Jose Visiers
+ - inigo-san-jose-visiers
  - Tom Stepp
 topics:
  - Runners
