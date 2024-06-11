@@ -42,7 +42,6 @@ speaker = "speakers"
 #  URL = "/speakers"
 #  weight = 2
 
-
   #[[menu.main]]
   #name = "Program"
   #URL = "/program"

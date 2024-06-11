@@ -3,7 +3,7 @@ slot: b111
 title: "Where is Beam leading Data Processing now?"
 url: /sessions/beam-update
 speakers:
- - Kenn Knowles
+ - Kenneth Knowles
 time_start: 2022-07-19 10:00:00 -0500 CDT
 time_end:   2022-07-19 10:25:00 -0500 CDT
 day: b
