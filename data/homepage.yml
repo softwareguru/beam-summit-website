@@ -8,7 +8,7 @@ banner:
   date : "September 4-5, 2024."
   venue: "Sunnyvale, CA. USA."
   button1:
-    enable : true
+    enable : false
     label : "Submit to our CFP"
     link : "https://sessionize.com/beam-summit-2024"
 
