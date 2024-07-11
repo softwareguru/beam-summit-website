@@ -1,5 +1,7 @@
 ---
 title: "Registration for Beam Summit 2024 is open!"
+url: registration-2024
+redirection: /register
 date: 2024-05-20T18:29:57-05:00
 description: "Registration for Beam Summit 2024 is open! Visit our website and save your spot: https://beamsummit.org/  We can’t wait to see you in Sunnyvale, CA this September 4-5"
 # post thumb

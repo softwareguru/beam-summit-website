@@ -6,20 +6,20 @@
   <h2>LATEST NEWS</h2> 
 
   <div class="row">
-    {{ range first 2 (where .Site.RegularPages.ByDate.Reverse "Type" "blog" )}}
+    {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Type" "blog" )}}
     <div class="col-12 col-md-4 px-3 mb-3">
 
       <div class="card h-100 shadow p-3 mb-6 border-card latest-news">
-        <a>
-          <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title | markdownify }}" class="img-fluid" data-toggle="modal" data-target="#staticBackdrop-{{ .Params.weight }}" style="cursor: pointer">
+        <a href="{{ .Params.redirection }}">
+          <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title | markdownify }}" class="img-fluid" style="cursor: pointer">
           
-          <p>{{.Title}}</p>
+          <p >{{.Title}}</p>
                
         </a>
             
       
         <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop-{{ .Params.weight }}" data-backdrop="static" data-keyboard="false"
+        <div class="modal fade" id="staticBackdrop-{{ .Params.url }}" data-backdrop="static" data-keyboard="false"
           tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
             <div class="modal-content">

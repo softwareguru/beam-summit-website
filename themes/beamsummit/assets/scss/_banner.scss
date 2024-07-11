@@ -13,6 +13,174 @@
     grid-template-rows: 70% 30%;
   } 
 
+
+  .mascot-container {
+    padding-bottom: 10vh;
+    width: 30vw;
+    align-self: end;
+    justify-self: center;
+    @media (max-width: 992px) {
+      grid-area: 2 / 1 / 3 / 2; 
+      width: 40vw;
+    } 
+    @media (max-width: 576px) {
+      width: 60vw;
+    }
+  }
+
+  .info-container {
+    align-self: center;
+    justify-self: center;
+    width: 500px;
+    text-align: center;
+    @media (max-width: 992px) {
+      grid-area: 1 / 1 / 2 / 2; 
+      width: 80%;
+    } 
+  }
+
+
+  .info-area {
+    background-color: #ffffffe5;
+    border-radius: 40px;
+    padding: 2em 2em 1em 2em;
+
+  }
+
+
+  .mascota{
+    margin-top: 120px;
+
+    @media (max-width: 1177px) {
+      margin-top: 180px;
+      margin-bottom: -95px;
+      
+    }
+
+  }
+
+
+  .sub-hero{
+  color: $secondary-color !important;
+  font-weight: 600;
+  margin-bottom: 35px;
+  @media (max-width: 875px){
+    margin-bottom: 15px;
+  }
+  }
+
+
+  .meta {
+
+    margin-top: 30px;
+
+    .date, .location {
+      color: $secondary-color;
+      font-weight: 400;
+    }
+
+  }
+
+  .logo img {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 17vh;
+
+    @media (max-width: 767px){
+      max-height: 10vh;
+      margin-top: 0px;
+    }
+
+
+  }
+
+  .meta p {
+    font-family: 'Comfortaa', Roboto, cursive, sans-serif;
+    font-size: 2.0em; 
+    color: $orange;
+
+    @media (max-width: 1900px){
+      font-size: 1.4em; 
+    }
+    @media (max-width:1035px) {
+      font-size: 1.4em;  
+    }
+    @media (max-width: 375px){
+      font-size: 1.1em; 
+      
+    }
+  }
+
+
+  .scroll-link {
+    margin-top: 30px;
+  }
+
+  .scroll-link img {
+    height: 30px;
+  }
+
+  .divider {
+    width: 120px;
+    height: 6px;
+    background: $primary-color;
+    display: block;
+  }
+
+  .btn-banner1 {
+    background-color: $blue;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 1.8em;
+    padding: 20px 30px 20px 30px;
+
+
+    @media (max-width: 1900px){
+      font-size: 1.1em; 
+    }
+
+    @media (max-width:875px) {
+      padding: 10px 20px 10px 20px;
+      font-size: 1.1em;
+      
+    }
+
+    &:hover {
+      color: $blue;
+      background-color: $yellow;
+    }
+  }
+
+  .btn-banner2 {
+    background-color: $yellow2;
+    color: $white;
+    font-weight: 500;
+    letter-spacing: .1em;
+
+    &:hover {
+      background-color: $yellow;
+      color: $white;
+    }
+  }
+}
+
+
+.section-mascot-venue{
+  background-image: url("/images/venueblock.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 70% 30%;
+  } 
+
+
   .mascot-container {
     padding-bottom: 10vh;
     width: 30vw;
