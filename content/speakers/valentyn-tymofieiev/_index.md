@@ -6,7 +6,7 @@ images:
 twitter: 
 linkedin: 
 events:
- - 2023
+ - 2024
 ---
 
 Valentyn is an Apache Beam committer and a Software Engineer at Google working on Google Cloud Dataflow.

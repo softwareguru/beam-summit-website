@@ -1,12 +1,12 @@
 ---
 title: "Svetak Sundhar"
-designation: Data Engineer at Google
-images: 
+designation: "Data Engineer, Google "
+images:
  - /images/speakers/svetak-sundhar.jpg
-twitter: "https://twitter.com/svetaksundhar"
-linkedin: "https://www.linkedin.com/in/svetakvsundhar/"
+twitter: 
+linkedin: 
 events:
- - 2023
+ - 2024
 ---
 
-Svetak is a Data Engineer at Google Cloud, and an active contributor to Apache Beam and Google Cloud Dataflow. Svetak holds degrees in Statistics and Computer Science and is very interested in Data Intensive Computing (Distributed Systems and Database Systems).
+Svetak has been contributing to Beam the last 3 years, and is a Data Engineer at Google.

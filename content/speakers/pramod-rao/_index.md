@@ -4,9 +4,9 @@ designation: "Google Professional Services"
 images:
  - /images/speakers/pramod-rao.jpg
 twitter: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/raopramod
 events:
- - 2023
+ - 2024
 ---
 
 Data Engineer within Google Professional Services

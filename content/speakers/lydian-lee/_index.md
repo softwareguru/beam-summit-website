@@ -6,7 +6,7 @@ images:
 twitter: 
 linkedin: https://www.linkedin.com/in/lydianlee/
 events:
- - 2023
+ - 2024
 ---
 
 Lydian Lee is staff software engineer in Affirm. She built the company's machine learning infra for interactive experiments and recently led the work for Affirm to build the stream processing platform for the company.

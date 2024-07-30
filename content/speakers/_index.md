@@ -4,4 +4,4 @@ description: "We have a great team of speakers that will share their experience 
 
 ---
 
-Meet our speakers for this edition of Beam Summit
+Meet our speakers for this edition of Beam Summit.

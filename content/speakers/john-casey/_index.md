@@ -6,7 +6,7 @@ images:
 twitter: 
 linkedin: 
 events:
- - 2023
+ - 2024
 ---
 
 John is a Software Engineer at Google, and an Apache Beam Committer. He focuses primarily on IOs, especially Kafka IO.

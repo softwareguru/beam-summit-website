@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<div class="container mb-4">
+    <p class="text-center">
+        {{ .Content }}
+    </p>
+
+    <table data-toggle="table" data-search="true" data-search-align="left" data-sortable="true">
+        <thead>
+            <tr>
+                <th data-field="title" data-sortable="true">Title</th>
+                <th data-field="when" data-sortable="true">Scheduled at</th>
+                <th data-field="room" data-sortable="true">Room</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {{ range sort .Data.Pages ".Params.time_end" }}
+            <tr>
+                <td><h5 class="mb-0"><a href="{{.Permalink}}" class="session-title">{{ .Params.title }}</a></h5>
+                    <em>by {{ with .Params.speakers }}{{ delimit . ", " " & " }}{{ end }}</em>
+                </td>
+                <td nowrap>{{ with .Params.time_start | time }}{{ .Format "Sep-2" }}<br>{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }}-{{ .Format "15:04" }}{{ end }}</td>         
+                <td>{{ with .Params.room }}{{ . }}{{ end }}</td>         
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+
+</div>
+
+
+{{ end }}

@@ -6,7 +6,9 @@ images:
 twitter: 
 linkedin: https://www.linkedin.com/in/tomstepp
 events:
- - 2023
+ - 2024
 ---
 
-Working to make Dataflow's Streaming Engine faster, more reliable, and more efficient!
+I work on Dataflow Streaming at Google!
+
+https://cloud.google.com/dataflow/docs/concepts/streaming-pipelines

@@ -1,503 +1,161 @@
 title,description,speakers,topics,room,time_start,duration,time_end
-A case for resource-conscious autotuning in stream processing systems,"How can we improve a streaming application’s throughput by an order of magnitude? Today, the go-to strategy for handling larger volumes of events or reducing end-to-end latency is scaling out. However, throwing resources at the problem is like traveling in a hot air balloon: it’s expensive and it might not even get us to the destination. In this talk, I will introduce resource-conscious reconfiguration and show how knowledge about streaming workloads and their execution can improve application performance without requiring additional resources. I will share our latest research on resource-conscious optimizations for stream processing, such as workload-aware state management, task placement, and OS-tuning. Finally, I will discuss open challenges in making next-generation stream processing systems self-managed and resource-efficient.",Vasia Kalavri,,Horizon,2023-06-13 09:30:00,30,2023-06-13 10:00:00
-Multi-language pipelines: a unique Beam feature that will make your team more efficient,"Apache Beam offers a unique feature named multi-language pipelines. This feature allows you to use any Beam transform from any Beam pipeline irrespective of the language SDKs the transform or the pipeline is developed in. This allows Beam users to completely isolate development of transforms from development of pipelines. Think of an organization with development teams working on features built using different languages. Now each team can focus on developing transforms for the feature in their preferred language. After transforms are developed, they can be used by any team inside or outside the organization in Beam pipelines developed using any Beam SDK language. Teams no longer have to develop the same feature in different languages or compromise on the features based on the library support of the pipeline SDK. This allows development teams to be more efficient and allows organizations to significantly reduce the financial overheads related to feature development and maintenance. In this talk, we’ll deep dive into how Apache Beam’s multi-language pipelines are executed and look closely at some example multi-language pipelines.",Chamikara Jayalath,Cross language,Upper Bay,2023-06-13 11:00:00,50,2023-06-13 11:50:00
-How to write an IO for Beam,"Writing an IO in Beam is hard. Distributed data reading and writing are inherently challenging, and its easy to make mistakes. This session is a walk through on the key design hurdles, and how to use Beam features to write a high quality IO.",John Casey,IO,Palisades,2023-06-13 11:00:00,50,2023-06-13 11:50:00
-Beam at Talend - the long road from incubator project to cloud-based Pipeline Designer tool.,"Talend is one of the first companies that started to use and contribute to Beam, literally from the first days when Beam was accepted as a new project in the ASF incubator. 
- 
- 
- 
- In this talk, we'll go through the long journey of using Beam at Talend in various ways, from the first experiments with Beam to one of the core components of our data processing engine. Over the years, Talend's open source team has helped make it easier to integrate Beam into the company's products and make Beam better as a project through their many contributions at the same time.
- 
- 
- 
- This journey should help the audience to track the key milestones and highlight the evolution of use cases that a mid-sized company might encounter over years of active use and contributions to an open source project.",Alexey Romanenko,Use case,Horizon,2023-06-13 11:00:00,25,2023-06-13 11:25:00
-Scaling Public Internet Data Collection With Apache Beam,"In Cortex Xpanse, we are scanning the internet and collecting public internet data in order to identify issues in customers' assets.
- 
- In this session, I'll present the wide usage of Beam in our org (hint: we have over 1000 daily running jobs) and share our best practices. Be ready to learn how are we deploying, monitoring, optimizing, and testing our pipelines.",Lior Dadosh,Use case,Horizon,2023-06-13 11:30:00,25,2023-06-13 11:55:00
-A Beginners Guide to Avro and Beam Schemas Without Smashing Your Keyboard,"This beginner-friendly talk will cover everything I wish I had known when I started writing batch and streaming Beam jobs that use Avro-Schema-encoded data and Beam-Schema-aware PCollections.
- 
- 
- 
- Apache Avro is a popular data serialization format that uses schemas for cross-language serializing and deserializing data. Apache Beam provides a type system for records called “Schemas,” which allows for cross-language type sharing, easy type conversion, and an easy way to share PTransforms between types. Using an Avro Schema for external data sources and Beam Schemas for the internal PCollections is a powerful combination plagued with beginner-unfriendly nuanced differences.
- 
- 
- 
- In this talk, we will cover:
- 
- - How we use Avro for our Streaming and Batch data sources and how Avro enables powerful workflows with PubSub, Google Cloud Storage, and BigQuery.
- 
- - How we manage internal and external representations of our data types with Beam Schemas and help us write simpler jobs that share more code.
- 
- - How using Avro and Beam Schemas in conjunction allows us to seamlessly deploy every job as either streaming or batch at the flip of a Pipeline Option and how you can do the same.
- 
- - How Oden migrated from JSON to Avro and reduced our Pubsub and Dataflow costs by over 50%.",Devon Peticolas,Architecture,Upper Bay,2023-06-13 12:00:00,50,2023-06-13 12:50:00
-Managed Stream Processing through Apache Beam at LinkedIn,"Managed Beam is LinkedIn's initiative to offer a fully managed stream processing platform via Apache Beam. This platform enables LinkedIn engineers to quickly build and easily run sophisticated streaming applications, without requiring costly infrastructure expertise. At LinkedIn, our stream infrastructure, which combines Apache Beam and Apache Samza, processes over 4 trillion events daily across more than 10,000 pipelines, powering critical services and platforms, including machine learning, notifications, tracking, and anti-abuse.
- 
- 
- 
- In this talk, we will share the key innovations of the fully managed Beam platform, which include:
- 
- 
- 
- 1) Workflow Components: reusable and language-neutral building blocks built by Beam JDKs with Protobuf interface, allowing users to compose fully managed workflows, such as source, sink, filter, projection, and aggregation etc.
- 
- 
- 
- 2) Compute Isolation: the isolation between user logic and infra framework in build, deploy, and runtime enables both to evolve and operate independently, such as seamless framework upgrade for Beam applications with UDFs. We have achieved this through runtime process-level separation via the Beam Portability Framework.
- 
- 
- 
- 3) Auto Sizing: automatically tunes Beam application resources (e.g., CPU, memory, and disk) to optimize for stability and cost efficiency.
- 
- 
- 
- 4) Auto Triaging: automatically detects and classifies application and platform health issues. It determines whether an issue is caused by the platform (e.g., noisy neighbors) or the user (e.g., processing exceptions or timeouts).","Bingfeng Xia, Prateek Maheshwari","Runners, Use case",Horizon,2023-06-13 12:00:00,50,2023-06-13 12:50:00
-Beam IO: CDAP and SparkReceiver IO Connectors Overview,"Overview of a Beam IO development process and practical insights gained from experience developing CDAP IO and SparkReceiverIO.
- 
- 
- 
- CDAP IO provides transforms for reading and writing data via CDAP (https://cdap.io/ ) plugins to connect Apache Beam with a variety of applications like Salesforce, Hubspot, ServiceNow, and Zendesk. Streaming SparkReceiver IO connector provides read transforms using Custom Spark Receivers, for example, to support streaming reading in CDAP IO.","Alex Kosolapov, Elizaveta Lomteva",IO,Palisades,2023-06-13 12:00:00,50,2023-06-13 12:50:00
-A practical guide to Schema | Java SDK edition,This session provides a practical step-by-step guide to using a Beam Schema in your Java SDK pipelines. The aim is for you to come away with simpler and cleaner pipelines that can read from and write to many popular Beam IOs with a single Java class.,Damon Douglas,"Schema, Java",Upper Bay,2023-06-13 14:00:00,25,2023-06-13 14:25:00
-Beam in Nokia NWDAF Distributed Architecture,"This session will present the analytics requirements of 5G stand-alone core, focusing on the NWDAF use cases.
- 
- We will describe how Beam is used to configure pipelines in the Nokia NWDAF edge and central.
- 
- We will discuss the challenges of dealing with multiple velocity data streams over Flink and Dataflow and provide a technical walk-through our pipelines.",Ifat Afek,Use case,Horizon,2023-06-13 14:00:00,25,2023-06-13 14:25:00
-Beam Templates: Efficiency of Engineers and/or Compute?,"Chartboost has been using Beam templates to keep our Data Engineers developing pipelines efficiently. In this talk, we will share some of our experiences, and some of our recent learnings - especially around performance benchmarks, which were done to help us quantify the [ potential ] tradeoffs between developer and computational efficiency. We will share the concrete numbers and methods, so you can make your own decision.",Austin Bennett,Templates,Palisades,2023-06-13 14:00:00,25,2023-06-13 14:25:00
-Easy cross-language with SchemaTransforms: use your favorite Java transform in Python SDK,"Recent efforts have made it much easier for a pipeline written in one SDK to discover and use a transform developed in another SDK. This is a walk-through of how to take a Java transform, develop a corresponding SchemaTransform for it, then discover and use it in a Python SDK pipeline.",Ahmed Abualsaud,Cross language,Upper Bay,2023-06-13 14:30:00,25,2023-06-13 14:55:00
-Mapping Data to FHIR with Apache Beam,"A common use case across various teams at League is to to map regular data into its FHIR format (Fast Healthcare Interoperability Resources). This is not straightforward as it requires an understanding of the FHIR format, the original data source, as well as the mapping pipeline in Dataflow itself, owned by the data platform team. As a result, this causes a bottleneck on a single team, leading to inefficient and repeated work. 
- 
- 
- 
- While the data comes from many different sources, the use case of mapping a certain data format into FHIR is actually quite a repeated pattern regardless of whether it is required in real-time or batch, or where the data the source of the data is. The solution: 
- 
- We developed a reusable self-serve system based on Apache Beam to make it easier for other teams develop and deploy their own mappers easily using Python UDFs. Now with minimal guidance from the data platform team, any team can write their own mapper and deploy a batch OR real-time dataflow job, without needing the dataflow/infra knowledge. The job template handles everything from the reading of the data from the source (PubSub, BigQuery, GCS) and the writing to the destination (Cloud Healthcare API), including error handling and alerting.",Alex Fragotsis,"Architecture, Use case, Templates, Python",Horizon,2023-06-13 14:30:00,25,2023-06-13 14:55:00
-Managing dependencies of Python pipelines,"In this talk we will discuss approaches to configure software dependencies of Apache Beam Python pipelines, how to avoid rough edges during pipeline submission, and how to debug issues pertaining to dependency management when they occur.
- 
- 
- 
- We will also touch on lessons learned from managing dependencies of Apache Beam Python SDK itself.",Valentyn Tymofieiev,Python,Palisades,2023-06-13 14:30:00,25,2023-06-13 14:55:00
-Cross-language JdbcIO enabled by Beam portable schemas,"The cross-language framework of Apache Beam enables the utilization of Beam transforms across SDKs. This provides an efficient way to process data with the native Java database connectivity (JDBC) interface using the increasingly popular Beam Python SDK. Since Beam v2.42.0, Beam Python SDK's JdbcIO and the underlying Beam portable schemas have received significant improvement in both feature and performance. This talk shares the experience of the development and use cases enabled by these improvements.",Yi Hu,"Schema, IO, Cross language",Upper Bay,2023-06-13 15:00:00,25,2023-06-13 15:25:00
-Use Apache Beam to build Machine Learning Feature System at affirm,"In this session, we will explore how Affirm use Apache Beam to build a unified transformation engine within a machine learning feature store. We will demonstrate how to leverage Apache Beam to enable machine learning in various business cases, such as fraud detection, underwriting, and growth. By doing so, we'll establish an efficient framework that can improve the development velocity of machine learning engineers.""",Hao Xu,"Use case, ML",Horizon,2023-06-13 15:00:00,25,2023-06-13 15:25:00
-Meeting Security Requirements for Apache Beam Pipelines on Google Cloud,"When running Apache Beam pipelines in an enterprise environment, it is important to be able to meet a variety of security requirements. These requirements may include:
- 
-  - Role separation and least privileges: Identities should only be able to access the data and resources that they need to perform their job.
- 
- - Private resources: Data and resources should be stored and processed in a private environment that is not accessible to the public.
- 
-  - Encryption of customer data: Customer data should be encrypted at rest using a customer managed encryption key.
- 
- 
- 
- In this talk we will identify a reference architecture to accomplish all such requirements on a Google Cloud Platform environment.",Lorenzo Caggioni,Architecture,Palisades,2023-06-13 15:00:00,25,2023-06-13 15:25:00
-Oops I *actually* wrote a Portable Beam Runner in Go,"A sequel to last year's talk, Robert actually put to code his ideas on improving the Beam testing experience for future SDKs. This talk will cover what the new runner can do, and why you might find it useful.
- 
- 
- 
- Includes demo, code walkthrough, and testing advice.",Robert Burke,"Runners, Go",Upper Bay,2023-06-13 15:30:00,25,2023-06-13 15:55:00
-Simplifying Speech-to-Text Processing with Apache Beam and Redis,"Abstract:
- 
- 
- 
- Processing speech-to-text data streams can be complex, particularly when it comes to sequencing and event deduplication. Beam runners offer stateful processing backends to address these challenges, but such backends can introduce additional complexities and tie the implementation to a specific runner.
- 
- 
- 
- In this session, we present our design journey to solve a complex speech-to-text processing problem in Apache Beam by leveraging Redis, a simple and efficient external persistent state. Redis provides data types that can handle ordering and deduplication, and offers automatic state management through TTL. By using Redis, we were able to simplify our pipeline code and free it from the constraints of runner-specific stateful mechanisms.
- 
- 
- 
- We will walk through our design iteration process showcasing how we were able to use Redis along with Apache Beam to meet the complex business requirements of a large telecom enterprise. Our approach can serve as a blueprint for other organizations looking to simplify their speech-to-text processing pipelines.","Pramod Rao, Prateek Sheel","Use case, Architecture",Palisades,2023-06-13 15:30:00,25,2023-06-13 15:55:00
-Introduction to Clustering in Apache Beam,"A common way to train a machine learning model to classify data is to show the model a lot of examples together with a label. In the real world, you often don't have labeled data because labeling is a labor intensive and costly job or simply because it's really hard for humans to label the data. When working with unlabeled data, clustering/cluster analysis is a commonly used technique to group similar data together. It is used to solve a variety of problems in many different fields ranging from bioinformatics to detect cancer cells all the way up the financial world where it is used to detect fraudulent transactions in a banking system.
- 
- 
- 
- One of the biggest challenges when putting such machine learning applications into production is managing all the different steps, such as: data ingestion to data cleaning, scaling infrastructure, etc.. However, Apache Beam is capable of all of these steps and makes it possible to easily build scalable machine learning workflows.
- 
- 
- 
- In this session we'll focus on the Online Clustering Transform. We'll start the session with a small introduction on clustering for non-machine learning experts where we'll explain how the algorithms work and what the difference is between online and offline clustering. We will then explain how Clustering Transform works behind the scenes.
- 
- 
- 
- Finally we will take a look at example use, where we will put the clustering transform at work. We will get a streaming pipeline that does anomaly detection on sensor data so that such defects can be detected.",Jasper Van den Bossche,,Horizon,2023-06-13 15:30:00,25,2023-06-13 15:55:00
-Introducing SpringQL as a Rust-based Beam Engine for IoT Devices,"SpringQL (https://github.com/SpringQL/SpringQL) is a single-node stream processor designed specifically for IoT devices. It is written in Rust, which allows it to keep applications small and fast, avoiding the need for large language runtimes or garbage collections. In this talk, we propose making SpringQL as a Beam engine, and discuss the work that we are doing to change SpringQL's API from incomplete streaming SQL to the Beam Model.
- 
- 
- 
- To achieve this, we are using an experimental Rust SDK (https://github.com/apache/beam/issues/21089), which we are also contributing to and improving. We will share our progress and discuss any challenges we have faced in the process. While we may not have a fully functioning SpringQL as a Beam engine by the time of the presentation, we will share our plans for future work and discuss the potential benefits of using Rust for Beam on IoT devices.",Sho Nakatani,Use case,Horizon,2023-06-13 16:15:00,25,2023-06-13 16:40:00
-Scaling up the OpenTelemetry Collector with Beam Go,"The OpenTelemetry Collector is a remarkable piece of software. It has a lot of parallels with a Beam pipeline, but it's focused on processing and converting telemetry data. Due to its focus, it's not designed to be run in batch and has limited functionality for parallelism.
- 
- 
- 
- The ability to run the same pipelines in ""batch"" would undoubtedly be valuable for processing historical data now that the Telemetry Query Language is becoming more mature. If we succeed in making the Collector run with the Beam SDK, the need to create a dedicated pipeline will disappear.
- 
- 
- 
- We will go through the steps, successes, and failures of making a ""Go"" program, like the OpenTelemetry Collector, and adapt it to work with the Apache Beam Go SDK.",Alex Van Boxel,Go,Upper Bay,2023-06-13 16:15:00,25,2023-06-13 16:40:00
-Troubleshooting Slow Running Beam Pipelines,"This session will be presenting the Apache Beam pipeline troubleshooting techniques that would empower professionals to research and resolve Beam issues by themselves. In this session, I will be using GCP to provide some context and examples.",Mehak Gupta,Operations,Palisades,2023-06-13 16:15:00,25,2023-06-13 16:40:00
-Beam loves Kotlin: full pipeline with Kotlin and Midgard library,"The goal of this talk is showing a real-world and full Beam pipeline with Kotlin and Midgard library.
- 
- 
- 
- This library was created recently to help Beam and Kotlin communities to have a more concise / expressive code and more functional programming style.
- 
- 
- 
- Kotlin is a great language and we love using it with Beam, we proposed this combination at my last customer and the code is beautiful.
- 
- 
- 
- We will firstly show the pipeline with Beam Java.
- 
- 
- 
- We will then show the same pipeline with Kotlin and Midgard with a live coding in some part of the pipeline.
- 
- 
- 
- This example will contain many operators (map, flatMap and filters), the use of Beam DoFn lifecycle and side input.
- 
- 
- 
- At the end, we will explain the strategy behind Midgard based on Kotlin extensions, to be very near to the native Beam Java sdk and have the possibility to mix very easily Midgard code with native code.",Mazlum Tosun,Cross language,Upper Bay,2023-06-13 16:45:00,50,2023-06-13 17:35:00
-Resolving out of memory issues in Beam Pipelines,Out of memory issues is a very common problem that pipelines often run into. This talk covers best practices to write memory efficient Beam pipelines and pitfalls to avoid. We will also touch upon Dataflow capabilities that can help avoid such issues.,Zeeshan Khan,"Runners, Operations",Palisades,2023-06-13 16:45:00,25,2023-06-13 17:10:00
-Unbreakable & Supercharged Beam Apps with Scala + ZIO,"Google Cloud Dataflow with Beam is at the core of how Credit Karma recommends the best offers for its 120M+ users worldwide. Using Scala with ZIO, we will demonstrate with code examples how to easily solve common production challenges including: 
- 
- 
- 
- * controlling misbehaving Tensorflow & PMML models
- 
- * transient job failures and Dataflow bugs, 
- 
- * running multiple parallel jobs
- 
- * detecting anomalous jobs
- 
- * preventing errors at the petabyte scale
- 
- * speculative jobs for optimizing operation
- 
- * and more","Aris Vlasakakis, Sahil Khandwala","Use case, Scala, Operations",Horizon,2023-06-13 16:45:00,25,2023-06-13 17:10:00
-Benchmarking Beam pipelines on Dataflow,"Learn how to write load tests for your beam pipelines and measure their performance metrics in various scenarios. This can help you compare options, plan capacity, estimate costs, and avoid performance regressions.",Pranav Bhandari,"Testing, Runners",Palisades,2023-06-13 17:15:00,25,2023-06-13 17:40:00
-Community Discussion: Future of Beam,"Let's get the community in one room and discuss the future of Beam. What do you think what's needed to make Beam a success? This forum will allow you to make a case for what you believe will be crucial. Submit your proposal for an item to discuss: https://forms.gle/2dQMowmbbTyW3SWC7.
- 
- 
- 
- We will group and prioritize the topic and contact you when you're selected.",Alex Van Boxel,,Horizon,2023-06-13 17:15:00,45,2023-06-13 18:00:00
-"Beam ML past, present and future","An overview of Beam ML capabilities that have been added since last Beam Summit, and where Beam ML is headed next","Kerry Donny-Clark, Reza Rokni",ML,Horizon,2023-06-14 09:00:00,30,2023-06-14 09:30:00
-Founders' Panel - Robert Bradshaw and Kenn Knowles,"Kenn Knowles and Robert Bradshaw talk and look back at their early experiences building streaming and batch systems, and where Beam has gone so far.","Robert Bradshaw, Kenneth Knowles",,Horizon,2023-06-14 09:30:00,30,2023-06-14 10:00:00
-Running Apache Beam on Kubernetes: A Case Study,"In this session, we will discuss how to run Apache Beam on Kubernetes. We will cover the following topics:
- 
- 
- 
- - The benefits of running Apache Beam on Kubernetes
- 
- - The challenges of running Apache Beam on Kubernetes
- 
- - How to overcome the challenges
- 
- - A case study of running Apache Beam on Kubernetes
- 
- 
- 
- This session is intended for people who are interested in running Apache Beam on Kubernetes and want to learn about its benefits and challenges. The session will be hands-on and will include a live demo of running Apache Beam on Kubernetes.",Sascha Kerbler,"Kubernetes, Use case",Upper Bay,2023-06-14 10:30:00,25,2023-06-14 10:55:00
-Dealing with order in streams using Apache Beam,"How to get data processed in order even when the queue deliver messages unordered?
- 
- 
- 
- One of the main problems when working with data in streaming is out of order. Data will come unordered and late. How come we apply a logic to that stream if it requires data to be ordered? Is there any solution to that?
- 
- 
- 
- In this talk, we will see how we can solve this problem using Apache Beam, and apply any temporal logic to keyed streams, however complex it is, even if it requires recovering the order in which data was produced.",Israel Herraiz,Use case,Palisades,2023-06-14 10:30:00,25,2023-06-14 10:55:00
-Apache Beam and Ensemble Modeling: A Winning Combination for Machine Learning,"Are you looking for ways to streamline your machine learning pipeline and make it more efficient? Look no further than this talk on Apache Beam and ensemble modeling. In this session, we'll show how to leverage the power of Apache Beam's flexible data processing framework and the RunInference API to simplify your workflow for complex machine learning tasks.
- 
- 
- 
- One of the biggest challenges in developing machine learning systems is managing the various steps involved in the process. From data ingestion to processing tasks, inference, and post-processing, there are a lot of moving parts to keep track of. But with Apache Beam's single DAG (directed acyclic graph) encapsulation, you can orchestrate all of those steps together in a streamlined, efficient manner. This allows you to build resilient and scalable end-to-end machine learning systems.
- 
- 
- 
- We'll demonstrate how you can use the RunInference API to deploy your machine learning model in a Beam pipeline. By integrating your model as a step in your DAG, you can compose multiple RunInference transforms within a single pipeline. This makes it easier than ever to build complex ML systems with multiple models.
- 
- 
- 
- We'll walk you through an end-to-end example of an ensemble model pipeline used for generating and ranking image captions. Using two open-source models - the BLIP model for image caption generation and the CLIP model for caption ranking - we'll show you how to implement a powerful image captioning system that ranks captions based on how well they describe the input image.
- 
- 
- 
- After attending this talk, you'll have a deeper understanding of how Apache Beam and ensemble modeling can simplify your machine learning workflow and help you build more effective systems.
- 
- 
- 
- Session 25m: Live session of 25 minutes",Shubham Krishna,ML,Horizon,2023-06-14 10:30:00,25,2023-06-14 10:55:00
-Overview of a State Processing Toolkit for Apache Beam,"Internal states managed by a stateful Beam pipeline are often a black box to pipeline developers. There are various use cases in which the ability to maneuver states would be helpful. At a high level, there are two alternatives one can maneuver the states. One may want to expose the states to some external storage or one may want to kickstart a pipeline with the data from external data sources. In this talk, we would share why, at Intuit, we believe the ability to inspect states and the ability to kickstart a pipeline with some initial states from an external source would be useful. We would share the challenges that we faced and how we address the problems in our State Processing toolkit.","Harish Nagu Sana, Antonio Si, Prema devi Kuppuswamy","State & timers, Use case",Palisades,2023-06-14 11:00:00,25,2023-06-14 11:25:00
-Building Fully Managed Service for Beam Jobs with Flink on Kubernetes,"At Palo Alto Networks, We are using Beam on Dataflow for 10K+ jobs. Beam has good abstraction run on multiple runner. For multi Cloud Provider use case We developed a fully managed stream processing platform on Flink running on K8s to power thousands of stream processing pipelines in production without changing our business code. This platform is the backbone for other infra systems like Real Time Analytics and Log processing to handle 10 Million rps.
- 
- 
- 
- We have provided a rich authoring and testing environment which allows users to create, test, and deploy their streaming jobs in a self-serve fashion within minutes with Dataflow. Now we provide similar functionality by building Beam Flink based platform on Kubernetes.
- 
- 
- 
- So Users can focus on their business logic, leaving the Beam platform to take care of management aspects such as resource provisioning, auto-scaling, job monitoring, alerting, failure recovery and much more on multi cloud platform.
- 
- 
- 
- In this talk, we will introduce the overall platform architecture, highlight the unique value propositions that it brings to stream processing at Palo Alto Networks and share the experiences and lessons we have learned while creating Beam Kubernetes based platform","Talat Uyarer, Rishabh Kedia","Kubernetes, Use case, Architecture",Upper Bay,2023-06-14 11:00:00,25,2023-06-14 11:25:00
-Per Entity Training Pipelines in Apache Beam,"When building a machine learning application, engineers often make a trade-off between training a single model or one model per entity. Imagine you're building a chatbot for an online retailer that sells to customers around the world that speak many different languages. You could opt for a single multilingual model or you could train a model for English, Spanish, French, etc.. Another example could be quality inspection using different kinds of sensors. You could build a model that takes all sensory data or you could build a model that predicts defects using the data of a single sensor. This concept is called per entity training and has a few advantages:
- 
- 
- 
- Smaller models are easier to train, cheaper to run and it is easier to detect and fix problems with the model or the data it is trained on. However one of the big challenges when working with per entity training is managing all steps involved. These steps may include: Data ingestion from different sources, processing data in various formats and varying quality, inference of the different models or post processing the results such that they can be presented to the end user in such a way that is easy to understand.
- 
- 
- 
- Apache Beam can serve as an excellent system to keep track of all of these steps. In this session we will take a deep dive into per entity training using Apache Beam. We will go step by step over an example where we analyze the incomes of individuals living in different parts of the US. In this conference, You will gain an understanding of how data is processed from different sources, how the different models are trained and how this workflow can easily scale.",Jasper Van den Bossche,ML,Horizon,2023-06-14 11:00:00,50,2023-06-14 11:50:00
-Running Beam Multi Language Pipeline on Flink Cluster on Kubernetes,"The mission of Affirm is to provide honest financial products and services that empower consumers to spend and save responsibly. To achieve this goal, we need to have event-sourced data interfaces to allow pseudo real time event processing and aggregation. Affirm uses Apache Beam to deliver streaming applications written in Python, and to re-use existing Python business logic in streaming pipelines. However there are challenges in properly configuring across-language pipeline to run Python on theJava KafkaIO library, largely due to lack of examples and documentation. In this blog post, we would like to share how Affirm configures our Apache Beam pipelines to run on a kubernetes-powered Apache Flink cluster. Hopefully we can help other teams bridge the gap on setting up their streaming infra.",Lydian Lee,"Runners, Kubernetes, Cross language",Upper Bay,2023-06-14 11:30:00,25,2023-06-14 11:55:00
-Too big to fail - a Beam Pattern for enriching a Stream using State and Timers,"Imagine you have an two unlimited stream of events, one contains IDs and their hashed counterparts for lookups, and one the full information about every object with its hashed id. Your job is to output the full information for each object with it’s clear text id. You could query a single source of truth to enrich, but you don’t want to hammer an external API for this as its typically slower than letting Beam run the show.
- 
- This talk introduces a pattern as a possible solution to this problem.","Tobias Kaymak, Israel Herraiz",State & timers,Palisades,2023-06-14 11:30:00,25,2023-06-14 11:55:00
-"How many ways can you skin a cat, if the cat is a problem that needs an ML model to solve?","I'll show how Beam's RunInference transforms lets you use the ML framework of your choice to solve your inference problems. Pytorch, ONNX, TensorFlow, and TensorRT models will be demonstrated.",Kerry Donny-Clark,ML,Horizon,2023-06-14 12:00:00,50,2023-06-14 12:50:00
-Machine Learning Platform Tooling with Apache Beam on Kubernetes,"At MavenCode, we consult, develop and train on how to implement large-scale production-grade Machine learning workflows all on Kubernetes, and Apache Beam has gradually become a defacto standard for us in handling large-scale ML workloads
- 
- 
- 
- In recent years, the adoption of Kubernetes as a container orchestration platform has exploded, making it an ideal environment for deploying and managing distributed systems. At the same time, Apache Beam has emerged as a powerful framework for building and executing large-scale data processing pipelines that can be deployed across various execution engines and increasing native support for handling Machine Learning workloads and inferencing at scale
- 
- 
- 
- Machine learning operations (MLOps) are a crucial component of building successful machine learning applications, but it can be challenging to manage the complex workflows involved in MLOps. In this talk, we will explore how to build platform tools for MLOps using Apache Beam, an open-source framework for building batch and streaming data processing pipelines, and Kubernetes, a container orchestration platform.
- 
- 
- 
- We will discuss the benefits of this approach, including automating and streamlining the process of building and deploying machine learning applications, and the ability to support a range of tasks involved in a machine learning platform tooling such as data ingestion, preprocessing, feature engineering, model training, model serving, and monitoring. We will highlight real-world use cases and best practices for building and deploying machine learning platform tools, such as containerization, version control, and continuous integration/continuous deployment. Attendees will leave with a deeper understanding of how to leverage Apache Beam and Kubernetes to build machine learning platform tooling that can help drive success in machine learning projects.",Charles Adetiloye,"Kubernetes, ML",Upper Bay,2023-06-14 12:00:00,25,2023-06-14 12:25:00
-Deduplicating and analysing time-series data with Apache Beam and QuestDB,"Time series data pipelines tend to prioritise speed and freshness over completeness and integrity. In such scenarios, it is very common to ingest duplicate data, which may be fine for many analytical use cases, but is very inconvenient for others.
- 
- 
- 
- There are many open source databases built specifically for the speed and query semantics of time series, and most of them lack automatic deduplication of events in near real-time. One such database is QuestDB, which requires a manual batch process to deduplicate ingested data.
- 
- 
- 
- In this talk, we will see how we can successfully use Apache Beam to deduplicate streaming time series, which can then be analysed by a time series database.",Javier Ramirez,State & timers,Palisades,2023-06-14 12:00:00,25,2023-06-14 12:25:00
-Design considerations to operate a stateful streaming pipeline as a service,"Businesses are looking to harness the power of real-time data with streaming analytics and more often or not that involves computing stateful transformations out of the raw data stream. When the business logic to be applied in streaming is complex and does not use time-based aggregations, it is difficult to use windows, and it is easy to start by leveraging external stores to simplify the streaming pipeline implementation, however this is an anti-pattern that eventually causes latency and troubleshooting issues. 
- 
- 
- 
- Furthermore, efficiently operating a streaming pipeline requires adoption of SRE principles (e.g. defining specific SLOs and error budget) to monitor the pipeline as a service and avoid alert fatigue. This session will walk you through an example use-case to demonstrate how you can leverage Apache Beam state and timers APIs for complex event processing in streaming and incorporate the SRE principles to design and operate a stateful streaming pipeline as a service.","Israel Herraiz, Bhupinder Sindhwani","Operations, Use case",Palisades,2023-06-14 12:30:00,25,2023-06-14 12:55:00
-Accelerating Machine Learning Predictions with NVIDIA TensorRT and Apache Beam,"Loading and preprocessing data for running machine learning models at scale can be a challenging task that requires seamlessly integrating the data processing framework with the inference engine. In this talk, we'll explore how NVIDIA TensorRT can be integrated with Apache Beam SDK to simplify the process of integrating complex inference scenarios within a data processing pipeline. We'll demonstrate how TensorRT and Apache Beam RunInference API can accelerate machine learning predictions, specifically for large models such as transformers.
- 
- 
- 
- Developing machine learning systems requires managing several steps, from data ingestion and processing to inference and post-processing. Keeping track of all these moving parts can be a significant challenge. But by integrating the power of NVIDIA TensorRT with the flexibility of Apache Beam SDK, you can stitch together the data processing framework and inference engine seamlessly. This integration can help reduce production inference costs while improving NVIDIA GPU utilization, latency, and throughput.
- 
- 
- 
- We'll walk through an end-to-end example of how the RunInference API in Apache Beam can be used with TensorRT to accelerate machine learning predictions. Our example uses a BERT-based text classification model for sentiment analysis, and we'll demonstrate how our approach can lead to significant speed improvements over traditional methods.
- 
- 
- 
- We'll also show some benchmarks that demonstrate the performance improvements achieved by integrating NVIDIA TensorRT with Apache Beam SDK. By attending this talk, you'll come away with a deeper understanding of how to use these tools to make your machine learning pipeline more efficient and scalable by achieving high-throughput and low-latency model inference.
- 
- 
- 
- Session 25m: Live session of 25 minutes",Shubham Krishna,ML,Upper Bay,2023-06-14 12:30:00,25,2023-06-14 12:55:00
-Parallelizing Skewed Hbase Regions using Splittable Dofn,"During HBase to Cloud BigTable Migrations, HBase snapshots will be imported to Cloud Bigtable. Each Snapshot contains several HBase regions and certain HBase regions can be quite large due to skewed data. 
- 
- 
- 
- In this presentation along with code snippets and benchmark test results, we showcase how to parallelize a skewed HBase Regions using Splittable DoFn and reduce pipeline runtime.",Prathap Reddy,Splittable DoFn,Palisades,2023-06-14 14:00:00,25,2023-06-14 14:25:00
-Write your own model handler for RunInference!,"This talk will cover how to write a custom model handler for RunInference transform in Python SDK. Currently, we support Sklearn, PyTorch, Tensorflow, Onxx, and XGBoost model handlers. But there are situations when developers would like to write their own because of different input types they are using, any new framework, custom options, etc. I'll talk about the bits and pieces of writing a new model handler and explain the key components by using a Tensorflow model handler as an example.",Ritesh Ghorse,"ML, Python",Horizon,2023-06-14 14:00:00,25,2023-06-14 14:25:00
-How to balance power and control when using Dataflow with an OLTP SQL Database,"We created a Python SDK-based Dataflow streaming pipeline for a major French retail company. When notified, the pipeline efficiently reads large CSV files from Google Cloud Storage and selects, inserts, upserts, and deletes rows from a Cloud SQL Postgres database with a controlled number of connections.
- 
- The business purpose of this project is to use streaming queries in order to apply various types of transactions to an OLTP database based on CSV files.
- 
- 
- 
- Technical description:
- 
- Connecting Cloud SQL to Dataflow is not straightforward. For example, the Cloud SQL JDBC connector is limited in the kind of read and write operations it allows and other custom connectors and can be easily overflown due to the parallelism and autoscaling capabilities of Apache Beam and Dataflow. Additionally, since the number of connections for a database is limited, we developed additional features to prevent connections from being overwhelmed.
- 
- 
- 
- Main focus:
- 
- After reviewing the most common ways to control the level of parallelism and its limit (number of threads and workers...), our talk will focus on how we controlled the number of connections to Cloud SQL in a Dataflow pipeline by leveraging the beam.utils.Shared module to share connections at the worker level.
- 
- We will show that by doing that and using the different flavors of reshuffle based transforms (groupIntoBatches, GroupByKey...), you can achieve a better control of your SQL connections.
- 
- 
- 
- We also developed SDF for reading large CSV files and created a streaming pipeline for inserting CSV rows into an OLTP database. Since the connection between Dataflow and Cloud SQL is not highlighted in the Google and Beam documentation, we want to share our experience with other companies who faced similar issues at the summit.",Florian Bastin,"Use case, Runners",Upper Bay,2023-06-14 14:30:00,25,2023-06-14 14:55:00
-Power Realtime Machine Learning Feature Engineering with Managed Beam at LinkedIn,"ML models are applied in all the key products like Job Recommendation, Search, Feed, and Ads in LinkedIn, powered by thousands of features about entities like companies, job postings, and LinkedIn members from the Economic Graph. Preparing and managing features has been one of the most time-consuming parts of operating ML applications at scale. There is a growing demand for fresh ""real-time"" feature data, which is expected to have significant business impact by boosting ML models' relevancy performance. 
- 
- 
- 
- 
- 
- A scalable framework solution for Realtime ML Feature Engineering, Managed-beam Feature Platform is built with the following main features:
- 
- 
- 
- - Cross-language and cross-platform compatibility: Java and Python Beam APIs are provided to AI engineers to author the real-time feature generation pipeline in their preferred language.
- 
- 
- 
- - Portable and scalable: Beam's portable API allows AI engineers to write code once and run it on any supported platform without any modification. This also allows for easy scalability as AI engineers can scale their processing capacity up or down by simply changing the underlying processing engine, especially for integrations with external resources and MLOps services.
- 
- 
- 
- - Managed Solution: Managed Beam Platform intelligently triages and mitigates operational issues in real-time through auto-sizing and auto-triaging. This allows for fully managed end-to-end operations by the platform with zero operational costs to ML users
- 
- 
- 
- 
- 
- Overall, Managed-beam Feature Platform empowers Realtime Machine Learning Feature Engineering with high usability, productivity and scalability.","David Shao, Yanan Hao","ML, Use case",Horizon,2023-06-14 14:30:00,50,2023-06-14 15:20:00
-Case study: Using statefulDofns to process late arriving data,We needed to process two different types of files arriving in the same bucket but there was no way of knowing if both files had arrived in real time. So we used two separate beam pipelines and StatefulDoFns to wait until the all the files are received and processed.,Amruta Deshmukh,Use case,Palisades,2023-06-14 14:30:00,25,2023-06-14 14:55:00
-CI CD for Dataflow with Flex Templates and Cloud Build,"The goal of this talk is showing a full example with a CI CD pipeline for Dataflow jobs.
- 
- 
- 
- The jobs will be based on Flex Template that is a way to standardize the deployment of Dataflow jobs and we are going to show a full example with Java and Python SDKs.
- 
- 
- 
- The CI CD will be orchestrated with Cloud Build based on a Github repository : 
- 
- - Launch unit tests on push to the Github repository
- 
- - Manual job to deploy the Dataflow job with Flex Template
- 
- - Manual job to run the Dataflow job and template
- 
- 
- 
- In an extra and optional part, we will show the Dataflow Flex Template deployment with Dagger IO and Go.
- 
- 
- 
- Dagger is a tool that allows to write CI CD Pipeline As Code.",Mazlum Tosun,,Palisades,2023-06-14 15:00:00,25,2023-06-14 15:25:00
-Dataflow Streaming - What's new and what's coming,"During this talk we will show what we have been working on for the last year and what we are doing to make Dataflow better. This includes improvements to autoscaling, load balancing, autosharding, and Pub/Sub integration.","Iñigo San Jose Visiers, Tom Stepp",Runners,Upper Bay,2023-06-14 15:00:00,25,2023-06-14 15:25:00
-Optimizing Machine Learning Workloads on Dataflow,"Trustpilot is is a community-driven platform that hosts reviews of businesses from across the world. It helps people by providing authentic reviews of products and services. 
- 
- 
- 
- As a reviews platform, Trustpilot handles large volumes of data, particularly text from many languages, making it an ideal use case for machine learning. We use Apache Beam on GCP Dataflow for batch and streaming machine learning workloads. 
- 
- 
- 
- In this talk, we would like to share our experiences optimizing the running of machine learning workloads on Dataflow including:
- 
- ‣ Granular resource specification with Dataflow Prime to significantly lower inference costs 
- 
- ‣ Making use of Beam's RunInference API for loading models
- 
- ‣ Running multiple large models in a pipeline by GPU sharing with NVIDIA MPS
- 
- ‣ Accelerating matrix operations in Beam pipelines with the JAX array computation library",Alex Chan,"ML, Runners",Horizon,2023-06-14 15:30:00,25,2023-06-14 15:55:00
-Hot Key Detection and Handling in Apache Beam Pipelines,"- Overview of hot keys and their impact on Beam pipelines
- 
- - Techniques for hot key detection and handling, including key partitioning and key normalization
- 
- - Best practices for dealing with hot keys in Beam pipelines, such as using custom combiners and windowing, and tuning pipeline settings 
- 
- - Some examples of Dataflow pipelines where hot key detection and handling proved to be critical for successful pipeline execution.
- 
- 
- 
- Attendees will leave this talk with a deeper understanding of how to identify and address hot key issues in their Beam pipelines, leading to better pipeline performance, scalability, and reliability.","Shafiqa Iqbal, Ikenna Okolo","Architecture, Operations, Use case",Upper Bay,2023-06-14 15:30:00,25,2023-06-14 15:55:00
-ML model updates with side inputs in Dataflow streaming pipelines,"In this session, we would go over a live demo of how user can update their Machine learning model in a Dataflow streaming pipeline without updating/stopping their beam pipeline as mentioned at https://cloud.google.com/dataflow/docs/guides/updating-a-pipeline using Apache Beam side inputs.
- 
- 
- 
- A side input containing model path[1] can be passed to the RunInference transform. Initially, when there is no side input to the main input, RunInference will use the default model path defined by the ModelHandler. Once the side input is updated with a latest path, Beam RunInference will continue to use the updated model for performing inferences on examples. 
- 
- 
- 
- [1] https://github.com/apache/beam/blob/36486447e4d07af5076830ca1e331a6b61f14986/sdks/python/apache_beam/ml/inference/base.py#L332",Anand Inguva,"ML, Runners",Horizon,2023-06-14 16:15:00,50,2023-06-14 17:05:00
-Loading Geospatial data to Google BigQuery,"With decreasing costs for cloud computing and storage, numerous traditional Geographic Information System (GIS) workloads are being shifted to cloud-based platforms such as Google Cloud Platform (GCP). Consequently, there is a surge in the adoption of GCP for GIS-related tasks such as data ingestion, storage, and visualization.
- 
- 
- 
- During this session, we will provide an introduction to two of the most frequently utilized GIS data formats: Shapefile (shp) and Tag Image File Format (TIFF). We will also discuss the reasons and methods for loading these formats into Google BigQuery, including a serverless approach using geobeam for ingesting GIS files into BigQuery. Furthermore, we will offer some best practices and highlight things to avoid.",Dong Sun,,Upper Bay,2023-06-14 16:15:00,25,2023-06-14 16:40:00
-The future of the Apache Beam community,"In this interactive session, we will aim to answer some questions about the future of the Apache Beam community. We will start with an overview of what was done in the past, how the community has grown, and find any pain points that we can work on and how to make the community sustainable, inviting and ready for future growth. 
- 
- Bring both your most critical questions as well as your best ideas!","Alex Van Boxel, Austin Bennett, Danielle Syse",,Palisades,2023-06-14 16:15:00,50,2023-06-14 17:05:00
-Streamlining Data Engineering and Visualization with Apache Beam and Power BI: A Real-World Case Stu,"Data engineering and visualization are crucial components of modern data-driven decision-making. However, managing and integrating disparate data sources, processing large volumes of data, and automating the entire data pipeline can be challenging. This session will explore how Apache Beam, a powerful open-source data processing framework, can be used in conjunction with Power BI to create a seamless, automated data pipeline for real-time visualization and analysis.
- 
- 
- 
- An overview of Apache Beam and its capabilities for data processing and integration
- 
- How to connect various data sources and process data using Apache Beam pipelines
- 
- Techniques to clean, transform, and enrich data using Apache Beam's programming model
- 
- Integrating Apache Beam with Power BI for real-time data visualization and analysis
- 
- Best practices for automation, scalability, and performance in data engineering and visualization tasks
- 
- Case Study:
- 
- 
- 
- We will discuss a case study of an organization that leveraged Apache Beam and Power BI to overcome data engineering and visualization challenges. The organization had a set of data sources. Traditional ETL processes were time-consuming, expensive, and error-prone, hindering their ability to make data-driven decisions promptly.
- 
- 
- 
- By implementing Apache Beam, the organization was able to unify data from various sources, process it efficiently in real-time, and handle both batch and streaming data. This new data pipeline enabled the organization to clean, transform, and enrich their data, ensuring high-quality insights. The processed data was then integrated with Power BI for real-time visualization and analysis, allowing stakeholders to make informed decisions based on the latest information.",Deexith Reddy,,Upper Bay,2023-06-14 16:45:00,25,2023-06-14 17:10:00
-Workshop: Step by step development of a streaming pipeline in Python,"In this workshop we will develop a streaming pipeline, showing how to get data in JSON format and parse it (using Beam schemas), how to aggregate it and write it in batches to Avro files.
- 
- 
- 
- We will apply complex analytics to the stream, calculating properties of a session for different users, grouping together events of the same session by using windowing. 
- 
- 
- 
- As a bonus point, we will explore how to use the parameters of a DoFn to inspect the properties of the window, adding information about the window and the trigger, to understand the concepts of windowing, triggering and accumulation mode.","Israel Herraiz, Anthony Lazzaro",Python,Ebb,2023-06-15 09:00:00,90,2023-06-15 10:30:00
-Workshop: Catch them if you can - Observability and monitoring,"(Description and Title still WIP)
- 
- 
- 
- A workshop with a live streaming Dataflow job, that has specific bugs and issues that we will address using Dataflow.
- 
- 
- 
- We'll begin by showing all the new (and existing) and revamped features that have been introduced in Dataflow. 
- 
- 
- 
- The streaming job will be plagued with issues - even if the pipeline isn't failing, doesn't mean it's running well! 
- 
- We'll use the features in Dataflow to capture some of these issues and correct them. 
- 
- 
- 
- We'll also use Beam to capture some custom metrics and show where you can find them.",Wei Hsia,,Flow,2023-06-15 09:00:00,90,2023-06-15 10:30:00
-Workshop: Application Modernization with Kafka and Beam,"This workshop will provide hands on experience breaking down a simple monolithic application to microservices, leveraging both Confluent Cloud (Kafka) and Google Cloud Dataflow (Beam).",Jerry Gilyeat,,Upper Bay,2023-06-15 09:00:00,90,2023-06-15 10:30:00
-"Nice or not, identifying toxicity with Beam ML","In this workshop, we will be creating our pipeline using Beam to identify toxic behavior and action on it.
- 
- 
- 
- Gaming should be fun but too often, toxic behavior brings bad attitude and behavior that needs to be addressed. 
- 
- 
- 
- We'll be reading in data and using a model to infer if the text is toxic or not in real time using Beam's RunInference module. 
- 
- 
- 
- You'll be able to implement an ML pipeline using the skills you learn from this workshop.",Wei Hsia,,Flow,2023-06-15 10:45:00,90,2023-06-15 12:15:00
-Workshop: Testing Apache Beam Pipelines,"Everyone understands the importance of testing. The correctness of data pipelines is critical for the downstream applications (e.g., AI/ML workloads, Reporting and demand forecasting). In this workshop, through a series of examples/use cases, we describe different approaches of testing (unit test/integration testing). We also explore testing from the perspective of code plane and data plane. Testing is data plane are mostly data quality and data validation checks. We go through some data pipeline patterns used in real world to handle the data plane related issues with dead letter queue or dead letter table. Testing in code plane validates the correctness of the code. For code plane, we explore software quality metrics that are applicable. We provide some examples where integration test can be replicated across multiple data pipelines. In this workshop we encourage to have a balance between the unit testing and integration tests and provide recommendations based on our experience with multiple customers.",Bipin Upadhyaya,,Upper Bay,2023-06-15 10:45:00,90,2023-06-15 12:15:00
-Workshop: Complex event processing with state & timers,"Beam does not have a dedicated complex event processing module, but this can be overcome using state & timers.
- 
- 
- 
- In this workshop, we will show an example of how to reconstruct sessions from a stream of data, processing the data in order and identifying sessions not based on temporal properties but on a deep inspection of the messages being processed. We will be using the NY taxi dataset to calculate metrics such as speed, distances (polyline distance based on all intermediate points followed by the taxi), and apply complex patterns such as filtering taxi messages and sessions that fulfil certain criteria (minimum and maximum velocity, minimum and maximum distance, etc).
- 
- 
- 
- We will be using Python for the workshop. To follow this workshop, you will need a Python local development environment.","Israel Herraiz, Miren Esnaola",,Ebb,2023-06-15 10:45:00,90,2023-06-15 12:15:00
+A Low Code Structured Approach to Deploying Apache Beam ML Workloads on Kubernetes using BeamStack,"We have developed BeamStack, a toolkit tailored to enhance the deployment and management processes of ML and GenAI workloads on Kubernetes. It diminishes the intrinsic complexities associated with the managing of Kubernetes clusters and the deployment of Apache Beam workloads. Fundamentally, BeamStack leverages Beam YAML, a structured format that enables the declarative definition of pipelines. This facilitates rapid deployment and scalability across diverse Kubernetes environments, encompassing cloud-based solutions and local clusters such as Minikube.
+
+BeamStack distinguishes itself through its proficiency in orchestrating AI pipelines within Kubernetes environments. It provides streamlined workflows that enhance the efficiency of setup, deployment, and management processes. Moreover, BeamStack seamlessly integrates with monitoring tools such as Prometheus and Grafana. Its overarching objective is to democratize the deployment of AI workloads with Apache Beam on Kubernetes, empowering users with the confidence to deploy seamlessly while optimizing performance. Our platform's user-friendly design simplifies the process, making the deployment of Apache Beam jobs universally attainable.
+
+In this talk, we'll delve into the development journey of BeamStack, a toolkit crafted to simplify the deployment and management of Apache Beam ML workloads on Kubernetes. We'll explore the motivations behind BeamStack's creation, the challenges it addresses, and the key components that make it a powerful tool for AI workload deployment.","Charles Adetiloye, Nate Salawe","ML, Kubernetes, Architecture, Runners",Mariposa Grove,2024-09-05 11:30:00,25,2024-09-05 11:55:00
+A New Local Runner Appears: Deep dive on Prism,"Prism is a local portable Beam Runner intended to assist end user and SDK developers alike, by providing a common platform for all existing and new Beam SDKs.
+
+Beam is unique among data processing systems in how it divides the user facing SDK from the execution engine. Jobs can be authored in one SDK and executed on Flink, Spark, or on cloud services, like Dataflow. But these external systems can make prototyping, testing, and debugging complicated. 
+
+Prism is written Go to be a small, local runner built using Beam Portability first, to better emulate how jobs of any SDK execute on those larger systems. Further, Prism serves as a model runner for all SDKs for a robust local experience.
+
+This talk will go into how runners execute pipelines, and the design and implementation of Prism for the goals of testing and configurability. Knowledge of Go is encouraged, but not required.",Robert Burke,"Runners, Go, Testing, Cross language",Hamina (MP4),2024-09-04 11:30:00,50,2024-09-04 12:20:00
+At Least Once Streaming vs Exactly Once: Cost saving vs data accuracy,"Dataflow has always supported only Exactly Once features, but Dataflow just release At Least Once feature. Understand each Architecture, pro and cons, in which use cases one is better than the other.",Ihaffa Murtopo,"Use case, Architecture",Hamina (MP4),2024-09-05 11:30:00,25,2024-09-05 11:55:00
+"Avoid HTTP Request Duplicates with SCIO, a custom AsyncHttpParDoFn and State & Timers",A StateBaseAsyncDoFn.java class and full SCIO productive implementation for State and Timer with HTTP Clients to prevent duplicate requests and other aggregation use cases for asynchronous endpoints.,Alberto López Serna,"State & timers, Scala, Java, Use case, Architecture",Walker Canyon,2024-09-04 12:00:00,25,2024-09-04 12:25:00
+Beam SDKs Don't Have to Look the Same,"Do we even need PCollections? Or ProcessElements? Can we have the language fully typecheck the pipeline for us at compile time? Can we do that in Go?
+
+Since Beam was designed, programming languages have continued to evolve and change, so why can't our SDKs? We've now got ample experience with the Apache Beam Go SDK, but the language it was designed for is now very different. 
+
+This short talk will compare the current Go SDK with an experimental implementation that takes better advantage of the current strengths of Go, and its approach to generic type parameters, and more.",Robert Burke,"Architecture, Go",Walker Canyon,2024-09-05 11:00:00,25,2024-09-05 11:25:00
+Beam YAML and Protobuf,"In this session, we'll explore the transformative integration of Beam YAML with Protobuf, unlocking new possibilities within Apache Beam. Delve into practical applications and benefits, and gain insights from our journey of harnessing Apache Beam's capabilities.","Ferran Fernández Garrido, Austin Bennett","Use case, Templates, Architecture, Cross language",Walker Canyon,2024-09-04 15:00:00,25,2024-09-04 15:25:00
+Beam YAML: Advanced topics,"While the basic features of Beam YAML allow one to write simple to possibly intermediate pipelines, there are limitations on what can be developed relying solely on the built-in transforms and basic features. Luckily, Beam YAML had these users in mind during its development and offers multiple ways to leverage more advanced features of Beam to implement these sophisticated use-cases.
+
+The purpose of this session will be to dive into the more advanced features Beam YAML has to offer. Topics include, but are not limited to:
+- Defining explicit transform output types 
+- Advanced mapping 
+- Advanced aggregation 
+- Transform Providers 
+- Inline Python 
+- Jinja preprocessing 
+- ML transforms 
+
+If time allows, there will be some use-cases demonstrating the features presented above. 
+
+This session builds upon the information presented in the introductory session and it is recommended that attendees view that session before diving into the topics presented in this session.",Jeff Kinard,"Python, Cross language, IO, ML, Use case",Walker Canyon,2024-09-05 13:30:00,25,2024-09-05 13:55:00
+BeamStack: An open source Framework for running Machine Learning Pipelines with Apache Beam,"We introduce you to Beamstack, an open-source framework currently under development, aimed at facilitating the deployment of Machine Learning and GenAI workflow pipelines with Apache Beam on Kubernetes, whether on-premises or in the cloud. It encompasses a holistic solution, featuring abstraction layers that optimize the deployment of various components of machine learning pipelines, data processing workflows, and deployment infrastructure.
+
+At the core of Beamstack's functionalities lie Kubernetes Custom Resource Definitions (CRDs). These CRDs constitute a potent mechanism for extending the Kubernetes API, facilitating the seamless integration of ML-centric resources within the Kubernetes ecosystem. By this approach, Beamstack empowers users to capitalize on the comprehensive capabilities and features offered by Kubernetes while unlocking the boundless potential of Apache Beam for Mache Learning development by various teams in any organization.
+
+In this session, we will discuss BeamStack's use cases and product roadmap, as well as features that have already been implemented, those currently under implementation, and those planned for the future. We will also address our current challenges and areas where we need support from contributors. Join us in shaping the future of ML development tooling around Apache Beam by becoming a part of the Beamstack community.",Olufunbi Babalola,"Kubernetes, ML, Use case",Mariposa Grove,2024-09-05 12:00:00,25,2024-09-05 12:25:00
+Breaking the Language Barrier: Easy Cross-Language with Generated Python Wrappers,"Harness the power of cross-language transforms by combining the best of Java and Python in your data processing workflows. Discover how to seamlessly integrate Java transforms into your Python pipelines using the SDK's newest utilities. 
+
+With just a few lines, you can also automatically generate well-documented, SDK-ready Python wrappers for existing Java transforms.",Ahmed Abualsaud,"IO, Cross language, Java, Python",Walker Canyon,2024-09-04 16:00:00,25,2024-09-04 16:25:00
+Cost Optimization of Dataflow Pipelines,"This session covers the cost components of Dataflow pipelines, different run configurations, common performance optimization techniques, approaches to monitor cost and performance of the pipelines.",Sergei Lilichenko,,Hamina (MP4),2024-09-05 14:00:00,50,2024-09-05 14:50:00
+Dataflow Streaming: The evolution of real-time data processing,"Level up your streaming pipelines by learning about the latest advancements in Dataflow Streaming. This includes new features such as At-Least-Once Mode, Active Load Balancing, Autoscaling Hints, In-flight Autoscaling Updates, best practices for Kafka source pipelines and ML pipelines.",Tom Stepp,"Use case, Runners, operations",Walker Canyon,2024-09-05 12:00:00,25,2024-09-05 12:25:00
+Drools ParDo and SCIO: a goodbye microservices tale,"A successful re-engineering in banking with a Drools ParDo using a KieContainer (JBoss) in Dataflow has been used to process business rules.jar, merging several Spring microservices into Dataflow. This design, with another Dataflow app and the pattern adopted in ""Avoid HTTP requests duplicates in Apache Beam with SCIO, a custom BaseAsyncDoFn and State and Timers"" has allowed to get tid off all microservices and infrastructure thanks to Apache Beam and Dataflow.",Alberto López Serna,"Architecture, Scala, Use case, Kubernetes, Splittable DoFn, Java",Hamina (MP4),2024-09-05 11:00:00,25,2024-09-05 11:25:00
+Enable Dynamic Topic Destinations Using pub/subIO writeMessageDynamic() in Python pipelines,"Enabling dynamic topic destinations using the pub/subIO writeMessageDynamic() function in a Java Dataflow pipeline is an interesting feature, which seems only available in Apache Beam Java SDK. This talk is to showcase a workaround implementation using the pub/subIO writeMessageDynamic() function as an external transform",Olu Akinlaja,"Python, IO",Hamina (MP4),2024-09-04 16:00:00,25,2024-09-04 16:25:00
+How Beam ML Optimizes Serving Large Models,"Serving ML models at scale is increasingly important, and Beam's RunInference transform is a great tool to do this. At the same time, models are getting larger and larger, and it can be hard to fit them into your CPU or GPU.
+
+This talk will explore some of the mechanisms that Beam has put in place for large model management so that it can serve your models efficiently without requiring any additional work from the pipeline author. Attendees can expect to come away with an understanding of how Beam loads and serves models, how it optimizes its serving architecture for different model sizes/footprints, and how they can use Beam to serve their models (large or small).",Danny McCormick,ML,Mariposa Grove,2024-09-04 14:30:00,25,2024-09-04 14:55:00
+How we Migrated our JSON DB to a Relational DB using Apache Beam / Dataflow,"We migrated ~5 TB (~2 billion rows) of production NoSQL DB to a Postgres DB without application downtime. This involved data export from Cloud Datastore (NSQL DB), normalization (from JSON to SQL schema) and then data import into Postgres. We used two different Apache Beam pipelines in the process.
+
+1) Exporting data from cloud datastore - for this we used Google developed dataflow template (written in java). *
+2) Normalize and import into Postgres - we wrote our own custom Apache Beam pipeline that transforms every JSON row into Postgres compatible schema and batches the normalized rows for ingestion into Postgres (written in python). **
+
+Data migration took about ~16 hrs with this approach using the beam pipeline (as opposed to our initial estimate of 5 days using other batch scripts with parallel computing) 
+
+Advantages: 
+- Time: made our migration faster 
+- Repeatability and error handling: easy to rerun for records that were failed to import (and easy rerun for any new records created in datastore during the migration etc.,) 
+- Managed scaling with Google Dataflow 
+
+*pipeline 1: https://github.com/GoogleCloudPlatform/DataflowTemplates/blob/main/v1/src/main/java/com/google/cloud/teleport/templates/DatastoreToText.java 
+** pipeline 2: we wrote custom beam DoFn transforms in python(+sqlalchemy) and built a pipeline to ingest data into Postgres with error handling.",Lakshmanan Arumugam,"Use case, Cross language, Python, Runners, Templates",Mariposa Grove,2024-09-04 12:00:00,25,2024-09-04 12:25:00
+Implementing a Beam SDK: A Deep Dive into the Swift SDK,In this session we'll take a deep dive into implementing a Beam SDK for a new language using Swift as an example. We'll cover both the internal and the external from implementing FnApi using Swift's surprisingly robust gRPC support to how we use Swift's modern type system to provide a uniquely Swift way of expressing the Beam programming model.,Byron Ellis,"Cross language, Architecture, Runners",Walker Canyon,2024-09-04 13:30:00,50,2024-09-04 14:20:00
+Improving Stability for Running Python SDK with Flink Runner,"In this session, we will explore our journey to improve the stability of our Flink application using the Python Beam SDK runner, with a particular focus on memory tuning. Our initial setup faced significant challenges, including frequent task manager disconnections and ambiguous error logs, often hinting at out-of-memory (OOM) issues. Despite no clear indicators of high memory usage, the instability worsened after transitioning from the Lyft K8s operator to the Apache Flink operator. 
+
+Key points include: 
+- Initial Setup Challenges: Both the Python worker harness and the Flink task manager running in the same container, leading to frequent disconnections.
+- Diagnosing the Problem: Despite no high overall memory usage, the task manager frequently reported being unavailable, suggesting potential OOM issues.
+- Operator Differences: The Lyft K8s operator reserved 20% of memory for the system, while the Apache Flink operator allocated all memory to taskmanager.memory.process.size, causing OOM on the Python worker harness due to lack of reserved system memory.
+- Solution Implementation: Separating the Python worker harness into a separate container and using external to connect to Python, resulting in enhanced stability.
+- Additional Benefits: Improved resource utilization and flexibility by assigning specific memory requests and limits to the sidecar container running Python.",Lydian Lee,"Kubernetes, Python, Architecture",Walker Canyon,2024-09-05 11:30:00,25,2024-09-05 11:55:00
+Introducing Ordered List States,To introduce ordered list states from concept to implementation.,Shunping Huang,State & timers,Walker Canyon,2024-09-04 11:30:00,25,2024-09-04 11:55:00
+Introduction to Beam YAML,"The purpose of this session will be to introduce Beam YAML and its core capabilities. These include, but are not limited to:
+- Basic syntax for declaring pipeline spec and pipeline options 
+- Mapping transforms and UDF's 
+- Simple aggregations 
+- Other turnkey transforms (LogForTesting, IO's, etc.)
+
+The session will wrap up with some use-case examples and how to run the YAML pipelines on Google Cloud Dataflow.",Jeff Kinard,"Use case, IO, Cross language, Python",Walker Canyon,2024-09-04 14:30:00,25,2024-09-04 14:55:00
+Lessons Learned from MLOps for GenAI at Google Scale,"The rise of Generative AI (GenAI) has revolutionized Machine Learning (ML) Development Workflows. Starting from large pre-trained models introduces new challenges in resource management, large model evaluation (both human and automated), efficient bulk inference, and effective handling of massive model embeddings. This talk distills key lessons and best practices from Google's experience in deploying GenAI models at scale, focusing on the adaptation and evolution of MLOps principles to tackle the unique demands of this emerging field.",Prakash Chockalingam,,Mariposa Grove,2024-09-05 09:45:00,45,2024-09-05 10:30:00
+Multi-Modal LLM Data Processing with Apache Beam,"Large language models are well known for their performance on generation tasks like summarization but they also excel at many classical tasks like classification, named-entity recognition, or information extraction. Multi-modal LLMs similarly achieve state of the art performance on document understanding. This makes them vital for modern data processing pipelines.
+
+Apache Beam is a powerful framework to define and execute batch and streaming data processing pipelines. Recent releases introduced many tools to facilitate machine learning workflows like ML Transforms, RunInference, and Enrichment transform.
+
+In this talk we will introduce an application that combines Beam’s ML capabilities and LLMs to extract product requests from various document types of customer emails to facilitate the automatic fulfillment of orders.","Konstantin Buschmeier, Jasper Van den Bossche","ML, Python",Mariposa Grove,2024-09-04 15:00:00,25,2024-09-04 15:25:00
+"Multiple Input, Multiple output, Multi-Modal Inference: Streaming ML with Dataflow","Imagine when you’re attending an event, as you park your car, you get a notification telling you which entrance has the current shortest line that’s closest to your parking. Then when you check in, a reminder (only if you’ve parked), that you can get some parking validation done if you spend on concessions or merchandise as part of your membership benefit. And you have a hankering for nachos, hoping that they don’t run out. This would make your experience amazing and unique! 
+
+How can you do this though? You need to, in real time, connect your parking data to your membership data, to current lines? How does the event organizer know how busy it is in the lines easily? Or predict how fast they will be going to run out of things? 
+
+You’ll build a pipeline, from scratch, that incorporates all of these things. You’ll need to put all of your Beam knowledge (or learn them along the way!) to the test. Read multiple inputs, in real time, and make sure you’re enriching them with the right information. Write multiple outputs - in real time, to actually do something with the data. And of course, we’ll show you how you can use an LLM (or any model!) in the same pipeline.",Wei Hsia,"ML, Use case, State & timers, Python",Bonsai,2024-09-05 13:30:00,80,2024-09-05 14:50:00
+Ordered processing in Apache Beam,The session covers a recently added Beam SDK extension and applicable use cases. It also describes the techniques used to implement the transform.,Sergei Lilichenko,,Walker Canyon,2024-09-04 11:00:00,25,2024-09-04 11:25:00
+Processing Data from a Web API: A step by step guide,"This talk is for you if you are considering writing custom code to read from and write to a Web API, for which a solution does not yet exist. This session demonstrates step by step how to read from and write to Web APIs using the Beam Java and Python SDKs. 
+
+Web API providers design the service for application workloads, presenting unique challenges for large scale parallelized workloads such as Beam. Challenges addressed will include error handling, retry with backoff, and caching.",Damon Douglas,"IO, Java, Python",Hamina (MP4),2024-09-04 13:30:00,50,2024-09-04 14:20:00
+"Project Shield: How we use Beam to defend democracy and free expression, and how we got started!","Project Shield is a service that counters distributed-denial-of-service (DDoS) attacks. It is available free of charge to eligible websites that have news, elections, and human rights related content. Project Shield helps ensure unhindered access to election-related information during global democratic processes (such as the U.S. 2022 midterm election season and many others). It also enables critical infrastructure and news websites to defend against non-stop attacks and provides crucial services and information during crises (such as the invasion of Ukraine).
+
+In this keynote, Marc Howard will explain why and how Project Shield uses Apache Beam and Google Cloud Dataflow to deliver some of their core value. Their streaming Apache Beam pipelines process more than 3 TB of log data daily at significantly over 10,000 queries per second, growing significantly during large attacks of up to 400 million queries per second. These metrics power user-facing graphs and long-term attack analytics at scale, fine-tuning Project Shield’s defenses and supporting them in the effort of making the web a safe and free space.",Marc Howard,Use case,Mariposa Grove,2024-09-04 09:45:00,45,2024-09-04 10:30:00
+RAG Data Ingestion Using Apache Beam,"Retrieval Augmented Generation (RAG) has emerged as a groundbreaking technique in the field of generative AI. By providing a large language model relevant data to solve a given task, it can generate answers with much higher accuracy. Next to enhanced performance RAG allows us to work with sensitive without resource-intensive in-house model training. However, efficiently preprocessing and ingesting document data into vector databases for RAG applications can be challenging, especially when dealing with real-time updates.
+
+In most RAG applications relevant data is fetched from a vector database through semantic search. From experience working on RAG applications we have noticed that building a robust data processing pipeline to keep the data in the vector database up to date can be a challenge. Beam is a particularly powerful tool to solve this task since it supports both batch and streaming data, allowing us reuse the same data processing pipeline for both processing scale datasets of relevant information as well as keeping the vector database up to date with live data through streaming data.
+
+It is crucial to recognize that proper preprocessing and analysis of data are often underestimated yet fundamental components in building effective RAG applications. As the age-old adage goes, 'garbage in, garbage out,' emphasizing the significance of ensuring high-quality input data for optimal output results. Apache Beam can play an important role in this process, offering both batch and streaming data processing capabilities that are essential for developing production-ready RAG applications.","Jasper Van den Bossche, Konstantin Buschmeier","Python, ML",Mariposa Grove,2024-09-05 13:30:00,25,2024-09-05 13:55:00
+Real-Time Fraud Prevention with Apache Beam,"In this session, we will explore how Apache Beam can be leveraged to create a robust real-time fraud prevention system. Drawing from real-world implementations at Transmit Security, the presentation will cover the architecture and components of our Detection and Response solution. Attendees will learn about the challenges of analyzing high volumes of data in real-time, and how we utilize a combination of data collection points, enriched data pipelines, and stateful aggregation engines.
+
+We will discuss our transition to using Google BigTable for low-latency, high-throughput data management, highlighting its role in enhancing the system's performance. 
+
+Additionally, the session will focus on two unique flows within our system:
+1. Running machine learning models that predict fraud in real time.
+2. Implementing a feedback loop that takes the results from the stream and re-ingests them back into the pipeline to continuously improve detection accuracy.",Hai Sadon,"Python, State & timers, Kubernetes, ML",Mariposa Grove,2024-09-04 16:00:00,25,2024-09-04 16:25:00
+Realtime Forecasting Using Beam,"Lyft realtime forecasting heavily uses Beam SDK and Flink runner to forecast demand and supply in realtime. In this session, I plan to present our journey at Lyft and how Beam helped solve real time forecasting use cases",Ravi Magham,"Use case, ML, Runners, Architecture",Walker Canyon,2024-09-05 14:00:00,25,2024-09-05 14:25:00
+Retrival Augmented Generation (RAG) Pipelines using Beam,Building out Apache Beam pipelines for Retrieval Augmented Generation (RAG) Applications to help Enterprises seamlessly leverage Large Language Models through Beam's model.,Ayush Pandey,"Use case, ML",Mariposa Grove,2024-09-05 14:30:00,25,2024-09-05 14:55:00
+Reuniting the Two Distant Cousins: Calling a Beam Pipeline from an Airflow Job,"Apache Beam and Apache Airflow are powerful tools in the data engineering ecosystem, often used separately but rarely in tandem. This talk explores the synergy between these ""distant cousins"" by demonstrating how to seamlessly integrate Beam pipelines within Airflow workflows.
+
+We'll dive into the challenges of orchestrating complex data processing tasks and show how combining Airflow's scheduling capabilities with Beam's robust data processing framework can create a more efficient and manageable data pipeline architecture. 
+
+Attendees will learn how to leverage Airflow's DAG (Directed Acyclic Graph) to trigger Beam jobs seamlessly, enabling them to orchestrate sophisticated, distributed data processing tasks across data platforms, such as Google Cloud Dataflow. By the end of this session, participants will gain practical insights into integrating these technologies, enhancing their ability to build and maintain resilient, efficient data pipelines that meet the demands of modern data-driven applications.",Sadeeq Akintola,Architecture,Walker Canyon,2024-09-04 16:30:00,25,2024-09-04 16:55:00
+Scalable Matrix Operations using Apache Beam,"NumPy is amongst the most popular Python libraries known for their powerful capabilities in handling complex numerical computations including matrix operations which are encountered frequently in exploratory data science tasks.
+
+This discussion will delve into an alternative approach to achieve similar outcomes at scale, using the Apache Beam and open-source linear algebra library such as EJML. This is a generalized presentation of an implemented use case for a large customer.
+
+We will also explore strategies for making this core library developed to be used within Apache Beam further extended as a microservice, allowing other data scientists to integrate and leverage this streamlined workflow effectively.
+
+The attendees will gain valuable insights into: 
+* Converting existing logic written in NumPy/Pandas to Apache Beam
+* Extend the core computations as a micro-services for serving multiple use cases
+* Learnings/Challenges","Pramod Rao, Jay Jayakumar","Use case, ML, State & timers, Java, Architecture",Mariposa Grove,2024-09-04 13:30:00,50,2024-09-04 14:20:00
+Scaling Autonomous Driving with Apache Beam,"Cruise leverages Apache Beam to manage and process petabytes of data monthly, essential for our autonomous vehicle model training. This talk will delve into the innovative features we've developed to enhance Beam's capabilities, including a control plane for quota and user management, a C++ sandbox for running AV ROS nodes in the cloud, and shuffling optimization techniques to compress shuffled data","Sayat Satybaldiyev, Arwin Tio","Architecture, Python, Use case",Mariposa Grove,2024-09-04 11:00:00,25,2024-09-04 11:25:00
+Streaming Modes & Vertical Scaling for Cost Effectiveness to Customers,"This talk will explain three capabilities of Dataflow that may help customers save costs:
+1. Streaming modes. Recently, Dataflow introduced a new mode ""At least once"" for streaming jobs which may help customers who do not have ""exactly once"" requirement save some costs.
+2. Vertical scaling that prevents job failures from OOM's. How Dataflow's vertical scaling recovers from OOM situations and prevents job failures.
+3. Dynamic Thread Scaling. Dataflow tries to maximize the worker utilisation with this feature and avoids using up more workers. ",Sharan Teja Malyala,"Runners, Use case",Hamina (MP4),2024-09-05 12:00:00,25,2024-09-05 12:25:00
+Streaming Processing for RAG Architectures,"The session is aimed to practitioners looking to use streaming technologies to process data which will be in use for near real time RAG architectures. 
+
+For context, the session is based in this article: https://beam.apache.org/blog/dyi-content-discovery-platform-genai-beam
+
+Agenda: 
+- quick intro to RAG
+- why streaming processing
+- why beam
+- technology stack (gcp) 
+- beam integrations (multilanguage, RunInference, IOs) 
+- example / demo
+- close up",Pablo Rodriguez Defino,"ML, Use case, Cross language, Java, Python",Mariposa Grove,2024-09-05 14:00:00,25,2024-09-05 14:25:00
+Testing in Beam,How to write tests using Beam specific constructs,Svetak Sundhar,,Hamina (MP4),2024-09-04 11:00:00,25,2024-09-04 11:25:00
+Throttling Detection and Reactive Worker Downscaling,"Rate limiting and draining quota is a common issue for a data processing pipeline running at scale. Overprovision of the worker pool when the external resource is throttled not only increases the cost but also puts additional pressure onto the resources. This talk introduces the recent improvements on tackling this issue, from tracking throttled states in a Beam pipeline to taking actions on these signals from the runner (particularly Dataflow) side. Finally, it explores options on how users can onboard their custom IO connectors for throttling detection features.",Yi Hu,"IO, Runners",Hamina (MP4),2024-09-04 14:30:00,25,2024-09-04 14:55:00
+Transitioning Uber Michelangelo's Batch Prediction from Apache Spark to Ray,"Michelangelo is Uber's centralized machine learning platform, designed to manage ML pipelines and their associated data processing. As the demand for batch predictions grows, the need for a flexible and efficient processing framework becomes imperative. This presentation explores Uber Michelangelo’s batch prediction processes, focusing on data processing, model prediction, and the transition from Spark to Ray.
+
+At Michelangelo, data preparation and feature transformation are traditionally handled using Spark data transforms. The model prediction step involves a user-defined function within a Spark pipeline model. While Spark has been the backbone for our batch processing needs due to its robustness and ease of use, it has shown limitations in handling the complex machine learning tasks that Uber is increasingly deploying, such as natural language processing and Generative AI. These workloads often require GPUs to meet latency and throughput requirements, which Spark struggles to support efficiently.
+
+Ray, an emerging distributed computing framework, offers better resource utilization, simpler parallelism, and more straightforward scalability. By leveraging Ray for batch processing, we can support large language model batch predictions reliably, efficiently, and scalably. We are also transitioning other machine learning batch prediction tasks to Ray for both data processing and model prediction. In this new setup, data processing is integrated as part of the model using native transformer techniques, allowing deployment on GPUs.
+
+With Ray, we have developed a robust pipeline for batch prediction. Currently, streaming data is handled with separate pipelines. We are actively exploring the unification of these pipelines using open-source libraries. Apache Beam ML provides an opportunity to unify batch and streaming data processing pipelines.",Baojun Liu,ML,Mariposa Grove,2024-09-04 11:30:00,25,2024-09-04 11:55:00
+Troubleshooting AI/ML pipelines related Common Issues,"I plan to cover a summary of trends and learnings from different Cx issues around usage of RunInference, GPU, Cuda and related errors like OOM and remediations. 
+
+Also extract relevant topics from Vertex AI Pipelines, Batch Prediction, AutoML related to Dataflow troubleshooting.",Rajkumar Gupta,"ML, Python, Runners",Mariposa Grove,2024-09-04 16:30:00,25,2024-09-04 16:55:00
+Troubleshooting Python pipelines with process monitoring tools.,"In an ideal scenario, a data processing pipeline performs without issues. When a runtime processing error occurs, normally Beam surfaces the error to the runner. However in some cases, the process running the user code might run out of memory, get stuck or crash. This can prevent it from reporting the error, leaving the user unaware of the failure's root cause. In this talk, I'll discuss troubleshooting techniques for these situations. The techniques I cover can also be applied for debugging other Python applications.",Valentyn Tymofieiev,,Hamina (MP4),2024-09-04 15:00:00,25,2024-09-04 15:25:00
+Usage Billing with BEAM @ LinkedIn,"Usage Billing is a billing concept where charges are based on consumption. At LinkedIn, the Usage Billing system processes large volume of consumptions particularly for Ads and Jobs use cases. In this presentation, we will discuss how the team rearchitected the existing usage platform to adopt a more streaming-oriented approach using Apache Beam and Samza Runner. The new system can aggregate usage data across various dimensions and supports multiple rules to handle different aggregation windows. It also includes change data capture and correction events to ensure the high level of accuracy required when handling customers' money.","Narayanan Venkiteswaran, Bella Le, Vinay Chander","Use case, Runners, Architecture",Hamina (MP4),2024-09-05 13:30:00,25,2024-09-05 13:55:00
+Using Dead Letter Queues with Beam,"In this session, you will learn what we consider a Dead Letter in Beam, the high level DLQ architecture we've implemented, and some example use cases on how to incorporate DLQs in your pipelines.",John Casey,"IO, Java",Hamina (MP4),2024-09-04 16:30:00,25,2024-09-04 16:55:00
+Using LLMs with Beam and RunInference,"This session will provide an overview of how to utilize large language models (LLMs) using Apache Beam's RunInference framework. The prime example for the talk will be running the Gemma open model on Dataflow, outlining considerations and common pitfalls when writing pipelines with LLMs.",Jack McCluskey,"ML, Python",Mariposa Grove,2024-09-05 11:00:00,25,2024-09-05 11:25:00

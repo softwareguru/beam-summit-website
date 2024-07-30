@@ -37,15 +37,15 @@ speaker = "speakers"
   #URL = "/discover-nyc"
   #weight = 2
 
-#  [[menu.main]]
-#  name = "Speakers"
-#  URL = "/speakers"
-#  weight = 2
+  [[menu.main]]
+    name = "Program"
+    URL = "/program"
+    weight = 2
 
   [[menu.main]]
-  name = "Program"
-  URL = "/program"
-  weight = 2
+    name = "Speakers"
+    URL = "/speakers"
+    weight = 2
 
   #[[menu.main]]
   #name = "Venue"
@@ -57,10 +57,6 @@ speaker = "speakers"
   URL = "/faq"
   weight = 4
 
-  [[menu.main]]
-  name = "Previous sessions"
-  URL = "sessions/2023"
-  weight = 5
 
 
 [sitemap]
