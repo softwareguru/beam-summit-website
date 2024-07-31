@@ -72,7 +72,7 @@ days:
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
     timeslots: 
       - id: 1
-        time_start: 2024-09-05 09:00:00
+        time_start: 2024-09-05 09:45:00
         type: keynote
       - id: 1a
         time_start:  2024-09-04 11:00:00
@@ -81,31 +81,31 @@ days:
         time_start: 2024-09-04 11:00:00
         type: concurrent
       - id: 3
-        time_start: 2024-09-04 11:25:00
+        time_start: 2024-09-04 11:30:00
         type: concurrent
       - id: 4
-        time_start: 2024-09-04 11:25:00
+        time_start: 2024-09-04 12:00:00
         type: concurrent
-      - id: 5
-        time_start: 2024-09-05 10:30:00
-        time_end: 2024-09-05 11:00:00
+      - id: 4a
+        time_start: 2024-09-05 12:30:00
+        time_end: 2024-09-05 13:30:00
         type: break
         name: Lunch
-      - id: 5a
-        time_start:  2024-09-04 11:00:00
+      - id: 5
+        time_start:  2024-09-04 13:30:00
         type: room-labels
       - id: 6
-        time_start: 2024-09-04 11:25:00
+        time_start: 2024-09-04 13:30:00
         type: concurrent
       - id: 7
-        time_start: 2024-09-04 11:25:00
+        time_start: 2024-09-04 14:00:00
         type: concurrent
       - id: 8
-        time_start: 2024-09-04 11:25:00
+        time_start: 2024-09-04 14:30:00
         type: concurrent
       - id: 8a
-        time_start: 2024-09-05 10:30:00
-        time_end: 2024-09-05 11:00:00
+        time_start: 2024-09-05 15:00:00
+        time_end: 2024-09-05 15:15:00
         type: break
         name: Closing remarks
 
