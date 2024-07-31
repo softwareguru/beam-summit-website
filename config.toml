@@ -111,7 +111,7 @@ link = "https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:contact@beamsummit.org"
+link = "mailto:beamsummit@sg.com.mx"
 
 [[params.footer_about]]
 name = "Apache Beam"
