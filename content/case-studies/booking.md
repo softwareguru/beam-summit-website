@@ -1,14 +1,7 @@
 ---
-title: "Mass Ad Bidding With Beam at Booking.com"
-name: "Booking.com"
+title: "Booking.com"
 icon: "/images/logos/powered-by/booking.png"
-category: "study"
-cardTitle: "Mass Ad Bidding With Beam at Booking.com"
-cardDescription: "Apache Beam powers Booking.com’s global ads bidding and performance infrastructure, supporting 1M+ queries monthly for workflows across multiple data systems scanning 2 PB+ of analytical data and terabytes of transactional data. Apache Beam accelerated processing by 36x and expedited time-to-market by as much as 4x."
-authorName: "Booking.com's PPC Team"
-authorPosition: "Marketing Technology Department"
-authorImg: /images/case-study/booking/booking.ico
-publishDate: 2023-04-16T00:12:00+00:00
+hasLink: "https://www.booking.com/"
 ---
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");

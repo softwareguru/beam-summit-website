@@ -1,7 +1,7 @@
 ---
-title: "Cloud Dataflow"
-icon: /images/logos/powered-by/logo_google_cloud.png
-hasLink: "https://cloud.google.com/dataflow"
+title: "Project Shield"
+icon: "/images/logos/powered-by/project_shield.png"
+hasLink: "https://beam.apache.org/documentation/runners/jet/"
 ---
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");

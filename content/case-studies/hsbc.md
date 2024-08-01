@@ -1,7 +1,7 @@
 ---
-title: "Cloud Dataflow"
-icon: /images/logos/powered-by/logo_google_cloud.png
-hasLink: "https://cloud.google.com/dataflow"
+title: "HSBC"
+icon: "/images/logos/powered-by/hsbc.png"
+hasLink: https://www.hsbc.com/
 ---
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");

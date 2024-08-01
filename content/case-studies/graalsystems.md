@@ -1,8 +1,7 @@
 ---
 title:  "GraalSystems"
 icon: /images/logos/powered-by/graalsystems.png
-hasNav: true
-cardDescription: "GraalSystems is a cloud native data platform providing support for Beam, Spark, Tensorflow, Samza and many other data processing solutions. At the heart of our architecture are a set of distributed processing and analytics modules using Beam to route over 2 billion events per day from our Apache Pulsar clusters. For our clients, we run also more than 2,000 Beam jobs per day at a very large scale in our production platform."
+hasLink: "https://graal.systems/"
 ---
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");

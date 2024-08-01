@@ -1,7 +1,6 @@
 ---
-title:  "Yahoo"
+title: "Yahoo"
 icon: /images/logos/powered-by/yahoo.png
-hasNav: true
 hasLink: "https://www.yahoo.com/"
 ---
 <!--

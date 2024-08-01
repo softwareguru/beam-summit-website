@@ -1,7 +1,6 @@
 ---
 title:  "Zillow"
 icon: /images/logos/powered-by/zillow.png
-hasNav: true
 hasLink: "https://www.zillow.com/"
 ---
 <!--
