@@ -81,9 +81,9 @@
 <!-- /blog -->
 
 <!-- sponsor -->
-{{ if $data.homepage.sponsors.enable }}
+
 {{ partial "sponsor.html" . }}
-{{ end }}
+
 <!-- /sponsor -->
 
 
@@ -187,17 +187,8 @@
 -->
 <!-- /venue -->
 
-
-<!-- Partner Event --> 
-{{ partial "events.html" . }}
-<!-- /Partner Event -->
-
-
 {{ if $data.homepage.previous.enable }}
 {{ partial "previous_events.html" . }}
 {{ end }}
-
-
-
 
 {{ end }}

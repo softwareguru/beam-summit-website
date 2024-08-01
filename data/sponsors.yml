@@ -1,30 +1,27 @@
 enable :  true
 title : "Sponsors"
 sponsor_group:
-  - title : ""
+  - title : "Platinum"
     slug : "platinum"
     sponsor:
       - logo : "/images/logos/google-cloud.jpg"
         link : "http://cloud.google.com/"
-      - logo : "/images/logos/AlCamp.png"
-        link : "https://www.aicamp.ai/"
-      - logo : "/images/logos/akvelon.jpg"
-        link : "https://akvelon.com/"
-      - logo : "/images/logos/Mavencode.png"
-        link : "https://www.mavencode.com/"
-      - logo : "/images/logos/doit.png"
-        link : "https://www.doit.com/"
-      - logo : "/images/logos/Packt.png"
-        link : "https://www.packtpub.com/"
-      - logo : "/images/logos/apache-beam.png"
-        link : "https://beam.apache.org/"
-      - logo : "/images/logos/techqueria.png"
-        link : "https://techqueria.org/"
-      - logo : "/images/logos/LatinasinComputing.png"
-        link : "https://www.linkedin.com/groups/128729/"
       #- logo : "/images/logos/.png"
       #  link : ""
-        
+
+
+  - title : "Community Partners"
+    slug : "gold"
+    sponsor:
+
+      - logo : "/images/logos/apache-beam.png"
+        link : "https://beam.apache.org/"
+      - logo : "/images/logos/Mavencode.png"
+        link : "https://www.mavencode.com/"
+      - logo : "/images/logos/osacom.png"
+        link : "https://osacom.io/"
+      - logo : "/images/logos/clowder-space.png"
+        link : "https://clowder.space/"
 
 # call to action in sponsor
 sponsorship:

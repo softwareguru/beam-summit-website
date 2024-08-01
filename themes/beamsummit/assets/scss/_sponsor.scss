@@ -110,21 +110,23 @@ section.sponsors {
 }
 
 .sponsor-strip.gold {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 40px;
-	justify-content: space-between;
-	justify-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	align-items: center;
 
-	@include tablet {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+    .sponsor-item {
+	    width: 12%;
+    	padding: 0em;
 
-	@include mobile {
-		grid-template-columns: 1fr;
-	}
+ 	    @include tablet {
+		    width: 50%;
+    	}
 
+	    @include mobile {
+		    width: 90%;
+    	}
+    }
 }
 
 
