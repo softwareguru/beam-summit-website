@@ -1,6 +1,8 @@
 ---
 title: "Breaking the Language Barrier: Easy Cross-Language with Generated Python Wrappers"
 slug: breaking-the-language-barrier-easy-cross-language-with-generated-python-wrappers
+images:
+ - /images/sessions/2024/breaking-language.jpg 
 speakers:
  - Ahmed Abualsaud
 topics:
