@@ -12,6 +12,9 @@ time_start: 2024-09-04 13:30:00
 time_end: 2024-09-04 14:20:00
 day: 1
 timeslot: 8
+images:
+ - /images/sessions/2024/processing-data-web-api.jpg 
+
 ---
 
 This talk is for you if you are considering writing custom code to read from and write to a Web API, for which a solution does not yet exist. This session demonstrates step by step how to read from and write to Web APIs using the Beam Java and Python SDKs. 

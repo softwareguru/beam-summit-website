@@ -11,6 +11,8 @@ time_start: 2024-09-05 11:00:00
 time_end: 2024-09-05 11:25:00
 day: 2
 timeslot: 2
+images:
+ - /images/sessions/2024/beam-sdks.jpg 
 ---
 
 Do we even need PCollections? Or ProcessElements? Can we have the language fully typecheck the pipeline for us at compile time? Can we do that in Go?

@@ -15,6 +15,8 @@ time_start: 2024-09-05 11:00:00
 time_end: 2024-09-05 11:25:00
 day: 2
 timeslot: 2
+images:
+ - /images/sessions/2024/drools.jpg 
 ---
 
 A successful re-engineering in banking with a Drools ParDo using a KieContainer (JBoss) in Dataflow has been used to process business rules.jar, merging several Spring microservices into Dataflow. This design, with another Dataflow app and the pattern adopted in "Avoid HTTP requests duplicates in Apache Beam with SCIO, a custom BaseAsyncDoFn and State and Timers" has allowed to get tid off all microservices and infrastructure thanks to Apache Beam and Dataflow.

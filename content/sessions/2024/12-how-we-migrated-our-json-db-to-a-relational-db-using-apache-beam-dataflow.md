@@ -14,6 +14,8 @@ time_start: 2024-09-04 12:00:00
 time_end: 2024-09-04 12:25:00
 day: 1
 timeslot: 6
+images:
+ - /images/sessions/2024/how-we-migrated.jpg 
 ---
 
 We migrated ~5 TB (~2 billion rows) of production NoSQL DB to a Postgres DB without application downtime. This involved data export from Cloud Datastore (NSQL DB), normalization (from JSON to SQL schema) and then data import into Postgres. We used two different Apache Beam pipelines in the process.

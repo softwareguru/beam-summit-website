@@ -13,6 +13,8 @@ time_start: 2024-09-04 14:30:00
 time_end: 2024-09-04 14:55:00
 day: 1
 timeslot: 9
+images:
+ - /images/sessions/2024/introduction-beam-yaml.jpg 
 ---
 
 The purpose of this session will be to introduce Beam YAML and its core capabilities. These include, but are not limited to:

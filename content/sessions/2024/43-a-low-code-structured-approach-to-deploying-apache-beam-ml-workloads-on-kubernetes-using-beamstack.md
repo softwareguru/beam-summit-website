@@ -14,6 +14,8 @@ time_start: 2024-09-05 11:30:00
 time_end: 2024-09-05 11:55:00
 day: 2
 timeslot: 3
+images:
+ - /images/sessions/2024/a-low-code.jpg 
 ---
 
 We have developed BeamStack, a toolkit tailored to enhance the deployment and management processes of ML and GenAI workloads on Kubernetes. It diminishes the intrinsic complexities associated with the managing of Kubernetes clusters and the deployment of Apache Beam workloads. Fundamentally, BeamStack leverages Beam YAML, a structured format that enables the declarative definition of pipelines. This facilitates rapid deployment and scalability across diverse Kubernetes environments, encompassing cloud-based solutions and local clusters such as Minikube.

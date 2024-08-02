@@ -12,6 +12,8 @@ time_start: 2024-09-04 16:30:00
 time_end: 2024-09-04 16:55:00
 day: 1
 timeslot: 13
+images:
+ - /images/sessions/2024/troubleshooting-ai.jpg 
 ---
 
 I plan to cover a summary of trends and learnings from different Cx issues around usage of RunInference, GPU, Cuda and related errors like OOM and remediations. 

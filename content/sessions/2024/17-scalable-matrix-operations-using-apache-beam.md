@@ -15,6 +15,7 @@ time_start: 2024-09-04 13:30:00
 time_end: 2024-09-04 14:20:00
 day: 1
 timeslot: 8
+draft: true
 ---
 
 NumPy is amongst the most popular Python libraries known for their powerful capabilities in handling complex numerical computations including matrix operations which are encountered frequently in exploratory data science tasks.

@@ -13,6 +13,8 @@ time_start: 2024-09-04 16:00:00
 time_end: 2024-09-04 16:25:00
 day: 1
 timeslot: 12
+images:
+ - /images/sessions/2024/fraud-prevention.jpg 
 ---
 
 In this session, we will explore how Apache Beam can be leveraged to create a robust real-time fraud prevention system. Drawing from real-world implementations at Transmit Security, the presentation will cover the architecture and components of our Detection and Response solution. Attendees will learn about the challenges of analyzing high volumes of data in real-time, and how we utilize a combination of data collection points, enriched data pipelines, and stateful aggregation engines.
