@@ -16,6 +16,4 @@ images:
  - /images/sessions/2024/troubleshooting-ai.jpg 
 ---
 
-I plan to cover a summary of trends and learnings from different Cx issues around usage of RunInference, GPU, Cuda and related errors like OOM and remediations. 
-
-Also extract relevant topics from Vertex AI Pipelines, Batch Prediction, AutoML related to Dataflow troubleshooting.
+The presentation will cover troubleshooting RunInference, GPU, OOM, and other related errors, offering practical insights from real-world customer support experiences.
