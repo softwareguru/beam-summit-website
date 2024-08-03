@@ -11,7 +11,8 @@ room: Walker Canyon
 time_start: 2024-09-05 11:30:00
 time_end: 2024-09-05 11:55:00
 day: 2
-timeslot: 3
+gridarea: "3/3/4/4"
+timeslot: 44
 images:
  - /images/sessions/2024/improving-stability.jpg 
 ---

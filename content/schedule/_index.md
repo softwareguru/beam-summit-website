@@ -9,107 +9,87 @@ days:
     title_short: Wednesday
     title_full: Wednesday , September 04, 2024
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
-    timeslots: 
-      - id: 1
-        time_start: 2024-09-04 09:00:00
-        type: keynote
-      - id: 2
-        time_start: 2024-09-04 09:45:00
-        type: keynote
-      - id: 3
-        time_start: 2024-09-04 10:30:00
-        time_end: 2024-09-04 11:00:00
-        type: break
-        name: Morning break
-      - id: 3a
-        time_start:  2024-09-04 11:00:00
-        type: room-labels
-      - id: 4
-        time_start: 2024-09-04 11:00:00
-        type: concurrent
-      - id: 5
-        time_start: 2024-09-04 11:30:00
-        type: concurrent
-      - id: 6
-        time_start: 2024-09-04 12:00:00
-        type: concurrent
-      - id: 7
-        time_start: 2024-09-04 12:30:00
-        time_end: 2024-09-04 13:30:00
-        type: break
-        name: Lunch
-      - id: 7a
-        time_start:  2024-09-04 13:30:00
-        type: room-labels
-      - id: 8
-        time_start: 2024-09-04 13:30:00
-        type: concurrent
-      - id: 9
-        time_start: 2024-09-04 14:30:00
-        type: concurrent
-      - id: 10
-        time_start: 2024-09-04 15:00:00
-        type: concurrent
-      - id: 11
-        time_start: 2024-09-04 15:30:00
-        time_end: 2024-09-04 16:00:00
-        type: break
-        name: Afternoon break
-      - id: 11a
-        time_start:  2024-09-04 16:00:00
-        type: room-labels
-      - id: 12
-        time_start: 2024-09-04 16:00:00
-        type: concurrent
-      - id: 13
-        time_start: 2024-09-04 16:30:00
-        type: concurrent
+    schedule_items: 
+      - type: timelabel
+        label: "09:45 - 10:30"
+        gridarea: "1/1/2/2"
+      - type: activity
+        label: "Morning break"
+        gridarea: "2/2/3/6"
+        timelabel: "10:30 - 11:00"
+        gridaream: "3/1/3/3"
+      - type: timelabel
+        label: "11:00 - 11:25"
+        gridarea: "3/1/4/2"
+      - type: timelabel
+        label: "11:30 - 11:55."
+        gridarea: "4/1/5/2"
+      - type: timelabel
+        label: "12:00 - 12:25"
+        gridarea: "5/1/6/2"
+      - type: activity
+        label: "Lunch"
+        gridarea: "6/2/7/6"
+        timelabel: "12:30 - 13:30"
+        gridaream: "7/1/10/3"
+      - type: timelabel
+        label: "13:30 - 14:20"
+        gridarea: "7/1/8/2"
+      - type: timelabel
+        label: "14:30 - 14:55"
+        gridarea: "8/1/9/2"
+      - type: timelabel
+        label: "15:00 - 15:25"
+        gridarea: "9/1/10/2"
+      - type: activity
+        label: "Afternoon break"
+        gridarea: "10/2/11/6"
+        timelabel: "15:30 - 16:00"
+        gridaream: "15/1/14/3"
+      - type: timelabel
+        label: "16:00 - 16:25"
+        gridarea: "11/1/12/2"
+      - type: timelabel
+        label: "16:30 - 16:55"
+        gridarea: "12/1/13/2"
 
 
   - id: 2
     title_short: Thursday
     title_full: Thursday , September 05, 2024
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
-    timeslots: 
-      - id: 1
-        time_start: 2024-09-05 09:45:00
-        type: keynote
-      - id: 1a
-        time_start:  2024-09-04 11:00:00
-        type: room-labels
-      - id: 2
-        time_start: 2024-09-04 11:00:00
-        type: concurrent
-      - id: 3
-        time_start: 2024-09-04 11:30:00
-        type: concurrent
-      - id: 4
-        time_start: 2024-09-04 12:00:00
-        type: concurrent
-      - id: 4a
-        time_start: 2024-09-05 12:30:00
-        time_end: 2024-09-05 13:30:00
-        type: break
-        name: Lunch
-      - id: 5
-        time_start:  2024-09-04 13:30:00
-        type: room-labels
-      - id: 6
-        time_start: 2024-09-04 13:30:00
-        type: concurrent
-      - id: 7
-        time_start: 2024-09-04 14:00:00
-        type: concurrent
-      - id: 8
-        time_start: 2024-09-04 14:30:00
-        type: concurrent
-      - id: 8a
-        time_start: 2024-09-05 15:00:00
-        time_end: 2024-09-05 15:15:00
-        type: break
-        name: Closing remarks
-
-
+    schedule_items: 
+      - type: timelabel
+        label: "09:45 - 10:30"
+        gridarea: "1/1/2/2"
+      - type: timelabel
+        label: "11:00 - 11:25"
+        gridarea: "2/1/3/2"
+      - type: timelabel
+        label: "11:30 - 11:55."
+        gridarea: "3/1/4/2"
+      - type: timelabel
+        label: "12:00 - 12:25"
+        gridarea: "4/1/5/2"
+      - type: activity
+        label: "Lunch"
+        gridarea: "5/2/6/6"
+        timelabel: "12:30 - 13:30"
+        gridaream: "6/1/9/3"
+      - type: timelabel
+        label: "13:30 - 13:55"
+        gridarea: "6/1/7/2"
+      - type: timelabel
+        label: "14:00 - 14:25"
+        gridarea: "7/1/8/2"
+      - type: timelabel
+        label: "14:30 - 14:55"
+        gridarea: "8/1/9/2"
+      - type: activity
+        label: "Afternoon break"
+        gridarea: "9/2/10/6"
+        timelabel: "15:00 - 15:15"
+        gridaream: "15/1/14/3"
 
 
 summary: 

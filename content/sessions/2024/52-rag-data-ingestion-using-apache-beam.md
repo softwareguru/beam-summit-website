@@ -11,7 +11,8 @@ room: Mariposa Grove
 time_start: 2024-09-05 13:30:00
 time_end: 2024-09-05 13:55:00
 day: 2
-timeslot: 6
+gridarea: "6/2/7/3"
+timeslot: 52
 images:
  - /images/sessions/2024/rag-ingestion.jpg 
 ---

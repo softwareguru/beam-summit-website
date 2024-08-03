@@ -11,7 +11,8 @@ room: Mariposa Grove
 time_start: 2024-09-04 15:00:00
 time_end: 2024-09-04 15:25:00
 day: 1
-timeslot: 10
+gridarea: "9/2/10/3"
+timeslot: 25
 images:
  - /images/sessions/2024/multi-modal-llm.jpg 
 ---
