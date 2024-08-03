@@ -9,7 +9,8 @@ room: Hamina (MP4)
 time_start: 2024-09-04 15:00:00
 time_end: 2024-09-04 15:25:00
 day: 1
-timeslot: 10
+gridarea: "9/4/10/5"
+timeslot: 27
 images:
  - /images/sessions/2024/troubleshooting-python.jpg 
 ---

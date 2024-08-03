@@ -11,7 +11,8 @@ room: Walker Canyon
 time_start: 2024-09-04 13:30:00
 time_end: 2024-09-04 14:20:00
 day: 1
-timeslot: 8
+gridarea: "7/3/8/4"
+timeslot: 18
 images:
  - /images/sessions/2024/implementing-sdk.jpg 
 

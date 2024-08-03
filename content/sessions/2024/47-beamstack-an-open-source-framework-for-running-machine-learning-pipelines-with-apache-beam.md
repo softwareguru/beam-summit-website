@@ -11,7 +11,8 @@ room: Mariposa Grove
 time_start: 2024-09-05 12:00:00
 time_end: 2024-09-05 12:25:00
 day: 2
-timeslot: 4
+gridarea: "4/2/5/3"
+timeslot: 47
 images:
  - /images/sessions/2024/beamstack.jpg 
 ---

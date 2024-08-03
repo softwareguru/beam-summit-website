@@ -12,7 +12,8 @@ room: Mariposa Grove
 time_start: 2024-09-04 16:00:00
 time_end: 2024-09-04 16:25:00
 day: 1
-timeslot: 12
+gridarea: "11/2/12/3"
+timeslot: 30
 images:
  - /images/sessions/2024/fraud-prevention.jpg 
 ---

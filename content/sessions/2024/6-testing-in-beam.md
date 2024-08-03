@@ -9,7 +9,8 @@ room: Hamina (MP4)
 time_start: 2024-09-04 11:00:00
 time_end: 2024-09-04 11:25:00
 day: 1
-timeslot: 4
+gridarea: "3/4/4/5"
+timeslot: 6
 images:
  - /images/sessions/2024/testing-beam.jpg 
 ---

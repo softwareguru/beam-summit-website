@@ -12,7 +12,8 @@ room: Walker Canyon
 time_start: 2024-09-05 14:00:00
 time_end: 2024-09-05 14:25:00
 day: 2
-timeslot: 7
+gridarea: "7/3/8/4"
+timeslot: 57
 images:
  - /images/sessions/2024/forecasting.jpg 
 ---
