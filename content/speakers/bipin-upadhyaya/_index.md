@@ -6,7 +6,7 @@ images:
 twitter: 
 linkedin: 
 events:
- - 2023
+ - 2024
 ---
 
 Strategic Cloud Engineer at Google Cloud Professional Services

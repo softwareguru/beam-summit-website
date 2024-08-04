@@ -13,7 +13,7 @@ room: Mariposa Grove
 time_start: 2024-09-04 12:00:00
 time_end: 2024-09-04 12:25:00
 day: 1
-gridarea: "5/2/6/3"
+gridarea: "7/2/8/3"
 timeslot: 12
 images:
  - /images/sessions/2024/how-we-migrated.jpg 

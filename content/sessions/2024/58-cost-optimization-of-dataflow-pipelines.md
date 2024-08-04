@@ -9,7 +9,7 @@ room: Hamina (MP4)
 time_start: 2024-09-05 14:00:00
 time_end: 2024-09-05 14:50:00
 day: 2
-gridarea: "7/4/9/5"
+gridarea: "9/4/11/5"
 timeslot: 58
 images:
  - /images/sessions/2024/cost-optimization.jpg 

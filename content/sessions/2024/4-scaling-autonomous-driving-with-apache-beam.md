@@ -12,7 +12,7 @@ room: Mariposa Grove
 time_start: 2024-09-04 11:00:00
 time_end: 2024-09-04 11:25:00
 day: 1
-gridarea: "3/ 2 / 4 / 3"
+gridarea: "5/ 2 / 6 / 3"
 timeslot: 4
 images:
  - /images/sessions/2024/scaling-autonomous.jpg 

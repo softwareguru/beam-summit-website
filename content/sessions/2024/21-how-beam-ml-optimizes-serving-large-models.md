@@ -9,7 +9,7 @@ room: Mariposa Grove
 time_start: 2024-09-04 14:30:00
 time_end: 2024-09-04 14:55:00
 day: 1
-gridarea: "8/2/9/3"
+gridarea: "10/2/11/3"
 timeslot: 21
 images:
  - /images/sessions/2024/how-beam-ml-optimizes.jpg 

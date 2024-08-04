@@ -1,6 +1,6 @@
 ---
 title: "Program"
-date: 2023-04-21T15:49:31-05:00
+date: 2024-01-04T15:49:31-05:00
 url: program-onsite
 
 days: 
@@ -11,47 +11,61 @@ days:
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
     schedule_items: 
       - type: timelabel
-        label: "09:45 - 10:30"
+        label: "09:00 - 9:45"
         gridarea: "1/1/2/2"
       - type: activity
-        label: "Morning break"
-        gridarea: "2/2/3/6"
-        timelabel: "10:30 - 11:00"
+        label: "Welcome"
+        gridarea: "1/2/2/5"
+        timelabel: "9:00 - 9:10"
         gridaream: "3/1/3/3"
       - type: timelabel
-        label: "11:00 - 11:25"
+        label: "09:45 - 10:30"
         gridarea: "3/1/4/2"
       - type: timelabel
-        label: "11:30 - 11:55."
+        label: "10:30 - 11:00"
         gridarea: "4/1/5/2"
+      - type: activity
+        label: "Morning break"
+        gridarea: "4/2/5/5"
+        timelabel: "10:30 - 11:00"
+        gridaream: "4/1/5/3"
+      - type: timelabel
+        label: "11:00 - 11:25"
+        gridarea: "5/1/6/2"
+      - type: timelabel
+        label: "11:30 - 11:55."
+        gridarea: "6/1/7/2"
       - type: timelabel
         label: "12:00 - 12:25"
-        gridarea: "5/1/6/2"
+        gridarea: "7/1/8/2"
+      - type: timelabel
+        label: "12:30 - 13:25"
+        gridarea: "8/1/9/2"
       - type: activity
         label: "Lunch"
-        gridarea: "6/2/7/6"
+        gridarea: "8/2/9/5"
         timelabel: "12:30 - 13:30"
         gridaream: "7/1/10/3"
       - type: timelabel
         label: "13:30 - 14:20"
-        gridarea: "7/1/8/2"
+        gridarea: "9/1/10/2"
       - type: timelabel
         label: "14:30 - 14:55"
-        gridarea: "8/1/9/2"
+        gridarea: "10/1/11/2"
       - type: timelabel
         label: "15:00 - 15:25"
-        gridarea: "9/1/10/2"
+        gridarea: "11/1/12/2"
       - type: activity
         label: "Afternoon break"
-        gridarea: "10/2/11/6"
+        gridarea: "12/2/13/5"
         timelabel: "15:30 - 16:00"
         gridaream: "15/1/14/3"
       - type: timelabel
         label: "16:00 - 16:25"
-        gridarea: "11/1/12/2"
+        gridarea: "13/1/14/2"
       - type: timelabel
         label: "16:30 - 16:55"
-        gridarea: "12/1/13/2"
+        gridarea: "14/1/15/2"
 
 
   - id: 2
@@ -60,34 +74,45 @@ days:
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
     schedule_items: 
       - type: timelabel
-        label: "09:45 - 10:30"
+        label: "09:00 - 9:45"
         gridarea: "1/1/2/2"
       - type: timelabel
-        label: "11:00 - 11:25"
+        label: "09:45 - 10:30"
         gridarea: "2/1/3/2"
       - type: timelabel
-        label: "11:30 - 11:55."
+        label: "10:30 - 11:00"
         gridarea: "3/1/4/2"
+      - type: activity
+        label: "Morning break"
+        gridarea: "3/2/4/5"
+        timelabel: "10:30 - 11:00"
+        gridaream: "6/1/9/3"
+      - type: timelabel
+        label: "11:00 - 11:25"
+        gridarea: "4/1/5/2"
+      - type: timelabel
+        label: "11:30 - 11:55."
+        gridarea: "5/1/6/2"
       - type: timelabel
         label: "12:00 - 12:25"
-        gridarea: "4/1/5/2"
+        gridarea: "6/1/7/2"
       - type: activity
         label: "Lunch"
-        gridarea: "5/2/6/6"
+        gridarea: "7/2/8/5"
         timelabel: "12:30 - 13:30"
         gridaream: "6/1/9/3"
       - type: timelabel
         label: "13:30 - 13:55"
-        gridarea: "6/1/7/2"
+        gridarea: "8/1/9/2"
       - type: timelabel
         label: "14:00 - 14:25"
-        gridarea: "7/1/8/2"
+        gridarea: "9/1/10/2"
       - type: timelabel
         label: "14:30 - 14:55"
-        gridarea: "8/1/9/2"
+        gridarea: "10/1/11/2"
       - type: activity
-        label: "Afternoon break"
-        gridarea: "9/2/10/6"
+        label: "Closing remarks"
+        gridarea: "11/2/12/5"
         timelabel: "15:00 - 15:15"
         gridaream: "15/1/14/3"
 

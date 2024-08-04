@@ -1,5 +1,6 @@
 ---
 title: "Retrieval Augmented Generation (RAG) Pipelines using Beam"
+slug: rag-pipelines
 speakers:
  - Ayush Pandey
 topics:
@@ -9,7 +10,7 @@ room: Mariposa Grove
 time_start: 2024-09-05 14:30:00
 time_end: 2024-09-05 14:55:00
 day: 2
-gridarea: "8/2/9/3"
+gridarea: "10/2/11/3"
 timeslot: 60
 images:
  - /images/sessions/2024/rag-pipelines.jpg 

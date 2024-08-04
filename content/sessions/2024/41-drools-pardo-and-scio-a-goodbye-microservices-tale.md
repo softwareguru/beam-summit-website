@@ -14,7 +14,7 @@ room: Hamina (MP4)
 time_start: 2024-09-05 11:00:00
 time_end: 2024-09-05 11:25:00
 day: 2
-gridarea: "2 / 4 / 3 / 5"
+gridarea: "4 / 4 / 5 / 5"
 timeslot: 41
 images:
  - /images/sessions/2024/drools.jpg 

@@ -10,7 +10,7 @@ room: Mariposa Grove
 time_start: 2024-09-05 11:00:00
 time_end: 2024-09-05 11:25:00
 day: 2
-gridarea: "2 / 2 / 3 / 3"
+gridarea: "4 / 2 / 5 / 3"
 timeslot: 39
 images:
  - /images/sessions/2024/using-llm.jpg 

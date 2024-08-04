@@ -13,7 +13,7 @@ room: Mariposa Grove
 time_start: 2024-09-05 14:00:00
 time_end: 2024-09-05 14:25:00
 day: 2
-gridarea: "7/2/8/3"
+gridarea: "9/2/10/3"
 timeslot: 56
 images:
  - /images/sessions/2024/streaming-processing.jpg 

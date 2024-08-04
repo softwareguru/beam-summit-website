@@ -9,7 +9,7 @@ room: Mariposa Grove
 time_start: 2024-09-04 11:30:00
 time_end: 2024-09-04 11:55:00
 day: 1
-gridarea: "4/2/5/3"
+gridarea: "6/2/7/3"
 timeslot: 8
 images:
  - /images/sessions/2024/transitioning-uber.jpg 

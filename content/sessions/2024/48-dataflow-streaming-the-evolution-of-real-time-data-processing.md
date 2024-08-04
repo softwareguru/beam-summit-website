@@ -11,7 +11,7 @@ room: Walker Canyon
 time_start: 2024-09-05 12:00:00
 time_end: 2024-09-05 12:25:00
 day: 2
-gridarea: "4/3/5/4"
+gridarea: "6/3/7/4"
 timeslot: 48
 images:
  - /images/sessions/2024/dataflow-streaming.jpg 

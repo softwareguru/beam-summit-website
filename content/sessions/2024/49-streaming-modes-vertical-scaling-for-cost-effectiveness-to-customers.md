@@ -10,7 +10,7 @@ room: Hamina (MP4)
 time_start: 2024-09-05 12:00:00
 time_end: 2024-09-05 12:25:00
 day: 2
-gridarea: "4/4/5/5"
+gridarea: "6/4/7/5"
 timeslot: 49
 images:
  - /images/sessions/2024/streaming-modes.jpg 

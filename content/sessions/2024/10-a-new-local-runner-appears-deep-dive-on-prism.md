@@ -12,7 +12,7 @@ room: Hamina (MP4)
 time_start: 2024-09-04 11:30:00
 time_end: 2024-09-04 12:20:00
 day: 1
-gridarea: "4/4/6/5"
+gridarea: "6/4/8/5"
 timeslot: 10
 images:
  - /images/sessions/2024/new-local-runner.jpg 

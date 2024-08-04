@@ -13,7 +13,7 @@ room: Walker Canyon
 time_start: 2024-09-04 15:00:00
 time_end: 2024-09-04 15:25:00
 day: 1
-gridarea: "9/3/10/4"
+gridarea: "11/3/12/4"
 timeslot: 9
 images:
  - /images/sessions/2024/beam-yaml-protobuf.jpg 

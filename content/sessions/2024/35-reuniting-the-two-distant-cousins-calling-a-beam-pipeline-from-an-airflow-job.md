@@ -9,7 +9,7 @@ room: Walker Canyon
 time_start: 2024-09-04 16:30:00
 time_end: 2024-09-04 16:55:00
 day: 1
-gridarea: "12/3/13/4"
+gridarea: "14/3/15/4"
 timeslot: 35
 images:
  - /images/sessions/2024/reuniting.jpg 
