@@ -11,7 +11,7 @@ time_end: 2024-09-04 10:30:00
 track: keynote
 day: 1
 gridarea: "3 / 2 / 4 / 5"
-timeslot: 1
+timeslot: 2
 images:
  - /images/sessions/2024/project-shield.jpg 
 ---
