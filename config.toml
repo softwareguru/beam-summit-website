@@ -47,10 +47,10 @@ speaker = "speakers"
     URL = "/speakers"
     weight = 2
 
-  #[[menu.main]]
-  #name = "Venue"
-  #URL = "/venue"
-  #weight = 3
+  [[menu.main]]
+  name = "Venue"
+  URL = "/venue"
+  weight = 3
 
   [[menu.main]]
   name = "FAQ"
