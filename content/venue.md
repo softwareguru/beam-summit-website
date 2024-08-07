@@ -15,7 +15,7 @@ draft: false
     </div>
   </div>
 
-<p style="font-size: 14px;" class="mt-3 mb-4">If you exit from the 101 freeway, you will make a right on N Mathilda Ave onto Innovation Way. Follow this road straight across Bordeaux ave into the Google Parking lot. Follow signs (Need to print some if wanted) leading straight through the parking lot until you find Google Building MP6 on your right. Enter through the double set of doors at the back lobby entrance - Closest to the parking lot</p>
+<p style="font-size: 14px;" class="mt-3 mb-4">If you exit from the 101 freeway, take N Mathilda Ave. and make a right into Innovation Way. Cross Bordeaux Ave., and enter the Google Parking lot. Follow the signs until you find Building MP6 on your right. The event registration will be located in the MP6 back lobby (closest entrance to the parking lot). Another building where we will have sessions later during the day is MP4 (you passed this building when entering the parking lot).</p>
   
 
 ## Enjoy your visit to Sunnyvale!
