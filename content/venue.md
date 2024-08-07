@@ -4,7 +4,7 @@ date: 2023-02-21T01:02:57-06:00
 draft: false
 ---
 
-<h2 class="text-center">Google Campus at Suunyvale, CA. Building MP-6<h2>
+<h2 class="text-center">Google Campus at Sunnyvale, CA. Building MP-6<h2>
 
 <div class="row">
     <div class="col-lg-6 mt-3">
