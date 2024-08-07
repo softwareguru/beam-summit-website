@@ -4,6 +4,20 @@ date: 2023-02-21T01:02:57-06:00
 draft: false
 ---
 
+<h2 class="text-center">Google Campus at Suunyvale, CA. Building MP-6<h2>
+
+<div class="row">
+    <div class="col-lg-6 mt-3">
+    <img class="img-fluid" src="/images/venue.png"> 
+    </div>
+    <div class="col-lg-6 mt-3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.253668315741!2d-122.0197216915421!3d37.40747871839029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7b975494789%3A0x8526ea565efeef3b!2sGoogle%20Building%20MP6%2C%201195%20Borregas%20Ave%2C%20Sunnyvale%2C%20CA%2094089%2C%20USA!5e0!3m2!1sen!2smx!4v1723056509880!5m2!1sen!2smx" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+<p style="font-size: 14px;" class="mt-3 mb-4">If you exit from the 101 freeway, you will make a right on N Mathilda Ave onto Innovation Way. Follow this road straight across Bordeaux ave into the Google Parking lot. Follow signs (Need to print some if wanted) leading straight through the parking lot until you find Google Building MP6 on your right. Enter through the double set of doors at the back lobby entrance - Closest to the parking lot</p>
+  
+
 ## Enjoy your visit to Sunnyvale!
 
 Join us for Beam Summit, an exciting event bringing together the best minds in data processing and Apache Beam at the heart of Silicon Valley. Sunnyvale offers the perfect blend of natural beauty, cutting-edge technology, and vibrant cultural experiences under the mild Mediterranean weather. 
@@ -69,8 +83,4 @@ Additionally, Sunnyvale benefits from its proximity to prestigious research inst
 2. By Public Transportation:
 
 - Take the BART from OAK to Coliseum Station.
-- Transfer to the BART line going to Millbrae.
-- At Millbrae Station, transfer to Caltrain.
-- Take Caltrain southbound to Sunnyvale Station.
-
 

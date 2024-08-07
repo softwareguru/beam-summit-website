@@ -17,7 +17,7 @@
         <ul class="navbar-nav mx-auto">
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown btn-menu">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{ .Name }}
               </a>

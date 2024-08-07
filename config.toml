@@ -32,20 +32,26 @@ speaker = "speakers"
   URL = "/about"
   weight = 1
 
-  #[[menu.main]]
-  #name = "Discover NYC"
-  #URL = "/discover-nyc"
-  #weight = 2
-
   [[menu.main]]
+    identifier = "program"
     name = "Program"
     URL = "/program"
     weight = 2
 
   [[menu.main]]
+    identifier = "schedule"
+    name = "Schedule"
+    url = "/program"
+    parent = "program"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "speakers"
     name = "Speakers"
-    URL = "/speakers"
+    url = "/speakers"
+    parent = "program"
     weight = 2
+
 
   [[menu.main]]
   name = "Venue"
@@ -56,7 +62,6 @@ speaker = "speakers"
   name = "FAQ"
   URL = "/faq"
   weight = 4
-
 
 
 [sitemap]
