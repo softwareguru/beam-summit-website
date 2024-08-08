@@ -9,7 +9,7 @@ images : ["/images/banner/beam-college-2024-banner.png"]
 author: "Beam Summit Team"
 summary: "Beam College offers a flexible, hands-on training program designed to enhance your skills in data processing using Apache Beam. <br><br> https://beamcollege.dev/"
 redirection: https://beamcollege.dev/
-draft: false
+draft: true
 ---
 
 <section id="latest-news" class="text-center">
