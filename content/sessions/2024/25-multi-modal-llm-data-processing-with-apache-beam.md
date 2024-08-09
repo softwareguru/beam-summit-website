@@ -11,7 +11,7 @@ track: ML & AI
 room: Mariposa Grove
 time_start: 2024-09-04 15:00:00
 time_end: 2024-09-04 15:25:00
-day: 1
+day: 20241
 gridarea: "11/2/12/3"
 timeslot: 25
 images:

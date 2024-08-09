@@ -10,7 +10,7 @@ room: Hamina (MP4)
 track: Best practices
 time_start: 2024-09-04 14:30:00
 time_end: 2024-09-04 14:55:00
-day: 1
+day: 20241
 gridarea: "10/4/11/5"
 timeslot: 23
 images:

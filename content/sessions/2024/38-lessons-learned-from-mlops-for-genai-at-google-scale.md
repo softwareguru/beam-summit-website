@@ -9,7 +9,7 @@ room: Mariposa Grove
 time_start: 2024-09-05 09:45:00
 time_end: 2024-09-05 10:30:00
 track: keynote
-day: 2
+day: 20242
 gridarea: "2 / 2 / 3 / 5"
 timeslot: 38
 images:

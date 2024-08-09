@@ -11,7 +11,7 @@ track: Architecture
 room: Hamina (MP4)
 time_start: 2024-09-04 13:30:00
 time_end: 2024-09-04 14:20:00
-day: 1
+day: 20241
 gridarea: "9/4/10/5"
 timeslot: 19
 images:

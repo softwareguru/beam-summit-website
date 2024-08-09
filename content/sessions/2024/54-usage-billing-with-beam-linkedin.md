@@ -12,7 +12,7 @@ topics:
 room: Hamina (MP4)
 time_start: 2024-09-05 13:30:00
 time_end: 2024-09-05 13:55:00
-day: 2
+day: 20242
 gridarea: "8/4/9/5"
 timeslot: 54
 images:

@@ -10,7 +10,7 @@ track: Use case
 room: Mariposa Grove
 time_start: 2024-09-04 13:30:00
 time_end: 2024-09-04 14:20:00
-day: 1
+day: 20241
 timeslot: 17
 gridarea: "9/2/10/3"
 ---

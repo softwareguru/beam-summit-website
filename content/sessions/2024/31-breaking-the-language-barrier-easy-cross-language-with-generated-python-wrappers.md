@@ -12,7 +12,7 @@ track: Cross language
 room: Walker Canyon
 time_start: 2024-09-04 16:00:00
 time_end: 2024-09-04 16:25:00
-day: 1
+day: 20241
 gridarea: "13/3/14/4"
 timeslot: 31
 images:

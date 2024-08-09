@@ -10,7 +10,7 @@ topics:
 room: Mariposa Grove
 time_start: 2024-09-05 13:30:00
 time_end: 2024-09-05 13:55:00
-day: 2
+day: 20242
 gridarea: "8/2/9/3"
 timeslot: 52
 images:

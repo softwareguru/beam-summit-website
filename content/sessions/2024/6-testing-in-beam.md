@@ -6,7 +6,7 @@ speakers:
 room: Hamina (MP4)
 time_start: 2024-09-04 11:00:00
 time_end: 2024-09-04 11:25:00
-day: 1
+day: 20241
 gridarea: "5/4/6/5"
 timeslot: 6
 images:

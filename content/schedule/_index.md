@@ -5,9 +5,9 @@ url: /program
 
 days: 
 
-  - id: 1
+  - id: 20241
     title_short: Wednesday
-    title_full: Wednesday , September 04, 2024
+    title_full: Wednesday, September 04, 2024
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
     schedule_items: 
       - type: timelabel
@@ -68,9 +68,9 @@ days:
         gridarea: "14/1/15/2"
 
 
-  - id: 2
+  - id: 20242
     title_short: Thursday
-    title_full: Thursday , September 05, 2024
+    title_full: Thursday, September 05, 2024
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
     schedule_items: 
       - type: timelabel
@@ -123,3 +123,4 @@ summary: "Welcome to the session program for Beam Summit 2024 to be held on Sept
 ### Welcome to the session program for Beam Summit 2024.
 
 If you prefer, you can also see the program in the <a href="/program-sessionize">Sessionize layout</a>.
+

@@ -10,7 +10,7 @@ topics:
 room: Walker Canyon
 time_start: 2024-09-04 16:30:00
 time_end: 2024-09-04 16:55:00
-day: 1
+day: 20241
 gridarea: "14/3/15/4"
 timeslot: 35
 

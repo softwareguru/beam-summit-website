@@ -6,10 +6,11 @@ speakers:
 topics:
  - Python
  - IO
+
 room: Hamina (MP4)
 time_start: 2024-09-04 16:00:00
 time_end: 2024-09-04 16:25:00
-day: 1
+day: 20241
 gridarea: "13/4/14/5"
 timeslot: 32
 images:

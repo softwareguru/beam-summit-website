@@ -13,7 +13,7 @@ topics:
 room: Mariposa Grove
 time_start: 2024-09-04 13:30:00
 time_end: 2024-09-04 14:20:00
-day: 1
+day: 202420241
 timeslot: 8
 draft: true
 ---
