@@ -3,8 +3,6 @@ title: "Ordered processing in Apache Beam"
 slug: ordered-processing-in-apache-beam
 speakers:
  - Sergei Lilichenko
-topics:
- - 
 room: Walker Canyon
 time_start: 2024-09-04 11:00:00
 time_end: 2024-09-04 11:25:00

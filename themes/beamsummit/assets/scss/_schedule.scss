@@ -215,9 +215,6 @@ color: #404040;
 	grid-template-rows: auto;
 	grid-column-gap: 1em;
 	grid-row-gap: 0px;
-	@media (max-width: 576px) {
-		grid-template-columns: 60px 1fr;
-	}
 }
 
 .daygrid-xs {
@@ -231,3 +228,54 @@ color: #404040;
 .daygrid .activity {
     text-align: center;
 }
+
+.session-item div.addeventatc {
+	background-color: #ffffff50;
+	line-height: 40px;
+}
+
+.track-keynote, .track-panel {
+	background-color: #ff000020 !important;
+	border: 2px solid #ff0000 !important;
+}
+	
+.room-bonsai {
+	background-color: #40d9ff20;
+   	border: 2px solid #40d9ff;
+}
+
+.room-hamina-mp4 {
+	background-color: #f7fa1120;
+	border: 2px solid #f7fa11;
+}
+  
+.track-community {
+	background-color: #fc6a0320;
+	border: 2px solid #fc6a03;
+}
+
+.track-airflow-intro-talks {
+	background-color: #62fdd120;
+	border: 2px solid #62fdd1;
+}
+  
+.room-walker-canyon {
+	background-color: #9b62fd20;
+	border: 2px solid #9b62fd;
+}
+  
+.track-sponsored {
+	background-color: #1b9ecd60;
+	border: 2px solid #1b9ecd;
+}
+
+.room-mariposa-grove {
+	background-color: #2ba15b20;
+	border: 2px solid #2ba15b;
+}
+
+.track-sponsored {
+	background-color: #ff4dc420;
+	border: 2px solid #ff4dc4;
+}
+

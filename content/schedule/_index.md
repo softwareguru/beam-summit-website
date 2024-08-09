@@ -1,7 +1,7 @@
 ---
 title: "Program"
 date: 2024-01-04T15:49:31-05:00
-url: program-onsite
+url: /program
 
 days: 
 
@@ -117,5 +117,9 @@ days:
         gridaream: "22/1/23/2"
 
 
-summary: 
+summary: "Welcome to the session program for Beam Summit 2024 to be held on September 4-5, 2024 in Sunnyvale, CA."
 ---
+
+### Welcome to the session program for Beam Summit 2024.
+
+If you prefer, you can also see the program in the <a href="/program-sessionize">Sessionize layout</a>.

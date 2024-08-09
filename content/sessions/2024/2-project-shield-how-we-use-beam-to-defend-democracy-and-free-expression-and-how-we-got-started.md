@@ -3,12 +3,10 @@ title: "Project Shield: How we use Beam to defend democracy and free expression,
 slug: project-shield-how-we-use-beam-to-defend-democracy-and-free-expression-and-how-we-got-started
 speakers:
  - Marc Howard
-topics:
- - Use case
 room: Mariposa Grove
 time_start: 2024-09-04 09:45:00
 time_end: 2024-09-04 10:30:00
-track: keynote
+track: Keynote
 day: 1
 gridarea: "3 / 2 / 4 / 5"
 timeslot: 2

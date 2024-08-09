@@ -1,4 +1,3 @@
-<head>
     <meta charset="utf-8">
     <title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
   
@@ -50,13 +49,13 @@
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "location": {
           "@type": "Place",
-          "name": "Pier 57",
+          "name": "",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "25 11th Ave",
-            "addressLocality": "New York",
-            "postalCode": "10011",
-            "addressRegion": "NY",
+            "streetAddress": "1195 Borregas Ave",
+            "addressLocality": "Sunnyvale",
+            "postalCode": "94089",
+            "addressRegion": "CA",
             "addressCountry": "US"
           }
         }, 
@@ -68,7 +67,7 @@
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2023-02-01T12:00"
+          "validFrom": "2024-06-01T12:00"
         },
         "performer": {
           "@type": "PerformingGroup",
@@ -83,27 +82,4 @@
     </script>
     {{ end }}
 
-<!-- AddEvent script -->
-<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
-
-<script type="text/javascript">
-  window.addeventasync = function(){
-      addeventatc.settings({
-          appleical  : {show:true, text:"Apple Calendar"},
-          google     : {show:true, text:"Google Calendar"},
-          office365  : {show:true, text:"Office 365 <em>(online)</em>"},
-          outlook    : {show:true, text:"Outlook"},
-          outlookcom : {show:false, text:"Outlook.com"},
-          yahoo      : {show:false, text:"Yahoo"},
-          license : "aJWrAOFtlzUgRLSPwmgF111163"
-      });
-  };
-</script>
-<!-- Remove "AddEvent" from the dropdown with the following CSS -->
-<style type="text/css">
-.addeventatc_dropdown {padding:6px 0px;}
-.addeventatc_dropdown .copyx {display:none;}
-</style>
-
-</head>
   

@@ -3,8 +3,7 @@ title: "Troubleshooting Python pipelines with process monitoring tools."
 slug: troubleshooting-python-pipelines-with-process-monitoring-tools
 speakers:
  - Valentyn Tymofieiev
-topics:
- - 
+track: Best practices
 room: Hamina (MP4)
 time_start: 2024-09-04 15:00:00
 time_end: 2024-09-04 15:25:00

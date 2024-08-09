@@ -3,8 +3,7 @@ title: "Transitioning Uber Michelangelo's Batch Prediction from Apache Spark to 
 slug: transitioning-uber-michelangelo-s-batch-prediction-from-apache-spark-to-ray
 speakers:
  - Baojun Liu
-topics:
- - ML
+track: Use case
 room: Mariposa Grove
 time_start: 2024-09-04 11:30:00
 time_end: 2024-09-04 11:55:00

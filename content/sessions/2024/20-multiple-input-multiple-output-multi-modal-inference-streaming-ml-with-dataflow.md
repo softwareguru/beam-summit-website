@@ -8,6 +8,7 @@ topics:
  - Use case
  - State & timers
  - Python
+track: Workshop
 room: Bonsai
 time_start: 2024-09-05 13:30:00
 time_end: 2024-09-05 14:50:00

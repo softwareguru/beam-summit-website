@@ -3,12 +3,10 @@ title: "Beam for Large-Scale, Accelerated ML Inference at Google"
 slug: beam-ml-inference
 speakers:
  - Uday Kalra
-topics:
- - Use case
 room: Mariposa Grove
 time_start: 2024-09-04 09:10:00
 time_end: 2024-09-04 9:40:00
-track: keynote
+track: Keynote
 day: 1
 gridarea: "2 / 2 / 3 / 5"
 timeslot: 1

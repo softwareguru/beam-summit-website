@@ -9,6 +9,7 @@ topics:
  - Java
  - Use case
  - Architecture
+track: State & timers
 images:
  - /images/sessions/2024/avoid-http-requests.jpg 
 room: Walker Canyon

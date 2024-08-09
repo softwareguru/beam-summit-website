@@ -8,6 +8,7 @@ topics:
  - Go
  - Testing
  - Cross language
+track: New features
 room: Hamina (MP4)
 time_start: 2024-09-04 11:30:00
 time_end: 2024-09-04 12:20:00

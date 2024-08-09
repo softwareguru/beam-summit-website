@@ -6,6 +6,7 @@ speakers:
 topics:
  - Use case
  - Architecture
+track: Use case
 room: Mariposa Grove
 time_start: 2024-09-04 13:30:00
 time_end: 2024-09-04 14:20:00
