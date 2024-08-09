@@ -9,7 +9,7 @@ description: Details for participation in Beam Summit.
 Yes! Beam Summit is free.
 
 ## Where will it be?
-Beam Summit 2024 will be hosted at the Google campus in Sunnyvale, CA in building MP-6.
+Beam Summit 2024 will be meet at the Google campus in Sunnyvale, CA in building MP-6.
 
 ## Will sessions be live streamed?
 No. Beam Summit 2024 will be in-person only. However, we will record all sessions to later publish them in the [Apache Beam YouTube channel](https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ).

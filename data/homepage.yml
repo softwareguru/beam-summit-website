@@ -22,7 +22,7 @@ banner:
 event_info:
   enable : true
   
-  subtitle: "Beam Summit 2024 will be the 7th edition of this awaited event for professionals in real-time processing, data and AI/ML engineering."
+  subtitle: "Beam Summit 2024 will be the 7th edition of this awaited event for professionals in real-time processing, data and AI/ML engineering." 
 
   title : "Support the Apache Beam community, become a sponsor!"
   description : ""
