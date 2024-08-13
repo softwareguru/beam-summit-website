@@ -22,6 +22,10 @@ sponsor_group:
         link : "https://osacom.io/"
       - logo : "/images/logos/clowder-space.png"
         link : "https://clowder.space/"
+      - logo : "/images/logos/apache-airflow.png"
+        link : "https://airflow.apache.org/"
+      - logo : "/images/logos/akvelon.jpg"
+        link : "https://akvelon.com/"
 
 # call to action in sponsor
 sponsorship:
