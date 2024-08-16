@@ -11,6 +11,7 @@ gridarea: "5/4/6/5"
 timeslot: 6
 images:
  - /images/sessions/2024/testing-beam.jpg 
+draft: true
 ---
 
 How to write tests using Beam specific constructs

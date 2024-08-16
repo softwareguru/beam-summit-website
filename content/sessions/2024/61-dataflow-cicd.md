@@ -9,7 +9,7 @@ time_end: 2024-09-05 14:55:00
 day: 20242
 gridarea: "10/3/11/4"
 timeslot: 61
-
+draft: true
 ---
 
 In this talk we will walk through the process of building and deploying Beam Dataflow templates.
