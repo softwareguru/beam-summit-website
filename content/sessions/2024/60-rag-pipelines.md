@@ -1,5 +1,5 @@
 ---
-title: "Retrieval Augmented Generation (RAG) Pipelines using Beam"
+title: "RAG Data Ingestion and Enrichment Pipeline using Redis and OpenSearch Vector Database in Apache Beam"
 slug: rag-pipelines
 speakers:
  - Ayush Pandey
@@ -16,4 +16,4 @@ images:
  - /images/sessions/2024/rag-pipelines.jpg 
 ---
 
-Building out Apache Beam pipelines for Retrieval Augmented Generation (RAG) Applications to help Enterprises seamlessly leverage Large Language Models through Beam's model.
+Building out data ingestion and enrichment pipeline for a Retrieval Augmented Generation (RAG) system using Apache Beam. The pipeline built a knowledge base by ingesting text data into vector databases, specifically utilizing Redis and OpenSearch for efficient semantic search and data retrieval. These databases stored vectorized representations of text chunks, allowing the system to enhance user queries by matching them with relevant text fragments. The design of the pipeline ensured scalable and effective RAG operations, leveraging the strengths of Redis and OpenSearch in vector-based search.
