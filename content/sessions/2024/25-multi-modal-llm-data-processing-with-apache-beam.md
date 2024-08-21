@@ -4,6 +4,7 @@ slug: multi-modal-llm-data-processing-with-apache-beam
 speakers:
  - Konstantin Buschmeier
  - Jasper Van den Bossche
+ - Iris Luden
 topics:
  - ML
  - Python

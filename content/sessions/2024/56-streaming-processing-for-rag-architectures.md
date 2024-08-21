@@ -3,6 +3,7 @@ title: "Streaming Processing for RAG Architectures"
 slug: streaming-processing-for-rag-architectures
 speakers:
  - Pablo Rodriguez Defino
+ - Namita Sharma
 topics:
  - ML
  - Use case
