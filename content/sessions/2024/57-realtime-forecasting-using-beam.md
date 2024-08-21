@@ -18,4 +18,5 @@ images:
  - /images/sessions/2024/forecasting.jpg 
 ---
 
-Lyft realtime forecasting heavily uses Beam SDK and Flink runner to forecast demand and supply in realtime. In this session, I plan to present our journey at Lyft and how Beam helped solve real time forecasting use cases
+In this session, I'll share how Lyft uses Beam's portability framework with Flink execution-engine for real-time demand and supply forecasting. We will provide a dive into our architecture, scale and lessons learned.
+
