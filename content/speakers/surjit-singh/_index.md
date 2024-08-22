@@ -8,7 +8,7 @@ twitter:
 linkedin: https://www.linkedin.com/in/surjits254/
 events:
  - 2024
-draft: true
+
 ---
 
 Cloud data engineer at Google. 6+ years of data engineering experience.
