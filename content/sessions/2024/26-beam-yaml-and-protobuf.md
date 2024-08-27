@@ -2,7 +2,7 @@
 title: "Beam YAML and Protobuf"
 slug: beam-yaml-and-protobuf
 speakers:
- - Ferran Fernández Garrido
+ - Ferran Fernandez
  - Austin Bennett
 topics:
  - Use case
