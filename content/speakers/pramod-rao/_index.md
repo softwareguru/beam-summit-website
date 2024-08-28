@@ -5,8 +5,7 @@ images:
  - /images/speakers/pramod-rao.jpg
 twitter: 
 linkedin: https://www.linkedin.com/in/raopramod
-events:
- - 2024
+
 ---
 
 Data Engineer within Google Professional Services
