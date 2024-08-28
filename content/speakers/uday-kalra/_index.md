@@ -1,9 +1,9 @@
 ---
-title: "Uday Kaira"
+title: "Uday Kalra"
 date: 2024-08-09T12:12:05-05:00
-designation: 
+designation: Software Engineer at Google
 images: 
- - /images/speakers/uday-kaira.jpg
+ - /images/speakers/uday-kalra.jpg
 twitter:
 linkedin: 
 events:
