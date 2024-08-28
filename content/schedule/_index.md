@@ -66,6 +66,12 @@ days:
       - type: timelabel
         label: "16:30 - 16:55"
         gridarea: "14/1/15/2"
+      - type: activity
+        label: "17:00 - 19:30 | Event reception location: MP6, Game Room, 8th floor"
+        gridarea: "15/2/16/5"
+        timelabel: "17:00 - 19:30"
+        gridaream: "33/1/34/2"
+
 
 
   - id: 20242
