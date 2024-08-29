@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting AI/ML pipelines related Common Issues"
+title: "Troubleshooting Beam/Dataflow ML Pipelines Related Common Issues"
 slug: troubleshooting-ai-ml-pipelines-related-common-issues
 speakers:
  - Rajkumar Gupta
