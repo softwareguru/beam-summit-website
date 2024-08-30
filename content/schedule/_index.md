@@ -73,17 +73,16 @@ days:
         gridaream: "33/1/34/2"
 
 
-
   - id: 20242
     title_short: Thursday
     title_full: Thursday, September 05, 2024
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
     schedule_items: 
       - type: timelabel
-        label: "09:00 - 9:45"
+        label: "09:00 - 9:40"
         gridarea: "1/1/2/2"
       - type: timelabel
-        label: "09:45 - 10:30"
+        label: "09:45 - 10:15"
         gridarea: "2/1/3/2"
       - type: timelabel
         label: "10:30 - 11:00"
