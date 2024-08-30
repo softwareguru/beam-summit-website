@@ -1,5 +1,5 @@
 ---
-title: "Cost Effective Solutions for Beam pipelines"
+title: "Cost Effective Solutions for Beam Pipelines"
 slug: streaming-modes-vertical-scaling-for-cost-effectiveness-to-customers
 speakers:
  - Sharan Teja Malyala
