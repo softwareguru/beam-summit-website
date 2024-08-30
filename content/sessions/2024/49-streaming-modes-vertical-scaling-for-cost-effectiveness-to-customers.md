@@ -1,5 +1,5 @@
 ---
-title: "Streaming Modes & Vertical Scaling for Cost Effectiveness to Customers"
+title: "Cost Effective Solutions for Beam pipelines"
 slug: streaming-modes-vertical-scaling-for-cost-effectiveness-to-customers
 speakers:
  - Sharan Teja Malyala
@@ -16,7 +16,8 @@ images:
  - /images/sessions/2024/streaming-modes.jpg 
 ---
 
-This talk will explain three capabilities of Dataflow that may help customers save costs:
-1. Streaming modes. Recently, Dataflow introduced a new mode "At least once" for streaming jobs which may help customers who do not have "exactly once" requirement save some costs.
-2. Vertical scaling that prevents job failures from OOM's. How Dataflow's vertical scaling recovers from OOM situations and prevents job failures.
-3. Dynamic Thread Scaling. Dataflow tries to maximize the worker utilisation with this feature and avoids using up more workers. 
+This talk will explain some of the capabilities of Dataflow that can help users save costs:
+
+1. Dynamic Thread Scaling: Dataflow tries to maximize the worker utilisation with this feature and avoids using up more workers.
+2. Right fitting: Customize the resources at stage level and efficiently use the worker resources.
+3. Streaming autoscaling: Tune autoscaling behavior to save costs.
