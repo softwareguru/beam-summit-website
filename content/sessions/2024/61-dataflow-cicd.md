@@ -9,6 +9,8 @@ time_end: 2024-09-05 14:55:00
 day: 20242
 gridarea: "10/3/11/4"
 timeslot: 61
+images:
+ - /images/sessions/2024/dataflow-cicd.jpg 
 
 ---
 
