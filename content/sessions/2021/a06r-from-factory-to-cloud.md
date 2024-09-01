@@ -8,7 +8,7 @@ time_start: 2021-08-04T17:50:00.000Z
 time_end: 2021-08-04T18:00:00.000Z
 block: a
 slot: 06
-slides: a06-FactoryCloud.pdf
+slides: 2021/a06-FactoryCloud.pdf
 video: https://youtu.be/zlXFWWaTIGE
 ---
 

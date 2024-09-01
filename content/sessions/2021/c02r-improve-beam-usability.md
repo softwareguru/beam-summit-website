@@ -8,7 +8,7 @@ time_start: 2021-08-06T15:50:00.000Z
 time_end: 2021-08-06T16:00:00.000Z
 block: c
 slot: 02
-slides: c02-BeamUX.pdf
+slides: 2021/c02-BeamUX.pdf
 video: https://youtu.be/P7Wdfh9MmpY
 ---
 

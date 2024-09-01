@@ -9,7 +9,7 @@ time_end: 2021-08-04T18:45:00.000Z
 block: a
 slot: 07
 summary: In this talk, we will explore how to profile Apache Beam Python pipelines to identify potential bottlenecks in our code.
-slides: a07-Profiling.pdf
+slides: 2021/a07-Profiling.pdf
 video: https://youtu.be/K2M0uo-DfOg
 ---
 

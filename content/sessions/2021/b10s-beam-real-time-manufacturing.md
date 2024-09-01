@@ -8,7 +8,7 @@ time_start: 2021-08-05T20:30:00.000Z
 time_end: 2021-08-05T20:55:00.000Z
 block: b
 slot: 10
-slides: b10-RealTimeMfg.pdf
+slides: 2021/b10-RealTimeMfg.pdf
 video: https://youtu.be/rKrUlKsMRxE
 ---
 

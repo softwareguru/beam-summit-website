@@ -8,7 +8,7 @@ time_start: 2021-08-04T20:00:00.000Z
 time_end: 2021-08-04T20:25:00.000Z
 block: a
 slot: 09
-slides: a09-Deduplication.pdf
+slides: 2021/a09-Deduplication.pdf
 video: https://youtu.be/9OfJKDs3h40
 ---
 

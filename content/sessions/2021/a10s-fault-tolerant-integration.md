@@ -10,7 +10,7 @@ time_end: 2021-08-04T20:55:00.000Z
 block: a
 slot: 10
 summary: We will share a use case at Niantic where we used Postgres as a time-series database to store metrics information from Apache Beam workflows.
-slides: a10-FaultTolerantIntegration.pdf
+slides: 2021/a10-FaultTolerantIntegration.pdf
 video: https://youtu.be/X8QqvWJYsz0
 ---
 

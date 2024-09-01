@@ -8,7 +8,7 @@ time_start: 2021-08-04T16:30:00.000Z
 time_end: 2021-08-04T16:55:00.000Z
 block: a
 slot: 04
-slides: a04-ScalingBeam.pdf
+slides: 2021/a04-ScalingBeam.pdf
 video: https://youtu.be/gtguzx1Vlpk
 ---
 

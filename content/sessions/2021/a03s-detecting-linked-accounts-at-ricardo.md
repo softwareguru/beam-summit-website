@@ -9,7 +9,7 @@ time_end: 2021-08-04T16:25:00.000Z
 block: a
 slot: 03
 summary: This talk is about the learnings along the way from someone who started out using Beam with the Java SDK and fell in love with the Python one.
-slides: a03-BelongTogether.pdf
+slides: 2021/a03-BelongTogether.pdf
 video: https://youtu.be/LXnh9jNNfYY
 ---
 

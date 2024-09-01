@@ -8,7 +8,7 @@ time_start: 2021-08-06T17:30:00.000Z
 time_end: 2021-08-06T17:55:00.000Z
 block: c
 slot: 08
-slides: c08-Confluent.pdf
+slides: 2021/c08-Confluent.pdf
 video: https://youtu.be/On5pgx9lqlE
 ---
 

@@ -8,7 +8,7 @@ time_start: 2021-08-06T18:00:00.000Z
 time_end: 2021-08-06T18:50:00.000Z
 block: c
 slot: 09
-slides: c09-LeveragingBatch.pdf
+slides: 2021/c09-LeveragingBatch.pdf
 video: https://youtu.be/g1p8PR44l90
 ---
 

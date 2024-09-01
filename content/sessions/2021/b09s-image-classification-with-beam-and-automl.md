@@ -8,7 +8,7 @@ time_start: 2021-08-05T20:00:00.000Z
 time_end: 2021-08-05T20:25:00.000Z
 block: b
 slot: 09
-slides: b09-ImageClassification.pdf
+slides: 2021/b09-ImageClassification.pdf
 video: https://youtu.be/li7vzCjapC0
 ---
 

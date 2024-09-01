@@ -9,7 +9,7 @@ time_end: 2021-08-05T16:00:00.000Z
 block: b
 slot: 02
 summary: Use case of Beam to ingest and process billions of order book messages for cryptocurrency.
-slides: b02-Ingesting.pdf
+slides: 2021/b02-Ingesting.pdf
 video: https://youtu.be/5337vr4-6lo
 ---
 
