@@ -11,8 +11,7 @@ timeslot: 3
 room: 203
 timeorder: 1
 track: deep-dive
-live_url: https://www.crowdcast.io/e/beam-summit-2022/26
-slides: Oops, I Wrote a Portable Runner in Go.pdf
+slides: 2022/PortableRunnerGo.pdf
 video: https://youtu.be/G4lbkvAG6xk
 ---
 

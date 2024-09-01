@@ -12,7 +12,7 @@ room: 204
 timeorder: 1
 track: community
 live_url: https://www.crowdcast.io/e/beam-summit-2022/22
-slides: Presenter Where is Beam leading data processing now.pdf
+slides: 2022/Leading.pdf
 video: https://youtu.be/LwrJo-_6SPA
 ---
 

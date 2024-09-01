@@ -14,7 +14,7 @@ timeorder: 3
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/24
 video: https://youtu.be/QoKWdOXyBw4
-slides: BeamRiskEngine.pdf
+slides: 2022/BeamRiskEngine.pdf
 ---
 
 Risk Management is a key function across all Financial Services. Often this entails heavy computer simulation exploring how financial markets could evolve.  Counterparty Credit Risk  requires particularly  extreme compute capacity given the billions of daily calculations it performs.

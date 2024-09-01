@@ -14,7 +14,7 @@ room: 203
 timeorder: 0
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/34
-slides: Public-Relational Beam_ Process columns, not rows.pdf
+slides: 2022/RelationalBeam.pdf
 video: https://youtu.be/1okLDS8bMQM
 ---
 

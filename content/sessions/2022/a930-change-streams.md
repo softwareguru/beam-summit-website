@@ -13,7 +13,6 @@ timeslot: 9
 room: 202
 timeorder: 0
 track: deep-dive
-live_url: https://www.crowdcast.io/e/beam-summit-2022/22
 draft: true
 ---
 

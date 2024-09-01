@@ -13,7 +13,7 @@ room: 203
 timeorder: 1
 track: trends
 live_url: https://www.crowdcast.io/e/beam-summit-2022/37
-slides: Writing a Native Go Streaming Pipeline.pdf
+slides: 2022/Writing a Native Go Streaming Pipeline.pdf
 video: https://youtu.be/PNDY2OYASrE
 ---
 

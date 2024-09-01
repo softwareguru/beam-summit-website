@@ -11,8 +11,7 @@ timeslot: 5
 room: 204
 timeorder: 2
 track: deep-dive
-live_url: https://www.crowdcast.io/e/beam-summit-2022/32
-slides: Apache Beam Summit - Detecting Change Points.pdf
+slides: 2022/DetectingChangePoints.pdf
 video: https://youtu.be/MywQDgnJCw0
 ---
 

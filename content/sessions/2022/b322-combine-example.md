@@ -12,7 +12,7 @@ room: 203
 timeorder: 2
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/28
-slides: P20220719 - Combine by Example.pdf
+slides: 2022/CombineExample.pdf
 video: https://youtu.be/czujoMjWF6k
 ---
 

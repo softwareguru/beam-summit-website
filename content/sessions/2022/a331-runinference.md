@@ -11,8 +11,7 @@ timeslot: 3
 room: 202
 timeorder: 1
 track: trends
-live_url: https://www.crowdcast.io/e/beam-summit-2022/4
-slides: BeamSummit 2022 - RunInference.pdf
+slides: 2022/RunInference.pdf
 video: https://youtu.be/Ru36d_upOt8
 ---
 

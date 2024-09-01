@@ -12,7 +12,7 @@ room: 202
 timeorder: 2
 track: community
 live_url: https://www.crowdcast.io/e/beam-summit-2022/9
-slides: a532 - How to break Wordle with Beam and BigQuery.pdf
+slides: 2022/BreakWordle.pdf
 video: https://youtu.be/uDdcL7wCXB0
 ---
 

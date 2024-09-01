@@ -12,7 +12,7 @@ room: 203
 timeorder: 0
 track: deep-dive
 live_url: https://www.crowdcast.io/e/beam-summit-2022/42
-slides: Scaling up pandas with the Beam DataFrame API.pdf
+slides: 2022/DataFrameAPI.pdf
 video: https://youtu.be/b0jyPcfgdPA
 ---
 

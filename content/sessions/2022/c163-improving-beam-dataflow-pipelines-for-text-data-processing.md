@@ -12,7 +12,6 @@ timeslot: 1
 room: 201 (remote)
 timeorder: 3
 track: deep-dive
-live_url: https://www.crowdcast.io/e/beam-summit-2022/46
 video: https://youtu.be/dkR-Sl7WHq8
 ---
 

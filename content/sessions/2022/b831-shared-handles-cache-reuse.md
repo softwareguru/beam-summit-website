@@ -12,7 +12,7 @@ room: 202
 timeorder: 1
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/38
-slides: Shared cache.pdf
+slides: 2022/SharedCache.pdf
 video: https://youtu.be/zahZvqQVhho
 ---
 

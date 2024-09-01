@@ -12,7 +12,7 @@ room: 202
 timeorder: 2
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/39
-slides: Beam Summit 2022 - Playing the Long Game - Transforming Ricardo's Data Infrastructure with Apache Beam.pdf
+slides: 2022/Ricardos.pdf
 video: https://youtu.be/v-MclVrGJcQ
 ---
 

@@ -11,7 +11,6 @@ timeslot: 1
 room: 201 (remote)
 timeorder: 2
 track: trends
-live_url: https://www.crowdcast.io/e/beam-summit-2022/45
 video: https://youtu.be/1TuUejyFT2g
 ---
 

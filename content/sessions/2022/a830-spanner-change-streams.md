@@ -13,7 +13,6 @@ timeslot: 8
 room: 202
 timeorder: 0
 track: deep-dive
-live_url: https://www.crowdcast.io/e/beam-summit-2022/15
 video: https://youtu.be/SP2Ufaa6UBk
 ---
 

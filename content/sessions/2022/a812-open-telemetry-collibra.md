@@ -11,8 +11,7 @@ timeslot: 8
 room: 204
 timeorder: 2
 track: case-study
-live_url: https://www.crowdcast.io/e/beam-summit-2022/18
-slides: P20220718 - Collibra Telemetry Backbone.pdf
+slides: 2022/CollibraTelemetry.pdf
 video: https://youtu.be/JFvx7cgJYlI
 ---
 

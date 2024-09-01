@@ -12,9 +12,8 @@ timeslot: 3
 room: 203
 timeorder: 0
 track: community
-live_url: https://www.crowdcast.io/e/beam-summit-2022/3
 video: https://youtu.be/dGREGVW27_0
-slides: PrinciplesPipelineDesign.pdf
+slides: 2022/PrinciplesPipelineDesign.pdf
 
 ---
 

@@ -11,9 +11,8 @@ timeslot: 1
 room: 204
 timeorder: 5
 track: case-study
-live_url: https://www.crowdcast.io/e/beam-summit-2022/1
 video: https://youtu.be/bKrYUDZ1yx8
-slides: a0 - Monday keynote.pdf
+slides: 2022/MondayKeynote.pdf
 
 ---
 

@@ -12,8 +12,7 @@ timeslot: 3
 room: 202
 timeorder: 2
 track: case-study
-live_url: https://www.crowdcast.io/e/beam-summit-2022/5
-slides: Beam_Summit_2022_Adobe.pptx.pdf
+slides: 2022/SpeedingUp.pdf
 video: https://youtu.be/Dus_UHqweMo
 ---
 

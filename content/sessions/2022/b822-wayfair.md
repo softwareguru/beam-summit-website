@@ -12,7 +12,7 @@ room: 203
 timeorder: 2
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/40
-slides: BeamSummit2022 - Pragalbh.pdf
+slides: 2022/Microservice.pdf
 video: https://youtu.be/ugyaBNdunDE
 ---
 

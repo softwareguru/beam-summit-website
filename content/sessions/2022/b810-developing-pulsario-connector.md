@@ -12,7 +12,7 @@ room: 204
 timeorder: 0
 track: trends
 live_url: https://www.crowdcast.io/e/beam-summit-2022/36
-slides: Developing PulsarIO Connector.pdf
+slides: 2022/Developing PulsarIO Connector.pdf
 video: https://youtu.be/xoQRDzqdODk
 ---
 

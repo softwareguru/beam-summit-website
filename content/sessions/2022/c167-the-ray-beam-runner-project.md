@@ -14,7 +14,7 @@ room: 201 (remote)
 timeorder: 7
 track: trends
 live_url: https://www.crowdcast.io/e/beam-summit-2022/49
-slides: Ray Beam Runner.pdf
+slides: 2022/RayBeamRunner.pdf
 video: https://youtu.be/o_l0hwmuO7Q
 ---
 

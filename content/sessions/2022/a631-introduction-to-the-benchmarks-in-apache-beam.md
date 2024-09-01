@@ -11,8 +11,7 @@ timeslot: 6
 room: 202
 timeorder: 1
 track: community
-live_url: https://www.crowdcast.io/e/beam-summit-2022/10
-slides: Introduction to the benchmarks in Apache Beam.pdf
+slides: 2022/Benchmarks.pdf
 video: https://youtu.be/zwtTa0MHckU
 ---
 

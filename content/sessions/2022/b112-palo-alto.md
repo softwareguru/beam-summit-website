@@ -12,7 +12,7 @@ room: 204
 timeorder: 2
 track: case-study
 live_url: https://www.crowdcast.io/e/beam-summit-2022/23
-slides: Palo Alto Networks' massive-scale deployment of Beam.pdf
+slides: 2022/PaloAltoNetworks.pdf
 video: https://youtu.be/jTTi9xUTOD8
 ---
 

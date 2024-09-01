@@ -11,8 +11,7 @@ timeslot: 9
 room: 204
 timeorder: 0
 track: trends 
-live_url: https://www.crowdcast.io/e/beam-summit-2022/20
-slides: New Avro serialization and deserialization in Beam SQL.pdf
+slides: 2022/AvroSerialization.pdf
 video: https://youtu.be/njMx0dIyLjw
 ---
 
