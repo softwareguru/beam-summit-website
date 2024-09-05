@@ -8,8 +8,8 @@ topics:
  - ML
  - Use case
 room: Mariposa Grove
-time_start: 2024-09-05 12:00:00
-time_end: 2024-09-05 12:25:00
+time_start: 2024-09-05 11:30:00
+time_end: 2024-09-05 11:55:00
 day: 20242
 gridarea: "5/2/6/3"
 timeslot: 43

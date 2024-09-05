@@ -105,7 +105,7 @@ days:
         label: "Lunch"
         gridarea: "7/2/8/5"
         timelabel: "12:30 - 13:30"
-        gridaream: "13/1/14/2"
+        gridaream: "14/1/15/2"
       - type: timelabel
         label: "13:30 - 13:55"
         gridarea: "8/1/9/2"
@@ -119,7 +119,7 @@ days:
         label: "Closing remarks"
         gridarea: "11/2/12/5"
         timelabel: "15:00 - 15:15"
-        gridaream: "22/1/23/2"
+        gridaream: "24/1/25/2"
 
 
 summary: "Welcome to the session program for Beam Summit 2024 to be held on September 4-5, 2024 in Sunnyvale, CA."
