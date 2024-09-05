@@ -3,6 +3,7 @@ title: "BeamStack: An open source Framework for running Machine Learning Pipelin
 slug: beamstack-an-open-source-framework-for-running-machine-learning-pipelines-with-apache-beam
 speakers:
  - Olufunbi Babalola
+ - Mathew Fait
 topics:
  - Kubernetes
  - ML
