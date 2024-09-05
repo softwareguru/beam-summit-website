@@ -5,6 +5,74 @@ url: /program
 
 days: 
 
+  - id: 20241
+    enabled: false
+    title_short: Wednesday
+    title_full: Wednesday, September 04, 2024
+    rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
+    schedule_items: 
+      - type: timelabel
+        label: "09:00 - 9:45"
+        gridarea: "1/1/2/2"
+      - type: activity
+        label: "Welcome"
+        gridarea: "1/2/2/5"
+        timelabel: "9:00 - 9:10"
+        gridaream: "1/1/2/2"
+      - type: timelabel
+        label: "09:45 - 10:30"
+        gridarea: "3/1/4/2"
+      - type: timelabel
+        label: "10:30 - 11:00"
+        gridarea: "4/1/5/2"
+      - type: activity
+        label: "Morning break"
+        gridarea: "4/2/5/5"
+        timelabel: "10:30 - 11:00"
+        gridaream: "4/1/5/2"
+      - type: timelabel
+        label: "11:00 - 11:25"
+        gridarea: "5/1/6/2"
+      - type: timelabel
+        label: "11:30 - 11:55."
+        gridarea: "6/1/7/2"
+      - type: timelabel
+        label: "12:00 - 12:25"
+        gridarea: "7/1/8/2"
+      - type: timelabel
+        label: "12:30 - 13:25"
+        gridarea: "8/1/9/2"
+      - type: activity
+        label: "Lunch"
+        gridarea: "8/2/9/5"
+        timelabel: "12:30 - 13:30"
+        gridaream: "13/1/14/2"
+      - type: timelabel
+        label: "13:30 - 14:20"
+        gridarea: "9/1/10/2"
+      - type: timelabel
+        label: "14:30 - 14:55"
+        gridarea: "10/1/11/2"
+      - type: timelabel
+        label: "15:00 - 15:25"
+        gridarea: "11/1/12/2"
+      - type: activity
+        label: "Afternoon break"
+        gridarea: "12/2/13/5"
+        timelabel: "15:30 - 16:00"
+        gridaream: "24/1/25/2"
+      - type: timelabel
+        label: "16:00 - 16:25"
+        gridarea: "13/1/14/2"
+      - type: timelabel
+        label: "16:30 - 16:55"
+        gridarea: "14/1/15/2"
+      - type: activity
+        label: "17:00 - 19:30 | Event reception location: MP6, Game Room, 8th floor"
+        gridarea: "15/2/16/5"
+        timelabel: "17:00 - 19:30"
+        gridaream: "33/1/34/2"
+
 
   - id: 20242
     enabled: true

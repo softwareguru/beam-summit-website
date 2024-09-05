@@ -24,12 +24,16 @@
     </div>
 
     <ul>
-    {{ range .Params.days }}        
+    {{ range .Params.days }}
+      {{ if .enabled }}
       <li>Scroll to <a href="#dayblock-{{.id}}">{{.title_short}}</a>.</li>
+      {{ end }}
     {{ end }}
      </ul>
 
     {{ range .Params.days }}
+      {{ if not .enabled }}{{ continue }}{{ end }}
+
       {{ $curr_day :=  .id }}
 
     <div id="dayblock-{{.id}}" class="dayblock">
