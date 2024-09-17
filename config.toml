@@ -87,7 +87,7 @@ with and does not endorse, or review the materials provided at this event."""
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "Register"
 link = "register" 
 
