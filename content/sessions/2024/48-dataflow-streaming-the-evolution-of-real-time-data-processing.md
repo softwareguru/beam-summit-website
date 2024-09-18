@@ -14,7 +14,7 @@ day: 20242
 gridarea: "6/3/7/4"
 timeslot: 48
 images:
- - /images/sessions/2024/dataflow-streaming.jpg 
+ - /images/sessions/2024/dataflow-streaming.png 
 ---
 
 Level up your streaming pipelines by learning about the latest advancements in Dataflow Streaming. This includes new features such as At-Least-Once Mode, Active Load Balancing, Autoscaling Hints, In-flight Autoscaling Updates, best practices for Kafka source pipelines and ML pipelines.

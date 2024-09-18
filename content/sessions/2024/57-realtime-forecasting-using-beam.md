@@ -1,5 +1,5 @@
 ---
-title: "Realtime Forecasting Using Beam"
+title: "Realtime Forecasting using Beam"
 slug: realtime-forecasting-using-beam
 speakers:
  - Ravi Magham
@@ -15,7 +15,7 @@ day: 20242
 gridarea: "9/3/10/4"
 timeslot: 57
 images:
- - /images/sessions/2024/forecasting.jpg 
+ - /images/sessions/2024/forecasting.png 
 ---
 
 In this session, I'll share how Lyft uses Beam's portability framework with Flink execution-engine for real-time demand and supply forecasting. We will provide a dive into our architecture, scale and lessons learned.

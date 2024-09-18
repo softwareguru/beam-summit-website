@@ -17,7 +17,7 @@ day: 20241
 gridarea: "11/3/12/4"
 timeslot: 26
 images:
- - /images/sessions/2024/beam-yaml-protobuf.jpg 
+ - /images/sessions/2024/beam-yaml-protobuf.png 
 ---
 
 In this session, we'll explore the transformative integration of Beam YAML with Protobuf, unlocking new possibilities within Apache Beam. Delve into practical applications and benefits, and gain insights from our journey of harnessing Apache Beam's capabilities.

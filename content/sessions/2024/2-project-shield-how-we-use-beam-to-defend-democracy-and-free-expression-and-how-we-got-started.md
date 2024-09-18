@@ -11,7 +11,7 @@ day: 20241
 gridarea: "3 / 2 / 4 / 5"
 timeslot: 2
 images:
- - /images/sessions/2024/project-shield.jpg 
+ - /images/sessions/2024/project-shield.png 
 ---
 
 Project Shield is a service that counters distributed-denial-of-service (DDoS) attacks. It is available free of charge to eligible websites that have news, elections, and human rights related content. Project Shield helps ensure unhindered access to election-related information during global democratic processes (such as the U.S. 2022 midterm election season and many others). It also enables critical infrastructure and news websites to defend against non-stop attacks and provides crucial services and information during crises (such as the invasion of Ukraine).

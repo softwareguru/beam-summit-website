@@ -10,7 +10,7 @@ day: 20241
 gridarea: "5/3/6/4"
 timeslot: 5
 images:
- - /images/sessions/2024/ordered-processing.jpg 
+ - /images/sessions/2024/ordered-processing.png 
 ---
 
 The session covers a recently added Beam SDK extension and applicable use cases. It also describes the techniques used to implement the transform.

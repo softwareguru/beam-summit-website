@@ -16,7 +16,7 @@ day: 20242
 gridarea: "8/3/9/4"
 timeslot: 53
 images:
- - /images/sessions/2024/beam-yaml-advanced.jpg 
+ - /images/sessions/2024/beam-yaml-advanced.png 
 ---
 
 While the basic features of Beam YAML allow one to write simple to possibly intermediate pipelines, there are limitations on what can be developed relying solely on the built-in transforms and basic features. Luckily, Beam YAML had these users in mind during its development and offers multiple ways to leverage more advanced features of Beam to implement these sophisticated use-cases.

@@ -14,7 +14,7 @@ gridarea: "5/3/6/4"
 timeslot: 44
 
 images:
- - /images/sessions/2024/reuniting.jpg 
+ - /images/sessions/2024/reuniting.png 
 ---
 
 Apache Beam and Apache Airflow are powerful tools in the data engineering ecosystem, often used separately but rarely in tandem. This talk explores the synergy between these "distant cousins" by demonstrating how to seamlessly integrate Beam pipelines within Airflow workflows.

@@ -15,7 +15,7 @@ gridarea: "14/2/15/3"
 timeslot: 34
 
 images:
- - /images/sessions/2024/using-llm.jpg 
+ - /images/sessions/2024/using-llm.png 
 ---
 
 This session will provide an overview of how to utilize large language models (LLMs) using Apache Beam's RunInference framework. The prime example for the talk will be running the Gemma open model on Dataflow, outlining considerations and common pitfalls when writing pipelines with LLMs.

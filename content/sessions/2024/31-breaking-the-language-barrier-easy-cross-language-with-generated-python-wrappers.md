@@ -16,7 +16,7 @@ day: 20241
 gridarea: "13/3/14/4"
 timeslot: 31
 images:
- - /images/sessions/2024/breaking-language.jpg 
+ - /images/sessions/2024/breaking-language.png 
 
 ---
 

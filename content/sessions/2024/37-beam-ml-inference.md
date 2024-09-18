@@ -11,7 +11,7 @@ day: 20242
 gridarea: "1 / 2 / 2 / 5"
 timeslot: 37
 images:
- - /images/sessions/2024/beam-ml-inference.jpg 
+ - /images/sessions/2024/beam-ml-inference.png 
 
 ---
 

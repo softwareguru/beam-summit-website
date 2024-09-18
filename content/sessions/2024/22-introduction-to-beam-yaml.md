@@ -16,7 +16,7 @@ day: 20241
 gridarea: "10/3/11/4"
 timeslot: 22
 images:
- - /images/sessions/2024/introduction-beam-yaml.jpg 
+ - /images/sessions/2024/introduction-beam-yaml.png 
 ---
 
 The purpose of this session will be to introduce Beam YAML and its core capabilities. These include, but are not limited to:

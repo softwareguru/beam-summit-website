@@ -1,5 +1,5 @@
 ---
-title: "Illuminating Data Journeys with Apache Beam Lineage"
+title: "Data Lineage in Beam"
 slug: data-lineage
 speakers:
  - Rohit Sinha
@@ -10,7 +10,7 @@ day: 20241
 gridarea: "5/4/6/5"
 timeslot: 6
 images:
- - /images/sessions/2024/data-lineage.jpg 
+ - /images/sessions/2024/data-lineage.png 
 
 ---
 

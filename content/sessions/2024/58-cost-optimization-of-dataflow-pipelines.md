@@ -12,7 +12,7 @@ day: 20242
 gridarea: "9/4/11/5"
 timeslot: 58
 images:
- - /images/sessions/2024/cost-optimization.jpg 
+ - /images/sessions/2024/cost-optimization.png 
 ---
 
 This session covers the cost components of Dataflow pipelines, different run configurations, common performance optimization techniques, approaches to monitor cost and performance of the pipelines.

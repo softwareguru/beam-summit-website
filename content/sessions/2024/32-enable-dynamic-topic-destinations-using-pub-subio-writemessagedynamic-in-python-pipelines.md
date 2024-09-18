@@ -1,6 +1,7 @@
 ---
-title: "Enable Dynamic Topic Destinations Using pub/subIO writeMessageDynamic() in Python pipelines"
-slug: enable-dynamic-topic-destinations-using-pub-subio-writemessagedynamic-in-python-pipelines
+title: "using pub/subIO writeMessageDynamic() function in a Python pipeline to use dynamic topic destination"
+slug: using-pub-subio
+aliases: enable-dynamic-topic-destinations-using-pub-subio-writemessagedynamic-in-python-pipelines
 speakers:
  - Olu Akinlaja
 topics:
@@ -14,7 +15,7 @@ day: 20241
 gridarea: "13/4/14/5"
 timeslot: 32
 images:
- - /images/sessions/2024/enable-dynamic.jpg 
+ - /images/sessions/2024/enable-dynamic.png 
 ---
 
 Enabling dynamic topic destinations using the pub/subIO writeMessageDynamic() function in a Java Dataflow pipeline is an interesting feature, which seems only available in Apache Beam Java SDK. This talk is to showcase a workaround implementation using the pub/subIO writeMessageDynamic() function as an external transform

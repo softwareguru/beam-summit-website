@@ -15,7 +15,7 @@ day: 20241
 gridarea: "9/3/10/4"
 timeslot: 18
 images:
- - /images/sessions/2024/implementing-sdk.jpg 
+ - /images/sessions/2024/implementing-sdk.png 
 
 ---
 

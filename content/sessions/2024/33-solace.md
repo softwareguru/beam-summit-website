@@ -13,7 +13,8 @@ time_end: 2024-09-04 16:25:00
 day: 20241
 gridarea: "13/5/14/6"
 timeslot: 33
-
+images:
+ - /images/sessions/2024/solace.png
 ---
 
 Together with Solace, we have developed a new native streaming connector for Solace, a popular messaging platform used in manufacturing, finance and many other industries.

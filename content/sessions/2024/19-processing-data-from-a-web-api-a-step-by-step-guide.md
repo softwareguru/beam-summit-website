@@ -15,7 +15,7 @@ day: 20241
 gridarea: "9/4/10/5"
 timeslot: 19
 images:
- - /images/sessions/2024/processing-data-web-api.jpg 
+ - /images/sessions/2024/processing-data-web-api.png 
 
 ---
 

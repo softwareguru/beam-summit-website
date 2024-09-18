@@ -5,6 +5,7 @@ speakers:
  - XQ Hu
  - Danny McCormick
  - Kenneth Knowles
+ - Reza Rokni
 room: Bonsai
 time_start: 2024-09-05 11:00:00
 time_end: 2024-09-05 11:55:00
