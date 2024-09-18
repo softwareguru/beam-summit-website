@@ -9,8 +9,8 @@
         <thead>
             <tr>
                 <th data-field="title" data-sortable="true">Title</th>
-                <th data-field="when" data-sortable="true">Scheduled at</th>
-                <th data-field="room" data-sortable="true">Room</th>
+                <!--<th data-field="when" data-sortable="true">Scheduled at</th>
+                <th data-field="room" data-sortable="true">Room</th>-->
             </tr>
         </thead>
 
@@ -20,8 +20,8 @@
                 <td><h5 class="mb-0"><a href="{{.Permalink}}" class="session-title">{{ .Params.title }}</a></h5>
                     <em>by {{ with .Params.speakers }}{{ delimit . ", " " & " }}{{ end }}</em>
                 </td>
-                <td nowrap>{{ with .Params.time_start | time }}{{ .Format "Sep-2" }}<br>{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }}-{{ .Format "15:04" }}{{ end }}</td>         
-                <td>{{ with .Params.room }}{{ . }}{{ end }}</td>         
+                <!--<td nowrap>{{ with .Params.time_start | time }}{{ .Format "Sep-2" }}<br>{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }}-{{ .Format "15:04" }}{{ end }}</td>         
+                <td>{{ with .Params.room }}{{ . }}{{ end }}</td>-->        
             </tr>
             {{ end }}
         </tbody>
