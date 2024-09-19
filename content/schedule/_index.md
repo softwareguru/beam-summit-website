@@ -6,7 +6,7 @@ url: /program
 days: 
 
   - id: 20241
-    enabled: false
+    enabled: true
     title_short: Wednesday
     title_full: Wednesday, September 04, 2024
     rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
