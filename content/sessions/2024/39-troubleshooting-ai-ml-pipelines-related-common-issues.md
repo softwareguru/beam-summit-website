@@ -16,7 +16,7 @@ gridarea: "4 / 2 / 5 / 3"
 timeslot: 39
 
 images:
- - /images/sessions/2024/troubleshooting-ai.jpg 
+ - /images/sessions/2024/troubleshooting-ai.png 
 ---
 
 The presentation will cover troubleshooting RunInference, GPU, OOM, and other related errors, offering practical insights from real-world customer support experiences.
