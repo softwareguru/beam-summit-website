@@ -13,7 +13,9 @@ day: 20242
 gridarea: "6/4/7/5"
 timeslot: 49
 images:
- - /images/sessions/2024/streaming-modes.png 
+ - /images/sessions/2024/streaming-modes.png
+slides: 2024/Streamingmodes&VerticalScalingforcosteffectivenesstocustomers.pdf
+video: 
 ---
 
 This talk will explain some of the capabilities of Dataflow that can help users save costs:

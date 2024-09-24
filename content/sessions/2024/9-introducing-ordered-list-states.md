@@ -13,7 +13,9 @@ day: 20241
 gridarea: "6/3/7/4"
 timeslot: 9
 images:
- - /images/sessions/2024/introducing-ordered.png 
+ - /images/sessions/2024/introducing-ordered.png
+slides: 2024/IntroducingOrderedListStates.pdf
+video: 
 ---
 
 To introduce ordered list states from concept to implementation.

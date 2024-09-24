@@ -11,7 +11,9 @@ day: 20241
 gridarea: "2 / 2 / 3 / 5"
 timeslot: 1
 images:
- - /images/sessions/2024/innovating-yasmeen.jpg 
+ - /images/sessions/2024/innovating-yasmeen.jpg
+slides: 
+video:
 ---
 
 Join us in this talk where Yasmeen Ahmad, Managing Director Data & Analytics at Google Cloud, shares her perspective on the innovations taking place in the data & analytics platform space.

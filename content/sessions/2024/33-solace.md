@@ -15,6 +15,8 @@ gridarea: "13/5/14/6"
 timeslot: 33
 images:
  - /images/sessions/2024/solace.png
+slides: 2024/TheSolaceIOconnector.pdf
+video: 
 ---
 
 Together with Solace, we have developed a new native streaming connector for Solace, a popular messaging platform used in manufacturing, finance and many other industries.

@@ -14,7 +14,9 @@ day: 20241
 timeslot: 17
 gridarea: "9/2/10/3"
 images:
- - /images/sessions/2024/accelerating-cdc.png 
+ - /images/sessions/2024/accelerating-cdc.png
+slides: 2024/AcceleratingCDCDataIngestionwithApacheBeam.pdf
+video: 
 ---
 
 This talk unveils our design journey to streamline the ingestion of CDC changes into a data warehouse, enabling rapid data availability for users. We leverage Qlik to stream CDC events to Kafka, harness Dataflow's processing power, and store the transformed data in BigQuery for efficient analysis.

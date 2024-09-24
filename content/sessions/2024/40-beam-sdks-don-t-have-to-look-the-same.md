@@ -14,6 +14,8 @@ gridarea: "4/3/5/4"
 timeslot: 40
 images:
  - /images/sessions/2024/beam-sdks.png
+slides: 2024/BeamSDKsdonthavetolookthesame.pdf
+video: 
 ---
 
 Do we even need PCollections? Or ProcessElements? Can we have the language fully typecheck the pipeline for us at compile time? Can we do that in Go?

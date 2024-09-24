@@ -17,7 +17,8 @@ gridarea: "13/3/14/4"
 timeslot: 31
 images:
  - /images/sessions/2024/breaking-language.png 
-
+slides: 2024/BreakingtheLanguageBarrier.pdf
+video: 
 ---
 
 Harness the power of cross-language transforms by combining the best of Java and Python in your data processing workflows. Discover how to seamlessly integrate Java transforms into your Python pipelines using the SDK's newest utilities. 

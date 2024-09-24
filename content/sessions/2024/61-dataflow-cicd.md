@@ -11,7 +11,8 @@ gridarea: "10/3/11/4"
 timeslot: 61
 images:
  - /images/sessions/2024/dataflow-cicd.jpg 
-
+slides: 2024/DataflowCICD.pdf
+video: 
 ---
 
 In this talk we will walk through the process of building and deploying Beam Dataflow templates.

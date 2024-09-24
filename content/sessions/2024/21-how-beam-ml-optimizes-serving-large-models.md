@@ -13,7 +13,9 @@ day: 20241
 gridarea: "10/2/11/3"
 timeslot: 21
 images:
- - /images/sessions/2024/how-beam-ml-optimizes.png 
+ - /images/sessions/2024/how-beam-ml-optimizes.png
+slides: 2024/HowBeamMLOptimizesServingLargeModels.pdf
+video: 
 ---
 
 Serving ML models at scale is increasingly important, and Beam's RunInference transform is a great tool to do this. At the same time, models are getting larger and larger, and it can be hard to fit them into your CPU or GPU.

@@ -34,8 +34,8 @@ speaker = "speakers"
 
   [[menu.main]]
     identifier = "schedule"
-    name = "Schedule"
-    url = "/program"
+    name = "Sessions"
+    url = "/sessions/2024"
     weight = 2
 
   [[menu.main]]
