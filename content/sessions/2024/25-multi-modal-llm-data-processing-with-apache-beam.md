@@ -16,7 +16,9 @@ day: 20241
 gridarea: "11/2/12/3"
 timeslot: 25
 images:
- - /images/sessions/2024/multi-modal-llm.jpg 
+ - /images/sessions/2024/multi-modal-llm.jpg
+slides: 2024/Multi-ModalLLMDataProcessingwithApacheBeam.pdf
+video: 
 ---
 
 Large language models are well known for their performance on generation tasks like summarization but they also excel at many classical tasks like classification, named-entity recognition, or information extraction. Multi-modal LLMs similarly achieve state of the art performance on document understanding. This makes them vital for modern data processing pipelines.
