@@ -11,7 +11,9 @@ day: 20241
 gridarea: "6/2/7/3"
 timeslot: 8
 images:
- - /images/sessions/2024/transitioning-uber.png 
+ - /images/sessions/2024/transitioning-uber.png
+slides: 2024/TransitioningUberMichelangelosBatchPredictionfromApacheSparktoRay.pdf
+video: https://youtu.be/S_iYnLYBm4E
 ---
 
 Michelangelo is Uber's centralized machine learning platform, designed to manage ML pipelines and their associated data processing. As the demand for batch predictions grows, the need for a flexible and efficient processing framework becomes imperative. This presentation explores Uber Michelangelo’s batch prediction processes, focusing on data processing, model prediction, and the transition from Spark to Ray.

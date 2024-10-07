@@ -19,7 +19,7 @@ timeslot: 26
 images:
  - /images/sessions/2024/beam-yaml-protobuf.png
 slides: 2024/BeamYAMLandProtobuf.pdf
-video: 
+video: https://youtu.be/avSXvbScbW0
 ---
 
 In this session, we'll explore the transformative integration of Beam YAML with Protobuf, unlocking new possibilities within Apache Beam. Delve into practical applications and benefits, and gain insights from our journey of harnessing Apache Beam's capabilities.

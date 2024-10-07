@@ -12,7 +12,7 @@ timeslot: 5
 images:
  - /images/sessions/2024/ordered-processing.png 
 slides: 2024/OrderedprocessinginApacheBeam.pdf
-video: 
+video: https://youtu.be/EieXiyJobRw
 ---
 
 The session covers a recently added Beam SDK extension and applicable use cases. It also describes the techniques used to implement the transform.

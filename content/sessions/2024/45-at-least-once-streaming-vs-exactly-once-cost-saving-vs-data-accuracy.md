@@ -15,7 +15,7 @@ timeslot: 45
 images:
  - /images/sessions/2024/at-least.png
 slides: 2024/AtleastonceStreamingvsExactlyonce-CostSavingvsDataAccuracy.pdf
-video: 
+video: https://youtu.be/jI5wqZczCqE
 ---
 
 Dataflow has always supported only Exactly Once features, but Dataflow just release At Least Once feature. Understand each Architecture, pro and cons, in which use cases one is better than the other.

@@ -15,7 +15,7 @@ timeslot: 36
 images:
  - /images/sessions/2024/using-dead-letter-queues.png
 slides: 2024/UsingDeadLetterQueueswithBeam.pdf
-video: 
+video: https://youtu.be/-OXJXBDr-MA
 ---
 
 In this session, you will learn what we consider a Dead Letter in Beam, the high level DLQ architecture we've implemented, and some example use cases on how to incorporate DLQs in your pipelines.

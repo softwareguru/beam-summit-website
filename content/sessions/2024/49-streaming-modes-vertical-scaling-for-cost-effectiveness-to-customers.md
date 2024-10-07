@@ -15,7 +15,7 @@ timeslot: 49
 images:
  - /images/sessions/2024/streaming-modes.png
 slides: 2024/Streamingmodes&VerticalScalingforcosteffectivenesstocustomers.pdf
-video: 
+video: https://youtu.be/B8nSzYjYMRI
 ---
 
 This talk will explain some of the capabilities of Dataflow that can help users save costs:

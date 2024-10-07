@@ -14,7 +14,7 @@ timeslot: 58
 images:
  - /images/sessions/2024/cost-optimization.png
 slides: 2024/CostoptimizationofDataflowpipelines.pdf
-video: 
+video: https://youtu.be/etWj-drwPfw
 ---
 
 This session covers the cost components of Dataflow pipelines, different run configurations, common performance optimization techniques, approaches to monitor cost and performance of the pipelines.

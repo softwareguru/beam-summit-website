@@ -18,7 +18,7 @@ timeslot: 10
 images:
  - /images/sessions/2024/new-local-runner.png 
 slides: 2024/Anewlocalrunnerappears!DeepDiveonPrism.pdf
-video: 
+video: https://youtu.be/R4iNwLBa3VQ
 ---
 
 Prism is a local portable Beam Runner intended to assist end user and SDK developers alike, by providing a common platform for all existing and new Beam SDKs.

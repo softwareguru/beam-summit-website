@@ -16,7 +16,7 @@ timeslot: 43
 images:
  - /images/sessions/2024/beamstack.png
 slides: 2024/BeamStack_AnOpensourceFrameworkforrunningMachineLearningPipelineswithApacheBeam.pdf
-video: 
+video: https://youtu.be/yzIanhELtpM
 ---
 
 We introduce you to Beamstack, an open-source framework currently under development, aimed at facilitating the deployment of Machine Learning and GenAI workflow pipelines with Apache Beam on Kubernetes, whether on-premises or in the cloud. It encompasses a holistic solution, featuring abstraction layers that optimize the deployment of various components of machine learning pipelines, data processing workflows, and deployment infrastructure.

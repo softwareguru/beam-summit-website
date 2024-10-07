@@ -16,7 +16,7 @@ timeslot: 52
 images:
  - /images/sessions/2024/rag-ingestion.png
 slides: 2024/RAGDataIngestionUsingApacheBeam.pdf
-video: 
+video: https://youtu.be/Z_pFq_a89q4
 ---
 
 Retrieval Augmented Generation (RAG) has emerged as a groundbreaking technique in the field of generative AI. By providing a large language model relevant data to solve a given task, it can generate answers with much higher accuracy. Next to enhanced performance RAG allows us to work with sensitive without resource-intensive in-house model training. However, efficiently preprocessing and ingesting document data into vector databases for RAG applications can be challenging, especially when dealing with real-time updates.

@@ -17,7 +17,7 @@ timeslot: 35
 images:
  - /images/sessions/2024/improving-stability.png
 slides: 2024/ImprovingstabilityforrunningPythonSDKwithflinkrunner.pdf
-video: 
+video: https://youtu.be/83ix7hnUSNU
 ---
 
 In this session, we will explore our journey to improve the stability of our Flink application using the Python Beam SDK runner, with a particular focus on memory tuning. Our initial setup faced significant challenges, including frequent task manager disconnections and ambiguous error logs, often hinting at out-of-memory (OOM) issues. Despite no clear indicators of high memory usage, the instability worsened after transitioning from the Lyft K8s operator to the Apache Flink operator. 

@@ -15,7 +15,7 @@ timeslot: 9
 images:
  - /images/sessions/2024/introducing-ordered.png
 slides: 2024/IntroducingOrderedListStates.pdf
-video: 
+video: https://youtu.be/jsKCJq3vLfQ
 ---
 
 To introduce ordered list states from concept to implementation.

@@ -16,7 +16,7 @@ timeslot: 48
 images:
  - /images/sessions/2024/dataflow-streaming.png
 slides: 2024/DataflowStreaming_TheEvolutionofReal-TimeDataProcessing.pdf
-video: 
+video: https://youtu.be/C9UtIWvRbNI
 ---
 
 Level up your streaming pipelines by learning about the latest advancements in Dataflow Streaming. This includes new features such as At-Least-Once Mode, Active Load Balancing, Autoscaling Hints, In-flight Autoscaling Updates, best practices for Kafka source pipelines and ML pipelines.

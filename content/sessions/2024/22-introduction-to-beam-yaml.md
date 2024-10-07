@@ -18,7 +18,7 @@ timeslot: 22
 images:
  - /images/sessions/2024/introduction-beam-yaml.png
 slides: 2024/IntroductiontoBeamYAML.pdf
-video: 
+video: https://youtu.be/7bphl0NWrbU
 ---
 
 The purpose of this session will be to introduce Beam YAML and its core capabilities. These include, but are not limited to:

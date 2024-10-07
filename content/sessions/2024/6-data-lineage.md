@@ -12,7 +12,7 @@ timeslot: 6
 images:
  - /images/sessions/2024/data-lineage.png 
 slides: 2024/DataLineageinBeam.pdf
-video: 
+video: https://youtu.be/dv_i44NE-ng
 ---
 
 In this presentation, we delve into the critical world of data lineage within Apache Beam, exploring its significance and demonstrating its practical implementation. We begin by establishing the motivation behind data lineage, highlighting its role in enhancing data governance, debugging, and impact analysis. Next, we introduce Google Cloud Dataplex, a unified data management platform, and its integration with Beam's lineage capabilities.

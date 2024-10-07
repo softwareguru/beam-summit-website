@@ -18,6 +18,8 @@ time_end: 2024-09-04 12:25:00
 day: 20241
 gridarea: "7/3/8/4"
 timeslot: 13
+slides: 2024/AvoidHTTPrequestsduplicateswithSCIO,acustomAsyncHttpParDoFnandStateandTimers.pdf
+video: https://youtu.be/ae7Zi_U4S1A
 ---
 
 A StateBaseAsyncDoFn.java class and full SCIO productive implementation for State and Timer with HTTP Clients to prevent duplicate requests and other aggregation use cases for asynchronous endpoints.
