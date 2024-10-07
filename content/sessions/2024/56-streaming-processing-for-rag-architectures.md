@@ -19,7 +19,7 @@ timeslot: 56
 images:
  - /images/sessions/2024/streaming-processing.jpg
 slides: 2024/StreamingprocessingforRAGarchitectures.pdf
-video: 
+video: https://youtu.be/0YMJXInwMpc
 ---
 
 The session is aimed to practitioners looking to use streaming technologies to process data which will be in use for near real time RAG architectures. 

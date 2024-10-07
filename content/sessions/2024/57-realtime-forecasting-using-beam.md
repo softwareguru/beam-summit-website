@@ -17,7 +17,7 @@ timeslot: 57
 images:
  - /images/sessions/2024/forecasting.png
 slides: 2024/RealtimeForecastingusingBeam.pdf
-video: 
+video: https://youtu.be/GjWjzB2u2EY
 ---
 
 In this session, I'll share how Lyft uses Beam's portability framework with Flink execution-engine for real-time demand and supply forecasting. We will provide a dive into our architecture, scale and lessons learned.
