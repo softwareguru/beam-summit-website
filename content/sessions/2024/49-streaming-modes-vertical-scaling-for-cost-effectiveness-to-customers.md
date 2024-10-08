@@ -1,6 +1,7 @@
 ---
-title: "Streaming modes & Vertical Scaling for cost effectiveness to customers"
-slug: streaming-modes-vertical-scaling-for-cost-effectiveness-to-customers
+title: "Cost Effective Solutions for Beam pipelines in Dataflow"
+slug: cost-effective-solutions
+aliases: sessions/2024/streaming-modes-vertical-scaling-for-cost-effectiveness-to-customers
 speakers:
  - Sharan Teja Malyala
 topics:
