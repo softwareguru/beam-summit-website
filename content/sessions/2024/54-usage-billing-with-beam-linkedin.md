@@ -16,7 +16,7 @@ gridarea: "8/4/9/5"
 timeslot: 54
 images:
  - /images/sessions/2024/linkedin.png
-slides:
+slides: 2024/UsageBillingwithBEAM@LinkedIn.pdf
 video: https://youtu.be/RXeyuiwUNnQ
 ---
 

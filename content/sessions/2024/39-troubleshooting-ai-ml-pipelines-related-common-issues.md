@@ -18,7 +18,7 @@ timeslot: 39
 images:
  - /images/sessions/2024/troubleshooting-ai.png
 slides: 2024/TroubleshootingAIMLpipelinesrelatedCommonIssues.pdf
-video: 
+video: https://youtu.be/DUOZAfWx-2c
 ---
 
 The presentation will cover troubleshooting RunInference, GPU, OOM, and other related errors, offering practical insights from real-world customer support experiences.
