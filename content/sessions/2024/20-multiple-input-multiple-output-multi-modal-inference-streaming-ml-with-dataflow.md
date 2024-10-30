@@ -16,7 +16,7 @@ day: 20241
 gridarea: "9/5/12/6"
 timeslot: 20
 images:
- - /images/sessions/2024/workshop-streaming.png 
+ - /images/sessions/2024/workshop-streaming.png
 ---
 
 Imagine when you’re attending an event, as you park your car, you get a notification telling you which entrance has the current shortest line that’s closest to your parking. Then when you check in, a reminder (only if you’ve parked), that you can get some parking validation done if you spend on concessions or merchandise as part of your membership benefit. And you have a hankering for nachos, hoping that they don’t run out. This would make your experience amazing and unique! 

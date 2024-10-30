@@ -17,6 +17,7 @@ timeslot: 18
 images:
  - /images/sessions/2024/implementing-sdk.png 
 video: https://youtu.be/edLYR3gUsFM
+slides: 2024/ImplementingaBeamSDK_ADeepDiveintotheSwiftSDK.pdf
 ---
 
 In this session we'll take a deep dive into implementing a Beam SDK for a new language using Swift as an example. We'll cover both the internal and the external from implementing FnApi using Swift's surprisingly robust gRPC support to how we use Swift's modern type system to provide a uniquely Swift way of expressing the Beam programming model.
