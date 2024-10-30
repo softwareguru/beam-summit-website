@@ -1,5 +1,5 @@
 ---
-title: "Multiple Input, Multiple output, Multi-Modal Inference: Streaming ML with Dataflow"
+title: "Workshop: Multiple Input, Multiple output, Multi-Modal Inference: Streaming ML with Dataflow"
 slug: multiple-input-multiple-output-multi-modal-inference-streaming-ml-with-dataflow
 speakers:
  - Wei Hsia
