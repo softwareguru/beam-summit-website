@@ -16,6 +16,8 @@ sponsor_group:
 
       - logo : "/images/logos/apache-beam.png"
         link : "https://beam.apache.org/"
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com/"
       - logo : "/images/logos/Mavencode.png"
         link : "https://www.mavencode.com/"
       - logo : "/images/logos/osacom.png"
