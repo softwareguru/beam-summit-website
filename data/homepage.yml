@@ -5,7 +5,7 @@ banner:
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
-  date : ""
+  date : "Save the date, Beam Summit is back in NY, mid-2025! "
   venue: ""
   button1:
     enable : false
