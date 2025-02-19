@@ -5,12 +5,12 @@ banner:
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
-  date : "Save the date, Beam Summit is back in NYC, Summer 2025! "
+  date : "Join us in New York city to bridge the Data Streams on July 8th & 9th, 2025! "
   venue: ""
   button1:
-    enable : false
-    label : "Submit to our CFP"
-    link : "https://sessionize.com/beam-summit-2024"
+    enable : true
+    label : "CFP is open!"
+    link : "https://sessionize.com/beamsummit-2025"
 
   button2:
     enable : false
@@ -22,7 +22,7 @@ banner:
 event_info:
   enable : true
   
-  subtitle: "Beam Summit 2024 will be the 7th edition of this awaited event for professionals in real-time processing, data and AI/ML engineering." 
+  subtitle: "" 
 
   title : "Support the Apache Beam community, become a sponsor!"
   description : ""

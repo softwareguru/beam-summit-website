@@ -29,6 +29,16 @@ background: linear-gradient(180deg, rgba(31,118,215,1) 0%, rgba(22,124,214,1) 10
 
 
 
+.cfp-button{
+    color: white !important;
+	font-size: 1.8em;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 0px;
+    &:hover{
+        color: white !important; 
+    }
+}
 
 
 

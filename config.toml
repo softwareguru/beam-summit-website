@@ -33,26 +33,81 @@ speaker = "speakers"
   weight = 1
 
   [[menu.main]]
-    identifier = "schedule"
-    name = "Sessions"
-    url = "/sessions/2024"
+  identifier = "about-BS"
+  name = "Attend"
+  URL = "/attend"
+  weight = 2
+
+  [[menu.main]]
+    identifier = "scholarships"
+    name = "Venue + Travel"
+    url = "/venue"
+    parent = "about-BS"
     weight = 2
 
   [[menu.main]]
-    identifier = "speakers"
-    name = "Speakers"
-    url = "/speakers/archive"
+    identifier = "scholarships1"
+    name = "Convince your boss"
+    url = "/convince-your-boss"
+    parent = "about-BS"
     weight = 3
 
-  #[[menu.main]]
-  #name = "Venue"
-  #URL = "/venue"
-  #weight = 3
+  [[menu.main]]
+    identifier = "scholarships2"
+    name = "Visa letter request"
+    url = "/visa-letter-request"
+    parent = "about-BS"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "scholarships3"
+    name = "DEI"
+    url = "/dei"
+    parent = "about-BS"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "scholarships3"
+    name = "Code of conduct"
+    url = "/coc"
+    parent = "about-BS"
+    weight = 4
+
+  [[menu.main]]
+    name = "Sponsor"
+    hrefTargetBlank = true
+    URL = "/sponsor"
+    weight = 3
+
+  [[menu.main]]
+    identifier="program"
+    name = "Program"
+    URL = "/sessions/2024"
+    weight = 5
+
+  [[menu.main]]
+    identifier="cfp"
+    name = "Call for Papers 2025"
+    parent="program"
+    URL = "/cfp-2025"
+    weight = 1
+
+  [[menu.main]]
+    name = "Session archive"
+    URL = "/sessions/"
+    parent="program"
+    weight = 3
+
+  [[menu.main]]
+    name = "Speaker archive"
+    URL = "/speakers/archive"
+    parent="program"
+    weight = 4
 
   [[menu.main]]
   name = "FAQ"
-  URL = "/faq"
-  weight = 4
+  URL = "faq"
+  weight = 8
 
 
 [sitemap]

@@ -4,83 +4,38 @@ date: 2023-02-21T01:02:57-06:00
 draft: false
 ---
 
-<h2 class="text-center">Google Campus at Sunnyvale, CA. Building MP-6<h2>
+### We are excited to welcome you to [Pier 57](https://www.google.com/maps/place/Pier+57/@40.743058,-74.0090631,15z/data=!4m2!3m1!1s0x0:0xd746cc365197e5e2?sa=X&ved=2ahUKEwjK072bk8j-AhWWLFkFHX4FDKMQ_BJ6BQiOARAI), Google’s newest premier destination on the Hudson!  
+
+Pier 57 is located on the Hudson River just west of 11th Avenue (West Side Highway)  In addition to workspaces for 500+ Googlers, it houses a public market, community spaces, two restaurants, a public rooftop Sky Park and 9+ state-of-the-art events spaces. 
+
+A reimagined historic New York City landmark, Pier 57 is Google’s new state-of-the-art event and experience center. The Pier will be home to a premier Google event center, seating and workplace support for Googlers, as well as an array of public and community spaces. Pier 57 (also referred to as P57) has a unique lingo. 
+
 
 <div class="row">
-    <div class="col-lg-6 mt-3">
-    <img class="img-fluid" src="/images/venue.png"> 
-    </div>
-    <div class="col-lg-6 mt-3">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.253668315741!2d-122.0197216915421!3d37.40747871839029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7b975494789%3A0x8526ea565efeef3b!2sGoogle%20Building%20MP6%2C%201195%20Borregas%20Ave%2C%20Sunnyvale%2C%20CA%2094089%2C%20USA!5e0!3m2!1sen!2smx!4v1723056509880!5m2!1sen!2smx" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
+<div class="col-md-6 " style="  display: flex;
+  justify-content: center;
+  align-items: center;">
+<ul>
+  <li>Level 1: Public Spaces: Market, CCE, Restaurant, City Winery</li>
+  <li>Event Space: Waterside East and West</li>
+  <li>Level 2: Google Workspace</li>
+  <li>Level 3: Event Spaces, Google Cafe</li>
+  <li>Level 4: Google Workspace</li>
+  <li>Rooftop: SkyPark public park, Restaurant</li>
+  </ul>
 
-<p style="font-size: 14px;" class="mt-3 mb-4">If you exit from the 101 freeway, take N Mathilda Ave. and make a right into Innovation Way. Cross Bordeaux Ave., and enter the Google Parking lot. Follow the signs until you find Building MP6 on your right. The event registration will be located in the MP6 back lobby (closest entrance to the parking lot). Another building where we will have sessions later during the day is MP4 (you passed this building when entering the parking lot).</p>
+</div>
+
+<div class="col-md-6">
+<img src="/images/blog/Pier57.jpg" class="img-fluid mx-auto d-block"></img>
+
+</div>
+
+
   
 
-## Enjoy your visit to Sunnyvale!
+</div>
+<br>
+New York City is a place like no other, a vibrant metropolis where innovation, culture, and history collide. From its iconic skyline to its bustling streets, the city pulses with endless energy and possibility. Whether you’re exploring world-class museums, discovering diverse neighborhoods, or simply taking in the sights and sounds of the city that never sleeps, NYC offers an unforgettable experience at every turn. It’s a place where ideas come to life, connections are made, and inspiration is around every corner, perfect for a transformative Beam Summit 2025 experience.
 
-Join us for Beam Summit, an exciting event bringing together the best minds in data processing and Apache Beam at the heart of Silicon Valley. Sunnyvale offers the perfect blend of natural beauty, cutting-edge technology, and vibrant cultural experiences under the mild Mediterranean weather. 
-
-
-### About the city:
-
-Sunnyvale is a cornerstone of technological innovation due to its strategic location at the epicenter of global tech development. The city thrives within an innovation ecosystem rich with startups, incubators, and venture capital firms that drive technological advancements and entrepreneurial ventures.
-
-Additionally, Sunnyvale benefits from its proximity to prestigious research institutions like Stanford University and the University of California, Berkeley, ensuring a steady influx of talent, research, and innovation. The highly skilled and educated workforce attracted to Sunnyvale fuels the city's tech industry, supported by robust infrastructure that facilitates growth and development.
-
-### What to do: 
-
-1. Murphy Avenue: Explore this historic downtown area with restaurants, cafes, and boutique shops.
-
-2. Parks and Nature Reserves: Baylands Park, Las Palmas Park, and nearby nature reserves provide ample opportunities for hiking, biking, and wildlife viewing.
-
-3. Sunnyvale Heritage Park Museum:  Learn about the history of Sunnyvale through various exhibits and artifacts.
-
-4. Computer History Museum: Discover the history of computing with exhibits on everything from early calculators to modern computers.
-
-5. Wine Tours: Being close to Napa and Sonoma Valleys, Sunnyvale can be a good starting point for wine tours in Northern California.
-
-6. Tech Tours: Some companies offer tours and visitor experiences where you can learn about cutting-edge technology and innovation firsthand.
-
-***Proximity to Major Cities:*** Sunnyvale is centrally located in Silicon Valley, making it a short drive from San Francisco, San Jose, and other key Bay Area destinations. The city is well-served by major highways and public transportation, including Caltrain and VTA, making travel convenient.
-
-
-### Getting to Sunnyvale from Airports
-
-
-***San Jose International Airport (SJC)***
-
-1. By Car:
-
-- Distance: Approximately 8 miles southeast of Sunnyvale.
-- Time: Around 15-20 minutes depending on traffic.
-
-2. By Public Transportation:
-
-- Take the VTA (Santa Clara Valley Transportation Authority) bus 10 from SJC to Santa Clara Caltrain Station.
-
-
-***San Francisco International Airport (SFO)***
-
-1. By Car:
-
-- Distance: Approximately 30 miles south of Sunnyvale.
-- Time: Around 35-50 minutes depending on traffic..
-
-2. By Public Transportation:
-
-- Take the BART (Bay Area Rapid Transit)
-
-
-***Oakland International Airport (OAK)***
-
-1. By Car:
-
-- Distance: Approximately 40 miles north of Sunnyvale.
-- Time: Around 45-60 minutes depending on traffic.
-
-2. By Public Transportation:
-
-- Take the BART from OAK to Coliseum Station.
-
+[Here](https://drive.google.com/drive/u/0/search?q=pier%2057) are some recommendations about lodging, parking, sightseeing and cuisine close to the venue.
