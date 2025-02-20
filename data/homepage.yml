@@ -5,7 +5,7 @@ banner:
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
-  date : "Join us in New York city to bridge the Data Streams on July 8th & 9th, 2025! "
+  date : "Join us in New York City to bridge the Data Streams on July 8th & 9th, 2025! "
   venue: ""
   button1:
     enable : true
