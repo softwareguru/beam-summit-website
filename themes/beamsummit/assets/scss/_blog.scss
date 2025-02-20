@@ -40,10 +40,18 @@ background: linear-gradient(180deg, rgba(31,118,215,1) 0%, rgba(22,124,214,1) 10
     }
 }
 
-
-
-
-
+.subscribe-button {
+	background-color: #F78557;
+	border-radius: 40px;
+	color: white !important;
+	font-size: 1.7rem;     
+	margin-top: -15px;
+	
+	&:hover{
+	  background-color: #FED500;
+	  color: #169BD6 !important;
+	}
+  }
 
 
 .blog-article{
