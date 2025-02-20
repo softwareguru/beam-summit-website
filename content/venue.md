@@ -6,6 +6,7 @@ draft: false
 
 ### We are excited to welcome you to [Pier 57](https://www.google.com/maps/place/Pier+57/@40.743058,-74.0090631,15z/data=!4m2!3m1!1s0x0:0xd746cc365197e5e2?sa=X&ved=2ahUKEwjK072bk8j-AhWWLFkFHX4FDKMQ_BJ6BQiOARAI), Google’s newest premier destination on the Hudson!  
 
+
 Pier 57 is located on the Hudson River just west of 11th Avenue (West Side Highway)  In addition to workspaces for 500+ Googlers, it houses a public market, community spaces, two restaurants, a public rooftop Sky Park and 9+ state-of-the-art events spaces. 
 
 A reimagined historic New York City landmark, Pier 57 is Google’s new state-of-the-art event and experience center. The Pier will be home to a premier Google event center, seating and workplace support for Googlers, as well as an array of public and community spaces. Pier 57 (also referred to as P57) has a unique lingo. 
@@ -40,4 +41,4 @@ A reimagined historic New York City landmark, Pier 57 is Google’s new state-of
 New York City is a place like no other, a vibrant metropolis where innovation, culture, and history collide. From its iconic skyline to its bustling streets, the city pulses with endless energy and possibility. Whether you’re exploring world-class museums, discovering diverse neighborhoods, or simply taking in the sights and sounds of the city that never sleeps, NYC offers an unforgettable experience at every turn. It’s a place where ideas come to life, connections are made, and inspiration is around every corner, perfect for a transformative Beam Summit 2025 experience.
 
 
-[Here](https://drive.google.com/drive/u/0/search?q=pier%2057) are some recommendations about lodging, parking, sightseeing and cuisine close to the venue. 
+[Here](../files/Neighborhood-Recommendation-Guide-Pier-57.pdf) are some recommendations about lodging, parking, sightseeing and cuisine close to the venue. 

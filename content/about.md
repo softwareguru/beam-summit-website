@@ -8,7 +8,7 @@ url: "/about"
 
 ## What is Beam Summit?
 
-The goal of Beam Summit is to connect a community of professionals around the world who use, contribute, and are learning Apache Beam.
+The goal of Beam Summit is to connect a community of professionals around the world who use, contribute, and are learning Apache Beam. The 2025 edition will be focused on exploring how Beam, in a seamless integration with Apache Kafka, Apache Iceberg, and Machine Learning, empowers data engineers to build next-generation data solutions.
 
 This annual conference provides space to share use cases, performance, and resource optimizations, discuss pain points, and talk about the benefits of implementing Apache Beam in organizations.
 
