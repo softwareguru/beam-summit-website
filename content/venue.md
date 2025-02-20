@@ -37,5 +37,3 @@ A reimagined historic New York City landmark, Pier 57 is Google’s new state-of
 </div>
 <br>
 New York City is a place like no other, a vibrant metropolis where innovation, culture, and history collide. From its iconic skyline to its bustling streets, the city pulses with endless energy and possibility. Whether you’re exploring world-class museums, discovering diverse neighborhoods, or simply taking in the sights and sounds of the city that never sleeps, NYC offers an unforgettable experience at every turn. It’s a place where ideas come to life, connections are made, and inspiration is around every corner, perfect for a transformative Beam Summit 2025 experience.
-
-[Here](https://drive.google.com/drive/u/0/search?q=pier%2057) are some recommendations about lodging, parking, sightseeing and cuisine close to the venue.

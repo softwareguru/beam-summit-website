@@ -123,7 +123,7 @@ home = "Home"
 
 # Meta data
 description = "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
-images = ["/images/card-2024-BS.jpg"]
+images = ["/images/card-2025.jpg"]
 twitter_user = "@beamsummit"
 email = "contact@beamsummit.org"
 author = "Software Guru"
@@ -175,6 +175,11 @@ link = "https://beam.apache.org/blog"
 [[params.footer_previous]]
 name = "Session archive previous editions"
 link = "/sessions"
+
+[[params.footer_previous]]
+name = "2024 Photo Album"
+link = "https://photos.app.goo.gl/HvvX5PwkVyoS6sN79"
+
 
 [[params.footer_previous]]
 name = "2023 Photo Album"
