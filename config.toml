@@ -86,23 +86,29 @@ speaker = "speakers"
     weight = 5
 
   [[menu.main]]
-    identifier="cfp"
+
     name = "Call for Papers 2025"
     parent="program"
     URL = "/cfp-2025"
-    weight = 1
+    weight = 2
+
+  [[menu.main]]
+    name = "Dataflow training"
+    parent="program"
+    URL = "/dataflow"
+    weight = 3
 
   [[menu.main]]
     name = "Session archive"
     URL = "/sessions/"
     parent="program"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "Speaker archive"
     URL = "/speakers/archive"
     parent="program"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
   name = "FAQ"
