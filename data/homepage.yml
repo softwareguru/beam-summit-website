@@ -13,10 +13,12 @@ banner:
     link : "https://sessionize.com/beamsummit-2025"
 
   button2:
-    enable : false
-    label : "Watch last year's sessions"
-    link : "https://2021.beamsummit.org/sessions/"
+    enable : true
+    label : "Registration"
+    link : "//embed.typeform.com/next/embed.js"
 
+
+    
 
 ############################## Event ##############################
 event_info:
