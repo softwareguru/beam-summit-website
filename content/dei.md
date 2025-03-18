@@ -34,7 +34,7 @@ There will be quiet rooms available. Please contact our registration desk for ge
 Code of Conduct
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the event staff immediately. Event staff can be identified by staff badges and/or shirts onsite and can be found at the event registration counter at any time. Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference.
 
-<a href="https://airflowsummit.org/coc/">
+<a href="https://beamsummit.org/coc/">
 <h3 class="text-center">Check out the code of conduct</h3>
 </a>
 
