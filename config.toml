@@ -93,7 +93,7 @@ speaker = "speakers"
     weight = 2
 
   [[menu.main]]
-    name = "Dataflow training"
+    name = "Happenings"
     parent="program"
     URL = "/dataflow"
     weight = 3
