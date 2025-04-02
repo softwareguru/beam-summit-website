@@ -10,6 +10,13 @@ sponsor_group:
       #  link : ""
 
 
+  - title : "Gold"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/dremio.png"
+        link : "https://www.dremio.com/"
+
+
   - title : "Community Partners"
     slug : "gold"
     sponsor:
