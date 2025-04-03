@@ -131,7 +131,7 @@ home = "Home"
 description = "The Beam Summit brings together experts and community to share the exciting ways they are using, changing, and advancing Apache Beam and the world of data and stream processing."
 images = ["/images/card-2025.jpg"]
 twitter_user = "@beamsummit"
-email = "contact@beamsummit.org"
+email = "beamsummit@sg.com.mx"
 author = "Software Guru"
 
 start_date = "2024-09-04T10:00-05:00"
