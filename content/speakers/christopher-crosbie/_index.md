@@ -2,7 +2,7 @@
 title: "Christopher Crosbie"
 date: 2025-04-08T14:02:27-06:00
 images: 
- - /images/speakers/beam-mascot.png
+ - /images/speakers/christopher-crosbie.jpg
 designation: Group Product Manager, Google
 twitter: 
 linkedin: https://www.linkedin.com/in/christopher-c-81434961/
