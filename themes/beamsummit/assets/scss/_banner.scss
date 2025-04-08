@@ -337,3 +337,20 @@
     }
   }
 }
+
+
+.logo1, .logo2{
+  width: 120px;
+  @media (max-width: 768px){
+    width: 125px;
+  }
+}
+
+.info-banner-bc{
+  font-size: 14px; 
+  font-weight: 800;
+
+  @media (max-width: 768px){
+    font-size: 10px; 
+  }
+}

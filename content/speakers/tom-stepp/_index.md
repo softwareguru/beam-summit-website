@@ -7,8 +7,9 @@ twitter:
 linkedin: https://www.linkedin.com/in/tomstepp
 events:
  - 2024
+ - 2025
 ---
 
-I work on Dataflow Streaming at Google!
+Software Engineer at Google, working on Dataflow Streaming.
 
 https://cloud.google.com/dataflow/docs/concepts/streaming-pipelines

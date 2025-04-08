@@ -99,14 +99,14 @@ speaker = "speakers"
     weight = 3
 
   [[menu.main]]
-    name = "Session archive"
-    URL = "/sessions/"
+    name = "Session"
+    URL = "/sessions/2025"
     parent="program"
     weight = 4
 
   [[menu.main]]
-    name = "Speaker archive"
-    URL = "/speakers/archive"
+    name = "Speaker"
+    URL = "/speakers"
     parent="program"
     weight = 5
 
