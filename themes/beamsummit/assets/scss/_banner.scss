@@ -354,3 +354,21 @@
     font-size: 10px; 
   }
 }
+
+.banner-img-desktop {
+  width: 100%;
+  @media (max-width: 730px) {
+    display: none;
+    width: 100%;
+}
+}
+
+.banner-img-mobile {
+  width: 100%;
+  @media (min-width: 730px) {
+    display: none;
+      
+  }
+}
+
+  
