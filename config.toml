@@ -8,11 +8,12 @@ RemovePathAccents = true
 
 theme = "beamsummit"
 # post pagination
-paginate = "8"
+[pagination]
+  pagerSize = 8
 
 # output
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
 
 [markup]
   [markup.goldmark]
