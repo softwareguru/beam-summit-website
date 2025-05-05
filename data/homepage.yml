@@ -8,7 +8,7 @@ banner:
   date : "Join us in New York City to bridge the Data Streams on July 8th & 9th, 2025! "
   venue: ""
   button1:
-    enable : true
+    enable : false
     label : "CFP is open!"
     link : "https://sessionize.com/beamsummit-2025"
 
