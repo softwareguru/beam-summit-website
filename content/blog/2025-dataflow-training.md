@@ -1,11 +1,11 @@
 ---
-title: "CFP deadline extended to April 30"
+title: "Dataflow Training"
 date: 2024-07-11T13:00:03-06:00
-url: cfp-2025
-redirection: /cfp-2025
+slug: dataflow-training
+redirection: /happenings
 description: "The deadline for the Beam Summit 2025 CFP has been extended to April 30th."
 # post thumb
-images : ["/images/blog/cfp-2025.png"]
+images : ["/images/blog/dataflow2025.png"]
 # author
 author: "Beam Summit Team"
 draft: false
