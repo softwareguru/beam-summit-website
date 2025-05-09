@@ -1,5 +1,5 @@
 ---
-title: "Jb Onofre"
+title: "JB Onofré"
 images:
  - /images/speakers/jb-onofre.webp
 designation: "Principal Software Engineer at Dremio"

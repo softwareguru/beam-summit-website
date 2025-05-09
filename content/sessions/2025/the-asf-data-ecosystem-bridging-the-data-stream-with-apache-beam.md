@@ -1,8 +1,8 @@
 ---
-title: "The Asf Data Ecosystem Bridging the Data Stream With Apache Beam"
+title: "The ASF Data Ecosystem Bridging the Data Stream With Apache Beam"
 slug: the-asf-data-ecosystem-bridging-the-data-stream-with-apache-beam
 speakers:
- - Jb Onofre
+ - JB Onofre
 time_start: 2025-07-08 09:10:00
 time_end: 2024-07-08 10:05:00
 room: 
