@@ -1,7 +1,7 @@
 ---
 title: "Program"
 date: 2024-01-04T15:49:31-05:00
-url: /program
+
 
 days: 
 
