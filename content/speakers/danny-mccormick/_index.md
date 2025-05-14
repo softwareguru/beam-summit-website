@@ -10,4 +10,4 @@ events:
  - 2025
 ---
 
-Danny McCormick is a software engineer at Google. He lives in Durham, NC and is currently focused on contributing to the Apache Beam Go Sdk.
+Danny McCormick is a software engineer at Google and a part of the Beam PMC. Within Beam, he is particularly focused on Beam ML, the Yaml SDK, and improving Beam's infrastructure. Outside of software, Danny enjoys hiking, running, basketball, and reading.
