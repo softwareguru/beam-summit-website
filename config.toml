@@ -144,8 +144,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Register"
-link = "register" 
+label = "Join event"
+link = "https://us.airmeet.com/e/9bdb0d00-0395-11f0-8736-2fca652bde11" 
 
 
 ############################# social icon ############################
