@@ -86,6 +86,11 @@ speaker = "speakers"
     URL = "/sessions/2024"
     weight = 5
 
+  [[menu.main]]
+    name = "Schedule"
+    URL = "/program"
+    parent="program"
+    weight = 2
 
   [[menu.main]]
     name = "Sessions"
