@@ -1,4 +1,4 @@
-#!/Users/pedrogk/Projects/sgvirtual/website/scripts/.venv/bin/python3.10
+#!/home/beto/beam-summit-website/scripts/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

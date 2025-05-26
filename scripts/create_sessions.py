@@ -15,7 +15,7 @@ def main():
 
         for row in reader:
             title = row['title']
-            event_slug = "2024"
+            event_slug = "2025"
             speakers = row['speakers'].split(", ")
             topics = row['topics'].split(", ")
             room = row['room']

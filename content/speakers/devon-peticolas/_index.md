@@ -7,6 +7,7 @@ twitter: https://twitter.com/dproi
 linkedin: 
 events:
  - 2023
+ - 2025
 ---
 
 Devon Peticolas is a Principal Engineer at Oden Technologies

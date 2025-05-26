@@ -1,10 +1,14 @@
 ---
 title: "Jeswanth Yadagani"
-designation: "ML Engineer at Oden Technologies"
+designation: "Senior ML Engineer at Oden Technologies"
 images: 
  - /images/speakers/jeswanth-yadagani.jpg
 twitter: ""
 linkedin: "https://www.linkedin.com/in/jeswanth-yadagani/"
+events: 
+ - 2021
+ - 2025
+
 ---
 
-Recent Master of Science grad from Columbia University, putting skills on table for a sustainable and scalable world. Followed professor to dwell on manufacturing data.
+ML Engineer at Oden Technologies, where I turn noisy sensor data into real-time predictions and call it machine learning

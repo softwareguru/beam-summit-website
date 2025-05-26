@@ -15,7 +15,7 @@ def main():
 
         for row in reader:
             title = row['title']
-            events = ["2024"]
+            events = ["2025"]
             designation = row['designation']
             bio = row['bio']
             twitter = row['twitter']

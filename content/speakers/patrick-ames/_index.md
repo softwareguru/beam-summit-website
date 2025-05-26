@@ -1,10 +1,13 @@
 ---
 title: "Patrick Ames"
-designation: "Sr. SDE @ Amazon"
+designation: "Principal Engineer at Amazon"
 images: 
- - /images/speakers/patrick-ames.jpg
+ - /images/speakers/patrick-ames.png
 twitter: ""
-linkedin: ""
+linkedin: https://www.linkedin.com/in/patrick-ames-05bb046/
+events:
+ - 2025
+ - 2022
 ---
 
-Software Engineer and Ray Project Member working on Data Management and Optimization for Big Data Technologies at Amazon.
+Principal Engineer working on Data Management and Optimization for Big Data Technologies at Amazon.
