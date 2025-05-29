@@ -98,11 +98,6 @@ days:
       - type: timelabel
         label: "09:30 - 10:00"
         gridarea: "3/1/4/2"
-      - type: activity
-        label: "Keynote TBC"
-        gridarea: "3/2/4/6"
-        timelabel: "10:00 - 10:30"
-        gridaream: "3/1/4/2"
       - type: timelabel
         label: "10:00 - 10:30"
         gridarea: "4/1/5/2"
