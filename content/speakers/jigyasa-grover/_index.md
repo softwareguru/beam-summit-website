@@ -9,6 +9,7 @@ linkedin: https://www.linkedin.com/in/jigyasa-grover/
 github: 
 events:
  - 2025
+draft: true
 ---
 
 10-time award winner in Artificial Intelligence and Open Source and the co-author of the book 'Sculpting Data For ML', Jigyasa Grover is a powerhouse brimming with passion to make a dent in this world of technology and bridge the gaps. AI & Research Lead, she has years of ML engineering & Data Science experience in deploying large‐scale low-latency systems for user personalization and monetization on popular social networking apps like Twitter and Facebook, and e‐commerce at Faire, particularly ads prediction, sponsored content ranking, and recommendation with a recent focus on Generative AI. She is also one of the few ML Google Developer Experts and Google Women Techmaker Ambassadors globally. As a World Economic Forum’s Global Shaper, she ensures to leverage of her technical skills and connections for solution-building, policy-making, and lasting change.

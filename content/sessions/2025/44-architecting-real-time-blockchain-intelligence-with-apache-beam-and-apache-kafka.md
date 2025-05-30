@@ -5,12 +5,12 @@ speakers:
  - Vijay Shekhawat
 time_start: 2025-07-08 09:10:00
 time_end: 2024-07-08 10:05:00
-room: Palisades
+room: Horizon Hall
 track: 
 topics: 
  - Real-time data applications
 day: 20252
-gridarea: "15/4/16/6"
+gridarea: "15/2/16/4"
 timeslot: 44
 images: 
 

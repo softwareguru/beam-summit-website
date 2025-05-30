@@ -83,7 +83,17 @@ days:
         gridarea: "15/1/16/2"        
       - type: timelabel
         label: "16:45 - 17:10"
-        gridarea: "16/1/17/2"  
+        gridarea: "16/1/17/2"
+      - type: timelabel
+        label: "17:10 - 19:00"
+        gridarea: "17/1/18/2"
+      - type: activity
+        label: "Reception"
+        subtitle: "Further details to be confirmed."
+        gridarea: "17/2/18/6"
+        timelabel: "13:00 - 14:00"
+        gridaream: "17/1/18/2"
+
 
 
   - id: 20252

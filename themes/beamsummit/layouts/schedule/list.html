@@ -41,7 +41,13 @@
       <div class="d-none d-sm-block">
         <div class="daygrid">
             {{ range .schedule_items }}
-              <div class="{{.type}}" {{ with .gridarea }}style="grid-area: {{. | safeCSS}};"{{end}}>{{.label}}</div>
+              <div class="{{.type}}" {{ with .gridarea }}style="grid-area: {{. | safeCSS}};"{{end}}>{{.label}} 
+                
+                {{with .subtitle }}
+              <p style="font-size: .8rem; margin-bottom: -3px;">{{ . }}</p>
+              {{ end }}
+              </div>
+              
             {{ end }}
             {{ range sort (sort (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day )  ".Title") ".Params.time_start" }}
               <div class="session-item track-{{ .Params.room | anchorize }} room-{{ .Params.room | anchorize }}" {{ with .Params.gridarea }}style="grid-area: {{. | safeCSS}};"{{end}} data-slot='{{.Params.slot}}' data-timestart='{{ with .Params.time_start | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-timeend='{{ with .Params.time_end | time }}{{ .Format "02 Jan 2006 15:04:05 MST" }}{{ end }}' data-track="{{ .Params.track }}">
@@ -72,7 +78,10 @@
       <div class="d-block d-sm-none">
         <div class="daygrid-xs">
             {{ range (where .schedule_items ".type" "activity") }}
-              <div class="{{.type}}" {{ with .gridaream }}style="grid-area: {{ . | safeCSS}};"{{end}}><div class="session-time hour">{{.timelabel}}</div>{{.label}}</div>
+              <div class="{{.type}}" {{ with .gridaream }}style="grid-area: {{ . | safeCSS}};"{{end}}><div class="session-time hour">{{.timelabel}}</div>{{.label}} {{with .subtitle }}
+              <p style="font-size: .8rem; margin-bottom: -3px;">{{ . }}</p>
+              {{ end }}</div>
+
             {{ end }}
 
             {{ range sort (sort (where (where $.Site.Pages "Section" "sessions") ".Params.day" $curr_day )  ".Title") ".Params.timeslot" }}
@@ -88,13 +97,11 @@
               </div> 
             {{ end }}
         </div> <!-- daygrid -->
-        
       </div>
-
-      <h4 class="text-left mt-3 mb-4">*Schedule is subject to change.</h4>
-
     </div>    
     {{ end }}
+
+    <h5 class="text-left mt-3 mb-4">The schedule might change or have updates.</h5>
 </div>
 
 <script>

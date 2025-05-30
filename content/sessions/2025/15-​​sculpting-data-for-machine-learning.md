@@ -22,6 +22,8 @@ images:
 
 slides:
 video: 
+
+draft: true
 ---
 
 While Generative AI models capture headlines, the foundation of any successful GenAI implementation remains quality data preparation at scale. Apache Beam provides the ideal framework for constructing robust data pipelines that can seamlessly process batch and streaming data for GenAI applications. This session will guide attendees through leveraging Beam's unified model to curate, transform, and deliver data ready for modern GenAI systems.
