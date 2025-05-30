@@ -12,7 +12,7 @@ We will select Beam Summit participants from those who indicate their interest d
   <div class="col-sm-6 mb-3 mb-sm-0">
     <div class="card shadow-sm  h-100">
       <div class="card-body ">
-        <h4 class="card-title">Google Cloud Dataflow Training:</h4>
+        <h4 class="card-title">Google Cloud Dataflow Training</h4>
         <p class="card-text">
         <li>Focused training on Dataflow</li>
         <li>In-depth learning on Apache Beam</li>
