@@ -3,8 +3,8 @@ title: "Leveraging LLMs for Agentic Workflow Orchestration in Apache Beam YAML P
 slug: leveraging-llms-for-agentic-workflow-orchestration-in-apache-beam-yaml-pipelines
 speakers:
  - Charles Adetiloye
-time_start: 2025-07-08 09:10:00
-time_end: 2024-07-08 10:05:00
+time_start: 2025-07-08 12:45:00
+time_end: 2024-07-08 13:10:00
 room: Horizon Hall
 track:
 topics: 

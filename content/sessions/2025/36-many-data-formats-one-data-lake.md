@@ -3,8 +3,8 @@ title: "Many Data Formats, One Data Lake"
 slug: many-data-formats-one-data-lake
 speakers:
  - Peter Wagener
-time_start: 2025-07-08 09:10:00
-time_end: 2024-07-08 10:05:00
+time_start: 2025-07-09 14:00:00
+time_end: 2025-07-09 14:25:00
 room: Palisades
 tracks:
 topics: 

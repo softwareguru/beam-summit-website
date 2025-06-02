@@ -3,8 +3,8 @@ title: "Integrating LLMs and Embedding models into Beam pipelines using langchai
 slug: integrating-llms-and-embedding-models-into-beam-pipelines-using-langchain
 speakers:
  - Ganesh Sivakumar
-time_start: 2025-07-08 09:10:00
-time_end: 2024-07-08 10:05:00
+time_start: 2025-07-08 16:45:00
+time_end: 2025-07-08 17:10:00
 room: Horizon Hall
 track:
 topics: 

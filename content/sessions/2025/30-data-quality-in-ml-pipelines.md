@@ -3,8 +3,8 @@ title: "Data Quality in ML Pipelines"
 slug: data-quality-in-ml-pipelines
 speakers:
  - Pritam Dodeja
-time_start: 2025-07-08 09:10:00
-time_end: 2024-07-08 10:05:00
+time_start: 2025-07-09 11:30:00
+time_end: 2025-07-09 11:55:00
 room: Palisades
 track:
 topics: 

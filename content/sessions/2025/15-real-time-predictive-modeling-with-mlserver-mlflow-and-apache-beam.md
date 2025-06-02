@@ -8,8 +8,8 @@ topics:
  - Real-time data applications
  - Connecting disparate systems with modern data architectures
  - Emerging trends
-time_start: 2025-07-08 09:10:00
-time_end: 2024-07-08 10:05:00
+time_start: 2025-07-08 14:30:00
+time_end: 2024-07-08 15:20:00
 room: Horizon Hall
 track: 
 day: 20251

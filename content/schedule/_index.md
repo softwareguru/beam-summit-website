@@ -42,7 +42,7 @@ days:
       - type: activity
         label: "Pending session"
         gridarea: "6/2/7/4"
-        timelabel: "10:15 - 10:45"
+        timelabel: "11:15 - 11:45"
         gridaream: "6/1/7/2"
       - type: timelabel
         label: "11:45 - 12:15"
@@ -60,7 +60,7 @@ days:
         label: "Lunch"
         gridarea: "10/2/11/6"
         timelabel: "13:15 - 14:00"
-        gridaream: "10/1/11/2"
+        gridaream: "15/1/16/2"
       - type: timelabel
         label: "14:00 - 14:30"
         gridarea: "11/1/12/2"
@@ -74,7 +74,7 @@ days:
         label: "Coffee Break"
         gridarea: "13/2/14/6"
         timelabel: "15:30 - 15:45"
-        gridaream: "13/1/14/2"
+        gridaream: "20/1/21/2"
       - type: timelabel
         label: "15:45 - 16:15"
         gridarea: "14/1/15/2"
@@ -91,8 +91,8 @@ days:
         label: "Reception"
         subtitle: "Further details to be confirmed."
         gridarea: "17/2/18/6"
-        timelabel: "13:00 - 14:00"
-        gridaream: "17/1/18/2"
+        timelabel: "17:10 - 19:00"
+        gridaream: "28/1/29/2"
 
 
 
@@ -115,7 +115,7 @@ days:
         label: "Coffee break"
         gridarea: "4/2/5/6"
         timelabel: "10:00 - 10:30"
-        gridaream: "4/1/5/2"
+        gridaream: "3/1/4/2"
       - type: timelabel
         label: "10:30 - 11:00"
         gridarea: "5/1/6/2"
@@ -138,7 +138,7 @@ days:
         label: "Lunch"
         gridarea: "10/2/11/6"
         timelabel: "13:00 - 14:00"
-        gridaream: "10/1/11/2"
+        gridaream: "14/1/15/2"
       - type: timelabel
         label: "14:00 - 14:30"
         gridarea: "11/1/12/2"

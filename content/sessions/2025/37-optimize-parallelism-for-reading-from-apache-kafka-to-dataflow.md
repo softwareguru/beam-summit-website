@@ -3,8 +3,8 @@ title: "Optimize parallelism for reading from Apache Kafka to Dataflow"
 slug: optimize-parallelism-for-reading-from-apache-kafka-to-dataflow
 speakers:
  - Supriya Koppa
-time_start: 2025-07-08 09:10:00
-time_end: 2024-07-08 10:05:00
+time_start: 2025-07-09 15:00:00
+time_end: 2025-07-09 15:25:00
 room: Horizon Hall
 track:
 topics: 

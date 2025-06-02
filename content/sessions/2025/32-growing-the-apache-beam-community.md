@@ -4,8 +4,8 @@ slug: growing-the-apache-beam-community
 speakers:
  - Jana Polianskaja
  - Danny McCormick
-time_start: 2025-07-08 09:10:00
-time_end: 2024-07-08 10:05:00
+time_start: 2025-07-09 12:00:00
+time_end: 2025-07-09 12:25:00
 room: Palisades
 track: 
 topics: 

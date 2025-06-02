@@ -3,8 +3,8 @@ title: "A Deep Dive Into Beam Python Type Hinting"
 slug: a-deep-dive-into-beam-python-type-hinting
 speakers:
  - Jack McCluskey
-time_start: 2024-09-10 09:10:00
-time_end: 2024-09-10 10:05:00
+time_start: 2025-07-08 12:15:00
+time_end: 2024-07-08 12:40:00
 room: Palisades
 topics:
  - Unified Data Processing
