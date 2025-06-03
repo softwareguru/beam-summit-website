@@ -9,6 +9,4 @@ events:
  - 2025
 ---
 
-(Not to sing my own praises, I gave chatGPT the liberty to write about me :) )
-
 Bentsi is a Senior Software Engineer at ClickHouse Inc., bringing close to a decade of experience in data engineering. At ClickHouse, Bentsi focuses on advancing the integrations ecosystem, working with modern data frameworks including Apache Beam, Apache Spark, Apache Kafka, dbt, and more. He holds a B.Sc. in Computer Science and an MBA from a joint program between Tel Aviv University and NYU, graduating cum laude. His work bridges cutting-edge data infrastructure with real-world use cases, helping developers and organizations get the most from their data. 

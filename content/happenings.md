@@ -2,10 +2,7 @@
 title: Happenings
 date: '2023-02-20T07:51:25.000+00:00'
 aliases: "/dataflow"
-
 ---
-
-
 
 <div class="row mt-4">
   <div class="col-sm-6 mb-3 mb-sm-0">

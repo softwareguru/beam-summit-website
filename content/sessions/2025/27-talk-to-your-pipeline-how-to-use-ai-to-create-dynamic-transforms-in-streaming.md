@@ -3,7 +3,6 @@ title: "Talk to your pipeline: how to use AI to create dynamic transforms in str
 slug: talk-to-your-pipeline-how-to-use-ai-to-create-dynamic-transforms-in-streaming
 speakers:
  - Israel Herraiz
- - Kfir Naftali
 topics:
  - Real-time data applications
  - Emerging trends
