@@ -5,8 +5,7 @@ aliases: "/dataflow"
 
 ---
 
-Register for a chance to join the exclusive Google Dataflow training!
-We will select Beam Summit participants from those who indicate their interest during registration. Don't miss this unique learning opportunity!
+
 
 <div class="row mt-4">
   <div class="col-sm-6 mb-3 mb-sm-0">
@@ -14,6 +13,8 @@ We will select Beam Summit participants from those who indicate their interest d
       <div class="card-body ">
         <h4 class="card-title">Google Cloud Dataflow Training</h4>
         <p class="card-text">
+        <p>Register for a chance to join the exclusive Google Dataflow training!</p>
+<p>We will select Beam Summit participants from those who indicate their interest during registration. Don't miss this unique learning opportunity!<p>
         <li>Focused training on Dataflow</li>
         <li>In-depth learning on Apache Beam</li>
         <li>Hands-on labs and practical exercises</li>
