@@ -1,6 +1,6 @@
 ---
 title: "Aarohi Tripathi"
-designation: "Senior Data Engineer, CVS Health"
+designation: "Data Engineer"
 images:
  - /images/speakers/aarohi-tripathi.jpg
 twitter: 
