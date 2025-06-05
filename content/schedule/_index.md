@@ -154,6 +154,13 @@ days:
       - type: timelabel
         label: "16:00 - 16:30"
         gridarea: "15/1/16/2" 
+      - type: activity
+        label: "Dataflow for Beginners"
+        subtitle: "Further details to be confirmed."
+        gridarea: "15/4/16/6"
+        timelabel: "16:00 - 16:30"
+        gridaream: "22/1/23/2"
+
 
 
 summary: "Welcome to the session program for Beam Summit 2025 to be held on July 8-9, 2025 in New York City"

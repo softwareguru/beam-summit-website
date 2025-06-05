@@ -1,6 +1,6 @@
 ---
-title: " Apache Beam Roadmap Update"
-slug: apache-beam-roadmap-update
+title: "3.0 and Beyond: The Future of Beam"
+slug: the-future-of-beam
 speakers:
  - Danny McCormick
  - Kenneth Knowles
@@ -18,4 +18,4 @@ slides:
 video: 
 ---
 
-Further keynote details to be confirmed.
+Beam has become a core part of the data processing ecosystem through a combination of innovation and hard work from the Beam community. As the data landscape continues to evolve, however, so too must Beam. During this talk, Kenn (Beam PMC chair) and Danny (Beam PMC) will explore some of the opportunities and challenges in front of Beam, culminating in a vision for the future of Beam. Attendees will gain a clear idea of where Beam is headed, how they can leverage Beam even more effectively moving forward, and how they can contribute to helping Beam become the best that it can be.
