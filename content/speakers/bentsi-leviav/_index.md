@@ -2,7 +2,7 @@
 title: "Bentsi Leviav"
 designation: "Senior Software Engineer at ClickHouse Inc."
 images:
- - /images/speakers/bentsi-leviav.jpg
+ - /images/speakers/bentsi-leviav.png
 twitter: 
 linkedin: https://www.linkedin.com/in/bentsi-leviav/
 events:

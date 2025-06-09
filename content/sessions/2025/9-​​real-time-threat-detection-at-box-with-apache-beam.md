@@ -4,6 +4,7 @@ slug: real-time-threat-detection
 speakers:
  - Abhishek Mishra
  - Mark Chin
+ - Elango Prasad
 time_start: 2025-07-08 12:15:00
 time_end: 2024-07-08 12:40:00
 room: Horizon Hall
