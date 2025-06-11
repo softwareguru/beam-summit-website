@@ -2,7 +2,7 @@
 title: "Shunping Huang"
 designation: "Googler"
 images:
- - /images/speakers/shunping-huang.jpg
+ - /images/speakers/shunping-huang.png
 twitter: 
 linkedin: https://www.linkedin.com/in/shunping-huang-545b0150
 events:

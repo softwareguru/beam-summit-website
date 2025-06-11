@@ -19,3 +19,9 @@ images:
 slides:
 video:
 ---
+
+In this talk, I'll walk through the process of developing and deploying a reusable Dataflow template using ClickHouseIO, the official Beam connector. The template enables users to duplicate and copy data from BigQuery to ClickHouse - a high-performance OLAP database increasingly adopted for real-time analytics.
+
+In addition, the session will cover key considerations when working with the ClickHouseIO connector such as schema mapping, handling large volumes of data, performance tuning, and more.
+
+A live demo will showcase a real-world use case of duplicating data from BigQuery to ClickHouse using the template, demonstrating how Apache Beam is the foundation to power this cross-system integration.
