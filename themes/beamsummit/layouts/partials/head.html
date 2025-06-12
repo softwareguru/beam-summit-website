@@ -1,44 +1,73 @@
-    <meta charset="utf-8">
-    <title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    {{ hugo.Generator }}
-  
-    {{- template "_internal/opengraph.html" . -}}
-    {{- template "_internal/twitter_cards.html" . -}}
-  
-    {{ with .Site.Params.google_tag }}
-    <!-- Google Tag Manager -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{.}}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{.}}', { 'debug_mode':true });
-    </script>
-    <!-- End Google Tag Manager -->
-      
-    {{ end }}
-  
-    {{ "<!-- plugins -->" | safeHTML }}
-    {{ range .Site.Params.plugins.css }}
-    <link rel="stylesheet" href="{{ .link | relURL }}" {{ with .integrity }}integrity="{{.}}" crossorigin="anonymous"{{ end }}>
-    {{ end }}
+<meta charset="utf-8">
+<title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
 
-    {{ "<!-- Main Stylesheet -->" | safeHTML }}
-    {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
-    <link rel="stylesheet" href='{{ $styles.Permalink | relURL }}?v={{ now.Format "200601021504" }}' media="screen">
-    
-    {{ "<!--Favicon-->" | safeHTML }}
-    <link rel="shortcut icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
-    <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description"
+  content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+{{ with .Site.Params.author }}
+<meta name="author" content="{{ . }}">{{ end }}
+{{ hugo.Generator }}
 
-    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
 
-    {{ if .IsHome }}
-    <script type="application/ld+json">
+{{ with .Site.Params.google_tag }}
+<!-- Google Tag Manager -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{.}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', '{{.}}', { 'debug_mode': true });
+</script>
+<!-- End Google Tag Manager -->
+
+{{ end }}
+
+{{ "<!-- plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.css }}
+<link rel="stylesheet" href="{{ .link | relURL }}" {{ with .integrity }}integrity="{{.}}" crossorigin="anonymous" {{ end
+  }}>
+{{ end }}
+
+{{ "<!-- Main Stylesheet -->" | safeHTML }}
+{{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+<link rel="stylesheet" href='{{ $styles.Permalink | relURL }}?v={{ now.Format "200601021504" }}' media="screen">
+
+{{ "<!--Favicon-->" | safeHTML }}
+<link rel="shortcut icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
+<link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
+
+<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<!--Linkedin ADS-->
+<script type="text/javascript">
+  _linkedin_partner_id = "7351994";
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+  (function (l) {
+    if (!l) {
+      window.lintrk = function (a, b) { window.lintrk.q.push([a, b]) };
+      window.lintrk.q = []
+    }
+    var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript"; b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);
+  })(window.lintrk);
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none;" alt=""
+    src="https://px.ads.linkedin.com/collect/?pid=7351994&fmt=gif" />
+</noscript>
+
+<!--Linkedin ADS-->
+
+{{ if .IsHome }}
+<script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Event",
@@ -80,6 +109,5 @@
         }
       }
     </script>
-    {{ end }}
 
-  
+{{ end }}
