@@ -178,6 +178,10 @@ link = "https://beam.apache.org/"
 name = "Apache Beam Blog"
 link = "https://beam.apache.org/blog"
 
+[[params.footer_about]]
+name = "Privacy Policy"
+link = "privacy-policy"
+
 [[params.footer_previous]]
 name = "Session archive previous editions"
 link = "/sessions"
