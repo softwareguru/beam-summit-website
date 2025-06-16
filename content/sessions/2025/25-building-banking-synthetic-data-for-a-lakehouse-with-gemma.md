@@ -16,6 +16,7 @@ images:
 
 slides:
 video:
+draft: true
 ---
 
 Building a Beam pipeline to preprocess, generate and validate Synthetic data for a Datawarehouse migration into GCP.

@@ -8,6 +8,7 @@ linkedin: https://www.linkedin.com/in/albertolose/
 events:
  - 2024
  - 2025
+draft: true
 ---
 
 Electronics and Telecommunications Engineer, actively immersed into Google Cloud as Tech. Lead at Deutsche Bank for current DWH and DataLake migration including GCP stack: SCIO DataFlow, DataProc, BigQuery, Composer, PubSub, BigTable, GKE, SRE and DevOps. Besides playing roles of Solutions Architect, Big Data Engineer and team leader. 
