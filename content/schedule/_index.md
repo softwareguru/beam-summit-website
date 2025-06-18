@@ -39,11 +39,6 @@ days:
       - type: timelabel
         label: "11:15 - 11:45."
         gridarea: "6/1/7/2"
-      - type: activity
-        label: "Pending session"
-        gridarea: "6/2/7/4"
-        timelabel: "11:15 - 11:45"
-        gridaream: "6/1/7/2"
       - type: timelabel
         label: "11:45 - 12:15"
         gridarea: "7/1/8/2"

@@ -1,10 +1,14 @@
 ---
-title: "​Streaming Databases with Bigtable and Apache Beam"
+title: "Talk to your pipeline: how to use AI to create dynamic transforms in streaming"
 slug: streaming-databases-with-bigtable-and-apache-beam
 speakers:
- - Christopher Crosbie
+ - Israel Herraiz
+ - Kfir Naftali
+topics: 
+ - Real-time data applications
+ - Emerging trends
 time_start: 2025-07-08 15:30:00
-time_end: 2024-07-08 15:45:00
+time_end: 2024-07-08 15:55:00
 room: Horizon Hall
 track: 
 day: 20252
@@ -16,4 +20,4 @@ slides:
 video: 
 ---
 
-Discover how companies, including Google, leverage Apache Beam and Bigtable to instantly enrich data as it's created. We'll explore how Bigtable, Google's powerful key-value database, serves as a perfect real-time data storage solution for Beam's processing. Learn about the seamless integration between these services and see how you can take advantage of features like large-scale embedding generation and the Beam Enrichment transform with minimal coding   
+With some design, you can leverage Beam ML to make a LLM transform your questions into dynamic transformations that you can apply to your data. In this talk, we show how to use Gemma to accept natural language questions about your data, and offer an answer in real time applied to the main stream of data

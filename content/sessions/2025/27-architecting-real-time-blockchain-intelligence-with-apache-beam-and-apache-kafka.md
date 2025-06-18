@@ -3,20 +3,20 @@ title: "Architecting Real-Time Blockchain Intelligence with Apache Beam and Apac
 slug: architecting-real-time-blockchain-intelligence-with-apache-beam-and-apache-kafka
 speakers:
  - Vijay Shekhawat
-time_start: 2025-07-08 16:00:00
-time_end: 2024-07-08 16:25:00
 room: Horizon Hall
 track: 
 topics: 
  - Real-time data applications
+time_start: 2025-07-09 11:00:00
+time_end: 2025-07-09 11:25:00
+track: 
 day: 20252
-gridarea: "15/2/16/4"
-timeslot: 44
+gridarea: "6/2/7/4"
+timeslot: 27
 images: 
 
 slides:
 video:
-draft: true 
 ---
 
 At TRM Labs, we manage petabyte-scale data from over 30 blockchains to deliver customer-facing analytics. Our platform processes high-throughput data to extract actionable intelligence for critical decision-making.
