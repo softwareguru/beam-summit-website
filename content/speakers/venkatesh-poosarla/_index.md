@@ -1,6 +1,6 @@
 ---
 title: "Venkatesh Poosarla"
-designation: "venkatesh poosarla,Senior Data Engineer"
+designation: Senior Data Engineer at Credit Karma
 images:
  - /images/speakers/venkatesh-poosarla.png
 twitter: 

@@ -1,9 +1,8 @@
 ---
 title: "Talk to your pipeline: how to use AI to create dynamic transforms in streaming"
-slug: streaming-databases-with-bigtable-and-apache-beam
+slug: talk-to-your-pipeline
 speakers:
  - Israel Herraiz
- - Kfir Naftali
 topics: 
  - Real-time data applications
  - Emerging trends

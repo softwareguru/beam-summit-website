@@ -1,6 +1,6 @@
 ---
 title: "Austin Bennett"
-designation: "Software/Data, Google Developer Expert, Apache Beam Committer"
+designation: Data Architect at Azra AI
 images:
  - /images/speakers/austin-bennett.jpg
 twitter: 

@@ -3,7 +3,7 @@ title: "Peter Wagener"
 date: 2025-04-08T13:50:29-06:00
 images: 
  - /images/speakers/peter-wagener.jpg
-designation: CTO, Ichor Strategies
+designation: Consultant at SanusCorp LLC
 twitter: 
 linkedin: https://www.linkedin.com/in/peterjwagener/
 github: 
