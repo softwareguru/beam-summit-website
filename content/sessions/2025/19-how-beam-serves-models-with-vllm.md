@@ -11,7 +11,7 @@ topics:
  - Emerging trends
  - Scalability & Performance
 day: 20251
-gridarea: "15/2/16/4"
+gridarea: "17/2/18/4"
 timeslot: 19
 images: 
 

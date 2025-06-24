@@ -10,9 +10,9 @@ time_start: 2025-07-08 15:30:00
 time_end: 2024-07-08 15:55:00
 room: Horizon Hall
 track: 
-day: 20252
-gridarea: "14/2/15/4"
-timeslot: 41 
+day: 20251
+gridarea: "16/2/17/4"
+timeslot: 19
 images: 
 
 slides:

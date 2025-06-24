@@ -12,7 +12,7 @@ topics:
  - Real-time data applications
  - Scalability & Performance
 day: 20251
-gridarea: "14/4/15/6"
+gridarea: "15/4/16/6"
 timeslot: 18
 images: 
 

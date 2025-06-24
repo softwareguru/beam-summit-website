@@ -18,6 +18,7 @@ images:
 
 slides:
 video: 
+draft: true
 ---
 
 Large language models (LLMs) have transformed how we process and generate text. In this session, I'll talk about Langchain-Beam, an open-source library that integrates LLMs and embedding models into Apache Beam pipelines as transform using LangChain.

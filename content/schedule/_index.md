@@ -60,32 +60,35 @@ days:
         label: "14:00 - 14:30"
         gridarea: "11/1/12/2"
       - type: timelabel
-        label: "14:30 - 15:30"
+        label: "14:30 - 15:00"
         gridarea: "12/1/13/2"
       - type: timelabel
-        label: "15:30 - 15:45"
+        label: "15:00 - 15:30"
         gridarea: "13/1/14/2"
+      - type: timelabel
+        label: "15:30 - 15:45"
+        gridarea: "14/1/15/2"
       - type: activity
         label: "Coffee Break"
-        gridarea: "13/2/14/6"
+        gridarea: "14/2/15/6"
         timelabel: "15:30 - 15:45"
         gridaream: "20/1/21/2"
       - type: timelabel
         label: "15:45 - 16:15"
-        gridarea: "14/1/15/2"
+        gridarea: "15/1/16/2"
       - type: timelabel
         label: "16:15 - 16:45"
-        gridarea: "15/1/16/2"        
+        gridarea: "16/1/17/2"        
       - type: timelabel
         label: "16:45 - 17:10"
-        gridarea: "16/1/17/2"
+        gridarea: "17/1/18/2"
       - type: timelabel
         label: "17:10 - 19:00"
-        gridarea: "17/1/18/2"
+        gridarea: "18/1/19/2"
       - type: activity
         label: "Reception"
         subtitle: "Further details to be confirmed."
-        gridarea: "17/2/18/6"
+        gridarea: "18/2/19/6"
         timelabel: "17:10 - 19:00"
         gridaream: "28/1/29/2"
 

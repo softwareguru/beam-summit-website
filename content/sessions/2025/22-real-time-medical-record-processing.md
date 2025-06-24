@@ -8,12 +8,12 @@ topics:
  - Real-time data applications
  - Ecosystem & Community
 room: Palisades
-time_start: 2025-07-08 16:45:00
-time_end: 2025-07-08 17:10:00
+time_start: 2025-07-08 11:15:00
+time_end: 2025-07-08 11:40:00
 track: 
 day: 20251
-gridarea: "16/4/17/6"
-timeslot: 22 
+gridarea: "6/4/7/6"
+timeslot: 6
 images: 
 
 slides:

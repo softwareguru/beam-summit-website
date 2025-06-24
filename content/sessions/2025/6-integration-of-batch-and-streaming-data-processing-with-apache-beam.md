@@ -17,6 +17,7 @@ images:
 
 slides:
 video:
+draft: true
 ---
 
 Mercari utilizes Apache Beam for batch and streaming processing for various purposes, such as transferring data to CRM and providing incentives to users.

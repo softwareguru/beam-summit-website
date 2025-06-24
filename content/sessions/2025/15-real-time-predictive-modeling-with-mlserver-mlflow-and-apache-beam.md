@@ -9,11 +9,11 @@ topics:
  - Connecting disparate systems with modern data architectures
  - Emerging trends
 time_start: 2025-07-08 14:30:00
-time_end: 2024-07-08 14:55:00
+time_end: 2024-07-08 15:20:00
 room: Horizon Hall
 track: 
 day: 20251
-gridarea: "12/2/13/4"
+gridarea: "12/2/14/4"
 timeslot: 15
 images: 
 
