@@ -1,19 +1,20 @@
 {{ define "headextra" }}
-  <link rel="stylesheet" href="https://cdn.addevent.com/libs/atc/themes/fff-theme-1/theme.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdn.addevent.com/libs/atc/themes/fff-theme-1/theme.css" type="text/css"
+  media="all" />
 
-  <script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js"></script>
-  <script type="text/javascript">
-    window.addeventasync = function(){
-        addeventatc.settings({
-            appleical  : {show:true, text:"Apple Calendar"},
-            google     : {show:true, text:"Google <em>(online)</em>"},
-            office365  : {show:true, text:"Office 365 <em>(online)</em>"},
-            outlook    : {show:true, text:"Outlook"},
-            outlookcom : {show:false, text:"Outlook.com <em>(online)</em>"},
-            yahoo      : {show:false, text:"Yahoo <em>(online)</em>"}
-        });
-    };
-    </script>
+<script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js"></script>
+<script type="text/javascript">
+  window.addeventasync = function () {
+    addeventatc.settings({
+      appleical: { show: true, text: "Apple Calendar" },
+      google: { show: true, text: "Google <em>(online)</em>" },
+      office365: { show: true, text: "Office 365 <em>(online)</em>" },
+      outlook: { show: true, text: "Outlook" },
+      outlookcom: { show: false, text: "Outlook.com <em>(online)</em>" },
+      yahoo: { show: false, text: "Yahoo <em>(online)</em>" }
+    });
+  };
+</script>
 {{ end }}
 
 {{ define "main" }}
@@ -31,12 +32,13 @@
               <figure class="thumb my-3">
                 <a href="{{ .Permalink }}">
                   <div class="img-container">
-                    <img class="img-fluid rounded-circle" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="">
+                    <img class="img-fluid rounded-circle" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}"
+                      alt="">
                   </div>
-                  <h5 class="name" style="color: #ff6200;">{{ .Title }}</h5> 
+                  <h5 class="name" style="color: #ff6200;">{{ .Title }}</h5>
                 </a>
               </figure>
-               {{ end }}
+              {{ end }}
             </div>
 
           </div>
@@ -49,27 +51,31 @@
           <div class="text-box">
             <h3>{{ .Title }}</h3>
 
-            <div class="d-lg-none d-xl-none"> 
-              By 
+            <div class="d-lg-none d-xl-none">
+              By
               {{ range (.GetTerms "speakers") }}
               <a class="speaker-inline-item" href="{{ .Permalink }}">{{ .Title }}</a>
-              {{ end }}  
+              {{ end }}
             </div>
-            
+
             <div class="session-meta" id="date">
               <span id="adjTime"></span>
               {{ $time_start := .Params.time_start | time }}
-              {{ $time_end := .Params.time_end | time }}                          
+              {{ $time_end := .Params.time_end | time }}
 
               <div class="d-flex align-items-center">
                 <div class="pr-4 pe-4">
-                <em class="session-meta">{{ with .Params.time_start | time }}{{ .Format "Jan-2 15:04" }}{{ end }}-{{ with .Params.time_end | time }}{{ .Format "15:04" }}{{ end }}{{with .Params.room}} in {{.}}{{ end }}</em>
+                  <em class="session-meta">{{ with .Params.time_start | time }}{{ .Format "Jan-2 15:04" }}{{ end }}-{{
+                    with .Params.time_end | time }}{{ .Format "15:04" }}{{ end }}{{with .Params.room}} in {{.}}{{ end
+                    }}</em>
                 </div>
                 <div title="Add to Calendar" class="addeventatc" data-styling="none">
                   Add to Calendar
                   <span class="addeventatc_icon"></span>
-                  <span class="start">{{ with .Params.time_start | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
+                  <span class="start">{{ with .Params.time_start | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end
+                    }}</span>
                   <span class="end">{{ with .Params.time_end | time }}{{ .Format "01/02/2006 3:04 PM" }}{{ end }}</span>
+                  <span class="timezone">America/New_York</span>
                   <span class="title">BS25: {{.Title}}</span>
                   <span class="description">{{.Content}}</span>
                   <span class="location">{{.Params.room}}</span>
@@ -80,7 +86,9 @@
 
             {{ with .Params.slides }}
             <br>
-            <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}' target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
+            <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}'
+                target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a>
+            </div>
             {{ end }}
 
             <div class="content mt-4">{{ .Content }}</div>
@@ -104,11 +112,11 @@
 <script>
   function adjTime(elemId, timeStart, timeEnd) {
     let dateStart = new Date(Date.parse(timeStart));
-    let dateStartUTC = new Date(dateStart.getTime() + 300*60000);
+    let dateStartUTC = new Date(dateStart.getTime() + 300 * 60000);
     let dateEnd = new Date(Date.parse(timeEnd));
-    let dateEndUTC = new Date(dateEnd.getTime() + 300*60000);
-    let adjString = "<em>("+dateStartUTC.getHours()+":"+(('0'+dateStartUTC.getMinutes()).slice(-2))+"-"+dateEndUTC.getHours()+":"+(('0'+dateEndUTC.getMinutes()).slice(-2))+" UTC)</em>";
-    document.getElementById(elemId).innerHTML=adjString;
+    let dateEndUTC = new Date(dateEnd.getTime() + 300 * 60000);
+    let adjString = "<em>(" + dateStartUTC.getHours() + ":" + (('0' + dateStartUTC.getMinutes()).slice(-2)) + "-" + dateEndUTC.getHours() + ":" + (('0' + dateEndUTC.getMinutes()).slice(-2)) + " UTC)</em>";
+    document.getElementById(elemId).innerHTML = adjString;
   }
   adjTime('time-utc', '{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}', '{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}');
 
@@ -116,7 +124,7 @@
 <script>
   function checkWatch(buttonId, timeStart, timeEnd) {
     let curDate = new Date();
-    let oneMoreHour = new Date(curDate.getTime() + 60*60000);
+    let oneMoreHour = new Date(curDate.getTime() + 60 * 60000);
     let dateStart = new Date(Date.parse(timeStart));
     let dateEnd = new Date(Date.parse(timeEnd));
 
