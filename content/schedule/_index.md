@@ -62,6 +62,7 @@ days:
       - type: timelabel
         label: "14:30 - 14:55"
         gridarea: "12/1/13/2"
+
       - type: timelabel
         label: "15:00 - 15:25"
         gridarea: "13/1/14/2"
@@ -83,13 +84,14 @@ days:
         label: "16:45 - 17:10"
         gridarea: "17/1/18/2"
       - type: timelabel
-        label: "17:10 - 19:00"
+        label: "17:30 - 19:00"
         gridarea: "18/1/19/2"
       - type: activity
         label: "Reception"
-        subtitle: "Further details to be confirmed."
+        subtitle: "Brass Monkey"
+        url: "https://brassmonkeynyc.com/"
         gridarea: "18/2/19/6"
-        timelabel: "17:10 - 19:00"
+        timelabel: "17:30 - 19:00"
         gridaream: "28/1/29/2"
 
 
