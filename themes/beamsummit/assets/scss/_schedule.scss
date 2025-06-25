@@ -80,14 +80,8 @@
 	color: $secondary-color;
 }
 
-
-
-@media (max-width: 576px) {
-	.time-label { grid-area: 1 / 1 / 4 / 2; }
-	.room-1 { grid-area: 1 / 2 / 2 / 5; }
-	.room-2 { grid-area: 2 / 2 / 3 / 5; }
-	.room-3 { grid-area: 3 / 2 / 4 / 5; }  
-	.room-4 { grid-area: 4 / 2 / 5 / 5; }  
+.timelabel {
+    height: 5em;
 }
 
 .session-item, .activity {
