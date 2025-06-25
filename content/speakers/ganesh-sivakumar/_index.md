@@ -9,6 +9,7 @@ linkedin: https://www.linkedin.com/in/ganesh-sivakumar/
 github: 
 events:
  - 2025
+draft: true
 ---
 
 Like to build systems

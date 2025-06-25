@@ -2,7 +2,7 @@
 title: "Efficient LLM-Based Data Transformations Transformations via Multiple LoRA Adapters"
 slug: efficient-llm-based-data-transformations-transformations-via-multiple-lora-adapters
 speakers:
- - Jasper Van den Bossche
+ - Konstantin Buschmeier
 topics:
  - Real-time data applications
  - Scalability & Performance

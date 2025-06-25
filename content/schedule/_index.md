@@ -26,7 +26,7 @@ days:
         label: "09:45 - 10:10"
         gridarea: "3/1/4/2"
       - type: timelabel
-        label: "10:15 - 10:40"
+        label: "10:15 - 10:45"
         gridarea: "4/1/5/2"
       - type: activity
         label: "Coffee break"
