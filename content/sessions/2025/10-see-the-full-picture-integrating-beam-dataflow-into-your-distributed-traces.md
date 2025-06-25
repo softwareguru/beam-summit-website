@@ -2,9 +2,9 @@
 title: "See the Full Picture: Integrating Beam/Dataflow into Your Distributed Traces"
 slug: see-the-full-picture-integrating-beam-dataflow-into-your-distributed-traces
 speakers:
- - Radek Stankiewicz
  - Steven van Rossum
  - Kenneth Knowles
+ - Radek Stankiewicz
 topics:
  - Connecting disparate systems with modern data architectures
 time_start: 2025-07-08 12:15:00

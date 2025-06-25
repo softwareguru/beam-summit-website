@@ -147,11 +147,8 @@ days:
         label: "15:00 - 15:30"
         gridarea: "13/1/14/2"
       - type: timelabel
-        label: "15:30 - 16:00"
+        label: "15:30 - 17:00"
         gridarea: "14/1/15/2"
-      - type: timelabel
-        label: "16:00 - 17:30"
-        gridarea: "15/1/16/2" 
 
 
 

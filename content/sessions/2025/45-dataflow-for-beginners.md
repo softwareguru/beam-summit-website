@@ -3,13 +3,13 @@ title: "Dataflow for Beginners"
 slug: dataflow-for-beginners
 speakers:
  - Wei Hsia
-time_start: 2025-07-08 16:00:00
-time_end: 2024-07-08 17:30:00
+time_start: 2025-07-08 15:30:00
+time_end: 2024-07-08 17:00:00
 room: Horizon Hall
 track: 
 topics: 
 day: 20252
-gridarea: "15/2/16/4"
+gridarea: "14/2/16/4"
 timeslot: 45
 images: 
 
