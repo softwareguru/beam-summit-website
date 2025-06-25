@@ -23,10 +23,10 @@ days:
         label: "09:15 - 9:45"
         gridarea: "2/1/3/2"
       - type: timelabel
-        label: "09:45 - 10:15"
+        label: "09:45 - 10:10"
         gridarea: "3/1/4/2"
       - type: timelabel
-        label: "10:15 - 10:45"
+        label: "10:15 - 10:40"
         gridarea: "4/1/5/2"
       - type: activity
         label: "Coffee break"
@@ -34,19 +34,19 @@ days:
         timelabel: "10:15 - 10:45"
         gridaream: "4/1/5/2"
       - type: timelabel
-        label: "10:45 - 11:15"
+        label: "10:45 - 11:10"
         gridarea: "5/1/6/2"
       - type: timelabel
-        label: "11:15 - 11:45."
+        label: "11:15 - 11:40."
         gridarea: "6/1/7/2"
       - type: timelabel
-        label: "11:45 - 12:15"
+        label: "11:45 - 12:10"
         gridarea: "7/1/8/2"
       - type: timelabel
-        label: "12:15 - 12:45"
+        label: "12:15 - 12:40"
         gridarea: "8/1/9/2"
       - type: timelabel
-        label: "12:45 - 13:15"
+        label: "12:45 - 13:10"
         gridarea: "9/1/10/2"
       - type: timelabel
         label: "13:15 - 14:00"
@@ -57,13 +57,13 @@ days:
         timelabel: "13:15 - 14:00"
         gridaream: "15/1/16/2"
       - type: timelabel
-        label: "14:00 - 14:30"
+        label: "14:00 - 14:25"
         gridarea: "11/1/12/2"
       - type: timelabel
-        label: "14:30 - 15:00"
+        label: "14:30 - 14:55"
         gridarea: "12/1/13/2"
       - type: timelabel
-        label: "15:00 - 15:30"
+        label: "15:00 - 15:25"
         gridarea: "13/1/14/2"
       - type: timelabel
         label: "15:30 - 15:45"
@@ -74,10 +74,10 @@ days:
         timelabel: "15:30 - 15:45"
         gridaream: "20/1/21/2"
       - type: timelabel
-        label: "15:45 - 16:15"
+        label: "15:45 - 16:10"
         gridarea: "15/1/16/2"
       - type: timelabel
-        label: "16:15 - 16:45"
+        label: "16:15 - 16:40"
         gridarea: "16/1/17/2"        
       - type: timelabel
         label: "16:45 - 17:10"
@@ -115,19 +115,19 @@ days:
         timelabel: "10:00 - 10:30"
         gridaream: "3/1/4/2"
       - type: timelabel
-        label: "10:30 - 11:00"
+        label: "10:30 - 10:55"
         gridarea: "5/1/6/2"
       - type: timelabel
-        label: "11:00 - 11:30."
+        label: "11:00 - 11:25."
         gridarea: "6/1/7/2"
       - type: timelabel
-        label: "11:30 - 12:00"
+        label: "11:30 - 11:55"
         gridarea: "7/1/8/2"
       - type: timelabel
-        label: "12:00 - 12:30"
+        label: "12:00 - 12:25"
         gridarea: "8/1/9/2"
       - type: timelabel
-        label: "12:30 - 13:00"
+        label: "12:30 - 12:55"
         gridarea: "9/1/10/2"
       - type: timelabel
         label: "13:00 - 14:00"
@@ -135,16 +135,16 @@ days:
       - type: activity
         label: "Lunch"
         gridarea: "10/2/11/6"
-        timelabel: "13:00 - 14:00"
+        timelabel: "13:00 - 13:55"
         gridaream: "14/1/15/2"
       - type: timelabel
-        label: "14:00 - 14:30"
+        label: "14:00 - 14:25"
         gridarea: "11/1/12/2"
       - type: timelabel
-        label: "14:30 - 15:00"
+        label: "14:30 - 14:55"
         gridarea: "12/1/13/2"
       - type: timelabel
-        label: "15:00 - 15:30"
+        label: "15:00 - 15:25"
         gridarea: "13/1/14/2"
       - type: timelabel
         label: "15:30 - 17:00"
