@@ -2,7 +2,7 @@
 title: "Dataflow for Beginners"
 slug: dataflow-for-beginners
 speakers:
- - Wei Hsia
+ - Chamikara Jayalath
 time_start: 2025-07-08 15:30:00
 time_end: 2024-07-08 17:00:00
 room: Horizon Hall
