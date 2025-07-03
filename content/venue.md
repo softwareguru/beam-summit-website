@@ -4,22 +4,33 @@ date: 2023-02-21T01:02:57-06:00
 draft: false
 ---
 
-## Venue and travel page: 
+## Venue and travel page:
 
-**New Venue Alert! Beam Summit 2025 is moving to St. John’s Terminal, Google’s NYC HQ
-Beam Summit 2025 will now take place at Google’s NYC headquarters in St. John’s Terminal, a beautifully designed and modern space located in Manhattan’s West Village.**
+<div class="container">
+  <div class="row">
+    <div class="col-sm"> 
+    <p>New Venue Alert! Beam Summit 2025 is moving to St. John’s Terminal, Google’s NYC HQ
+Beam Summit 2025 will now take place at Google’s NYC headquarters in St. John’s Terminal, a beautifully designed and modern space located in Manhattan’s West Village.</p>
 
-Same dates, same amazing program, just in a brand new, inspiring location.
-📍 Address
+<p>Same dates, same amazing program, just in a brand new, inspiring location.</p>
 
-* Google – St. John’s Terminal
-* 550 Washington Street or 335 West Houston Street 
-* New York, NY 10014
-* United States
+<p>📍 Address</p>
 
-Event Entry: North Lobby entrance located on Houston Street between Washington Street and West Street
+<li> Google – St. John’s Terminal</li>
+<li> 550 Washington Street or 335 West Houston Street</li>
+<li> New York, NY 10014</li>
+<li> United States</li>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.5002651809!2d-74.0098182!3d40.7290164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259f27e445beb%3A0x1f050c046915a9cb!2s335%20W%20Houston%20St%2C%20New%20York%2C%20NY%2010014%2C%20USA!5e0!3m2!1sen!2smx!4v1751573108763!5m2!1sen!2smx" class="mx-auto d-block" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+
+<p>Event Entry: North Lobby entrance located on Houston Street between Washington Street and West Street</p>
+    </div>
+    <div class="col-sm">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.5002651809!2d-74.0098182!3d40.7290164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259f27e445beb%3A0x1f050c046915a9cb!2s335%20W%20Houston%20St%2C%20New%20York%2C%20NY%2010014%2C%20USA!5e0!3m2!1sen!2smx!4v1751573108763!5m2!1sen!2smx" class="mx-auto d-block" width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+  </div>
+</div>
 
 <br>
 
@@ -27,13 +38,13 @@ This stunning venue reflects the spirit of innovation, collaboration, and openne
 
 ### Transportation Options
 
-* Closest Parking: Pier 40
-* Subway:
-  * 1 train at Houston Street
-  * C & E trains at Spring Street
-  * PATH - Christopher Street
-* Bus: M20, M21
-* Rideshare address: 550 Washington Street, NY, NY
+- Closest Parking: Pier 40
+- Subway:
+  - 1 train at Houston Street
+  - C & E trains at Spring Street
+  - PATH - Christopher Street
+- Bus: M20, M21
+- Rideshare address: 550 Washington Street, NY, NY
 
 ### Check-In & Badging
 
@@ -51,7 +62,6 @@ We can’t wait to welcome you for three days of learning, sharing, and connecti
 
 Can’t wait to see you there!
 
-
 <div class="container">
   <div class="row">
     <div class="col-sm">
@@ -62,6 +72,3 @@ Can’t wait to see you there!
     </div>
   </div>
 </div>
-
-
-
