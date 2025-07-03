@@ -88,8 +88,7 @@ days:
         gridarea: "18/1/19/2"
       - type: activity
         label: "Reception"
-        subtitle: "Brass Monkey"
-        url: "https://brassmonkeynyc.com/"
+        subtitle: "Details to be confirmed."
         gridarea: "18/2/19/6"
         timelabel: "17:30 - 19:00"
         gridaream: "28/1/29/2"

@@ -4,11 +4,12 @@
 {{ with $data.homepage.banner }}
 
 
+
 <div class="section-banner">
   <div class="mascot-containe">
     <img src="" class="img-fluid">
   </div>
-  <div class="info-container" >
+  <div class="info-container">
     <div class="info-area">
       <div class="logo">
         <img src="{{ .logo }}" />
@@ -31,3 +32,49 @@
   </div>
 </div>
 {{ end }}
+
+
+<style>
+  .modal {
+    display: none;
+    /* Ocultar modal por defecto */
+  }
+
+
+  .hero-modal{
+    border-radius: 8px;
+  }
+</style>
+
+
+<!-- Modal -->
+<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content hero-modal">
+      <div class="modal-header hero-modal">
+        <h5 class="modal-title" id="exampleModalLabel">📍 Venue Update:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Beam Summit 2025 will now take place at Google NYC – St. John’s Terminal
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"  data-dismiss="modal">Close</button>
+        <a href="/venue">
+          <button type="button" class="btn btn-primary" style="background-color: #169BD6; !important">See new venue details</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+
+<script>
+  $(document).ready(function () {
+    $('#miModal').modal('show');
+  });
+</script>

@@ -44,10 +44,16 @@
         {{ range .schedule_items }}
         <div class="{{.type}}" {{ with .gridarea }}style="grid-area: {{. | safeCSS}};" {{end}}>{{.label}}
 
-          {{with .subtitle }}
+          <!--{{with .subtitle }}
           <a href="https://maps.app.goo.gl/caKvujGW52t74W6G6" target="_blank">
             <p style="font-size: .8rem; margin-bottom: -3px;">{{ . }}</p>
           </a>
+          {{ end }}-->
+
+          {{with .subtitle }}
+          
+            <p style="font-size: .8rem; margin-bottom: -3px;">{{ . }}</p>
+          
           {{ end }}
         </div>
 
