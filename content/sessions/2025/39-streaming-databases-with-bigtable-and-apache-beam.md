@@ -4,7 +4,7 @@ slug: streaming-databases-with-bigtable-and-apache-beam
 speakers:
  - Christopher Crosbie
 topics:
-room: Horizon Hall
+room: The Bandshell
 time_start: 2025-07-09 15:00:00
 time_end: 2025-07-09 15:25:00
 track: 

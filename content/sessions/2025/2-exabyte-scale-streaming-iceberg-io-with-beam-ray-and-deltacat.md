@@ -8,7 +8,7 @@ topics:
  - Scalability & Performance
  - Ecosystem & Community
  - Emerging trends
-room: Horizon Hall
+room: The Bandshell
 time_start: 2025-07-08 09:45:00
 time_end: 2025-07-08 10:15:00
 track: 

@@ -5,7 +5,7 @@ speakers:
  - Supriya Koppa
 time_start: 2025-07-09 15:00:00
 time_end: 2025-07-09 15:25:00
-room: Horizon Hall
+room: The Bandshell
 track:
 topics: 
  - Connecting disparate systems with modern data architectures

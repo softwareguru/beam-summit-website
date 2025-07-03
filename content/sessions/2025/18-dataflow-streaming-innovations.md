@@ -6,7 +6,7 @@ speakers:
  - Ryan Wigglesworth
 time_start: 2025-07-08 15:45:00
 time_end: 2025-07-08 16:10:00
-room: Palisades
+room: Star Leaved Gum
 track:
 topics: 
  - Real-time data applications

@@ -4,7 +4,7 @@ slug: scalable-drug-discovery-with-apache-beam-from-r-groups-to-crystal-structur
 speakers:
  - Joey Tran
 topics:
-room: Horizon Hall
+room: The Bandshell
 time_start: 2025-07-08 14:00:00
 time_end: 2025-07-08 14:25:00
 track: 

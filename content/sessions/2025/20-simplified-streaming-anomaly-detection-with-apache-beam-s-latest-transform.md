@@ -5,7 +5,7 @@ speakers:
  - Shunping Huang
 topics:
  - Real-time data applications
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-08 16:15:00
 time_end: 2025-07-08 16:40:00
 track: 

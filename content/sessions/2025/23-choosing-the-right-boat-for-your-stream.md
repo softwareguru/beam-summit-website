@@ -7,7 +7,7 @@ topics:
  - Connecting disparate systems with modern data architectures
  - Scalability & Performance
  - Real-time data applications
-room: Horizon Hall
+room: The Bandshell
 time_start: 2025-07-09 09:00:00
 time_end: 2025-07-09 09:30:00
 track: 

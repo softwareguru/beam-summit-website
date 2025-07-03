@@ -5,7 +5,7 @@ speakers:
  - Ahmed Abualsaud
 topics:
  - Connecting disparate systems with modern data architectures
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-08 10:45:00
 time_end: 2025-07-08 11:10:00
 track: 

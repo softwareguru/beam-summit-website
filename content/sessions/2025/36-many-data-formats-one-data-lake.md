@@ -5,7 +5,7 @@ speakers:
  - Peter Wagener
 time_start: 2025-07-09 14:00:00
 time_end: 2025-07-09 14:25:00
-room: Palisades
+room: Star Leaved Gum
 tracks:
 topics: 
  - Connecting disparate systems with modern data architectures

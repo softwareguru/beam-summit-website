@@ -7,7 +7,7 @@ topics:
  - Real-time data applications
  - Ecosystem & Community
  - Scalability & Performance
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-08 15:00:00
 time_end: 2025-07-08 15:25:00
 track: 

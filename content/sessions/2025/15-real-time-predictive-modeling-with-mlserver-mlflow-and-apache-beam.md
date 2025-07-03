@@ -10,7 +10,7 @@ topics:
  - Emerging trends
 time_start: 2025-07-08 14:30:00
 time_end: 2024-07-08 15:20:00
-room: Horizon Hall
+room: The Bandshell
 track: 
 day: 20251
 gridarea: "12/2/14/4"

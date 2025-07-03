@@ -3,7 +3,7 @@ title: "Architecting Real-Time Blockchain Intelligence with Apache Beam and Apac
 slug: architecting-real-time-blockchain-intelligence-with-apache-beam-and-apache-kafka
 speakers:
  - Vijay Shekhawat
-room: Horizon Hall
+room: The Bandshell
 track: 
 topics: 
  - Real-time data applications

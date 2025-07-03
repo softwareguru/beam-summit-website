@@ -5,7 +5,7 @@ speakers:
  - Ganesh Sivakumar
 time_start: 2025-07-08 16:45:00
 time_end: 2025-07-08 17:10:00
-room: Horizon Hall
+room: The Bandshell
 track:
 topics: 
  - Emerging trends

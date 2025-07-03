@@ -9,7 +9,7 @@ topics:
  - Connecting disparate systems with modern data architectures
 time_start: 2025-07-08 12:15:00
 time_end: 2024-07-08 12:40:00
-room: Palisades
+room: Star Leaved Gum
 track: 
 day: 20251
 gridarea: "8/4/9/6"

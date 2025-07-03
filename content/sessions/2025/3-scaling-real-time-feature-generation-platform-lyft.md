@@ -6,7 +6,7 @@ speakers:
 topics:
  - Real-time data applications
  - Unified Data Processing
-room: Horizon Hall
+room: The Bandshell
 time_start: 2025-07-08 10:45:00
 time_end: 2025-07-08 11:10:00
 track: 

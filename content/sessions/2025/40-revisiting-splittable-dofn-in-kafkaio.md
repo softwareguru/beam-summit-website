@@ -6,7 +6,7 @@ speakers:
 topics:
  - Real-time data applications
  - Scalability & Performance
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-09 15:00:00
 time_end: 2025-07-09 15:50:00
 track: 

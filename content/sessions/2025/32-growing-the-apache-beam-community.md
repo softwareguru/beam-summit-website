@@ -6,7 +6,7 @@ speakers:
  - Danny McCormick
 time_start: 2025-07-09 12:00:00
 time_end: 2025-07-09 12:25:00
-room: Palisades
+room: Star Leaved Gum
 track: 
 topics: 
  - Ecosystem & Community

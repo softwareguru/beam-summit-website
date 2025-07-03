@@ -5,7 +5,7 @@ speakers:
  - Svetak Sundhar
  - Aditya Saraf
 topics:
-room: Horizon Hall
+room: The Bandshell
 time_start: 2025-07-09 12:00:00
 time_end: 2025-07-09 12:25:00
 track: 

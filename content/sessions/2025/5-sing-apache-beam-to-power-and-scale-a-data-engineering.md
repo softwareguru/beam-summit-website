@@ -5,7 +5,7 @@ speakers:
  - Conall Bennett
 time_start: 2025-07-08 10:45:00
 time_end: 2025-07-08 11:10:00
-room: Horizon Hall
+room: The Bandshell
 track: 
 day: 20251
 gridarea: "6/2/7/4"

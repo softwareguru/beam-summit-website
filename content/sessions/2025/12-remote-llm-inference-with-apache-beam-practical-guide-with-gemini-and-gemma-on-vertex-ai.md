@@ -5,7 +5,7 @@ speakers:
  - Taka Shinagawa
 topics:
  - Emerging trends
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-08 12:45:00
 time_end: 2025-07-08 13:10:00
 track: 

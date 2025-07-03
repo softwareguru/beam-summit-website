@@ -5,7 +5,7 @@ speakers:
  - Danny McCormick
 time_start: 2025-07-08 16:15:00
 time_end: 2025-07-08 16:40:00
-room: Horizon Hall
+room: The Bandshell
 track:
 topics: 
  - Emerging trends

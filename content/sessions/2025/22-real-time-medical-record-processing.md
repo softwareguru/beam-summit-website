@@ -7,7 +7,7 @@ topics:
  - Connecting disparate systems with modern data architectures
  - Real-time data applications
  - Ecosystem & Community
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-08 11:15:00
 time_end: 2025-07-08 11:40:00
 track: 

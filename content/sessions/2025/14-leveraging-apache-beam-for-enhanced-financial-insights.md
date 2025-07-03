@@ -7,7 +7,7 @@ speakers:
  - Venkatesh Poosarla
 topics:
  - Real-time data applications
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-08 14:00:00
 time_end: 2025-07-08 14:55:00
 track: 

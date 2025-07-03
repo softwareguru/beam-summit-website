@@ -5,7 +5,7 @@ speakers:
  - Jack McCluskey
 topics:
  - Unified Data Processing
-room: Horizon Hall
+room: The Bandshell
 time_start: 2025-07-09 10:30:00
 time_end: 2025-07-09 10:55:00
 track: 

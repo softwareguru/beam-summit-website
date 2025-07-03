@@ -5,7 +5,7 @@ speakers:
  - JB Onofre
 time_start: 2025-07-08 09:15:00
 time_end: 2024-07-08 09:45:00
-room: Horizon Hall
+room: The Bandshell
 track: 
 day: 20251
 gridarea: "2 / 2 / 3 / 6"

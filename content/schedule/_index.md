@@ -9,7 +9,7 @@ days:
     enabled: true
     title_short: Tuesday
     title_full: Tuesday, July 08, 2025
-#   rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
+    rooms: ["The Bandshell", "Star Leaved Gum"]
     schedule_items: 
       - type: timelabel
         label: "09:00 - 9:15"
@@ -100,7 +100,7 @@ days:
     enabled: true
     title_short: Wednesday
     title_full: Wednesday, July 09, 2025
-#  rooms: ["Mariposa Grove", "Walker Canyon", "Hamina (MP4)", "Bonsai"]
+    rooms: ["The Bandshell", "Star Leaved Gum"]
     schedule_items: 
       - type: timelabel
         label: "09:00 - 9:30"

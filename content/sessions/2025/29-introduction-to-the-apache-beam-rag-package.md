@@ -6,7 +6,7 @@ speakers:
 topics:
  - Emerging trends
  - Ecosystem & Community
-room: Horizon Hall
+room: The Bandshell
 time_start: 2025-07-09 11:30:00
 time_end: 2025-07-09 11:55:00
 track: 

@@ -5,7 +5,7 @@ speakers:
  - Yi Hu
 topics:
  - Ecosystem & Community
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-09 12:30:00
 time_end: 2025-07-09 12:55:00
 track: 

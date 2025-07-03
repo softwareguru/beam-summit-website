@@ -7,7 +7,7 @@ topics:
  - Real-time data applications
  - Scalability & Performance
  - Unified Data Processing
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-08 11:45:00
 time_end: 2025-07-08 12:10:00
 track: 

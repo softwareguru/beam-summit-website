@@ -5,7 +5,7 @@ speakers:
  - Pritam Dodeja
 time_start: 2025-07-09 11:30:00
 time_end: 2025-07-09 11:55:00
-room: Palisades
+room: Star Leaved Gum
 track:
 topics: 
  - Scalability & Performance

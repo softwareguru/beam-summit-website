@@ -5,7 +5,7 @@ speakers:
  - Chamikara Jayalath
 time_start: 2025-07-08 15:30:00
 time_end: 2024-07-08 17:00:00
-room: Horizon Hall
+room: The Bandshell
 track: 
 topics: 
 day: 20252

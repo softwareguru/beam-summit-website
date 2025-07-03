@@ -4,7 +4,7 @@ slug: enhancing-data-quality-for-ai-success
 speakers:
  - Aarohi Tripathi
 topics:
-room: Palisades
+room: Star Leaved Gum
 time_start: 2025-07-09 11:00:00
 time_end: 2025-07-09 11:25:00
 track: 
