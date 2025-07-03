@@ -37,6 +37,8 @@ sponsor_group:
         link : "https://airflow.apache.org/"
       - logo : "/images/logos/akvelon.jpg"
         link : "https://akvelon.com/"
+      - logo : "/images/logos/techdogs.jpg"
+        link : "https://www.techdogs.com/"
 
 # call to action in sponsor
 sponsorship:

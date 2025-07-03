@@ -17,6 +17,7 @@ images:
 
 slides:
 video:
+draft: true
 ---
 
 LLM-based data transformations are very powerful for processing unstructured data, organizations often struggle to deploy these tools at scale, particularly when tailoring them to specific custom use cases. This talk will explore how to efficiently serve multiple LoRA (Low-Rank Adaptation) adapters on a single base model, enabling task-specific transformations within Apache Beam pipelines and addressing the scalability challenges head-on.
