@@ -11,7 +11,7 @@ Yes! Beam Summit is free.
 
 ## Where will it be?
 
-Beam Summit 2025 will be at Pier 57 in New York City. 
+Beam Summit 2025 will be at the [Google campus at St John's Terminal](https://maps.app.goo.gl/x3KP7NV7N9H8JGKWA) in New York City. 
 
 ## Will sessions be live streamed?
 
