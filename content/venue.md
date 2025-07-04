@@ -16,10 +16,10 @@ Beam Summit 2025 will now take place at Google’s NYC headquarters in St. John�
 
 <p>📍 Address</p>
 
-<li> Google – St. John’s Terminal</li>
-<li> 550 Washington Street or 335 West Houston Street</li>
-<li> New York, NY 10014</li>
-<li> United States</li>
+<p> Google – St. John’s Terminal</p>
+<p> 550 Washington Street or 335 West Houston Street</p>
+<p> New York, NY 10014</p>
+<p> United States</p>
 
 <br>
 
