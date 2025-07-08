@@ -4,7 +4,7 @@ slug: many-data-formats-one-data-lake
 speakers:
  - Peter Wagener
 time_start: 2025-07-09 14:00:00
-time_end: 2025-07-09 14:25:00
+time_end: 2025-07-09 14:50:00
 room: Star Leaved Gum
 tracks:
 topics: 

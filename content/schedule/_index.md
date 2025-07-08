@@ -137,7 +137,7 @@ days:
         label: "Lunch"
         gridarea: "10/2/11/6"
         timelabel: "13:00 - 13:55"
-        gridaream: "14/1/15/2"
+        gridaream: "13/1/14/2"
       - type: timelabel
         label: "14:00 - 14:25"
         gridarea: "11/1/12/2"
