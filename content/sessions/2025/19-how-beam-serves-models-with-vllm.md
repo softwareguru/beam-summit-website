@@ -3,8 +3,8 @@ title: "How Beam serves models with vLLM"
 slug: how-beam-serves-models-with-vllm
 speakers:
  - Danny McCormick
-time_start: 2025-07-08 16:15:00
-time_end: 2025-07-08 16:40:00
+time_start: 2025-07-08 16:45:00
+time_end: 2025-07-08 17:10:00
 room: The Bandshell
 track:
 topics: 
@@ -12,7 +12,7 @@ topics:
  - Scalability & Performance
 day: 20251
 gridarea: "17/2/18/4"
-timeslot: 19
+timeslot: 21
 images: 
 
 slides:

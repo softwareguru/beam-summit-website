@@ -6,8 +6,8 @@ speakers:
 topics: 
  - Real-time data applications
  - Emerging trends
-time_start: 2025-07-08 15:30:00
-time_end: 2024-07-08 15:55:00
+time_start: 2025-07-08 16:15:00
+time_end: 2024-07-08 16:40:00
 room: The Bandshell
 track: 
 day: 20251
