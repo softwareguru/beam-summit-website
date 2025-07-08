@@ -3,8 +3,8 @@ title: "Using Apache Beam to power and scale a data engineering transformation a
 slug: using-apache-beam-to-power-and-scale-a-data-engineering-transformation-at-a-financial-exchange
 speakers:
  - Conall Bennett
-time_start: 2025-07-08 10:45:00
-time_end: 2025-07-08 11:10:00
+time_start: 2025-07-08 11:15:00
+time_end: 2025-07-08 11:40:00
 room: The Bandshell
 track: 
 day: 20251
