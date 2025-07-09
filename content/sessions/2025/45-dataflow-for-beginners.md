@@ -2,6 +2,7 @@
 title: "Dataflow for Beginners"
 slug: dataflow-for-beginners
 speakers:
+ - Derrick Williams
  - Chamikara Jayalath
 time_start: 2025-07-09 15:30:00
 time_end: 2024-07-09 17:00:00
