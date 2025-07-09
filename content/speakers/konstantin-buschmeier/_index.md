@@ -4,7 +4,7 @@ designation: "Senior Machine Learning Engineer at ML6"
 images:
  - /images/speakers/konstantin-buschmeier.jpg
 twitter: 
-linkedin: https://www.linkedin.com/in/alexandru-b%C4%83lan-89695aa9/
+linkedin: https://www.linkedin.com/in/konstantin-buschmeier/
 events:
  - 2024
  - 2025
