@@ -13,7 +13,7 @@ day: 20253
 gridarea: "4/2/5/3"
 timeslot: 17
 images: 
-
+draft: true
 slides:
 video:
 ---

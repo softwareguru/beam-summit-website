@@ -169,9 +169,6 @@ days:
         gridarea: "3/1/4/2"
       - type: timelabel
         label: "16:30 - 17:00"
-        gridarea: "4/1/5/2"
-      - type: timelabel
-        label: "17:00 - 17:30"
         gridarea: "5/1/6/2"
 
 
