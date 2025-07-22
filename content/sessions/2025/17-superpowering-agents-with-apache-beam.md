@@ -2,16 +2,15 @@
 title: "Superpowering Agents with Apache Beam"
 slug: superpowering-agents-with-apache-beam
 speakers:
- - Konstantin Buschmeier
  - Jasper Van den Bossche
 topics:
  - Emerging trends
-room: The Bandshell
-time_start: 2025-07-08 15:45:00
-time_end: 2025-07-08 16:10:00
+room: Online
+time_start: 2025-07-30 16:30:00
+time_end: 2025-07-30 17:00:00
 track: 
-day: 20251
-gridarea: "15/2/16/4"
+day: 20253
+gridarea: "4/2/5/3"
 timeslot: 17
 images: 
 

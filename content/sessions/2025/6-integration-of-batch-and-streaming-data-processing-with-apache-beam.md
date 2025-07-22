@@ -6,18 +6,18 @@ speakers:
 topics:
  - Real-time data applications
  - Unified Data Processing
-room: Star Leaved Gum
-time_start: 2025-07-08 11:15:00
-time_end: 2025-07-08 11:40:00
+room: Online
+time_start: 2025-07-30 15:00:00
+time_end: 2025-07-30 15:30:00
 track: 
-day: 20251
-gridarea: "6/4/7/6"
+day: 20253
+gridarea: "1/2/2/3"
 timeslot: 6
 images: 
 
 slides:
 video:
-draft: true
+
 ---
 
 Mercari utilizes Apache Beam for batch and streaming processing for various purposes, such as transferring data to CRM and providing incentives to users.

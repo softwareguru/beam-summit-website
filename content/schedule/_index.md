@@ -6,7 +6,7 @@ url: program
 days: 
 
   - id: 20251
-    enabled: true
+    enabled: false
     title_short: Tuesday
     title_full: Tuesday, July 08, 2025
     rooms: ["The Bandshell", "Star Leaved Gum"]
@@ -96,7 +96,7 @@ days:
 
 
   - id: 20252
-    enabled: true
+    enabled: false
     title_short: Wednesday
     title_full: Wednesday, July 09, 2025
     rooms: ["The Bandshell", "Star Leaved Gum"]
@@ -152,12 +152,32 @@ days:
         gridarea: "14/1/15/2"
 
 
+  - id: 20253
+    enabled: true
+    title_short: Wednesday
+    title_full: Wednesday, July 30, 2025
+    rooms: ["Online"]
+    schedule_items: 
+      - type: timelabel
+        label: "15:00 - 15:30"
+        gridarea: "1/1/2/2"
+      - type: timelabel
+        label: "15:30 - 16:00"
+        gridarea: "2/1/3/2"
+      - type: timelabel
+        label: "16:00 - 16:30"
+        gridarea: "3/1/4/2"
+      - type: timelabel
+        label: "16:30 - 17:00"
+        gridarea: "4/1/5/2"
+      - type: timelabel
+        label: "17:00 - 17:30"
+        gridarea: "5/1/6/2"
 
 
-summary: "Welcome to the session program for Beam Summit 2025 to be held on July 8-9, 2025 in New York City"
+summary: "Welcome to the program for Beam Summit 2025 online talks. All times are in Coordinated Universal Time (UTC) timezone."
 ---
 
-### Welcome to the session program for Beam Summit 2025.
+### Welcome to the session program for Beam Summit 2025 online talks.
 
-If you prefer, you can also see the program in the <a href="/program-sessionize">Sessionize layout</a>.
-
+All times are in Coordinated Universal Time (UTC) timezone.

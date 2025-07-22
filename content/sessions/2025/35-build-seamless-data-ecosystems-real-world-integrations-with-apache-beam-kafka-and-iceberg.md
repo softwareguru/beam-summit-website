@@ -4,12 +4,12 @@ slug: build-seamless-data-ecosystems-real-world-integrations-with-apache-beam-ka
 speakers:
  - Rajesh Vayyala
 topics:
-room: The Bandshell
-time_start: 2025-07-09 14:00:00
-time_end: 2025-07-09 14:25:00
+room: Online
+time_start: 2025-07-30 17:00:00
+time_end: 2025-07-30 17:30:00
 track: 
-day: 20252
-gridarea: "11/2/12/4"
+day: 20253
+gridarea: "5/2/6/3"
 timeslot: 35
 images: 
 

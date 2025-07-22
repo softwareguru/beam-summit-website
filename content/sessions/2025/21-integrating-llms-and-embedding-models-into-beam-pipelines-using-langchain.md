@@ -3,22 +3,22 @@ title: "Integrating LLMs and Embedding models into Beam pipelines using langchai
 slug: integrating-llms-and-embedding-models-into-beam-pipelines-using-langchain
 speakers:
  - Ganesh Sivakumar
-time_start: 2025-07-08 16:45:00
-time_end: 2025-07-08 17:10:00
-room: The Bandshell
+time_start: 2025-07-30 15:30:00
+time_end: 2025-07-30 16:00:00
+room: Online
 track:
 topics: 
  - Emerging trends
  - Unified Data Processing
  - Ecosystem & Community
-day: 20251
-gridarea: "16/2/17/4"
+day: 20253
+gridarea: "2/2/3/3"
 timeslot: 21
 images: 
 
 slides:
 video: 
-draft: true
+
 ---
 
 Large language models (LLMs) have transformed how we process and generate text. In this session, I'll talk about Langchain-Beam, an open-source library that integrates LLMs and embedding models into Apache Beam pipelines as transform using LangChain.

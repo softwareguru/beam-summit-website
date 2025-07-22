@@ -205,7 +205,7 @@ color: #404040;
 
 .daygrid {
 	display: grid;
-	grid-template-columns: 100px repeat(4, 1fr);
+	grid-template-columns: 100px 1fr;
 	grid-template-rows: auto;
 	grid-column-gap: 1em;
 	grid-row-gap: 0px;
