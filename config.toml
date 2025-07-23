@@ -33,46 +33,46 @@ speaker = "speakers"
   URL = "/about"
   weight = 1
 
-  [[menu.main]]
-  identifier = "about-BS"
-  name = "Attend"
-  URL = "/attend"
-  weight = 2
+  #[[menu.main]]
+  #identifier = "about-BS"
+  #name = "Attend"
+  #URL = "/attend"
+  #weight = 2
 
-  [[menu.main]]
-    identifier = "scholarships"
-    name = "Venue + Travel"
-    url = "/venue"
-    parent = "about-BS"
-    weight = 2
+  #[[menu.main]]
+  #  identifier = "scholarships"
+  #  name = "Venue + Travel"
+  #  url = "/venue"
+  #  parent = "about-BS"
+  #  weight = 2
 
-  [[menu.main]]
-    identifier = "scholarships1"
-    name = "Convince your boss"
-    url = "/convince-your-boss"
-    parent = "about-BS"
-    weight = 3
+  #[[menu.main]]
+  #  identifier = "scholarships1"
+  #  name = "Convince your boss"
+  #  url = "/convince-your-boss"
+  #  parent = "about-BS"
+  #  weight = 3
 
-  [[menu.main]]
-    identifier = "scholarships2"
-    name = "Visa letter request"
-    url = "/visa-letter-request"
-    parent = "about-BS"
-    weight = 3
+  #[[menu.main]]
+  #  identifier = "scholarships2"
+  #  name = "Visa letter request"
+  #  url = "/visa-letter-request"
+  #  parent = "about-BS"
+  #  weight = 3
 
-  [[menu.main]]
-    identifier = "scholarships3"
-    name = "DEI"
-    url = "/dei"
-    parent = "about-BS"
-    weight = 4
+  #[[menu.main]]
+  #  identifier = "scholarships3"
+  #  name = "DEI"
+  #  url = "/dei"
+  #  parent = "about-BS"
+  #  weight = 4
 
-  [[menu.main]]
-    identifier = "scholarships3"
-    name = "Code of conduct"
-    url = "/coc"
-    parent = "about-BS"
-    weight = 4
+  #[[menu.main]]
+  #  identifier = "scholarships3"
+  #  name = "Code of conduct"
+  #  url = "/coc"
+  #  parent = "about-BS"
+  #  weight = 4
 
   [[menu.main]]
     name = "Sponsor"
@@ -87,7 +87,7 @@ speaker = "speakers"
     weight = 5
 
   [[menu.main]]
-    name = "Schedule"
+    name = "Online event schedule"
     URL = "/program"
     parent="program"
     weight = 2
@@ -105,10 +105,17 @@ speaker = "speakers"
     weight = 4
 
   [[menu.main]]
-    name = "Happenings"
+    name = "2025 In person Sessions"
+    URL = "/sessions/2025/"
     parent="program"
-    URL = "/dataflow"
     weight = 5
+
+
+  #[[menu.main]]
+  #  name = "Happenings"
+  #  parent="program"
+  #  URL = "/dataflow"
+  #  weight = 5
 
   [[menu.main]]
   name = "FAQ"
@@ -149,8 +156,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Photo Album"
-link = "https://photos.app.goo.gl/kkYc5qQL2uZDNBcB7" 
+label = "Join Online Event"
+link = "https://youtube.com/live/5iyiKi1kzGY?feature=share" 
 
 
 ############################# social icon ############################
@@ -185,6 +192,10 @@ link = "privacy-policy"
 [[params.footer_previous]]
 name = "Session archive previous editions"
 link = "/sessions"
+
+[[params.footer_previous]]
+name = "2025 Photo Album"
+link = "https://photos.app.goo.gl/kkYc5qQL2uZDNBcB7"
 
 [[params.footer_previous]]
 name = "2024 Photo Album"

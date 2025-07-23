@@ -8,17 +8,15 @@ banner:
   date : "Thank you for being part of Beam Summit 2025 in NYC! Now get ready for the online event on July 30th."
   venue: ""
   button1:
-    enable : true
-    label : "Photo Album"
-    link : "https://photos.app.goo.gl/kkYc5qQL2uZDNBcB7"
-
-  button2:
     enable : false
     label : "Photo Album"
     link : "https://photos.app.goo.gl/kkYc5qQL2uZDNBcB7"
 
+  button2:
+    enable : true
+    label : "Join Online Event"
+    link : "https://youtube.com/live/5iyiKi1kzGY?feature=share"
 
-    
 
 ############################## Event ##############################
 event_info:

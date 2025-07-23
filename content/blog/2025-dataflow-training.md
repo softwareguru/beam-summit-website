@@ -8,7 +8,7 @@ description: "The deadline for the Beam Summit 2025 CFP has been extended to Apr
 images : ["/images/blog/dataflow2025.png"]
 # author
 author: "Beam Summit Team"
-draft: false
+draft: true
 ---
 
 ### The deadline for the Beam Summit 2025 CFP has been extended to April 30th
