@@ -5,17 +5,17 @@ banner:
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
-  date : "Join us in New York City to bridge the Data Streams on July 8th & 9th, 2025! "
+  date : "Thank you for being part of Beam Summit 2025 in NYC! Now get ready for the online event on July 30th."
   venue: ""
   button1:
-    enable : false
-    label : "CFP is open!"
-    link : "https://sessionize.com/beamsummit-2025"
+    enable : true
+    label : "Photo Album"
+    link : "https://photos.app.goo.gl/kkYc5qQL2uZDNBcB7"
 
   button2:
-    enable : true
-    label : "Registration"
-    link : "//embed.typeform.com/next/embed.js"
+    enable : false
+    label : "Photo Album"
+    link : "https://photos.app.goo.gl/kkYc5qQL2uZDNBcB7"
 
 
     

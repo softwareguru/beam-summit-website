@@ -35,9 +35,9 @@ sponsor_group:
         link : "https://clowder.space/"
       - logo : "/images/logos/apache-airflow.png"
         link : "https://airflow.apache.org/"
-      - logo : "/images/logos/akvelon.jpg"
-        link : "https://akvelon.com/"
-      - logo : "/images/logos/techdogs.jpg"
+      #- logo : "/images/logos/akvelon.jpg"
+      #  link : "https://akvelon.com/"
+      - logo : "/images/logos/techdogs.png"
         link : "https://www.techdogs.com/"
 
 # call to action in sponsor
