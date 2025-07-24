@@ -1,5 +1,5 @@
 ---
-title: "Program"
+title: "Online extension schedule"
 date: 2025-01-04T15:49:31-05:00
 url: program
 
@@ -175,6 +175,13 @@ days:
 summary: "Welcome to the program for Beam Summit 2025 online talks. All times are in Coordinated Universal Time (UTC) timezone."
 ---
 
-### Welcome to the session program for Beam Summit 2025 online talks.
+### Beam Summit 2025 online extension schedule.
 
 All times are in Coordinated Universal Time (UTC) timezone.
+
+<div class="event-info">
+<a href="https://youtube.com/live/5iyiKi1kzGY?feature=share" target="_blank">
+  <button class="button mx-auto d-block">Join Online Event</button>
+</a>
+</div>
+
