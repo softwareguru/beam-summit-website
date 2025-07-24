@@ -2,6 +2,7 @@
 title: "Using LLMs with Beam and RunInference"
 slug: using-llms-with-beam-and-runinference
 speakers:
+ - Jack McCluskey
  - Reza Rokni
 topics:
  - ML
