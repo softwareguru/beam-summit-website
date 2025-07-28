@@ -7,7 +7,7 @@ twitter: https://x.com/orfeon
 linkedin: https://www.linkedin.com/in/orfeon/
 events:
  - 2025
-draft: true
+draft: false
 ---
 
 Yoichi is a member of the Merpay Solutions team. As a data engineer, he provides solutions to solve technical issues in the company and conducts internal training and technical consulting.
