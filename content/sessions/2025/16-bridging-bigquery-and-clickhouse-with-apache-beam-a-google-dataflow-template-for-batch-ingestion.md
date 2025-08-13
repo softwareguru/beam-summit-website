@@ -16,8 +16,8 @@ gridarea: "13/4/14/6"
 timeslot: 16 
 images: 
 
-slides:
-video:
+slides: 2025/clickhouse.pdf
+video: https://youtu.be/Ne2qIzYk-LM
 ---
 
 In this talk, I'll walk through the process of developing and deploying a reusable Dataflow template using ClickHouseIO, the official Beam connector. The template enables users to duplicate and copy data from BigQuery to ClickHouse - a high-performance OLAP database increasingly adopted for real-time analytics.

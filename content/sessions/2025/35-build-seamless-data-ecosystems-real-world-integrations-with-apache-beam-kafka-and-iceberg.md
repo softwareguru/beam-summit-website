@@ -13,7 +13,7 @@ gridarea: "5/2/6/3"
 timeslot: 35
 images: 
 
-slides:
+slides: 2025/build-seamless-data-ecosystems-real-world-integrations-with-apache-beam-kafka-and-iceberg.pdf
 video:
 ---
 

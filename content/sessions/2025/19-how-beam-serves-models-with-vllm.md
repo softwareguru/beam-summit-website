@@ -15,8 +15,8 @@ gridarea: "17/2/18/4"
 timeslot: 21
 images: 
 
-slides:
-video: 
+slides: 2025/how-beam-serves-models-with-vllm.pdf
+video: https://youtu.be/yqjW5Gk1sf0
 ---
 
 Serving ML models at scale is increasingly important, and Beam's RunInference transform is a great tool to do this. At the same time, models are getting larger and larger, and it can be hard to fit them into your CPU or GPU and to serve them efficiently. In particular, serving large language models efficiently has grown in importance and difficulty as models have continued to grow.

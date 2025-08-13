@@ -16,8 +16,8 @@ gridarea: "7/2/8/4"
 timeslot: 7
 images: 
 
-slides:
-video:
+slides: 2025/from-taming-energy-market-data.pdf
+video: https://youtu.be/WJgpQAP1Jfk
 ---
 
 This session explores how Apache Beam handles the end-to-end workflow for Italian energy market analytics, including forecasting electricity demand, natural gas demand, and renewable generation.

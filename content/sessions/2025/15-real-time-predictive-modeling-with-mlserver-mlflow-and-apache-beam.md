@@ -17,8 +17,8 @@ gridarea: "12/2/14/4"
 timeslot: 15
 images: 
 
-slides:
-video:
+slides: 2025/real-time-predictive-modeling-with-ml-server.pdf
+video: https://youtu.be/mvqJaUTYjzk
 ---
 
 Oden Technologies delivers real-time machine learning to manufacturing environments with Apache Beam. In this session, we'll demonstrate how Oden aggregates hundreds of sensor streams into real-time tensors for predictive scoring against SKLearn pipelines hosted on MLServer. We'll also discuss how we use MLFlow for model management and monitoring, along with the infrastructure we've developed to coordinate these systems, enabling reliable model testing, deployment, and code updates.

@@ -14,8 +14,8 @@ gridarea: "9/4/10/6"
 timeslot: 34
 images: 
 
-slides:
-video:
+slides: 2025/become-a-contributor.pdf
+video: https://youtu.be/tpete4iws1A
 ---
 
 Apache Beam as an open-sourced product builts on community contributions. This talk shares how to make changes to Beam, then run your pipeline with patched Beam SDK, and finally, check in your changes to Beam. The talk also introduces recent efforts of making contribution and deploy of  custom Beam easier.

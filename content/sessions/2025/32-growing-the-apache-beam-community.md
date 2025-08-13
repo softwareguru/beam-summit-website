@@ -15,8 +15,8 @@ gridarea: "8/4/9/6"
 timeslot: 32
 images: 
 
-slides:
-video: 
+slides: 2025/growing-the-apache-beam-community.pdf
+video: https://youtu.be/Ib3ALkkGh2c
 ---
 
 Contribute to the Apache Beam community! This presentation guides developers—from beginners to experts—through a structured path to meaningful community engagement. We'll cover essential resources, real-world contribution examples, and diverse collaboration opportunities, offering actionable strategies and inspiration for all experience levels.

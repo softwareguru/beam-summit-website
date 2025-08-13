@@ -14,8 +14,8 @@ gridarea: "4/2/5/3"
 timeslot: 17
 images: 
 draft: true
-slides:
-video:
+slides: 2025/superpowering-agents-with-apache-beam.pdf
+video: https://youtu.be/K-5uNhfUfCw
 ---
 
 Large language models and agentic systems are rapidly changing how exploratory data analytics is performed.

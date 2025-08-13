@@ -13,8 +13,8 @@ gridarea: "11/2/12/4"
 timeslot: 13
 images: 
 
-slides:
-video:
+slides: 2025/scalable-drug-discovery-with-apache-beam.pdf
+video: https://youtu.be/MXVAqyY5BK4
 ---
 
 In this talk, we'll share how we use Apache Beam at Schrodinger to power key stages of the drug discovery pipeline, from R-group enumeration in lead optimization to crystal structure determination in drug formulation. Rather than relying on existing runners, we built our own execution engine on top of Beam’s powerful abstraction layer to better serve our domain-specific needs.

@@ -16,8 +16,8 @@ gridarea: "6/4/7/6"
 timeslot: 6
 images: 
 
-slides:
-video:
+slides: 2025/real-time-medical-record-processing.pdf
+video: https://youtu.be/nB9tXfx_14U
 ---
 
 At Azra AI, we help with the treatment journeys of cancer patients.  Beam is a core component of our platform allowing us to process medical records in 'real-time'.

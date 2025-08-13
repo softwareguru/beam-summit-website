@@ -13,8 +13,8 @@ gridarea: "6/4/7/6"
 timeslot: 28
 images: 
 
-slides:
-video:
+slides: 2025/enhancing-data-quality-for-ai-success.pdf
+video: https://youtu.be/R3YRMuaOhy4
 ---
 
 "Enhancing Data Quality for AI Success" focuses on the critical role that high-quality data plays in the effectiveness and accuracy of AI models. Since AI systems learn patterns from data, ensuring that the data is clean, diverse, accurately labeled, and regularly updated is essential for optimal performance. Poor-quality data can lead to inaccurate predictions, biased results, and underperforming models. By implementing strategies like data cleansing, augmentation, and proper annotation, organizations can improve the training process, resulting in more reliable, fair, and effective AI systems. The topic emphasizes that the success of AI initiatives depends as much on the data used as on the algorithms themselves.

@@ -15,8 +15,8 @@ gridarea: "7/4/8/6"
 timeslot: 30
 images: 
 
-slides:
-video: 
+slides: 2025/data-quality-in-ml-pipelines.pdf
+video: https://youtu.be/DQ6gmA0rMjw
 ---
 
 

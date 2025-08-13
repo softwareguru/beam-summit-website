@@ -14,8 +14,8 @@ gridarea: "16/4/17/6"
 timeslot: 20
 images: 
 
-slides:
-video:
+slides: 2025/simplified-streaming-anomaly-detection-with-apache-beams-latest-transform.pdf
+video: https://youtu.be/daiyE_RhT8c
 ---
 
 This talk dives into the practical application of Apache Beam for constructing robust, scalable, and real-time anomaly detection pipelines. We'll explore Beam's latest anomaly detection transform, and how to integrate various anomaly detection algorithms (e.g., statistical methods, machine learning models) to identify critical outliers in continuous data streams. 

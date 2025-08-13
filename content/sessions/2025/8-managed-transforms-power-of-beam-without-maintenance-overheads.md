@@ -16,8 +16,8 @@ gridarea: "7/4/8/6"
 timeslot: 8 
 images: 
 
-slides:
-video:
+slides: 2025/managed-transforms.pdf
+video: https://youtu.be/XQBepfwpe04
 ---
 
 Apache Beam offers a number of powerful transforms including a set of highly scalable I/O connectors. Usually, you have to regularly keep upgrading Beam to get critical fixes related to such transforms. With the recent addition of Java and Python managed APIs, Beam allows runners to fully manage supported transforms. Google Cloud Dataflow uses this API to manage and automatically upgrade widely used Beam I/O connectors. This allows you to focus on the business logic of your batch and streaming pipelines without worrying about associated maintenance overheads.

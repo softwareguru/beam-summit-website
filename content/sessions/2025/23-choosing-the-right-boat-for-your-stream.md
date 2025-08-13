@@ -16,7 +16,7 @@ gridarea: "2 / 2 / 3 / 6"
 timeslot: 23
 images: 
 
-slides:
+slides: 2025/choosing-the-right-boat-for-your-stream.pdf
 video:
 ---
 

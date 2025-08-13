@@ -14,8 +14,8 @@ gridarea: "11/4/13/6"
 timeslot: 36
 images: 
 
-slides:
-video: 
+slides: 2025/many-data-formats-one-data-lake.pdf
+video: https://youtu.be/TwC0SXUupPI
 ---
 
 Apache Beam has the flexibility to handle a wide variety of different types of text-based data: CSV, Avro, Parquet, Iceberg, ... they can all be inputs and / or outputs for your data processing projects. The question quickly becomes, which do you choose?

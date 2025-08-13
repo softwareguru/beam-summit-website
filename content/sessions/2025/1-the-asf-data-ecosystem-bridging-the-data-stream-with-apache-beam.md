@@ -12,8 +12,8 @@ gridarea: "2 / 2 / 3 / 6"
 timeslot: 1 
 images: 
 
-slides:
-video: 
+slides: 2025/the-asf-data-ecosystem.pdf
+video: https://youtu.be/JruGIY6_gjk
 ---
 
 During this keynote, JB will provide an overview of the projects in the Apache Software Foundation forming a complete data ecosystem: from storage to analytic, including query engines and table format, Apache projects are the building blocks of the data ecosystem. We will see the role played by Apache Beam in this ecosystem and how vendors like Dremio are powered by these projects.

@@ -15,8 +15,8 @@ gridarea: "9/2/10/4"
 timeslot: 33
 images: 
 
-slides:
-video:
+slides: 2025/scalable-prompt-optimization-in-apache-beam-llm-workflows.pdf
+video: https://youtu.be/JDH_GabMZiI
 ---
 
 As Large Language Models (LLMs) become integral to data pipelines, optimizing prompts at scale is critical for consistency, cost control, and performance. In this session, you’ll learn how to embed prompt-tuning and dynamic prompt-generation into an LLM workflow that is executed as Apache Beam pipeline.

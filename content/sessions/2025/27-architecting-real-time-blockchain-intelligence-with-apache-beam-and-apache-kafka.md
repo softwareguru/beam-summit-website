@@ -15,7 +15,7 @@ gridarea: "6/2/7/4"
 timeslot: 27
 images: 
 
-slides:
+slides: 2025/architecting-real-time-blockchain-intelligence.pdf
 video:
 ---
 

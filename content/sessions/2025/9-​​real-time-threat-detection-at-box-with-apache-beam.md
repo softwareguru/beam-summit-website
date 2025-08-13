@@ -18,8 +18,8 @@ gridarea: "8/2/9/4"
 timeslot: 9
 images: 
 
-slides:
-video: 
+slides: 2025/real-time-threat-detection.pdf
+video: https://youtu.be/NWKs9WJ-Rtg
 ---
 
 Box faces a constant barrage of sophisticated cybersecurity threats. This session dives into how Box leverages the Apache Beam Python SDK, combined with cutting-edge machine learning techniques, to build a real-time threat detection system. We'll explore the unique challenges of processing high-volume, real-time data streams to identify and mitigate threats before they can impact our customers. The presentation will focus on:

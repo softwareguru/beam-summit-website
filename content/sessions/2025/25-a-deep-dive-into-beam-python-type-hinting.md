@@ -14,8 +14,8 @@ gridarea: "5/2/6/4"
 timeslot: 25
 images: 
 
-slides:
-video:
+slides: 2025/a-deep-dive-into-beam-python-type-hinting.pdf
+video: https://youtu.be/kGHzNy1F5D4
 draft: false
 ---
 

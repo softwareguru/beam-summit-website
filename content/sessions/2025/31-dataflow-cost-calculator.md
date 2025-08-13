@@ -14,8 +14,8 @@ gridarea: "8/2/9/4"
 timeslot: 31
 images: 
 
-slides:
-video:
+slides: 2025/tracking-dataflow-pipeline.pdf
+video: https://youtu.be/YYRmddgqhWM
 ---
 
 A Co-presentation with Google and Exabeam, demonstrating how Dataflow APIs and other GCP products were used in conjunction with Beam metrics to minimize infrastructure costs. 

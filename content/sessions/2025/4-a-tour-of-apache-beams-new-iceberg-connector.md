@@ -14,8 +14,8 @@ gridarea: "5/4/6/6"
 timeslot: 4
 images: 
 
-slides:
-video: 
+slides: 2025/a-tour-of-apache-beams-new-iceberg-connector.pdf
+video: https://youtu.be/0A9-0UykGB4
 ---
 
 Join us for a comprehensive overview of Apache Beam’s Iceberg connector. This session will cover its current features and support across multiple SDKs (Java, Python, YAML, SQL). We’ll delve into key design decisions and share what’s coming next. We'll also demonstrate how to use the connector in batch, streaming, and multi-language scenarios to build robust and scalable pipelines for your data lakehouse.

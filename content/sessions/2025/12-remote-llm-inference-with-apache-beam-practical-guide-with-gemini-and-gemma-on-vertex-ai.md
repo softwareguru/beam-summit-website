@@ -14,8 +14,8 @@ gridarea: "9/4/10/6"
 timeslot: 12
 images: 
 
-slides:
-video:
+slides: 2025/remote-llm-inference-with-apache-beam.pdf
+video: https://youtu.be/jLoPItu3-Pg
 ---
 
 Large Language Models offer powerful capabilities for data transformation, but reliably integrating them at scale into Apache Beam data pipelines presents challenges. Deploying powerful, large models (e.g., Gemma 27B, Llama 70B, DeepSeek R1) directly onto Beam workers via the RunInference API is often infeasible due to resource constraints, multi-GPU complexity, cost, and lack of serving optimizations. Furthermore, many frontier models like Gemini are only available via APIs. Therefore, this session focuses on effective Remote LLM inference integration with Apache Beam.

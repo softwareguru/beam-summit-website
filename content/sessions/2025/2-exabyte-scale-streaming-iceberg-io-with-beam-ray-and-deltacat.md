@@ -17,8 +17,8 @@ gridarea: "3 / 2 / 4 / 6"
 timeslot: 2 
 images: 
 
-slides:
-video:
+slides: 2025/exabyte-scale-streaming-iceberg.pdf
+video: https://youtu.be/PHL0wRH_284
 ---
 
 Production case study highlighting how Amazon uses Ray and DeltaCAT at exabyte-scale to resolve longstanding performance & scale challenges integrating streaming pipelines with Apache Iceberg. Highlights how the Apache Beam, Ray, Apache Flink, and Apache Spark communities can start bringing the same benefits to their workloads using the DeltaCAT project's IO source/sink implementations for Apache Beam.

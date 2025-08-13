@@ -15,8 +15,8 @@ gridarea: "5/2/6/4"
 timeslot: 3
 images: 
 
-slides:
-video:
+slides: 2025/scaling-real-time.pdf
+video: https://youtu.be/3tIwqEdxrZY
 ---
 
  At Lyft, real-time feature generation is crucial for powering many business critical use-cases. This session describes how we leveraged Apache Beam to build a robust and scalable real-time feature generation platform for this purpose, capable of generating 100s of millions of features per minute. We will delve into the critical factors that engineering teams should consider when designing a real-time feature generation platform, such as:

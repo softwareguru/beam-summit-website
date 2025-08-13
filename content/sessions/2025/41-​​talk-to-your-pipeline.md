@@ -15,8 +15,8 @@ gridarea: "16/2/17/4"
 timeslot: 19
 images: 
 
-slides:
-video: 
+slides: 2025/talk-to-your-pipeline.pdf
+video: https://youtu.be/rywejBiruz0
 ---
 
 With some design, you can leverage Beam ML to make a LLM transform your questions into dynamic transformations that you can apply to your data. In this talk, we show how to use Gemma to accept natural language questions about your data, and offer an answer in real time applied to the main stream of data

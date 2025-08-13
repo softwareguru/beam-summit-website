@@ -16,8 +16,8 @@ gridarea: "11/4/13/6"
 timeslot: 14
 images: 
 
-slides:
-video:
+slides: 2025/leveraging-apache-beam-for-enhanced-financial-insights.pdf
+video: https://youtu.be/5Xo0zNUKJZk
 ---
 
 Credit Karma leverages Apache Beam to address a broad spectrum of data processing requirements, particularly real-time data transformation to bolster machine learning models. Key applications include:

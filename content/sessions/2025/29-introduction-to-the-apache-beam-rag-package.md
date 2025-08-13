@@ -15,8 +15,8 @@ gridarea: "7/2/8/4"
 timeslot: 29 
 images: 
 
-slides:
-video:
+slides: 2025/introduction-to-the-apache-beam-rag-package.pdf
+video: https://youtu.be/i0-K0EBqFH0
 ---
 
 Use the extensible Apache beam RAG package to build pipelines that 
