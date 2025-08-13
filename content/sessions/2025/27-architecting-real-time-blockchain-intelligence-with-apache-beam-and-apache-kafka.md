@@ -16,7 +16,7 @@ timeslot: 27
 images: 
 
 slides: 2025/architecting-real-time-blockchain-intelligence.pdf
-video:
+video: https://youtu.be/v_OJjHmjpeI
 ---
 
 At TRM Labs, we manage petabyte-scale data from over 30 blockchains to deliver customer-facing analytics. Our platform processes high-throughput data to extract actionable intelligence for critical decision-making.

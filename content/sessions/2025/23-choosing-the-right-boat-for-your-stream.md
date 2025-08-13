@@ -17,7 +17,7 @@ timeslot: 23
 images: 
 
 slides: 2025/choosing-the-right-boat-for-your-stream.pdf
-video:
+video: https://youtu.be/gCgRqjOQO5g
 ---
 
 Processing real-time data streams requires navigating a growing landscape of connective tissue that can move and transform data. The choices require careful consideration of tradeoffs across scalability, latency, capability, and operational overhead. These types of considerations also drive decision making in building the tools themselves. In this talk, Kamal will draw upon over a decade of building large-scale streaming services within Google Cloud to help you successfully architect your streaming data pipelines so that you aren't left wishing you had brought a bigger boat.
