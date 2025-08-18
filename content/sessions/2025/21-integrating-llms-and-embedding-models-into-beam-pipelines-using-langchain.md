@@ -16,8 +16,8 @@ gridarea: "2/2/3/3"
 timeslot: 21
 images: 
 
-slides:
-video: 
+slides: 2025/integrating-llms-and-embedding-models-into-beam-pipelines-using-langchain-ganesh-sivakumar.pdf
+video: https://youtu.be/x_TCTC8Mctc
 
 ---
 

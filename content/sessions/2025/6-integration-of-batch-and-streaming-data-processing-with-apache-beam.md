@@ -15,8 +15,8 @@ gridarea: "1/2/2/3"
 timeslot: 6
 images: 
 
-slides:
-video:
+slides: 
+video: https://youtu.be/lkIR4oYstKI
 
 ---
 

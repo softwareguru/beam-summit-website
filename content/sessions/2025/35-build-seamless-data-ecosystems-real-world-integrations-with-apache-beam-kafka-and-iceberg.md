@@ -14,7 +14,7 @@ timeslot: 35
 images: 
 
 slides: 2025/build-seamless-data-ecosystems-real-world-integrations-with-apache-beam-kafka-and-iceberg.pdf
-video:
+video: https://youtu.be/r9yL3gpnJ-k
 ---
 
 Modern data architectures are no longer built around a single tool — they thrive on interoperability and community-driven integration. This session explores how Apache Beam serves as the flexible processing engine that connects streaming platforms like Kafka with modern, ACID-compliant data lakehouse solutions like Apache Iceberg.
