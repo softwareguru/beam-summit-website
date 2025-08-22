@@ -15,7 +15,7 @@ gridarea: "1/2/2/3"
 timeslot: 6
 images: 
 
-slides: 
+slides: 2025/integration-of-batch-and-streaming-data-processing-with-apache-beam.pdf
 video: https://youtu.be/lkIR4oYstKI
 
 ---

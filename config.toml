@@ -74,23 +74,23 @@ speaker = "speakers"
   #  parent = "about-BS"
   #  weight = 4
 
-  [[menu.main]]
-    name = "Sponsor"
-    hrefTargetBlank = true
-    URL = "/sponsor"
-    weight = 3
+  #[[menu.main]]
+  #  name = "Sponsor"
+  #  hrefTargetBlank = true
+  #  URL = "/sponsor"
+  #  weight = 3
 
-  [[menu.main]]
-    identifier="program"
-    name = "Program"
-    URL = "/sessions/2024"
-    weight = 5
+  #[[menu.main]]
+  #  identifier="program"
+  #  name = "Program"
+  #  URL = "/sessions/2024"
+  #  weight = 5
 
-  [[menu.main]]
-    name = "Online event schedule"
-    URL = "/program"
-    parent="program"
-    weight = 2
+  #[[menu.main]]
+  #  name = "Online event schedule"
+  #  URL = "/program"
+  #  parent="program"
+  #  weight = 2
 
   #[[menu.main]]
   # name = "Sessions"
@@ -100,15 +100,15 @@ speaker = "speakers"
 
   [[menu.main]]
     name = "Speakers"
-    URL = "/speakers"
-    parent="program"
+    URL = "/speakers/archive"
+  #  parent="program"
     weight = 4
 
-  [[menu.main]]
-    name = "2025 In person Sessions"
-    URL = "/sessions/2025/"
-    parent="program"
-    weight = 5
+  #[[menu.main]]
+  #  name = "2025 In person Sessions"
+  #  URL = "/sessions/2025/"
+  #  parent="program"
+  #  weight = 5
 
 
   #[[menu.main]]
@@ -156,8 +156,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Join Online Event"
-link = "https://youtube.com/live/5iyiKi1kzGY?feature=share" 
+label = "2025 Sessions"
+link = "sessions/2025" 
 
 
 ############################# social icon ############################
