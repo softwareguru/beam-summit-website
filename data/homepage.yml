@@ -5,7 +5,7 @@ banner:
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
   subtitle: "Where professionals in data processing meet"
-  date : "Thanks for being part of Beam Summit 2025 in NYC and its online extension, watch the recordings."
+  date : "Save the date for Beam Summit 2026 coming up next summer to NYC!"
   venue: ""
   button1:
     enable : false
@@ -14,8 +14,8 @@ banner:
 
   button2:
     enable : true
-    label : "Recordings"
-    link : "https://www.youtube.com/playlist?list=PL4dEBWmGSIU-_ibd7FQofhvm8BcX2klcB"
+    label : "Sign Up for Updates!"
+    link : "https://docs.google.com/forms/d/e/1FAIpQLSeNj0NH-3WdOjmf6sdu8ISE3u_SnaW7FMVikBsNZQpOYp1CMA/viewform"
 
 
 ############################## Event ##############################
