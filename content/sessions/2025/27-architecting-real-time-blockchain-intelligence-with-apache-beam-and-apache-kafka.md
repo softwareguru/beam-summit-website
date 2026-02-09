@@ -9,7 +9,6 @@ topics:
  - Real-time data applications
 time_start: 2025-07-09 11:00:00
 time_end: 2025-07-09 11:25:00
-track: 
 day: 20252
 gridarea: "6/2/7/4"
 timeslot: 27

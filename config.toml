@@ -156,8 +156,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "2025 Sessions"
-link = "sessions/2025" 
+label = "Register"
+link = "/register" 
 
 
 ############################# social icon ############################
