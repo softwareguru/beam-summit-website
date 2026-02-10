@@ -33,46 +33,46 @@ speaker = "speakers"
   URL = "/about"
   weight = 1
 
-  #[[menu.main]]
-  #identifier = "about-BS"
-  #name = "Attend"
-  #URL = "/attend"
-  #weight = 2
+  [[menu.main]]
+  identifier = "about-BS"
+  name = "Attend"
+  URL = "/attend"
+  weight = 2
 
-  #[[menu.main]]
-  #  identifier = "scholarships"
-  #  name = "Venue + Travel"
-  #  url = "/venue"
-  #  parent = "about-BS"
-  #  weight = 2
+  [[menu.main]]
+    identifier = "scholarships"
+    name = "Venue + Travel"
+    url = "/venue"
+    parent = "about-BS"
+    weight = 2
 
-  #[[menu.main]]
-  #  identifier = "scholarships1"
-  #  name = "Convince your boss"
-  #  url = "/convince-your-boss"
-  #  parent = "about-BS"
-  #  weight = 3
+  [[menu.main]]
+    identifier = "scholarships1"
+    name = "Convince your boss"
+    url = "/convince-your-boss"
+    parent = "about-BS"
+    weight = 3
 
-  #[[menu.main]]
-  #  identifier = "scholarships2"
-  #  name = "Visa letter request"
-  #  url = "/visa-letter-request"
-  #  parent = "about-BS"
-  #  weight = 3
+  [[menu.main]]
+    identifier = "scholarships2"
+    name = "Visa letter request"
+    url = "/visa-letter-request"
+    parent = "about-BS"
+    weight = 3
 
-  #[[menu.main]]
-  #  identifier = "scholarships3"
-  #  name = "DEI"
-  #  url = "/dei"
-  #  parent = "about-BS"
-  #  weight = 4
+  [[menu.main]]
+    identifier = "scholarships3"
+    name = "DEI"
+    url = "/dei"
+    parent = "about-BS"
+    weight = 4
 
-  #[[menu.main]]
-  #  identifier = "scholarships3"
-  #  name = "Code of conduct"
-  #  url = "/coc"
-  #  parent = "about-BS"
-  #  weight = 4
+  [[menu.main]]
+    identifier = "scholarships3"
+    name = "Code of conduct"
+    url = "/coc"
+    parent = "about-BS"
+    weight = 4
 
   #[[menu.main]]
   #  name = "Sponsor"

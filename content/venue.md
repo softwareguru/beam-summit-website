@@ -9,8 +9,8 @@ draft: false
 <div class="container">
   <div class="row">
     <div class="col-sm"> 
-    <p>New Venue Alert! Beam Summit 2025 is moving to St. John’s Terminal, Google’s NYC HQ
-Beam Summit 2025 will now take place at Google’s NYC headquarters in St. John’s Terminal, a beautifully designed and modern space located in Manhattan’s West Village.</p>
+    <p>New Venue Alert! Beam Summit 2026 is moving to St. John’s Terminal, Google’s NYC HQ
+Beam Summit 2026 will now take place at Google’s NYC headquarters in St. John’s Terminal, a beautifully designed and modern space located in Manhattan’s West Village.</p>
 
 <p>Same dates, same amazing program, just in a brand new, inspiring location.</p>
 
@@ -56,11 +56,11 @@ Once you have checked in please display your event badge at all times while at S
 
 For fastest entry, please remove laptops, portable charging blocks, metal water bottles, eyeglass cases, and compact umbrellas from your bag(s) when entering the screening area.
 
-New York City is a place like no other, a vibrant metropolis where innovation, culture, and history collide. From its iconic skyline to its bustling streets, the city pulses with endless energy and possibility. Whether you’re exploring world-class museums, discovering diverse neighborhoods, or simply taking in the sights and sounds of the city that never sleeps, NYC offers an unforgettable experience at every turn. It’s a place where ideas come to life, connections are made, and inspiration is around every corner, perfect for a transformative Beam Summit 2025 experience.
+New York City is a place like no other, a vibrant metropolis where innovation, culture, and history collide. From its iconic skyline to its bustling streets, the city pulses with endless energy and possibility. Whether you’re exploring world-class museums, discovering diverse neighborhoods, or simply taking in the sights and sounds of the city that never sleeps, NYC offers an unforgettable experience at every turn. It’s a place where ideas come to life, connections are made, and inspiration is around every corner, perfect for a transformative Beam Summit 2026 experience.
 
 We can’t wait to welcome you for three days of learning, sharing, and connection.
 
-Can’t wait to see you there!
+See you there!
 
 <div class="container">
   <div class="row">

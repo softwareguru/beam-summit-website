@@ -4,16 +4,16 @@ banner:
   title : "Beam Summit 2024"
   logo : "/images/logo-home.png" 
   bg_image: "/images/banner/banner-2.jpg"
-  subtitle: "Where professionals in data processing meet"
-  date : "Save the date for Beam Summit 2026 coming up next summer to NYC!"
+  subtitle: "Expanding the Data Ecosystem"
+  date : "Beam Summit 2026 is happening June 22nd & 23rd, 2026 in NYC!"
   venue: ""
   button1:
-    enable : false
-    label : "Photo Album"
-    link : "https://photos.app.goo.gl/kkYc5qQL2uZDNBcB7"
+    enable : true
+    label : "Register now!"
+    link : "/register"
 
   button2:
-    enable : true
+    enable : false
     label : "Sign Up for Updates!"
     link : "https://docs.google.com/forms/d/e/1FAIpQLSeNj0NH-3WdOjmf6sdu8ISE3u_SnaW7FMVikBsNZQpOYp1CMA/viewform"
 

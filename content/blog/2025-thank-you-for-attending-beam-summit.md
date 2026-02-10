@@ -63,3 +63,10 @@ Check out our full <a href="https://photos.app.goo.gl/kkYc5qQL2uZDNBcB7" target=
 To everyone who joined us — thank you. Your presence, energy, and commitment are what made Beam Summit 2025 truly special.
 See you soon at the next stop on the Beam journey!
 
+
+### 📸 Want to relive the experience?
+
+Watch the recordings on the <a href="https://www.youtube.com/@ApacheBeamYT" target="_blank">Youtube channel</a> and check out our full photo album. Spot yourself, your team, or that inspiring moment you want to remember.
+
+To everyone who joined us, thank you. Your presence, energy, and commitment are what made Beam Summit 2025 truly special. See you soon at the next stop on the Beam journey!
+

@@ -13,8 +13,6 @@ sponsor_group:
   - title : "Gold"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/dremio.png"
-        link : "https://www.dremio.com/"
       - logo : "/images/logos/google-open-source.png"
         link : "https://opensource.google/?hl=es-419" 
 
@@ -25,10 +23,6 @@ sponsor_group:
 
       - logo : "/images/logos/apache-beam.png"
         link : "https://beam.apache.org/"
-      - logo : "/images/logos/packt.png"
-        link : "https://www.packtpub.com/"
-      - logo : "/images/logos/Mavencode.png"
-        link : "https://www.mavencode.com/"
       - logo : "/images/logos/osacom.png"
         link : "https://osacom.io/"
       - logo : "/images/logos/clowder-space.png"
@@ -37,8 +31,6 @@ sponsor_group:
         link : "https://airflow.apache.org/"
       #- logo : "/images/logos/akvelon.jpg"
       #  link : "https://akvelon.com/"
-      - logo : "/images/logos/techdogs.png"
-        link : "https://www.techdogs.com/"
 
 # call to action in sponsor
 sponsorship:
