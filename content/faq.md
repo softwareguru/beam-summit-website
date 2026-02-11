@@ -5,16 +5,21 @@ description: Details for participation in Beam Summit.
 
 ---
 
-### Is the event free?
+## Is the event free?
 
-Yes! Beam Summit is free
+Yes! Beam Summit is free.
+
+## When will it be?
+
+Beam Summit 2026 will happen on June 22nd and 23rd, 2026. 
 
 ## Where will it be?
 
-Beam Summit 2026 will happen on June 22nd and 23rd, 2026.
+Beam Summit 2026 will be at the Google campus at St John’s Terminal in New York City.
 
-Will sessions be live streamed?
-No. Beam Summit 2026 will be in-person only. However, we will record all sessions to later publish them in the [Apache Beam YouTube channel](https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ).
+## Will sessions be live streamed?
+
+No. Beam Summit 2026 will be in-person only. However, we will record all sessions to later publish them in the Apache Beam YouTube channel.
 
 ## Is there a code of conduct?
 
