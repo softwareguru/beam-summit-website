@@ -20,11 +20,13 @@ background: linear-gradient(180deg, rgba(22,155,214,1) 0%, rgba(22,124,214,1) 10
 }
 
 .cfp-title{
+    
     margin-top: 35px;
-
-    @media (max-width: 1199px){
-        margin-top: -20px;
-    }
+    background-color: #167cd6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media (max-width: 767px) {
         margin-top: 15px;
@@ -34,7 +36,9 @@ background: linear-gradient(180deg, rgba(22,155,214,1) 0%, rgba(22,124,214,1) 10
 .cfp-title h3{
     text-align: center;
     margin-bottom: 28px;
-    color: $orange-title;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 
     @media (max-width: 1213px) {
         font-size: 1.5em;

@@ -13,9 +13,9 @@ banner:
     link : "/register"
 
   button2:
-    enable : false
-    label : "Sign Up for Updates!"
-    link : "https://docs.google.com/forms/d/e/1FAIpQLSeNj0NH-3WdOjmf6sdu8ISE3u_SnaW7FMVikBsNZQpOYp1CMA/viewform"
+    enable : true
+    label : "CFP is open"
+    link : "https://sessionize.com/beamsummit-2026/"
 
 
 ############################## Event ##############################
