@@ -80,11 +80,30 @@ speaker = "speakers"
   #  URL = "/sponsor"
   #  weight = 3
 
-  #[[menu.main]]
-  #  identifier="program"
-  #  name = "Program"
-  #  URL = "/sessions/2024"
-  #  weight = 5
+  [[menu.main]]
+    identifier="program"
+    name = "Program"
+    URL = "/sessions/2024"
+    weight = 5
+
+  [[menu.main]]
+    name = "CFP"
+    URL = "https://sessionize.com/beamsummit-2026/"
+    parent="program"
+    weight = 1
+
+  [[menu.main]]
+    name = "Speakers archive"
+    URL = "/speakers/archive"
+    parent="program"
+    weight = 2
+
+  [[menu.main]]
+    name = "Happenings"
+    parent = "program"
+    URL = "/happenings"
+    weight = 3
+
 
   #[[menu.main]]
   #  name = "Online event schedule"
@@ -98,12 +117,6 @@ speaker = "speakers"
   # parent="program"
   # weight = 3
 
-  [[menu.main]]
-    name = "Speakers"
-    URL = "/speakers/archive"
-  #  parent="program"
-    weight = 4
-
   #[[menu.main]]
   #  name = "2025 In person Sessions"
   #  URL = "/sessions/2025/"
@@ -111,11 +124,6 @@ speaker = "speakers"
   #  weight = 5
 
 
-  #[[menu.main]]
-  #  name = "Happenings"
-  #  parent="program"
-  #  URL = "/dataflow"
-  #  weight = 5
 
   [[menu.main]]
   name = "FAQ"
