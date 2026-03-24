@@ -29,8 +29,8 @@ sponsor_group:
         link : "https://clowder.space/"
       - logo : "/images/logos/apache-airflow.png"
         link : "https://airflow.apache.org/"
-      #- logo : "/images/logos/akvelon.jpg"
-      #  link : "https://akvelon.com/"
+      - logo : "/images/logos/devitus.png"
+        link : "devitjobs.com"
 
 # call to action in sponsor
 sponsorship:
