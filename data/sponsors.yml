@@ -23,14 +23,14 @@ sponsor_group:
 
       - logo : "/images/logos/apache-beam.png"
         link : "https://beam.apache.org/"
-      #- logo : "/images/logos/osacom.png"
-      #  link : "https://osacom.io/"
       - logo : "/images/logos/clowder-space.png"
         link : "https://clowder.space/"
       - logo : "/images/logos/apache-airflow.png"
         link : "https://airflow.apache.org/"
       - logo : "/images/logos/devitus.png"
         link : "https://devitjobs.jobcopilot.com/signup?utm_source=dot_com"
+      - logo : "/images/logos/mmc-mentor.png"
+        link : "https://www.mentormecollective.org/"
 
 # call to action in sponsor
 sponsorship:
