@@ -30,7 +30,7 @@ sponsor_group:
       - logo : "/images/logos/apache-airflow.png"
         link : "https://airflow.apache.org/"
       - logo : "/images/logos/devitus.png"
-        link : "devitjobs.com"
+        link : "https://devitjobs.jobcopilot.com/signup?utm_source=dot_com"
 
 # call to action in sponsor
 sponsorship:
