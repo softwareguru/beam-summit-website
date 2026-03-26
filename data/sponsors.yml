@@ -28,7 +28,7 @@ sponsor_group:
       - logo : "/images/logos/apache-airflow.png"
         link : "https://airflow.apache.org/"
       - logo : "/images/logos/devitus.png"
-        link : "https://devitjobs.jobcopilot.com/signup?utm_source=dot_com"
+        link : "https://devitjobs.com/"
       - logo : "/images/logos/mmc-mentor.png"
         link : "https://www.mentormecollective.org/"
 
