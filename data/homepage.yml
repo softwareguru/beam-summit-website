@@ -13,7 +13,7 @@ banner:
     link : "/register"
 
   button2:
-    enable : true
+    enable : false
     label : "CFP is open"
     link : "https://sessionize.com/beamsummit-2026/"
 
