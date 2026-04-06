@@ -33,6 +33,9 @@ sponsor_group:
         link : "https://www.mentormecollective.org/"
       - logo : "/images/logos/mavencode.png"
         link : "https://www.mavencode.com/"
+      - logo : "/images/logos/packt.png"
+        link : "https://www.packtpub.com/en-us?srsltid=AfmBOoq0jMjBWiYj29nthsZEAnUn-4jDa3RJzPjJqB1YpubQgy8JtP75"
+
 
 
 # call to action in sponsor
