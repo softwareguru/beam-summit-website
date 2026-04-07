@@ -37,6 +37,14 @@ sponsor_group:
         link : "https://www.packtpub.com/en-us?srsltid=AfmBOoq0jMjBWiYj29nthsZEAnUn-4jDa3RJzPjJqB1YpubQgy8JtP75"
 
 
+  - title : "Talent"
+    slug : "gold"
+    sponsor:
+
+      - logo : "/images/logos/intuitive.png"
+        link : "https://intuitive.ai/"
+
+
 
 # call to action in sponsor
 sponsorship:
