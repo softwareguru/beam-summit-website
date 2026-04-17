@@ -10,11 +10,19 @@ sponsor_group:
       #  link : ""
 
 
-  - title : "Gold"
+  #- title : "Gold"
+  #  slug : "gold"
+  #  sponsor:
+  #    - logo : "/images/logos/google-open-source.png"
+  #      link : "https://opensource.google/?hl=es-419" 
+
+
+  - title : "Talent"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/google-open-source.png"
-        link : "https://opensource.google/?hl=es-419" 
+
+      - logo : "/images/logos/intuitive.png"
+        link : "https://intuitive.ai/"
 
 
   - title : "Community Partners"
@@ -35,15 +43,6 @@ sponsor_group:
         link : "https://www.mavencode.com/"
       - logo : "/images/logos/packt.png"
         link : "https://www.packtpub.com/en-us?srsltid=AfmBOoq0jMjBWiYj29nthsZEAnUn-4jDa3RJzPjJqB1YpubQgy8JtP75"
-
-
-  - title : "Talent"
-    slug : "gold"
-    sponsor:
-
-      - logo : "/images/logos/intuitive.png"
-        link : "https://intuitive.ai/"
-
 
 
 # call to action in sponsor
