@@ -6,6 +6,5 @@ layout: single
 
 ---
 
-### Welcome to the session program for Beam Summit 2025.
 
-<script type="text/javascript" src="https://sessionize.com/api/v2/lhjlpy26/view/GridSmart"></script>
+<script type="text/javascript" src="https://sessionize.com/api/v2/tbo70x0m/view/GridSmart"></script>
