@@ -1,0 +1,14 @@
+---
+title: "From Raw Logs to Model Inference: Building a DGA Detection ML Pipeline with Beam"
+slug: from-raw-logs-to-model-inference-building-a-dga-detection-ml-pipeline-with-beam
+speakers:
+ - Aditya Patil
+ - Raniya Rehman
+topics:
+ - Unified Data Processing with ML Integration
+room: Pitch Pine
+time_start: 2026-06-22 15:00:00
+time_end: 2026-06-22 15:30:00
+---
+
+Defending the Garden State, one pipeline at a time. In cybersecurity, speed is the ultimate currency, and manual detection simply can’t keep up with the velocity of modern malware. To bridge this gap, the NJCCIC developed an automated, ML-powered detection engine that analyzes ~700,000 domains daily, moving beyond a reliance on third-party threat feeds to identify ephemeral command-and-control channels in real-time. At the core of this defense, we leverage Apache Beam to orchestrate a high-throughput feature engineering engine, extracting 17 distinct lexical and statistical features—from Shannon entropy to bigram probabilities—across a massive 30-million-sample training set. By utilizing Beam’s ability to unify complex data transformation with production-scale inference, we’ve successfully deployed an ensemble of Random Forest and biologically-inspired NEAT (NeuroEvolution of Augmenting Topologies) models.

@@ -1,0 +1,29 @@
+---
+title: "'Beam'-ing Iceberg Tables Across Environments Using Project Nessie"
+slug: beam-ing-iceberg-tables-across-environments-using-project-nessie
+speakers:
+ - Vineel Arekapudi
+topics:
+ - Emerging Trends (AI/ML and Lakehouse Architectures)
+ - Scalability and Performance with Optimized Storage
+room: Hackberry
+time_start: 2026-06-23 11:30:00
+time_end: 2026-06-23 12:20:00
+---
+
+At Wells Fargo, we delve into our approach for backing up and synchronizing Apache Iceberg tables across environments using Project Nessie as a catalog-level control plane and Apache Beam as the unified replication engine. By combining object storage replication with Nessie's Git-like metadata versioning, orchestrated through a single Beam pipeline. We demonstrate how production Iceberg tables can be continuously mirrored into non-production catalogs without low-level database syncs.
+The architecture consists of two coordinated replication layers, implemented as a unified Apache Beam pipeline:
+1. Storage-Layer Replication
+A Beam pipeline reads all Iceberg table data that's in Parquet file format along with Metadata files like manifests, and metadata JSON directly from production S3 and writes to non-production S3. Beam's parallel execution model handles fan-out across thousands of tables efficiently, replacing ad-hoc tooling like rclone or distcp with a testable, portable, and observable pipeline.
+2. Catalog-Layer Replication with Nessie, Powered by Beam, Not Raw MongoDB Sync
+Rather than directly synchronizing Nessie's underlying MongoDB collections (objs2, refs2), an approach that is fragile, version-sensitive, and opaque, we use Apache Beam as an abstraction layer that operates at the Nessie API level. 
+The Beam pipeline:
+-> Polls the production Nessie instance for new commits and snapshot changes via the Nessie REST API
+-> Extracts the relevant branch, tag, and table metadata
+-> Applies those changes to the non-production Nessie instance in a controlled, auditable sequence
+
+This means replication is driven by Nessie's own versioning semantics rather than internal MongoDB implementation details making the approach more resilient to Nessie upgrades. 
+A Unified Pipeline with Batch and Streaming Modes
+Both layers run within the same Beam pipeline, giving us a single model for two distinct operational needs. In streaming mode, the pipeline continuously watches for new Nessie commits and triggers incremental storage and catalog replication, keeping non-production environments near-current with production. In batch mode, the same pipeline handles full environment bootstrapping or point-in-time recovery to a specific Nessie snapshot. Beam's runner portability was essential in our regulated environment: pipelines are developed and validated locally using the Direct Runner before being deployed to our Spark cluster via the Spark Runner, without any rewrite.
+Once completed, the non-production Nessie catalog becomes a true, API-level mirror of production. 
+We will share practical lessons learned, including Nessie API pagination at scale, handling Beam pipeline failures mid-replication, and ensuring catalog consistency when storage and metadata sync are not atomic.

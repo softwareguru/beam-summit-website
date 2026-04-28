@@ -1,0 +1,19 @@
+---
+title: "Zero-loss Spanner to BigQuery Redeployment"
+slug: zero-loss-spanner-to-bigquery-redeployment
+speakers:
+ - Jiufeng Liu
+topics:
+ - Scalability and Performance with Optimized Storage
+room: Pitch Pine
+time_start: 2026-06-23 13:45:00
+time_end: 2026-06-23 14:10:00
+---
+
+Introducing a YAML-driven Dataflow Flex Template design enabling product teams to self-serve Spanner to BigQuery replication, supporting both current-state and append-only modes for analytics, downstream applications, and audit trails. This session focuses on streaming use cases.
+
+In a federated deployment model where each product team owns and operates its own pipeline, redeployments emerged as a recurring risk event. None of Dataflow's existing restart mechanisms work perfectly for our use cases, leaving every redeployment risks data loss or duplicate data.
+
+A proper fix belongs in Dataflow and SpannerIO. In the meantime, an interim solution has kept redeployments routine in production, with no data loss or duplication.
+
+This session covers the problem, the approach, and the tradeoffs that remain.

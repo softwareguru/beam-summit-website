@@ -1,0 +1,33 @@
+---
+title: "Building Agentic Data Pipelines: Orchestrating AI Workflows with Apache Beam"
+slug: building-agentic-data-pipelines-orchestrating-ai-workflows-with-apache-beam
+speakers:
+ - Siddharth Gargava
+topics:
+ - Agentic Architectures
+ - Emerging Trends (AI/ML and Lakehouse Architectures)
+room: Pitch Pine
+time_start: 2026-06-22 12:15:00
+time_end: 2026-06-22 12:45:00
+---
+
+AI agents need more than model inference. They need reliable data orchestration. This session explores how Apache Beam enables agentic architectures that reason over streaming and batch data, execute multi-step workflows, and 
+integrate ML models for real-time decision-making.
+
+We'll cover practical patterns for building agent-driven pipelines:
+
+Agentic Orchestration with Beam: Structuring pipelines where agents decompose tasks, call external tools, and coordinate across data sources. How Beam's unified model simplifies building workflows that span Kafka streams, batch
+repositories, and ML inference endpoints.
+
+Real-time ML Integration: Embedding models directly in Beam pipelines for low-latency inference. Patterns for fraud detection, anomaly detection, and personalized recommendations where agents act on streaming insights.
+
+State and Error Handling: Managing agent state across pipeline stages, checkpoint strategies for long-running agentic workflows, and graceful recovery when tools or models fail.
+
+Connecting Disparate Systems: Integrating Beam with Kafka, Iceberg, and cloud APIs to give agents access to the data they need without rebuilding your infrastructure.
+
+Attendees will leave with:
+- Patterns for orchestrating agentic workflows in Beam pipelines
+- Strategies for embedding ML inference in streaming architectures
+- A framework for state management and error recovery in agent-driven systems
+
+Built for data engineers ready to move from static pipelines to autonomous, ML-powered data workflows.

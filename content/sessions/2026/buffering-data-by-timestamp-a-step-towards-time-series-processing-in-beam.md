@@ -1,0 +1,17 @@
+---
+title: "Buffering Data by Timestamp: A Step Towards Time Series Processing in Beam"
+slug: buffering-data-by-timestamp-a-step-towards-time-series-processing-in-beam
+speakers:
+ - Shunping Huang
+ - Claude van der Merwe
+topics:
+ - Unified Data Processing with ML Integration
+ - Real-time ML-Driven Data Insights
+room: Pitch Pine
+time_start: 2026-06-23 13:15:00
+time_end: 2026-06-23 13:45:00
+---
+
+Time series data is a foundational and ubiquitous format in modern big data applications, driving insights in fields ranging from user activity tracking to IoT sensor monitoring. While there is growing interest in processing time series data within Apache Beam, its inherently unordered and parallel execution model forces developers to implement complex custom logic to handle chronological events accurately.
+
+In this talk, we explore the crucial first step of time series processing in Beam: buffering data in precise timestamp order to enable accurate downstream analysis. We will evaluate and compare various buffering approaches, weighing their trade-offs. Finally, we will demonstrate these concepts in action through a real-world anomaly detection use case utilizing the recently developed BigQuery CDC source.

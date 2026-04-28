@@ -1,0 +1,17 @@
+---
+title: "Building a Real-Time Identity Graph:  Beam + Cloud Spanner for Multi-Tenant Customer Resolution"
+slug: building-a-real-time-identity-graph-beam-cloud-spanner-for-multi-tenant-customer-resolution
+speakers:
+ - Jonathan Sudhakar
+topics:
+ - Unified Data Processing with ML Integration
+ - Ecosystem and Community with Modern Data Tools
+ - Scalability and Performance with Optimized Storage
+room: Pitch Pine
+time_start: 2026-06-22 15:45:00
+time_end: 2026-06-22 16:15:00
+---
+
+Processing billions of monthly events across dozens of marketing clients requires resolving fragmented user identities in near real-time. This talk covers how we built a multi-tenant identity graph system using Apache Beam on Dataflow and Google Cloud Spanner - including composite match key design, weighted conflict resolution across disparate signal sources (ad platforms, first-party data, server-side events), and the Beam pipeline architecture for continuous ingest and deduplication. We'll share lessons on schema design trade-offs, handling late-arriving data in identity merges, and how this foundation powers downstream ML models for predicted lifetime value.
+
+I have submitted another 25 minute session. I can combine the two into a single session if needed.

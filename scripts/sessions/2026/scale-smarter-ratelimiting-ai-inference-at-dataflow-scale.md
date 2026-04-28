@@ -1,0 +1,18 @@
+---
+title: "Scale Smarter: RateLimiting AI Inference at Dataflow Scale"
+slug: scale-smarter-ratelimiting-ai-inference-at-dataflow-scale
+speakers:
+ - Tarun Annapareddy
+topics:
+ - Unified Data Processing with ML Integration
+ - Scalability and Performance with Optimized Storage
+room: Pitch Pine
+time_start: 2026-06-23 11:30:00
+time_end: 2026-06-23 12:00:00
+---
+
+Scaling AI inference across thousands of workers to maximize throughput is a flagship feature of Apache Beam. However, this massive parallelism often collides head-on with strict external API quotas (e.g., Vertex AI, OpenAI).
+
+To bridge this gap, we've introduced a Proactive Global RateLimiter for Apache Beam. Integrated directly into the RunInference transform and also made it available for custom DoFn's. It moves quota management from reactive retry storms to proactive pacing.
+
+This talk will explore how Beam coordinates rate limits across dispersed workers and communicates dynamic back pressure to the Runner Autoscaler to prevent compute waste. Attendees can expect to come away with an understanding of how global rate limiting works in distributed environments, how the autoscaler responds to rate signals, and how they can use Beam to scale their usecases safely without overwhelming external services.

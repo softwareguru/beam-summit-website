@@ -1,0 +1,17 @@
+---
+title: "RAG-as-a-Service: Reusable AI Data Pipelines with Apache Beam"
+slug: rag-as-a-service-reusable-ai-data-pipelines-with-apache-beam
+speakers:
+ - Vineel Arekapudi
+topics:
+ - Unified Data Processing with ML Integration
+ - Agentic Architectures
+room: Pitch Pine
+time_start: 2026-06-22 12:45:00
+time_end: 2026-06-22 13:15:00
+---
+
+In this session, we'll explore how data engineering teams at Wells Fargo have built a RAG-as-a-Service platform that supports multiple AI applications across the enterprise. Using a real-world architecture, we'll walk through the end-to-end pipeline: using Apache Beam to ingest PDFs and other documents submitted to a REST endpoint, preparing those documents for embedding, storing vectors in scalable vector databases, and orchestrating workflows using modern data platforms.
+Apache Beam handles the heavy lifting of the ingestion layer. Because different enterprise teams submit documents in very different ways, some in large overnight bulk loads and others one file at a time through the API, we needed something that could handle both without maintaining two separate codebases. Beam's RunInference transform also lets us run embedding generation inside the pipeline itself rather than bolting on a separate service.
+We'll also discuss how to operationalize these pipelines using MLOps and AIOps practices, including versioning embeddings, monitoring retrieval quality, and managing prompt pipelines in production. We'll also discuss how to operationalize these pipelines using MLOps and AIOps practices, including versioning embeddings, monitoring retrieval quality, and managing prompt pipelines in production. We'll also show how we integrated Google ADK to build agents that consume these embeddings, allowing enterprise teams to wire up LLMs to their document collections without having to understand what is happening underneath.
+Attendees will leave with a practical blueprint for building reusable document ingestion infrastructure that powers AI applications from copilots to intelligent search, while remaining scalable, governed, and production-ready.

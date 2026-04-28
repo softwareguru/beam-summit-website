@@ -1,0 +1,13 @@
+---
+title: "Evolution of the broad Beam Streaming IO Ecosystem towards production readiness"
+slug: evolution-of-the-broad-beam-streaming-io-ecosystem-towards-production-readiness
+speakers:
+ - Yi Hu
+topics:
+ - Ecosystem and Community with Modern Data Tools
+room: Pitch Pine
+time_start: 2026-06-23 10:30:00
+time_end: 2026-06-23 11:00:00
+---
+
+While Beam websites listed 30+ built-in IO connectors supporting streaming, the status (resilience, scalability, performance, etc) of each IO connectors is not equal. This session highlights recent improvements for selected Beam Streaming IO connectors that have indicated gaps between user demand and status quo in Beam, including Debezium, Jms, Mqtt, and Pulsar. We discusses how each connector went from "Day 1" existence to "Day 2" resilience, and with remarks on facilitating community engagements on Beam IO Ecosystem.

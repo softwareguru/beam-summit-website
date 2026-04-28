@@ -1,0 +1,14 @@
+---
+title: "Trust, But Verify: Petabyte scale validations using Beam & Dataflow"
+slug: trust-but-verify-petabyte-scale-validations-using-beam-dataflow
+speakers:
+ - Manit Gupta
+topics:
+ - Scalability and Performance with Optimized Storage
+room: Hackberry
+time_start: 2026-06-22 16:15:00
+time_end: 2026-06-22 16:45:00
+---
+
+Migrating massive, mission-critical databases across heterogeneous systems is inherently terrifying because customers don't just hope for a successful migration — they demand 100% data integrity.
+In this talk, we will explore why Cloud Spanner chose Apache beam & Dataflow to implement scaled out data validation for customers migrating to Spanner. We will dig into how beam helps simplifies executing complex data processing at scale, and how Dataflow reduces time-to-market by providing a stable, scaled out beam runner. 

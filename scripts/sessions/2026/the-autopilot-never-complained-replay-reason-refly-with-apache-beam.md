@@ -1,0 +1,25 @@
+---
+title: "The Autopilot Never Complained: Replay, Reason, Refly with Apache Beam"
+slug: the-autopilot-never-complained-replay-reason-refly-with-apache-beam
+speakers:
+ - Charles Adetiloye
+ - Ian MacDonald
+topics:
+ - Agentic Architectures
+ - Unified Data Processing with ML Integration
+ - Real-time ML-Driven Data Insights
+ - Scalability and Performance with Optimized Storage
+ - Emerging Trends (AI/ML and Lakehouse Architectures)
+room: Pitch Pine
+time_start: 2026-06-22 14:30:00
+time_end: 2026-06-22 15:00:00
+---
+
+A fully autonomous VTOL logistics fleet has been flying mathematically optimized delivery corridors for 14 months. Every flight clears health checks. Every autopilot recovery is clean. No alerts fire. No reports are filed. On paper the operation is running perfectly.
+
+A single Apache Beam pipeline replaying 1,200 archived flight logs tells a different story. Attitude recovery events — small, clean, individually insignificant — cluster at one specific waypoint, one altitude band, one azimuth range. The autopilot has been silently fighting a terrain-induced atmospheric rotor on every affected flight. It always won. It never complained. But the cumulative cost is real — excess battery draw, elevated motor wear, compounding flight time losses that no dashboard ever surfaced.
+
+This talk shows how Beam's unified model runs the same pipeline against 14 months of archived logs in batch and against the live telemetry stream in real time — no rewrite, no reconciliation, one codebase. We build it live, extend it layer by layer from raw telemetry through operator commands to LLM-generated cost analysis and route recommendations. The route gets adjusted. The inefficiency disappears.
+
+The question Beam lets you ask for the first time: what has your fleet been quietly compensating for that your dashboards never showed you?
+

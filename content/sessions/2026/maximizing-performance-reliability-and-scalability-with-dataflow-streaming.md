@@ -1,0 +1,17 @@
+---
+title: "Maximizing Performance, Reliability, and Scalability with Dataflow Streaming"
+slug: maximizing-performance-reliability-and-scalability-with-dataflow-streaming
+speakers:
+ - Tom Stepp
+ - Ryan Wigglesworth
+topics:
+ - Real-time ML-Driven Data Insights
+ - Scalability and Performance with Optimized Storage
+ - Ecosystem and Community with Modern Data Tools
+ - Emerging Trends (AI/ML and Lakehouse Architectures)
+room: Pitch Pine
+time_start: 2026-06-23 12:00:00
+time_end: 2026-06-23 12:30:00
+---
+
+This session explores recent innovations that enhance pipeline scalability, reliability, and availability. We will cover key updates in autoscaling, high availability, and reliability, alongside progress in streaming ML and IO excellence. Attendees will discover how these enhancements facilitate the building of robust, next-generation streaming architectures.
