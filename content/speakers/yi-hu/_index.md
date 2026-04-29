@@ -8,6 +8,7 @@ linkedin:
 events:
  - 2024
  - 2025
+ - 2026
 ---
 
 Yi Hu is a Software Engineer at Google, where he works on the Apache Beam project, mainly the IO connectors. He is Apache Beam committer.

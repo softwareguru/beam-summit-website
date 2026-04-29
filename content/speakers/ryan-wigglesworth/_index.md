@@ -7,6 +7,7 @@ twitter:
 linkedin: https://www.linkedin.com/in/ryan-wigg/
 events:
  - 2025
+ - 2026
 ---
 
-Software Engineer at Google, working on Cloud Dataflow Streaming
+Software Engineer working on Dataflow Streaming, Google.

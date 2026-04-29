@@ -7,6 +7,7 @@ twitter:
 linkedin: https://www.linkedin.com/in/prodriguezdefino
 events:
  - 2024
+ - 2026
 ---
 
 WIP

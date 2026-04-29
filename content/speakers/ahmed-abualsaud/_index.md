@@ -8,6 +8,7 @@ linkedin: https://www.linkedin.com/in/ahmedabu98/
 events:
  - 2024
  - 2025
+ - 2026
 ---
 
-Ahmed is a software engineer on Google Cloud’s Dataflow team, focused on enhancing Apache Beam’s connectors to improve scalability, performance, and usability for data processing at scale.
+Ahmed is a software engineer on Google Cloud’s Dataflow team, working on enhancing Apache Beam’s connectors to improve performance, reliability, and usability for data processing at scale.
