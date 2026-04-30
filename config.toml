@@ -86,15 +86,15 @@ speaker = "speakers"
     URL = "/sessions/2024"
     weight = 5
 
-  #[[menu.main]]
-  #  name = "CFP"
-  #  URL = "https://sessionize.com/beamsummit-2026/"
-  #  parent="program"
-  #  weight = 1
+  [[menu.main]]
+    name = "Schedule"
+    URL = "/program"
+    parent="program"
+    weight = 1
 
   [[menu.main]]
-    name = "Speakers archive"
-    URL = "/speakers/archive"
+    name = "Speakers"
+    URL = "/speakers"
     parent="program"
     weight = 2
 
