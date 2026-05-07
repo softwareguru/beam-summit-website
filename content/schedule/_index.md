@@ -8,7 +8,7 @@ days:
   - id: 20261
     enabled: true
     title_short: Monday
-    title_full: Monday, July 22, 2025
+    title_full: Monday, June 22, 2026
     rooms: ["Pitch Pine", "Hackberry"]
     schedule_items: 
 
@@ -106,7 +106,7 @@ days:
   - id: 20262
     enabled: true
     title_short: Tuesday
-    title_full: Tuesday, July 23, 2025
+    title_full: Tuesday, June 23, 2026
     rooms: ["Pitch Pine", "Hackberry"]
     schedule_items: 
 
