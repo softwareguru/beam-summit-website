@@ -36,18 +36,6 @@ Some of the focus areas are:
 - Emerging Trends (AI/ML and Lakehouse Architectures): Discussing the future of data processing and how Beam is evolving to meet the demands of new technologies, such as advanced AI/ML integration, serverless computing, and the growing importance of data lakehouse architectures using technologies like Iceberg.
 
 
-<div class="row">
-
-<div class="col-lg-6">
-<a href="https://sessionize.com/beamsummit-2026/" target="_blank" class="text-decoration-none">
-  <button class="button mx-auto d-block">Cfp is open</button>
-</a>
-</div>
-
-<div class="col-lg-6">
-<a href="/register" class="text-decoration-none">
+<a href="/register" class="text-decoration-none mx-auto d-block">
   <button class="button mx-auto d-block">Register now</button>
 </a>
-</div>
-
-</div>

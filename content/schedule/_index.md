@@ -24,11 +24,6 @@ days:
       - type: timelabel
         label: "10:30 - 11:00"
         gridarea: "2/1/3/2"
-      - type: activity
-        label: "Keynote"
-        gridarea: "2/2/3/4"
-        timelabel: "10:30 - 11:00"
-        gridaream: "2/1/3/2"
 
       - type: timelabel
         label: "11:00 - 11:30"
