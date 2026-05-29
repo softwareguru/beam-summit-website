@@ -2,7 +2,7 @@
 title: "Aditya Patil"
 designation: "Data Engineers @ New Jersey Cybersecurity and Communications Integration Cell"
 images:
- - /images/speakers/aditya-patil.png
+ - /images/speakers/valentyn-tymofieiev.jpg
 twitter: 
 linkedin: 
 events:
