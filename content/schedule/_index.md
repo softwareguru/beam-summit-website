@@ -160,11 +160,6 @@ days:
         label: "13:45 - 14:10"
         gridarea: "10/1/11/2"
 
-      - type: timelabel
-        label: "14:10 - 14:40"
-        gridarea: "11/1/12/2"
-
-
 summary: "Beam Summit 2026 schedule."
 ---
 
