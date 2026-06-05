@@ -2,7 +2,7 @@
 title: "Raniya Rehman"
 designation: "Data Engineer @ New Jersey Cybersecurity and Communications Integration Cell"
 images:
- - /images/speakers/valentyn-tymofieiev.jpg
+ - /images/speakers/raniya-rehman.jpg
 twitter: 
 linkedin: 
 events:
