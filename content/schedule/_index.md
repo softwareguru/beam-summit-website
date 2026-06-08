@@ -109,26 +109,28 @@ days:
         label: "9:30 - 10:00"
         gridarea: "1/1/2/2"
 
-      - type: timelabel
-        label: "9:30 - 10:00"
-        gridarea: "2/1/3/2"
       - type: activity
-        label: "Keynote"
-        gridarea: "2/2/3/4"
+        label: "Keynote (Waymo & Beam)"
+        gridarea: "1/2/2/4"
         timelabel: "9:30 - 10:00"
         gridaream: "2/1/3/2"
 
       - type: timelabel
         label: "10:00 - 10:30"
+        gridarea: "2/1/3/2"
+
+      - type: timelabel
+        label: "10:30 - 10:45"
         gridarea: "3/1/4/2"
+
       - type: activity
         label: "Coffee Break"
         gridarea: "3/2/4/4"
-        timelabel: "10:00 - 10:30"
+        timelabel: "10:30 - 10:45"
         gridaream: "3/1/4/2"
 
       - type: timelabel
-        label: "10:30 - 11:00"
+        label: "10:45 - 11:15"
         gridarea: "4/1/5/2"
 
       - type: timelabel
@@ -140,24 +142,25 @@ days:
         gridarea: "6/1/7/2"
 
       - type: timelabel
-        label: "12:00 - 12:30"
+        label: "12:15 - 13:00"
         gridarea: "7/1/8/2"
 
-      - type: timelabel
-        label: "12:30 - 13:15"
-        gridarea: "8/1/9/2"
       - type: activity
         label: "Lunch"
-        gridarea: "8/2/9/4"
-        timelabel: "12:30 - 13:15"
-        gridaream: "10/1/11/2"
+        gridarea: "7/2/8/4"
+        timelabel: "12:15 - 13:00"
+        gridaream: "9/1/10/2"
 
       - type: timelabel
-        label: "13:15 - 13:45"
+        label: "13:00 - 13:30"
+        gridarea: "8/1/9/2"
+
+      - type: timelabel
+        label: "13:30 - 14:00"
         gridarea: "9/1/10/2"
 
       - type: timelabel
-        label: "13:45 - 14:10"
+        label: "14:00 - 14:30"
         gridarea: "10/1/11/2"
 
 summary: "Beam Summit 2026 schedule."
