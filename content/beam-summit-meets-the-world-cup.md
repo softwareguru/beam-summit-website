@@ -13,8 +13,8 @@ This is the first World Cup hosted across three countries (USA, Mexico, and Cana
 
 * Also nearby dates include:
    
-   -June 16: France vs Senegal
-   -June 25: Ecuador vs Germany
+   - June 16: France vs Senegal
+   - June 25: Ecuador vs Germany
 
 New York City is always a global hub, but during the World Cup, it becomes something even bigger. Packed bars, watch parties on every corner, conversations in every language, and you right in the middle of it all walking through Manhattan and feeling the energy of the world converging in one place.
 
@@ -49,8 +49,8 @@ June 22: Norway vs Senegal (8:00 PM ET) at MetLife Stadium, one of the most impo
 
 Also nearby dates include:
 
-June 16: France vs Senegal
-June 25: Ecuador vs Germany
+- June 16: France vs Senegal
+- June 25: Ecuador vs Germany
 
 New York City is always a global hub, but during the World Cup, it becomes something even bigger. Packed bars, watch parties on every corner, conversations in every language, and you right in the middle of it all walking through Manhattan and feeling the energy of the world converging in one place.
 
@@ -60,9 +60,9 @@ Rather than a challenge, this overlap is an opportunity. To make the most of bot
 
 The venue, St. John’s Terminal (Hudson Square), is well connected, but expect higher foot traffic during these days, especially on June 22, as fans move across the city ahead of the evening match.
 
-Recommended subway lines: 1, A, C, E
-Nearby stations: Houston St, Canal St
-Alternative: walking or Citi Bike if you’re staying in Manhattan
+- Recommended subway lines: 1, A, C, E
+- Nearby stations: Houston St, Canal St
+- Alternative: walking or Citi Bike if you’re staying in Manhattan
 
 ⚽ **Allow extra travel time**
 
