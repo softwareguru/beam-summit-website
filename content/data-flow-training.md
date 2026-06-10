@@ -4,7 +4,9 @@ date: 2026-05-14T13:03:39-06:00
 draft: false
 ---
 
-### Beam Summit will host a Dataflow Training on June 24th, 2026 (Day 3).
+### Dataflow training: 
+
+Beam Summit: Dataflow Training on June 24th, 2026 (Day 3).
 
 This hands-on session will walk you through real-world examples of building and managing streaming pipelines using Apache Beam on Google Dataflow. Whether you’re just getting started or want to deepen your skills, this training is designed to help you succeed in building, running, and optimizing Apache Beam pipelines on Google Cloud Dataflow.
 
@@ -13,6 +15,12 @@ This hands-on session will walk you through real-world examples of building and 
 * Hands-on labs and practical exercises
 * Certification opportunities
 
-To join this training, you must mark your interest to participate on the Beam Summit registration form. This will add you to a list from which a number of registrants will be selected to attend. Due to limited capacity, confirmations may take some time to be sent out as all registrants need to be reviewed.
+### How to join
 
-Stay tuned for more details.
+Participation in this training requires going through a selection process due to limited capacity.
+
+To get started, you must first complete your regular Beam Summit registration. During this process, you will see an option to mark your interest in attending the Dataflow Training.
+
+Once you’ve indicated your interest, your application will be reviewed by the Google team. A selected group of participants will then receive a follow-up communication with a second registration form to confirm their spot.
+
+Please note that access to this training is limited, and confirmations will be shared privately with selected participants.

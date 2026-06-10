@@ -75,26 +75,3 @@ This isn’t just about logistics. New York City during the World Cup is a cultu
 So come for the ideas, the technology, and the people, but stay for the experience of being in New York while the world is watching.
 
 See you at Beam Summit! ⚽😉
-
-<hr>
-
-### Dataflow training: 
-
-Beam Summit: Dataflow Training on June 24th, 2026 (Day 3).
-
-This hands-on session will walk you through real-world examples of building and managing streaming pipelines using Apache Beam on Google Dataflow. Whether you’re just getting started or want to deepen your skills, this training is designed to help you succeed in building, running, and optimizing Apache Beam pipelines on Google Cloud Dataflow.
-
-* Focused training on Dataflow
-* In-depth learning on Apache Beam
-* Hands-on labs and practical exercises
-* Certification opportunities
-
-### How to join
-
-Participation in this training requires going through a selection process due to limited capacity.
-
-To get started, you must first complete your regular Beam Summit registration. During this process, you will see an option to mark your interest in attending the Dataflow Training.
-
-Once you’ve indicated your interest, your application will be reviewed by the Google team. A selected group of participants will then receive a follow-up communication with a second registration form to confirm their spot.
-
-Please note that access to this training is limited, and confirmations will be shared privately with selected participants.
