@@ -54,6 +54,14 @@ speaker = "speakers"
     weight = 3
 
   [[menu.main]]
+    identifier = "scholarships5"
+    name = "Apply for a Scholarship"
+    url = "/scholarships"
+    parent = "about-BS"
+    weight = 1
+
+
+  [[menu.main]]
     identifier = "scholarships2"
     name = "Visa letter request"
     url = "/visa-letter-request"
