@@ -149,11 +149,11 @@ days:
         gridarea: "4/1/5/2"
 
       - type: timelabel
-        label: "11:00 - 11:30"
+        label: "11:15 - 11:45"
         gridarea: "5/1/6/2"
 
       - type: timelabel
-        label: "11:30 - 12:00"
+        label: "11:45 - 12:15"
         gridarea: "6/1/7/2"
 
       - type: timelabel
