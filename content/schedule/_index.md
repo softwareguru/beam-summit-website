@@ -92,7 +92,7 @@ days:
         label: "Coffee Break"
         gridarea: "13/2/14/4"
         timelabel: "15:30 - 15:45"
-        gridaream: "17/1/18/2"
+        gridaream: "18/1/19/2"
 
       - type: timelabel
         label: "15:45 - 16:30"
@@ -110,7 +110,7 @@ days:
         label: "Reception"
         gridarea: "16/2/17/4"
         timelabel: "17:00 - 19:00"
-        gridaream: "21/1/22/2"
+        gridaream: "23/1/24/2"
 
 
   - id: 20262
@@ -123,12 +123,6 @@ days:
       - type: timelabel
         label: "9:30 - 10:00"
         gridarea: "1/1/2/2"
-
-      - type: activity
-        label: "Keynote (Waymo & Beam)"
-        gridarea: "1/2/2/4"
-        timelabel: "9:30 - 10:00"
-        gridaream: "2/1/3/2"
 
       - type: timelabel
         label: "10:00 - 10:30"
@@ -149,11 +143,11 @@ days:
         gridarea: "4/1/5/2"
 
       - type: timelabel
-        label: "11:00 - 11:30"
+        label: "11:15 - 11:45"
         gridarea: "5/1/6/2"
 
       - type: timelabel
-        label: "11:30 - 12:00"
+        label: "11:45 - 12:15"
         gridarea: "6/1/7/2"
 
       - type: timelabel
