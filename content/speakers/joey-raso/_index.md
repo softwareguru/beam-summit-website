@@ -1,5 +1,5 @@
 ---
-title: "Joe Raso"
+title: "Joey Raso"
 designation: "Software Engineer at Waymo"
 images:
  - /images/speakers/joe-raso.jpg

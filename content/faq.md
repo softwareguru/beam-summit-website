@@ -30,6 +30,8 @@ Beam Summit is dedicated to providing a harassment-free experience for everyone.
 Beam Summit is where professionals in data processing meet, whether you’re a new or an experienced user, we have new use cases from companies using Apache Beam, community-driven talks, technical deep dives, in-depth workshops, and networking events for you.
 
 
-## Will there be a Dataflow Training and how do I register?
+## Will there be a Dataflow Training and how can I join?
 
-Beam Summit will host a Dataflow Training on June 24 (Day 3). Stay tuned for more details on how to join.
+Yes, there will be an exclusive Dataflow Training taking place at a separate venue alongside Beam Summit. Please note that capacity is limited, and participation requires a selection process.
+
+To be considered, you must first complete your regular Beam Summit registration. During registration, you’ll have the option to indicate your interest in attending the Dataflow Training. Once submitted, your application will be reviewed by the Google team. A selected group of participants will receive a follow-up communication with a second registration form to confirm their spot. Please note that access is limited, and confirmations will be shared privately with selected attendees only.
