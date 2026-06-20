@@ -14,25 +14,23 @@
             <div class="my-2">
                 <p class="my-1" style="color: #ff6600">{{ with .Params.time_start | time }}{{ .Format "15:04" }}{{ end }}{{ with .Params.time_end | time }} - {{ .Format "15:04" }}{{ end }}.</p>
                 <h3>{{ .Title }}</h3>
-                <table>
-                    {{ range .Params.speakers }}                                
-                        {{ $speaker_url := print "/speakers/" . | urlize }}
-                          {{ with $.Site.GetPage $speaker_url }}
-                            <tr>
-                                <td style="padding-right: 1em" width="180">{{ with .Params.images}}
-                                    <img class="img-fluid" src="{{ index . 0 }}" alt="">
-                                    {{ end }}
-                                </td>
-                                <td>
-                                    <h4>{{ .Title }}</h4>
-                                    {{ with .Params.designation }}{{ . }}{{ end }}
-                                </td>
-                            </tr>
-                          {{ end }}
+                <div class="d-flex flex-wrap">
+                  {{ range .Params.speakers }}                                
+                    {{ $speaker_url := print "/speakers/" . | urlize }}
+                    {{ with $.Site.GetPage $speaker_url }}
+                    <div style="width:220px;">{{ with .Params.images}}
+                        <img class="img-fluid" src="{{ index . 0 }}" alt="">                        
+                       {{ end }}
+                    </div>
+                    <div class="col-3 px-3">
+                        <h4>{{ .Title }}</h4>
+                        {{ with .Params.designation }}{{ . }}{{ end }}
+                    </div>
                     {{ end }}
-                </table> 
+                  {{ end }}
+                </div> 
             </div>
-            <hr style="border-bottom: solid 1px #404040;">
+            <hr style="border-bottom: solid 1px #404040; margin-bottom: 2em; margin-top: 2em;">
             {{ end }}
         </div>
     </div>
