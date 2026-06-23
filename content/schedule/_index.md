@@ -6,7 +6,7 @@ url: program
 days: 
 
   - id: 20261
-    enabled: true
+    enabled: false
     title_short: Monday
     title_full: Monday, June 22, 2026
     rooms: ["Pitch Pine", "Hackberry"]
