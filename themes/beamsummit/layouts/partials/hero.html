@@ -21,7 +21,6 @@
       </div>
     </div>
 
-
     {{ if .button1.enable }} {{ with .button1 }}
     <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner1 btn-rounded mt-3">{{ .label }}</a>
     {{ end }} {{ end }} {{ if .button2.enable }} {{ with .button2 }}
@@ -31,4 +30,3 @@
   </div>
 </div>
 {{ end }}
-

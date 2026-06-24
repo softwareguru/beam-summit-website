@@ -4,7 +4,7 @@ date: 2025-07-23T14:48:22-06:00
 slug: thank-you-for-attending-beam-summit-2025
 redirection: /blog/thank-you-for-attending-beam-summit-2025
 # post thumb
-images : ["/images/blog/bs25-thanks.png"]
+images : ["/images/blog/2025/bs25-thanks.png"]
 # author
 author: "Beam Summit Team"
 draft: false

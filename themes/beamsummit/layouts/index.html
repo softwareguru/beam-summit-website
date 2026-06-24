@@ -12,31 +12,8 @@
 <!-- /event_info -->
 
 <!-- keynotes 
-
-{{ partial "keynotes.html" . }}-->
-
-<!-- feature -->
-{{ if $data.homepage.feature.enable }}
-{{ with $data.homepage.feature }}
-<section id="section-feature">
-  <div class="container">
-    <div class="row">
-      {{ range .feature_item }}
-      <div class="col-lg-4 col-md-6">
-        <div class="feature-box">
-          <i class="{{ .icon }}"></i>
-          <h4 class="mt-3 mb-3">{{ .name | markdownify }}</h4>
-          <div class="divider"></div>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /feature -->
+{{ partial "keynotes.html" . }}
+ /keynotes -->
 
 <!-- schedule -->
 {{ if $data.homepage.schedule.enable }}
@@ -49,28 +26,6 @@
 {{ partial "pricing.html" . }}
 {{ end }}
 <!-- /pricing  -->
-
-<!-- speaker -->
-{{ if $data.homepage.speakers.enable }}
-<section class="section speakers">
-  <div class="container">
-    {{ with $data.homepage.speakers }}
-    {{ partial "section_title.html" . }}
-    {{ end }}
-    <div class="speakers-wrapper">
-      {{ range (where (where .Site.RegularPages "Type" "speakers") ".Params.featured" true) }}
-
-      <div class="speaker">
-        <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
-        <h4 class="mb-0 mt-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-        <p>{{ .Params.Designation }}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /speaker -->
 
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
