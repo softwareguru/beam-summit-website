@@ -1,0 +1,19 @@
+.card {
+    background: #fff;
+    transition: all .25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.08) !important;
+}
+
+.card h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card p {
+    color: $orange-title;
+    line-height: 1.7;
+}

@@ -15,7 +15,7 @@ Apache Beam is an open-source, unified model for defining both batch and streami
 
 ### What is Beam Summit?
 
-The goal of Beam Summit has been to connect a community of professionals around the world who use, contribute to, and are learning Apache Beam. The 2026 overall theme for focus is "Expanding the Data Ecosystem" which is about how Apache Beam empowers users to seamlessly integrate and process data from disparate sources, including real-time streams, batch repositories, and emerging data platforms to power applications in areas like ML.
+The goal of Beam Summit has been to connect a community of professionals around the world who use, contribute to, and are learning Apache Beam. The 2026 overall theme for focus was “Expanding the Data Ecosystem” which was about how Apache Beam empowers users to seamlessly integrate and process data from disparate sources, including real-time streams, batch repositories, and emerging data platforms to power applications in areas like ML.
 
 This annual conference provides a space to share use cases, performance and resource optimizations, discuss pain points, and talk about the benefits of implementing Apache Beam in organizations. The event brought together the Apache Beam community to discuss the project’s status, its technical advances, and its future.
 
@@ -34,8 +34,3 @@ Some of the focus areas are:
 - Ecosystem and Community with Modern Data Tools: Highlighting the vibrant Beam ecosystem, including contributions from various organizations and the active community driving its development, with focus on tools like Kafka and Iceberg.
 
 - Emerging Trends (AI/ML and Lakehouse Architectures): Discussing the future of data processing and how Beam is evolving to meet the demands of new technologies, such as advanced AI/ML integration, serverless computing, and the growing importance of data lakehouse architectures using technologies like Iceberg.
-
-
-<a href="/register" class="text-decoration-none mx-auto d-block">
-  <button class="button mx-auto d-block">Register now</button>
-</a>

@@ -11,37 +11,43 @@
         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="tf-ion-android-menu" style="color: white;"></span>
       </button>
- 
+
       <!--  MAIN MENU  -->
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav mx-auto">
           {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-            <li class="nav-item dropdown btn-menu">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ .Name }}
-              </a>
-              <div class="dropdown-menu">
-                {{ range .Children }}
-                <a class="dropdown-item"  href="{{ .URL | relURL }}">{{ .Name }}</a>
-                {{ end }}
-              </div>
-            </li>
-            {{ else }}
-            <li class="nav-item btn-menu">
-              <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
-            </li>
-            {{ end }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown btn-menu">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              {{ .Name }}
+            </a>
+            <div class="dropdown-menu">
+              {{ range .Children }}
+              <a class="dropdown-item" href="{{ .URL | relURL }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          </li>
+          {{ else }}
+          <li class="nav-item btn-menu">
+            <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
           {{ end }}
 
           {{ if .Site.Params.navigation_button.enable }}
           <li class="btn-cta">
-            <a  href="{{ .Site.Params.navigation_button.link | absURL }}"
-            class="nav-link cta-menu" style="color: #167CD6; !important">{{ .Site.Params.navigation_button.label }}</a>
+            {{ $link := .Site.Params.navigation_button.link }}
+
+            <a href="{{ if or (hasPrefix $link " https://") (hasPrefix $link "http://" ) }}{{ $link }}{{ else }}{{ $link
+              | absURL }}{{ end }}" {{ if or (hasPrefix $link "https://" ) (hasPrefix $link "http://" ) }}
+              target="_blank" rel="noopener noreferrer" {{ end }} class="nav-link cta-menu" style="color:#167CD6;">
+              {{ .Site.Params.navigation_button.label }}
+            </a>
           </li>
           {{ end }}
-        </ul>                
-      
+        </ul>
+
 
       </div>
     </div>

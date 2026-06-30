@@ -21,11 +21,26 @@
       </div>
     </div>
 
-    {{ if .button1.enable }} {{ with .button1 }}
-    <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner1 btn-rounded mt-3">{{ .label }}</a>
-    {{ end }} {{ end }} {{ if .button2.enable }} {{ with .button2 }}
-    <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner1 btn-rounded mt-3">{{ .label }}</a>
-    {{ end }} 
+    {{ if .button1.enable }}
+    {{ with .button1 }}
+    {{ $link := .link }}
+    <a href="{{ if or (hasPrefix $link " https://") (hasPrefix $link "http://" ) }}{{ $link }}{{ else }}{{ $link |
+      relURL }}{{ end }}" {{ if or (hasPrefix $link "https://" ) (hasPrefix $link "http://" ) }} target="_blank"
+      rel="noopener noreferrer" {{ end }} class="btn btn-banner1 btn-rounded mt-3">
+      {{ .label }}
+    </a>
+    {{ end }}
+    {{ end }}
+
+    {{ if .button2.enable }}
+    {{ with .button2 }}
+    {{ $link := .link }}
+    <a href="{{ if or (hasPrefix $link " https://") (hasPrefix $link "http://" ) }}{{ $link }}{{ else }}{{ $link |
+      relURL }}{{ end }}" {{ if or (hasPrefix $link "https://" ) (hasPrefix $link "http://" ) }} target="_blank"
+      rel="noopener noreferrer" {{ end }} class="btn btn-banner1 btn-rounded mt-3">
+      {{ .label }}
+    </a>
+    {{ end }}
     {{ end }}
   </div>
 </div>

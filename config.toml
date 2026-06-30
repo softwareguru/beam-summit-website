@@ -33,54 +33,54 @@ speaker = "speakers"
   URL = "/about"
   weight = 1
 
-  [[menu.main]]
-  identifier = "about-BS"
-  name = "Attend"
-  URL = "/attend"
-  weight = 2
+  # [[menu.main]]
+  # identifier = "about-BS"
+  # name = "Attend"
+  # URL = "/attend"
+  # weight = 2
 
-  [[menu.main]]
-    identifier = "scholarships"
-    name = "Venue + Travel"
-    url = "/venue"
-    parent = "about-BS"
-    weight = 2
+  #[[menu.main]]
+  #  identifier = "scholarships"
+  #  name = "Venue + Travel"
+  #  url = "/venue"
+  #  parent = "about-BS"
+  #  weight = 2
 
-  [[menu.main]]
-    identifier = "scholarships1"
-    name = "Convince your boss"
-    url = "/convince-your-boss"
-    parent = "about-BS"
-    weight = 3
+  #[[menu.main]]
+  #  identifier = "scholarships1"
+  #  name = "Convince your boss"
+  #  url = "/convince-your-boss"
+  #  parent = "about-BS"
+  #  weight = 3
 
-  [[menu.main]]
-    identifier = "scholarships5"
-    name = "Apply for a Scholarship"
-    url = "/scholarships"
-    parent = "about-BS"
-    weight = 1
+  #[[menu.main]]
+  #  identifier = "scholarships5"
+  #  name = "Apply for a Scholarship"
+  #  url = "/scholarships"
+  #  parent = "about-BS"
+  #  weight = 1
 
 
-  [[menu.main]]
-    identifier = "scholarships2"
-    name = "Visa letter request"
-    url = "/visa-letter-request"
-    parent = "about-BS"
-    weight = 3
+  #[[menu.main]]
+  #  identifier = "scholarships2"
+  #  name = "Visa letter request"
+  #  url = "/visa-letter-request"
+  #  parent = "about-BS"
+  #  weight = 3
 
-  [[menu.main]]
-    identifier = "scholarships3"
-    name = "DEI"
-    url = "/dei"
-    parent = "about-BS"
-    weight = 4
+  #[[menu.main]]
+  #  identifier = "scholarships3"
+  #  name = "DEI"
+  #  url = "/dei"
+  #  parent = "about-BS"
+  #  weight = 4
 
-  [[menu.main]]
-    identifier = "scholarships3"
-    name = "Code of conduct"
-    url = "/coc"
-    parent = "about-BS"
-    weight = 4
+  #[[menu.main]]
+  #  identifier = "scholarships3"
+  #  name = "Code of conduct"
+  #  url = "/coc"
+  #  parent = "about-BS"
+  #  weight = 4
 
   #[[menu.main]]
   #  name = "Sponsor"
@@ -95,22 +95,22 @@ speaker = "speakers"
     weight = 5
 
   [[menu.main]]
-    name = "Schedule"
-    URL = "/program"
+    name = "2026 sessions"
+    URL = "/sessions/2026"
     parent="program"
     weight = 1
 
   [[menu.main]]
-    name = "Speakers"
-    URL = "/speakers"
+    name = "Previous Speakers"
+    URL = "/speakers/archive"
     parent="program"
     weight = 2
 
-  [[menu.main]]
-    name = "Happenings"
-    parent = "program"
-    URL = "/happenings"
-    weight = 3
+  #[[menu.main]]
+  #  name = "Happenings"
+  #  parent = "program"
+  #  URL = "/happenings"
+  #  weight = 3
 
 
   #[[menu.main]]
@@ -133,10 +133,10 @@ speaker = "speakers"
 
 
 
-  [[menu.main]]
-  name = "FAQ"
-  URL = "faq"
-  weight = 8
+  # [[menu.main]]
+  # name = "FAQ"
+  # URL = "faq"
+  # weight = 8
 
 
 [sitemap]
@@ -172,8 +172,8 @@ with and does not endorse, or review the materials provided at this event."""
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Register"
-link = "/register" 
+label = "2026 Photo Album"
+link = "https://photos.app.goo.gl/EfiBHwkAkSSnnbdF6" 
 
 
 ############################# social icon ############################
@@ -208,6 +208,10 @@ link = "/privacy-policy"
 [[params.footer_previous]]
 name = "Session archive previous editions"
 link = "/sessions"
+
+[[params.footer_previous]]
+name = "2026 Photo Album"
+link = "https://photos.app.goo.gl/EfiBHwkAkSSnnbdF6"
 
 [[params.footer_previous]]
 name = "2025 Photo Album"
