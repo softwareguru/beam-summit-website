@@ -4,24 +4,24 @@
   <div class="container">
     <div class="lead mb-4">
       {{ .Content }}
-    </div> 
+    </div>
     <div class="speaker-strip">
       {{ range .Data.Pages.ByTitle }}
-        {{ if in .Params.events 2026 }}
+      {{ if in .Params.events 2026 }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box">
+            <!-- images path assets/images/logos/ -->
             <a href="{{.Permalink}}">
-              
-          {{ with .Params.images }}
-          {{ $img := resources.Get (index . 0) }}
-          {{ if $img }}
-          {{ $webp := $img.Resize "400x webp q85" }}
-          <img src="{{ $webp.RelPermalink }}" alt="{{ $.Title | markdownify }}" class="img-fluid shadow border-img">
-          {{ end }}
-          {{ end }}
-
+              {{ with .Params.images }}
+              {{ $img := resources.Get (index . 0) }}
+              {{ if $img }}
+              {{ $webp := $img.Resize "400x webp q85" }}
+              <img src="{{ $webp.RelPermalink }}" alt="{{ $.Title | markdownify }}" class="img-fluid shadow border-img">
+              {{ end }}
+              {{ end }}
             </a>
+            <!-- images path assets/images/logos/ -->
           </div>
           <div class="speaker-info text-center">
             <h4 class="mb-1 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
@@ -29,10 +29,11 @@
           </div>
         </div>
       </div>
-        {{ end }}
+      {{ end }}
       {{ end }}
     </div>
-    <p class="text-center mt-4 mb-3">Check out the <a href="/speakers/archive">speaker archives</a> for speakers of previous editions.</p>
+    <p class="text-center mt-4 mb-3">Check out the <a href="/speakers/archive">speaker archives</a> for speakers of
+      previous editions.</p>
   </div>
 </section>
 
