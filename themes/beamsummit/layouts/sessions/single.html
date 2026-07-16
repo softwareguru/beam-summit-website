@@ -30,13 +30,19 @@
             <div class="speaker-info" style="margin-bottom: 20px;">
               {{ range (.GetTerms "speakers") }}
               <figure class="thumb my-3">
-                <a href="{{ .Permalink }}">
-                  <div class="img-container">
-                    <img class="img-fluid rounded-circle" src="{{ with .Params.images }}{{ index . 0 }}{{ end }}"
-                      alt="">
-                  </div>
-                  <h5 class="name" style="color: #ff6200;">{{ .Title }}</h5>
-                </a>
+
+                
+              <a href="{{.Permalink}}">
+              {{ with .Params.images }}
+              {{ $img := resources.Get (index . 0) }}
+              {{ if $img }}
+              {{ $webp := $img.Resize "400x webp q85" }}
+              <img src="{{ $webp.RelPermalink }}" alt="{{ $.Title | markdownify }}" class="img-fluid shadow border-img rounded-circle">
+              {{ end }}
+              {{ end }}
+
+               <h5 class="name" style="color: #ff6200;">{{ .Title }}</h5>
+              </a>
               </figure>
               {{ end }}
             </div>
